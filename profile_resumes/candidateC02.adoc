@@ -1,0 +1,32 @@
+= Marcus Ellery
+
+Marcus Ellery
+Plano, TX · m.ellery@email.com · (214) 555-0198 · github.com/mellery
+
+**Summary**
+Backend engineer with eight years building high-volume transaction services in
+financial services. Focused on event-driven systems, API design, and production
+reliability.
+
+**Experience**
+
+**Senior Software Engineer | Coventry Financial | 2022 – Present**
+- Design and maintain Java/Spring Boot services processing card authorization traffic for enterprise merchant clients
+- Own event-driven integration between authorization and settlement domains using Kafka topics and consumer groups
+- Partner with product and platform teams to define API contracts; maintain OpenAPI specifications as shared engineering agreements
+- Carry on-call rotation; improved p99 latency on the settlement path by restructuring a synchronous dependency
+- Mentor two mid-level engineers through onboarding and architecture reviews
+
+**Software Engineer | Coventry Financial | 2019 – 2022**
+- Built RESTful services in Java against PostgreSQL for payment reconciliation workflows
+- Containerized legacy services with Docker and deployed to EKS with Helm
+- Expanded automated test coverage and extended the team's CI pipeline
+
+**Software Engineer | Arden Technology Group | 2018 – 2019**
+- Developed internal APIs and batch processing jobs in Java
+
+**Skills**
+Java, Spring Boot, Python, REST, OpenAPI, PostgreSQL, SQL, Kafka, AWS (EKS, SQS, RDS, Lambda), Docker, Kubernetes, Helm, Terraform, GitHub Actions, JUnit, Datadog
+
+**Education**
+B.S. Computer Science | Texas A&M University | 2018

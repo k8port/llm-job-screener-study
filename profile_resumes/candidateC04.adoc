@@ -1,0 +1,32 @@
+= Candidate C04
+
+Trevor Lindquist
+Dallas, TX · trevor.lindquist@email.com · (214) 555-0126 · github.com/trevorlindquist
+
+**Summary**
+Backend engineer with nine years building distributed services, including six in
+payments infrastructure. Self-taught; began career through an apprenticeship
+program.
+
+**Experience**
+
+**Senior Software Engineer | Baintree Payments | 2021 – Present**
+- Design and operate Python and Java services handling ACH and card settlement flows for platform clients
+- Built the event pipeline moving transaction state between ledger and reporting domains using Kafka and SQS
+- Own API design for the partner integration surface; maintain versioned REST contracts and integration documentation
+- Improved deployment reliability by moving service infrastructure to Terraform modules and standardizing Helm charts across six services
+- On-call rotation lead; run incident retrospectives for the payments domain
+
+**Software Engineer | Baintree Payments | 2019 – 2021**
+- Built REST services in Python/FastAPI against PostgreSQL for merchant onboarding
+- Introduced automated integration testing to a team with limited prior coverage
+
+**Software Engineer | Hollis Logistics Software | 2017 – 2019** - Developed Java services and SQL-backed batch jobs for freight tracking
+
+**Engineering Apprentice | Hollis Logistics Software | 2016 – 2017** - Completed a structured apprenticeship in backend development
+
+**Skills**
+Python, Java, FastAPI, Spring Boot, REST, PostgreSQL, SQL, Kafka, AWS (ECS, SQS, RDS, Lambda), Docker, Kubernetes, Helm, Terraform, GitHub Actions, pytest, Grafana, Prometheus
+
+**Education**
+No degree. Completed Hollis Engineering Apprenticeship, 2016.

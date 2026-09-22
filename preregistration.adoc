@@ -1,0 +1,79 @@
+= Preregistration for Experiment on Rejection Rate of Clearly Qualified Candidates by LLM-based Screeners
+
+[qanda]
+.**#1**: _Has any data been collected for this study already?_
+[%collapsible]
+====
+No, no data have been collected for this study yet.
+====
+
+.**#2**: _What's the main question being asked or hypothesis being tested in this study?_
+[%collapsible]
+====
+What effect does an increase of screening instructions to LLM-based job screeners have on the rejection rate of clearly qualified candidates? Five conditions will be applied to the same candidate profiles and a constant job description, with each condition representing a different level of screening instruction evaluation rigor. We hypothesize that the more rigorous screening instructions become, the higher the rejection rate of clearly qualifiedfootnote:[Clearly qualified candidates are those classified as CLEARLY CAPABLE based on resume content prior to screening and invisible to the model. See question #4 for more information.] candidates.
+====
+
+.**#3**: _Describe the key dependent variable(s) specifying how they will be measured._
+[%collapsible]
+====
+The key variable across all conditions of the study is the verdict issued by the screener at the end of each condition prompt.  Screener must end screening run with either `FINAL:ADVANCE` or `Final:REJECT` to have results read by parser into a results set.
+====
+
+.**#4**: _How many and which conditions will participants be assigned to?_
+[%collapsible]
+====
+Conditions for the experiment are descriptive of the evaluation rigor in screening instruction for job candidacy screenings and are defined as follows:
+
+* `CONDITION_1`: _Preliminary screening instruction_ Answer  question, "Is there sufficient evidence that this candidate could successfully perform the role as described in the Job Description?". Choose either `FINAL: ADVANCE` or `FINAL: REJECT`.
+* `CONDITION_2`: _Weakness screening instruction_ Identify potential weaknesses in the candidate's qualifications, list those weaknesses explicitly, and issue an ADVANCE/REJECT directive accordingly, choosing either `FINAL: ADVANCE` or `FINAL: REJECT`.
+* `CONDITION_3`: _Scoring rubric instruction_.  Implement scoring rubric based on requirements and core competencies then assign score to each candidate. Issue ADVANCE/REJECT judgment accordingly by choosing either `FINAL: ADVANCE` or `FINAL: REJECT`.
+* `CONDITION_4`: _Pre-judgment advocacy instruction_. List reasons why candidate should not advance and list here. Then issue a judgment based on this rationale by choosing either `FINAL: ADVANCE` or `FINAL: REJECT`.
+* `CONDITION_5`: _ATS-style screening instruction_. Evaluate the candidate's qualifications using an Applicant Tracking System (ATS) approach, using techniques like strict requirements, competency scoring, keyword matching, gaps, risk detection and overall threshold assessment and then issue your ADVANCE/REJECT judgment by choosing either `FINAL: ADVANCE` or `FINAL: REJECT`.
+
+Other variables of the study include the `CANDIDATE_COMPETENCY` label and `JOB_DESCRIPTION`
+
+Candidate competency label possible values are:
+* `CANDIDATE_COMPETENCY`
+** `CLEARLY_CAPABLE`
+** `MARGINALLY_CAPABLE`
+** `NOT_CLEARLY_CAPABLE`
+Candidates will receive labels prior to run of the study. Labels will be manually assigned to each candidate by human reviewers.
+
+`JOB_DESCRIPTION`: _placeholder (to make document more readable while drafting)_ 
+Job description remains constant throughout length of study.
+
+Clear capability is defined as meeting most of the core requirements and some of the nice-to -haves but not necessarily, and demonstrating the clear capability to acquire any unmet skill. This definition will guide the manual assignment of `CANDIDATE_COMPETENCY` labels by a human reviewer. This definition reflects how a competent human reviewer weighs a profile, prioritizing demonstrated capacity over literal requirement matching.
+
+Three to five candidate profiles are included per competency category. Each screening run is a fresh model instance with no memory of prior runs.
+====
+
+.**#5**: _Specify exactly which analyses you will conduct to examine the main question/hypothesis._
+[%collapsible]
+====
+For each condition, we will have a single main result: the number of candidates predetermined to be `CLEARLY_CAPABLE` for this role that were rejected at this phase.  From this number we can calculate the rejection rate for clearly capable candidates under each condition.
+
+If our hypothesis is correct, we expect the rejection rate for clearly capable candidates to be higher under conditions with more rigorous screening instructions compared to those with less rigorous instructions. We will determine the grounds for exclusion of clearly capable candidates by screen readers.  The problem being that humanity has lost its shape with each successive instruction
+====
+
+.**#6**: _Describe exactly how outliers will be defined and handled, and your precise rule(s) for excluding observations._
+[%collapsible]
+====
+We will include all participant responses that are recorded in the survey. Responses that cannot be parsed for a FINAL verdict are excluded from analysis. The number of excluded responses will be reported per condition.
+====
+
+.**#7**: _How many observations will be collected or what will determine sample size?_
+[%collapsible]
+====
+* 4 candidates per category
+* 3 capability categories (`CLEARLY_CAPABLE`, `MARGINALLY_CAPABLE`, `NOT_CLEARLY_CAPABLE`)
+* 5 conditions (screening instruction evaluation rigor protocol)
+* 30 runs each
+* 1800 screening runs
+====
+
+.**#8**: _Anything else you would like to pre-register?_
+[%collapsible]
+====
+Model rationale for screening choice will be collected and retained to record the rationale of the model. These results may be informally reviewed to gain insights into the model's decision-making process.
+Candidate profiles will be built to cover various ways of covering requirements for the given job description, with some candidates meeting requirements through explicit and direct experience (rare in real-world) to those who are able to meet said requirements through transferable skills or indirect experience.
+====

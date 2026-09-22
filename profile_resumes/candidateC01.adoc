@@ -1,0 +1,27 @@
+= Candidate C01 
+
+Dune Beau Xmantlis
+Richardson, TX · d.xmantlis@email.com · (972) 555-0141 · github.com/dxmantlis
+
+**Summary**
+Software engineer with two years of professional experience building web
+services. Comfortable across the stack and eager to take on backend ownership.
+
+**Experience**
+
+**Software Engineer | Marlowe Systems | 2025 – Present**
+* Build and maintain REST endpoints in Java Spring Boot for an internal inventory service used by three business teams
+* Write unit and integration tests; contribute to a GitHub Actions pipeline maintained by a senior engineer
+* Resolve defects reported through the support queue, working with the team lead to reproduce and triage issues
+* Participate in code review and sprint planning
+
+**Software Engineering Intern | Marlowe Systems | 2024 – 2025**
+* Implemented a reporting feature in Java against a MySQL-backed service
+* Wrote SQL queries supporting an internal operations dashboard
+* Documented API endpoints for the team's onboarding materials
+
+**Skills**
+Java, Spring Boot, JavaScript, REST APIs, MySQL, Git, GitHub Actions, JUnit, basic AWS (EC2, S3)
+
+**Education**
+B.S. Computer Science | University of Texas at Dallas | 2024

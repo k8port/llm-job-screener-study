@@ -1,0 +1,30 @@
+= C05 — Nora Kessler
+
+Nora Kessler
+Irving, TX · n.kessler@email.com · (972) 555-0159 · github.com/nkessler
+
+**Summary**
+Data analyst with six years turning operational data into reporting and decision
+tools for business stakeholders.
+
+**Experience**
+
+**Senior Data Analyst | Wexford Insurance | 2023 – Present**
+- Build and maintain SQL reporting models against a Snowflake warehouse supporting claims and underwriting teams
+- Develop Python scripts for recurring data cleaning and reconciliation tasks
+- Partner with product managers to define metrics and translate business questions into analytical specifications
+- Maintain Tableau dashboards used across three departments
+
+**Data Analyst | Wexford Insurance | 2021 – 2023**
+- Wrote complex SQL queries supporting monthly operational reporting
+- Automated a manual reconciliation process using Python and scheduled jobs
+- Documented data definitions and reporting logic for downstream consumers
+
+**Reporting Analyst | Cadence Health Partners | 2020 – 2021**
+- Produced recurring operational reports from SQL Server data sources
+
+**Skills**
+SQL, Python (Pandas, NumPy), Snowflake, SQL Server, Tableau, Excel, Git, basic AWS (S3, Athena), Jupyter
+
+**Education**
+B.S. Statistics | University of Oklahoma | 2020

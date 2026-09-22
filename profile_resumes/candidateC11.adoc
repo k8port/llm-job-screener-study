@@ -1,0 +1,30 @@
+= Candidate C11 — Curtis Ballinger
+
+Curtis Ballinger
+Mesquite, TX · c.ballinger@email.com · (972) 555-0148 · github.com/cballinger
+
+**Summary**
+Systems administrator with nine years supporting enterprise infrastructure,
+including scripting and automation work.
+
+**Experience**
+
+**Senior Systems Administrator | Vance County Health System | 2021 – Present**
+* Administer Linux and Windows server environments supporting clinical applications
+* Write Bash and PowerShell automation for provisioning, patching, and backup verification
+* Manage Azure virtual machine infrastructure and network configuration
+* Respond to infrastructure incidents and participate in on-call rotation
+* Maintain runbooks and operational documentation
+
+**Systems Administrator | Vance County Health System | 2018 – 2021**
+* Supported server infrastructure and Active Directory administration
+* Automated recurring maintenance tasks with shell scripting
+
+**IT Support Specialist | Grimsley Associates | 2017 – 2018**
+* Provided desktop and network support
+
+**Skills**
+Linux, Windows Server, Bash, PowerShell, Azure (VMs, networking), Active Directory, Docker (basic), SQL (basic), Git (basic), Nagios, VMware
+
+**Education**
+B.A.S. Information Technology | Tarleton State University | 2017

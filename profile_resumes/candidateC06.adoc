@@ -1,0 +1,28 @@
+### Candidate C06 — Alan Brightwell
+
+Alan Brightwell
+Arlington, TX · a.brightwell@email.com · (817) 555-0184 · github.com/abrightwell
+
+**Summary**
+Backend engineer with seven years building transaction processing systems in
+an on-premise enterprise environment.
+
+**Experience**
+
+**Senior Software Engineer | Tanner Brothers Manufacturing | 2022 – Present**
+- Design and maintain Java/Spring Boot services supporting order processing and inventory reconciliation across five plants
+- Own REST API design for internal service integration; maintain interface documentation for consuming teams
+- Optimize Oracle queries and stored procedures supporting high-volume batch processing
+- Lead code review practice for a team of six; mentor two junior engineers
+- Participate in on-call rotation for production manufacturing systems
+
+**Software Engineer | Tanner Brothers Manufacturing | 2019 – 2022**
+- Built Java services and scheduled batch jobs against Oracle
+- Expanded automated test coverage using JUnit and introduced Jenkins pipeline stages for integration tests
+
+**Skills**
+Java, Spring Boot, REST APIs, Oracle, SQL, PL/SQL, JUnit, Jenkins, Maven, Git,
+JMS, Linux
+
+**Education**
+B.S. Computer Engineering | Texas Tech University | 2019

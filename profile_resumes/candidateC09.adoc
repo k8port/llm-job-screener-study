@@ -1,0 +1,25 @@
+= Candidate C09 — Raymond Dolliver
+
+Fort Worth, TX · r.dolliver@email.com · (817) 555-0135 · github.com/rdolliver
+
+**Summary**
+Software engineer with sixteen years supporting enterprise financial applications, primarily in mainframe and early-generation Java environments.
+
+**Experience**
+
+**Senior Applications Developer | Harwood Trust Company | 2014 – Present**
+- Maintain and enhance COBOL and JCL batch applications supporting trust accounting and settlement processing
+- Develop and support Java 8 services providing web access to core banking functions
+- Write and tune DB2 and SQL queries supporting nightly batch reconciliation
+- Diagnose and resolve high-priority production incidents in a regulated financial environment
+- Document system behavior and resolutions for operations and audit teams
+
+**Applications Developer | Harwood Trust Company | 2010 – 2014**
+- Maintained COBOL batch programs and developed JSP-based internal tools
+- Supported quarterly release cycles and regression testing
+
+**Skills**
+COBOL, JCL, z/OS, Java 8, JSP, Servlets, DB2, SQL, Oracle, Subversion, Git (basic), Jenkins (basic), WebSphere
+
+**Education**
+B.S. Computer Science | University of Texas at Arlington | 2010

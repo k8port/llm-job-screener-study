@@ -1,0 +1,29 @@
+= Candidate C03
+
+Priya Kapoor
+Frisco, TX · priya.kapoor@email.com · (469) 555-0173 · github.com/priyakapoor
+
+**Summary**
+Frontend-focused engineer with seven years building customer-facing web
+applications, including API and service work supporting those interfaces.
+
+**Experience**
+
+**Senior Frontend Engineer | Halverson Retail Group | 2022 – Present**
+- Lead frontend architecture for a customer account portal in React and TypeScript serving roughly 400,000 monthly users
+- Build Node.js/Express services backing the portal, including session handling and an aggregation layer over internal REST APIs
+- Define component library standards and accessibility practices across three product squads
+- Mentor junior frontend engineers and run design-to-code reviews with the product design team
+
+**Frontend Engineer | Halverson Retail Group | 2020 – 2022**
+- Built React interfaces against REST APIs; wrote integration tests with Jest and Testing Library
+- Contributed to a CI pipeline in GitHub Actions covering build, test, and preview deploys
+
+**Web Developer | Sandline Media | 2019 – 2020**
+- Built responsive marketing sites and a small Node.js content API
+
+**Skills**
+TypeScript, JavaScript, React, Next.js, Node.js, Express, REST APIs, PostgreSQL, SQL, AWS (S3, CloudFront, Lambda), Docker, GitHub Actions, Jest, Figma
+
+**Education**
+B.A. Graphic Design | University of North Texas | 2019

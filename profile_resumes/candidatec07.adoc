@@ -1,0 +1,30 @@
+= Candidate C07 — Simone Vance
+
+Simone Vance
+Plano, TX · s.vance@email.com · (972) 555-0112 · github.com/svance
+
+**Summary**
+Data platform engineer with eight years building production data services and
+pipelines, with growing ownership of the APIs and infrastructure around them.
+
+**Experience**
+
+**Senior Data Platform Engineer | Redmond Analytics Group | 2022 – Present**
+- Build and operate Python services that ingest, transform, and serve transaction data for enterprise clients
+- Design REST APIs exposing pipeline outputs to downstream product teams; maintain contract documentation and versioning
+- Own Kafka-based streaming ingestion handling roughly 40 million daily events
+- Manage service infrastructure with Terraform; deploy containerized workloads to EKS
+- Built observability layer with Prometheus and Grafana; carry on-call for the data platform
+
+**Data Engineer | Redmond Analytics Group | 2020 – 2022**
+- Built Python ETL pipelines loading into PostgreSQL and Snowflake
+- Wrote automated tests for transformation logic and extended CI in GitHub Actions
+
+**Data Engineer | Corley Systems | 2018 – 2020**
+- Developed SQL and Python batch processing for a healthcare reporting product
+
+**Skills**
+Python, SQL, REST APIs, PostgreSQL, Snowflake, Kafka, AWS (EKS, S3, Lambda, RDS), Docker, Kubernetes, Terraform, GitHub Actions, pytest, Prometheus, Grafana, Airflow
+
+**Education**
+B.S. Information Systems | University of Arkansas | 2018

@@ -1,0 +1,39 @@
+= Job Description
+Kate Portalatin <k8@k8port.io>
+
+[horizontal]
+**Title**:: Senior Software Engineer
+**Location**:: Plano, TX 
+**Work Model**:: Hybrid (3 days onsite)
+**Employment Type**:: Full-time
+
+'''
+**About the role**::
+We're looking for a Senior Software Engineer to join our Payments Platform team. You'll design and build backend services that process high-volume transactions for enterprise clients, working closely with product, infrastructure, and partner engineering teams. This is a hands-on role with significant ownership over service design and delivery.
+
+**What you'll do**::
+Design, build, and maintain scalable backend services and APIs
+Partner with product and platform teams to translate requirements into technical solutions
+Participate in code review, architecture discussions, and on-call rotation
+Improve observability, reliability, and performance of production systems
+Mentor mid-level and junior engineers
+
+**Required qualifications**::
+* 5+ years of professional software engineering experience
+* Strong proficiency in Java, Python, or a comparable backend language
+* Experience designing and consuming RESTful APIs
+* Experience with relational databases and SQL
+* Hands-on experience with a major cloud provider (AWS, Azure, or GCP)
+* Experience with CI/CD pipelines and automated testing
+* Bachelor's degree in Computer Science or related field, or equivalent practical experience
+
+**Preferred qualifications**::
+* Experience with event-driven architecture and message brokers (Kafka, SQS, or similar)
+* Experience with containerization and orchestration (Docker, Kubernetes)
+* Infrastructure-as-code experience (Terraform, CloudFormation)
+* Background in financial services, payments, or another regulated industry
+* Experience with observability tooling (Datadog, Grafana, Prometheus)
+* Prior experience mentoring engineers or leading small technical initiatives
+
+**What we offer**::
+Competitive compensation, comprehensive health coverage, 401(k) match, and a hybrid work model.

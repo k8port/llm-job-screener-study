@@ -1,0 +1,26 @@
+= Candidate C12 — Elise Thornbury
+
+Addison, TX · e.thornbury@email.com · (469) 555-0121 · github.com/ethornbury
+
+**Summary**
+Backend engineer with three and a half years building cloud services, most
+recently in payments.
+
+**Experience**
+
+**Software Engineer II | Larkspur Pay | 2024 – Present**
+* Build Java/Spring Boot services supporting merchant payout scheduling and transaction status reporting
+* Design and document REST endpoints consumed by internal and partner teams
+* Implement Kafka consumers processing settlement events; contributed to consumer group partitioning work led by a senior engineer
+* Deploy services to EKS using Helm charts and GitHub Actions pipelines
+* Participate in on-call rotation and incident triage
+
+**Software Engineer | Larkspur Pay | 2023 – 2024**
+* Built REST services in Java against PostgreSQL for merchant account management
+* Expanded automated test coverage with JUnit and Spring Test
+
+**Skills**
+Java, Spring Boot, Python, REST APIs, PostgreSQL, SQL, Kafka, AWS (EKS, SQS, RDS), Docker, Kubernetes, Helm, Terraform (basic), GitHub Actions, JUnit, Grafana
+
+**Education**
+B.S. Computer Science | Southern Methodist University | 2023

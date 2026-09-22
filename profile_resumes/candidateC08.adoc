@@ -1,0 +1,29 @@
+= Candidate C08 — Grant Pemberton
+
+Grant Pemberton 
+Garland, TX · g.pemberton@email.com · (469) 555-0167 · github.com/gpemberton
+
+**Summary**
+Quality engineer with five years in test automation, transitioning toward
+software development.
+
+**Experience**
+
+**Senior QA Engineer | Ashcroft Software | 2023 – Present**
+- Build and maintain automated UI and API test suites in Java and Selenium covering a commercial web application
+- Write API-level tests against REST endpoints; validate response contracts and error handling
+- Maintain test execution stages in a Jenkins pipeline and triage failures
+- Partner with developers to reproduce defects and define acceptance criteria
+
+**QA Engineer | Ashcroft Software | 2021 – 2023**
+- Executed manual regression testing and authored test plans
+- Began automating high-frequency regression cases in Selenium
+
+**QA Analyst | Bledsoe Retail Systems | 2020 – 2021**
+- Performed manual functional testing and documented defects
+
+**Skills**
+Java, Selenium, REST Assured, TestNG, SQL, Postman, Jenkins, Git, JIRA, basic Python scripting
+
+**Education**
+B.S. Information Technology | Texas State University | 2020

@@ -1,0 +1,33 @@
+= Candidate C10 — Josephine Hartwell
+
+Josephine Hartwell
+McKinney, TX · j.hartwell@email.com · (214) 555-0190 · github.com/jhartwell
+
+**Summary**
+Backend engineer with seven years building production services, following an earlier career in actuarial analysis. Returned from a family leave in 2024.
+
+**Experience**
+
+**Senior Software Engineer | Dunmore Credit Services | 2024 – Present**
+* Build Java/Spring Boot services supporting loan origination and payment scheduling for credit union clients
+* Design REST APIs consumed by partner institutions; maintain versioned contracts and integration guides
+* Own event-driven messaging between origination and servicing domains using SQS and SNS
+* Deploy containerized services to ECS using Terraform and GitHub Actions
+* Mentor two engineers new to the payments domain
+
+**Career break | 2023 – 2024**
+* Family leave
+
+**Software Engineer | Dunmore Credit Services | 2019 – 2023**
+* Built Java services and SQL-backed persistence for account servicing workflows
+* Introduced contract testing between services and expanded CI coverage
+* Migrated two legacy services into containers deployed on ECS
+
+**Actuarial Analyst | Pelham Mutual | 2016 – 2019**
+* Built pricing models in SQL and Python; transitioned into engineering after automating a core analytical workflow
+
+**Skills**
+Java, Spring Boot, Python, REST APIs, PostgreSQL, SQL, AWS (ECS, SQS, SNS, RDS, Lambda), Docker, Terraform, GitHub Actions, JUnit, Datadog
+
+**Education**
+B.S. Mathematics | Baylor University | 2016
