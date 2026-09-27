@@ -1,0 +1,1 @@
+Evaluate the candidate's qualifications using an Applicant Tracking System (ATS) approach, using techniques like strict requirements, competency scoring, keyword matching, gaps, risk detection, and overall threshold assessment, and then issue your ADVANCE/REJECT judgment by choosing either FINAL: ADVANCE or FINAL: REJECT.

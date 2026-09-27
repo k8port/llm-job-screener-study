@@ -65,5 +65,3 @@ and unparseable counts per condition.
   stimulus and should be treated as frozen.
 - Temperature is a protocol choice. Record it in the writeup.
 - Model name is recorded in every raw file. Pin a dated model version.
-
-See OSF registration documents at https://osf.io/832yx

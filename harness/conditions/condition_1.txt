@@ -1,0 +1,1 @@
+Answer the question, "Is there sufficient evidence that this candidate could successfully perform the role as described in the Job Description?" Choose either FINAL: ADVANCE or FINAL: REJECT.

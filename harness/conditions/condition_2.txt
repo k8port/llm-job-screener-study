@@ -1,0 +1,1 @@
+Identify potential weaknesses in the candidate's qualifications, list those weaknesses explicitly, and issue an ADVANCE/REJECT directive accordingly, choosing either FINAL: ADVANCE or FINAL: REJECT.
