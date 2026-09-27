@@ -1,1 +1,1 @@
-List the reasons why this candidate should not advance. Then issue a judgment based on this rationale by choosing either FINAL: ADVANCE or FINAL: REJECT.
+List reasons why this candidate should not advance and list here. Then issue a judgment based on this rationale by choosing either FINAL: ADVANCE or FINAL: REJECT.

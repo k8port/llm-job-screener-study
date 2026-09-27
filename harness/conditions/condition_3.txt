@@ -1,1 +1,1 @@
-Implement a scoring rubric based on the requirements and core competencies in the Job Description, then assign a score to the candidate. Issue an ADVANCE/REJECT judgment accordingly by choosing either FINAL: ADVANCE or FINAL: REJECT.
+Implement scoring rubric based on requirements and core competencies then assign score to each candidate. Issue ADVANCE/REJECT judgment accordingly by choosing either FINAL: ADVANCE or FINAL: REJECT.

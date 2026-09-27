@@ -19,7 +19,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 RAW = HERE / json.load(open(HERE / "config.json"))["out_dir"] / "raw"
 
-LABEL_ORDER = ["CLEARLY_CAPABLE", "MARGINALLY_CAPABLE", "NOT_CLEARLY_CAPABLE"]
+LABEL_ORDER = ["CLEARLY_CAPABLE", "BORDERLINE_CAPABLE", "NOT_CLEARLY_CAPABLE"]
 
 
 def wilson(k, n, z=1.96):
