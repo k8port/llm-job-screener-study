@@ -24,8 +24,12 @@ harness/
 
 ```
 pip install anthropic
-export ANTHROPIC_API_KEY=...
+cp harness/.env.example harness/.env
 ```
+
+Fill in the values in `harness/.env`. `ANTHROPIC_WORKSPACE_ID` is required when
+the API key is not scoped to a specific workspace. Find the workspace ID in the
+Anthropic Console settings. The harness loads this file automatically.
 
 Fill `labels.csv` from your registered labels. Verify every file under
 `conditions/` and `system_prompt.txt` matches your OSF registration

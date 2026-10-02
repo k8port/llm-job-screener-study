@@ -22,10 +22,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
+from dotenv import load_dotenv
 HERE = Path(__file__).resolve().parent
+load_dotenv(HERE / ".env")
 
-VERDICT_RE = re.compile(r"^\s*FINAL:\s*(ADVANCE|REJECT)\s*$")
-
+VERDICT_RE = re.compile(r"FINAL:\s*\**\s*(ADVANCE|REJECT)\b", re.IGNORECASE)
 
 # ---------------------------------------------------------------- loading ---
 
@@ -69,6 +70,15 @@ def load_candidates():
     return candidates
 
 
+def validate_environment():
+    workspace_id = os.environ.get("ANTHROPIC_WORKSPACE_ID", "")
+    if workspace_id.lower() in {"wrkspc_your_id", "wrkspc_your_actual_id"}:
+        sys.exit(
+            "ANTHROPIC_WORKSPACE_ID is still a placeholder. Replace it with "
+            "the workspace ID from Anthropic Console settings."
+        )
+
+
 # ---------------------------------------------------------------- prompt ----
 
 def build_user_prompt(jd, resume, instruction):
@@ -84,16 +94,13 @@ def build_user_prompt(jd, resume, instruction):
         f"{instruction}\n"
     )
 
-
 def parse_verdict(text):
-    """Return 'ADVANCE', 'REJECT', or None. Checks the last 3 non-empty lines."""
-    lines = [l for l in text.strip().splitlines() if l.strip()]
-    for line in reversed(lines[-3:]):
-        m = VERDICT_RE.match(line)
+    lines = [l.strip().strip("*`_ ") for l in text.strip().splitlines() if l.strip()]
+    for line in reversed(lines[-5:]):
+        m = VERDICT_RE.search(line)
         if m:
-            return m.group(1)
+            return m.group(1).upper()
     return None
-
 
 # ------------------------------------------------------------ model call ----
 
@@ -104,7 +111,11 @@ def call_model(cfg, system, user):
     """
     from anthropic import Anthropic
 
-    client = Anthropic()
+    workspace_id = os.environ.get("ANTHROPIC_WORKSPACE_ID")
+    default_headers = (
+        {"anthropic-workspace-id": workspace_id} if workspace_id else None
+    )
+    client = Anthropic(default_headers=default_headers)
     resp = client.messages.create(
         model=cfg["model"],
         max_tokens=cfg["max_tokens"],
@@ -121,11 +132,16 @@ def call_model(cfg, system, user):
 
 
 def call_with_retry(cfg, system, user, attempts=5):
+    from anthropic import APIStatusError
+
     delay = 2.0
     for i in range(attempts):
         try:
             return call_model(cfg, system, user)
         except Exception as e:  # noqa: BLE001
+            if isinstance(e, APIStatusError) and 400 <= e.status_code < 500 \
+                    and e.status_code not in (408, 409, 429):
+                raise
             if i == attempts - 1:
                 raise
             print(f"  retry {i + 1} after error: {e}", file=sys.stderr)
@@ -179,6 +195,8 @@ def main():
                     help="print one full prompt and exit; no API calls")
     args = ap.parse_args()
 
+    load_dotenv(HERE / ".env")
+    validate_environment()
     cfg = load_config()
     system = load_text("system_prompt.txt")
     jd = load_text("job_description.md")
