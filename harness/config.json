@@ -1,7 +1,7 @@
 {
   "model": "claude-sonnet-4-6",
   "temperature": 1.0,
-  "max_tokens": 1500,
+  "max_tokens": 4000,
   "runs_per_cell": 30,
   "workers": 4,
   "pilot_runs": 10,
