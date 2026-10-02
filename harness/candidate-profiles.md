@@ -8,7 +8,7 @@ Assign `CANDIDATE_COMPETENCY` labels independently.
 
 ---
 
-## C01 — Dana Whitfield
+### C01 — Dana Whitfield
 
 Richardson, TX · <d.whitfield@email.com> · (972) 555-0141 · github.com/dwhitfield
 
