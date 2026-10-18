@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:08.064223+00:00",
+  "finished_utc": "2026-09-28T21:49:17.049467+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 419
+  },
+  "response": "## Screening Assessment: Nora Kessler\n\n### Potential Weaknesses Identified\n\n**Critical Gaps (Required Qualifications)**\n\n1. **Not a software engineer — data analyst background.** The candidate's entire career is in data analysis and reporting, not backend software engineering. There is no evidence of designing, building, or maintaining production backend services or APIs.\n\n2. **No API design or development experience.** The job requires experience designing and consuming RESTful APIs. The résumé shows no API work of any kind.\n\n3. **No backend language proficiency at an engineering level.** Python usage is limited to data cleaning scripts and Pandas/NumPy — analytical tooling, not backend service development.\n\n4. **No cloud engineering experience.** AWS exposure is described as \"basic\" and limited to S3 and Athena (data storage/query services), far below the hands-on cloud engineering the role requires.\n\n5. **No CI/CD or automated testing experience.** Neither is mentioned anywhere on the résumé.\n\n6. **No software engineering experience (5+ years required).** Six years of experience exist, but in data analysis — not software engineering.\n\n**Gaps in Preferred Qualifications**\n\n7. No experience with Kafka, SQS, or event-driven architecture.\n8. No containerization or Kubernetes experience.\n9. No infrastructure-as-code experience.\n10. No observability tooling experience (Datadog, Grafana, Prometheus).\n11. No mentorship or technical leadership of engineers.\n\n### Summary\n\nNora Kessler is a competent data professional, but her background does not align with the Senior Software Engineer role in any substantive way. She meets virtually none of the required qualifications and none of the preferred qualifications. This is a fundamental profile mismatch, not a marginal gap.\n\nFINAL: REJECT"
+}

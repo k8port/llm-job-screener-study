@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:33.171455+00:00",
+  "finished_utc": "2026-09-30T18:41:41.624111+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 360
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 2 years total (1 year as a full-time engineer, ~1 year as an intern). This is a significant and objective gap — roughly less than half the minimum requirement.\n\n2. **No demonstrated experience with high-volume or distributed systems**: The role centers on a high-volume payments platform. Dana's experience is limited to an internal inventory service used by three business teams, with no indication of scale, throughput, or complexity comparable to enterprise payment processing.\n\n3. **Shallow cloud experience**: The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which does not suggest meaningful cloud architecture or operational experience.\n\n4. **Missing preferred qualifications entirely**: Dana shows no evidence of experience with Kafka/SQS, Docker/Kubernetes, Terraform/CloudFormation, observability tooling, financial services, or mentoring others — areas the role emphasizes heavily.\n\n5. **CI/CD experience is limited**: Dana contributes to a pipeline \"maintained by a senior engineer,\" suggesting limited ownership or depth in this area.\n\n6. **No mentorship or technical leadership**: The role expects mentoring of mid-level and junior engineers. There is no indication Dana has done this.\n\n7. **Senior-level responsibilities are out of scope**: Architecture discussions, on-call ownership, and cross-team technical leadership are expected; Dana's résumé reflects early-career, team-supported contributions.\n\n---\n\nFINAL: REJECT"
+}

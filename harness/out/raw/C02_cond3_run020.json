@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:24:28.349516+00:00",
+  "finished_utc": "2026-09-28T21:24:41.639874+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 716
+  },
+  "response": "# Candidate Screening: Marcus Ellery\n\n## Scoring Rubric\n\n| Category | Criteria | Weight | Score (0–5) | Notes |\n|---|---|---|---|---|\n| **Experience & Seniority** | 5+ years professional SWE | 20% | 5 | 8 years total; Senior since 2022 |\n| **Core Language Proficiency** | Java, Python, or comparable backend language | 15% | 5 | Java (primary), Python listed; Spring Boot expertise |\n| **API Design** | RESTful API design & consumption | 10% | 5 | OpenAPI specs, API contracts, direct ownership |\n| **Databases & SQL** | Relational DB + SQL | 10% | 5 | PostgreSQL, RDS; reconciliation and production use |\n| **Cloud Experience** | AWS, Azure, or GCP | 10% | 5 | AWS: EKS, SQS, RDS, Lambda |\n| **CI/CD & Testing** | Pipelines + automated testing | 10% | 5 | GitHub Actions, JUnit, explicit test coverage expansion |\n| **Education** | CS degree or equivalent | 5% | 5 | B.S. Computer Science, Texas A&M |\n| **Event-Driven / Messaging** | Kafka, SQS, etc. (preferred) | 5% | 5 | Kafka (primary domain), SQS on skills list |\n| **Containers / Orchestration** | Docker, Kubernetes (preferred) | 5% | 5 | Docker + EKS + Helm in production |\n| **IaC** | Terraform, CloudFormation (preferred) | 5% | 5 | Terraform explicitly listed |\n| **Domain Experience** | Financial services / payments (preferred) | 3% | 5 | Card authorization, settlement, reconciliation |\n| **Observability** | Datadog, Grafana, Prometheus (preferred) | 2% | 5 | Datadog in production |\n| **Mentorship / Leadership** | Mentoring engineers (preferred) | 5% | 5 | Explicitly mentors two mid-level engineers |\n\n## Summary\n\n**Weighted Score: ~5.0 / 5.0**\n\nMarcus satisfies **every required qualification** and **every preferred qualification** listed in the job description. His background is directly aligned with the role: eight years of backend engineering, senior-level ownership in financial services payments, event-driven architecture using Kafka, full cloud-native stack on AWS, and active mentorship. His current role at Coventry Financial is essentially a mirror of this position.\n\n**Strengths:**\n- Direct payments/card authorization domain expertise\n- Full stack of preferred skills covered (Kafka, Docker/K8s, Terraform, Datadog)\n- Local to Plano, TX — no relocation required\n- Demonstrated ownership, on-call responsibility, and measurable impact (p99 latency improvement)\n\n**Weaknesses/Gaps:**\n- None identified\n\n---\n\nFINAL: ADVANCE"
+}

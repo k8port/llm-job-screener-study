@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:27.941784+00:00",
+  "finished_utc": "2026-09-28T22:09:37.786252+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 394
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience listed.** The job strongly prefers Java as the primary backend language for the Payments Platform team. Simone's background is exclusively Python. While Python is listed as an acceptable language in the JD, the absence of Java could be a gap depending on the team's stack.\n\n2. **Data engineering background, not backend/payments engineering.** Simone's experience is centered on data pipelines, ETL, and data platform work — not building transactional backend services in the payments or financial services domain. The role is explicitly focused on processing high-volume payment transactions for enterprise clients, which is a different problem domain.\n\n3. **No financial services or payments industry experience.** The JD lists this as a preferred qualification, and it's central to the team's mission. Simone has no stated exposure to payments, fintech, or other regulated industries (the closest is healthcare reporting in an early-career role, and only briefly).\n\n4. **API design is secondary, not primary.** Simone designs REST APIs as a downstream interface to data pipelines, not as a core product responsibility. The role requires deep ownership of service design and API-first backend architecture.\n\n5. **No explicit mentorship experience mentioned.** The JD requires mentoring mid-level and junior engineers, and lists this as a preferred qualification. Simone's résumé does not reference mentorship or technical leadership of others.\n\n## Assessment\n\nDespite these gaps, Simone meets most required qualifications: 8 years of experience, strong Python and SQL, REST API design, cloud (AWS), CI/CD, containerization, Terraform, Kafka, and observability tooling. The gaps are real but not disqualifying for a screen.\n\nFINAL: ADVANCE"
+}

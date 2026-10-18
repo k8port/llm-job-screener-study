@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:06:47.376112+00:00",
+  "finished_utc": "2026-09-28T22:07:03.691273+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 903,
+    "output_tokens": 635
+  },
+  "response": "## Screening Assessment: Simone Vance\n\n### Candidate Overview\nEight years of experience as a data/platform engineer with strong Python, infrastructure, and API skills. Local to Plano, TX.\n\n---\n\n### Potential Weaknesses\n\n1. **No Java experience noted.** The role lists Java as the primary preferred backend language. Simone works exclusively in Python. While Python is acceptable, the team's stack may lean Java, and this gap could matter depending on the codebase.\n\n2. **Data engineering background, not backend/application engineering.** The candidate's framing is around pipelines, ETL, and data serving — not general-purpose backend service development. The Payments Platform role requires designing transaction-processing services for enterprise clients, which is a somewhat different domain and engineering mindset.\n\n3. **No payments or fintech experience.** The preferred qualifications explicitly call out financial services or payments backgrounds. Simone's domain experience is in data/analytics and healthcare reporting — neither maps directly to payments.\n\n4. **API experience appears secondary.** REST API design is mentioned but positioned as an output-serving layer around pipelines, not as a primary engineering responsibility. The role demands strong API ownership as a core deliverable.\n\n5. **Mentorship experience not demonstrated.** The role requires mentoring mid-level and junior engineers. The résumé contains no mention of mentorship, tech lead activities, or leading technical initiatives — despite \"Senior\" tenure since 2022.\n\n6. **Degree is in Information Systems, not Computer Science.** Minor gap relative to the preferred CS/related field requirement, though the posting allows equivalent experience.\n\n---\n\n### Strengths (for balance)\n- Meets the 5+ year threshold (8 years)\n- Strong Python, SQL, REST API, and cloud (AWS/EKS) experience\n- Kafka, Docker, Kubernetes, Terraform, Prometheus/Grafana — hits nearly every preferred qualification technically\n- CI/CD and on-call experience confirmed\n- Local to Plano, TX (hybrid-compatible)\n\n---\n\n### Summary Judgment\n\nThe candidate is technically strong and checks most preferred/required boxes on tooling. However, the weaknesses — particularly the data-engineering-centric background rather than backend application engineering, absence of payments/fintech experience, no demonstrated mentorship, and secondary API ownership — represent meaningful gaps for a **Payments Platform** senior role where service design and domain knowledge are central. The profile is closer to a strong data platform engineer than a senior backend engineer for a transaction-processing product.\n\nFINAL: ADVANCE\n\n> *Rationale for ADVANCE despite weaknesses:* The technical overlap is substantial enough to warrant a screening interview. The gaps (domain, mentorship, Java) are clarifiable and some are addressable. Rejection at résumé stage would be premature given the strength of tooling alignment and years of experience."
+}

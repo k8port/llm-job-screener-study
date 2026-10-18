@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:42:17.051546+00:00",
+  "finished_utc": "2026-09-28T22:42:30.458096+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 596
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Pass/Fail or Weighted)\n\n| Requirement | Assessment | Score (0–2) |\n|---|---|---|\n| 5+ years professional software engineering experience | Candidate has 9 years in **IT/sysadmin** roles, not software engineering. Scripting (Bash/PowerShell) is not equivalent to professional software development. | 0 |\n| Strong proficiency in Java, Python, or comparable backend language | No Java or Python listed. Bash/PowerShell are automation/scripting tools, not backend development languages in this context. | 0 |\n| Experience designing and consuming RESTful APIs | No mention of API design or consumption. | 0 |\n| Relational databases and SQL | Listed as \"SQL (basic)\" — minimal proficiency only. | 1 |\n| Hands-on cloud experience (AWS/Azure/GCP) | Azure experience listed, but limited to VM and networking administration — not application/service development. | 1 |\n| CI/CD pipelines and automated testing | No CI/CD or automated testing experience mentioned. | 0 |\n| Bachelor's degree or equivalent | B.A.S. in Information Technology — meets threshold. | 2 |\n\n**Required Qualifications Total: 4 / 14**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Assessment | Score (0–1) |\n|---|---|---|\n| Event-driven architecture / message brokers | None. | 0 |\n| Containerization / Kubernetes | Docker listed as \"basic\" only; no Kubernetes. | 0 |\n| Infrastructure-as-code | Not mentioned. | 0 |\n| Financial services / regulated industry | Healthcare adjacent (health system), some relevance. | 0.5 |\n| Observability tooling | Nagios listed — limited relevance. | 0.5 |\n| Mentoring / technical leadership | No evidence. | 0 |\n\n**Preferred Qualifications Total: 1 / 6**\n\n---\n\n### Summary Assessment\n\nCurtis is an experienced systems administrator with solid infrastructure skills, but the role requires a **software engineer** with backend development expertise (Java/Python, API design, CI/CD, distributed systems). His profile shows **no software development experience**, no relevant programming languages, no API work, and only surface-level SQL and cloud exposure. The gap between his background and the job requirements is fundamental, not bridgeable by adjacent skills.\n\n**Overall Score: ~5 / 20 (25%)**\n\n---\n\nFINAL: REJECT"
+}

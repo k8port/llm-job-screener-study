@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:29:18.464771+00:00",
+  "finished_utc": "2026-09-28T21:29:29.236505+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 435
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **7 years of experience** exceeds the 5-year requirement\n- **REST API** design and consumption — clearly demonstrated\n- **SQL/PostgreSQL** — present in skills\n- **AWS** (S3, CloudFront, Lambda) — covers the cloud requirement\n- **CI/CD** (GitHub Actions) — demonstrated\n- **Automated testing** (Jest, Testing Library) — demonstrated\n- **Docker** — listed in skills\n- **Node.js/Express backend services** — built and maintained in current role\n- **Mentoring** — explicitly mentioned\n- **Located in Frisco, TX** — close to Plano, TX hybrid requirement\n\n### Gaps / Concerns\n- **Backend language proficiency**: The role requires Java, Python, or a *comparable* backend language. The candidate's backend work is in Node.js/Express, which is arguably comparable, but it's a stretch relative to a Payments Platform role that likely expects Java or Python expertise\n- **Primarily frontend-focused**: The résumé explicitly self-identifies as \"frontend-focused,\" and backend experience is secondary and scoped to supporting frontend interfaces — not designing standalone, high-volume transaction processing services\n- **No financial services / payments experience**\n- **No event-driven architecture, Kafka, or message broker experience**\n- **No Kubernetes or infrastructure-as-code**\n- **Degree is in Graphic Design**, not CS or a related field — partial offset by practical experience\n- **Scale**: 400K monthly users on a retail portal is modest compared to enterprise-grade high-volume payment processing\n\n### Summary\nThe candidate has solid foundational skills but is primarily a frontend engineer with supporting backend exposure, not a backend-first engineer. The core role demands deep backend service design for high-volume payments, with Java or Python being the expected stack. The evidence is insufficient to conclude she could step into this senior backend payments role successfully.\n\nFINAL: REJECT"
+}

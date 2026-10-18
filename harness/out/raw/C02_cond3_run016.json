@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:24:15.203415+00:00",
+  "finished_utc": "2026-09-28T21:24:28.348051+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 688
+  },
+  "response": "# Candidate Screening: Marcus Ellery\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–5) | Notes |\n|---|---|---|---|\n| **REQUIRED QUALIFICATIONS** | | | |\n| 5+ years professional SWE experience | High | 5/5 | 8 years total; 3+ years at senior level |\n| Java, Python, or comparable backend language | High | 5/5 | Java (primary), Python listed; Spring Boot depth evident |\n| RESTful API design & consumption | High | 5/5 | OpenAPI specifications, API contracts, multiple roles |\n| Relational databases & SQL | High | 5/5 | PostgreSQL, SQL, RDS; payment reconciliation workflows |\n| Major cloud provider (AWS/Azure/GCP) | High | 5/5 | AWS (EKS, SQS, RDS, Lambda) — hands-on, not surface-level |\n| CI/CD pipelines & automated testing | High | 5/5 | GitHub Actions, expanded test coverage, JUnit |\n| Bachelor's in CS or equivalent | High | 5/5 | B.S. Computer Science, Texas A&M, 2018 |\n| **PREFERRED QUALIFICATIONS** | | | |\n| Event-driven architecture / message brokers | Medium | 5/5 | Kafka (topics, consumer groups) — core to current role |\n| Containerization & orchestration | Medium | 5/5 | Docker, Kubernetes, EKS, Helm |\n| Infrastructure-as-code | Medium | 5/5 | Terraform listed |\n| Financial services / regulated industry background | Medium | 5/5 | 6+ years in payments/financial services |\n| Observability tooling | Medium | 5/5 | Datadog; p99 latency improvement demonstrates applied use |\n| Mentorship / technical leadership | Medium | 5/5 | Mentors two mid-level engineers; architecture reviews |\n| **ROLE FIT** | | | |\n| Domain alignment (payments/high-volume transactions) | High | 5/5 | Card authorization + settlement — direct match |\n| Location match | High | 5/5 | Plano, TX — exact match |\n\n## Score Summary\n\n- **Required qualifications met:** 7 / 7 ✅\n- **Preferred qualifications met:** 6 / 6 ✅\n- **Overall weighted score: 5.0 / 5.0**\n\n## Assessment\n\nMarcus Ellery is an exceptional match. He satisfies **every required qualification** and **every preferred qualification** — not superficially, but with direct, relevant evidence in his work history. His background in payment card authorization and settlement systems mirrors the Payments Platform role almost exactly. His cloud, observability, and mentorship experience are all verified through concrete deliverables rather than keyword listing alone. No meaningful gaps identified.\n\nFINAL: ADVANCE"
+}

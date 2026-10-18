@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:21:20.524020+00:00",
+  "finished_utc": "2026-09-28T21:21:28.724004+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 917,
+    "output_tokens": 364
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n**Summary of Fit**\n\nMarcus Ellery presents a strong match for the Senior Software Engineer role on the Payments Platform team. Here is the evidence across key dimensions:\n\n**Required Qualifications — Met**\n- **Experience:** 8 years of professional software engineering, well above the 5-year minimum\n- **Backend language:** Java (primary) and Python listed; Spring Boot in production\n- **RESTful APIs:** Explicitly designs API contracts and maintains OpenAPI specifications\n- **Relational databases/SQL:** PostgreSQL experience across multiple roles\n- **Cloud (AWS):** Hands-on with EKS, SQS, RDS, and Lambda\n- **CI/CD and automated testing:** GitHub Actions, expanded test coverage, JUnit\n- **Education:** B.S. Computer Science, Texas A&M University\n\n**Preferred Qualifications — Largely Met**\n- **Event-driven / message brokers:** Kafka (topics, consumer groups) — direct experience\n- **Containerization/orchestration:** Docker, Kubernetes, Helm, EKS\n- **Infrastructure-as-code:** Terraform listed\n- **Financial services background:** 6+ years in fintech/payments specifically\n- **Observability tooling:** Datadog listed\n- **Mentoring:** Actively mentoring two mid-level engineers\n\n**Additional Alignment**\n- Currently based in Plano, TX (exact match for hybrid requirement)\n- Domain experience (card authorization, settlement, reconciliation) maps directly to the Payments Platform context\n\n**No notable gaps identified.**\n\nFINAL: ADVANCE"
+}

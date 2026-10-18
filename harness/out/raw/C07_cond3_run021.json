@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:08:39.365389+00:00",
+  "finished_utc": "2026-09-28T22:08:53.979078+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 743
+  },
+  "response": "## Screening Scorecard: Simone Vance\n\n### Required Qualifications (Pass/Fail + Notes)\n\n| Requirement | Score | Notes |\n|---|---|---|\n| 5+ years professional SWE experience | ✅ PASS | ~8 years across 3 roles (2018–present) |\n| Java, Python, or comparable backend language | ✅ PASS | Strong Python; production services and pipelines |\n| RESTful API design & consumption | ✅ PASS | Explicitly designs and maintains REST APIs with versioning |\n| Relational databases / SQL | ✅ PASS | PostgreSQL, SQL throughout career |\n| Major cloud provider (AWS/Azure/GCP) | ✅ PASS | AWS (EKS, S3, Lambda, RDS) |\n| CI/CD & automated testing | ✅ PASS | GitHub Actions, pytest |\n| BS in CS/related or equivalent | ✅ PASS | B.S. Information Systems |\n\n**Required Score: 7/7**\n\n---\n\n### Preferred Qualifications (Weighted)\n\n| Preference | Score | Notes |\n|---|---|---|\n| Event-driven architecture / Kafka/SQS | ✅ Strong | Owns Kafka pipeline at 40M events/day |\n| Containerization / Kubernetes | ✅ Strong | Docker + EKS (Kubernetes on AWS) |\n| Infrastructure-as-code (Terraform) | ✅ Strong | Terraform explicitly listed and used in current role |\n| Financial services / regulated industry | ⚠️ Partial | Healthcare data (Corley); transaction data for enterprise clients — adjacent, not direct payments |\n| Observability tooling | ✅ Strong | Built Prometheus/Grafana observability layer; carries on-call |\n| Mentoring / leading technical initiatives | ⚠️ Partial | On-call ownership; no explicit mentorship mentioned |\n\n**Preferred Score: 4.5 / 6 strong hits**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating | Evidence |\n|---|---|---|\n| Backend service design | High | Python production services, API ownership |\n| Scalability / high-volume systems | High | 40M events/day Kafka ingestion |\n| Cloud & infrastructure maturity | High | AWS, Terraform, EKS |\n| Observability & reliability | High | Built monitoring stack, on-call rotation |\n| Mentoring / leadership | Low-Moderate | Not evidenced; gap vs. senior role expectation |\n| Payments domain knowledge | Low | Transaction data adjacent but no direct payments experience |\n\n---\n\n### Summary\n\nSimone meets **all required qualifications** and hits nearly every preferred qualification with strong, concrete evidence. The primary gaps are the absence of explicit mentoring experience and no direct payments/financial services background — both preferred, not required. The technical depth across Python, AWS, Kafka, Kubernetes, Terraform, and observability is a strong match for the Payments Platform team's backend needs. Location (Plano, TX) also aligns with the hybrid requirement.\n\n**Overall Score: 88/100**\n\n---\n\nFINAL: ADVANCE"
+}

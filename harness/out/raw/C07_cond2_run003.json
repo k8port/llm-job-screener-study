@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:05:40.098099+00:00",
+  "finished_utc": "2026-09-28T22:05:52.089675+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 903,
+    "output_tokens": 503
+  },
+  "response": "## Screening Analysis: Simone Vance\n\n### Potential Weaknesses\n\n1. **No Java experience listed.** The job lists Java first among preferred backend languages. Simone's background is entirely Python. While Python satisfies the \"or comparable backend language\" clause, the team's existing stack may be Java-heavy, and this could be a gap depending on the role's day-to-day reality.\n\n2. **Title is \"Data Platform Engineer,\" not \"Software Engineer.\"** The candidate's framing is around data pipelines, ETL, and serving pipeline outputs — not general-purpose backend service development. There may be a gap in breadth of backend systems experience (e.g., authentication/authorization flows, payment transaction handling, inter-service communication patterns beyond data ingestion).\n\n3. **No explicit payments or financial services experience.** The role is on a Payments Platform team processing high-volume enterprise transactions. This is listed as a preferred qualification, and Simone's background (healthcare reporting, analytics) doesn't include this domain. Regulatory and compliance awareness specific to payments is undemonstrated.\n\n4. **Mentorship experience is not documented.** The job requires mentoring mid-level and junior engineers; nothing in the résumé references this activity explicitly.\n\n5. **B.S. in Information Systems, not Computer Science.** Minor point — the JD lists CS or related field as acceptable, so this is likely a non-issue but worth noting.\n\n### Strengths (for context)\n\n- 8 years of experience (exceeds the 5-year minimum)\n- Strong Python and SQL proficiency\n- REST API design and ownership\n- Kafka (40M events/day is substantial scale)\n- AWS, Docker, Kubernetes, Terraform — covers nearly all preferred qualifications\n- CI/CD (GitHub Actions), automated testing (pytest)\n- Observability (Prometheus, Grafana) and on-call experience\n- Located in Plano, TX — matches the hybrid requirement\n\n### Assessment\n\nThe weaknesses are relatively minor. Most preferred qualifications are met or exceeded. The domain gap (payments) and title framing are worth exploring in an interview, but they do not disqualify the candidate. The core required qualifications are solidly met.\n\nFINAL: ADVANCE"
+}

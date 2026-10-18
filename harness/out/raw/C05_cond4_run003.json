@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:51:58.680397+00:00",
+  "finished_utc": "2026-09-28T21:52:07.237928+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 378
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a software engineer — data analyst background**: Nora's entire career has been in data analysis and reporting, not backend software engineering. The role requires building and maintaining scalable backend services and APIs, which is fundamentally different work.\n\n2. **No backend service or API development experience**: There is no evidence of designing or building RESTful APIs, microservices, or any production backend systems — a core required qualification.\n\n3. **Insufficient cloud experience**: She lists \"basic AWS (S3, Athena),\" which is far below the \"hands-on experience with a major cloud provider\" required for a senior-level role. S3 and Athena are data/analytics services, not backend infrastructure.\n\n4. **No CI/CD or automated testing experience**: Neither is mentioned anywhere on the résumé.\n\n5. **No experience with relational databases in a backend engineering context**: While she uses SQL extensively, it is purely for analytical querying against a data warehouse (Snowflake), not for application database design or backend integration.\n\n6. **No Java or comparable backend language proficiency**: Python is used only for data cleaning scripts (Pandas, NumPy), not for building services.\n\n7. **No experience with event-driven architecture, containerization, Kubernetes, Terraform, or observability tooling** — all preferred qualifications she does not meet.\n\n8. **No mentoring or engineering leadership experience**: The role requires mentoring junior/mid-level engineers; no such experience is indicated.\n\n9. **Industry experience is adjacent but insufficient**: While she works in insurance (a regulated industry), her role is analytical, not engineering-focused.\n\nFINAL: REJECT"
+}

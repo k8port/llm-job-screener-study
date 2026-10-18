@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:23:54.193759+00:00",
+  "finished_utc": "2026-09-28T21:24:09.033600+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 853
+  },
+  "response": "## Screening Evaluation: Marcus Ellery\n\n### Scoring Rubric\n\n| Category | Criteria | Weight | Score (0–5) | Weighted Score |\n|---|---|---|---|---|\n| **Years of Experience** | 5+ years professional SWE | 10% | 5 | 0.50 |\n| **Core Language Proficiency** | Java, Python, or comparable backend language | 20% | 5 | 1.00 |\n| **API Design** | RESTful API design and consumption | 10% | 5 | 0.50 |\n| **Databases / SQL** | Relational DB and SQL experience | 10% | 5 | 0.50 |\n| **Cloud Experience** | Hands-on with AWS, Azure, or GCP | 10% | 5 | 0.50 |\n| **CI/CD & Testing** | CI/CD pipelines and automated testing | 10% | 5 | 0.50 |\n| **Education** | B.S. CS or related / equivalent experience | 5% | 5 | 0.25 |\n| **Event-Driven / Messaging** | Kafka, SQS, or similar (preferred) | 10% | 5 | 0.50 |\n| **Containerization / Orchestration** | Docker, Kubernetes (preferred) | 5% | 5 | 0.25 |\n| **IaC** | Terraform, CloudFormation (preferred) | 5% | 5 | 0.25 |\n| **Domain Background** | Financial services / payments (preferred) | 5% | 5 | 0.25 |\n| **Observability** | Datadog, Grafana, Prometheus (preferred) | 5% | 5 | 0.25 |\n| **Mentorship / Leadership** | Mentoring or leading initiatives (preferred) | 5% | 5 | 0.25 |\n\n---\n\n### Aggregate Score: **5.00 / 5.00** (100%)\n\n---\n\n### Evaluation Notes\n\n**Required Qualifications — All Met:**\n- **8 years** of professional experience, well above the 5-year minimum\n- Deep **Java/Spring Boot** expertise; Python also listed\n- Explicit ownership of **OpenAPI specs** and **RESTful API** contract design\n- **PostgreSQL/SQL** used in production payment reconciliation workflows\n- Extensive **AWS** usage (EKS, SQS, RDS, Lambda)\n- **CI/CD** pipeline work (GitHub Actions) and automated testing (JUnit)\n- **B.S. Computer Science**, Texas A&M, 2018\n\n**Preferred Qualifications — All Met:**\n- **Kafka** event-driven architecture (authorization/settlement domain integration)\n- **Docker + Kubernetes (EKS) + Helm** — containerization and orchestration\n- **Terraform** for infrastructure-as-code\n- 6+ years in **financial services / payments** at Coventry Financial\n- **Datadog** observability tooling in production\n- Active mentorship of two mid-level engineers\n\n**Additional Strengths:**\n- Located in **Plano, TX** — ideal for hybrid requirement\n- Production reliability focus (p99 latency improvement demonstrates impact)\n- Domain alignment with role (card authorization, settlement, reconciliation) is exceptional\n\n---\n\n### Judgment\n\nMarcus Ellery satisfies every required qualification and every preferred qualification with direct, relevant evidence. His background is a near-perfect match to both the technical stack and the payments domain context of this role.\n\nFINAL: ADVANCE"
+}

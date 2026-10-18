@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:39:38.671866+00:00",
+  "finished_utc": "2026-09-28T21:39:47.308422+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 945,
+    "output_tokens": 427
+  },
+  "response": "## Assessment: Trevor Lindquist for Senior Software Engineer (Payments Platform)\n\n### Required Qualifications Review\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | 9 years total (2016–present) | ✅ |\n| Java, Python, or comparable backend language | Python and Java explicitly used in production | ✅ |\n| RESTful API design and consumption | Owns partner API surface, versioned REST contracts | ✅ |\n| Relational databases and SQL | PostgreSQL, SQL in multiple roles | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | AWS (ECS, SQS, RDS, Lambda) | ✅ |\n| CI/CD and automated testing | GitHub Actions, pytest, introduced integration testing | ✅ |\n| Bachelor's degree or equivalent practical experience | No degree, but 9 years of progressively senior experience; JD explicitly allows \"equivalent practical experience\" | ✅ |\n\n### Preferred Qualifications Review\n\n- **Event-driven architecture / Kafka / SQS** ✅ (built the event pipeline)\n- **Docker / Kubernetes** ✅\n- **Infrastructure-as-code / Terraform** ✅\n- **Financial services / payments background** ✅ (6 years in payments)\n- **Observability tooling (Grafana, Prometheus)** ✅\n- **Mentoring / leading technical initiatives** ✅ (on-call lead, retrospectives)\n\n### Summary\n\nTrevor meets every required qualification and nearly every preferred qualification. His six years in payments infrastructure directly mirrors the role's focus. The absence of a formal degree is explicitly accommodated by the job description's \"equivalent practical experience\" clause, which his 9-year track record clearly satisfies.\n\nFINAL: ADVANCE"
+}

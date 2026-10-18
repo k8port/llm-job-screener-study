@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:24.270035+00:00",
+  "finished_utc": "2026-09-28T22:22:34.345662+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 422
+  },
+  "response": "## Assessment of Raymond Dolliver\n\n### Strengths\n- **Years of experience**: 16 years total, well exceeding the 5-year minimum\n- **Financial services background**: Directly relevant domain experience in trust accounting and settlement processing (a preferred qualification)\n- **SQL/Database experience**: DB2 and SQL query writing and tuning satisfies the relational database requirement\n- **Java experience**: Java 8 development is present, though dated\n- **Regulated industry**: Experience in a regulated financial environment is a preferred qualification met\n- **Education**: B.S. in Computer Science from UT Arlington satisfies the degree requirement\n- **Incident response**: Production incident management demonstrates operational maturity\n\n### Gaps / Concerns\n- **Modern backend development**: Primary work is COBOL/JCL mainframe-based; Java experience is Java 8 with JSP/Servlets — not modern microservices or API-first development\n- **Cloud experience**: No evidence of AWS, Azure, or GCP — this is a **required** qualification\n- **RESTful APIs**: No evidence of designing or consuming REST APIs — this is a **required** qualification\n- **CI/CD pipelines**: Only \"basic\" Jenkins; no meaningful CI/CD pipeline experience — **required**\n- **Containerization/Kubernetes, Kafka, Terraform, Datadog**: No evidence of any of these preferred qualifications\n- **Mentorship/technical leadership**: No evidence of mentoring engineers\n- **Architecture ownership**: Role requires significant design ownership; candidate's profile reflects maintenance and support work\n\n### Summary\nRaymond has strong longevity and relevant domain experience, but there are critical gaps in **multiple required qualifications** — specifically cloud platforms, modern API design, and CI/CD — that are central to this role. The evidence does not sufficiently support the candidate's ability to perform as described without significant reskilling.\n\nFINAL: REJECT"
+}

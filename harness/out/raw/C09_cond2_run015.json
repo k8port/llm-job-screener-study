@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:32.279868+00:00",
+  "finished_utc": "2026-09-28T22:23:44.489726+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 483
+  },
+  "response": "## Screening Assessment: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n1. **No meaningful cloud experience.** The role requires hands-on experience with AWS, Azure, or GCP. Dolliver's résumé lists no cloud platforms whatsoever. This is a hard required qualification.\n\n2. **Outdated Java and no modern backend frameworks.** His Java experience is explicitly Java 8, with JSP/Servlets — technologies from the early 2010s. There is no evidence of Spring Boot, microservices, or any modern backend framework expected in a payments platform context.\n\n3. **No RESTful API design/consumption experience.** The résumé references Java services providing \"web access\" but makes no mention of REST API design or consumption, which is a stated required qualification.\n\n4. **No CI/CD pipeline experience.** Jenkins is listed as \"basic,\" and Subversion is the primary VCS. This does not meet the requirement for experience with CI/CD pipelines and automated testing.\n\n5. **No containerization or orchestration.** No mention of Docker or Kubernetes.\n\n6. **No event-driven architecture or message broker experience.** Kafka, SQS, or equivalents are entirely absent.\n\n7. **No observability tooling experience.** Datadog, Grafana, Prometheus — none present.\n\n8. **No infrastructure-as-code experience.** Terraform, CloudFormation — none present.\n\n9. **Heavy mainframe/legacy stack.** The majority of his experience is in COBOL, JCL, and z/OS — a fundamentally different paradigm from the modern distributed backend systems this role requires.\n\n10. **No evidence of mentoring or technical leadership.** A preferred qualification with no supporting evidence.\n\n### Summary\n\nDolliver meets the educational requirement and has domain-relevant experience in financial services and SQL. However, he fails to satisfy multiple **required** qualifications — most critically cloud experience, modern API development, and CI/CD — and lacks virtually all preferred qualifications. The gap between his technical stack and the role's expectations is substantial and unlikely to be bridged without significant upskilling.\n\nFINAL: REJECT"
+}

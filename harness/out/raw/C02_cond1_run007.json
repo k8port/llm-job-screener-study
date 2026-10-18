@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:21:04.914139+00:00",
+  "finished_utc": "2026-09-28T21:21:12.970907+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 917,
+    "output_tokens": 388
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n**Summary of Findings**\n\nMarcus Ellery presents a strong match against both the required and preferred qualifications for this Senior Software Engineer role on the Payments Platform team.\n\n**Required Qualifications — Met**\n- **Years of experience:** 8 years of professional software engineering, exceeding the 5-year minimum\n- **Backend language proficiency:** Java/Spring Boot (primary), Python also listed\n- **RESTful API design:** Explicitly mentioned, including OpenAPI specifications\n- **Relational databases/SQL:** PostgreSQL and SQL listed and applied in role\n- **Cloud provider:** AWS (EKS, SQS, RDS, Lambda) — hands-on experience confirmed\n- **CI/CD and automated testing:** GitHub Actions, JUnit, extended CI pipelines\n- **Education:** B.S. Computer Science, Texas A&M University (2018)\n\n**Preferred Qualifications — Met**\n- **Event-driven architecture/message brokers:** Kafka (topics, consumer groups) — directly applicable\n- **Containerization/orchestration:** Docker, Kubernetes, Helm, EKS\n- **Infrastructure-as-code:** Terraform listed\n- **Financial services background:** 6+ years in payments/financial services at Coventry Financial\n- **Observability tooling:** Datadog confirmed\n- **Mentorship:** Mentored two mid-level engineers\n\n**Additional Strengths**\n- Local to Plano, TX (hybrid requirement easily met)\n- Direct domain overlap (card authorization, settlement, reconciliation) with the Payments Platform team's likely scope\n\nThere is extensive, specific, and directly relevant evidence across every dimension of the role.\n\nFINAL: ADVANCE"
+}

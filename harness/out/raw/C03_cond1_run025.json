@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:30:17.527376+00:00",
+  "finished_utc": "2026-09-28T21:30:26.487411+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 383
+  },
+  "response": "## Assessment\n\n**Strengths:**\n- 7 years of professional experience (exceeds the 5-year minimum)\n- REST API experience (both building and consuming)\n- PostgreSQL/SQL experience\n- AWS experience (S3, CloudFront, Lambda)\n- Docker mentioned in skills\n- CI/CD experience (GitHub Actions)\n- Some mentorship experience\n- Node.js/Express backend service experience (aggregation layer, session handling)\n- Located in Frisco, TX (near Plano — hybrid feasible)\n\n**Significant Gaps:**\n- **Self-described as \"frontend-focused\"** — the role is a backend-only Payments Platform engineering role requiring strong backend proficiency\n- **No Java or Python** — the required languages are Java, Python, or comparable backend language; Node.js is a stretch, and her background is primarily TypeScript/React\n- **No experience with high-volume transaction processing or financial services**\n- **No Kafka/SQS or event-driven architecture experience**\n- **No Kubernetes or container orchestration** (Docker listed but no orchestration)\n- **No observability tooling** (Datadog, Grafana, Prometheus)\n- **No Terraform/IaC**\n- **Degree is in Graphic Design**, not CS or a related technical field — backend rigor is unverified academically and experientially\n- The backend work described is an aggregation/BFF layer supporting a frontend portal — not the same as designing scalable, high-volume distributed backend systems\n\nThe core of this role — designing and maintaining scalable backend services for high-volume payment processing — is not well-evidenced by this candidate's background.\n\nFINAL: REJECT"
+}

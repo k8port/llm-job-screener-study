@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:50:27.332453+00:00",
+  "finished_utc": "2026-09-28T22:50:40.440519+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 677
+  },
+  "response": "## Screening Evaluation: Elise Thornbury\n\n### Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of Experience (5+ required)** | High | 1 | 1 | ~3.5 years total — meaningfully below the 5-year requirement |\n| **Java/Python/Backend Proficiency** | High | 3 | 3 | Java/Spring Boot is the core stack; Python listed |\n| **RESTful API Design & Consumption** | High | 3 | 3 | Designs and documents REST endpoints for internal/partner teams |\n| **Relational Databases & SQL** | High | 3 | 3 | PostgreSQL hands-on at both roles |\n| **Cloud Provider Experience** | High | 3 | 3 | AWS (EKS, SQS, RDS) — substantive usage |\n| **CI/CD & Automated Testing** | High | 3 | 3 | GitHub Actions, JUnit, Spring Test |\n| **Bachelor's Degree (CS or related)** | Medium | 3 | 3 | B.S. CS, SMU 2023 |\n| **Event-Driven / Message Brokers** | Medium | 2 | 2 | Kafka consumer work, though senior-led initiative |\n| **Containerization & Orchestration** | Medium | 3 | 3 | Docker, Kubernetes, EKS, Helm |\n| **Infrastructure-as-Code** | Low | 1 | 1 | Terraform listed as \"basic\" only |\n| **Financial Services / Payments Background** | Medium | 3 | 3 | Currently at a payments company |\n| **Observability Tooling** | Low | 2 | 2 | Grafana listed; on-call rotation experience |\n| **Mentorship / Technical Leadership** | Medium | 0 | 0 | No evidence of mentoring or leading initiatives |\n\n---\n\n### Summary Assessment\n\n**Strengths:**\n- Excellent technical stack alignment (Java, REST, PostgreSQL, AWS, Kafka, Docker/K8s)\n- Direct payments industry experience — a strong preferred qualifier\n- Solid fundamentals across CI/CD, testing, and cloud deployment\n\n**Gaps:**\n- **Experience shortfall is the critical issue:** 3.5 years vs. 5+ required — a ~30% gap on a hard requirement\n- No evidence of mentoring or leading technical initiatives (a preferred qualifier and an implicit expectation at senior level)\n- Kafka/Terraform involvement appears limited in scope and seniority\n\n**Overall:** Elise is a strong mid-level engineer whose technical profile is well-matched to the domain, but she falls materially short on the experience threshold and seniority indicators the role requires.\n\n---\n\nFINAL: REJECT"
+}

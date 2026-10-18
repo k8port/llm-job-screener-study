@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:34:15.658590+00:00",
+  "finished_utc": "2026-09-28T22:34:31.343705+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 919,
+    "output_tokens": 805
+  },
+  "response": "## Screening Scorecard: Josephine Hartwell\n\n### Required Qualifications (Pass/Fail + Notes)\n\n| Requirement | Score | Notes |\n|---|---|---|\n| 5+ years professional SWE experience | ✅ PASS | ~7 years engineering (2019–present, excluding break); prior technical career adds more |\n| Java, Python, or comparable backend language | ✅ PASS | Java (primary), Python listed explicitly |\n| RESTful API design and consumption | ✅ PASS | Explicitly designs REST APIs with versioned contracts |\n| Relational databases / SQL | ✅ PASS | PostgreSQL, SQL; SQL-backed persistence at Dunmore |\n| Major cloud provider (AWS, Azure, GCP) | ✅ PASS | AWS: ECS, SQS, SNS, RDS, Lambda |\n| CI/CD and automated testing | ✅ PASS | GitHub Actions, JUnit, contract testing expansion |\n| Bachelor's in CS/related or equivalent | ✅ PASS | B.S. Mathematics, Baylor University |\n\n**Required: 7/7**\n\n---\n\n### Preferred Qualifications (Scored 0–2 each)\n\n| Preference | Score | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | 2/2 | SQS + SNS ownership; cross-domain messaging |\n| Containerization / orchestration (Docker, K8s) | 1/2 | Docker + ECS; no Kubernetes specifically |\n| Infrastructure-as-code (Terraform, CloudFormation) | 2/2 | Terraform explicitly listed and used in production |\n| Financial services / regulated industry background | 2/2 | Credit services (payments domain), prior actuarial work |\n| Observability tooling | 2/2 | Datadog listed in skills |\n| Mentoring / technical leadership | 2/2 | Currently mentoring two engineers in payments domain |\n\n**Preferred: 11/12**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating | Notes |\n|---|---|---|\n| Backend systems design | ★★★★★ | Service ownership, API contracts, event-driven design |\n| Cloud / infrastructure fluency | ★★★★☆ | Strong AWS; IaC with Terraform; no Kubernetes |\n| Domain fit (payments/financial) | ★★★★★ | Direct payments domain experience, regulated credit services |\n| Collaboration / mentorship | ★★★★★ | Active mentoring, partner API integration work |\n| Observability / reliability | ★★★★☆ | Datadog present; limited explicit detail on SLOs/alerting |\n\n---\n\n### Summary\n\nJosephine is an exceptionally strong match. She meets **all seven required qualifications** and **nearly all preferred qualifications**. Her background is directly aligned: Java/Spring Boot in a payments/credit services context, event-driven architecture with SQS/SNS, Terraform-based deployments, and active mentorship. The only minor gap is Kubernetes (she uses ECS), which is a minor delta given her containerization depth. Her location (McKinney, TX) is commutable to Plano. The 2023–2024 career break is fully explained and she has returned to a senior role with increased ownership.\n\n**Overall Score: 18/19 (95%)**\n\n---\n\nFINAL: ADVANCE"
+}

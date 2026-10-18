@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:03.334767+00:00",
+  "finished_utc": "2026-09-28T22:48:12.177277+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 373
+  },
+  "response": "## Candidate Evaluation: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient years of experience (significant gap):** The role requires **5+ years** of professional software engineering experience. Thornbury has approximately **3.5 years** total (2023–present), falling roughly 1.5 years short of the stated minimum. This is the most critical gap.\n\n2. **Limited seniority/ownership signals:** Her Kafka work is explicitly noted as a contribution to work \"led by a senior engineer,\" suggesting she is not yet operating at an independent senior level. The role expects significant ownership over service design and delivery.\n\n3. **Terraform listed as \"basic\":** The job lists infrastructure-as-code as a preferred qualification; her self-assessment suggests only surface-level competence here.\n\n4. **No explicit mentoring experience:** The role requires mentoring mid-level and junior engineers. There is no mention of any mentoring, tech talks, or informal leadership in her résumé.\n\n5. **No architecture-level experience documented:** She has designed REST endpoints, but there is no evidence of broader system architecture contributions (e.g., leading design of a new service from scratch, participating in architecture review boards).\n\n6. **Relatively recent graduate (2023):** Her B.S. was completed in 2023, which is consistent with ~3.5 years experience including any pre-graduation internships, reinforcing the experience gap.\n\n### Summary\n\nThe experience shortfall (~1.5 years below the stated minimum) combined with the absence of demonstrated senior-level ownership and mentoring makes her a below-threshold candidate for this role as written.\n\nFINAL: REJECT"
+}

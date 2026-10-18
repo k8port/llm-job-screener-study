@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:22:57.491256+00:00",
+  "finished_utc": "2026-09-28T21:23:08.234294+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 395
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Potential Weaknesses\n\n1. **Limited breadth of employer experience**: Marcus has spent his entire ~6-year career at essentially one company (Coventry Financial, across two roles) plus one year at Arden Technology Group. This could indicate limited exposure to varied engineering cultures, architectures, or problem domains—though it also signals loyalty and depth.\n\n2. **Python listed as a skill but not demonstrated in work history**: The JD calls out Python as a core language option. Marcus lists it in skills but all actual project work is Java-based. The depth of his Python proficiency is unverifiable from this résumé.\n\n3. **Infrastructure-as-code is surface-level**: Terraform is listed under skills, but no specific IaC work is described in the experience section. It's unclear whether he has meaningful hands-on experience or just passing familiarity.\n\n4. **Mentorship scope is modest**: He mentions mentoring two mid-level engineers, which satisfies the preferred qualification, but the scope is relatively small for a Senior Engineer role that emphasizes mentoring as a responsibility.\n\n5. **No explicit architecture leadership**: While he participates in architecture reviews, there's no clear example of *leading* a greenfield architecture initiative or a significant cross-team technical decision.\n\n### Counterbalancing Strengths\n\nThese weaknesses are minor relative to very strong alignment across all required qualifications: 8 years of experience (exceeds 5-year minimum), Java expertise in a payments context, Kafka, PostgreSQL, AWS, Docker/Kubernetes, CI/CD, observability (Datadog), Terraform, on-call experience, mentorship, and a directly relevant financial services background. Nearly every preferred qualification is also met.\n\nFINAL: ADVANCE"
+}

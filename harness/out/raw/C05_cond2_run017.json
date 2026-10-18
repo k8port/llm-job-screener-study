@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:46.430854+00:00",
+  "finished_utc": "2026-09-28T21:49:57.161458+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 415
+  },
+  "response": "## Candidate Weaknesses Assessment: Nora Kessler\n\n### Identified Weaknesses\n\n1. **Not a software engineer — fundamentally different role**: Kessler is a data analyst/reporting analyst. Her experience centers on SQL reporting models, dashboards, and data cleaning, not building and maintaining backend services or APIs. This is a core mismatch with the role.\n\n2. **No backend service or API development experience**: The job requires designing and building scalable backend services and RESTful APIs. There is no evidence of this in her résumé.\n\n3. **No Java or comparable backend language experience**: She uses Python only in a data/scripting context (Pandas, NumPy, scheduled jobs), not for application development.\n\n4. **No cloud infrastructure experience beyond basic S3/Athena**: The job requires hands-on cloud experience; she lists only basic AWS usage, with no compute, networking, or platform-level exposure.\n\n5. **No CI/CD, containerization, or orchestration experience**: Docker, Kubernetes, and CI/CD pipelines are required or strongly preferred — none are present.\n\n6. **No experience with event-driven architecture or message brokers**: Kafka, SQS, and similar tools are absent entirely.\n\n7. **No experience with observability tooling**: Datadog, Grafana, Prometheus — not mentioned.\n\n8. **No mentorship or technical leadership experience**: A key requirement for a senior engineering role.\n\n9. **No payments, platform, or high-volume transaction system experience**: The role is specifically tied to a Payments Platform handling enterprise-scale transactions.\n\n---\n\n### Summary\n\nKessler does not meet the required qualifications for this Senior Software Engineer role. The gap is not minor — she operates in an entirely different function (data analytics), and her profile lacks nearly every core technical requirement.\n\nFINAL: REJECT"
+}

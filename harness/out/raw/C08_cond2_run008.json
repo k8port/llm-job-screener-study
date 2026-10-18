@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:00.732609+00:00",
+  "finished_utc": "2026-09-28T22:15:12.101509+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 486
+  },
+  "response": "## Screening Assessment: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n1. **Not a software developer by background.** Pemberton self-describes as a \"quality engineer transitioning toward software development.\" All five years of professional experience are in QA/testing roles (QA Analyst → QA Engineer → Senior QA Engineer), not software engineering. The role requires a Senior Software Engineer with hands-on backend service *design and development* experience.\n\n2. **No evidence of building production backend services or APIs.** The job requires designing and building scalable backend services. Pemberton's Java and API experience is limited to *testing* those artifacts (writing test suites, validating REST response contracts), not building them.\n\n3. **No cloud platform experience mentioned.** AWS, Azure, or GCP experience is a required qualification. There is no mention of any cloud provider on the résumé.\n\n4. **No relational database/SQL depth demonstrated.** SQL is listed as a skill but there is no context suggesting meaningful database design, query optimization, or schema ownership — typical expectations for a senior backend engineer.\n\n5. **No CI/CD ownership.** Maintaining test execution stages in Jenkins is a limited engagement with CI/CD; the role expects experience designing and managing full pipelines.\n\n6. **No experience with preferred qualifications.** No Kafka/SQS, Docker/Kubernetes, Terraform/CloudFormation, observability tooling, or fintech/payments background is evident.\n\n7. **Mentorship/technical leadership gap.** The role involves mentoring junior/mid engineers. No mentorship experience is indicated.\n\n8. **Years of experience concern.** While Pemberton has five years of total professional experience, none of it is in software *engineering*, which is the experience the 5+ year requirement is intended to capture.\n\n---\n\n### Summary\n\nPemberton's profile shows a capable QA professional with solid Java automation and API testing skills, but there is a fundamental mismatch between QA/testing experience and the hands-on backend software engineering this role demands. Multiple required qualifications (cloud experience, backend service development, CI/CD depth) are either absent or inadequately demonstrated.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:30:34.323531+00:00",
+  "finished_utc": "2026-09-28T22:30:42.529198+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 425
+  },
+  "response": "## Screening Assessment: Josephine Hartwell\n\n### Evidence Review Against Requirements\n\n**Required Qualifications:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years (2016–2023 engineering roles + 2024–present), with career break noted | ✅ |\n| Java, Python, or comparable backend language | Java/Spring Boot (primary), Python listed in skills | ✅ |\n| RESTful API design and consumption | Explicit mention of designing REST APIs with versioned contracts | ✅ |\n| Relational databases / SQL | PostgreSQL, SQL, RDS; SQL used even in actuarial role | ✅ |\n| Major cloud provider (AWS, Azure, GCP) | Extensive AWS experience (ECS, SQS, SNS, RDS, Lambda) | ✅ |\n| CI/CD and automated testing | GitHub Actions, JUnit, contract testing, CI coverage expansion | ✅ |\n| Bachelor's degree or equivalent | B.S. Mathematics, Baylor University | ✅ |\n\n**Preferred Qualifications:**\n\n- Event-driven architecture (SQS/SNS) ✅\n- Containerization/orchestration (Docker/ECS) ✅\n- Infrastructure-as-code (Terraform) ✅\n- Financial services/payments background ✅ (credit union payments, loan origination)\n- Observability tooling (Datadog) ✅\n- Mentoring engineers ✅\n\n### Summary\n\nJosephine meets **every required qualification** and **all six preferred qualifications**. Her background in financial services payments is directly relevant to the Payments Platform team. The career break is accounted for and she has returned to a senior role with full technical engagement.\n\nFINAL: ADVANCE"
+}

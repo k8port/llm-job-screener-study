@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:25.409173+00:00",
+  "finished_utc": "2026-09-28T22:23:37.843256+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 544
+  },
+  "response": "## Candidate Screening Assessment: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n**1. Cloud Experience — Missing Required Qualification**\nThe role requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Raymond's résumé lists no cloud experience whatsoever. This is a hard required qualification, not preferred.\n\n**2. Outdated Java Proficiency**\nWhile Java is listed, Raymond's experience is specifically with Java 8 and legacy stack components (JSP, Servlets, WebSphere). Modern backend Java development has advanced significantly, and there is no indication of familiarity with contemporary frameworks (e.g., Spring Boot, Quarkus) or Java versions beyond 8.\n\n**3. No RESTful API Experience**\nThe role requires experience designing and consuming RESTful APIs. Raymond's background is in batch processing, JSP-based internal tools, and mainframe systems. No REST API design or consumption is mentioned.\n\n**4. No CI/CD Pipeline Experience (Meaningful)**\nCI/CD is a required qualification. Raymond lists only \"Jenkins (basic),\" which does not constitute hands-on CI/CD pipeline experience.\n\n**5. No Containerization or Modern Orchestration**\nDocker and Kubernetes are preferred. There is no mention of either.\n\n**6. No Event-Driven Architecture / Messaging Experience**\nKafka, SQS, or similar are preferred. Not present on the résumé.\n\n**7. No Observability Tooling Experience**\nDatadog, Grafana, Prometheus — none mentioned.\n\n**8. Primary Expertise is Mainframe/Legacy**\nThe core of Raymond's 16-year career is COBOL, JCL, and z/OS — technologies that are largely orthogonal to the cloud-native, distributed systems environment this role demands.\n\n**9. No Evidence of Mentorship or Technical Leadership**\nA preferred qualification (and implied cultural expectation for a senior role) is mentoring engineers. No evidence of this appears in the résumé.\n\n---\n\n### Summary\n\nRaymond meets the education requirement and has genuine strengths in regulated financial services, SQL/DB2, and production incident management. However, he is missing **multiple required qualifications** — most critically cloud experience and REST API design — and his overall technical profile is heavily weighted toward legacy mainframe systems rather than the modern, cloud-native backend engineering this role demands.\n\nFINAL: REJECT"
+}

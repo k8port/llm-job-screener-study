@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:37:40.873398+00:00",
+  "finished_utc": "2026-09-30T18:37:50.211324+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 813,
+    "output_tokens": 416
+  },
+  "response": "## Assessment\n\n**Required Qualifications Review:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | ~2 years (intern + full-time) | ❌ |\n| Java, Python, or comparable backend language | Java/Spring Boot | ✅ |\n| RESTful API design & consumption | REST endpoints in Spring Boot | ✅ (limited scope) |\n| Relational databases & SQL | MySQL, SQL queries | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | \"Basic AWS (EC2, S3)\" — self-described as basic | ⚠️ Weak |\n| CI/CD pipelines & automated testing | GitHub Actions (maintained by senior engineer), JUnit | ⚠️ Weak |\n| Bachelor's in CS or equivalent | B.S. CS, UT Dallas | ✅ |\n\n**Key Gaps:**\n\n- **Experience level is the most significant disqualifier**: The role requires 5+ years; Dana has approximately 2 years total (including an internship). This is a ~60% gap on a hard requirement.\n- **Seniority signals are absent**: The résumé describes work done under supervision (senior engineer maintained the pipeline, team lead directed triage). There is no evidence of ownership, architectural decision-making, or mentorship.\n- **Cloud experience is self-described as \"basic\"** — insufficient for a senior role on a high-volume payments platform.\n- **No preferred qualifications are met** (no Kafka/event-driven, no Docker/Kubernetes, no fintech background, no observability tooling, no mentorship).\n\nThere is insufficient evidence that this candidate could successfully perform a **senior-level** role with the described scope and ownership expectations.\n\nFINAL: REJECT"
+}

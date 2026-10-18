@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:57.865802+00:00",
+  "finished_utc": "2026-09-28T22:15:09.636180+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 500
+  },
+  "response": "## Candidate Evaluation: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n**1. No professional software development experience**\nGrant's background is entirely in QA/testing roles. The résumé summary explicitly frames him as \"transitioning toward software development.\" He has never held a software engineering title or been responsible for designing and building production services.\n\n**2. Java usage is limited to test automation, not backend development**\nHis Java experience is in the context of Selenium test suites and REST Assured, not building backend services, APIs, or application logic. This is a meaningfully different skill set from what the role demands.\n\n**3. No cloud platform experience**\nThere is no mention of AWS, Azure, or GCP — a required qualification — anywhere on the résumé.\n\n**4. No experience designing or building APIs**\nHe tests and validates REST APIs but has not designed or built them. The role requires both designing and consuming RESTful APIs.\n\n**5. No CI/CD pipeline development experience**\nHe maintains test execution stages in Jenkins, which is peripheral involvement, not the pipeline engineering experience the role requires.\n\n**6. No experience with relational databases beyond SQL mentions**\nSQL is listed as a skill, but there is no evidence of substantive database design, query optimization, or schema management work.\n\n**7. Does not meet seniority bar**\nThe role requires 5+ years of software engineering experience. Grant has 5 years total, all in QA. He lacks the software engineering depth the \"Senior\" designation implies.\n\n**8. Preferred qualifications largely unmet**\nNo evidence of Kafka/SQS, Docker/Kubernetes, Terraform/CloudFormation, payments/financial services experience, or observability tooling.\n\n**9. No mentorship or technical leadership experience**\nThe role expects mentoring of junior engineers; there is no indication of this in his background.\n\n---\n\n### Summary\n\nGrant does not meet the core required qualifications for this role. His experience is in quality assurance, not backend software engineering. While he demonstrates some adjacent technical exposure (Java, SQL, Jenkins, REST testing), none of it constitutes the hands-on service design and development experience needed for a Senior Software Engineer on a high-volume payments platform.\n\nFINAL: REJECT"
+}

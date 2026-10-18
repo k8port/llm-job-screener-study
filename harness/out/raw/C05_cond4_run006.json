@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:04.445302+00:00",
+  "finished_utc": "2026-09-28T21:52:12.437681+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 355
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer**: Nora is a data analyst/reporting analyst by trade. Her experience is centered on analytics, reporting, and data reconciliation — not building backend services or APIs.\n\n2. **No Backend Service Development Experience**: The role requires designing and building scalable backend services and APIs. There is no evidence of this in her résumé.\n\n3. **No RESTful API Experience**: She has no demonstrated experience designing or consuming RESTful APIs, which is a required qualification.\n\n4. **Insufficient Cloud Experience**: Her AWS experience is listed as \"basic (S3, Athena)\" — both are data/storage services, not indicative of hands-on cloud engineering. The role requires meaningful cloud platform experience.\n\n5. **No CI/CD or Automated Testing Experience**: These are required qualifications with no mention anywhere on her résumé.\n\n6. **No Containerization or Orchestration Experience**: No mention of Docker, Kubernetes, or similar tools.\n\n7. **Python Usage is Analytical, Not Engineering**: Her Python work involves Pandas/NumPy for data cleaning — not backend application development.\n\n8. **No Mentorship or Technical Leadership**: No evidence of mentoring engineers or leading technical initiatives.\n\n9. **No Payments or High-Volume Transaction Systems Experience**: Despite working in insurance (a regulated industry), there is no relevant payments domain experience.\n\n10. **Title and Career Trajectory Mismatch**: Her self-described summary explicitly identifies her as a \"data analyst,\" not a software engineer.\n\n---\n\nFINAL: REJECT"
+}

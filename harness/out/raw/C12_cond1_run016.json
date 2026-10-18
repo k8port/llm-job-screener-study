@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:17.030519+00:00",
+  "finished_utc": "2026-09-28T22:47:27.301493+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 476
+  },
+  "response": "## Assessment of Elise Thornbury for Senior Software Engineer – Payments Platform\n\n### Strengths / Evidence of Fit\n\n- **Domain match**: Currently works in payments (merchant payouts, transaction reporting, settlement events) — directly relevant to the Payments Platform role.\n- **Technical stack alignment**: Java/Spring Boot, PostgreSQL, Kafka, AWS (EKS, SQS, RDS), Docker, Kubernetes, GitHub Actions CI/CD — covers nearly every required and preferred qualification.\n- **Required qualifications check**:\n  - ✅ Backend language (Java, Python)\n  - ✅ RESTful APIs (design and consumption)\n  - ✅ Relational databases / SQL (PostgreSQL)\n  - ✅ Cloud (AWS)\n  - ✅ CI/CD and automated testing\n  - ✅ B.S. Computer Science (SMU, 2023)\n- **Preferred qualifications check**: Kafka ✅, Docker/Kubernetes ✅, Terraform (basic) ✅, payments industry ✅, Grafana ✅\n- **Location**: Addison, TX — compatible with Plano, TX hybrid requirement.\n\n### Key Concern\n\n- **Years of experience**: The role requires **5+ years**; Elise has approximately **3.5 years** of professional experience. This is a meaningful gap against a hard-stated requirement.\n- **Seniority signals**: Her Kafka contribution was described as supporting work *led by a senior engineer*, and her Terraform experience is noted as \"basic\" — suggesting she may not yet be fully operating at a senior/independent level.\n- **Mentorship**: No evidence of mentoring junior engineers or leading technical initiatives.\n\n### Conclusion\n\nWhile Elise is a strong mid-level engineer with excellent domain and technical alignment, she falls notably short of the stated 5+ year experience requirement and shows limited evidence of senior-level ownership, mentorship, or technical leadership. The gap is significant enough that there is insufficient evidence she could *successfully perform the role as described*.\n\nFINAL: REJECT"
+}

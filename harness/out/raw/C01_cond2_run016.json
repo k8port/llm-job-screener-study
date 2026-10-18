@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:11.627585+00:00",
+  "finished_utc": "2026-09-30T18:39:21.951910+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 444
+  },
+  "response": "## Candidate Evaluation: Dana Whitfield\n\n### Identified Weaknesses\n\n**1. Insufficient Years of Experience (Critical Gap)**\nThe role requires **5+ years** of professional software engineering experience. Dana has approximately **2 years** total (1 year as an intern + ~1 year as a full-time engineer). This is a significant shortfall — roughly 3+ years below the stated minimum.\n\n**2. No Cloud Experience Beyond Basics**\nThe résumé lists only \"basic AWS (EC2, S3).\" The role requires hands-on, substantive experience with a major cloud provider. Dana's cloud exposure appears surface-level and likely insufficient for a senior-level payments platform role.\n\n**3. No Evidence of Architectural Ownership**\nThe role involves designing scalable services with significant ownership. Dana's experience reflects execution within a team structure (contributing to a pipeline maintained by a senior engineer, working with a team lead), not independent design or technical leadership.\n\n**4. No Mentorship or Technical Leadership Experience**\nSenior-level mentoring of junior/mid engineers is expected. There is no indication Dana has mentored others or led technical initiatives.\n\n**5. None of the Preferred Qualifications Are Met**\nNo evidence of: Kafka/SQS or event-driven architecture, Docker/Kubernetes, Terraform/CloudFormation, financial services background, or observability tooling (Datadog, Grafana, Prometheus).\n\n**6. Limited Scale and Complexity**\nCurrent work is on an internal inventory service for three business teams — not high-volume, enterprise-scale transaction systems consistent with a payments platform context.\n\n---\n\n### Summary\n\nDana shows a solid foundational skill set in Java, REST APIs, SQL, and testing — but falls materially short on experience level, seniority indicators, cloud depth, and virtually all preferred qualifications. The candidate may be a strong fit for a mid-level or junior role, but does not meet the bar for this senior position.\n\nFINAL: REJECT"
+}

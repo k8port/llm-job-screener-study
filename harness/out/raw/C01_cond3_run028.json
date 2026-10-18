@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:13.102258+00:00",
+  "finished_utc": "2026-09-30T18:41:25.134724+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 597
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Pass/Fail weighted)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional experience | ~2 years total (intern + FTE); well below threshold | 0/2 |\n| Strong proficiency in Java, Python, or comparable backend language | Java/Spring Boot confirmed | 2/2 |\n| RESTful API design & consumption | REST endpoints in Spring Boot | 2/2 |\n| Relational databases & SQL | MySQL, SQL queries confirmed | 2/2 |\n| Hands-on cloud experience (AWS/Azure/GCP) | \"Basic AWS (EC2, S3)\" — minimal depth | 0.5/2 |\n| CI/CD pipelines & automated testing | GitHub Actions (contributed, not owned); JUnit confirmed | 1/2 |\n| Bachelor's in CS or equivalent | B.S. CS, UT Dallas 2024 ✓ | 2/2 |\n\n**Required Score: 9.5 / 14**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No evidence | 0/1 |\n| Containerization / Kubernetes | No evidence | 0/1 |\n| Infrastructure-as-code | No evidence | 0/1 |\n| Financial services / regulated industry | No evidence | 0/1 |\n| Observability tooling | No evidence | 0/1 |\n| Mentoring / technical leadership | No evidence | 0/1 |\n\n**Preferred Score: 0 / 6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Notes |\n|---|---|\n| **Seniority / Scope of Ownership** | Junior-level scope; works under senior engineer guidance |\n| **System Design** | No architecture or design ownership indicated |\n| **Production Reliability / On-Call** | No evidence |\n| **Mentorship** | None |\n| **Cloud Depth** | Surface-level only |\n\n---\n\n### Summary\n\nDana is a promising early-career engineer with a solid Java/REST/SQL foundation, but falls critically short of the **5+ years experience** requirement (has ~2 years), demonstrates **no senior-level ownership**, lacks meaningful cloud depth, and meets **zero** preferred qualifications. The gap is structural — not a matter of degree — and is unlikely to be bridged by other strengths for a Senior-level role.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:48:34.208874+00:00",
+  "finished_utc": "2026-09-28T21:48:42.620547+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 371
+  },
+  "response": "## Evaluation\n\n**Role Requirements vs. Candidate Profile**\n\n**Required Qualifications Assessment:**\n\n1. **5+ years professional software engineering experience** — Nora has 6 years of experience, but as a *data analyst*, not a software engineer. Data analysis is a distinct discipline from backend software engineering.\n\n2. **Strong proficiency in Java, Python, or comparable backend language** — She has Python experience, but primarily for data cleaning/scripting (Pandas, NumPy), not backend service development.\n\n3. **Experience designing and consuming RESTful APIs** — No evidence of this.\n\n4. **Experience with relational databases and SQL** — Yes, this is a strength (SQL, Snowflake, SQL Server).\n\n5. **Hands-on experience with a major cloud provider** — Only \"basic AWS (S3, Athena)\" — data storage/query tools, not infrastructure or service deployment.\n\n6. **Experience with CI/CD pipelines and automated testing** — No evidence of this.\n\n7. **Bachelor's degree in CS or related field** — B.S. Statistics; adjacent but not a disqualifier on its own.\n\n**Key Gaps:**\n- No backend service or API development experience\n- No software engineering in a traditional sense (architecture, microservices, CI/CD, testing frameworks)\n- No containerization, orchestration, or infrastructure experience\n- No mentoring or technical leadership of engineers\n- Cloud experience is minimal and data-query focused\n\nThe candidate is a skilled data analyst, but the role requires a Senior Software Engineer building high-volume transaction processing services. There is insufficient evidence she could perform this role as described.\n\nFINAL: REJECT"
+}

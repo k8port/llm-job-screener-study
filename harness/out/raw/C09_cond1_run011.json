@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:05.172672+00:00",
+  "finished_utc": "2026-09-28T22:22:14.995188+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 377
+  },
+  "response": "## Assessment: Raymond Dolliver\n\n### Strengths\n- **16 years of experience** — well exceeds the 5-year minimum\n- **Financial services background** — trust accounting and settlement processing directly relevant to a payments platform role (a preferred qualification)\n- **SQL/DB2 proficiency** — meets the relational database requirement\n- **Java experience** — listed, though Java 8 vintage\n- **Regulated industry experience** — audit documentation, high-priority incident resolution align with the role's compliance and reliability demands\n- **B.S. Computer Science** from UT Arlington — meets the education requirement\n\n### Significant Gaps\n- **Cloud experience**: No AWS, Azure, or GCP listed — this is a **required** qualification with no evidence of exposure\n- **Modern backend development**: Java 8 with JSPs/Servlets is well behind current expectations for designing scalable microservices and RESTful APIs; no REST API design/consumption evidence\n- **CI/CD**: Jenkins listed as \"basic\" only; no automated testing experience noted\n- **No containerization** (Docker/Kubernetes), **no IaC** (Terraform), **no message brokers** (Kafka/SQS), **no observability tooling** — all preferred but collectively paint a picture of significant skills gaps\n- **Architecture ownership**: Profile reflects a maintenance/support role, not service design or ownership\n\n### Conclusion\nWhile Raymond has deep domain experience in financial services, his technical stack is mainframe-centric and materially behind the requirements of a modern cloud-native backend engineering role. Several **required** qualifications — cloud experience, modern API design, CI/CD — lack sufficient evidence.\n\nFINAL: REJECT"
+}

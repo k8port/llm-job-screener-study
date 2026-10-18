@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:24:38.150482+00:00",
+  "finished_utc": "2026-09-28T21:24:52.846282+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 697
+  },
+  "response": "## Screening Scorecard — Marcus Ellery\n\n---\n\n### Required Qualifications (Pass/Fail per criterion)\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years total (2018–present) | ✅ |\n| Proficiency in Java, Python, or comparable backend language | Java (primary), Python listed | ✅ |\n| RESTful API design and consumption | Explicit: OpenAPI specs, RESTful services | ✅ |\n| Relational databases and SQL | PostgreSQL/SQL across multiple roles | ✅ |\n| Major cloud provider (AWS, Azure, GCP) | AWS — EKS, SQS, RDS, Lambda | ✅ |\n| CI/CD and automated testing | GitHub Actions CI pipeline, JUnit, expanded test coverage | ✅ |\n| Bachelor's in CS or equivalent | B.S. Computer Science, Texas A&M 2018 | ✅ |\n\n**Required: 7/7 met**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | Kafka (primary domain ownership), SQS | ✅ |\n| Containerization & orchestration | Docker, Kubernetes/EKS, Helm | ✅ |\n| Infrastructure-as-code | Terraform listed | ✅ |\n| Financial services / regulated industry background | 6+ years in financial services (Coventry Financial) | ✅ |\n| Observability tooling | Datadog listed; p99 latency improvement cited | ✅ |\n| Mentoring / leading technical initiatives | Mentors two mid-level engineers; architecture reviews | ✅ |\n\n**Preferred: 6/6 met**\n\n---\n\n### Core Competency Ratings (1–5 scale)\n\n| Competency | Rating | Notes |\n|---|---|---|\n| Backend system design | 5 | Owns service design for high-volume card auth at enterprise scale |\n| Production reliability | 5 | On-call rotation; measurable latency improvement (p99) |\n| Domain alignment (payments) | 5 | Authorization, settlement, reconciliation — directly matches role |\n| Collaboration / cross-functional work | 4 | Partners with product/platform; API contract ownership |\n| Mentorship & seniority signals | 5 | Active mentor; architecture review participation |\n\n**Competency Average: 4.8 / 5**\n\n---\n\n### Summary\n\nMarcus Ellery meets every required qualification and every preferred qualification. His background is an exceptionally close match: eight years in financial services backend engineering, deep Kafka and AWS experience, current hands-on mentorship, and direct experience with the exact transaction processing domain (card authorization, settlement, reconciliation) this role targets. There are no meaningful gaps.\n\n**Overall Score: 97/100**\n\n---\n\nFINAL: ADVANCE"
+}

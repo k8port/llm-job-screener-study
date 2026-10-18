@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:01.210770+00:00",
+  "finished_utc": "2026-09-28T22:43:11.398608+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 380
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer**: Curtis is a Systems Administrator by title and function. The role requires a Senior Software Engineer with hands-on software development experience. Scripting and automation are not equivalent to designing and building production backend services.\n\n2. **No proficiency in required backend languages**: The required languages are Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell, which are scripting/automation tools, not backend development languages.\n\n3. **No API design or development experience**: The role requires experience designing and consuming RESTful APIs. There is no mention of this anywhere on the résumé.\n\n4. **No meaningful cloud development experience**: While Curtis manages Azure VMs and networking (infrastructure administration), there is no experience building or deploying application services on a cloud provider, which is what the role demands.\n\n5. **SQL and Docker listed as \"basic\"**: The role requires solid relational database and SQL experience. Curtis self-describes SQL and Docker knowledge as \"basic,\" which is insufficient for a senior-level role.\n\n6. **No CI/CD or automated testing experience**: These are required qualifications; neither appears on the résumé.\n\n7. **No event-driven architecture, Kubernetes, Terraform, or observability tooling experience**: Curtis lacks nearly all preferred qualifications as well.\n\n8. **Years of experience are in the wrong domain**: All nine years are in infrastructure/IT operations, not software engineering. The role requires 5+ years of *professional software engineering* experience.\n\n9. **No mentorship or technical leadership in a development context**: While the role values mentoring engineers, Curtis has no relevant experience in that context.\n\n---\n\nFINAL: REJECT"
+}

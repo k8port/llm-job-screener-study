@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:03.978822+00:00",
+  "finished_utc": "2026-09-28T22:51:12.422891+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 344
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires **5+ years** of professional software engineering experience. Elise graduated in 2023 and has been working since 2023, giving her approximately **2–2.5 years** of total experience — roughly half the minimum requirement. This is the most significant disqualifying factor.\n\n2. **No evidence of mentoring or technical leadership**: The role requires mentoring mid-level and junior engineers and leading technical initiatives. Her résumé shows no indication of mentoring others or leading any engineering initiatives independently. She explicitly notes she \"contributed to\" Kafka partitioning work \"led by a senior engineer,\" suggesting she is not yet operating at a senior level.\n\n3. **Limited cloud depth**: While she lists AWS services, her experience appears scoped to EKS/Helm deployments rather than broader cloud architecture, infrastructure design, or cloud-native service ownership at a senior level.\n\n4. **Terraform listed as \"basic\"**: Infrastructure-as-code is a preferred qualification, and her own self-assessment flags this as a weak area.\n\n5. **No demonstrated architecture ownership**: The JD emphasizes designing systems and owning service design end-to-end. Her résumé reflects implementation and contribution, not architectural decision-making or ownership at the scope expected of a senior engineer.\n\n6. **Early career trajectory**: Software Engineer → Software Engineer II within ~1 year suggests a promising but early-stage career, not a senior-level profile.\n\n---\n\nFINAL: REJECT"
+}

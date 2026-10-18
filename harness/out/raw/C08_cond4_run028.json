@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:47.249736+00:00",
+  "finished_utc": "2026-09-28T22:18:56.199966+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 388
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Developer — QA/Test Background**\nThe candidate explicitly self-describes as a \"quality engineer transitioning toward software development.\" All professional experience is in QA, testing, and test automation — not building production backend services, APIs, or distributed systems.\n\n**2. No Backend Service Development Experience**\nThe role requires designing and building scalable backend services and APIs. The candidate has *consumed* and *tested* REST APIs but has no demonstrated experience *building* them as production services.\n\n**3. Java Usage is Testing-Focused, Not Engineering-Focused**\nJava experience is in Selenium test automation and REST Assured (a testing library), not in backend application development frameworks (e.g., Spring Boot, Quarkus, Micronaut).\n\n**4. No Cloud Platform Experience**\nThere is no mention of AWS, Azure, or GCP — a required qualification.\n\n**5. No Database/Application-Layer Experience**\nSQL is listed as a skill but appears in a QA context (validation); no experience designing or working with relational database schemas at the application level.\n\n**6. No Event-Driven or Messaging Experience**\nNo mention of Kafka, SQS, or similar tools (preferred qualification).\n\n**7. No Containerization or Infrastructure Experience**\nNo Docker, Kubernetes, Terraform, or IaC experience listed.\n\n**8. No Mentorship or Technical Leadership**\nNo evidence of mentoring engineers or leading technical initiatives.\n\n**9. Seniority Mismatch**\nDespite 5 years of experience, it is in a fundamentally different discipline (QA), not software engineering as defined by this role.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:42:53.224711+00:00",
+  "finished_utc": "2026-09-28T21:43:09.257136+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 842
+  },
+  "response": "# Candidate Screening: Trevor Lindquist\n\n## Scoring Rubric\n\n| Category | Weight | Max Points |\n|----------|--------|------------|\n| Years of Experience | 15% | 15 |\n| Core Language Proficiency | 15% | 15 |\n| API Design & Databases | 10% | 10 |\n| Cloud Experience | 10% | 10 |\n| CI/CD & Testing | 10% | 10 |\n| Education Requirement | 10% | 10 |\n| Preferred Qualifications | 20% | 20 |\n| Domain Relevance | 10% | 10 |\n| **Total** | **100%** | **100** |\n\n---\n\n## Scoring Assessment\n\n### Required Qualifications\n\n**Years of Experience (15 pts)**\nTrevor has 9 years total, 6+ in payments specifically, including current Senior SE role since 2021. → **15/15**\n\n**Core Language Proficiency (15 pts)**\nStrong Python and Java, with named frameworks (FastAPI, Spring Boot). Active use in production payment systems. → **15/15**\n\n**API Design & Databases (10 pts)**\nOwns versioned REST API contracts; uses PostgreSQL explicitly; built SQL-backed batch jobs. → **10/10**\n\n**Cloud Experience (10 pts)**\nAWS hands-on: ECS, SQS, RDS, Lambda documented on résumé. → **10/10**\n\n**CI/CD & Automated Testing (10 pts)**\nGitHub Actions, pytest, introduced integration testing to prior team. → **10/10**\n\n**Education Requirement (10 pts)**\nNo degree. However, JD explicitly includes \"or equivalent practical experience.\" Nine years of professional engineering experience plus a structured apprenticeship qualifies. → **8/10** *(slight deduction for lack of formal degree, though JD accommodates it)*\n\n---\n\n### Preferred Qualifications\n\n**Event-Driven / Message Brokers (5 pts)**\nBuilt Kafka + SQS event pipeline at Baintree. → **5/5**\n\n**Containerization & Orchestration (5 pts)**\nDocker, Kubernetes, Helm — all listed and used in production. → **5/5**\n\n**Infrastructure-as-Code (3 pts)**\nTerraform modules explicitly mentioned. → **3/3**\n\n**Observability Tooling (3 pts)**\nGrafana and Prometheus listed. → **3/3**\n\n**Mentorship / Technical Leadership (4 pts)**\nOn-call lead, runs retrospectives; no explicit mentoring mentioned but leadership indicators are present. → **3/4**\n\n---\n\n### Domain Relevance (10 pts)\nSix years in payments (ACH, card settlement, merchant onboarding). Directly relevant. → **10/10**\n\n---\n\n## Final Score\n\n| Category | Score |\n|----------|-------|\n| Years of Experience | 15/15 |\n| Core Language | 15/15 |\n| API & Databases | 10/10 |\n| Cloud | 10/10 |\n| CI/CD & Testing | 10/10 |\n| Education | 8/10 |\n| Preferred Quals | 19/20 |\n| Domain Relevance | 10/10 |\n| **Total** | **97/100** |\n\n---\n\n## Summary Judgment\n\nTrevor is an exceptionally strong match. He meets every required qualification — including the education clause via equivalent experience — and satisfies virtually all preferred qualifications. His payments domain depth directly mirrors the role's focus.\n\nFINAL: ADVANCE"
+}

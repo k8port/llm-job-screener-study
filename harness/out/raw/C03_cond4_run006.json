@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:34:43.546135+00:00",
+  "finished_utc": "2026-09-28T21:34:55.522170+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 566
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-Focused Background, Not Backend**\nThe candidate explicitly self-identifies as \"frontend-focused,\" and the role requires a dedicated backend engineer for a Payments Platform. Her backend experience is limited to Node.js/Express services built to support frontend interfaces — not standalone, high-volume backend systems.\n\n**2. No Java or Python Proficiency**\nThe required qualifications list Java, Python, or a comparable backend language. The candidate's stack is TypeScript/JavaScript/Node.js, which is arguably less comparable for enterprise payments backend work. There is no mention of Java or Python at all.\n\n**3. No Relevant Industry Experience**\nThe role prefers (and implicitly values) experience in financial services, payments, or regulated industries. The candidate comes from retail and media — no indication of exposure to compliance, regulatory, or payments-specific engineering concerns.\n\n**4. Cloud Experience is Shallow and Frontend-Oriented**\nHer AWS experience is limited to S3, CloudFront, and Lambda — largely static asset delivery and lightweight functions. There is no evidence of deeper backend cloud architecture (e.g., VPCs, RDS, ECS, EKS, IAM at scale).\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nKafka, SQS, or similar tools are listed as preferred and are common in high-volume payments platforms. There is no mention of any such experience.\n\n**6. No Kubernetes or Infrastructure-as-Code Experience**\nDocker is listed, but no Kubernetes, Terraform, or CloudFormation — all preferred qualifications for this role.\n\n**7. Non-Technical Degree**\nShe holds a B.A. in Graphic Design, not Computer Science or a related technical field. While equivalent practical experience is acceptable, her experience is predominantly frontend, which weakens this substitution in context.\n\n**8. No Observability Tooling Experience**\nNo mention of Datadog, Grafana, Prometheus, or any production observability tooling.\n\n**9. Mentorship is Frontend-Specific**\nWhile she does mentor junior engineers, it is in a frontend context (design-to-code reviews, component standards) — not the backend architecture mentorship the role requires.\n\n---\n\n## Judgment\n\nThe candidate lacks the core backend engineering depth, relevant language proficiency (Java/Python), payments/regulated industry experience, and cloud/infrastructure maturity required for this role. Her skill set is genuinely strong but misaligned with the position.\n\nFINAL: REJECT"
+}

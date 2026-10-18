@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:56:52.438069+00:00",
+  "finished_utc": "2026-09-28T21:57:00.782687+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 401
+  },
+  "response": "## Evaluation of Alan Brightwell\n\n### Strengths vs. Requirements\n\n**Required Qualifications:**\n- ✅ **5+ years experience** – 7 years total (2019–present)\n- ✅ **Strong proficiency in Java** – Java/Spring Boot is his primary stack\n- ✅ **RESTful API design and consumption** – explicitly listed across both roles\n- ✅ **Relational databases and SQL** – Oracle, SQL, PL/SQL experience\n- ✅ **CI/CD pipelines and automated testing** – Jenkins, JUnit, integration test stages\n- ✅ **Bachelor's degree** – B.S. Computer Engineering, Texas Tech\n- ⚠️ **Cloud provider experience (AWS/Azure/GCP)** – **No evidence whatsoever**; résumé explicitly describes an on-premise environment\n\n**Preferred Qualifications:**\n- ✅ Mentoring engineers and leading technical initiatives\n- ✅ On-call rotation participation\n- ⚠️ JMS listed (message broker adjacent, but not Kafka/SQS)\n- ❌ No containerization/Kubernetes/Docker\n- ❌ No infrastructure-as-code\n- ❌ No observability tooling\n- ❌ No financial services/regulated industry background\n\n### Key Gap\n\nThe most significant concern is the **complete absence of cloud experience**, which is a **required qualification**. This is not a minor gap — the role is cloud-native (a payments platform built on a major cloud provider), and Alan's entire background is on-premise enterprise infrastructure. This is a fundamental mismatch for a senior-level role with significant ownership over service design and delivery.\n\nFINAL: REJECT"
+}

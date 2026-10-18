@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:31:32.149216+00:00",
+  "finished_utc": "2026-09-28T21:31:46.259307+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 886,
+    "output_tokens": 602
+  },
+  "response": "## Screening Analysis: Priya Ashford\n\n### Potential Weaknesses\n\n**1. Backend Engineering Depth (Critical Gap)**\nPriya self-identifies as \"frontend-focused.\" Her backend experience is limited to Node.js/Express services built as supporting layers for a frontend portal — session handling and API aggregation. The role requires designing and building scalable backend services processing high-volume transactions, which is a materially different scope and complexity level.\n\n**2. Language Stack Mismatch**\nThe role requires strong proficiency in Java, Python, or a \"comparable backend language.\" Priya's primary languages are TypeScript/JavaScript/Node.js. While Node.js can be considered a backend language, her usage appears thin (aggregation layer, content API), and Java/Python — which dominate enterprise payments engineering — are absent from her résumé entirely.\n\n**3. No Payments, Financial Services, or Regulated Industry Experience**\nThe role is on a Payments Platform team. Priya's background is entirely in retail web/marketing. The preferred qualification of financial services experience is completely unmet.\n\n**4. Cloud Experience is Frontend-Oriented**\nHer AWS experience (S3, CloudFront, Lambda) reflects a frontend/CDN use case, not backend service infrastructure. No evidence of RDS, ECS, EKS, SQS, SNS, or other backend-relevant AWS services.\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nKafka, SQS, and similar tools are listed as preferred qualifications. No mention anywhere on the résumé.\n\n**6. No Kubernetes or Infrastructure-as-Code Experience**\nDocker is listed, but no Kubernetes, Terraform, or CloudFormation — all preferred qualifications.\n\n**7. No Observability Tooling Experience**\nDatadog, Grafana, Prometheus — none referenced.\n\n**8. Education Mismatch**\nB.A. in Graphic Design does not align with the preferred CS or engineering degree. While practical experience can substitute, her backend engineering experience is itself limited.\n\n**9. No On-Call / Production Systems Ownership**\nThe role requires on-call rotation and ownership of high-volume production systems. No indication of this type of operational responsibility.\n\n### Summary\n\nPriya meets some baseline criteria (7 years of experience, REST APIs, SQL/PostgreSQL, CI/CD, some AWS, mentoring). However, she falls short on nearly every role-critical and preferred dimension: backend engineering depth, relevant language stack, payments/regulated industry context, cloud infrastructure breadth, and distributed systems experience. The gaps are not marginal — they are central to what this role requires.\n\nFINAL: REJECT"
+}

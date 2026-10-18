@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:47.177827+00:00",
+  "finished_utc": "2026-09-28T22:48:56.898859+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 391
+  },
+  "response": "## Screening Analysis: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient years of experience (Critical gap):** The job requires **5+ years** of professional software engineering experience. Elise's résumé shows approximately **3.5 years total** (2023–present, including an overlapping graduation date of 2023). She falls meaningfully short of the minimum required experience threshold.\n\n2. **Kafka involvement was limited/supporting:** Her résumé explicitly notes that the consumer group partitioning work was \"led by a senior engineer,\" suggesting her event-driven architecture experience is meaningful but not at a senior ownership level.\n\n3. **Terraform listed as \"basic\":** The role lists infrastructure-as-code as a preferred qualification; her self-qualifier of \"basic\" suggests limited depth here.\n\n4. **No explicit mentorship or technical leadership experience:** The role requires mentoring mid-level/junior engineers and leading technical initiatives. There is no evidence of this in her résumé.\n\n5. **No regulated industry depth beyond current payments role:** Her payments experience is real but recent (~1–2 years), with no prior background in financial services or other regulated industries.\n\n6. **Cloud breadth is narrow:** Experience appears concentrated in AWS/EKS; no evidence of broad multi-cloud or advanced cloud architecture work expected at the senior level.\n\n### Summary\n\nThe most disqualifying factor is the **experience gap** — 3.5 years versus the 5+ year requirement. The other weaknesses (limited leadership, supporting rather than owning architecture decisions) are consistent with a mid-level profile, not a senior one. While her technical stack alignment is strong, she does not yet meet the seniority bar this role requires.\n\nFINAL: REJECT"
+}

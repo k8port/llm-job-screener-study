@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:57.239642+00:00",
+  "finished_utc": "2026-09-28T22:10:07.877813+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 440
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience listed.** The job description lists Java as the primary backend language example, and the candidate's entire stack is Python. While Python is acceptable, there is no mention of Java or any JVM-based language, which may be a gap depending on the team's codebase.\n\n2. **Data engineering focus, not backend/payments engineering.** The candidate's background is centered on data pipelines, ETL, and analytics serving — not transactional backend services or payments processing. The role explicitly targets a Payments Platform with high-volume transaction processing for enterprise clients, a meaningfully different domain.\n\n3. **No financial services or payments experience.** The job lists a background in financial services, payments, or a regulated industry as a preferred qualification. The candidate's industries (analytics, healthcare reporting) do not clearly include payments or financial services at the transaction-processing layer.\n\n4. **API work is secondary/peripheral.** The candidate designs REST APIs \"exposing pipeline outputs\" — a supporting function of their data role — rather than as a primary engineering responsibility. The role requires deep ownership of API design as a core deliverable.\n\n5. **No explicit mentorship experience listed.** The job requires mentoring mid-level and junior engineers, and the candidate's résumé includes no mention of mentorship, tech leading, or guiding other engineers.\n\n6. **B.S. in Information Systems, not Computer Science or directly related field.** A minor point, but the JD specifies CS or a related field; Information Systems is adjacent but not identical.\n\n---\n\nDespite these gaps, the candidate meets several required qualifications (8 years experience, Python, SQL, REST APIs, AWS, CI/CD, Kafka, Docker/Kubernetes, Terraform, Prometheus/Grafana). However, the domain mismatch, secondary API ownership, and absence of mentorship experience represent meaningful gaps for a **Senior** role on a **Payments Platform** team.\n\nFINAL: REJECT"
+}

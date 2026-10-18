@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:56:03.083553+00:00",
+  "finished_utc": "2026-09-28T21:56:13.394796+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 472
+  },
+  "response": "## Evaluation of Alan Brightwell\n\n### Strengths vs. Required Qualifications\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years experience | 7 years (2019–present) | ✅ Met |\n| Java/Python/backend language | Java/Spring Boot throughout | ✅ Met |\n| RESTful API design & consumption | Explicit ownership of REST API design | ✅ Met |\n| Relational databases & SQL | Oracle, SQL, PL/SQL, stored procedures | ✅ Met |\n| Major cloud provider (AWS/Azure/GCP) | **No mention anywhere** | ❌ Gap |\n| CI/CD pipelines & automated testing | Jenkins pipelines, JUnit | ✅ Met |\n| Bachelor's in CS or related | B.S. Computer Engineering, Texas Tech | ✅ Met |\n\n### Preferred Qualifications\n- **Event-driven/messaging**: JMS listed — partial credit, but not Kafka/SQS\n- **Containerization/Kubernetes**: No mention\n- **Infrastructure-as-code**: No mention\n- **Financial services/payments background**: Manufacturing only\n- **Observability tooling**: No mention\n- **Mentoring/technical leadership**: ✅ Strong evidence (mentors 2 engineers, leads code review for team of 6)\n\n### Key Concern\nThe most significant gap is the **complete absence of cloud experience**, which is a stated required qualification for a role explicitly on a cloud-based payments platform. The candidate has worked entirely in an on-premise enterprise environment, with no indication of cloud exposure even at a learning or adjacent level. Additionally, the payments/financial domain experience is absent, and several preferred qualifications (containers, IaC, observability, Kafka) are missing.\n\nWhile Alan is a solid backend engineer with relevant Java and API skills, the cloud experience gap is a hard requirement that is not met, and the overall profile suggests significant ramp-up would be needed for a senior role on a cloud-native payments platform.\n\nFINAL: REJECT"
+}

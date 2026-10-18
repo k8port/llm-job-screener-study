@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:58.447163+00:00",
+  "finished_utc": "2026-09-28T21:50:08.396324+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 453
+  },
+  "response": "## Screening Assessment: Nora Kessler\n\n### Identified Weaknesses\n\n**Critical Gaps (Required Qualifications)**\n\n1. **Not a software engineer — data/analytics background**: Nora's entire career has been in data analysis and reporting, not backend software engineering. She has not built or maintained production services or APIs.\n\n2. **No backend service/API development experience**: The role requires designing and building scalable backend services and RESTful APIs. There is no evidence of this in her résumé.\n\n3. **No CI/CD pipeline experience**: Nothing in her résumé references CI/CD tooling (Jenkins, GitHub Actions, GitLab CI, etc.) or automated testing of software.\n\n4. **Minimal cloud experience**: She lists \"basic AWS (S3, Athena)\" — these are data querying/storage tools, not the compute, networking, or application infrastructure relevant to this role.\n\n5. **No relational database experience in an engineering context**: While she uses SQL heavily, it is purely for analytics/reporting, not for application database design, schema management, or transactional systems.\n\n6. **No Java experience**: Java is the primary language listed in the job description; she has no Java background.\n\n**Preferred Qualification Gaps**\n\n7. **No event-driven architecture or message broker experience** (Kafka, SQS, etc.)\n8. **No containerization or orchestration experience** (Docker, Kubernetes)\n9. **No infrastructure-as-code experience** (Terraform, CloudFormation)\n10. **No observability tooling experience** (Datadog, Grafana, Prometheus)\n11. **No evidence of mentoring engineers or leading technical initiatives**\n\n### Summary\n\nNora is a competent data professional with strong SQL and Python skills in an analytics context, but she does not meet the core requirements of this Senior Software Engineering role. The gap is not marginal — it is fundamental. The role requires production backend engineering experience that is entirely absent from her profile.\n\nFINAL: REJECT"
+}

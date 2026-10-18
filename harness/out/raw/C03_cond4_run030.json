@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:35:53.428027+00:00",
+  "finished_utc": "2026-09-28T21:36:05.328237+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 510
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-Focused, Not Backend-Focused**\nThe candidate self-identifies as \"frontend-focused\" and their primary experience is building React/TypeScript UIs. The role requires a dedicated backend engineer designing high-volume transaction processing services. Their backend work (Node.js/Express aggregation layer, session handling) is supplementary and supportive of frontend needs, not a primary backend engineering focus.\n\n**2. No Java or Python Experience**\nThe job requires strong proficiency in Java, Python, or a comparable backend language. The candidate works in JavaScript/TypeScript/Node.js. While Node.js could be considered \"comparable,\" the context of the role (payments platform, enterprise-scale, high-volume transactions) suggests a more traditional backend language stack is expected, and the candidate has no listed experience with Java or Python whatsoever.\n\n**3. No Payments, Financial Services, or Regulated Industry Background**\nTheir background is retail (e-commerce portal) and media marketing sites — no exposure to financial services, payments processing, or regulated environments, which is a meaningful preferred qualification for this domain.\n\n**4. Non-CS Degree**\nThe candidate holds a B.A. in Graphic Design, not Computer Science or a related technical field. The JD prefers CS or equivalent, and this background signals a design-to-development career path rather than a core engineering one.\n\n**5. Limited Cloud Depth**\nAWS experience is limited to S3, CloudFront, and Lambda — primarily frontend/content delivery services. No evidence of backend-relevant AWS services (e.g., RDS, ECS, EKS, SQS, API Gateway at scale).\n\n**6. No Event-Driven Architecture or Message Broker Experience**\nNo mention of Kafka, SQS (beyond implied AWS familiarity), or any event-driven system design — a preferred qualification for this payments platform role.\n\n**7. No Observability Tooling Experience**\nNo mention of Datadog, Grafana, Prometheus, or any production observability stack.\n\n**8. Mentorship Scope is Limited**\nMentorship is limited to junior frontend engineers, not the broader technical leadership expected of a Senior Software Engineer on a backend platform team.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:21:13.685417+00:00",
+  "finished_utc": "2026-09-28T21:21:22.169543+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 917,
+    "output_tokens": 417
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Check:**\n\n- ✅ **5+ years experience** — 8 years total (2018–present)\n- ✅ **Java/Python or comparable backend language** — Java/Spring Boot is a primary skill, Python listed\n- ✅ **RESTful API design and consumption** — Explicit experience; maintains OpenAPI specs\n- ✅ **Relational databases and SQL** — PostgreSQL/SQL in current and prior roles\n- ✅ **Major cloud provider** — AWS (EKS, SQS, RDS, Lambda)\n- ✅ **CI/CD and automated testing** — GitHub Actions CI pipeline, JUnit, automated test coverage expansion\n- ✅ **Bachelor's in CS or equivalent** — B.S. Computer Science, Texas A&M, 2018\n\n**Preferred Qualifications Check:**\n\n- ✅ **Event-driven architecture / message brokers** — Kafka (topics, consumer groups), SQS\n- ✅ **Containerization and orchestration** — Docker, Kubernetes/EKS, Helm\n- ✅ **Infrastructure-as-code** — Terraform\n- ✅ **Financial services / regulated industry** — Entire career in financial/payments domain\n- ✅ **Observability tooling** — Datadog\n- ✅ **Mentoring / technical leadership** — Mentors two mid-level engineers, on-call ownership\n\n**Summary:** Marcus meets every required qualification and nearly every preferred qualification. His background is an exceptionally strong match — he is currently doing work nearly identical to what this role describes (card authorization processing, Kafka-based event-driven systems, mentoring, on-call). He is based locally in Plano, TX.\n\nFINAL: ADVANCE"
+}

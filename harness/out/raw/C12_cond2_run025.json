@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:55.371420+00:00",
+  "finished_utc": "2026-09-28T22:49:06.329477+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 453
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Potential Weaknesses Identified\n\n1. **Insufficient years of experience (most significant gap):** The role requires **5+ years** of professional software engineering experience. Thornbury's résumé reflects approximately **3.5 years total** (SE role starting 2023, SE II starting 2024), which falls meaningfully short of the minimum stated requirement. Her own summary confirms \"three and a half years.\"\n\n2. **Limited seniority and ownership:** The role emphasizes significant ownership over service design and delivery, as well as leading architecture discussions. Thornbury's Kafka contribution is explicitly described as work \"led by a senior engineer,\" suggesting she is still operating in a supporting capacity rather than a leading one.\n\n3. **No mentorship experience documented:** The role requires mentoring mid-level and junior engineers. There is no evidence of mentorship or technical leadership of any kind on her résumé.\n\n4. **Infrastructure-as-code is superficial:** Terraform is listed as \"basic,\" which does not align well with the preferred IaC experience.\n\n5. **Recently graduated (2023):** Her B.S. was awarded in 2023, meaning some or all of her experience may include internships or part-time work that inflates the headline timeline, though this is unclear.\n\n### Strengths Noted (for balance)\n- Strong domain alignment (payments)\n- Relevant tech stack (Java, Spring Boot, Kafka, AWS, Kubernetes, PostgreSQL, Grafana)\n- Located near Plano, TX (hybrid-compatible)\n- Cloud, CI/CD, and observability experience present\n\n### Summary\n\nThe **hard threshold of 5+ years of experience is not met**, and the candidate shows limited signs of the seniority, ownership, and mentorship expected at this level. The experience gap is not minor (roughly 1.5 years short), and qualitative indicators reinforce that she is still growing into a senior role rather than operating at one.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:34:58.642524+00:00",
+  "finished_utc": "2026-09-28T21:35:07.571969+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 378
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps Against Required Qualifications:**\n\n1. **Backend language proficiency**: The role requires strong proficiency in Java, Python, or a comparable backend language. Priya's background is almost entirely JavaScript/TypeScript/Node.js in a frontend context. Her backend work is limited to an aggregation/session layer supporting a UI portal — not the kind of high-volume transaction processing backend the role requires.\n\n2. **Not a backend engineer by profile**: Her own summary describes herself as \"frontend-focused.\" The Payments Platform role is explicitly a backend services role with significant ownership over service design and delivery.\n\n3. **Degree mismatch**: The job requires a B.S. in Computer Science or related field (or equivalent experience). She holds a B.A. in Graphic Design — a non-technical degree — and her practical experience is UI/frontend-heavy, making the \"equivalent experience\" equivalency weak for a senior backend role.\n\n4. **No payments, financial services, or regulated industry experience**: No evidence of domain familiarity relevant to enterprise payments.\n\n5. **No cloud infrastructure depth**: Her AWS experience is limited to S3, CloudFront, and Lambda — CDN and lightweight compute services typical of frontend deployments, not backend platform work.\n\n6. **No event-driven architecture or message broker experience**: No mention of Kafka, SQS, or similar tools.\n\n7. **No Kubernetes or infrastructure-as-code experience**: Docker is listed but no orchestration or Terraform/CloudFormation experience.\n\n8. **No observability tooling experience**: No Datadog, Grafana, or Prometheus mentioned.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:16.958443+00:00",
+  "finished_utc": "2026-09-28T22:48:27.435789+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 432
+  },
+  "response": "## Screening Analysis: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient Years of Experience (Critical Gap)**\nThe role requires **5+ years** of professional software engineering experience. Thornbury has approximately **3.5 years** (2023 graduation, employment from 2023–present), falling roughly 1.5 years short of the stated minimum. This is a hard requirement, not a preferred one.\n\n2. **No Demonstrated Mentorship Experience**\nThe role explicitly requires mentoring mid-level and junior engineers. There is no mention of mentoring, tech lead duties, or leading technical initiatives anywhere on the résumé. This is also listed as a preferred qualification, further underscoring the gap.\n\n3. **Limited Ownership / Leadership on Complex Work**\nThe Kafka partitioning work is explicitly described as \"led by a senior engineer,\" with Thornbury contributing. This suggests she is still operating in a supporting or mid-level capacity rather than at a senior ownership level.\n\n4. **Terraform Listed as \"Basic\"**\nInfrastructure-as-code experience is a preferred qualification; her self-described \"basic\" Terraform proficiency is minimal and unlikely to differentiate her.\n\n5. **Cloud Depth May Be Limited**\nWhile AWS services appear on the résumé, the breadth and depth of cloud architecture experience typical of a senior role is not demonstrated beyond deployment tooling (EKS, Helm).\n\n6. **Early Career Progression**\nHer current title is \"Software Engineer II,\" which is typically a mid-level designation—not yet at the senior level expected for this role.\n\n### Summary\n\nThornbury has a relevant domain background (payments), the right tech stack, and strong foundational qualifications. However, the experience gap (~1.5 years below the minimum), absence of mentorship history, and mid-level seniority indicators are material weaknesses against a Senior-level requirement.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:48:23.982692+00:00",
+  "finished_utc": "2026-09-28T21:48:31.324781+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 340
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional software engineering | 6 years total, but as a **data analyst**, not software engineer | ❌ |\n| Strong proficiency in Java, Python, or comparable backend language | Python used for scripting/data cleaning; no backend development evidence | ⚠️ Weak |\n| Experience designing and consuming RESTful APIs | No mention anywhere | ❌ |\n| Relational databases and SQL | Strong SQL experience | ✅ |\n| Hands-on experience with major cloud provider | \"Basic AWS (S3, Athena)\" — minimal/surface level | ❌ |\n| CI/CD pipelines and automated testing | No mention | ❌ |\n| Bachelor's degree in CS or related field | B.S. Statistics | ✅ |\n\n**Key Gaps:**\n- Candidate is a **data analyst**, not a software engineer — fundamentally different role\n- No backend service development, API design, or software architecture experience\n- No cloud infrastructure depth (just basic S3/Athena usage)\n- No CI/CD, containerization, distributed systems, or observability experience\n- Python usage is limited to data manipulation scripts, not production backend services\n\nThe candidate lacks the core competencies required for a Senior Software Engineer role on a Payments Platform team. There is insufficient evidence she could perform this role as described.\n\nFINAL: REJECT"
+}

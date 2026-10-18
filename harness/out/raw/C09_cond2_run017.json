@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:37.844483+00:00",
+  "finished_utc": "2026-09-28T22:23:51.670171+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 612
+  },
+  "response": "## Screening Assessment: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n**1. No cloud experience**\nThe role requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Raymond's résumé shows no cloud exposure whatsoever — all work is on-premises, mainframe (z/OS), and legacy enterprise infrastructure. This is a hard required qualification.\n\n**2. Outdated Java; no modern backend frameworks**\nThe role calls for strong proficiency in Java or comparable backend language. Raymond uses Java 8 with JSPs and Servlets — technologies from the mid-2000s era. There is no mention of Spring Boot, microservices, REST API development, or any modern framework. This is a meaningful gap for a Payments Platform team building scalable backend services.\n\n**3. No RESTful API experience**\nDesigning and consuming RESTful APIs is a required qualification. Raymond's résumé describes web access layers via JSP/Servlets but makes no reference to REST APIs.\n\n**4. No CI/CD pipeline experience beyond basics**\nCI/CD is a required qualification. Raymond lists only \"Jenkins (basic),\" suggesting minimal practical engagement with modern CI/CD practices.\n\n**5. No cloud-native or container experience**\nDocker and Kubernetes are preferred. No evidence of either.\n\n**6. No event-driven architecture or messaging experience**\nKafka, SQS, or similar tools are preferred for this payments role. No indication of any exposure.\n\n**7. No observability tooling experience**\nDatadog, Grafana, Prometheus — none referenced.\n\n**8. Technology stack is largely legacy**\nThe core of Raymond's experience — COBOL, JCL, z/OS, DB2 batch processing — is valuable in mainframe environments but does not translate to the cloud-native, microservices-oriented role being hired for.\n\n### Strengths Noted\n- 16 years of experience, well above the 5-year minimum\n- Strong SQL and database background (DB2, Oracle)\n- Regulated financial services background (trust accounting, settlement) — directly relevant domain\n- B.S. in Computer Science satisfies the education requirement\n- Production incident response experience in a high-stakes environment\n\n### Summary Judgment\n\nRaymond's domain background (financial services, settlement processing) is genuinely relevant, and his longevity and database skills are assets. However, he fails to meet **multiple required qualifications** — specifically cloud experience, modern backend/API development, and meaningful CI/CD engagement — and has no exposure to the preferred qualifications. The technology gap between his current stack and the role's requirements is substantial and would require extensive upskilling across foundational requirements, not just preferred skills.\n\nFINAL: REJECT"
+}

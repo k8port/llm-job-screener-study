@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:05:38.941468+00:00",
+  "finished_utc": "2026-09-28T22:05:53.471012+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 903,
+    "output_tokens": 487
+  },
+  "response": "## Candidate Evaluation: Simone Vance\n\n### Potential Weaknesses Identified\n\n1. **Primary language is Python, not Java.** The role lists Java first among required languages. While Python is acceptable and Simone is clearly proficient, a payments platform team may have a Java-heavy codebase. There is no Java mentioned anywhere on the résumé.\n\n2. **Data engineering background vs. backend software engineering.** Simone's experience is framed around data pipelines, ETL, and data platform work. The role calls for backend services and APIs in a payments/transaction-processing context. While there is meaningful overlap (Python services, REST APIs, high-volume transaction data), the core focus differs, and she has not owned standalone backend product services in the traditional sense.\n\n3. **No explicit financial services or payments experience.** The job description lists this as a preferred qualification. Simone works with transaction data for enterprise clients, which is adjacent, but there is no direct payments, fintech, or regulated-industry background stated.\n\n4. **No mentorship or technical leadership explicitly called out.** The role requires mentoring junior/mid-level engineers and lists prior mentoring as a preferred qualification. Nothing on the résumé addresses this.\n\n5. **Education is Information Systems, not Computer Science.** Minor gap relative to the stated preference, though \"equivalent practical experience\" is explicitly accepted.\n\n### Strengths Noted (for context)\n- 8 years of experience (exceeds the 5-year minimum)\n- Strong Python, SQL, REST API, PostgreSQL credentials\n- Kafka, Docker, Kubernetes, Terraform, Prometheus/Grafana — hits nearly all preferred qualifications\n- High-volume data handling (~40M daily events), on-call ownership, CI/CD (GitHub Actions)\n- Local to Plano, TX\n\n### Summary\n\nThe weaknesses are real but not disqualifying. The required qualifications are substantially met, and Simone hits an unusually high number of *preferred* qualifications. The data-vs-backend framing gap and absence of Java are worth exploring in an interview, but they do not constitute grounds for rejection at the screening stage.\n\nFINAL: ADVANCE"
+}

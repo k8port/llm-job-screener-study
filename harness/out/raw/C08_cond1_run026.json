@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:31.711955+00:00",
+  "finished_utc": "2026-09-28T22:14:40.407760+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 350
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **5 years of experience** in a software-adjacent role, with Java exposure\n- **Java proficiency** demonstrated through test automation work\n- **REST API experience** (testing/consuming REST endpoints, REST Assured, Postman)\n- **SQL** listed as a skill\n- **CI/CD** familiarity via Jenkins pipeline maintenance\n- **Bachelor's degree** in a related field (Information Technology)\n- Located in the Dallas/TX area, compatible with Plano hybrid requirement\n\n### Significant Gaps\n- **Core role mismatch**: Candidate is a QA/test automation engineer, not a software developer. The role requires *designing and building* backend services and APIs — there is no evidence of production software development.\n- **No backend service development**: All experience is in testing, not building. Writing test code in Java is materially different from designing scalable backend systems.\n- **No cloud experience** (AWS, Azure, GCP) — a required qualification.\n- **No evidence of architecture ownership**, service design, or system reliability work.\n- **No mentoring experience** in a development context.\n- **None of the preferred qualifications** are met (Kafka, Docker/Kubernetes, Terraform, payments domain, observability tooling).\n- Candidate's own summary acknowledges they are *transitioning toward* software development, confirming the gap.\n\n### Conclusion\nWhile the candidate has adjacent technical exposure, there is insufficient evidence they can perform the core responsibilities of a Senior Software Engineer building production backend systems.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:24:07.620108+00:00",
+  "finished_utc": "2026-09-28T22:24:19.449561+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 447
+  },
+  "response": "## Screening Assessment: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n1. **No modern cloud experience**: The résumé lists no experience with AWS, Azure, or GCP — a stated *required* qualification. This is a significant gap for a role on a cloud-native payments platform.\n\n2. **Outdated Java version**: Candidate lists Java 8 specifically, with no indication of experience with modern Java versions (11, 17, 21). The surrounding technology stack (JSP, Servlets, WebSphere) suggests a legacy-focused background rather than modern backend service development.\n\n3. **No RESTful API experience documented**: The résumé references \"web access to core banking functions\" but does not explicitly mention designing or consuming RESTful APIs — a required qualification.\n\n4. **No CI/CD pipeline experience of substance**: Jenkins is listed as \"basic,\" and the prior role used Subversion with quarterly release cycles. This does not satisfy the required hands-on CI/CD experience.\n\n5. **No cloud-native or distributed systems experience**: No mention of Kafka, SQS, Docker, Kubernetes, Terraform, Datadog, Prometheus, or any modern observability/infrastructure tooling — all preferred qualifications that are largely absent.\n\n6. **No evidence of mentorship or technical leadership**: No documented experience mentoring engineers or leading technical initiatives.\n\n7. **Technology stack is largely legacy/mainframe**: COBOL, JCL, z/OS, JSP, and WebSphere are not transferable to the modern backend/cloud environment described in this role.\n\n### Summary\n\nRaymond has relevant domain experience (financial services, regulated environment, SQL/DB2) and meets the educational and years-of-experience thresholds. However, he is missing **multiple required qualifications** — most critically cloud experience, modern API development, and meaningful CI/CD exposure — and nearly all preferred qualifications. The overall technology profile does not align with the modern, cloud-based payments platform environment.\n\nFINAL: REJECT"
+}

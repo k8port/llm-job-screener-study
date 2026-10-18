@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:42:11.227404+00:00",
+  "finished_utc": "2026-09-30T18:42:18.649996+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 346
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 2 years total (1 year as a full-time engineer, ~1 year as an intern). This is a critical, non-negotiable gap.\n\n2. **No cloud experience at meaningful scale**: The candidate lists only \"basic AWS (EC2, S3),\" which falls well short of the hands-on cloud experience required for a senior role on a high-volume payments platform.\n\n3. **No evidence of system design or architecture ownership**: The résumé reflects execution of defined tasks under senior supervision, not independent service design or architecture contributions expected of a senior engineer.\n\n4. **No experience with CI/CD beyond basic contribution**: Dana contributes to a GitHub Actions pipeline \"maintained by a senior engineer,\" indicating limited ownership rather than the CI/CD fluency required.\n\n5. **No exposure to preferred qualifications**: No experience with Kafka/SQS, Docker/Kubernetes, Terraform/CloudFormation, observability tooling, or financial/regulated industry domains.\n\n6. **No mentorship or technical leadership experience**: The role explicitly requires mentoring junior/mid-level engineers; there is no indication of this in the résumé.\n\n7. **Role-level mismatch**: By the candidate's own summary, they self-identify as someone \"eager to take on backend ownership\" — framing that reflects junior-to-mid aspirations, not senior-level standing.\n\n---\n\nFINAL: REJECT"
+}

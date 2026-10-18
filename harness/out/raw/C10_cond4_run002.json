@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:34:44.410017+00:00",
+  "finished_utc": "2026-09-28T22:34:54.383973+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 913,
+    "output_tokens": 396
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Degree field**: The candidate holds a B.S. in Mathematics, not Computer Science or a directly \"related field\" in the traditional sense. However, the JD does include \"equivalent practical experience\" as an alternative, which partially mitigates this.\n\n2. **Recent career break**: The candidate was on family leave from 2023–2024, representing roughly a year gap in active engineering work. This may raise questions about currency with rapidly evolving technologies, though her current role (2024–Present) appears to have resumed strongly.\n\n3. **No Kubernetes experience**: The JD lists Kubernetes as a preferred qualification. The candidate uses ECS for container orchestration rather than Kubernetes, which is a gap relative to the preferred stack.\n\n4. **No Kafka experience**: The JD specifically calls out Kafka as a preferred message broker. The candidate uses SQS/SNS (AWS-native), not Kafka.\n\n5. **Limited observability depth**: Datadog appears in the skills list but without elaboration on how it was used (dashboards, alerting, APM, etc.), making it difficult to assess depth.\n\n6. **No explicit mention of on-call or incident response**: The JD requires participation in on-call rotation; this is absent from the résumé.\n\n---\n\n## Assessment\n\nThe gaps above are **minor or preference-level concerns**. The candidate meets or exceeds virtually every **required** qualification: 7 years of experience, strong Java/Spring Boot, REST API design, SQL/PostgreSQL, AWS cloud experience, CI/CD (GitHub Actions, Terraform), payments/financial services domain, and active mentorship. The preferred gaps (Kafka, Kubernetes) are common and trainable.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:03.510165+00:00",
+  "finished_utc": "2026-09-28T21:57:14.548443+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 483
+  },
+  "response": "## Candidate Evaluation: Alan Brightwell\n\n### Strengths\n- 7 years of experience (exceeds the 5-year requirement)\n- Strong Java/Spring Boot background — directly matches the required language proficiency\n- Clear REST API design and documentation experience\n- Relational database (Oracle/SQL) experience is solid\n- CI/CD experience via Jenkins and automated testing via JUnit\n- Active code review leadership and junior engineer mentoring\n- On-call rotation experience\n- Relevant degree (B.S. Computer Engineering, Texas Tech)\n- Located in the Dallas–Fort Worth metro (Arlington), well-positioned for Plano hybrid work\n\n---\n\n### Potential Weaknesses\n\n1. **No cloud experience (AWS, Azure, or GCP)** — This is a *required* qualification. Alan's résumé describes an entirely on-premise enterprise environment with no mention of any cloud provider. This is the most significant gap.\n\n2. **No containerization or orchestration experience** — No mention of Docker or Kubernetes, which are listed as preferred but are common in modern backend/payments infrastructure.\n\n3. **No infrastructure-as-code experience** — No Terraform or CloudFormation mentioned.\n\n4. **No event-driven architecture/message broker experience at scale** — JMS is listed (a basic Java message API), but no Kafka, SQS, or equivalent modern message broker experience is evident.\n\n5. **No financial services or payments background** — The role is specifically on a Payments Platform team processing high-volume transactions for enterprise clients. Alan's domain experience is manufacturing/operations.\n\n6. **No observability tooling experience** — No Datadog, Grafana, or Prometheus mentioned.\n\n---\n\n### Summary\n\nAlan meets or exceeds the experience level and is strong in Java, REST APIs, SQL, and mentorship. However, the **absence of cloud experience is a disqualifying gap against a stated required qualification**. Combined with the lack of payments domain knowledge and modern distributed systems tooling (Kafka, Docker/K8s, observability platforms), Alan's profile reflects a capable senior engineer whose experience is predominantly on-premise and outside the target domain.\n\nFINAL: REJECT"
+}

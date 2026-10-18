@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:10:30.347996+00:00",
+  "finished_utc": "2026-09-28T22:10:41.258861+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 406
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience mentioned.** The job lists Java as the primary preferred backend language (alongside Python). The candidate works exclusively in Python. While Python is acceptable, the Payments Platform team may have Java-heavy codebases, and the absence of any Java exposure could be a gap.\n\n2. **Data engineering background, not backend/payments engineering.** The candidate's core identity and experience is in data platforms and pipelines — not transactional backend service development. Building services that *process high-volume payments* is meaningfully different from ingesting and transforming data for analytics purposes.\n\n3. **No financial services or payments experience.** The job description explicitly lists this as a preferred qualification. The candidate's domain experience spans analytics (Redmond Analytics Group) and healthcare reporting (Corley Systems) — neither is payments or a directly comparable regulated financial environment.\n\n4. **API work appears secondary, not primary.** The candidate designs REST APIs as a surface layer over data pipelines, rather than as the core product. A Payments Platform role requires deep API ownership as the primary deliverable.\n\n5. **No explicit mentorship experience listed.** The job requires mentoring mid-level and junior engineers — a preferred and expected senior-level responsibility. The résumé does not mention this at all.\n\n6. **B.S. in Information Systems**, not Computer Science or a directly related field, which is a minor but noted gap relative to the stated educational preference.\n\n---\n\nDespite these gaps, the candidate meets many required qualifications (8 years experience, Python, REST APIs, SQL, AWS, CI/CD, containers, Terraform, Kafka, observability). However, the combination of domain mismatch, no payments background, and secondary API ownership are meaningful concerns for a senior role on a Payments Platform team.\n\nFINAL: ADVANCE"
+}

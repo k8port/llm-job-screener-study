@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:56:35.875213+00:00",
+  "finished_utc": "2026-09-28T21:56:45.559744+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 423
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Against Requirements\n\n**Required Qualifications — Met:**\n- ✅ **7 years of experience** (exceeds the 5-year minimum)\n- ✅ **Java/Spring Boot proficiency** — strong, consistent, hands-on\n- ✅ **RESTful API design and ownership** — explicitly mentioned\n- ✅ **Relational databases and SQL** — Oracle, PL/SQL, query optimization\n- ✅ **CI/CD experience** — Jenkins pipelines, automated testing with JUnit\n- ✅ **Bachelor's degree** — Computer Engineering, Texas Tech\n- ✅ **Mentorship and code review leadership** — leads reviews for a team of six, mentors two junior engineers\n- ✅ **On-call rotation** — explicitly noted\n\n**Preferred Qualifications — Partially Met:**\n- ✅ JMS listed under skills (message broker experience, though older/on-prem)\n- ⚠️ No Docker/Kubernetes, Terraform, Datadog/Grafana/Prometheus mentioned\n- ⚠️ No financial services/payments background noted\n\n### Key Gap\n\n**Cloud experience** is a *required* qualification, and Alan's résumé shows no evidence of AWS, Azure, or GCP experience. His entire background is explicitly on-premise. This is a non-trivial gap for a Payments Platform team operating in a cloud environment.\n\n### Judgment\n\nThe cloud gap is real and notable, but Alan is otherwise a strong match — senior tenure, relevant Java/API/database depth, mentorship, and on-call experience. The core engineering competencies transfer; cloud can be learned, especially with a strong on-prem foundation. The evidence is sufficient that he *could* perform the role.\n\nFINAL: ADVANCE"
+}

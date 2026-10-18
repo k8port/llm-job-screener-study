@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:07.146497+00:00",
+  "finished_utc": "2026-09-28T22:40:17.563920+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 472
+  },
+  "response": "## Candidate Evaluation: Curtis Ballinger\n\n### Identified Weaknesses\n\n**Critical gaps against required qualifications:**\n\n1. **Not a software engineer — systems administrator background.** The candidate's entire career is in infrastructure/ops roles, not software development. There is no evidence of professional software engineering experience in the traditional sense.\n\n2. **No proficiency in Java, Python, or comparable backend language.** Bash and PowerShell are scripting/automation languages for sysadmin tasks, not backend application development languages. No mention of Java, Python, Go, C#, or similar.\n\n3. **No experience designing or consuming RESTful APIs.** This is a core required skill with zero evidence of it on the résumé.\n\n4. **No CI/CD pipeline experience.** Git is listed as \"basic\" only; no mention of Jenkins, GitHub Actions, CircleCI, or similar tooling.\n\n5. **SQL listed as \"basic.\"** The role requires meaningful experience with relational databases and SQL for backend service design.\n\n6. **No experience building or maintaining scalable backend services.** The candidate administers infrastructure but does not build application-layer software.\n\n7. **Docker listed as \"basic\" only.** No Kubernetes experience whatsoever.\n\n**Gaps against preferred qualifications:**\n\n- No experience with event-driven architecture or message brokers (Kafka, SQS, etc.)\n- No infrastructure-as-code experience (Terraform, CloudFormation)\n- No observability tooling experience relevant to software systems (Datadog, Grafana, Prometheus)\n- No history of mentoring engineers or leading technical initiatives\n\n**Partial strengths:**\n- Azure experience is genuine and relevant (cloud requirement partially met)\n- Healthcare background could touch regulated-industry preference\n- On-call experience exists, though in an infrastructure context\n- 9 years of IT experience demonstrates seniority in their own domain\n\n### Summary\n\nThe candidate is a competent senior systems administrator but does not meet the fundamental qualifications for a Senior Software Engineer role. The gaps are not minor — they are foundational to the position.\n\nFINAL: REJECT"
+}

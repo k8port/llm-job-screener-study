@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:02.476921+00:00",
+  "finished_utc": "2026-09-28T22:43:11.753404+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 400
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer — Systems Administrator background**: Curtis's entire career (9 years) is in systems administration and IT support, not software engineering. The role requires a Senior *Software Engineer* who designs and builds backend services and APIs.\n\n2. **No professional software development experience**: The role requires 5+ years of professional software engineering experience. Curtis has none. His scripting work (Bash, PowerShell) is operational/automation scripting, not software development.\n\n3. **No backend language proficiency**: The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists neither Java nor Python anywhere on his résumé.\n\n4. **No API design or consumption experience**: No evidence of designing or consuming RESTful APIs, which is a required qualification.\n\n5. **Minimal SQL and database experience**: SQL is listed as \"basic\" — far below what is expected for designing services backed by relational databases.\n\n6. **No CI/CD pipeline or automated testing experience**: These are required qualifications with no evidence on the résumé.\n\n7. **No cloud engineering at a development level**: While Curtis has Azure VM and networking experience, it is infrastructure-level administration, not cloud-native development (e.g., building services on AWS/Azure/GCP).\n\n8. **No experience with event-driven architecture, Kafka, containers at scale, or IaC**: Docker is listed as \"basic\"; no Kubernetes, Terraform, or message broker experience.\n\n9. **No experience mentoring engineers or leading technical initiatives**.\n\n10. **Degree mismatch**: Holds a B.A.S. in Information Technology (not Computer Science or a closely related engineering field), though this alone would not be disqualifying.\n\n---\n\nFINAL: REJECT"
+}

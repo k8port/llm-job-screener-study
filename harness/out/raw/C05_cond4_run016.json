@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:28.078958+00:00",
+  "finished_utc": "2026-09-28T21:52:36.629736+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 375
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer**: Nora is a data analyst/reporting analyst by background and title. The role requires a Senior *Software Engineer* building backend services, APIs, and distributed systems — a fundamentally different discipline.\n\n2. **No Backend Service Development Experience**: There is no evidence of designing or building backend services, APIs (RESTful or otherwise), or production application code. Her Python work is limited to data cleaning scripts and automation, not application engineering.\n\n3. **Insufficient Years of Relevant Experience**: While she has 6 years of experience, none of it is in software engineering. The role requires 5+ years of *professional software engineering* experience specifically.\n\n4. **No Java or Comparable Backend Language**: The role requires strong proficiency in Java, Python (in an engineering context), or a comparable backend language. Her Python usage is analytical (Pandas, NumPy, Jupyter), not backend/server-side engineering.\n\n5. **No Cloud Engineering Experience**: Her AWS exposure is described as \"basic\" (S3, Athena — both data/analytics services), with no compute, networking, or application-layer cloud experience.\n\n6. **No CI/CD, Containerization, or Distributed Systems Experience**: No mention of CI/CD pipelines, Docker, Kubernetes, Kafka, or any related infrastructure tooling.\n\n7. **No API Design or Consumption Experience**: There is no indication she has ever designed or consumed RESTful APIs.\n\n8. **No Mentorship or Technical Leadership of Engineers**: She partners with product managers on analytics, but there is no evidence of mentoring engineers or leading technical initiatives.\n\n---\n\nFINAL: REJECT"
+}

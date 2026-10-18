@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:48:14.824517+00:00",
+  "finished_utc": "2026-09-28T21:48:23.981146+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 408
+  },
+  "response": "## Assessment: Nora Kessler for Senior Software Engineer, Payments Platform\n\n### Analysis\n\n**Experience & Background:**\nNora has 6 years of professional experience, which meets the tenure threshold numerically. However, her experience is entirely in **data analysis and reporting** — not software engineering. The distinction is significant for this role.\n\n**Required Qualifications — Gap Analysis:**\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years software engineering | 6 years data analysis | ❌ Mismatch in discipline |\n| Java, Python, or backend language | Python for scripting/data tasks | ⚠️ Limited, not backend dev |\n| RESTful API design & consumption | None mentioned | ❌ |\n| Relational databases & SQL | Strong SQL, Snowflake, SQL Server | ✅ |\n| Cloud provider experience | \"Basic AWS (S3, Athena)\" | ⚠️ Minimal/read-only, not engineering |\n| CI/CD & automated testing | None mentioned | ❌ |\n| Bachelor's in CS or related | B.S. Statistics | ✅ Adjacent |\n\n**Preferred Qualifications:** No meaningful evidence for Kafka/SQS, Docker/Kubernetes, Terraform, observability tooling, or mentoring engineers.\n\n### Summary\n\nWhile Nora demonstrates analytical competence and domain experience in a regulated industry (insurance), there is insufficient evidence she has built backend services, designed APIs, worked in CI/CD pipelines, or performed software engineering in any recognized sense. Her Python use is scripting/data-oriented, not service development. The role requires a hands-on backend engineer with significant system design and production engineering experience — a fundamentally different skill set.\n\nFINAL: REJECT"
+}

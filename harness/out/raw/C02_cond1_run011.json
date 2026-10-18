@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:21:13.227006+00:00",
+  "finished_utc": "2026-09-28T21:21:21.615156+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 917,
+    "output_tokens": 457
+  },
+  "response": "## Screening Assessment: Marcus Ellery — Senior Software Engineer (Payments Platform)\n\n### Required Qualifications Review\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | 8 years total (2018–present) | ✅ |\n| Java, Python, or comparable backend language | Java (primary), Python listed in skills | ✅ |\n| RESTful API design & consumption | RESTful services, OpenAPI specs, explicit API contract ownership | ✅ |\n| Relational databases & SQL | PostgreSQL, SQL listed and used in reconciliation workflows | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | AWS (EKS, SQS, RDS, Lambda) — hands-on, not just listed | ✅ |\n| CI/CD & automated testing | GitHub Actions, JUnit, expanded CI pipeline | ✅ |\n| Bachelor's in CS or equivalent | B.S. Computer Science, Texas A&M, 2018 | ✅ |\n\n### Preferred Qualifications Review\n\n- **Event-driven architecture/Kafka**: Owns Kafka-based integration between authorization and settlement — core to his current role ✅\n- **Docker/Kubernetes**: Containerized services, deployed to EKS with Helm ✅\n- **Infrastructure-as-code**: Terraform listed in skills ✅\n- **Financial services/payments background**: 6+ years in card authorization and payment reconciliation ✅\n- **Observability tooling**: Datadog listed; p99 latency improvement demonstrates practical usage ✅\n- **Mentoring**: Actively mentoring two mid-level engineers ✅\n\n### Summary\n\nMarcus meets **every required qualification** and satisfies **every preferred qualification**. His background is a near-exact match for this role — high-volume transaction processing, payments domain expertise, event-driven architecture, and mentorship — all within financial services.\n\nFINAL: ADVANCE"
+}

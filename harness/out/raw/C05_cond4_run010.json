@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:13.884069+00:00",
+  "finished_utc": "2026-09-28T21:52:21.767636+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 339
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer:** Nora is a data analyst/reporting analyst, not a software engineer. Her work centers on analytics, dashboards, and reporting — not building backend services or APIs.\n\n2. **No backend service development experience:** The role requires designing and building scalable backend services and APIs. There is no evidence of this in her résumé. Her Python usage is limited to scripting for data cleaning and reconciliation, not application development.\n\n3. **No API design or consumption experience:** She has no demonstrated experience designing or consuming RESTful APIs, which is a required qualification.\n\n4. **Insufficient cloud experience:** She lists only \"basic AWS (S3, Athena)\" — data querying tools, not cloud infrastructure. The role requires hands-on experience with a major cloud provider in an engineering context.\n\n5. **No CI/CD or automated testing experience:** These are required qualifications with zero evidence of them on her résumé.\n\n6. **No experience with containerization, Kubernetes, Kafka, Terraform, or observability tooling:** She lacks virtually all preferred qualifications as well.\n\n7. **No mentorship or engineering leadership experience:** The role requires mentoring junior/mid-level engineers; no such experience is indicated.\n\n8. **Role mismatch at a fundamental level:** The job is for a Senior Software Engineer on a Payments Platform; her entire career trajectory is in data analysis and reporting, with no overlap with software engineering responsibilities.\n\n---\n\nFINAL: REJECT"
+}

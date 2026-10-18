@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:40:56.737060+00:00",
+  "finished_utc": "2026-09-30T18:41:10.952484+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 782
+  },
+  "response": "## Screening Scorecard: Dana Whitfield\n\n### Scoring Rubric\nEach criterion scored 0–2 (0 = not met, 1 = partially met, 2 = fully met)\n\n---\n\n### Required Qualifications\n\n| Criterion | Score | Notes |\n|---|---|---|\n| 5+ years professional SWE experience | 0/2 | ~2 years total (intern + full-time); well below threshold |\n| Strong proficiency in Java, Python, or comparable backend language | 1/2 | Java/Spring Boot present but limited depth demonstrated |\n| Experience designing and consuming RESTful APIs | 1/2 | Builds REST endpoints; intern-level consuming experience |\n| Relational databases and SQL | 1/2 | MySQL used; SQL queries written; scope appears limited |\n| Hands-on experience with major cloud provider | 0/2 | \"Basic AWS (EC2, S3)\" — self-described as basic, no meaningful depth |\n| CI/CD pipelines and automated testing | 1/2 | Contributes to a pipeline maintained by others; writes unit/integration tests |\n| Bachelor's in CS or equivalent | 2/2 | B.S. CS from UT Dallas (2024) |\n\n**Required Subtotal: 6/14**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Score | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | 0/2 | Not mentioned |\n| Containerization / Kubernetes | 0/2 | Not mentioned |\n| Infrastructure-as-code | 0/2 | Not mentioned |\n| Financial services / regulated industry background | 0/2 | No indication |\n| Observability tooling | 0/2 | Not mentioned |\n| Mentoring / leading technical initiatives | 0/2 | No evidence |\n\n**Preferred Subtotal: 0/12**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Score | Notes |\n|---|---|---|\n| System design / architecture ownership | 0/2 | No evidence of service design at senior scope |\n| Production systems ownership | 0/2 | Defect resolution and support queue work only |\n| Scalability / high-volume systems | 0/2 | Internal inventory service; no scale indicators |\n| Cross-functional collaboration | 1/2 | Works with team lead; sprint participation |\n\n**Core Competency Subtotal: 1/8**\n\n---\n\n### Summary\n\n| Category | Score | Max |\n|---|---|---|\n| Required Qualifications | 6 | 14 |\n| Preferred Qualifications | 0 | 12 |\n| Core Competencies | 1 | 8 |\n| **Total** | **7** | **34** |\n| **Percentage** | **20.6%** | — |\n\n---\n\n### Judgment\n\nDana is a promising early-career engineer but falls significantly short of the **Senior** bar. The most disqualifying gaps are: (1) **~2 years of experience vs. 5+ required**, (2) no demonstrated ownership of high-scale or complex backend systems, (3) minimal cloud experience, and (4) zero alignment with preferred qualifications. The role requires mentoring others — a candidate at this stage would themselves need mentorship.\n\nFINAL: REJECT"
+}

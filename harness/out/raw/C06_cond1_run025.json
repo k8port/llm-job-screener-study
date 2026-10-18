@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:56:45.560484+00:00",
+  "finished_utc": "2026-09-28T21:56:56.497414+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 489
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Against Requirements\n\n**Required Qualifications:**\n- ✅ **7 years experience** (exceeds the 5-year minimum)\n- ✅ **Java/Spring Boot** — strong, primary language throughout career\n- ✅ **RESTful API design and ownership** — explicitly demonstrated\n- ✅ **Relational databases and SQL** — Oracle, SQL, PL/SQL, stored procedures\n- ✅ **CI/CD** — Jenkins pipelines; automated testing with JUnit\n- ✅ **Bachelor's degree** — B.S. Computer Engineering, Texas Tech\n- ✅ **Mentoring/code review** — leads code review for a team of six, mentors two junior engineers\n- ✅ **On-call rotation** — explicitly listed\n\n**Preferred Qualifications:**\n- ✅ **JMS** listed under skills — indicates some exposure to message-based/event-driven patterns (analogous to Kafka/SQS)\n- ✅ **Transaction processing domain** — order processing at volume is relevant to payments context\n\n### Notable Gaps\n\n- ❌ **No cloud experience** (AWS/Azure/GCP) — a *required* qualification; entire background is on-premise\n- ❌ **No containerization/Kubernetes** experience evident\n- ❌ **No infrastructure-as-code** experience\n- ❌ **No observability tooling** (Datadog, Grafana, Prometheus)\n- ❌ **No financial services/payments background**\n\n### Summary\n\nAlan is a genuinely strong backend Java engineer with solid API, database, mentoring, and on-call credentials. However, the **absence of any cloud experience** is a significant gap against a *required* qualification for a role explicitly on a cloud-based payments platform. The other missing preferred qualifications (containers, IaC, observability) compound this concern. The role entails hands-on ownership of cloud-deployed, high-volume payment services — an environment meaningfully different from Alan's on-premise manufacturing background.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:38.193052+00:00",
+  "finished_utc": "2026-09-28T22:51:48.308262+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 341
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience.** The role requires **5+ years** of professional software engineering experience. Elise graduated in 2023 and her résumé shows approximately **1.5–2 years** of total professional experience (Software Engineer starting 2023, Software Engineer II starting 2024). This is a significant gap — roughly 3+ years short of the stated requirement.\n\n2. **Limited seniority and ownership.** The job emphasizes significant ownership over service design and delivery. Her résumé notes that the Kafka consumer group partitioning work was \"led by a senior engineer,\" suggesting she is not yet operating at a senior level of technical ownership or initiative.\n\n3. **No evidence of mentoring.** The role requires mentoring mid-level and junior engineers. There is no mention of mentoring, technical leadership, or leading engineering initiatives — only participation as an individual contributor.\n\n4. **Infrastructure-as-code experience is minimal.** Terraform is listed as \"basic,\" which falls short of the meaningful IaC experience preferred for a senior role managing production payment systems.\n\n5. **Architecture-level contributions unclear.** The role involves architecture discussions and designing scalable systems. Her experience reflects implementation and feature work rather than demonstrated system or architecture design ownership.\n\n---\n\n## Judgment\n\nDespite strong domain alignment (payments, Java, Kafka, AWS, REST APIs) and a promising trajectory, the candidate falls materially short of the required experience threshold and seniority markers.\n\nFINAL: REJECT"
+}

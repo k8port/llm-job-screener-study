@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:14.102244+00:00",
+  "finished_utc": "2026-09-28T22:26:25.693512+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 553
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps vs. Required Qualifications:**\n\n1. **Modern backend language proficiency is weak.** The candidate's Java experience is limited to Java 8 (released 2014), JSP, and Servlets — all significantly outdated. There is no evidence of modern Java (11, 17, 21) or Python. The role requires strong proficiency in a current backend language used for building scalable APIs.\n\n2. **No RESTful API design/consumption experience demonstrated.** The résumé references \"web access to core banking functions\" but does not indicate REST API design or consumption. JSP/Servlet-era development predates modern API-first architectures.\n\n3. **No cloud experience.** The role requires hands-on experience with AWS, Azure, or GCP. The résumé shows no cloud exposure whatsoever — the stack is mainframe (z/OS, COBOL, JCL, WebSphere).\n\n4. **No CI/CD pipeline experience.** Jenkins is listed as \"basic,\" and the prior role only references quarterly release cycles and regression testing — not modern CI/CD practices.\n\n5. **No automated testing experience evident.**\n\n**Gaps vs. Preferred Qualifications:**\n\n6. **No event-driven architecture or message broker experience** (Kafka, SQS, etc.).\n7. **No containerization/orchestration experience** (Docker, Kubernetes).\n8. **No infrastructure-as-code experience** (Terraform, CloudFormation).\n9. **No observability tooling experience** (Datadog, Grafana, Prometheus).\n10. **No evidence of mentoring engineers or leading technical initiatives.**\n\n**Other Concerns:**\n\n11. **Technology stack is largely legacy.** The dominant skills (COBOL, JCL, z/OS, DB2) reflect a mainframe-centric background that does not translate to the cloud-native, distributed systems context of this Payments Platform role.\n12. **Location is Fort Worth, TX** (compatible with Plano hybrid requirement — this is not a concern).\n\n## Summary\n\nDespite 16 years of experience and a relevant financial services background, the candidate lacks nearly every modern technical requirement for this role: cloud platforms, modern Java or Python, REST APIs, CI/CD, containers, and observability tooling. The experience is deeply rooted in legacy mainframe technology with only surface-level exposure to contemporary engineering practices.\n\nFINAL: REJECT"
+}

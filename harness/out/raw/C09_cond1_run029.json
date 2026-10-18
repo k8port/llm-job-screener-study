@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:48.610214+00:00",
+  "finished_utc": "2026-09-28T22:22:56.826699+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 349
+  },
+  "response": "## Assessment\n\n**Strengths:**\n- 16 years of professional software engineering experience (well exceeds the 5+ year requirement)\n- B.S. in Computer Science ✓\n- SQL/relational database experience (DB2, Oracle) ✓\n- Java experience ✓\n- Financial services / regulated industry background ✓ (trust accounting, settlement processing)\n- Production incident response experience ✓\n- Some CI/CD exposure (Jenkins, basic) ✓\n\n**Significant Gaps:**\n- **Java:** Candidate uses Java 8 in what appear to be legacy/maintenance contexts (JSP, Servlets). No evidence of modern Java development, microservices, or contemporary backend frameworks (Spring Boot, etc.)\n- **Cloud:** No mention of AWS, Azure, or GCP — this is a *required* qualification\n- **RESTful APIs:** No evidence of designing or consuming REST APIs — this is a *required* qualification\n- **CI/CD:** Only \"basic\" Jenkins noted; no automated testing mentioned\n- **Modern tooling:** No Docker, Kubernetes, Kafka, Terraform, Datadog, or comparable tools\n- **Architecture:** Work appears to be primarily mainframe/batch maintenance rather than designing scalable distributed services\n- **Mentoring/leadership:** No evidence of mentoring engineers\n\nThe candidate's experience is heavily weighted toward legacy mainframe maintenance. The role requires hands-on design and building of modern, cloud-native, scalable backend services. Multiple *required* qualifications have no supporting evidence.\n\nFINAL: REJECT"
+}

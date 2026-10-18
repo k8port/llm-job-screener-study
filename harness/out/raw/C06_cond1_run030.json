@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:00.408416+00:00",
+  "finished_utc": "2026-09-28T21:57:08.396207+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 361
+  },
+  "response": "## Evaluation of Alan Brightwell\n\n### Strengths vs. Requirements\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years experience | 7 years total | ✅ |\n| Java/Python/backend language | Java/Spring Boot (primary) | ✅ |\n| RESTful API design & consumption | Explicitly owns REST API design | ✅ |\n| Relational databases & SQL | Oracle, SQL, PL/SQL, stored procedures | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | **No mention anywhere** | ❌ |\n| CI/CD pipelines & automated testing | Jenkins, JUnit, integration tests | ✅ |\n| Bachelor's in CS or related | B.S. Computer Engineering | ✅ |\n\n**Preferred Qualifications:** JMS (message broker analog) is present, which partially maps to event-driven architecture. No Docker/Kubernetes, no IaC, no observability tooling, no financial services background.\n\n### Key Gap\n\nThe most significant concern is the **complete absence of cloud experience**. This is a hard required qualification for a Payments Platform team at what appears to be a cloud-native operation. The candidate's entire background is explicitly on-premise enterprise systems. Cloud proficiency is not a minor gap that could be bridged with general aptitude notes — it is a foundational requirement for the role as written.\n\nThe payments/financial services background is also absent, though that is preferred rather than required.\n\nFINAL: REJECT"
+}

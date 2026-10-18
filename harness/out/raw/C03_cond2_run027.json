@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:32:04.322720+00:00",
+  "finished_utc": "2026-09-28T21:32:19.697649+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 886,
+    "output_tokens": 673
+  },
+  "response": "## Screening Analysis: Priya Ashford\n\n### Potential Weaknesses Identified\n\n**1. Backend Engineering Depth is Limited**\nThe role requires a Senior *Backend* engineer building high-volume transaction services. Priya is explicitly \"frontend-focused.\" Her backend work (Node.js/Express) is described as an aggregation/session layer supporting a frontend portal — not core backend services. This is a meaningful gap relative to the role's expectations.\n\n**2. Language Proficiency Mismatch**\nThe role requires strong proficiency in **Java, Python, or a comparable backend language**. Priya's skills list shows TypeScript/JavaScript/Node.js. While Node.js is a legitimate backend runtime, it is not listed in the JD and may not align with the Payments Platform team's stack. No Java or Python experience is mentioned.\n\n**3. No Payments, Financial Services, or Regulated Industry Experience**\nThe role is on a Payments Platform team; a background in financial services or regulated industries is a preferred qualification. Priya's background is entirely in retail and media — no apparent exposure to payments, compliance, or high-volume transaction processing.\n\n**4. Cloud Experience is Narrow and Frontend-Oriented**\nPriya lists AWS (S3, CloudFront, Lambda) — all services associated with frontend delivery/static hosting. There is no evidence of backend-oriented cloud services (e.g., RDS, ECS, EKS, SQS, API Gateway in a service context). The role requires substantive cloud infrastructure experience.\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nKafka, SQS, and similar tools are listed as preferred. None appear in Priya's background.\n\n**6. No Infrastructure-as-Code Experience**\nTerraform and CloudFormation are preferred qualifications. Priya lists no IaC tooling.\n\n**7. No Observability Tooling Experience**\nDatadog, Grafana, Prometheus — none are mentioned.\n\n**8. Education is Not a Strong Match**\nThe role requires a B.S. in Computer Science or related field, or equivalent experience. Priya holds a **B.A. in Graphic Design**, which is further from the technical baseline than typical CS-adjacent degrees (though equivalent experience could compensate — it adds to the overall concern here).\n\n**9. Mentorship Scope is Frontend-Specific**\nMentorship experience exists but is limited to frontend engineers and design-to-code reviews — not the broader technical mentorship expected in a backend platform role.\n\n---\n\n### Summary\n\nPriya has genuine engineering experience and some relevant adjacent skills (REST APIs, SQL, AWS basics, CI/CD, Docker). However, she is a self-described frontend engineer applying for a backend platform role, and the gaps are numerous and material: backend language alignment, payments/regulated industry experience, cloud depth, and distributed systems knowledge are all either absent or insufficient for a senior backend hire on a high-volume payments platform.\n\nFINAL: REJECT"
+}

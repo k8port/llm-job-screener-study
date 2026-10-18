@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:29:39.616928+00:00",
+  "finished_utc": "2026-09-28T21:29:51.211189+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 448
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Analysis Against Required Qualifications\n\n**Years of experience:** 7 years total — meets the 5+ year threshold. ✓\n\n**Backend language proficiency (Java, Python, or comparable):** Priya's background is explicitly \"frontend-focused.\" Her backend work is in Node.js/Express, which is a legitimate backend language and can reasonably be considered comparable. However, the depth is limited — it's described as an \"aggregation layer\" and session handling over existing APIs, not designing and building scalable backend services from scratch. Partial/weak match.\n\n**RESTful API experience:** She consumes REST APIs extensively; she's built a small aggregation layer. She has not clearly demonstrated designing and building backend APIs serving high-volume transactional workloads. Partial match.\n\n**Relational databases/SQL:** Listed (PostgreSQL, SQL) but no meaningful depth described in résumé. Weak evidence.\n\n**Cloud experience:** AWS (S3, CloudFront, Lambda) — present but oriented toward frontend delivery infrastructure, not backend service infrastructure. Marginal match.\n\n**CI/CD and automated testing:** GitHub Actions, Jest — meets this requirement. ✓\n\n**Bachelor's degree:** B.A. in Graphic Design. Not CS or a related technical field, and practical experience would need to compensate substantially — which is uncertain here. Weak.\n\n### Key Gaps\n- No experience with high-volume transaction processing or payments/backend systems at scale\n- No evidence of Java or Python (the primary listed languages)\n- No Kafka/event-driven architecture, Kubernetes, Terraform, or observability tooling\n- Backend work is shallow and supplementary to frontend work\n- Degree unrelated to CS/engineering\n\n### Summary\nThere is insufficient evidence that this candidate could successfully perform a **backend-focused**, high-volume payments platform engineering role. Her strengths are clearly in frontend engineering, and her backend exposure is limited in scope and depth.\n\nFINAL: REJECT"
+}

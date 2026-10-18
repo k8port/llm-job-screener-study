@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:25.485933+00:00",
+  "finished_utc": "2026-09-28T22:39:34.152123+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 344
+  },
+  "response": "## Assessment\n\n**Role Requirements vs. Candidate Profile**\n\n**Critical Gaps:**\n\n1. **Software Engineering Background**: Curtis is a systems administrator, not a software engineer. The role requires designing and building backend services and APIs — his work is infrastructure/operations focused, not application development.\n\n2. **Programming Proficiency**: The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists Bash and PowerShell (scripting languages for sysadmin tasks) and has only \"basic\" Git — there is no evidence of professional software development in a backend language.\n\n3. **API Design/Consumption**: No evidence of RESTful API design or consumption experience.\n\n4. **Relational Databases**: Listed as \"basic\" SQL — far short of the experience required for a senior backend engineering role processing high-volume financial transactions.\n\n5. **CI/CD and Automated Testing**: No mention of CI/CD pipelines or software testing experience.\n\n6. **Seniority in Engineering**: Nine years in sysadmin/IT support does not translate to the 5+ years of *software engineering* experience required.\n\n**Partial Positives:**\n- Azure experience (infrastructure-level, not application development)\n- Basic Docker familiarity\n- Healthcare industry experience (regulated environment — minor relevance)\n- On-call rotation experience\n\n**Conclusion**: There is insufficient evidence that this candidate could successfully perform the role. The gap between systems administration and senior software engineering is fundamental, not bridgeable by peripheral skill overlaps.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:58.394671+00:00",
+  "finished_utc": "2026-09-28T22:16:11.619283+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 549
+  },
+  "response": "## Candidate Evaluation: Grant Pemberton\n\n### Potential Weaknesses\n\n1. **QA/Testing Background, Not Software Development**: The candidate's entire career is in quality assurance and test automation. The role requires building and maintaining scalable backend *services and APIs*, not testing them. Grant writes tests *against* APIs rather than designing and building them. This is a fundamental mismatch with the core job function.\n\n2. **No Production Backend Service Development**: There is no evidence of Grant having designed, built, or shipped backend services or microservices in a production environment. The job requires hands-on ownership of service design and delivery at scale.\n\n3. **Java Used Only in Test Context**: While Java is listed as a skill, its use appears limited to test automation frameworks (Selenium, REST Assured, TestNG) — not backend application development. This is a materially different application of the language.\n\n4. **No Cloud Platform Experience**: The résumé lists no AWS, Azure, or GCP experience — this is a hard required qualification.\n\n5. **No CI/CD Pipeline Development**: Grant maintains test stages in Jenkins but shows no experience building or owning broader CI/CD pipelines for application delivery, which is a required qualification.\n\n6. **No Database/SQL Design Experience**: SQL is listed as a skill, but there is no evidence of relational database design, schema management, or production data work beyond likely query-level testing.\n\n7. **No Event-Driven/Messaging Experience**: No mention of Kafka, SQS, or similar — a preferred but significant qualification for a Payments Platform team.\n\n8. **No Containerization or Infrastructure Experience**: No Docker, Kubernetes, or IaC tools present.\n\n9. **No Mentorship or Technical Leadership**: No indication of mentoring engineers or leading technical initiatives, a preferred qualification.\n\n10. **Self-Identified as \"Transitioning\"**: The summary explicitly frames Grant as transitioning *toward* software development, acknowledging a gap rather than demonstrated equivalency.\n\n11. **Years of Experience Qualifier**: While Grant has five years of experience total, it is in QA — not software engineering. This likely does not satisfy the spirit of the \"5+ years of professional software engineering experience\" requirement.\n\n---\n\n### Summary\n\nGrant is a capable QA/automation professional, but the role demands a proven backend software engineer with cloud, distributed systems, and production service ownership experience. The gaps are not marginal — they span nearly every required qualification.\n\nFINAL: REJECT"
+}

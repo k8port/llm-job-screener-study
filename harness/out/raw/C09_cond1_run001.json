@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:21:36.417382+00:00",
+  "finished_utc": "2026-09-28T22:21:46.024283+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 419
+  },
+  "response": "## Assessment: Raymond Dolliver for Senior Software Engineer (Payments Platform)\n\n### Strengths\n\n- **Years of experience**: 16 years of professional software engineering, well exceeding the 5+ year requirement\n- **Financial services background**: Deep experience in a regulated financial environment (trust accounting, settlement processing) — a preferred qualification\n- **SQL/databases**: Demonstrated DB2 and SQL experience\n- **Education**: B.S. in Computer Science from UT Arlington\n- **Java**: Has Java 8 experience, though dated\n- **Production incident response**: Experience diagnosing high-priority production issues\n\n### Significant Gaps\n\n- **Modern backend/cloud development**: No evidence of cloud platform experience (AWS, Azure, GCP) — a required qualification\n- **RESTful API design**: No mention of REST APIs; experience is limited to legacy Java (JSP, Servlets)\n- **CI/CD pipelines**: Only \"basic\" Jenkins; no meaningful CI/CD pipeline experience\n- **Containerization/orchestration**: No Docker or Kubernetes\n- **Event-driven architecture**: No Kafka, SQS, or comparable experience\n- **Observability tooling**: No Datadog, Grafana, Prometheus, or equivalent\n- **Infrastructure-as-code**: No Terraform or CloudFormation\n- **Modern engineering practices**: Primarily mainframe (COBOL/JCL/z/OS) with legacy Java; the technology profile is significantly behind what a modern Payments Platform role requires\n- **Mentoring/technical leadership**: No evidence of mentoring or leading technical initiatives\n\n### Summary\n\nWhile Raymond has relevant domain experience in financial services and long tenure, there are **multiple critical gaps** against required qualifications — particularly cloud experience, modern API development, and CI/CD — that make it insufficient to conclude he could successfully perform this role without substantial reskilling.\n\nFINAL: REJECT"
+}

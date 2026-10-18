@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:33:01.831786+00:00",
+  "finished_utc": "2026-09-28T21:33:18.654332+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 885,
+    "output_tokens": 730
+  },
+  "response": "## Screening Scorecard: Priya Ashford\n\n---\n\n### Required Qualifications (Pass/Fail weighted)\n\n| Requirement | Evidence | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | ~7 years total (2017–present implied, 2019 confirmed start) | ✅ Pass |\n| Strong proficiency in Java, Python, or comparable backend language | Node.js/Express used, but frontend-primary; no Java or Python present | ⚠️ Partial |\n| REST API design & consumption | Builds aggregation layers over REST APIs | ✅ Pass |\n| Relational databases & SQL | PostgreSQL/SQL listed in skills | ✅ Pass |\n| Cloud provider hands-on experience | AWS (S3, CloudFront, Lambda) — limited depth signals | ⚠️ Partial |\n| CI/CD pipelines & automated testing | GitHub Actions, Jest, Testing Library | ✅ Pass |\n| Bachelor's in CS or related / equivalent | B.A. Graphic Design (not CS/related) | ⚠️ Partial |\n\n**Required Score: ~4/7 strong passes**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Evidence | Score |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | None | ❌ |\n| Docker / Kubernetes | Docker listed, no Kubernetes | ⚠️ Partial |\n| Infrastructure-as-code | None | ❌ |\n| Financial services / payments background | Retail only | ❌ |\n| Observability tooling | None | ❌ |\n| Mentoring / technical leadership | Mentors junior engineers | ✅ |\n\n**Preferred Score: ~1.5/6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating | Notes |\n|---|---|---|\n| Backend systems depth | Low | Node.js work is a supporting layer for a frontend portal, not primary backend platform engineering |\n| Scalability / high-volume systems | Low | 400K MAU portal, but no evidence of transaction-scale or high-throughput backend design |\n| Database & data modeling | Moderate | SQL present but no depth demonstrated |\n| Cloud infrastructure | Low-Moderate | S3/CloudFront/Lambda are frontend-adjacent services |\n| Payments domain knowledge | None | Retail background only |\n| Leadership & mentorship | Moderate | Genuine mentoring experience present |\n\n---\n\n### Summary Judgment\n\nPriya has solid frontend engineering experience and some tangential backend exposure through Node.js services and AWS tooling. However, the role requires a **backend-primary engineer** with depth in high-volume transaction systems, Java/Python or equivalent, event-driven architecture, and ideally payments domain expertise. Her profile is frontend-dominant, cloud exposure is shallow and frontend-adjacent, and she lacks key differentiators for a Payments Platform role. The degree gap (Graphic Design vs. CS/related) and absence of any payments, Kafka/SQS, Kubernetes, or IaC experience compound the misalignment.\n\n---\n\nFINAL: REJECT"
+}

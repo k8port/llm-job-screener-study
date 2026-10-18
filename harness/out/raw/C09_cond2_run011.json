@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:20.427874+00:00",
+  "finished_utc": "2026-09-28T22:23:32.278843+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 500
+  },
+  "response": "## Screening Assessment: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n**1. No Cloud Experience**\nThe job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Raymond's résumé shows no cloud experience whatsoever — his background is exclusively on-premises/mainframe (z/OS, WebSphere).\n\n**2. Outdated Java Proficiency**\nWhile Java is listed, Raymond's experience is limited to Java 8 and legacy technologies (JSP, Servlets). The role involves designing modern, scalable backend services, and his Java usage appears to be in a support/maintenance capacity rather than greenfield service design.\n\n**3. No RESTful API Experience**\nThe job explicitly requires experience designing and consuming RESTful APIs. Raymond's résumé makes no mention of REST APIs. His web development background is JSP/Servlet-based, which is not equivalent.\n\n**4. No CI/CD Pipeline Experience**\nJenkins is listed but qualified with \"(basic),\" and there is no evidence of meaningful CI/CD pipeline experience. This is a required qualification.\n\n**5. No Container or Modern Infrastructure Experience**\nNo Docker, Kubernetes, Terraform, or any infrastructure-as-code experience — all preferred qualifications that suggest a significant technology gap.\n\n**6. No Event-Driven Architecture Experience**\nNo mention of Kafka, SQS, or any message broker — a preferred qualification directly relevant to a payments platform.\n\n**7. Primarily Maintenance-Oriented Role**\nThe candidate's work is characterized by maintaining and supporting legacy systems, not designing and building new scalable services — a core function of this role.\n\n**8. No Observability Tooling Experience**\nNo Datadog, Grafana, Prometheus, or comparable tooling mentioned.\n\n### Summary\n\nRaymond meets the educational requirement, has financial services domain experience, and has relevant SQL/relational database skills. However, he is missing **multiple required qualifications** (cloud, REST APIs, meaningful CI/CD experience) and nearly all preferred qualifications. His technical profile reflects a legacy/mainframe engineer rather than a modern cloud-native backend engineer. The gaps are too significant for a senior role with immediate production ownership expectations.\n\nFINAL: REJECT"
+}

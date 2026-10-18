@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:28.874845+00:00",
+  "finished_utc": "2026-09-28T22:51:38.735447+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 330
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The job requires **5+ years** of professional software engineering experience. Elise has approximately **3.5 years** total (2023–present), which falls meaningfully short of this threshold.\n\n2. **Limited scope of leadership and mentorship**: The role requires mentoring mid-level and junior engineers and leading technical initiatives. There is **no evidence of mentoring** on the résumé. Even the Kafka partitioning work is explicitly noted as having been \"led by a senior engineer,\" suggesting she is still operating under senior guidance rather than independently driving initiatives.\n\n3. **Infrastructure-as-code is superficial**: Terraform is listed as \"(basic),\" and no meaningful IaC ownership or scope is described. For a senior role managing production payments infrastructure, this is a gap.\n\n4. **No demonstrated architecture ownership**: The résumé reflects solid execution-level work but lacks evidence of **end-to-end system design** or architecture decision-making that would be expected at the senior level.\n\n5. **Observability experience is thin**: Grafana is listed in skills but there are no specifics about building dashboards, setting up alerting, or driving reliability improvements — a stated responsibility in the role.\n\n6. **Recent graduate**: Graduating in 2023 with ~3.5 years of experience confirms she is likely mid-level, not yet senior in scope or tenure.\n\n---\n\nFINAL: REJECT"
+}

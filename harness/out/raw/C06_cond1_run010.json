@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:56:11.597860+00:00",
+  "finished_utc": "2026-09-28T21:56:21.393533+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 413
+  },
+  "response": "## Assessment: Alan Brightwell\n\n### Strengths vs. Required Qualifications\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years experience | 7 years (2019–present) | ✅ Met |\n| Java/Python/backend language | Java/Spring Boot throughout | ✅ Met |\n| RESTful API design & consumption | Owns REST API design, documents interfaces | ✅ Met |\n| Relational DB & SQL | Oracle, SQL, PL/SQL, stored procedures | ✅ Met |\n| Cloud provider (AWS/Azure/GCP) | **No mention anywhere** | ❌ Not evidenced |\n| CI/CD & automated testing | Jenkins pipelines, JUnit | ✅ Met |\n| Bachelor's degree or equivalent | B.S. Computer Engineering, Texas Tech | ✅ Met |\n\n### Preferred Qualifications\n- Event-driven/messaging: JMS listed (limited, but related) — partial\n- Containerization/Kubernetes: No evidence\n- IaC: No evidence\n- Financial services/regulated industry: Manufacturing, not financial — not directly\n- Observability tooling: No evidence\n- Mentoring/technical leadership: ✅ Actively mentoring, leads code review\n\n### Key Gap\nThe most significant gap is **zero cloud experience**. The role requires hands-on experience with AWS, Azure, or GCP — a hard requirement for a cloud-native payments platform. Alan's background is entirely on-premise enterprise infrastructure. The preferred qualifications around containers, IaC, observability, and payments domain are also absent.\n\nWhile Alan is otherwise a strong backend engineer with relevant Java, API, and SQL experience, the cloud gap is a material disqualifier for a role explicitly requiring it.\n\nFINAL: REJECT"
+}

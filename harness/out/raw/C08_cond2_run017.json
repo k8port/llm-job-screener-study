@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:27.665597+00:00",
+  "finished_utc": "2026-09-28T22:15:38.788028+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 425
+  },
+  "response": "## Screening Analysis: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n1. **Not a Software Developer — QA/Test Engineering Background**: The candidate's entire career has been in quality assurance and test engineering. The job requires a Senior Software Engineer who will *design and build* backend services and APIs, not test them. Writing test automation in Java is materially different from building production backend services.\n\n2. **Insufficient Hands-On Development Experience**: The required 5+ years is framed around \"professional software engineering experience.\" Pemberton has 5 years total, but all of it is in QA roles. His own summary acknowledges he is \"transitioning toward software development,\" confirming he has not yet made that transition.\n\n3. **No Cloud Experience**: The job requires hands-on experience with AWS, Azure, or GCP. No cloud platform is listed anywhere on the résumé.\n\n4. **No Evidence of API or Service Design**: The candidate tests REST APIs but has no demonstrated experience designing, building, or owning backend services or APIs.\n\n5. **No Relational Database / Production SQL Experience**: SQL is listed as a skill, but only in the context of QA validation — not schema design, query optimization, or production data management.\n\n6. **No CI/CD Pipeline Ownership**: Maintaining test execution stages in Jenkins is not equivalent to owning CI/CD pipelines for software delivery.\n\n7. **No Preferred Qualifications Met**: No evidence of Kafka/SQS, Docker/Kubernetes, Terraform, observability tooling, financial services background, or mentoring engineers.\n\n8. **No Mentorship or Technical Leadership**: The role requires mentoring junior/mid-level engineers; there is no indication of this experience.\n\n### Summary\n\nThe candidate lacks the core competency the role demands: professional software engineering experience building production backend systems. The gap is fundamental, not marginal.\n\nFINAL: REJECT"
+}

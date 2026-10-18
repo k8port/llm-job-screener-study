@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:50.849821+00:00",
+  "finished_utc": "2026-09-28T22:23:03.935261+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 550
+  },
+  "response": "## Screening Assessment: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n**1. Cloud Experience — Missing (Required)**\nThe job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Raymond's résumé shows no cloud experience whatsoever. His entire stack is on-premises/mainframe (z/OS, WebSphere, DB2).\n\n**2. Modern Java / Backend Services — Weak**\nRaymond lists Java 8, which is a decade-old version. His Java work is limited to JSP/Servlet-based web access layers — not modern RESTful microservices. No evidence of frameworks commonly used in contemporary backend development (Spring Boot, Quarkus, etc.).\n\n**3. RESTful API Design and Consumption — Not Demonstrated**\nThe role requires experience designing and consuming RESTful APIs. Raymond's résumé shows no evidence of REST API work; his web development appears JSP/Servlet-based.\n\n**4. CI/CD Pipelines — Minimal**\nJenkins is listed but parenthetically qualified as \"basic.\" No meaningful CI/CD experience is evident.\n\n**5. Containerization/Orchestration — Missing (Preferred)**\nNo mention of Docker or Kubernetes.\n\n**6. Event-Driven Architecture / Message Brokers — Missing (Preferred)**\nNo Kafka, SQS, or comparable technology listed.\n\n**7. Modern Observability Tooling — Missing (Preferred)**\nNo Datadog, Grafana, Prometheus, or equivalent.\n\n**8. Infrastructure-as-Code — Missing (Preferred)**\nNo Terraform or CloudFormation experience.\n\n**9. Mentorship / Technical Leadership — Not Evidenced**\nThe role requires mentoring junior/mid-level engineers. No such activity is documented.\n\n### Mitigating Strengths\n- 16 years of experience in financial services / regulated environments (a valued preferred qualification)\n- Solid SQL/relational database background (DB2, Oracle)\n- B.S. in Computer Science\n- Production incident response experience\n\n### Summary\nRaymond's financial services background is a genuine asset, but he has **critical gaps in all required modern technical qualifications**: cloud platforms, RESTful API design, and modern CI/CD. His Java experience is outdated and limited in scope. The gaps are too broad and fundamental for a Senior Software Engineer role on a cloud-native Payments Platform.\n\nFINAL: REJECT"
+}

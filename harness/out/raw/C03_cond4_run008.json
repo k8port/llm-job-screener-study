@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:34:44.224227+00:00",
+  "finished_utc": "2026-09-28T21:34:55.233898+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 490
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-Focused Background, Not Backend**\nThe candidate self-identifies as a \"frontend-focused engineer.\" The role requires a dedicated backend engineer building high-volume transaction processing services. Her Node.js/Express work is described as supporting a frontend portal — it is not backend platform engineering at scale.\n\n**2. No Java or Python Proficiency**\nThe required qualifications explicitly call for strong proficiency in Java, Python, or a comparable backend language. The candidate's stack is TypeScript/JavaScript/Node.js. While Node.js is a backend runtime, it is not listed in the JD as a comparable language, and there is no evidence of Java or Python experience.\n\n**3. No Payments, Financial Services, or Regulated Industry Experience**\nThe role is on a Payments Platform team. The candidate's background is in retail/media web development. She has no apparent exposure to financial systems, compliance environments, or high-volume transaction processing.\n\n**4. Cloud Experience is Shallow and Frontend-Oriented**\nHer AWS experience is limited to S3, CloudFront, and Lambda — primarily frontend/CDN tooling. There is no evidence of backend-relevant AWS services (e.g., RDS, ECS, EKS, SQS, API Gateway in a backend context).\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nNo mention of Kafka, SQS (in a backend context), or any event-driven system design — a preferred but meaningful qualification for this role.\n\n**6. No Kubernetes or Infrastructure-as-Code Experience**\nDocker is listed, but there is no mention of Kubernetes, Terraform, or CloudFormation.\n\n**7. Degree is Unrelated**\nShe holds a B.A. in Graphic Design, not Computer Science or a related field. While the JD allows for equivalent practical experience, combined with the other gaps, this adds to the concern.\n\n**8. Mentorship Scope is Limited**\nHer mentorship is frontend-specific (junior frontend engineers, design-to-code reviews), which does not map to the backend engineering mentorship expected in this role.\n\n---\n\nFINAL: REJECT"
+}

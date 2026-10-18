@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:26.868400+00:00",
+  "finished_utc": "2026-09-28T22:18:36.296092+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 393
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Role is QA/Test Engineering, Not Software Development**\nThe candidate explicitly self-identifies as a \"quality engineer transitioning toward software development.\" The open role is for a Senior Software Engineer who *builds* production backend services — not one who tests them. This is a fundamental mismatch in job function.\n\n**2. No Production Software Development Experience**\nAll experience is in test automation, manual testing, and QA analysis. There is no evidence of designing or building backend services, APIs, or any production software systems.\n\n**3. Java Use Is Limited to Test Tooling**\nWhile Java is listed as a skill, its application is exclusively in Selenium/test automation contexts (REST Assured, TestNG). This is materially different from building scalable backend services and APIs in Java.\n\n**4. No Cloud Experience**\nThere is no mention of AWS, Azure, or GCP — a required qualification.\n\n**5. No Database/SQL Engineering Experience**\nSQL is listed as a skill but there is no demonstrated experience designing schemas, writing complex queries, or working with relational databases in a development capacity.\n\n**6. No Experience with Architecture, System Design, or On-Call**\nNo evidence of participation in architecture discussions, service ownership, or production operations responsibilities.\n\n**7. Does Not Meet Seniority Bar for the Role**\nDespite the \"Senior QA Engineer\" title, the candidate lacks the software engineering depth expected of a Senior SWE — particularly for a payments platform handling high-volume, enterprise-grade transactions.\n\n**8. No Preferred Qualifications Met**\nNo Kafka/SQS, Docker/Kubernetes, Terraform, observability tooling, or fintech/regulated industry experience.\n\n---\n\nFINAL: REJECT"
+}

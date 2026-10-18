@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:02.093135+00:00",
+  "finished_utc": "2026-09-28T21:52:10.080965+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 363
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a software engineer — data analyst background**: Nora's entire career is in data analysis and reporting, not backend software engineering. She has no demonstrated experience building production services, APIs, or distributed systems.\n\n2. **No backend service development experience**: The role requires designing and building scalable backend services and RESTful APIs. There is no evidence of this in her résumé — her Python work is limited to scripting for data cleaning and reconciliation.\n\n3. **No Java experience**: Java is the primary language listed in the job description. Nora has no Java experience whatsoever.\n\n4. **No REST API design or consumption experience**: This is a required qualification she does not meet.\n\n5. **Minimal and superficial cloud experience**: She lists \"basic AWS (S3, Athena)\" — far below the hands-on cloud engineering experience required (e.g., compute, networking, deployment infrastructure).\n\n6. **No CI/CD or automated testing experience**: These are required qualifications with no mention anywhere in her résumé.\n\n7. **No containerization or orchestration experience**: No Docker, Kubernetes, or related tools.\n\n8. **No event-driven architecture or message broker experience**: Kafka, SQS, etc. are entirely absent.\n\n9. **No mentoring or technical leadership experience**: The role explicitly requires mentoring junior/mid-level engineers.\n\n10. **Role mismatch is fundamental**: This candidate is applying for a Senior Software Engineer role but has spent her career as a data/reporting analyst. The skill sets are materially different.\n\n---\n\nFINAL: REJECT"
+}

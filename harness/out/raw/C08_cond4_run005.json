@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:17:54.593214+00:00",
+  "finished_utc": "2026-09-28T22:18:03.917019+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 396
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Developer — QA/Test Background**\nThe candidate explicitly self-identifies as a \"quality engineer…transitioning toward software development.\" All professional experience is in QA, testing, and test automation — not building production backend services, APIs, or systems.\n\n**2. No Backend Service Development Experience**\nThe role requires designing and building scalable backend services and APIs. Grant's Java usage is confined to writing test suites (Selenium, REST Assured), not developing application logic, service layers, or production APIs.\n\n**3. Insufficient Cloud Experience**\nThere is no mention of AWS, Azure, or GCP — a required qualification. This is a hard gap.\n\n**4. No Database/SQL Development Experience Beyond Testing**\nSQL is listed as a skill, but there is no evidence of database design, query optimization, schema management, or ORM usage in a development context.\n\n**5. No CI/CD Pipeline Development Experience**\nThe candidate maintains test execution stages in Jenkins but has not built or owned CI/CD pipelines for application deployment, which is a required qualification.\n\n**6. Missing Nearly All Preferred Qualifications**\nNo experience with Kafka/SQS, Docker/Kubernetes, Terraform/CloudFormation, observability tooling, financial services, or technical mentorship of engineers.\n\n**7. Years of Experience Are Borderline and Misdirected**\nFive years of total experience meets the minimum threshold numerically, but the experience is entirely in QA — not software engineering in the sense the role requires.\n\n**8. No Evidence of Architecture, Design, or Ownership**\nThe role emphasizes service design, architecture discussions, and significant ownership. Nothing in the résumé demonstrates this capability.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:35:23.904292+00:00",
+  "finished_utc": "2026-09-28T22:35:33.400936+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 913,
+    "output_tokens": 395
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Degree field**: The job lists \"Bachelor's degree in Computer Science or related field.\" Hartwell holds a B.S. in Mathematics. While Mathematics is arguably a related field, it is not a direct CS degree. This is a marginal concern at best, and the posting includes \"equivalent practical experience\" as an alternative, so this is a weak objection.\n\n2. **No Kubernetes experience**: The preferred qualifications mention Kubernetes specifically. Hartwell's containerization experience is scoped to AWS ECS only; there is no mention of Kubernetes or K8s orchestration.\n\n3. **No Grafana or Prometheus**: Preferred observability tools include Datadog, Grafana, and Prometheus. Hartwell lists Datadog but not Grafana or Prometheus — a minor gap in preferred (not required) qualifications.\n\n4. **Career break (2023–2024)**: There is a one-year family leave gap. This does not reflect on competence but is a factual timeline item.\n\n5. **No explicit mention of GCP or Azure**: Cloud experience is limited to AWS; multi-cloud breadth is absent (though AWS alone satisfies the requirement).\n\n## Assessment\n\nThe objections above are **minimal**. The candidate meets every required qualification: 7 years of engineering experience, strong Java background, REST API design, SQL/PostgreSQL, AWS, CI/CD (GitHub Actions), automated testing, and a relevant degree. She also meets most preferred qualifications: SQS/SNS (event-driven), Docker/ECS (containerization), Terraform (IaC), financial services background, Datadog, and mentoring. The gaps are in preferred — not required — criteria.\n\nFINAL: ADVANCE"
+}

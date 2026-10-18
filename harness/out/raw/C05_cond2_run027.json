@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:08.760764+00:00",
+  "finished_utc": "2026-09-28T21:50:18.595695+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 422
+  },
+  "response": "## Candidate Evaluation: Nora Kessler\n\n### Identified Weaknesses\n\n1. **No backend software engineering experience.** Kessler is a data analyst, not a software engineer. Her work centers on reporting, SQL modeling, dashboards, and data reconciliation — not designing or building backend services or APIs.\n\n2. **Does not meet the 5+ years software engineering requirement.** While she has 6 years of work experience, none of it constitutes professional *software engineering* experience as defined by the role.\n\n3. **No API design or consumption experience.** There is no mention of RESTful APIs, service-to-service communication, or any web/application layer development.\n\n4. **No experience with CI/CD pipelines or automated testing.** These are explicitly required; nothing in her background suggests exposure to either.\n\n5. **Cloud experience is minimal and data-focused.** \"Basic AWS (S3, Athena)\" reflects data querying and storage familiarity, not the cloud infrastructure/services experience (e.g., compute, networking, deployments) the role requires.\n\n6. **No experience with backend languages in an engineering context.** Her Python use is limited to data cleaning scripts (Pandas, NumPy), not application development.\n\n7. **No experience with any preferred qualifications** — Kafka, Docker, Kubernetes, Terraform, Datadog, Grafana, payments/fintech, or engineering mentorship.\n\n8. **No relational database or application-layer database experience.** Her SQL work is analytical (Snowflake, SQL Server for reporting), not transactional/operational database design.\n\n---\n\n### Summary\n\nKessler's profile is fundamentally misaligned with the role. The gap is not marginal — she is in a different discipline entirely. There are no credible signals that she has the backend engineering skills required.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:41:09.493087+00:00",
+  "finished_utc": "2026-09-28T22:41:19.208450+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 415
+  },
+  "response": "## Screening Analysis: Curtis Ballinger\n\n### Identified Weaknesses\n\n1. **Not a software engineer — systems administration background.** Curtis's entire nine-year career is in infrastructure/sysadmin roles, not software development. The role requires designing and building backend services, which is a fundamentally different function.\n\n2. **No backend software development experience.** The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists Bash and PowerShell, which are scripting/automation tools for operations tasks, not backend application development languages.\n\n3. **No experience designing or consuming RESTful APIs.** This is a stated required qualification with no evidence of it anywhere on the résumé.\n\n4. **SQL listed as \"basic.\"** The role requires meaningful experience with relational databases and SQL; Curtis explicitly self-rates this as basic.\n\n5. **Does not meet the 5+ years of software engineering experience requirement.** Years of experience are in IT operations/sysadmin, not professional software engineering.\n\n6. **No CI/CD pipeline or automated testing experience.** No mention of CI/CD tooling (e.g., Jenkins, GitHub Actions) or test frameworks.\n\n7. **Docker listed as \"basic.\"** Kubernetes is not mentioned. Container/orchestration experience is only surface-level.\n\n8. **No experience with event-driven architecture, message brokers, observability tooling, or infrastructure-as-code** (all preferred qualifications).\n\n9. **No mentorship or technical leadership experience** relevant to senior engineering expectations.\n\n10. **Azure experience is infrastructure-level only** (VMs, networking), not application development on cloud platforms.\n\n### Summary\n\nCurtis is a competent systems administrator but does not qualify for a Senior Software Engineer role. He meets very few of the required qualifications and none at the depth the role demands.\n\nFINAL: REJECT"
+}

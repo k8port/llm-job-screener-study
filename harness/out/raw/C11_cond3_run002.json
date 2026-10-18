@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:41:22.344506+00:00",
+  "finished_utc": "2026-09-28T22:41:36.371150+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 710
+  },
+  "response": "# Candidate Screening: Curtis Ballinger\n## Role: Senior Software Engineer – Payments Platform\n\n---\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of experience (5+ years software engineering)** | High | 1 | High × 1 | 9 years in IT, but as a sysadmin — not a software engineer. No professional software development history. |\n| **Proficiency in Java, Python, or comparable backend language** | High | 0 | High × 0 | Bash and PowerShell are scripting/automation tools, not backend development languages. No Java or Python mentioned. |\n| **RESTful API design and consumption** | High | 0 | High × 0 | No mention of API development or consumption. |\n| **Relational databases and SQL** | Medium | 1 | Medium × 1 | Listed as \"SQL (basic)\" — insufficient for a senior role. |\n| **Cloud provider experience (AWS/Azure/GCP)** | High | 1 | High × 1 | Azure experience noted, but limited to VM and network administration — not cloud-native application development. |\n| **CI/CD pipelines and automated testing** | Medium | 0 | Medium × 0 | No mention of CI/CD or automated testing frameworks. |\n| **Education (CS or related)** | Low | 2 | Low × 2 | B.A.S. in Information Technology — meets the intent of the requirement. |\n| **Event-driven architecture / Kafka / SQS** | Preferred | 0 | — | No evidence. |\n| **Containerization / Kubernetes** | Preferred | 1 | — | Docker listed as \"basic\" only; no Kubernetes. |\n| **Infrastructure-as-code (Terraform, etc.)** | Preferred | 0 | — | No mention. |\n| **Financial services / regulated industry** | Preferred | 1 | — | Healthcare (regulated), but not financial services or payments. |\n| **Observability tooling** | Preferred | 1 | — | Nagios noted, but not modern observability stack (Datadog, Grafana, Prometheus). |\n| **Mentorship / technical leadership** | Preferred | 0 | — | No evidence. |\n\n---\n\n## Summary Assessment\n\nCurtis brings **nine years of solid IT infrastructure experience** and demonstrates reliability in a regulated healthcare environment. However, his background is firmly in **systems administration**, not software engineering. The core required competencies for this role — backend development in Java/Python, API design, CI/CD pipelines, automated testing, and scalable service development — are **absent or not demonstrated**. His scripting work (Bash/PowerShell) does not substitute for professional software development experience, and his SQL and Docker exposure is self-described as basic.\n\nThis candidate does not meet the required qualifications for a Senior Software Engineer role at this level, and the gap is fundamental rather than marginal.\n\n---\n\nFINAL: REJECT"
+}

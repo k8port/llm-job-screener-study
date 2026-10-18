@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:26.336288+00:00",
+  "finished_utc": "2026-09-28T22:14:34.912433+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 336
+  },
+  "response": "## Evaluation\n\n**Strengths:**\n- 5 years of professional experience (meets minimum threshold)\n- Java experience (required backend language)\n- SQL knowledge listed\n- REST API testing experience (understands API design/consumption at a test level)\n- Jenkins CI/CD pipeline experience\n- Located in Garland, TX (close to Plano, TX — logistics favorable)\n- Bachelor's degree in IT (meets education requirement)\n\n**Significant Gaps:**\n\n- **Role is a software engineer; candidate is a QA engineer.** The summary explicitly states they are \"transitioning toward software development\" — meaning they are not yet there. There is no evidence of building production backend services.\n- **No cloud experience** (AWS, Azure, GCP) — a required qualification with no indication of even basic exposure.\n- **No backend service/API development experience** — API testing is fundamentally different from designing and building APIs.\n- **No experience with scalable systems, high-volume transactions, or payments/financial services.**\n- **No containerization, event-driven architecture, observability tools, or IaC** (all preferred, but absence of cloud is disqualifying on its own).\n- **Mentoring engineers** — no evidence of this.\n- The role requires significant ownership over service design and delivery; the candidate has no demonstrated production software engineering output.\n\nThe candidate lacks the core required qualifications for a **Senior Software Engineer** role. Test automation in Java is not equivalent to backend software development.\n\nFINAL: REJECT"
+}

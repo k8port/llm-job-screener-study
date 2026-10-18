@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:26.276557+00:00",
+  "finished_utc": "2026-09-28T22:09:36.742140+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 413
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience**: The job description lists Java as the primary preferred backend language, with Python listed as an alternative. While Simone does use Python, the Payments Platform team may have a Java-heavy codebase, and there is zero indication of Java familiarity.\n\n2. **Data engineering vs. backend software engineering**: Simone's background is primarily in data pipelines, ETL, and data platform work. The role requires designing and building **backend services and APIs for high-volume payment transaction processing** — a meaningfully different discipline. Her API work appears secondary and supporting (exposing pipeline outputs), not the core product.\n\n3. **No payments or fintech experience**: The job description specifically calls out experience in financial services, payments, or a regulated industry as a preferred qualification. Simone's work is in data/analytics platforms and healthcare reporting, with no direct payments domain experience.\n\n4. **No explicit mentorship experience**: The role requires mentoring mid-level and junior engineers as a core responsibility. The résumé contains no mention of mentorship, technical leadership of engineers, or leading small technical initiatives.\n\n5. **Degree mismatch (minor)**: The role prefers a B.S. in Computer Science or related field. Simone holds a B.S. in Information Systems — not disqualifying, but a minor gap.\n\n6. **API ownership depth is unclear**: REST API design is listed but appears incidental to her pipeline work rather than a primary engineering focus.\n\n---\n\nDespite strong coverage of preferred qualifications (Kafka, Terraform, Kubernetes, Prometheus/Grafana, CI/CD, cloud), the core role mismatch — data engineering vs. backend payments engineering — combined with no Java and no mentorship experience represents meaningful gaps for a **Senior Software Engineer on a Payments Platform**.\n\nFINAL: REJECT"
+}

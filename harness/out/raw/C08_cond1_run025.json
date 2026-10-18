@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:28.276835+00:00",
+  "finished_utc": "2026-09-28T22:14:38.181822+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 389
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **5 years of professional experience** in software engineering-adjacent work (QA/test automation)\n- **Java proficiency** — builds and maintains automated test suites in Java\n- **REST API experience** — writes API-level tests, validates response contracts\n- **CI/CD exposure** — maintains Jenkins pipeline stages\n- **SQL listed** as a skill\n- **B.S. in Information Technology** — satisfies the education requirement\n- Located in Garland, TX (near Plano) — geographic fit for hybrid role\n\n### Gaps / Concerns\n- **Role mismatch**: Candidate is a QA/test engineer, not a software developer. The job requires *building* backend services and APIs; the candidate has only *tested* them\n- **No evidence of backend service development**: No greenfield service design, no production backend ownership, no microservices or system architecture experience\n- **No cloud platform experience** (AWS, Azure, GCP) — a required qualification\n- **No database design/schema work** — SQL is listed but only in a testing context\n- **No containerization, Kafka, Terraform, or observability tooling**\n- **No mentorship or technical leadership** of engineers\n- **Self-described as \"transitioning toward software development\"** — acknowledges the gap explicitly\n- **Senior-level expectations** (architecture discussions, on-call, mentoring junior engineers) are not evidenced\n\n### Conclusion\nThe candidate's experience is primarily in quality assurance and test automation, not backend software engineering. Several **required qualifications** are unmet (cloud experience, backend development, service design). There is insufficient evidence they could successfully perform this senior backend engineering role at this time.\n\nFINAL: REJECT"
+}

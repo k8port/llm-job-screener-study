@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:40:59.472768+00:00",
+  "finished_utc": "2026-09-30T18:41:11.627923+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 616
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional experience | ~2 years total (intern + FTE); significantly below threshold | 1/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Java/Spring Boot confirmed, actively used | 8/10 |\n| Experience designing and consuming RESTful APIs | REST endpoints built in current role | 7/10 |\n| Relational databases and SQL | MySQL and SQL queries confirmed | 7/10 |\n| Hands-on cloud experience (AWS/Azure/GCP) | \"Basic AWS (EC2, S3)\" — minimal depth | 3/10 |\n| CI/CD pipelines and automated testing | GitHub Actions (maintained by others), JUnit — limited ownership | 4/10 |\n| Bachelor's degree in CS or equivalent | B.S. CS from UT Dallas | 10/10 |\n\n**Required Subtotal: 40/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No evidence | 0/5 |\n| Containerization / Kubernetes | No evidence | 0/5 |\n| Infrastructure-as-code | No evidence | 0/5 |\n| Financial services / regulated industry | No evidence | 0/5 |\n| Observability tooling | No evidence | 0/5 |\n| Mentoring / leading technical initiatives | No evidence | 0/5 |\n\n**Preferred Subtotal: 0/30**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Notes |\n|---|---|\n| System design / architecture ownership | No evidence of independent design work |\n| Production scale / reliability | Internal tooling at low scale; no on-call or SRE exposure |\n| Seniority / mentorship | Junior-to-mid profile; not a mentor |\n\n---\n\n## Summary\n\n**Total Score: 40/100**\n\nDana is a promising early-career engineer with a solid CS foundation and relevant Java/REST/SQL skills. However, the candidate falls critically short on the **most gatekeeping requirement**: 5+ years of experience (has ~2). Cloud experience is superficial, CI/CD ownership is minimal, and there is zero coverage of preferred qualifications relevant to a payments platform (Kafka, containers, IaC, observability). The role explicitly requires senior-level ownership and mentorship capability, which is not demonstrated.\n\nFINAL: REJECT"
+}

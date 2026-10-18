@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:34.833419+00:00",
+  "finished_utc": "2026-09-30T18:39:44.639397+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 456
+  },
+  "response": "## Candidate Evaluation: Dana Whitfield\n\n### Potential Weaknesses Identified\n\n1. **Insufficient years of experience (Critical):** The role requires 5+ years of professional software engineering experience. Dana has approximately 2 years total, including an internship. This is a significant gap — roughly 60% short of the minimum requirement.\n\n2. **No cloud platform depth:** The résumé lists only \"basic AWS (EC2, S3).\" The role requires hands-on experience with a major cloud provider at a level sufficient for a senior engineer building high-volume payment services. Basic familiarity does not meet this bar.\n\n3. **No evidence of system design or architecture ownership:** The résumé describes contributor-level work (resolving defects, writing tests, contributing to a pipeline maintained by a senior engineer). The role requires designing and owning services end-to-end.\n\n4. **No mentorship or technical leadership experience:** The role explicitly requires mentoring junior/mid-level engineers. There is no indication of this in Dana's background.\n\n5. **No exposure to preferred technical areas:** No Kafka/SQS, no Docker/Kubernetes, no Terraform/CloudFormation, no observability tooling (Datadog, Grafana, Prometheus), and no experience in financial services or regulated industries.\n\n6. **CI/CD experience is limited:** Dana contributes to a pipeline maintained by someone else — not the same as owning or building CI/CD workflows.\n\n7. **Seniority level mismatch:** The overall profile is consistent with a junior software engineer, not a senior engineer ready to lead technical initiatives and handle high-volume transaction systems.\n\n### Summary\n\nDana has a solid educational foundation and is developing core skills (Java, REST APIs, SQL, basic AWS, testing), but falls materially short of nearly every required qualification for a **Senior** Software Engineer role. The experience gap alone (2 vs. 5+ years) is disqualifying, compounded by the absence of cloud depth, architectural ownership, and leadership experience.\n\nFINAL: REJECT"
+}

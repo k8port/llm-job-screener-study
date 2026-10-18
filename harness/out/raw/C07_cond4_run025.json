@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:10:25.382908+00:00",
+  "finished_utc": "2026-09-28T22:10:37.059305+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 454
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience**: The job description lists Java as the primary preferred backend language (listed first among \"Java, Python, or a comparable backend language\"). While the candidate uses Python, the Payments Platform team may have a Java-heavy codebase, and there is zero indication of Java familiarity on the résumé.\n\n2. **Data engineering, not software engineering, background**: The candidate self-identifies as a \"data platform engineer\" and their work centers on ETL pipelines, data ingestion, and serving data outputs — not building transactional backend services, payment flows, or general-purpose application backends. This is a meaningful distinction for a Payments Platform team.\n\n3. **No payments, fintech, or regulated industry experience**: The preferred qualifications explicitly call out financial services, payments, or regulated industry background. The candidate's closest domain exposure is healthcare reporting (Corley Systems, 2018–2020), which is limited and dated.\n\n4. **No explicit mentorship or technical leadership experience**: The role requires mentoring mid-level and junior engineers. The résumé contains no mention of mentoring, leading technical initiatives, or any people/team development activity.\n\n5. **B.S. in Information Systems, not Computer Science or closely related field**: While the JD allows for equivalent experience, an IS degree is a mild mismatch compared to CS/CE candidates, and no compensating signals (e.g., advanced coursework, publications) are present.\n\n6. **API ownership is secondary/adjacent**: The candidate designs APIs \"exposing pipeline outputs\" — this is narrower than the full-lifecycle API design and consumption expected of a Senior Software Engineer on a core platform team.\n\n---\n\nDespite strong relevant skills (Python, Kafka, Terraform, Kubernetes, Prometheus/Grafana, AWS, CI/CD), the combination of no Java, a data-engineering rather than backend-engineering profile, no payments domain experience, and no mentorship history represent meaningful gaps against the stated requirements and preferred qualifications.\n\nFINAL: REJECT"
+}

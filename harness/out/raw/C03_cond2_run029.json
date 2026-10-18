@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:32:13.954016+00:00",
+  "finished_utc": "2026-09-28T21:32:28.441294+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 886,
+    "output_tokens": 611
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Potential Weaknesses\n\n**1. Frontend-Focused Background, Not Backend**\nThe role requires a backend engineer building high-volume transaction processing services. Priya self-identifies as \"frontend-focused,\" and the bulk of her experience is in React/TypeScript UI work. Her backend exposure (Node.js/Express, a content API) appears secondary and supplementary to frontend work, not the primary focus.\n\n**2. No Java or Python Experience**\nThe required qualifications call for strong proficiency in Java, Python, or a comparable backend language. Priya's stack is JavaScript/TypeScript/Node.js. While Node.js is a legitimate backend runtime, it is not listed in the JD and may not be considered \"comparable\" for a payments platform handling enterprise-scale, high-volume transactions.\n\n**3. No Payments or Regulated Industry Experience**\nThe role is on a Payments Platform team. Priya's background is in retail web portals and media/marketing sites — no exposure to financial services, payments processing, compliance, or regulated environments.\n\n**4. Degree Mismatch**\nThe JD prefers a B.S. in Computer Science or a related technical field. Priya holds a B.A. in Graphic Design, which is less aligned.\n\n**5. Limited Cloud Depth**\nHer AWS experience is limited to S3, CloudFront, and Lambda — primarily frontend/CDN-oriented services. No evidence of backend-relevant AWS services (RDS, ECS, EKS, SQS, etc.).\n\n**6. No Kafka/Event-Driven Architecture Experience**\nA preferred qualification for a payments platform; not present in her background.\n\n**7. No Kubernetes or Infrastructure-as-Code Experience**\nDocker is listed, but no Kubernetes or Terraform/CloudFormation, which are preferred for this role.\n\n**8. Mentorship Scope is Frontend-Only**\nShe mentors junior frontend engineers — relevant experience, but not in the backend/platform engineering context this role requires.\n\n**9. Scale and Reliability Context is Limited**\nHer highest-scale system is a 400K monthly user portal — meaningful, but not indicative of high-volume transaction processing at an enterprise payments level. No mention of observability tooling, on-call, SLAs, or reliability engineering.\n\n---\n\n### Summary\n\nPriya is a strong senior engineer in her domain, but her domain is frontend development with incidental backend exposure. The role demands a backend engineer with demonstrated experience in transaction systems, relevant languages (Java/Python), cloud infrastructure depth, and ideally payments/regulated-industry background. She does not meet the core required qualifications for this position.\n\nFINAL: REJECT"
+}

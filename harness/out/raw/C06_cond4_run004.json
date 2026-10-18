@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:20.164753+00:00",
+  "finished_utc": "2026-09-28T22:00:29.689123+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 405
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Missing or Weak Required Qualifications:**\n\n1. **No cloud experience.** The résumé explicitly describes an \"on-premise enterprise environment,\" with no mention of AWS, Azure, or GCP. Hands-on cloud experience is a required qualification.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins.** Jenkins is mentioned, but only in the context of adding integration test stages — not building or owning CI/CD pipelines, which is a required qualification.\n\n**Missing Preferred Qualifications (cumulative concern):**\n\n3. **No event-driven architecture or modern message broker experience.** JMS is listed (an older messaging standard), but no Kafka, SQS, or equivalent modern broker experience is evident.\n\n4. **No containerization or orchestration experience.** No mention of Docker or Kubernetes.\n\n5. **No infrastructure-as-code experience.** No Terraform, CloudFormation, or similar tools mentioned.\n\n6. **No observability tooling experience.** No Datadog, Grafana, Prometheus, or equivalent.\n\n7. **No financial services or payments background.** Experience is in manufacturing order processing, which is a different domain from regulated payments systems.\n\n**Additional Concerns:**\n\n8. **Entirely on-premise background.** The target role involves cloud-native, high-volume payments infrastructure; the candidate's entire career has been in on-premise manufacturing systems, representing a significant gap in relevant architectural exposure.\n\n---\n\nThe candidate meets some baseline requirements (Java, REST APIs, SQL, mentoring, code review, years of experience, degree), but fails to meet the **critical required qualification of cloud experience** and is missing nearly every preferred qualification. The gaps are too substantial for a senior role on a cloud-based payments platform.\n\nFINAL: REJECT"
+}

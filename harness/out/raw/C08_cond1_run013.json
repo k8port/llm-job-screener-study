@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:13:58.856004+00:00",
+  "finished_utc": "2026-09-28T22:14:07.359681+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 355
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **5 years of professional experience** in software engineering-adjacent work\n- **Java proficiency** demonstrated through building and maintaining automated test suites\n- **REST API experience** – writing API-level tests, validating contracts (consumer-side, not producer-side)\n- **SQL** listed in skills\n- **CI/CD exposure** via Jenkins pipeline maintenance\n- **B.S. in Information Technology** satisfies the education requirement\n- Located in Garland, TX (near Plano) — commute viable for hybrid\n\n### Gaps and Concerns\n\n**Critical gaps:**\n- **Not a software developer** – all experience is in QA/test engineering. The role requires *designing and building* backend services and APIs, not testing them. Writing tests against REST endpoints is fundamentally different from designing and implementing them.\n- **No evidence of backend service development** – no production services built, no architecture ownership, no deployment of application code\n- **Cloud experience absent** – no AWS, Azure, or GCP mentioned\n- **No evidence of mentoring engineers** or leading technical initiatives\n- **No event-driven/messaging, containerization, or observability experience** (all preferred but reinforce the development experience gap)\n\n**Candidate's own framing** acknowledges this: the summary explicitly states they are \"transitioning toward software development,\" signaling they recognize the gap themselves.\n\n### Conclusion\n\nThe candidate has adjacent technical familiarity but lacks the core software engineering experience the role demands. There is insufficient evidence they could perform the role as described at a senior level.\n\nFINAL: REJECT"
+}

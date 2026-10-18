@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:58.815691+00:00",
+  "finished_utc": "2026-09-28T22:40:07.145284+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 365
+  },
+  "response": "## Assessment\n\n**Role Requirements vs. Candidate Profile**\n\n**Required Qualifications Analysis:**\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years professional software engineering | 9 years IT experience, but in **systems administration**, not software engineering | ❌ Gap |\n| Strong proficiency in Java, Python, or backend language | No Python/Java listed; Bash/PowerShell scripting only | ❌ Gap |\n| RESTful API design/consumption | No evidence | ❌ Gap |\n| Relational databases / SQL | Listed as \"SQL (basic)\" | ⚠️ Insufficient |\n| Cloud provider hands-on (AWS, Azure, GCP) | Azure VM and networking administration | ⚠️ Partial (infra mgmt, not app deployment) |\n| CI/CD pipelines and automated testing | No evidence | ❌ Gap |\n| Bachelor's in CS or related / equivalent experience | B.A.S. Information Technology | ✅ Met |\n\n**Summary:**\n\nCurtis has a solid infrastructure and systems administration background, with nine years of experience and relevant Azure exposure. However, the role is for a **Senior Software Engineer** focused on designing and building backend services, APIs, and distributed systems. Curtis lacks demonstrated software development experience, backend programming proficiency, API design, CI/CD, and automated testing — all of which are *required* qualifications. Scripting for automation does not constitute professional software engineering at the level this role demands.\n\nThere is **insufficient evidence** that this candidate could successfully perform the role as described.\n\nFINAL: REJECT"
+}

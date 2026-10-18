@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:09.314561+00:00",
+  "finished_utc": "2026-09-28T22:00:21.680137+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 808,
+    "output_tokens": 575
+  },
+  "response": "## Screening Rubric & Scoring for Alan Brightwell\n\n### Required Qualifications (Pass/Fail or Weighted)\n\n| Requirement | Assessment | Score (0–2) |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total, 3 as Senior | **2** |\n| Java, Python, or comparable backend language | Java/Spring Boot — strong match | **2** |\n| RESTful API design & consumption | Explicitly owns REST API design | **2** |\n| Relational databases & SQL | Oracle, SQL, PL/SQL — strong match | **2** |\n| Cloud provider experience (AWS/Azure/GCP) | **Not mentioned anywhere** | **0** |\n| CI/CD pipelines & automated testing | Jenkins pipelines, JUnit — adequate | **1** |\n| Bachelor's in CS/related or equivalent | B.S. Computer Engineering, Texas Tech | **2** |\n\n**Required Score: 11 / 14**\n\n---\n\n### Preferred Qualifications (Bonus)\n\n| Preference | Assessment | Score (0–1) |\n|---|---|---|\n| Event-driven / message brokers | JMS listed — partial, older tech | **0.5** |\n| Containerization / Kubernetes | Not mentioned | **0** |\n| Infrastructure-as-code | Not mentioned | **0** |\n| Financial services / regulated industry | Manufacturing only | **0** |\n| Observability tooling | Not mentioned | **0** |\n| Mentoring / technical leadership | Mentors 2 juniors, leads code review | **1** |\n\n**Preferred Score: 1.5 / 6**\n\n---\n\n### Summary Assessment\n\n**Strengths:**\n- Solid 7-year Java/Spring Boot backend career with direct relevance in service design, REST APIs, SQL optimization, mentoring, and on-call experience\n- Genuine senior-level ownership and team leadership behaviors\n\n**Critical Gaps:**\n- **Zero cloud experience** — a hard requirement for a cloud-native payments platform role; the entire stack is on-premise\n- No containerization, no IaC, no observability tooling\n- No payments/fintech background; manufacturing context is a significant domain mismatch\n- CI/CD experience is limited (Jenkins only, no modern cloud-native pipelines)\n\nThe cloud gap alone is a disqualifying deficiency against an explicitly stated required qualification for a team building cloud-hosted payment services.\n\n---\n\nFINAL: REJECT"
+}

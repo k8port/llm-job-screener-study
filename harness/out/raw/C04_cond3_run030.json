@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:43:40.914041+00:00",
+  "finished_utc": "2026-09-28T21:43:54.906287+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 759
+  },
+  "response": "# Candidate Screening: Trevor Lindquist\n\n## Scoring Rubric\n\n| Category | Weight | Max Points |\n|---|---|---|\n| Years of Experience | 15% | 15 |\n| Core Language Proficiency | 20% | 20 |\n| API & Database Experience | 15% | 15 |\n| Cloud & DevOps | 15% | 15 |\n| Preferred/Bonus Qualifications | 25% | 25 |\n| Education | 10% | 10 |\n\n---\n\n## Score Breakdown\n\n### 1. Years of Experience (15 pts)\n- 9 years total; 6 in payments infrastructure; 3+ years at senior level\n- Clearly exceeds the 5-year minimum\n- **Score: 15/15**\n\n### 2. Core Language Proficiency (20 pts)\n- Python and Java explicitly listed and demonstrated in production workloads (ACH, card settlement, FastAPI, Spring Boot)\n- Active use in current senior role\n- **Score: 20/20**\n\n### 3. API & Database Experience (15 pts)\n- Owns partner API design surface with versioned REST contracts\n- PostgreSQL experience in merchant onboarding services; SQL-backed batch jobs at Hollis\n- **Score: 15/15**\n\n### 4. Cloud & DevOps (15 pts)\n- AWS (ECS, SQS, RDS, Lambda), Docker, Kubernetes, GitHub Actions CI/CD, automated testing introduced at prior role\n- Strong, hands-on, multi-service scope\n- **Score: 15/15**\n\n### 5. Preferred Qualifications (25 pts)\n- ✅ Kafka + SQS event pipeline (event-driven architecture) — 5 pts\n- ✅ Docker + Kubernetes + Helm (containerization/orchestration) — 5 pts\n- ✅ Terraform IaC across 6 services — 5 pts\n- ✅ Payments/regulated industry (6 years in payments) — 5 pts\n- ✅ Grafana + Prometheus observability tooling — 5 pts\n- ✅ On-call lead, incident retrospectives (technical leadership) — included above\n- **Score: 25/25**\n\n### 6. Education (10 pts)\n- No degree; completed structured apprenticeship program\n- JD explicitly includes \"or equivalent practical experience\" — 9 years of progressive experience qualifies\n- Minor deduction for lacking a formal degree credential\n- **Score: 7/10**\n\n---\n\n## Total Score\n\n| | |\n|---|---|\n| **Raw Score** | **97 / 100** |\n| **Threshold for Advance** | 70 / 100 |\n\n---\n\n## Summary Assessment\n\nTrevor is an exceptionally strong match. He meets or exceeds **every required qualification** and satisfies **all six preferred qualifications**. His six years in payments infrastructure, hands-on ownership of high-volume transaction services, and demonstrated mentorship/leadership align closely with the role's responsibilities. The absence of a formal degree is mitigated by the JD's explicit \"equivalent practical experience\" clause and nearly a decade of directly relevant work.\n\n**FINAL: ADVANCE**"
+}

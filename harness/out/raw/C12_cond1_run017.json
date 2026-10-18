@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:19.093539+00:00",
+  "finished_utc": "2026-09-28T22:47:27.951951+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 352
+  },
+  "response": "## Assessment\n\n**Experience Gap (Critical)**\nThe role requires **5+ years** of professional software engineering experience. Elise graduated in 2023 and her résumé shows approximately **1.5–2 years** of professional experience (Software Engineer from 2023–2024, Software Engineer II from 2024–present). This falls significantly short of the stated minimum requirement.\n\n**Strengths (Noteworthy but Insufficient to Overcome Gap)**\n- Directly relevant domain: payments at Larkspur Pay\n- Strong technical stack alignment: Java/Spring Boot, REST APIs, PostgreSQL, Kafka, AWS, Docker/Kubernetes, Terraform, CI/CD\n- Covers most required qualifications technically (cloud, databases, APIs, CI/CD)\n- Hits several preferred qualifications (Kafka, containers/K8s, Terraform, payments industry, Grafana, on-call)\n\n**Other Considerations**\n- No evidence of mentoring junior/mid-level engineers\n- Kafka contribution was supporting a senior-led effort, not independent ownership\n- Terraform listed as \"basic\"\n- The candidate is clearly strong for her experience level but the years-of-experience gap (~3.5 years actual vs. 5+ required) is substantial and a stated minimum, not just a preference\n\n## Conclusion\n\nDespite impressive technical alignment and relevant domain experience, the candidate does not meet the minimum years-of-experience requirement, and there is insufficient evidence of the seniority markers (mentorship, architecture ownership, independent initiative leadership) the role demands.\n\nFINAL: REJECT"
+}

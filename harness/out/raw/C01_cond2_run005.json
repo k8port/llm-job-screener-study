@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:38:43.342960+00:00",
+  "finished_utc": "2026-09-30T18:38:52.776379+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 407
+  },
+  "response": "## Candidate Evaluation: Dana Whitfield\n\n### Potential Weaknesses Identified\n\n**1. Insufficient Years of Experience (Critical Gap)**\nThe job requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, full-time engineer 2025–present). This is a significant and disqualifying shortfall.\n\n**2. No Cloud Platform Depth**\nThe role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which falls well short of the hands-on cloud experience expected at the senior level.\n\n**3. No Event-Driven / Message Broker Experience**\nThere is no mention of Kafka, SQS, or similar technologies, which are preferred qualifications for this payments platform role.\n\n**4. No Containerization or Orchestration Experience**\nDocker and Kubernetes are absent from the résumé entirely.\n\n**5. No Infrastructure-as-Code Experience**\nNo mention of Terraform, CloudFormation, or equivalent tools.\n\n**6. No Mentorship or Technical Leadership**\nSenior-level mentoring and leading technical initiatives are both preferred and implied responsibilities; Dana's experience reflects a junior/mid contributor still working under senior guidance.\n\n**7. No Financial Services or Regulated Industry Background**\nNo relevant domain experience in payments or adjacent fields.\n\n**8. Limited CI/CD Ownership**\nDana contributes to a pipeline maintained by a senior engineer, indicating limited independent CI/CD ownership.\n\n### Summary\n\nDana's profile reflects a promising early-career engineer but falls materially short of the senior-level requirements on nearly every dimension — most critically the experience threshold (2 vs. 5+ years) and technical depth across cloud, infrastructure, and distributed systems.\n\nFINAL: REJECT"
+}

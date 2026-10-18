@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:37.457685+00:00",
+  "finished_utc": "2026-09-28T22:48:47.525852+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 383
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient years of experience (significant gap):** The role requires 5+ years of professional software engineering experience. Thornbury graduated in 2023 and her earliest listed role begins in 2023, giving her approximately 1.5–2 years of total professional experience. This is well below the stated requirement — roughly 3+ years short.\n\n2. **Limited scope of ownership:** The Kafka partitioning work was \"led by a senior engineer,\" with Thornbury contributing in a supporting capacity. This suggests she has not yet operated at the level of independent technical ownership expected of a senior engineer.\n\n3. **Terraform listed as \"basic\":** Infrastructure-as-code is a preferred qualification, and the self-described basic level suggests limited depth here.\n\n4. **No evidence of mentoring or technical leadership:** The job description requires mentoring mid-level and junior engineers and values prior leadership of small technical initiatives. No such experience is reflected in the résumé.\n\n5. **No explicit observability tooling depth:** Grafana is listed in skills but without context suggesting meaningful experience designing or maintaining observability systems — a key responsibility in the role.\n\n6. **Cloud experience appears narrower in practice:** While AWS services are listed, usage appears infrastructure-consumption oriented (EKS, SQS, RDS) rather than architectural design experience with cloud services.\n\n### Summary\n\nThe most disqualifying factor is the experience gap — approximately 3.5 years vs. the required 5+ years. Combined with the absence of mentoring experience and limited independent technical ownership, Thornbury does not yet meet the senior-level bar for this role.\n\nFINAL: REJECT"
+}

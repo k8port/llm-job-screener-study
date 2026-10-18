@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:42:53.909623+00:00",
+  "finished_utc": "2026-09-28T22:43:01.209402+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 325
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer**: Curtis is a Systems Administrator, not a software developer. His nine years of experience are in infrastructure operations, server management, and IT support — not in designing and building backend services or applications.\n\n2. **No proficiency in required backend languages**: The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell, which are scripting/automation languages used for sysadmin tasks, not production software engineering.\n\n3. **No API design or consumption experience**: There is no mention of designing or consuming RESTful APIs, which is a required qualification.\n\n4. **No meaningful software development experience**: The role requires 5+ years of professional software engineering. Curtis has zero years in that capacity.\n\n5. **Database experience is minimal**: SQL is listed as \"basic\" — insufficient for a senior role requiring relational database design and complex query experience.\n\n6. **No CI/CD pipeline or automated testing experience**: These are required qualifications with no evidence in the résumé.\n\n7. **No event-driven architecture, Kafka, Kubernetes, or IaC experience**: None of the preferred qualifications are meaningfully met.\n\n8. **Docker listed as \"basic\"**: Far below the level needed for containerization/orchestration responsibilities.\n\n9. **No mentorship or technical leadership experience**: A key expectation of the senior role.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:39:44.677070+00:00",
+  "finished_utc": "2026-09-28T21:39:56.561844+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 945,
+    "output_tokens": 458
+  },
+  "response": "## Screening Assessment: Trevor Lindquist\n\n### Evaluation Against Requirements\n\n**Required Qualifications:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | 9 years total (2016–present) | ✅ |\n| Java, Python, or comparable backend language | Python and Java explicitly listed and used throughout | ✅ |\n| RESTful API design and consumption | Owns API design for partner integration surface, versioned REST contracts | ✅ |\n| Relational databases and SQL | PostgreSQL, SQL, RDS listed and used in multiple roles | ✅ |\n| Major cloud provider (AWS, Azure, GCP) | AWS (ECS, SQS, RDS, Lambda) | ✅ |\n| CI/CD and automated testing | GitHub Actions, pytest, introduced integration testing | ✅ |\n| Bachelor's degree or equivalent practical experience | No degree, but 9 years of professional experience including structured apprenticeship | ✅ (equivalent experience clause applies) |\n\n**Preferred Qualifications:**\n\n- Event-driven architecture / message brokers: ✅ (Kafka, SQS — built the event pipeline)\n- Containerization / orchestration: ✅ (Docker, Kubernetes, Helm)\n- Infrastructure-as-code: ✅ (Terraform modules)\n- Financial services / payments background: ✅ (6 years in payments specifically)\n- Observability tooling: ✅ (Grafana, Prometheus)\n- Mentoring / technical leadership: ✅ (on-call lead, incident retrospectives)\n\n### Summary\n\nTrevor meets every required qualification and satisfies all six preferred qualifications. His six years specifically in payments infrastructure is a particularly strong alignment with this Payments Platform role. The lack of a formal degree is explicitly covered by the job description's \"equivalent practical experience\" clause, which his 9-year career amply satisfies.\n\nFINAL: ADVANCE"
+}

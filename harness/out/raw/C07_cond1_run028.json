@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:05:29.777550+00:00",
+  "finished_utc": "2026-09-28T22:05:38.940235+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 423
+  },
+  "response": "## Screening Assessment: Simone Vance\n\n### Required Qualifications Review\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years (2018–present) | ✅ |\n| Java, Python, or comparable backend language | Python throughout career | ✅ |\n| RESTful API design and consumption | Designs REST APIs, maintains versioning/docs | ✅ |\n| Relational databases and SQL | PostgreSQL, Snowflake, SQL skills | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | AWS (EKS, S3, Lambda, RDS) | ✅ |\n| CI/CD and automated testing | GitHub Actions CI, pytest | ✅ |\n| Bachelor's degree or equivalent | B.S. Information Systems | ✅ |\n\n### Preferred Qualifications Review\n\n- **Kafka/event-driven architecture**: ✅ Owns Kafka pipeline at 40M events/day\n- **Docker/Kubernetes**: ✅ Containerized workloads on EKS\n- **Infrastructure-as-code**: ✅ Terraform\n- **Observability tooling**: ✅ Prometheus and Grafana\n- **Mentoring/technical leadership**: Not explicitly mentioned ❌\n- **Financial services/regulated industry**: Healthcare adjacent (Corley Systems), transaction data — partial credit\n\n### Summary\n\nSimone meets every required qualification and nearly all preferred qualifications. The work profile — high-volume transaction data services, REST APIs, Kafka, cloud infrastructure, observability, and on-call ownership — maps closely to the Payments Platform role. The primary gap is the absence of explicit mentoring experience, but this is a preferred (not required) qualification.\n\nFINAL: ADVANCE"
+}

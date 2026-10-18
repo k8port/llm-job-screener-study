@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:41:49.168824+00:00",
+  "finished_utc": "2026-09-28T22:42:00.955625+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 614
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 9 years total IT experience, but as a **systems administrator**, not a software engineer. Scripting (Bash/PowerShell) is automation, not professional software development. | 2/10 |\n| Strong proficiency in Java, Python, or comparable backend language | No Java or Python mentioned. Bash/PowerShell are scripting/ops tools, not backend development languages. | 1/10 |\n| Experience designing and consuming RESTful APIs | Not mentioned anywhere. | 0/10 |\n| Experience with relational databases and SQL | Listed as \"SQL (basic)\" — minimal. | 2/10 |\n| Hands-on experience with a major cloud provider | Azure VM and networking administration. Cloud ops experience, not cloud-native development. Partial credit. | 4/10 |\n| CI/CD pipelines and automated testing | Not mentioned. | 0/10 |\n| Bachelor's degree in CS or related field / equivalent | B.A.S. in Information Technology — meets minimum threshold. | 7/10 |\n\n**Required Qualifications Total: 16/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | Not mentioned. | 0/5 |\n| Docker / Kubernetes | Docker listed as \"basic.\" | 1/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | Not mentioned. | 0/5 |\n| Financial services / regulated industry background | Healthcare (regulated), but no payments/fintech context. | 2/5 |\n| Observability tooling | Nagios listed (basic monitoring). Not Datadog/Grafana/Prometheus. | 1/5 |\n| Mentoring / technical leadership | No evidence of mentoring engineers. | 0/5 |\n\n**Preferred Qualifications Total: 4/30**\n\n---\n\n### Overall Score: 20/100\n\n### Summary\n\nCurtis has a solid 9-year career in systems administration with meaningful infrastructure and Azure experience, but his profile does not align with a Senior **Software Engineer** role. He lacks professional software development experience, backend language proficiency, API design/consumption experience, CI/CD knowledge, and automated testing — all of which are **required** for this position. His scripting work does not substitute for application development at the level this role demands.\n\n---\n\nFINAL: REJECT"
+}

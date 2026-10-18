@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:38.182625+00:00",
+  "finished_utc": "2026-09-28T22:14:47.114813+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 376
+  },
+  "response": "## Assessment: Grant Pemberton for Senior Software Engineer (Payments Platform)\n\n### Strengths\n- **5 years of professional experience** in a software-adjacent role, meeting the minimum years threshold technically\n- **Java proficiency** demonstrated through test automation work\n- **REST API experience** via API-level testing (REST Assured, Postman)\n- **SQL skills** listed\n- **CI/CD exposure** through Jenkins pipeline maintenance\n- **Bachelor's degree** in a related field (Information Technology)\n- Located in the DFW area, compatible with Plano hybrid requirement\n\n### Significant Gaps\n- **Role type mismatch**: All experience is in QA/test engineering, not software development. The candidate self-identifies as \"transitioning toward software development.\" The job requires building and owning backend production services.\n- **No evidence of designing or building backend services**: Writing test suites against APIs is fundamentally different from designing and implementing scalable APIs and services.\n- **No cloud platform experience** (AWS, Azure, GCP) — a required qualification\n- **No production system ownership or on-call experience**\n- **No evidence of mentoring engineers** or leading technical initiatives\n- **No exposure** to preferred qualifications (Kafka, Docker/Kubernetes, Terraform, observability tooling, fintech)\n- Java use is limited to test automation frameworks, not backend application development\n\n### Conclusion\nThe candidate lacks sufficient evidence of the core competencies required: designing/building backend services, cloud experience, and production system ownership. The QA background, while valuable in other contexts, does not demonstrate readiness for a **Senior** backend engineering role with significant ownership over service design.\n\nFINAL: REJECT"
+}

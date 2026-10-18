@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:47.853839+00:00",
+  "finished_utc": "2026-09-28T22:43:57.040432+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 419
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps vs. Required Qualifications:**\n\n1. **Not a software engineer.** Curtis is a systems administrator. His nine years of experience are in infrastructure operations, not software development. The role requires building and designing backend services and APIs — none of his experience reflects this.\n\n2. **No proficiency in a backend programming language.** The role requires strong proficiency in Java, Python, or a comparable language. Curtis lists only Bash and PowerShell, which are scripting/automation tools, not backend development languages.\n\n3. **No experience designing or consuming RESTful APIs.** This is a hard requirement; it does not appear anywhere on his résumé.\n\n4. **No CI/CD pipeline or automated testing experience.** Not mentioned on his résumé.\n\n5. **SQL listed as \"basic.\"** The role requires genuine experience with relational databases and SQL; basic familiarity does not meet the bar.\n\n6. **Azure experience is infrastructure-only.** He manages Azure VMs and networking — not cloud-native application development services (e.g., App Services, Lambda equivalents, managed databases).\n\n7. **No software engineering experience to meet the 5+ year requirement.** His tenure is entirely in sysadmin/IT support roles.\n\n**Gaps vs. Preferred Qualifications:**\n- No event-driven architecture or message broker experience (Kafka, SQS).\n- Docker listed as \"basic\" only; no Kubernetes experience.\n- No infrastructure-as-code experience (Terraform, CloudFormation).\n- No observability tooling experience relevant to software systems.\n- No mentoring or technical leadership experience.\n\n**Summary:** Curtis is a capable infrastructure professional but does not meet the foundational requirements for a Senior Software Engineer role. The skill and experience mismatch is fundamental, not marginal.\n\nFINAL: REJECT"
+}

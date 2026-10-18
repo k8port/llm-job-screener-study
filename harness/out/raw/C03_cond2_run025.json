@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:31:58.405835+00:00",
+  "finished_utc": "2026-09-28T21:32:13.953381+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 886,
+    "output_tokens": 623
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Potential Weaknesses\n\n1. **Frontend-dominant background, not backend:** The candidate self-identifies as \"frontend-focused,\" and the majority of experience is in UI/component work (React, TypeScript, Next.js). The role is explicitly a **backend/payments platform engineering** position. Backend work (Node.js/Express services) appears secondary and supplementary to frontend responsibilities.\n\n2. **Wrong primary language stack:** The role requires strong proficiency in **Java, Python, or a comparable backend language**. The candidate's primary languages are TypeScript/JavaScript (Node.js). While Node.js can be argued as a backend language, it is not listed in the JD and is generally not considered equivalent to Java or Python in enterprise payments/high-volume transaction contexts. No Java or Python is listed anywhere.\n\n3. **No payments, financial services, or regulated industry experience:** The candidate comes from retail and media. The preferred (and contextually important) background in financial services or payments is entirely absent.\n\n4. **Limited cloud depth:** AWS exposure is narrow (S3, CloudFront, Lambda) — primarily frontend/CDN-oriented services. No evidence of backend-relevant AWS services (e.g., RDS, ECS, SQS, EC2, EKS).\n\n5. **No event-driven architecture or message broker experience:** No mention of Kafka, SQS (in a backend capacity), or similar systems — a preferred but meaningful qualification for a payments platform.\n\n6. **No Kubernetes, Terraform, or infrastructure-as-code experience:** Docker is listed but no orchestration or IaC tools appear.\n\n7. **Non-technical degree:** B.A. in Graphic Design, not Computer Science or a related technical field. The JD requires a CS/related degree or equivalent practical experience — this must be weighed against the overall profile.\n\n8. **No observability tooling experience:** Datadog, Grafana, Prometheus — none mentioned.\n\n9. **Scale and transaction volume mismatch:** The candidate's largest system handles ~400K monthly users on a retail account portal, not high-volume financial transaction processing.\n\n10. **Mentorship scope is limited:** Mentoring is frontend-specific (design-to-code, junior frontend engineers), not the broader technical mentorship expected at the senior backend level.\n\n### Summary\n\nThe candidate has real engineering experience and some transferable skills (REST APIs, SQL/PostgreSQL, CI/CD, Docker), but the profile is fundamentally misaligned with a senior **backend** engineer role on a **payments platform**. The core gaps — backend language proficiency, payments/regulated industry experience, cloud backend depth, and event-driven architecture — are not minor; they go to the heart of the role's requirements.\n\nFINAL: REJECT"
+}

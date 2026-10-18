@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:45.526576+00:00",
+  "finished_utc": "2026-09-28T22:39:54.272372+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 340
+  },
+  "response": "## Assessment\n\n### Role Requirements vs. Candidate Profile\n\n**Required Qualifications:**\n\n| Requirement | Evidence in Résumé | Met? |\n|---|---|---|\n| 5+ years software engineering experience | 9 years in sysadmin/IT roles, not software engineering | ❌ |\n| Strong proficiency in Java, Python, or comparable backend language | Bash and PowerShell scripting only; no application development languages | ❌ |\n| RESTful API design and consumption | No evidence | ❌ |\n| Relational databases and SQL | Listed as \"SQL (basic)\" | Marginal |\n| Major cloud provider hands-on experience | Azure (VMs, networking) | ✅ |\n| CI/CD pipelines and automated testing | No evidence | ❌ |\n| Bachelor's in CS or related / equivalent experience | B.A.S. in Information Technology | ✅ |\n\n### Summary\n\nCurtis has a solid infrastructure and systems administration background, with nearly a decade of experience, Azure exposure, and some scripting automation. However, the role requires a **software engineer**—someone who designs and builds backend services, APIs, and production application code. Curtis's experience is fundamentally in **operations and infrastructure**, not software development. There is no evidence of application development, backend service design, API work, CI/CD, or proficiency in a backend programming language like Java or Python. The gap between his profile and the role's core requirements is substantial.\n\nFINAL: REJECT"
+}

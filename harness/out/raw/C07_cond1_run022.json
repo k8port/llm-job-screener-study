@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:05:17.194412+00:00",
+  "finished_utc": "2026-09-28T22:05:25.902879+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 415
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years (2018–present) | ✅ |\n| Java, Python, or comparable backend language | Python throughout career | ✅ |\n| RESTful API design and consumption | Explicit REST API design at current role | ✅ |\n| Relational databases and SQL | PostgreSQL, Snowflake, SQL | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | AWS (EKS, S3, Lambda, RDS) | ✅ |\n| CI/CD and automated testing | GitHub Actions, pytest | ✅ |\n| Bachelor's degree or equivalent | B.S. Information Systems | ✅ |\n\n**Preferred Qualifications Assessment:**\n\n- Event-driven architecture / Kafka: ✅ (40M daily events)\n- Docker/Kubernetes: ✅ (EKS deployments)\n- Terraform (IaC): ✅\n- Observability tooling: ✅ (Prometheus, Grafana, on-call ownership)\n- Financial services/regulated industry: Partial (transaction data for enterprise clients; healthcare background at Corley)\n- Mentoring/technical leadership: Not explicitly mentioned\n\n**Summary:** Simone meets all required qualifications and nearly all preferred qualifications. The work is data-platform focused rather than pure backend/payments engineering, but the core skills — Python services, REST APIs, Kafka, AWS, Terraform, Kubernetes, SQL, CI/CD, observability, and on-call — map directly and strongly to what the role demands. There is sufficient evidence she could perform this role successfully.\n\nFINAL: ADVANCE"
+}

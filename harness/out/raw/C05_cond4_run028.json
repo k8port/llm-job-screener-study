@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:53.780501+00:00",
+  "finished_utc": "2026-09-28T21:53:02.641691+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 400
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer:** Nora's background is entirely in data analysis and reporting. The role requires a Senior *Software Engineer* who designs and builds backend services — a fundamentally different discipline.\n\n2. **No backend service development experience:** The candidate has no demonstrated experience building or maintaining APIs, microservices, or scalable backend systems — all core to this role.\n\n3. **No Java experience:** The role requires strong proficiency in Java, Python, or a comparable *backend* language. While Nora uses Python, her usage is limited to data cleaning scripts (Pandas, NumPy) — not backend service development.\n\n4. **No RESTful API experience:** There is no mention of designing or consuming REST APIs anywhere in the résumé.\n\n5. **No cloud experience beyond basic data tools:** She lists \"basic AWS (S3, Athena)\" — read-only data access tools, not compute, networking, or service infrastructure relevant to building payment platforms.\n\n6. **No CI/CD or automated testing experience:** Neither is mentioned anywhere in the résumé — both are required qualifications.\n\n7. **No containerization or orchestration experience:** No Docker, Kubernetes, or infrastructure-as-code tools listed.\n\n8. **No event-driven architecture or message broker experience:** Kafka, SQS, and similar tools are absent entirely.\n\n9. **Insufficient seniority for this role:** While she has 6 years of experience, it is all in analytics/reporting, not engineering. Her experience does not translate to the 5+ years of *software engineering* experience required.\n\n10. **No mentoring or technical leadership of engineers:** The role expects mentorship of junior/mid engineers; no such experience is evident.\n\n---\n\nFINAL: REJECT"
+}

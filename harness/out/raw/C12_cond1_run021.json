@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:27.952472+00:00",
+  "finished_utc": "2026-09-28T22:47:36.993912+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 348
+  },
+  "response": "## Assessment\n\n**Experience Gap (Most Critical Factor)**\n\nThe job requires **5+ years** of professional software engineering experience. Elise graduated in 2023 and has been working professionally since 2023 — giving her approximately **2–2.5 years** of experience. This is roughly half the required minimum, which is a hard requirement, not a preferred one.\n\n**Strengths**\n\n- Strong technical stack alignment: Java/Spring Boot, REST APIs, PostgreSQL/SQL, Kafka, AWS, Docker/Kubernetes, Terraform, CI/CD — she checks nearly every required and preferred technical box\n- Direct payments industry experience at Larkspur Pay\n- Observability tooling (Grafana) present\n- B.S. in Computer Science from SMU\n- On-call rotation participation\n\n**Concerns**\n\n- **Years of experience is significantly below the stated requirement (2.5 vs. 5+ years)**\n- No evidence of mentoring engineers or leading technical initiatives (a preferred and implied expectation for a Senior role)\n- Kafka contributions were supporting a senior-led effort, suggesting she's not yet operating at a senior level of architectural ownership\n- The role involves \"significant ownership over service design and delivery\" and mentoring junior/mid engineers — the résumé reflects a mid-level contributor profile\n\n**Conclusion**\n\nDespite impressive technical breadth for her tenure, the experience shortfall is substantial and the behavioral evidence does not yet support senior-level ownership or mentorship. There is insufficient evidence she could successfully perform the role *as described*.\n\nFINAL: REJECT"
+}

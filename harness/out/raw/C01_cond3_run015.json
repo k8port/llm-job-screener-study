@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:40:31.046353+00:00",
+  "finished_utc": "2026-09-30T18:40:45.363776+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 690
+  },
+  "response": "## Screening Scorecard: Dana Whitfield\n\n**Role:** Senior Software Engineer – Payments Platform\n\n---\n\n### Required Qualifications (Pass/Fail weighted)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional experience | ~1 year FTE + ~1 year intern = ~2 years total. **Well short of minimum.** | 0/3 |\n| Strong proficiency in Java, Python, or comparable backend language | Java / Spring Boot confirmed. Genuine strength for experience level. | 2/2 |\n| Experience designing and consuming RESTful APIs | REST endpoints in Spring Boot confirmed. Consuming APIs not explicitly demonstrated. | 1/2 |\n| Relational databases and SQL | MySQL and SQL queries confirmed. | 2/2 |\n| Hands-on cloud experience (AWS, Azure, GCP) | \"Basic AWS (EC2, S3)\" – minimal, not hands-on depth. | 0/2 |\n| CI/CD pipelines and automated testing | GitHub Actions (maintained by senior engineer); JUnit. Limited ownership. | 1/2 |\n| Bachelor's CS or equivalent | B.S. CS, UT Dallas 2024. ✓ | 1/1 |\n\n**Required Score: 7/14**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No evidence | 0/1 |\n| Docker / Kubernetes | No evidence | 0/1 |\n| Infrastructure-as-code | No evidence | 0/1 |\n| Financial services / regulated industry | No evidence | 0/1 |\n| Observability tooling | No evidence | 0/1 |\n| Mentoring / technical leadership | No evidence | 0/1 |\n\n**Preferred Score: 0/6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Assessment |\n|---|---|\n| **System Design / Architecture** | No evidence of architecture ownership at any scale |\n| **Production Ownership / On-Call** | Defect resolution noted; no production ownership or on-call responsibility |\n| **Mentorship** | None demonstrated |\n| **Scale / Complexity** | Internal inventory service for 3 teams; low complexity |\n| **Seniority Signal** | Summary self-identifies as early-career; role requires senior-level judgment |\n\n---\n\n### Summary Judgment\n\nDana is an early-career engineer (~2 years experience) with a solid Java/REST foundation and a CS degree. However, the candidate falls critically short on the **5+ year experience requirement**, demonstrates **no cloud depth**, **no event-driven or infrastructure experience**, **no mentorship**, and **no payments/regulated industry background**. The gap is substantial and not bridgeable by adjacent strengths for a *Senior* role.\n\n**Total: 7/14 required · 0/6 preferred**\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:40:13.597139+00:00",
+  "finished_utc": "2026-09-30T18:40:29.621033+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 875
+  },
+  "response": "## Screening Rubric & Evaluation — Dana Whitfield\n\n### Scoring Rubric\n\n| Criterion | Weight | Scoring Guide |\n|---|---|---|\n| Years of Experience | 20% | 5+ yrs = 10; 3–4 yrs = 6; <3 yrs = 2 |\n| Backend Language Proficiency | 15% | Strong/demonstrated = 10; Moderate = 6; Minimal = 2 |\n| RESTful API Design & Consumption | 10% | Clear evidence = 10; Partial = 5; None = 0 |\n| Relational DB & SQL | 10% | Clear evidence = 10; Partial = 5; None = 0 |\n| Cloud Experience | 10% | Hands-on, substantive = 10; Basic/surface = 4; None = 0 |\n| CI/CD & Automated Testing | 10% | Owns pipeline + testing = 10; Contributor = 5; None = 0 |\n| Preferred Qualifications (Kafka, K8s, Terraform, Fintech, Observability, Mentoring) | 15% | 4–6 = 10; 2–3 = 6; 0–1 = 2 |\n| Seniority Indicators (Ownership, Mentoring, Architecture) | 10% | Strong = 10; Some = 5; None = 0 |\n\n---\n\n### Candidate Scores\n\n| Criterion | Weight | Raw Score (/10) | Weighted Score |\n|---|---|---|---|\n| Years of Experience | 20% | 2 (~2 yrs total) | **0.40** |\n| Backend Language Proficiency | 15% | 7 (Java/Spring Boot demonstrated) | **1.05** |\n| RESTful API Design & Consumption | 10% | 6 (builds endpoints; scope is limited) | **0.60** |\n| Relational DB & SQL | 10% | 6 (MySQL, SQL queries; limited scope) | **0.60** |\n| Cloud Experience | 10% | 3 (basic EC2/S3 only) | **0.30** |\n| CI/CD & Automated Testing | 10% | 4 (contributor to pipeline, writes tests; not owner) | **0.40** |\n| Preferred Qualifications | 15% | 1 (none of Kafka, K8s, Terraform, fintech, observability, mentoring) | **0.15** |\n| Seniority Indicators | 10% | 1 (no mentoring, no architecture ownership) | **0.10** |\n\n**Total Weighted Score: 3.60 / 10**\n\n---\n\n### Summary Assessment\n\nDana has a solid foundational profile — Java/Spring Boot, REST APIs, SQL, and a CS degree from a reputable program — but falls significantly short of the role's requirements on nearly every axis:\n\n- **Experience gap is disqualifying:** ~2 years total (including internship) vs. the hard requirement of 5+ years.\n- **Cloud exposure is surface-level** (EC2/S3 basics) vs. hands-on cloud architecture expected.\n- **CI/CD role is peripheral** — contributor, not owner.\n- **No preferred qualifications** are met (no Kafka, Kubernetes, Terraform, fintech, observability tooling, or mentoring experience).\n- **No seniority signals:** No evidence of architecture ownership, technical leadership, or mentoring.\n\nThis candidate may be appropriate for a junior or mid-level role in the future but does not meet the bar for a Senior Software Engineer at this time.\n\n---\n\nFINAL: REJECT"
+}

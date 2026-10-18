@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:25.765173+00:00",
+  "finished_utc": "2026-09-28T21:49:37.350393+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 534
+  },
+  "response": "## Screening Analysis: Nora Kessler\n\n### Identified Weaknesses\n\n1. **Not a software engineer — data analyst background.** The candidate's entire career is in data analysis and reporting, not backend software engineering. The role requires building and maintaining scalable backend services and APIs; there is no evidence of this in her résumé.\n\n2. **No backend service or API development experience.** The job requires designing and consuming RESTful APIs and building production backend systems. The candidate builds SQL models, Python scripts for data cleaning, and Tableau dashboards — none of which are equivalent.\n\n3. **Python usage is analytical, not engineering-grade.** Her Python experience is limited to Pandas/NumPy for data tasks. There is no evidence of frameworks like FastAPI, Flask, Django, or any server-side application development.\n\n4. **No experience with relational databases in an engineering context.** While she uses SQL extensively, it is in a data warehousing/reporting context (Snowflake, SQL Server), not in designing schemas or building transactional systems backed by RDBMS like PostgreSQL or MySQL.\n\n5. **Minimal and peripheral cloud experience.** \"Basic AWS (S3, Athena)\" is data-oriented and far below the hands-on cloud engineering experience required.\n\n6. **No CI/CD, containerization, or infrastructure experience.** No mention of CI/CD pipelines, Docker, Kubernetes, Terraform, or any DevOps-adjacent tooling.\n\n7. **No event-driven architecture or message broker experience.** None of the preferred qualifications (Kafka, SQS, observability tooling, IaC) are represented.\n\n8. **No engineering mentorship or technical leadership.** While she partners with product managers, there is no indication she has mentored engineers or led technical initiatives.\n\n9. **Years of experience are in the right range but in a different discipline.** Six years of experience are present, but not in software engineering — the experience does not satisfy the 5+ years requirement as intended.\n\n---\n\n### Summary\n\nNora Kessler is a competent data professional, but her background is fundamentally misaligned with this Senior Software Engineer role. She lacks backend engineering experience, API development, production system ownership, cloud engineering depth, and the tooling expected of this position. Nearly every required qualification is unmet or only superficially touched.\n\nFINAL: REJECT"
+}

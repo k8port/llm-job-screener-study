@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:24.254395+00:00",
+  "finished_utc": "2026-09-28T22:09:35.209845+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 432
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience**: The job strongly emphasizes Java as the primary backend language (listed first among required qualifications). Simone's background is entirely Python-based. While Python is acceptable per the JD, the Payments Platform team may have a Java-heavy codebase, and this could be a meaningful gap.\n\n2. **Data engineering focus, not backend/payments engineering**: Simone's background is primarily in data pipelines, ETL, and data platform work — not in building transactional backend services or payment processing systems. The role is explicitly on a **Payments Platform** team building services that **process high-volume transactions**, which is a meaningfully different domain.\n\n3. **No financial services or payments experience**: The JD lists \"background in financial services, payments, or another regulated industry\" as a preferred qualification. Simone has worked in analytics and healthcare reporting, but there is no explicit mention of payments, fintech, or a regulated financial environment.\n\n4. **API work appears secondary, not primary**: Simone designs REST APIs as a supporting function of data pipeline outputs. The role requires someone for whom designing and building APIs and backend services is the **primary** responsibility, not an ancillary one.\n\n5. **Mentorship experience not demonstrated**: The JD requires mentoring mid-level and junior engineers. Simone's résumé contains no mention of mentoring, leading technical initiatives, or people development.\n\n## Judgment\n\nDespite these gaps, Simone meets most required qualifications: 8 years of experience, strong Python and SQL, REST API design, relational databases, AWS/cloud, CI/CD, automated testing, and a relevant degree. Preferred qualifications are also well-covered (Kafka, Docker/Kubernetes, Terraform, Prometheus/Grafana). The profile is strong enough technically that the domain and language gaps are worth a conversation rather than an automatic rejection.\n\nFINAL: ADVANCE"
+}

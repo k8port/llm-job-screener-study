@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:31.667406+00:00",
+  "finished_utc": "2026-09-28T22:40:41.181161+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 448
+  },
+  "response": "## Candidate Screening Analysis: Curtis Ballinger\n\n### Role: Senior Software Engineer – Payments Platform\n\n---\n\n### Identified Weaknesses\n\n**Critical Gaps (Required Qualifications)**\n\n1. **No software engineering background.** Curtis is a systems administrator. His work centers on infrastructure operations, not software development. The role requires designing and building backend services and APIs — there is no evidence of this in his résumé.\n\n2. **No proficiency in Java, Python, or comparable backend language.** His scripting experience (Bash, PowerShell) is operations-oriented and does not constitute backend software development proficiency.\n\n3. **No experience designing or consuming RESTful APIs.** Not mentioned anywhere.\n\n4. **No meaningful SQL/relational database experience.** SQL is listed as \"basic\" — insufficient for a senior engineering role where database design and query optimization are expected.\n\n5. **Cloud experience is infrastructure-only.** Azure VM and networking administration is not equivalent to building cloud-native applications on a major cloud provider.\n\n6. **No CI/CD pipeline experience.** Not mentioned.\n\n7. **No automated testing experience.** Not mentioned.\n\n8. **Years of experience in the wrong domain.** Nine years of sysadmin work does not substitute for 5+ years of professional *software engineering* experience.\n\n**Preferred Qualification Gaps**\n\n9. No experience with Kafka, SQS, or event-driven architecture.\n10. No Kubernetes or container orchestration experience (Docker listed as \"basic\").\n11. No infrastructure-as-code experience (Terraform, CloudFormation).\n12. No observability tooling experience relevant to software systems (Nagios is monitoring, not APM).\n13. No mentoring or technical leadership of engineers.\n\n---\n\n### Summary\n\nCurtis does not meet the core required qualifications for this role. The position demands a software engineer with hands-on application development experience; Curtis is an infrastructure/operations professional. The gaps are fundamental, not marginal.\n\nFINAL: REJECT"
+}

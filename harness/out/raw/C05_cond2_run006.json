@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:17.051404+00:00",
+  "finished_utc": "2026-09-28T21:49:27.569889+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 450
+  },
+  "response": "## Screening Analysis: Nora Kessler\n\n### Potential Weaknesses Identified\n\n**Critical Gaps (Required Qualifications):**\n\n1. **Not a software engineer — data analyst background:** The candidate's entire career has been in data analysis and reporting, not backend software engineering. There is no evidence of designing or building backend services, APIs, or production software systems.\n\n2. **No RESTful API experience:** The résumé contains zero mention of designing or consuming REST APIs, which is a required qualification.\n\n3. **No CI/CD pipeline or automated testing experience:** Neither is referenced anywhere in the résumé.\n\n4. **No cloud engineering depth:** AWS exposure is described as \"basic (S3, Athena)\" — object storage and a query tool, not compute, networking, or services relevant to backend platform engineering.\n\n5. **No backend service/application development:** Python usage is limited to data cleaning scripts (Pandas, NumPy), not application development, frameworks (e.g., Flask, FastAPI, Django), or service-layer code.\n\n**Preferred Qualification Gaps:**\n\n6. **No event-driven architecture or message broker experience** (Kafka, SQS, etc.).\n7. **No containerization or orchestration experience** (Docker, Kubernetes).\n8. **No infrastructure-as-code experience** (Terraform, CloudFormation).\n9. **No observability tooling experience** (Datadog, Grafana, Prometheus).\n10. **No mentorship or technical leadership experience** referenced.\n\n**Contextual Concern:**\n11. **Role mismatch is fundamental:** The candidate's own summary describes herself as a \"data analyst,\" which is a fundamentally different discipline from senior backend software engineering.\n\n---\n\n### Summary\n\nNora Kessler meets the years-of-experience threshold and holds a relevant degree, but she fails to meet nearly every technical required qualification for this role. The gap is not marginal — it reflects a different professional discipline entirely.\n\nFINAL: REJECT"
+}

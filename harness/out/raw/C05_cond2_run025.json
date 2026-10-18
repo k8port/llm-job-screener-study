@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:06.482871+00:00",
+  "finished_utc": "2026-09-28T21:50:16.060650+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 397
+  },
+  "response": "## Candidate Evaluation: Nora Kessler\n\n### Identified Weaknesses\n\n1. **Not a Software Engineer — Data Analyst background:** Kessler's entire career has been in data analysis and reporting, not backend software engineering. She builds SQL models, dashboards, and Python scripts for analytics — not production backend services or APIs.\n\n2. **No backend service/API development experience:** The role requires designing and building scalable backend services and RESTful APIs. There is no evidence of any such work on her résumé.\n\n3. **Python use is analytical, not engineering-grade:** Her Python experience is limited to data cleaning scripts using Pandas/NumPy — not building services, frameworks, or production systems.\n\n4. **No cloud engineering experience:** She lists \"basic AWS (S3, Athena)\" — read-only/query-focused services. No experience with compute, networking, deployment, or cloud architecture required for backend engineering.\n\n5. **No CI/CD, containerization, or infrastructure experience:** No mention of CI/CD pipelines, Docker, Kubernetes, Terraform, or any DevOps tooling.\n\n6. **No experience with relational databases in an engineering context:** Her SQL experience is for querying/reporting, not schema design, transaction management, or backend integration.\n\n7. **No event-driven architecture or message broker experience:** Kafka, SQS, etc. are entirely absent.\n\n8. **No mentorship or technical leadership experience** in an engineering context.\n\n9. **No payments or regulated industry engineering experience** (insurance exposure is analytical only).\n\n10. **Role mismatch is fundamental:** This is not a gap in one or two qualifications — the candidate's entire professional profile is categorically different from what the role requires.\n\n---\n\nFINAL: REJECT"
+}

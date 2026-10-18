@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:42:01.404262+00:00",
+  "finished_utc": "2026-09-30T18:42:11.225846+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 456
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 2 years total (1 year as a full-time engineer, ~1 year as an intern). This is a significant gap — roughly 3 years short of the minimum requirement.\n\n2. **No demonstrated experience with high-volume or enterprise-scale systems**: The role involves processing high-volume transactions for enterprise clients. Dana's experience is limited to internal inventory services used by three business teams — no evidence of scale, throughput, or reliability challenges.\n\n3. **Limited cloud experience**: The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3)\" — entry-level exposure with no depth in cloud-native services, networking, or managed services relevant to a payments platform.\n\n4. **No experience with event-driven architecture or message brokers**: Kafka, SQS, or similar are listed as preferred qualifications. Dana shows no exposure to these.\n\n5. **No containerization or orchestration experience**: Docker and Kubernetes are preferred. Dana does not list either.\n\n6. **No infrastructure-as-code experience**: Terraform or CloudFormation are preferred. No mention anywhere on the résumé.\n\n7. **No observability tooling experience**: Datadog, Grafana, Prometheus — none present.\n\n8. **No mentorship or technical leadership experience**: The role expects mentoring of junior/mid-level engineers and leading small technical initiatives. Dana is at a stage where they are being mentored, not leading.\n\n9. **No financial services or regulated industry background**: A preferred qualification with no evidence of exposure.\n\n10. **CI/CD pipeline experience is limited**: Dana contributes to a pipeline maintained by a senior engineer rather than owning or designing one independently.\n\n---\n\nDana does not meet the baseline required qualifications for this senior role, most critically the experience threshold and demonstrated system scale. The gaps are not marginal — they are structural.\n\nFINAL: REJECT"
+}

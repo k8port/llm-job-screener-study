@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:36.620580+00:00",
+  "finished_utc": "2026-09-28T22:26:46.778926+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 457
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Technical Stack Gaps**\n\n1. **No cloud experience**: The candidate lists no experience with AWS, Azure, or GCP — a required qualification. This is a major gap for a role centered on building cloud-hosted payment services.\n\n2. **Outdated Java experience**: The candidate lists Java 8 and JSP/Servlets — technologies from the early 2010s. There is no evidence of modern Java (11+), Spring Boot, microservices architecture, or REST API design/consumption, all of which are central to this role.\n\n3. **No CI/CD pipeline experience**: Jenkins is listed as \"basic,\" and version control is listed as Subversion with only \"basic\" Git. CI/CD is a required qualification.\n\n4. **No containerization or orchestration**: No Docker or Kubernetes experience — a preferred but important qualifier for a senior backend platform role.\n\n5. **No event-driven architecture experience**: No Kafka, SQS, or comparable messaging systems listed.\n\n6. **No observability tooling**: No Datadog, Grafana, Prometheus, or equivalent listed.\n\n7. **No infrastructure-as-code experience**: No Terraform, CloudFormation, or similar tools.\n\n**Role Fit Concerns**\n\n8. **Primarily mainframe-oriented career**: The majority of the candidate's work involves COBOL, JCL, and z/OS — a fundamentally different paradigm from modern cloud-native backend engineering.\n\n9. **No evidence of API design**: No RESTful API design or consumption experience is demonstrated.\n\n10. **No mentoring or technical leadership mentioned**: Despite 16 years of experience, there is no mention of mentoring engineers or leading technical initiatives, which is both a preferred qualification and an expectation at the senior level.\n\n---\n\nWhile the candidate has relevant domain experience in financial services and solid SQL/relational database skills, the gap between their current technical profile and the requirements of this modern cloud-native backend role is too wide to overlook.\n\nFINAL: REJECT"
+}

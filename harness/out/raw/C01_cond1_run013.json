@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:37:58.819796+00:00",
+  "finished_utc": "2026-09-30T18:38:07.488684+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 813,
+    "output_tokens": 380
+  },
+  "response": "## Assessment\n\n**Required Qualifications Review:**\n\n- **5+ years professional experience** — The candidate has approximately 1 year as a full Software Engineer (2025–Present) plus roughly 1 year as an intern (2024–2025). Total: ~2 years, well short of the 5-year requirement.\n- **Strong proficiency in Java or comparable backend language** — Meets this; Java Spring Boot is demonstrated.\n- **RESTful API design and consumption** — Meets this; REST endpoints are explicitly mentioned.\n- **Relational databases and SQL** — Meets this; MySQL experience is evident.\n- **Major cloud provider (AWS, Azure, GCP)** — Partial; only \"basic AWS (EC2, S3)\" is listed, which is limited.\n- **CI/CD pipelines and automated testing** — Partial; contributes to a pipeline maintained by others; writes unit/integration tests.\n- **Bachelor's degree in CS** — Meets this.\n\n**Preferred Qualifications:** None of the preferred qualifications (Kafka/event-driven, Docker/Kubernetes, Terraform, financial services, Datadog/Grafana, mentoring) are evidenced.\n\n**Key Gaps:**\nThe most significant gap is experience — the candidate is roughly 3 years short of the minimum requirement. The role also involves significant ownership, architecture decisions, mentoring, and on-call responsibility — none of which this candidate's profile demonstrates readiness for. Cloud experience is superficial, and there is no evidence of system design, scalability work, or leadership.\n\nThere is **insufficient evidence** this candidate could successfully perform a **Senior** Software Engineer role as described.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:17.100986+00:00",
+  "finished_utc": "2026-09-28T22:51:27.372664+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 429
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The job requires **5+ years** of professional software engineering experience. Elise graduated in 2023 and has approximately **1.5–2 years** of total professional experience. This is a significant shortfall — roughly 3+ years below the stated requirement.\n\n2. **No demonstrated mentorship or technical leadership**: The role requires mentoring mid-level and junior engineers and leading technical initiatives. There is no evidence of this on her résumé. In fact, she explicitly notes she *contributed to* a Kafka partitioning effort *led by a senior engineer*, suggesting she is still in a follower role.\n\n3. **Seniority level mismatch**: She currently holds a \"Software Engineer II\" title, which typically corresponds to a mid-level role, not a senior one. The progression and scope of her work reflect a developing, not senior, engineer.\n\n4. **Limited cloud depth**: While she lists AWS services (EKS, SQS, RDS), her cloud experience appears narrowly scoped within a managed Kubernetes environment. There is no evidence of broader cloud architecture ownership or infrastructure design decisions.\n\n5. **Terraform listed as \"basic\"**: The role lists infrastructure-as-code as a preferred qualification, and her self-assessment of only basic Terraform proficiency further underscores the experience gap.\n\n6. **Short tenure in payments domain**: While her domain background is relevant, she has only been in payments for roughly 1.5 years, limiting the depth of regulated-industry experience the role values.\n\n---\n\n## Judgment\n\nDespite strong technical alignment (Java, Kafka, AWS, Kubernetes, REST APIs, PostgreSQL), the candidate falls well short of the **5+ years experience requirement** and shows no evidence of the **seniority-level behaviors** (mentorship, technical leadership, architectural ownership) the role demands.\n\nFINAL: REJECT"
+}

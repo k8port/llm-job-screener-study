@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:06:06.885740+00:00",
+  "finished_utc": "2026-09-28T22:06:21.459009+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 903,
+    "output_tokens": 575
+  },
+  "response": "## Screening Assessment: Simone Vance\n\n### Strengths (for context)\n- 8 years of experience (exceeds 5-year requirement)\n- Strong Python proficiency with production service experience\n- REST API design and consumption experience\n- Relational database experience (PostgreSQL, SQL)\n- AWS hands-on experience (EKS, S3, Lambda, RDS)\n- CI/CD with GitHub Actions, automated testing with pytest\n- Kafka, Docker, Kubernetes, Terraform — covers multiple preferred qualifications\n- Observability with Prometheus and Grafana\n- On-call experience\n- Located in Plano, TX (role is hybrid in Plano)\n- B.S. in Information Systems satisfies degree requirement\n\n---\n\n### Potential Weaknesses\n\n1. **No Java experience.** The role lists Java as a primary preferred backend language. The candidate's background is exclusively Python. For a Payments Platform team, Java is commonly dominant; this could be a meaningful gap depending on the team's stack.\n\n2. **Data engineering focus, not backend/payments services.** The candidate's title and framing is \"data platform engineer.\" While she builds APIs and services, the core work centers on pipelines, ingestion, and data transformation — not transactional backend systems processing payments end-to-end. This is a meaningful contextual difference.\n\n3. **No financial services or payments industry experience.** The role lists this as a preferred qualification. Her background spans analytics and healthcare reporting — neither is a payments/fintech context. Regulated-industry exposure is narrow.\n\n4. **Mentorship experience is absent from the résumé.** The role explicitly requires mentoring mid-level and junior engineers, and lists prior mentorship as a preferred qualification. Nothing on the résumé reflects this.\n\n5. **Architecture ownership is limited.** The role emphasizes participation in architecture discussions and service design at a senior backend level. Evidence of broader system architecture decisions (beyond her own team's pipeline) is not present.\n\n6. **Degree is in Information Systems, not Computer Science.** Minor flag; the JD allows \"related field or equivalent experience,\" so this is low concern.\n\n---\n\n### Summary Judgment\n\nThe weaknesses are real but not disqualifying. The candidate meets all **required** qualifications and hits a strong majority of **preferred** ones. The data engineering framing and absence of Java/payments experience are the most meaningful gaps, but her API ownership, infrastructure skills, and production reliability experience translate directly to the role. The mentorship gap is worth probing in an interview.\n\nFINAL: ADVANCE"
+}

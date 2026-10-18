@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:32:36.843323+00:00",
+  "finished_utc": "2026-09-28T21:32:51.735067+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 885,
+    "output_tokens": 719
+  },
+  "response": "## Screening Scorecard: Priya Ashford\n\n### Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of experience (5+)** | High | 3 | 9 | ~7 years total professional engineering experience ✓ |\n| **Backend language proficiency (Java, Python, or comparable)** | High | 1 | 3 | Node.js/Express is present but secondary to frontend focus; no Java or Python |\n| **RESTful API design & consumption** | High | 2 | 6 | Consumes REST APIs extensively; builds aggregation/session services; not core backend design |\n| **Relational databases & SQL** | High | 2 | 6 | PostgreSQL and SQL listed; not elaborated upon as primary responsibility |\n| **Cloud provider experience (AWS, Azure, GCP)** | High | 1 | 3 | AWS listed (S3, CloudFront, Lambda) — front-delivery services, not backend infrastructure |\n| **CI/CD & automated testing** | Medium | 2 | 4 | GitHub Actions CI pipeline; Jest/Testing Library; solid |\n| **Bachelor's degree or equivalent** | Medium | 2 | 4 | B.A. Graphic Design — adjacent, not CS/engineering; counts as partial |\n| **Event-driven architecture / Kafka / SQS** | Low (preferred) | 0 | 0 | No evidence |\n| **Containerization / Kubernetes** | Low (preferred) | 1 | 1 | Docker listed; no Kubernetes |\n| **Infrastructure-as-code** | Low (preferred) | 0 | 0 | No evidence |\n| **Financial services / regulated industry background** | Low (preferred) | 0 | 0 | Retail; no payments domain experience |\n| **Observability tooling** | Low (preferred) | 0 | 0 | No evidence |\n| **Mentorship / technical leadership** | Medium (preferred) | 2 | 4 | Mentors junior engineers; leads component standards |\n\n---\n\n### Summary Assessment\n\n**Total Weighted Score: 40 / 75 possible**\n\n**Key gaps:**\n- **Explicitly frontend-focused identity** — the candidate self-identifies as a \"Frontend-focused engineer,\" misaligned with a backend Payments Platform role\n- **No Java or Python** — the primary backend languages for the role\n- **No payments, financial services, or high-volume transaction processing experience**\n- **Cloud usage is CDN/storage-centric**, not backend compute or data infrastructure\n- **No event-driven architecture, IaC, or observability tooling**\n- **Degree is Graphic Design**, not Computer Science or a related technical field\n\n**Strengths:** Solid tenure, mentorship experience, some Node.js backend exposure, REST API experience, and CI/CD familiarity — but these are insufficient to meet the core requirements of a senior backend engineering role on a payments platform.\n\n---\n\nFINAL: REJECT"
+}

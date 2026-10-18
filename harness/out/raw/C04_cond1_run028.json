@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:40:17.718624+00:00",
+  "finished_utc": "2026-09-28T21:40:26.968204+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 945,
+    "output_tokens": 438
+  },
+  "response": "## Screening Assessment: Trevor Lindquist\n\n### Evaluation Against Required Qualifications\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | 9 years total, 6 in payments | ✅ |\n| Java, Python, or comparable language | Python and Java explicitly listed and demonstrated | ✅ |\n| RESTful API design and consumption | Owns API design for partner integration surface; versioned REST contracts | ✅ |\n| Relational databases and SQL | PostgreSQL, SQL throughout; explicit in multiple roles | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | AWS (ECS, SQS, RDS, Lambda) | ✅ |\n| CI/CD and automated testing | GitHub Actions, pytest, introduced integration testing | ✅ |\n| Bachelor's degree or equivalent practical experience | No degree, but job description explicitly allows **\"equivalent practical experience\"** — 9 years of progressive, directly relevant experience qualifies | ✅ |\n\n### Evaluation Against Preferred Qualifications\n\n- ✅ Kafka, SQS (event-driven architecture)\n- ✅ Docker, Kubernetes, Helm (containerization/orchestration)\n- ✅ Terraform (infrastructure-as-code)\n- ✅ Payments industry background (6 years directly in payments)\n- ✅ Grafana, Prometheus (observability)\n- ✅ On-call rotation lead; incident retrospectives (technical leadership)\n\n### Summary\n\nTrevor meets **every required qualification** and **all preferred qualifications**. His experience is directly aligned with the role — he is currently doing essentially this job at a payments company. The absence of a formal degree is explicitly accounted for by the job description's \"equivalent practical experience\" clause, which his 9-year track record clearly satisfies.\n\nFINAL: ADVANCE"
+}

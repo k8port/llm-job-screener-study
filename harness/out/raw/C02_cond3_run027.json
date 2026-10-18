@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:24:52.847035+00:00",
+  "finished_utc": "2026-09-28T21:25:07.035764+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 760
+  },
+  "response": "## Screening Evaluation: Marcus Ellery\n\n### Scoring Rubric\n\n| Category | Weight | Max Points |\n|----------|--------|------------|\n| Years of Experience | 10% | 10 |\n| Core Language Proficiency | 15% | 15 |\n| API Design & Databases | 15% | 15 |\n| Cloud & DevOps | 15% | 15 |\n| Preferred Qualifications | 25% | 25 |\n| Domain Fit | 10% | 10 |\n| Leadership & Mentorship | 10% | 10 |\n| **Total** | | **100** |\n\n---\n\n### Scoring Assessment\n\n**Years of Experience (10/10)**\n8 years of professional software engineering experience; exceeds the 5-year minimum.\n\n**Core Language Proficiency (15/15)**\nStrong Java/Spring Boot expertise throughout all roles; Python listed in skills. Core language requirement clearly met.\n\n**API Design & Databases (14/15)**\nExplicitly designs RESTful APIs, maintains OpenAPI specifications, and built services against PostgreSQL. Full coverage of both requirements; minor deduction for no explicit SQL query-level detail.\n\n**Cloud & DevOps (15/15)**\nAWS (EKS, SQS, RDS, Lambda), Docker, Kubernetes/Helm, Terraform, GitHub Actions, CI pipeline extension — comprehensive coverage of all cloud and DevOps requirements.\n\n**Preferred Qualifications (25/25)**\n- ✅ Event-driven architecture + Kafka (owns Kafka integration)\n- ✅ Docker + Kubernetes\n- ✅ Terraform (Infrastructure-as-Code)\n- ✅ Financial services / payments background (card authorization, settlement, reconciliation)\n- ✅ Observability tooling (Datadog)\n- ✅ Mentorship experience (two mid-level engineers)\n\nAll six preferred qualifications satisfied.\n\n**Domain Fit (10/10)**\nCurrent and prior roles are entirely within financial services payments — card authorization, settlement, and reconciliation for enterprise merchant clients. Direct alignment with the Payments Platform team.\n\n**Leadership & Mentorship (10/10)**\nActively mentors two mid-level engineers; participates in on-call rotation; owns architecture reviews and API contract definition.\n\n---\n\n### Final Score\n\n| Category | Score |\n|----------|-------|\n| Years of Experience | 10/10 |\n| Core Language Proficiency | 15/15 |\n| API Design & Databases | 14/15 |\n| Cloud & DevOps | 15/15 |\n| Preferred Qualifications | 25/25 |\n| Domain Fit | 10/10 |\n| Leadership & Mentorship | 10/10 |\n| **Total** | **99/100** |\n\n---\n\n### Judgment\n\nMarcus Ellery is an exceptional match. He meets every required qualification and satisfies all six preferred qualifications. His current role is functionally identical to the position being filled — designing high-volume Java-based payment services, owning Kafka-driven event architecture, mentoring engineers, and carrying on-call responsibility in financial services. Location (Plano, TX) aligns with the hybrid requirement. No meaningful gaps identified.\n\nFINAL: ADVANCE"
+}

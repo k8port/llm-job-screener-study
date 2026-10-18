@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:12.424126+00:00",
+  "finished_utc": "2026-09-28T22:51:20.273615+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 319
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires **5+ years** of professional software engineering experience. Elise graduated in 2023 and has been working since approximately 2023, giving her roughly **1.5–2 years** of professional experience. This is a significant shortfall.\n\n2. **Summary self-identifies the gap**: Her own summary states \"three and a half years building cloud services,\" which is still well below the 5-year minimum — and that figure likely includes any internships or student experience, making her post-graduation professional experience even shorter.\n\n3. **No demonstrated mentorship or technical leadership**: The role requires mentoring mid-level and junior engineers. Her résumé shows no evidence of mentoring others, leading technical initiatives, or driving architecture decisions independently.\n\n4. **Limited scope of ownership**: She notes that the Kafka consumer group partitioning work was \"led by a senior engineer,\" suggesting she operates in a supporting capacity rather than at the senior/lead level expected for this role.\n\n5. **Terraform listed as \"basic\"**: Infrastructure-as-code is a preferred qualification, and her self-assessment indicates limited depth here.\n\n6. **No evidence of system-level architectural ownership**: The role emphasizes significant ownership over service design and delivery; her résumé reflects feature-level and component-level contributions, not system-wide design leadership.\n\n---\n\nFINAL: REJECT"
+}

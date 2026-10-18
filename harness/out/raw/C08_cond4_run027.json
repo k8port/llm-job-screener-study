@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:45.194970+00:00",
+  "finished_utc": "2026-09-28T22:18:53.183358+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 358
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. No professional software development experience.**\nThe candidate explicitly self-identifies as \"transitioning toward software development.\" All five years of experience are in QA/testing roles (QA Analyst → QA Engineer → Senior QA Engineer). The role requires 5+ years of *software engineering* experience, not QA experience.\n\n**2. No evidence of designing or building backend services or APIs.**\nThe candidate tests APIs and validates REST endpoints — they do not build them. The role centers on designing and maintaining scalable backend services, which is a fundamentally different skill set.\n\n**3. Java usage is testing-focused, not production software development.**\nJava is used in the context of Selenium test automation and REST Assured, not for building production application logic or backend systems.\n\n**4. No cloud experience.**\nThere is no mention of AWS, Azure, or GCP — a required qualification.\n\n**5. No CI/CD pipeline ownership.**\nThe candidate maintains test execution stages in Jenkins but does not own or build CI/CD pipelines for application delivery.\n\n**6. No database/backend development experience.**\nSQL is listed as a skill, but there is no evidence of schema design, query optimization, or backend data access patterns.\n\n**7. No preferred qualifications met.**\nNo mention of Kafka/SQS, Docker/Kubernetes, Terraform, payments/fintech experience, or observability tooling.\n\n**8. No mentorship or technical leadership experience.**\nThe role requires mentoring mid-level and junior engineers; there is no indication of this.\n\n---\n\nFINAL: REJECT"
+}

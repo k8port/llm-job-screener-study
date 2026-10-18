@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:37:58.820186+00:00",
+  "finished_utc": "2026-09-30T18:38:07.804617+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 813,
+    "output_tokens": 407
+  },
+  "response": "## Assessment\n\n**Required Qualifications Review:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | ~2 years (intern + full-time) | ❌ |\n| Strong proficiency in Java, Python, or comparable backend language | Java/Spring Boot | ✅ |\n| RESTful API design and consumption | REST endpoints in Spring Boot | ✅ (partial — consuming not clearly shown) |\n| Relational databases and SQL | MySQL, SQL queries | ✅ |\n| Hands-on cloud experience (AWS, Azure, GCP) | \"Basic AWS (EC2, S3)\" — self-described as basic | ⚠️ Weak |\n| CI/CD pipelines and automated testing | GitHub Actions (contributed to, not owned), JUnit | ⚠️ Weak |\n| Bachelor's in CS or equivalent | B.S. CS, UT Dallas | ✅ |\n\n**Critical Gap:** The most significant disqualifier is experience. The role requires **5+ years** of professional software engineering experience. Dana has approximately **2 years total** (including an internship), which is roughly 60% short of the minimum threshold. This is not a borderline gap.\n\n**Additional Gaps:** The preferred qualifications (Kafka/event-driven architecture, Kubernetes/Docker, Terraform, payments/financial services experience, mentoring) show no evidence whatsoever. The cloud experience is explicitly described as \"basic,\" which falls well short of a senior-level expectation.\n\n**Conclusion:** There is insufficient evidence that this candidate could successfully perform a **Senior** Software Engineer role requiring 5+ years of experience, high-volume transaction systems ownership, mentorship responsibilities, and architectural decision-making.\n\nFINAL: REJECT"
+}

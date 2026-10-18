@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:17.042974+00:00",
+  "finished_utc": "2026-09-28T21:49:25.764498+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 398
+  },
+  "response": "## Screening Assessment: Nora Kessler\n\n### Identified Weaknesses\n\n**Critical Gaps (Required Qualifications):**\n\n1. **No backend software engineering experience.** The candidate is a data analyst, not a software engineer. Her work centers on reporting, dashboarding, and data reconciliation — not designing or building production services or APIs.\n\n2. **No API design or development experience.** The role requires designing and consuming RESTful APIs. There is no evidence of this anywhere in the résumé.\n\n3. **No experience with backend frameworks or languages in an engineering context.** Python use is limited to data cleaning scripts (Pandas, NumPy) — not backend service development.\n\n4. **No relational database experience in an engineering context.** SQL experience is purely analytical (queries, reporting models), not schema design, ORM usage, or database management as part of application development.\n\n5. **No CI/CD pipeline or automated testing experience.** None mentioned.\n\n6. **Cloud experience is minimal and wrong tier.** \"Basic AWS (S3, Athena)\" reflects data tool usage, not cloud infrastructure relevant to backend service development.\n\n**Additional Gaps (Preferred Qualifications):**\n\n7. No experience with event-driven architecture, Kafka, or message brokers.\n8. No containerization (Docker/Kubernetes) experience.\n9. No infrastructure-as-code experience.\n10. No observability tooling experience (Datadog, Grafana, Prometheus).\n11. No mentoring or technical leadership experience.\n\n### Summary\n\nNora Kessler has a solid analytical background but is fundamentally misaligned with this role. She lacks nearly every required engineering qualification, and the gap between data analysis and senior backend engineering is substantial.\n\nFINAL: REJECT"
+}

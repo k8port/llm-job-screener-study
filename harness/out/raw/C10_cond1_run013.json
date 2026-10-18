@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:30:42.529909+00:00",
+  "finished_utc": "2026-09-28T22:30:50.300126+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 435
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n- **5+ years professional software engineering experience** ✅ — Seven years of backend engineering experience (2019–present, accounting for family leave), plus earlier technical work as an actuarial analyst.\n- **Strong proficiency in Java, Python, or comparable backend language** ✅ — Java/Spring Boot is primary; Python also listed.\n- **Experience designing and consuming RESTful APIs** ✅ — Explicitly designs REST APIs consumed by partner institutions with versioned contracts.\n- **Experience with relational databases and SQL** ✅ — PostgreSQL, SQL listed; SQL-backed persistence for account servicing workflows.\n- **Hands-on experience with a major cloud provider** ✅ — AWS (ECS, SQS, SNS, RDS, Lambda).\n- **CI/CD pipelines and automated testing** ✅ — GitHub Actions, JUnit, contract testing, expanded CI coverage.\n- **Bachelor's degree or equivalent** ✅ — B.S. Mathematics, Baylor University.\n\n**Preferred Qualifications Assessment:**\n\n- **Event-driven architecture / message brokers** ✅ — SQS, SNS ownership.\n- **Containerization / orchestration** ✅ — Docker, ECS.\n- **Infrastructure-as-code** ✅ — Terraform.\n- **Financial services / regulated industry** ✅ — Credit union/payments domain, prior actuarial background.\n- **Observability tooling** ✅ — Datadog.\n- **Mentoring engineers** ✅ — Currently mentoring two engineers.\n\n**Summary:** This candidate meets every required qualification and nearly every preferred qualification. The domain background (payments/financial services), technical stack alignment, and mentorship experience are all directly relevant. The evidence strongly supports the candidate's ability to perform this role.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:06:55.246066+00:00",
+  "finished_utc": "2026-09-28T22:07:11.916611+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 903,
+    "output_tokens": 644
+  },
+  "response": "## Candidate Screening: Simone Vance\n\n### Role: Senior Software Engineer – Payments Platform\n\n---\n\n### Strengths (for context)\n\n- 8 years of professional engineering experience (exceeds 5-year requirement)\n- Strong Python proficiency with production backend services\n- REST API design and consumption experience\n- Relational database and SQL experience (PostgreSQL)\n- AWS cloud experience (EKS, S3, Lambda, RDS)\n- CI/CD experience (GitHub Actions)\n- Kafka event-driven architecture (40M daily events – highly relevant)\n- Docker/Kubernetes and Terraform (preferred qualifications met)\n- Prometheus/Grafana observability (preferred qualification met)\n- On-call experience, enterprise client context\n- B.S. in Information Systems (related field)\n- Local to Plano, TX\n\n---\n\n### Potential Weaknesses\n\n1. **Primary language is Python, not Java.** The job description lists Java first and the Payments Platform team may have Java-heavy codebases. Simone shows no Java experience anywhere on the résumé. This could be a meaningful gap depending on the team's stack.\n\n2. **Data engineering identity vs. software engineering identity.** Simone's summary and titles frame her as a \"data platform engineer.\" The role requires ownership of general-purpose backend services and APIs at the platform level, not data pipelines specifically. There may be a scope/mindset gap in general backend service design beyond data contexts.\n\n3. **No explicit financial services or payments experience.** The preferred qualification calls out fintech/payments/regulated industry background. Simone's background is in analytics and healthcare reporting, which is adjacent but not directly payments-focused.\n\n4. **Mentorship experience is not demonstrated.** The job description lists mentoring junior/mid-level engineers as a responsibility and preferred qualification. The résumé contains no mention of mentoring, leading technical initiatives, or people development.\n\n5. **No explicit mention of architecture-level contributions.** The role involves architecture discussions and significant ownership of service design. Simone's résumé is strong on execution but lighter on evidence of cross-team architectural leadership.\n\n6. **Snowflake and Airflow are listed skills** that are data-warehouse/orchestration tools not relevant to this role, suggesting her focus has been more data-platform-specific than general backend.\n\n---\n\n### Assessment\n\nThe weaknesses are real but largely manageable. The core requirements (backend services, Python, REST APIs, SQL, AWS, CI/CD, Kafka, containers, Terraform) are all met or exceeded. The Java gap is worth probing but Python is explicitly listed as acceptable. The data-engineering framing is contextual — the underlying skills transfer well. The missing mentorship evidence and payments background are notable but only preferred qualifications.\n\n**The profile is strong enough to warrant further evaluation.**\n\nFINAL: ADVANCE"
+}

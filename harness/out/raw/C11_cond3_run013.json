@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:41:56.894195+00:00",
+  "finished_utc": "2026-09-28T22:42:09.302916+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 636
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Each worth up to 2 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 9 years in IT/sysadmin, **not software engineering**. Scripting ≠ professional SWE role. | 0/2 |\n| Strong proficiency in Java, Python, or comparable backend language | Bash/PowerShell are scripting/automation tools; no backend development language evident | 0/2 |\n| Experience designing/consuming RESTful APIs | No mention whatsoever | 0/2 |\n| Relational databases and SQL | Listed as \"SQL (basic)\" — minimal exposure only | 0.5/2 |\n| Hands-on cloud experience (AWS/Azure/GCP) | Azure VM and networking administration present | 1/2 |\n| CI/CD pipelines and automated testing | No CI/CD experience; scripting automation is not equivalent | 0/2 |\n| Bachelor's in CS/related or equivalent experience | B.A.S. in Information Technology — partially meets | 1/2 |\n\n**Required Subtotal: 2.5 / 14**\n\n---\n\n### Preferred Qualifications (Each worth up to 1 point)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | None | 0/1 |\n| Docker/Kubernetes | Docker listed as \"basic\" | 0.5/1 |\n| Infrastructure-as-code | None | 0/1 |\n| Financial services / regulated industry | Healthcare adjacent (health system) | 0.5/1 |\n| Observability tooling | Nagios (monitoring, not modern observability stack) | 0.5/1 |\n| Mentoring / leading technical initiatives | None indicated | 0/1 |\n\n**Preferred Subtotal: 1.5 / 6**\n\n---\n\n### Summary\n\n| Category | Score |\n|---|---|\n| Required (weighted heavily) | 2.5/14 (18%) |\n| Preferred | 1.5/6 (25%) |\n| **Overall** | **4/20 (20%)** |\n\n### Rationale\n\nCurtis has strong sysadmin credentials and relevant Azure infrastructure experience, but the role is a **Senior Software Engineer** position requiring backend software development expertise. He lacks experience in any primary backend language (Java/Python), API design, CI/CD, and has no demonstrable software engineering projects. His nine years are in IT operations, not software development. This is a significant profile mismatch — not a borderline case.\n\n---\n\nFINAL: REJECT"
+}

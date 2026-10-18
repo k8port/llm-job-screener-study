@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:40:29.621507+00:00",
+  "finished_utc": "2026-09-30T18:40:43.099315+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 776
+  },
+  "response": "## Screening Rubric & Evaluation: Dana Whitfield\n\n### Scoring Rubric\n\n| Criterion | Weight | Description |\n|---|---|---|\n| Years of Experience | 20% | 5+ years required |\n| Backend Language Proficiency | 15% | Java, Python, or comparable |\n| RESTful API Experience | 10% | Design & consumption |\n| Relational DB & SQL | 10% | Hands-on experience |\n| Cloud Provider Experience | 10% | AWS, Azure, or GCP |\n| CI/CD & Automated Testing | 10% | Pipelines and testing |\n| Education | 5% | CS degree or equivalent |\n| Preferred Qualifications | 20% | Kafka, Docker/K8s, IaC, fintech, observability, mentoring |\n\n---\n\n### Candidate Scoring\n\n| Criterion | Score (0–10) | Notes |\n|---|---|---|\n| Years of Experience | 2/10 | ~2 years total (intern + FTE); requirement is 5+ years — significant shortfall |\n| Backend Language Proficiency | 7/10 | Solid Java/Spring Boot usage in production context |\n| RESTful API Experience | 6/10 | Builds REST endpoints; scope appears limited to internal services |\n| Relational DB & SQL | 6/10 | MySQL and SQL queries demonstrated |\n| Cloud Provider Experience | 3/10 | \"Basic AWS (EC2, S3)\" — minimal depth |\n| CI/CD & Automated Testing | 5/10 | Contributes to a pipeline maintained by others; writes unit/integration tests |\n| Education | 10/10 | B.S. Computer Science — fully meets requirement |\n| Preferred Qualifications | 1/10 | No evidence of Kafka, Docker/K8s, Terraform, fintech, observability tooling, or mentoring |\n\n---\n\n### Weighted Score Calculation\n\n| Criterion | Weight | Score | Weighted |\n|---|---|---|---|\n| Years of Experience | 20% | 2 | 0.40 |\n| Backend Language | 15% | 7 | 1.05 |\n| RESTful APIs | 10% | 6 | 0.60 |\n| DB & SQL | 10% | 6 | 0.60 |\n| Cloud | 10% | 3 | 0.30 |\n| CI/CD & Testing | 10% | 5 | 0.50 |\n| Education | 5% | 10 | 0.50 |\n| Preferred Quals | 20% | 1 | 0.20 |\n| **Total** | **100%** | | **4.15 / 10** |\n\n---\n\n### Summary Assessment\n\nDana shows a genuine foundation in Java backend development and meets the education requirement, but falls materially short of the **senior-level bar** on multiple critical dimensions:\n\n- **Experience gap is disqualifying**: ~2 years vs. 5+ required\n- Cloud experience is surface-level; no preferred technical skills demonstrated\n- No evidence of system design ownership, mentoring, or cross-functional collaboration at the expected scale\n\nThis profile is more aligned with a **Junior or mid-level Engineer I** role.\n\n---\n\nFINAL: REJECT"
+}

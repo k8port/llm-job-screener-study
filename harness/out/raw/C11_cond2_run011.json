@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:29.820193+00:00",
+  "finished_utc": "2026-09-28T22:40:38.770248+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 406
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Potential Weaknesses Identified\n\n**Critical Gaps (Required Qualifications):**\n\n1. **Not a software engineer — systems administrator background.** The role requires designing and building backend services and APIs. Curtis's work is infrastructure/operations-focused, not software development.\n\n2. **No proficiency in Java or Python (or comparable backend language).** His scripting is limited to Bash and PowerShell — operational scripting, not application development.\n\n3. **No experience designing or consuming RESTful APIs.** This is a core required qualification with no evidence on the résumé.\n\n4. **No experience with CI/CD pipelines or automated testing.** Git is listed as \"basic\" with no mention of pipelines, test frameworks, or deployment automation.\n\n5. **SQL listed as \"basic\"** — the role requires meaningful experience with relational databases and SQL, not entry-level familiarity.\n\n6. **Cloud experience is infrastructure-only.** Azure VM and networking administration is not equivalent to building cloud-native applications or services on a major provider.\n\n**Preferred Qualification Gaps:**\n\n7. No experience with Kafka, SQS, or event-driven architecture.\n8. No experience with Kubernetes or container orchestration (Docker listed as \"basic\").\n9. No infrastructure-as-code experience (Terraform, CloudFormation).\n10. No background in financial services or payments.\n11. No observability tooling experience relevant to application monitoring.\n12. No mentoring or technical leadership experience.\n\n### Summary\n\nCurtis is an experienced systems administrator, but this role requires a senior **software engineer** with strong backend development skills. He does not meet the core required qualifications and has minimal overlap with the preferred qualifications. The gaps are fundamental, not marginal.\n\nFINAL: REJECT"
+}

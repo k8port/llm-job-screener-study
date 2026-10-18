@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:02.150939+00:00",
+  "finished_utc": "2026-09-28T22:47:12.744056+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 471
+  },
+  "response": "## Assessment: Elise Thornbury for Senior Software Engineer (Payments Platform)\n\n### Years of Experience\nThe candidate has approximately **3.5 years** of professional experience (2023–present, with some overlap suggesting the Software Engineer role began while finishing her degree or shortly after). The role requires **5+ years**. This is a meaningful gap against a stated required qualification.\n\n### Technical Skills – Strengths\n- **Java/Spring Boot**: Strong match; actively used in payments context\n- **REST APIs**: Designing and documenting endpoints for internal and partner teams ✓\n- **Relational DB/SQL**: PostgreSQL experience ✓\n- **Cloud (AWS)**: EKS, SQS, RDS ✓\n- **CI/CD**: GitHub Actions ✓\n- **Kafka**: Consumer implementation, though the more complex partitioning work was *led by a senior engineer* — her contribution was supporting, not leading\n- **Docker/Kubernetes/Helm**: Direct experience ✓\n- **Terraform**: Listed as \"basic\" ✓\n- **Observability**: Grafana ✓\n- **Payments domain**: Current role is in payments ✓\n- **Education**: B.S. CS from SMU ✓\n\n### Gaps / Concerns\n- **Experience shortfall**: 3.5 years vs. 5+ required — this is a hard requirement, not a preference\n- **Seniority signals**: No evidence of mentoring others, leading technical initiatives, or driving architecture decisions independently\n- **Kafka leadership**: The partitioning work was led by someone else; she contributed in a supporting role\n- **Automated testing / CI/CD**: Present but not elaborated upon at a senior level\n\n### Conclusion\nThe candidate has a genuinely strong technical profile and directly relevant domain experience. However, the experience gap (~1.5 years short of the stated minimum) combined with limited evidence of senior-level ownership (mentoring, architecture leadership) makes it difficult to conclude there is *sufficient evidence* she could perform the **senior** role as described.\n\nFINAL: REJECT"
+}

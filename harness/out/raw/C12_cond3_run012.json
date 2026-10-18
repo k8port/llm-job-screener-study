@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:49:46.898279+00:00",
+  "finished_utc": "2026-09-28T22:50:01.599456+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 762
+  },
+  "response": "## Screening Scorecard — Elise Thornbury\n\n### Required Qualifications (Pass/Fail weighted)\n\n| Criterion | Weight | Assessment | Score |\n|---|---|---|---|\n| 5+ years professional SWE experience | High | **Gap**: ~2 years total (2023–present). Résumé summary confirms \"three and a half years.\" Does not meet threshold. | 0/3 |\n| Java, Python, or comparable backend language | High | Java/Spring Boot primary; Python listed in skills. Strong match. | 3/3 |\n| RESTful API design & consumption | High | Explicit: designs and documents REST endpoints for internal/partner consumers. Strong match. | 3/3 |\n| Relational databases & SQL | High | PostgreSQL on prior role; SQL listed in skills. Met. | 3/3 |\n| Major cloud provider (AWS/Azure/GCP) | High | AWS (EKS, SQS, RDS) — actively used in production. Met. | 3/3 |\n| CI/CD & automated testing | High | GitHub Actions pipelines, JUnit, Spring Test. Met. | 3/3 |\n| Bachelor's in CS or equivalent | Medium | B.S. CS, SMU 2023. Met. | 2/2 |\n\n**Required subtotal: 17/20**\n**Critical miss: Experience requirement (5+ years vs. ~2 years actual)**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Score |\n|---|---|\n| Event-driven / Kafka / SQS | ✅ (Kafka consumer implementation, SQS listed) |\n| Docker / Kubernetes | ✅ (EKS, Helm, Docker) |\n| Infrastructure-as-code (Terraform) | ✅ (basic Terraform noted) |\n| Financial services / payments background | ✅ (Larkspur Pay — merchant payouts, settlements) |\n| Observability tooling | ✅ (Grafana listed) |\n| Mentoring / leading technical initiatives | ❌ (no evidence; contributed to senior-led work) |\n\n**Preferred subtotal: 5/6** — Exceptionally strong on preferred criteria.\n\n---\n\n### Summary Assessment\n\n| Dimension | Rating |\n|---|---|\n| Technical breadth & stack alignment | ⭐⭐⭐⭐⭐ Excellent |\n| Domain fit (payments) | ⭐⭐⭐⭐⭐ Excellent |\n| Years of experience | ⭐⭐ Does not meet the 5-year minimum |\n| Seniority indicators (mentoring, ownership) | ⭐⭐ Limited — contributor, not leader |\n| Location fit (Addison, TX / Plano hybrid) | ⭐⭐⭐⭐⭐ Excellent |\n\n**Key finding:** Elise is a well-matched candidate on nearly every technical and domain dimension, but falls meaningfully short of the **5+ year experience floor** (~2 years vs. 5 required) and shows no mentoring or technical leadership, both of which are core to the Senior role definition.\n\n---\n\nFINAL: REJECT"
+}

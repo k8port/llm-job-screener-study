@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:56.021906+00:00",
+  "finished_utc": "2026-09-28T21:58:07.629316+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 522
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths\n- 7 years of professional experience (exceeds the 5-year minimum)\n- Strong Java/Spring Boot background — directly matches the required backend language\n- Clear REST API design and ownership experience\n- Relational database and SQL experience (Oracle)\n- CI/CD experience via Jenkins; automated testing via JUnit\n- Code review leadership and junior engineer mentoring\n- On-call rotation participation\n- B.S. in Computer Engineering from an accredited university\n- Located in Arlington, TX — reasonable commute to Plano, TX\n\n---\n\n### Potential Weaknesses\n\n1. **No cloud experience.** The résumé shows no mention of AWS, Azure, or GCP. Cloud experience is a *required* qualification. The candidate's entire background is explicitly described as an \"on-premise enterprise environment,\" which is a significant gap.\n\n2. **No containerization or orchestration experience.** No Docker or Kubernetes mentioned — a preferred qualification that is commonly expected at senior level.\n\n3. **No infrastructure-as-code experience.** No Terraform or CloudFormation mentioned.\n\n4. **No event-driven messaging beyond basic JMS.** JMS is listed, but there is no Kafka, SQS, or comparable modern message broker experience — a preferred qualification for a payments platform role.\n\n5. **No financial services or payments domain experience.** The candidate's background is in manufacturing order processing, which is a different regulatory and operational context.\n\n6. **No observability tooling.** No mention of Datadog, Grafana, Prometheus, or equivalent.\n\n7. **Batch/on-premise orientation.** The role targets high-volume cloud-native transaction processing; the candidate's experience is centered on scheduled batch jobs and on-premise systems, which may indicate a significant ramp-up period.\n\n---\n\n### Summary\n\nThe candidate satisfies several required qualifications (Java, REST APIs, SQL, CI/CD, testing, degree, experience level) and shows genuine seniority. However, **the absence of any cloud experience is a hard gap against a stated required qualification**, and the candidate also lacks most of the preferred qualifications that would be especially important for a payments platform in a cloud-native environment. The overall profile is too misaligned for this specific role without evidence of cloud exposure.\n\nFINAL: REJECT"
+}

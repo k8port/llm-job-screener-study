@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:34.853276+00:00",
+  "finished_utc": "2026-09-28T22:39:42.509312+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 318
+  },
+  "response": "## Assessment\n\n**Role:** Senior Software Engineer – Payments Platform (backend services, high-volume transaction systems)\n\n### Evaluating Against Requirements\n\n**Required Qualifications:**\n\n| Requirement | Evidence in Résumé | Met? |\n|---|---|---|\n| 5+ years professional software engineering experience | 9 years total, but as a **Systems Administrator**, not a software engineer | ❌ |\n| Strong proficiency in Java, Python, or comparable backend language | Only Bash and PowerShell scripting listed; no backend development languages | ❌ |\n| Designing and consuming RESTful APIs | No mention anywhere | ❌ |\n| Relational databases and SQL | Listed as \"SQL (basic)\" | Marginally |\n| Hands-on cloud provider experience | Azure VM and networking administration | Partial |\n| CI/CD pipelines and automated testing | No mention | ❌ |\n| Bachelor's in CS or related / equivalent experience | B.A.S. Information Technology | ✅ |\n\n### Key Gaps\n\nThe candidate is a **systems administrator**, not a software engineer. The résumé shows no evidence of software development — no backend programming, no API design, no application development, no CI/CD experience, and no automated testing. Scripting for infrastructure automation is meaningfully different from building scalable backend services and APIs at a payments platform level.\n\nFINAL: REJECT"
+}

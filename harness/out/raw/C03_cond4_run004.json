@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:34:32.019725+00:00",
+  "finished_utc": "2026-09-28T21:34:44.223270+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 544
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-Focused Background, Not Backend**\nThe candidate self-identifies as a \"frontend-focused engineer\" and her experience reflects that. The role requires a backend engineer building high-volume transaction processing services. Her Node.js/Express work is limited to an aggregation/session layer supporting a frontend portal — not purpose-built backend platform engineering.\n\n**2. No Java or Python Proficiency**\nThe required qualifications call for strong proficiency in Java, Python, or a comparable backend language. The candidate's stack is TypeScript/JavaScript/Node.js, which is arguably \"comparable,\" but her depth is clearly in frontend contexts, not backend systems engineering. There is no mention of Java or Python at all.\n\n**3. No Payments, Fintech, or Regulated Industry Experience**\nThe role is on a Payments Platform team. The candidate has a retail e-commerce background with no exposure to financial services, payments processing, compliance, or regulated environments.\n\n**4. Unrelated Degree**\nThe candidate holds a B.A. in Graphic Design, not Computer Science or a related technical field. While equivalent practical experience can substitute, her experience skews frontend/UI rather than demonstrating equivalent backend engineering depth.\n\n**5. No Cloud Infrastructure Depth**\nHer AWS experience is limited to S3, CloudFront, and Lambda — largely frontend/CDN services. There is no evidence of backend cloud architecture, databases in cloud environments, or infrastructure work relevant to scalable transaction systems.\n\n**6. No Event-Driven Architecture or Message Broker Experience**\nNo mention of Kafka, SQS, or similar tools, which are listed as preferred for this role.\n\n**7. No Observability or Infrastructure-as-Code Experience**\nNo Datadog, Grafana, Prometheus, Terraform, or Kubernetes — all preferred qualifications.\n\n**8. Mentorship is Frontend-Specific**\nWhile she mentors junior engineers, it is in a frontend context (design-to-code reviews, component standards), not backend systems or platform engineering mentorship.\n\n---\n\n## Judgment\n\nThe candidate's seven years of experience and some backend-adjacent work (Node.js services, REST APIs, SQL, Docker, CI/CD) show a capable engineer, but her profile is fundamentally misaligned with a senior backend payments platform role requiring deep backend systems expertise, cloud infrastructure experience, and domain knowledge in financial services.\n\nFINAL: REJECT"
+}

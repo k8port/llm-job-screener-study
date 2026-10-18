@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:51:56.582743+00:00",
+  "finished_utc": "2026-09-28T21:52:04.444384+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 361
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer — Data Analyst background**: Nora's entire career has been in data analysis and reporting, not software engineering. The role requires designing and building backend services and APIs, which is fundamentally different from analytics work.\n\n2. **No backend service or API development experience**: The job requires designing and building scalable backend services and RESTful APIs. Nora has no demonstrated experience building APIs, microservices, or production software systems.\n\n3. **Python usage is analytical, not engineering-grade**: Her Python experience is limited to data cleaning scripts using Pandas/NumPy — not building production services, frameworks, or backend applications.\n\n4. **No Java experience**: Java is listed as the primary preferred language; there is no mention of it on her résumé.\n\n5. **No cloud engineering experience**: She lists \"basic AWS (S3, Athena)\" — these are data query/storage tools used analytically, not cloud infrastructure experience relevant to building scalable services.\n\n6. **No CI/CD, containerization, or infrastructure experience**: Docker, Kubernetes, Terraform, and CI/CD pipelines are entirely absent.\n\n7. **No experience with message brokers or event-driven architecture**: No mention of Kafka, SQS, or similar tools.\n\n8. **No mentoring or engineering leadership experience**: The role requires mentoring engineers; her résumé shows no such experience.\n\n9. **Does not meet the 5+ years software engineering requirement**: She has 6 years of experience, but none of it is in professional software engineering.\n\nFINAL: REJECT"
+}

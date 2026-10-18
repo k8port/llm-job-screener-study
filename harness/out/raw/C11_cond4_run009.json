@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:11.754699+00:00",
+  "finished_utc": "2026-09-28T22:43:21.794528+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 422
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer — Systems Administrator background**: The candidate's entire career is in systems administration and IT support, not software engineering. The role requires designing and building backend services, APIs, and distributed systems — work the candidate has not demonstrated.\n\n2. **No backend software development experience**: There is no evidence of building or maintaining applications, services, or APIs in any professional capacity. Bash/PowerShell scripting for infrastructure tasks is not equivalent to software engineering.\n\n3. **Does not meet the required language proficiency**: The role requires strong proficiency in Java, Python, or a comparable backend language. The candidate lists only Bash and PowerShell (scripting languages used in an ops context), with no mention of Java, Python, or any application-level language.\n\n4. **No API design or consumption experience**: A core required qualification — designing and consuming RESTful APIs — is entirely absent from the résumé.\n\n5. **SQL listed as \"basic\"**: The role requires meaningful experience with relational databases and SQL; the candidate self-rates this as basic.\n\n6. **No CI/CD pipeline or automated testing experience**: Neither is mentioned anywhere on the résumé.\n\n7. **Cloud experience is infrastructure-only**: Azure VM and networking administration is not equivalent to building cloud-native backend services, which is what the role demands.\n\n8. **Docker listed as \"basic\"**: Containerization experience is minimal and self-described as basic.\n\n9. **No experience with event-driven architecture, Kafka, Kubernetes, Terraform, or observability platforms** relevant to the role.\n\n10. **No mentorship or technical leadership** of engineering teams demonstrated.\n\n11. **Years of experience (~9 years) are in the wrong domain**: Seniority in sysadmin work does not translate to the 5+ years of software engineering experience required.\n\n---\n\nFINAL: REJECT"
+}

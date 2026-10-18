@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:34:30.309205+00:00",
+  "finished_utc": "2026-09-28T21:34:43.890379+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 601
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Primarily Frontend-Focused, Not Backend-Focused**\nThe candidate self-describes as \"frontend-focused\" and their core work is in React/TypeScript UI development. The role requires a backend engineer to build scalable backend services and APIs — a fundamentally different specialty. The Node.js/Express work is described as an \"aggregation layer\" supporting a UI portal, not purpose-built backend platform engineering.\n\n**2. No Strong Proficiency in Java or Python**\nThe required qualifications specifically call out Java, Python, or a comparable backend language. The candidate's stack is TypeScript/JavaScript/Node.js — which could be argued as comparable, but combined with the overall frontend orientation, this is a meaningful gap for a Payments Platform backend role.\n\n**3. No Payments, Fintech, or Regulated Industry Experience**\nThe job is on a Payments Platform processing high-volume transactions for enterprise clients. The candidate comes from retail (Halverson Retail Group) and media (Sandline Media) with no exposure to financial services, compliance requirements, or high-stakes transaction processing.\n\n**4. No Event-Driven Architecture or Message Broker Experience**\nKafka, SQS, or similar tools are listed as preferred. There is no mention of any such experience — a notable gap for a high-volume payments system.\n\n**5. No Kubernetes or Infrastructure-as-Code Experience**\nDocker is listed in skills, but there is no mention of Kubernetes, Terraform, or CloudFormation — all preferred qualifications.\n\n**6. No Observability Tooling Experience**\nNo mention of Datadog, Grafana, Prometheus, or equivalent tooling.\n\n**7. Education Mismatch**\nThe candidate holds a B.A. in Graphic Design, not Computer Science or a related technical field. While \"equivalent practical experience\" is allowed, the overall technical depth for backend platform engineering is not clearly demonstrated.\n\n**8. AWS Experience is Shallow and Frontend-Oriented**\nAWS experience listed is S3, CloudFront, and Lambda — primarily storage and CDN services relevant to frontend delivery, not backend platform infrastructure.\n\n**9. No On-Call or High-Availability Production Backend Experience**\nThe role involves on-call rotation and maintaining high-volume, high-reliability transaction systems. There is no indication the candidate has operated in that kind of production backend environment.\n\n---\n\n## Judgment\n\nThe candidate has solid experience but is misaligned with this role in multiple critical dimensions: backend language proficiency, payments/regulated industry background, system scale expectations, and core architecture patterns. The gaps are too fundamental for a Senior-level backend platform hire.\n\nFINAL: REJECT"
+}

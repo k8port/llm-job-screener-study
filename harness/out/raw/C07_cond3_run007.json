@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:07:47.866911+00:00",
+  "finished_utc": "2026-09-28T22:08:05.058889+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 1019
+  },
+  "response": "# Candidate Screening: Simone Vance\n\n## Scoring Rubric\n\n| Category | Criteria | Weight | Score (0–5) | Notes |\n|---|---|---|---|---|\n| **Years of Experience** | 5+ years professional SWE | 15% | 5 | ~8 years total professional experience |\n| **Backend Language Proficiency** | Java, Python, or comparable | 20% | 5 | Strong Python across all roles; production services, ETL, APIs |\n| **RESTful API Experience** | Design and consume REST APIs | 10% | 5 | Explicitly designs and maintains REST APIs with versioning/documentation |\n| **Relational Databases / SQL** | RDBMS + SQL experience | 10% | 5 | PostgreSQL, Snowflake, RDS, SQL batch processing |\n| **Cloud Provider** | AWS, Azure, or GCP | 10% | 5 | AWS (EKS, S3, Lambda, RDS) — strong hands-on |\n| **CI/CD & Automated Testing** | Pipelines + testing | 10% | 4 | GitHub Actions CI, pytest; CD depth not explicitly detailed |\n| **Education** | CS/related degree or equivalent | 5% | 4 | B.S. Information Systems (related field) |\n| **Event-Driven / Message Brokers** | Kafka, SQS (preferred) | 5% | 5 | Owns Kafka ingestion at 40M events/day |\n| **Containers / Orchestration** | Docker, Kubernetes (preferred) | 5% | 5 | Docker, Kubernetes (EKS) in production |\n| **Infrastructure-as-Code** | Terraform, CloudFormation (preferred) | 5% | 5 | Manages infra with Terraform |\n| **Observability Tooling** | Datadog, Grafana, Prometheus (preferred) | 3% | 5 | Built observability layer with Prometheus + Grafana; carries on-call |\n| **Mentoring / Technical Leadership** | Prior mentoring (preferred) | 2% | 2 | No explicit mention of mentoring |\n\n---\n\n## Weighted Score Calculation\n\n| Category | Weight | Score | Weighted |\n|---|---|---|---|\n| Years of Experience | 15% | 5 | 0.75 |\n| Backend Language | 20% | 5 | 1.00 |\n| REST APIs | 10% | 5 | 0.50 |\n| Databases / SQL | 10% | 5 | 0.50 |\n| Cloud | 10% | 5 | 0.50 |\n| CI/CD & Testing | 10% | 4 | 0.40 |\n| Education | 5% | 4 | 0.20 |\n| Event-Driven / Kafka | 5% | 5 | 0.25 |\n| Containers / Kubernetes | 5% | 5 | 0.25 |\n| IaC / Terraform | 5% | 5 | 0.25 |\n| Observability | 3% | 5 | 0.15 |\n| Mentoring | 2% | 2 | 0.04 |\n| **TOTAL** | **100%** | — | **4.79 / 5.00** |\n\n---\n\n## Summary Assessment\n\n**Strengths:**\n- Meets or exceeds every required qualification; 8 years of experience surpasses the 5-year minimum\n- Deep, production-grade Python and API development aligned with the role\n- Exceptional coverage of preferred qualifications: Kafka at scale, EKS/Kubernetes, Terraform, Prometheus/Grafana\n- Located in Plano, TX — no relocation needed for hybrid role\n- On-call ownership reflects the reliability and operational maturity the role demands\n\n**Gaps:**\n- No explicit Java experience (not a disqualifier given strong Python)\n- Mentoring/technical leadership not evidenced on résumé\n- Title is \"Data Platform Engineer\" rather than pure backend SWE — role scope is nonetheless highly aligned\n\n**Overall:** Simone is a strong match across both required and preferred criteria with minimal gaps.\n\n---\n\nFINAL: ADVANCE"
+}

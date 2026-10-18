@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:10.931804+00:00",
+  "finished_utc": "2026-09-28T22:23:22.295778+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 469
+  },
+  "response": "## Candidate Evaluation: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n**1. Limited Modern Backend/Cloud Experience**\nThe candidate has no demonstrated experience with any major cloud provider (AWS, Azure, GCP), which is a listed *required* qualification. His stack is primarily mainframe-oriented (COBOL, JCL, z/OS, WebSphere).\n\n**2. Outdated Java Proficiency**\nJava experience is limited to Java 8 and older servlet/JSP paradigms. No indication of familiarity with modern Java frameworks (Spring Boot, Quarkus, Micronaut) or microservices architecture, which would be expected for a Payments Platform role at a senior level.\n\n**3. No REST API Experience**\nThere is no evidence of designing or consuming RESTful APIs, another *required* qualification. Web access work is described in legacy JSP/Servlet terms.\n\n**4. No CI/CD or Modern DevOps Experience**\nJenkins and Git are listed as \"basic,\" and the release cadence described (quarterly cycles) reflects waterfall/legacy practices — not the CI/CD pipelines required by the role.\n\n**5. No Cloud-Native or Container Experience**\nNo Docker, Kubernetes, Terraform, or any infrastructure-as-code exposure — all preferred but indicative of the expected technical environment.\n\n**6. No Event-Driven Architecture Experience**\nNo mention of Kafka, SQS, or any message broker, which is a preferred qualification for the Payments Platform context.\n\n**7. No Observability Tooling**\nNo Datadog, Grafana, Prometheus, or comparable tooling mentioned.\n\n**8. Mentorship/Technical Leadership**\nNo evidence of mentoring engineers or leading technical initiatives, a preferred qualification.\n\n### Summary\n\nRaymond has deep domain experience in regulated financial environments and long tenure — both genuine positives. However, he falls short on *multiple required qualifications*, most critically cloud experience and RESTful API design, and has virtually no exposure to the modern tooling and architectural patterns central to this role.\n\nFINAL: REJECT"
+}

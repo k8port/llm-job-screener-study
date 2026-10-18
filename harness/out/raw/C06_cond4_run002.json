@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:10.203567+00:00",
+  "finished_utc": "2026-09-28T22:00:20.163753+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 423
+  },
+  "response": "## Reasons Not to Advance\n\n1. **No cloud experience.** The job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Alan's résumé is explicitly on-premise (\"seven years building transaction processing systems in an on-premise enterprise environment\"), with no mention of any cloud platform.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins.** The role requires CI/CD experience; Alan lists only Jenkins integration test stages, which is minimal and does not demonstrate modern CI/CD pipeline design or ownership.\n\n3. **No containerization or orchestration experience.** Docker and Kubernetes are listed as preferred qualifications with no evidence of either on his résumé.\n\n4. **No event-driven/message broker experience at scale.** JMS is listed in skills, which is a legacy messaging technology. There is no mention of Kafka, SQS, or comparable modern message brokers preferred by the role.\n\n5. **No infrastructure-as-code experience.** Terraform, CloudFormation, or similar tools are entirely absent.\n\n6. **No observability tooling experience.** Datadog, Grafana, Prometheus, or equivalent tools are not mentioned.\n\n7. **No financial services or payments background.** The role is on a Payments Platform team in what appears to be a regulated-industry context; Alan's background is manufacturing/industrial.\n\n8. **No experience with high-volume transactional payment systems.** Order processing and inventory reconciliation in manufacturing is materially different from high-volume payment transaction processing.\n\n## Judgment\n\nAlan meets the baseline language (Java), SQL/relational DB, REST API, and years-of-experience requirements, and demonstrates mentoring and code review ownership. However, the **hard requirement of cloud experience is unmet**, and he lacks nearly every preferred qualification that would make him competitive for a payments platform role in a cloud-native environment.\n\nFINAL: REJECT"
+}

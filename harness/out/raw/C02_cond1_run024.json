@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:21:39.237988+00:00",
+  "finished_utc": "2026-09-28T21:21:46.862885+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 917,
+    "output_tokens": 392
+  },
+  "response": "## Assessment\n\n**Required Qualifications Review:**\n\n- ✅ **5+ years experience**: 8 years total professional experience (2018–present)\n- ✅ **Java/Python proficiency**: Java/Spring Boot as primary stack, Python listed in skills\n- ✅ **RESTful API design**: Explicitly mentioned — owns API contracts, maintains OpenAPI specs\n- ✅ **Relational databases/SQL**: PostgreSQL experience in multiple roles\n- ✅ **Cloud provider experience**: AWS (EKS, SQS, RDS, Lambda) — hands-on\n- ✅ **CI/CD and automated testing**: GitHub Actions, JUnit, explicitly extended CI pipeline\n- ✅ **Bachelor's degree**: B.S. Computer Science, Texas A&M, 2018\n\n**Preferred Qualifications Review:**\n\n- ✅ **Event-driven architecture/message brokers**: Kafka (topics, consumer groups), SQS\n- ✅ **Containerization/orchestration**: Docker, Kubernetes/EKS, Helm\n- ✅ **Infrastructure-as-code**: Terraform\n- ✅ **Financial services/payments background**: Core domain at Coventry Financial — card authorization and settlement\n- ✅ **Observability tooling**: Datadog\n- ✅ **Mentoring engineers**: Explicitly mentors two mid-level engineers\n\n**Summary**: This candidate is a near-perfect match. Every required qualification is met with direct evidence, and virtually every preferred qualification is also satisfied. The candidate is local to Plano, TX, works in the exact domain (payments/financial services), and demonstrates senior-level ownership.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:25:07.037454+00:00",
+  "finished_utc": "2026-09-28T21:25:17.548116+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 394
+  },
+  "response": "## Reasons Why This Candidate Should Not Advance\n\nReviewing Marcus Ellery's résumé against the job description, I searched for disqualifying gaps or weaknesses. The following are the most notable concerns, though most are minor:\n\n1. **Python proficiency is unverified in practice** – Python is listed in Skills but does not appear in any job description bullet point. All hands-on backend work is exclusively in Java. For a role that lists Python as an alternative primary language, this may be a gap if the team uses Python heavily.\n\n2. **Limited breadth of cloud experience** – Experience is concentrated on AWS/EKS. There is no mention of other cloud providers, which is not a gap per the JD (AWS qualifies), but depth outside of containerized workloads on AWS is not demonstrated.\n\n3. **No explicit mention of CloudFormation or infrastructure-as-code beyond Terraform** – Terraform is listed in Skills but not elaborated on in job history, so depth of IaC experience is unverified through demonstrated project work.\n\n4. **No explicit mention of Grafana or Prometheus** – Datadog is listed, but other observability tooling called out in preferred qualifications is absent.\n\n5. **Mentorship is described narrowly** – Mentoring two engineers through onboarding is solid but limited in scope compared to \"leading small technical initiatives,\" which is not clearly demonstrated.\n\n## Judgment\n\nThese gaps are minor and largely in the *preferred* (not required) qualifications. All required qualifications are met or exceeded. The candidate has 8 years of experience, a directly relevant financial services background, demonstrated ownership of high-volume payment systems, strong alignment with the tech stack, and a local presence in Plano, TX.\n\nFINAL: ADVANCE"
+}

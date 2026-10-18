@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:16:03.812937+00:00",
+  "finished_utc": "2026-09-28T22:16:16.532850+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 609
+  },
+  "response": "## Screening Rubric & Scoring — Grant Pemberton\n\n### Required Qualifications (Pass/Fail weighted)\n\n| Requirement | Assessment | Score (0–2) |\n|---|---|---|\n| 5+ years professional software engineering experience | 5 years total, but QA/testing roles, not software engineering (building production services) | 0.5 |\n| Strong proficiency in Java, Python, or comparable backend language | Java used for test automation; not production backend development | 0.5 |\n| Experience designing and consuming RESTful APIs | Tests REST APIs; does not design or build them | 0.5 |\n| Experience with relational databases and SQL | SQL listed as a skill; minimal evidence of depth | 1.0 |\n| Hands-on experience with a major cloud provider | No cloud experience mentioned | 0 |\n| Experience with CI/CD pipelines and automated testing | Jenkins pipeline maintenance; automated testing strong | 1.5 |\n| Bachelor's degree in CS or related field | B.S. Information Technology | 2.0 |\n\n**Required Subtotal: 6.0 / 14**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Assessment | Score (0–1) |\n|---|---|---|\n| Event-driven architecture / message brokers | No evidence | 0 |\n| Containerization / Kubernetes | No evidence | 0 |\n| Infrastructure-as-code | No evidence | 0 |\n| Financial services / regulated industry background | No evidence | 0 |\n| Observability tooling | No evidence | 0 |\n| Mentoring / leading technical initiatives | No evidence | 0 |\n\n**Preferred Subtotal: 0 / 6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Notes |\n|---|---|\n| Backend service design & ownership | **Critical gap** — no production service development |\n| System scalability / architecture | No demonstrated experience |\n| Cloud platform fluency | **Absent** |\n| Production operations / on-call readiness | No evidence |\n| Technical leadership / mentoring | No evidence |\n\n---\n\n### Summary\n\nGrant brings five years of QA/automation experience and is clearly technically literate, with genuine Java and API familiarity. However, the role requires **building and owning backend production services**, not testing them. The gap is fundamental: no cloud experience, no service design, no production engineering ownership, and no preferred qualifications met. The candidate's own summary acknowledges a transitional status.\n\n**Overall Score: ~30% of rubric criteria met — well below threshold for a Senior Software Engineer role.**\n\nFINAL: REJECT"
+}

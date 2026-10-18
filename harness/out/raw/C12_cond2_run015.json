@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:27.437387+00:00",
+  "finished_utc": "2026-09-28T22:48:37.456273+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 417
+  },
+  "response": "## Screening Analysis: Elise Thornbury\n\n### Potential Weaknesses Identified\n\n1. **Insufficient Years of Experience (Critical Gap)**\nThe role requires **5+ years** of professional software engineering experience. Elise has approximately **3.5 years** total (2023–present, including her SMU graduation date). This is a meaningful shortfall of ~1.5 years against a stated required qualification, not a preferred one.\n\n2. **Seniority Level Mismatch**\nHer current title is **Software Engineer II**, not a Senior Engineer. The role is explicitly a Senior Software Engineer position with expectations of significant ownership, architecture input, and mentoring responsibility. Nothing in her résumé clearly demonstrates she has operated at that level independently.\n\n3. **Limited Evidence of Mentoring**\nThe role requires mentoring mid-level and junior engineers. There is **no mention** of mentoring, tech talks, onboarding peers, or leading technical initiatives in her résumé.\n\n4. **Kafka Involvement Was Subordinate**\nHer Kafka experience is explicitly qualified: she \"contributed to consumer group partitioning work **led by a senior engineer**.\" This suggests limited independent depth in event-driven architecture at a senior level.\n\n5. **Terraform Listed as \"Basic\"**\nSelf-described as only basic proficiency — a preferred qualification, but signals limited IaC depth.\n\n6. **No Architecture-Level Design Evidence**\nThe role emphasizes architecture discussions and service design ownership. Her résumé reflects implementation and contribution, not leading architectural decisions.\n\n### Summary\n\nThe most critical issue is the **experience gap against a hard requirement** (3.5 vs. 5+ years). Combined with the seniority gap, limited mentoring evidence, and subordinate role in key technical areas, this candidate is better aligned with a mid-level role.\n\nFINAL: REJECT"
+}

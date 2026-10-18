@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:15.225018+00:00",
+  "finished_utc": "2026-09-28T22:09:26.275094+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 575
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Pass/Fail or Weighted)\n\n| Requirement | Weight | Assessment | Score |\n|---|---|---|---|\n| 5+ years professional SWE experience | 20 pts | 8 years total (2018–present) ✅ | 20 |\n| Strong proficiency in Java, Python, or comparable backend language | 20 pts | Python throughout all roles ✅ | 20 |\n| Experience designing & consuming RESTful APIs | 15 pts | Explicitly designs REST APIs, maintains versioning ✅ | 15 |\n| Relational databases & SQL | 10 pts | PostgreSQL, Snowflake, SQL batch work ✅ | 10 |\n| Hands-on cloud experience (AWS/Azure/GCP) | 15 pts | AWS (EKS, S3, Lambda, RDS) with Terraform ✅ | 15 |\n| CI/CD & automated testing | 10 pts | GitHub Actions CI, pytest ✅ | 10 |\n| Bachelor's degree or equivalent | 10 pts | B.S. Information Systems ✅ | 10 |\n\n**Required Score: 100 / 100**\n\n---\n\n### Preferred Qualifications (Bonus)\n\n| Preference | Assessment |\n|---|---|\n| Event-driven / message brokers | Kafka — 40M daily events ✅ |\n| Docker / Kubernetes | Docker + EKS (Kubernetes) ✅ |\n| Infrastructure-as-code | Terraform ✅ |\n| Financial services / regulated industry | Healthcare (Corley), transaction data (Redmond) — partial ✅ |\n| Observability tooling | Prometheus + Grafana ✅ |\n| Mentoring / technical leadership | Implied by senior role; not explicitly stated ⚠️ |\n\n**Preferred hits: 5 of 6 — very strong**\n\n---\n\n### Notable Considerations\n\n- **Strengths:** Near-perfect alignment on tech stack; direct production ownership; on-call experience; local (Plano, TX)\n- **Minor gap:** Mentoring not explicitly called out; data-platform framing vs. pure backend — but responsibilities are substantively equivalent\n- **No disqualifying gaps**\n\n---\n\n### Final Score: 100/100 Required + 5/6 Preferred\n\nFINAL: ADVANCE"
+}

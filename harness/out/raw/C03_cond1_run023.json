@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:30:10.297684+00:00",
+  "finished_utc": "2026-09-28T21:30:21.220346+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 413
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **7 years of experience** exceeds the 5-year minimum\n- **Node.js/Express backend work** provides some backend service experience\n- **REST API** design and consumption experience is present\n- **PostgreSQL/SQL** experience is listed\n- **AWS** (S3, CloudFront, Lambda) — limited but real cloud exposure\n- **Docker** and **GitHub Actions (CI/CD)** are listed\n- **Mentoring** experience is noted\n- Located in Frisco, TX (near Plano) — no relocation needed\n\n### Gaps / Concerns\n- **Frontend-focused by self-description and work history** — the role is a backend-heavy Payments Platform Senior SWE role requiring significant backend ownership\n- **Java or Python** — the primary backend languages for this role; candidate uses JavaScript/TypeScript/Node.js, which may be acceptable as \"comparable\" but is a stretch for a payments platform context\n- **No Java experience** — common in enterprise payments systems\n- **No event-driven architecture** (Kafka, SQS) experience evident\n- **No Kubernetes or infrastructure-as-code** experience\n- **No financial services / payments / regulated industry** background\n- **B.A. in Graphic Design** — not CS or a related technical field; compensated somewhat by experience but notable\n- Backend work described is primarily an aggregation/BFF layer in support of a frontend, not standalone scalable backend service design\n- **No observability tooling** experience mentioned\n\n### Summary\nThe candidate's backend experience is real but shallow and ancillary to frontend work. The role demands primary ownership of high-volume transactional backend services in a payments domain — a meaningfully different scope. The language stack, domain experience, and architectural depth do not sufficiently align.\n\nFINAL: REJECT"
+}

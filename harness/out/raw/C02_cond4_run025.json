@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:26:00.296683+00:00",
+  "finished_utc": "2026-09-28T21:26:09.023143+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 351
+  },
+  "response": "## Reasons Why This Candidate Should Not Advance\n\nEvaluating Marcus Ellery's résumé against the job description, I attempted to identify disqualifying factors or significant gaps:\n\n1. **Location/Hybrid Compliance** – No concern. Candidate is based in Plano, TX, matching the job's location requirement.\n\n2. **Years of Experience** – No concern. Eight years of professional experience well exceeds the 5+ year requirement.\n\n3. **Required Technical Skills** – No meaningful gaps identified. Java is primary language; PostgreSQL/SQL are present; REST/API design is documented; AWS is explicitly listed with specific services.\n\n4. **CI/CD and Testing** – Covered (GitHub Actions, JUnit, expanded test coverage mentioned).\n\n5. **Education** – B.S. Computer Science from Texas A&M satisfies the requirement.\n\n6. **Preferred Qualifications** – Nearly all are met: Kafka, Docker, Kubernetes, Terraform, Datadog, financial services background, mentorship experience.\n\n7. **Potential Concerns (minor)**:\n   - Python is listed under skills but not demonstrated through any work experience bullet — it may be superficial familiarity rather than production proficiency. This is a very minor flag.\n   - No explicit mention of CloudFormation or GCP/Azure, though Terraform and AWS are present.\n\n## Assessment\n\nThe minor gaps noted are negligible. This candidate is exceptionally well-matched to the role across required *and* preferred qualifications, with directly relevant domain experience in payments.\n\nFINAL: ADVANCE"
+}

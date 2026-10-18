@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:37.371494+00:00",
+  "finished_utc": "2026-09-28T22:00:46.937699+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 433
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No cloud experience.** The job description lists hands-on experience with AWS, Azure, or GCP as a **required** qualification. Alan's résumé indicates an entirely on-premise enterprise environment with no mention of any cloud provider. This is a significant gap for a Payments Platform role at a company that presumably runs cloud-native infrastructure.\n\n2. **No containerization or orchestration experience.** Docker and Kubernetes are listed as preferred qualifications. Alan's résumé shows no evidence of either.\n\n3. **No infrastructure-as-code experience.** Terraform or CloudFormation are preferred; Alan lists none.\n\n4. **No event-driven/message broker experience aligned with the role.** The job prefers Kafka, SQS, or similar. Alan lists JMS, which is a Java messaging standard tied to on-premise systems (e.g., ActiveMQ), and is meaningfully different from the distributed, cloud-native brokers the role likely uses.\n\n5. **No observability tooling experience.** Datadog, Grafana, and Prometheus are preferred; Alan lists none.\n\n6. **No financial services or payments domain experience.** The role is specifically on a Payments Platform serving enterprise clients in what is likely a regulated environment. Alan's background is in manufacturing order processing.\n\n7. **Location mismatch with hybrid requirement.** Alan is in Arlington, TX and the role is Plano, TX — this is manageable, but worth noting as a minor consideration.\n\n8. **CI/CD experience is limited.** Alan mentions Jenkins pipeline stages for integration tests, which is minimal. No mention of modern CI/CD practices or tools beyond that.\n\n---\n\nThe cloud experience gap alone is a disqualifying factor against a stated **required** qualification. Combined with the absence of payments/fintech background and multiple missing preferred qualifications, Alan does not clear the bar for this role.\n\nFINAL: REJECT"
+}

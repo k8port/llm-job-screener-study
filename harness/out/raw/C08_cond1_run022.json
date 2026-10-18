@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:22.506501+00:00",
+  "finished_utc": "2026-09-28T22:14:31.711336+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 405
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **5 years of experience** in software engineering-adjacent work (QA/automation)\n- **Java proficiency** demonstrated through building and maintaining automated test suites\n- **REST API experience** via API-level testing, contract validation, and tools like REST Assured/Postman\n- **SQL** listed as a skill\n- **CI/CD** exposure through Jenkins pipeline maintenance\n- **B.S. in Information Technology** satisfies the education requirement\n- Located in Garland, TX — near Plano, compatible with hybrid requirement\n\n### Significant Gaps\n\n| Required Qualification | Assessment |\n|---|---|\n| **5+ years professional software engineering** | All 5 years are in QA/test automation, not software development. The candidate explicitly describes themselves as \"transitioning toward software development.\" |\n| **Designing and building scalable backend services/APIs** | No evidence of building production backend services — only testing them |\n| **Cloud provider experience (AWS/Azure/GCP)** | Not mentioned |\n| **Designing RESTful APIs** | Experience *testing* APIs, not *designing or building* them |\n| **Relational database/SQL beyond basic use** | Only listed as a skill with no context of meaningful usage |\n| **Mentoring engineers** | No evidence |\n\n### Preferred Qualifications\nNearly all preferred qualifications (Kafka/event-driven architecture, Docker/Kubernetes, Terraform, financial services background, observability tooling) are absent.\n\n### Summary\nThe candidate has relevant adjacent experience but **lacks sufficient evidence of the core competency required**: designing and building production backend software systems. The self-described transition status confirms this gap is real. The role requires someone who can immediately own service design and delivery at senior level.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:15.053346+00:00",
+  "finished_utc": "2026-09-28T21:52:24.392990+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 418
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a software engineer — data analyst background:** Nora's entire career is in data analytics and reporting, not software engineering. She has no experience designing or building backend services, APIs, or production software systems.\n\n2. **No backend/API development experience:** The role requires designing and consuming RESTful APIs and building scalable backend services. There is no evidence of this in her résumé.\n\n3. **No Java experience:** Java is listed as the primary preferred language. She has no mention of it.\n\n4. **Python used only for data tasks:** Her Python experience is limited to data cleaning and reconciliation scripts (Pandas, NumPy), not backend service development.\n\n5. **No cloud infrastructure experience relevant to the role:** She lists \"basic AWS (S3, Athena),\" which are data query/storage tools used analytically — not cloud infrastructure experience for building and deploying backend services.\n\n6. **No CI/CD or automated testing experience:** Both are required qualifications with no evidence of either on her résumé.\n\n7. **No containerization, orchestration, or IaC experience:** Docker, Kubernetes, and Terraform are absent entirely.\n\n8. **No experience with event-driven architecture or message brokers:** Kafka, SQS, etc. are not mentioned.\n\n9. **No mentoring or engineering leadership experience:** The role requires mentoring junior/mid engineers; her résumé reflects no such responsibility.\n\n10. **No relational database experience in an engineering context:** While she uses SQL heavily, it is purely for analytics — not for designing or managing databases in a software engineering context.\n\n11. **Years of experience mismatch in relevant domain:** Despite 6 years of total experience, none of it is in software engineering, making her effectively a 0-year candidate for this role.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:17:02.725695+00:00",
+  "finished_utc": "2026-09-28T22:17:15.996518+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 716
+  },
+  "response": "## Screening Rubric & Scoring: Grant Pemberton\n\n### Scoring Scale: 0–2 per criterion (0 = not met, 1 = partially met, 2 = fully met)\n\n---\n\n### Required Qualifications\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 5 years total, but primarily in QA/testing roles, not software engineering/development | 1 |\n| Strong proficiency in Java, Python, or comparable backend language | Java used extensively for test automation (not backend service development); basic Python scripting only | 1 |\n| Experience designing and consuming RESTful APIs | API-level *testing* (REST Assured, Postman), not designing or building APIs | 1 |\n| Experience with relational databases and SQL | SQL listed in skills; no elaboration on depth or usage | 1 |\n| Hands-on experience with major cloud provider (AWS, Azure, GCP) | No mention of any cloud platform | 0 |\n| Experience with CI/CD pipelines and automated testing | Jenkins pipeline maintenance; strong automated testing background | 2 |\n| Bachelor's degree in CS or related field | B.S. Information Technology — qualifies as related field | 2 |\n\n**Required Subtotal: 8 / 14**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers (Kafka, SQS) | No mention | 0 |\n| Containerization / orchestration (Docker, Kubernetes) | No mention | 0 |\n| Infrastructure-as-code (Terraform, CloudFormation) | No mention | 0 |\n| Financial services / payments / regulated industry background | Retail systems (Bledsoe); no payments or regulated domain | 0 |\n| Observability tooling (Datadog, Grafana, Prometheus) | No mention | 0 |\n| Mentoring or leading technical initiatives | No evidence of mentoring; works *with* developers but in QA capacity | 0 |\n\n**Preferred Subtotal: 0 / 12**\n\n---\n\n### Overall Score Summary\n\n| Category | Score | Max |\n|---|---|---|\n| Required | 8 | 14 |\n| Preferred | 0 | 12 |\n| **Total** | **8** | **26** |\n| **Percentage** | **31%** | — |\n\n---\n\n### Key Disqualifying Gaps\n\n- **Core role mismatch:** The candidate is a QA engineer explicitly self-described as \"transitioning toward software development\" — not a current software engineer\n- **No backend service development experience:** All Java usage is within test automation frameworks, not production service design\n- **Zero cloud experience:** A hard requirement for this role\n- **No payments/fintech background**\n- **No preferred qualifications met**\n\nThe candidate shows a strong QA foundation and some adjacent technical exposure, but falls materially short of the Senior Software Engineer profile required for this role.\n\n---\n\nFINAL: REJECT"
+}

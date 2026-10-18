@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:08.951377+00:00",
+  "finished_utc": "2026-09-28T22:18:18.432860+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 417
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Engineer — QA/Testing Background**\nThe candidate's entire career has been in quality assurance and test engineering, not software development. The role requires designing and building backend services, not testing them. The résumé even self-identifies as a \"quality engineer transitioning toward software development,\" which signals they are not yet there.\n\n**2. Insufficient Hands-On Development Experience**\nThe required 5+ years of professional *software engineering* experience is not met. While the candidate has 5 years total in tech, all of it is in QA roles. Writing automated test scripts in Java and Selenium is materially different from designing and building production backend services and APIs.\n\n**3. No Cloud Experience**\nThere is no mention of AWS, Azure, or GCP — a required qualification. This is a hard miss.\n\n**4. No CI/CD Development Experience (Only Test Pipeline Maintenance)**\nThe candidate maintains Jenkins test execution stages, which is not equivalent to building and owning CI/CD pipelines for software delivery.\n\n**5. No Backend Service or API Design Experience**\nThe candidate *consumes and tests* REST APIs but has no demonstrated experience *designing or building* them, which is a core responsibility of this role.\n\n**6. No Experience With Preferred Technologies**\nNo Kafka/SQS, no Docker/Kubernetes, no Terraform, no observability tooling, no payments/financial services background.\n\n**7. No Mentorship or Technical Leadership**\nThe role requires mentoring junior/mid-level engineers. There is no evidence of this in the résumé.\n\n**8. B.S. in Information Technology (Not CS or Related Engineering Field)**\nMinor concern, but the degree is in IT rather than Computer Science, which is a softer fit for a senior engineering role.\n\n---\n\nFINAL: REJECT"
+}

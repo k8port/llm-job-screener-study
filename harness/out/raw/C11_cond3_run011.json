@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:41:52.245646+00:00",
+  "finished_utc": "2026-09-28T22:42:05.064928+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 651
+  },
+  "response": "# Candidate Screening: Curtis Ballinger\n## Role: Senior Software Engineer – Payments Platform\n\n---\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of experience (5+ years SWE)** | High | 1 | 1.0 | 9 years in IT, but as sysadmin, not software engineering |\n| **Backend language proficiency (Java, Python, etc.)** | High | 0 | 0.0 | No Java or Python; only Bash/PowerShell (scripting, not application development) |\n| **RESTful API design/consumption** | High | 0 | 0.0 | No evidence |\n| **Relational databases / SQL** | Medium | 1 | 0.5 | Listed as \"basic\" only |\n| **Cloud provider experience (AWS/Azure/GCP)** | High | 1 | 1.0 | Azure VM/networking admin — infrastructure ops, not cloud-native development |\n| **CI/CD & automated testing** | Medium | 0 | 0.0 | No evidence |\n| **Education (CS or related)** | Low | 2 | 0.5 | B.A.S. in Information Technology qualifies |\n| **Event-driven architecture / Kafka / SQS** | Preferred | 0 | 0.0 | No evidence |\n| **Containers / Kubernetes** | Preferred | 1 | 0.25 | Docker listed as \"basic\" |\n| **Infrastructure-as-code** | Preferred | 0 | 0.0 | No evidence |\n| **Financial/regulated industry background** | Preferred | 1 | 0.25 | Healthcare (regulated), not payments |\n| **Observability tooling** | Preferred | 1 | 0.25 | Nagios experience, tangential |\n| **Mentoring / technical leadership** | Preferred | 0 | 0.0 | No evidence |\n\n---\n\n## Summary Assessment\n\n**Total Weighted Score: ~3.75 / 15**\n\nCurtis has a solid infrastructure and operations background with 9 years of experience, but his profile is fundamentally that of a **systems administrator**, not a software engineer. The role requires hands-on backend software development — designing services, building APIs, writing production application code — none of which is demonstrated in his résumé. Core required skills (backend programming languages, API development, CI/CD, automated testing) are either absent or far below the proficiency needed for a senior-level engineering role.\n\nHis Azure and on-call experience shows some relevant operational maturity, but this does not bridge the gap to software engineering.\n\n---\n\nFINAL: REJECT"
+}

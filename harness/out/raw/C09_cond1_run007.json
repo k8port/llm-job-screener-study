@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:21:56.542708+00:00",
+  "finished_utc": "2026-09-28T22:22:05.171851+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 393
+  },
+  "response": "## Assessment of Raymond Dolliver\n\n### Strengths\n- **Years of experience**: 16 years, well exceeding the 5+ year requirement\n- **Relevant domain**: Financial services/regulated industry (trust accounting, settlement processing) — a strong preferred qualification\n- **SQL/relational databases**: Solid experience with DB2, Oracle, and SQL tuning\n- **Java**: Has Java 8 experience supporting banking functions\n- **Education**: B.S. Computer Science from UT Arlington\n- **Production systems ownership**: Incident diagnosis, high-priority resolution in regulated environment\n\n### Significant Gaps\n- **Backend/API development**: No evidence of RESTful API design or consumption; experience is in legacy batch/JSP/servlet paradigms\n- **Cloud experience**: No mention of AWS, Azure, or GCP — a **required** qualification\n- **CI/CD pipelines**: Only basic Jenkins familiarity; no substantive CI/CD pipeline experience\n- **Modern backend languages/frameworks**: Java 8 with servlets/JSP is significantly dated for a \"scalable backend services\" role\n- **Containerization/orchestration**: No Docker or Kubernetes experience\n- **Event-driven architecture**: No Kafka, SQS, or messaging experience\n- **Observability tooling**: No Datadog, Grafana, or Prometheus experience\n- **Mentorship/technical leadership**: No evidence of mentoring engineers\n\n### Summary\nRaymond's background is rooted in mainframe and legacy Java environments. While his financial services domain knowledge is valuable, there are **multiple missing required qualifications** — particularly cloud experience, RESTful API development, and modern CI/CD practices — that represent substantial gaps for a Senior Software Engineer on a modern Payments Platform team.\n\nFINAL: REJECT"
+}

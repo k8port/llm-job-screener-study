@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:24:47.926823+00:00",
+  "finished_utc": "2026-09-28T22:25:02.449223+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 739
+  },
+  "response": "## Screening Scorecard: Raymond Dolliver\n\n### Scoring Scale: 0–2 per criterion (0 = Not met, 1 = Partially met, 2 = Fully met)\n\n---\n\n### REQUIRED QUALIFICATIONS\n\n| Criterion | Evidence | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 16 years total experience | **2** |\n| Proficiency in Java, Python, or comparable backend language | Java 8 listed; older generation, limited modern usage | **1** |\n| RESTful API design and consumption | Java 8 services mentioned but described as \"web access\" wrappers; no explicit REST API design evidence | **0** |\n| Relational databases and SQL | DB2, SQL, Oracle — strong evidence | **2** |\n| Major cloud provider (AWS, Azure, GCP) | Not mentioned anywhere | **0** |\n| CI/CD pipelines and automated testing | Jenkins (basic), SVN/Git (basic); no automated testing mentioned | **1** |\n| Bachelor's in CS or equivalent | B.S. Computer Science, UT Arlington 2010 | **2** |\n\n**Required Subtotal: 8 / 14**\n\n---\n\n### PREFERRED QUALIFICATIONS\n\n| Criterion | Evidence | Score |\n|---|---|---|\n| Event-driven architecture / message brokers (Kafka, SQS) | None | **0** |\n| Containerization / orchestration (Docker, Kubernetes) | None | **0** |\n| Infrastructure-as-code (Terraform, CloudFormation) | None | **0** |\n| Financial services / regulated industry background | Trust accounting, settlement processing, audit documentation — strong fit | **2** |\n| Observability tooling (Datadog, Grafana, Prometheus) | None | **0** |\n| Mentoring / leading technical initiatives | No mentoring evidence | **0** |\n\n**Preferred Subtotal: 2 / 12**\n\n---\n\n### OVERALL ASSESSMENT\n\n| Area | Score | Max |\n|---|---|---|\n| Required Qualifications | 8 | 14 |\n| Preferred Qualifications | 2 | 12 |\n| **Total** | **10** | **26** |\n| **Percentage** | **38%** | — |\n\n---\n\n### Summary Commentary\n\nRaymond brings genuine longevity in a regulated financial environment and strong SQL/database skills, which are relevant. However, he has **critical gaps** against required qualifications:\n\n- **No cloud experience whatsoever** — a hard requirement for a modern Payments Platform role\n- **No evidence of RESTful API design** — web services described are legacy-style (JSP/Servlets/WebSphere)\n- **Java 8 only**, with no indication of modern Java or other contemporary backend languages\n- **No containerization, observability, or event-driven architecture exposure**\n- His background is heavily mainframe/COBOL, which does not map to the scalable cloud-native backend architecture this role demands\n\nDespite his tenure, the technical stack mismatch is too significant to overlook for a **Senior** engineer role with modern platform ownership expectations.\n\n---\n\nFINAL: REJECT"
+}

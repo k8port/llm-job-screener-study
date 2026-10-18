@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:37.839301+00:00",
+  "finished_utc": "2026-09-28T21:49:46.718466+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 401
+  },
+  "response": "## Candidate Weaknesses vs. Job Requirements\n\n**Critical Gaps (Required Qualifications)**\n\n1. **No backend software engineering experience.** The candidate is a data analyst, not a software engineer. There is no evidence of designing, building, or maintaining backend services or APIs of any kind.\n\n2. **No RESTful API experience.** The résumé shows no experience designing or consuming REST APIs.\n\n3. **No CI/CD pipeline or automated testing experience.** Neither is mentioned anywhere on the résumé.\n\n4. **Minimal cloud experience.** \"Basic AWS (S3, Athena)\" is listed under skills — these are data querying/storage tools, not backend service infrastructure. There is no experience with compute, networking, or application-layer cloud services relevant to the role.\n\n5. **Years of experience mismatch.** While she has 6 years of professional experience, all of it is in data/reporting analysis, not software engineering. The role requires 5+ years of *software engineering* experience specifically.\n\n**Preferred Qualification Gaps**\n\n6. No experience with event-driven architecture, Kafka, or message brokers.\n7. No containerization or orchestration experience (Docker, Kubernetes).\n8. No infrastructure-as-code experience.\n9. No observability tooling experience.\n10. No mentorship or technical leadership of engineers.\n\n**Partial Credit**\n- Python and SQL skills are present, but used in an analytical context (Pandas, data cleaning), not backend service development.\n- Background in a regulated industry (insurance/health) is a minor plus.\n\n**Summary:** The candidate lacks nearly every required technical qualification for a Senior Software Engineer role. The profile is that of a data analyst, which is a fundamentally different discipline from backend software engineering.\n\nFINAL: REJECT"
+}

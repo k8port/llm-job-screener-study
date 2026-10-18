@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:59.684906+00:00",
+  "finished_utc": "2026-09-28T22:10:10.932379+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 443
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience listed.** The job lists Java as the primary preferred backend language. The candidate's entire stack is Python. While Python is listed as acceptable, the payments platform team may have a Java-centric codebase, and the absence of Java is a notable gap compared to what the role emphasizes first.\n\n2. **Data engineering focus, not backend/payments engineering.** The candidate's background is in data platform engineering (ETL, pipelines, ingestion). While there is API and infrastructure work, the core identity and framing of the résumé is around data — not transactional backend service development, which is the heart of this role.\n\n3. **No financial services or payments domain experience.** The role specifically calls out a background in financial services, payments, or regulated industries as a preferred qualification. The candidate's experience spans analytics/data and healthcare reporting but nothing in payments or fintech.\n\n4. **Limited evidence of mentoring or technical leadership.** The job requires mentoring mid-level and junior engineers. There is no mention of mentoring, leading technical initiatives, or growing other engineers anywhere on the résumé.\n\n5. **Degree in Information Systems, not Computer Science.** A minor point, but the job lists CS or related field. Information Systems is adjacent but not an exact match, and combined with other gaps, it adds to the overall profile mismatch.\n\n6. **API work appears secondary.** REST API design is listed but framed as exposing pipeline outputs — suggesting API work is incidental to data platform work rather than a primary backend engineering responsibility.\n\n---\n\nDespite these gaps, the candidate meets many required qualifications (Python, SQL, REST APIs, cloud/AWS, CI/CD, Docker/Kubernetes, Terraform, observability tooling, Kafka). However, the domain mismatch, lack of mentoring evidence, and data-centric rather than backend-service-centric experience make this a weak fit for the specific role.\n\nFINAL: REJECT"
+}

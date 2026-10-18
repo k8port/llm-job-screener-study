@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:34:14.190934+00:00",
+  "finished_utc": "2026-09-28T21:34:30.216257+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 885,
+    "output_tokens": 829
+  },
+  "response": "## Screening Scorecard: Priya Ashford\n\n### Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of Experience (5+)** | 10% | 3 | 0.30 | 7 years total professional experience ✓ |\n| **Backend Language Proficiency (Java, Python, or comparable)** | 20% | 1 | 0.20 | Node.js/Express work is present but secondary; described as \"frontend-focused\"; no Java or Python |\n| **RESTful API Design & Consumption** | 10% | 2 | 0.20 | Consumes APIs extensively; built an aggregation layer and content API; not deep backend service design |\n| **Relational Databases & SQL** | 10% | 2 | 0.20 | PostgreSQL/SQL listed in skills; no meaningful depth described in experience |\n| **Cloud Provider Experience** | 10% | 1 | 0.10 | AWS (S3, CloudFront, Lambda) — edge/CDN/storage focus; not compute/backend infrastructure |\n| **CI/CD & Automated Testing** | 10% | 2 | 0.20 | GitHub Actions CI pipeline; Jest/Testing Library; reasonable coverage |\n| **Education (CS or related)** | 5% | 1 | 0.05 | B.A. Graphic Design — not CS/related, though practical experience partially compensates |\n| **Event-Driven Architecture / Message Brokers** | 5% | 0 | 0.00 | No evidence of Kafka, SQS, or similar |\n| **Containerization / Orchestration** | 5% | 1 | 0.05 | Docker listed; no Kubernetes |\n| **Infrastructure-as-Code** | 5% | 0 | 0.00 | No Terraform, CloudFormation, or equivalent |\n| **Payments / Regulated Industry Background** | 5% | 0 | 0.00 | Retail background; no payments/fintech experience |\n| **Mentorship / Technical Leadership** | 5% | 2 | 0.10 | Mentors junior engineers; design-to-code reviews ✓ |\n\n**Score Scale:** 0 = No evidence | 1 = Partial/weak | 2 = Meets expectation | 3 = Exceeds expectation\n\n---\n\n### Total Weighted Score\n\n**1.40 / 3.00 (47%)**\n\n---\n\n### Summary Assessment\n\nPriya is a skilled and experienced **frontend engineer** who has done meaningful adjacent backend work (Node.js services, REST APIs, PostgreSQL, CI/CD), but the role requires a **primary backend identity** with deeper competencies in distributed systems, cloud backend services, and payments infrastructure. Key gaps include:\n\n- **No Java or Python** — the team's likely core backend languages\n- **Minimal cloud depth** — AWS usage is frontend-delivery oriented (S3, CloudFront)\n- **No event-driven/messaging experience** — critical for a high-volume payments platform\n- **No payments or regulated industry background**\n- **No IaC experience**\n- **Degree in Graphic Design** — not a disqualifier alone, but compounds other gaps\n\nThe candidate is a strong mid-to-senior frontend engineer but does not meet the threshold for a **Senior Backend/Payments Platform** engineering role.\n\n---\n\nFINAL: REJECT"
+}

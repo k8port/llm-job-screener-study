@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:16.257542+00:00",
+  "finished_utc": "2026-09-28T22:48:27.214789+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 437
+  },
+  "response": "## Screening Analysis: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient Years of Experience (Critical Gap)**\nThe role requires **5+ years** of professional software engineering experience. Elise's résumé shows approximately **1.5–2 years** of professional experience (graduated 2023, started at Larkspur Pay in 2023). This is a significant shortfall against a hard requirement.\n\n2. **Seniority Level Mismatch**\nShe currently holds a \"Software Engineer II\" title, not a senior-level role. The nature of her contributions reflects this — she notes that a Kafka partitioning initiative was \"led by a senior engineer,\" suggesting she is not yet operating at a senior/lead level of ownership.\n\n3. **Limited Demonstrated Mentorship or Technical Leadership**\nThe role explicitly requires mentoring mid-level/junior engineers and leading technical initiatives. There is no evidence of either on her résumé.\n\n4. **Infrastructure-as-Code Experience Is Shallow**\nTerraform is listed as \"basic,\" which falls short of the preferred (and likely practically expected) IaC proficiency for a senior engineer on a cloud-native platform team.\n\n5. **Limited Observability Depth**\nGrafana is listed but without context; there is no mention of Datadog, Prometheus, or meaningful observability ownership.\n\n6. **Short Tenure Overall**\nTwo years in the industry total (both at the same company) limits demonstrated breadth of experience across teams, systems, and problem domains.\n\n### Summary\n\nThe candidate shows strong technical alignment in domain (payments), language (Java), and tooling (Kafka, AWS, Kubernetes), and the payments background is a genuine plus. However, the **experience requirement gap (~3.5 years short)** is a disqualifying deficiency against an explicit, hard requirement. No amount of domain fit offsets falling this far below a stated minimum.\n\nFINAL: REJECT"
+}

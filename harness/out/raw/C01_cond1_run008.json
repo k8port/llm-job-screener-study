@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:37:41.479375+00:00",
+  "finished_utc": "2026-09-30T18:37:49.685648+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 813,
+    "output_tokens": 352
+  },
+  "response": "## Evaluation\n\n### Key Requirements vs. Candidate Profile\n\n**Required: 5+ years of professional software engineering experience**\nThe candidate has approximately 1 year as a full Software Engineer (2025–Present) plus an internship (2024–2025). Their own summary states \"two years of professional experience.\" This falls significantly short of the 5+ year requirement.\n\n**Required: Strong proficiency in Java or comparable backend language**\nCandidate demonstrates Java/Spring Boot experience — this requirement is plausibly met.\n\n**Required: Experience designing and consuming RESTful APIs**\nCandidate has built REST endpoints — partially met, though at a maintenance/feature level rather than design ownership level.\n\n**Required: Relational databases and SQL**\nMySQL experience is evident — met.\n\n**Required: Hands-on experience with a major cloud provider**\nCandidate lists \"basic AWS (EC2, S3)\" — this is self-described as basic and likely insufficient for a senior role.\n\n**Required: CI/CD pipelines and automated testing**\nCandidate contributes to a pipeline maintained by a senior engineer and writes unit/integration tests — partially met, but limited ownership.\n\n### Summary\n\nThe candidate is an early-career engineer (approximately 2 years total experience, 1 year post-internship) applying for a Senior role requiring 5+ years. The experience gap is substantial, and there is no evidence of the senior-level competencies the role demands: system design ownership, mentoring, cloud depth, observability, or event-driven architecture. The shortfall is not marginal.\n\nFINAL: REJECT"
+}

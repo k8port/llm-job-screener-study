@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:05:11.849845+00:00",
+  "finished_utc": "2026-09-28T22:05:20.745557+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 411
+  },
+  "response": "## Evaluation\n\n**Required Qualifications – Assessment**\n\n| Requirement | Evidence |\n|---|---|\n| 5+ years professional SWE experience | ~8 years total (2018–present) ✅ |\n| Strong proficiency in Java, Python, or comparable backend language | Python throughout; production backend services ✅ |\n| Experience designing and consuming RESTful APIs | Explicitly designs REST APIs, maintains versioning/contracts ✅ |\n| Experience with relational databases and SQL | PostgreSQL, Snowflake, SQL skills listed ✅ |\n| Hands-on experience with a major cloud provider | AWS (EKS, S3, Lambda, RDS) ✅ |\n| CI/CD pipelines and automated testing | GitHub Actions CI, pytest, automated tests ✅ |\n| Bachelor's degree in CS or related field | B.S. Information Systems ✅ |\n\n**Preferred Qualifications – Assessment**\n\n- Event-driven architecture / Kafka: ✅ (40M daily events)\n- Docker / Kubernetes: ✅ (containerized workloads on EKS)\n- Terraform / IaC: ✅\n- Observability tooling: ✅ (Prometheus, Grafana, on-call)\n- Mentoring / technical leadership: Not explicitly stated (minor gap)\n- Financial services / regulated industry: Healthcare adjacent, transaction data (partial)\n\n**Summary**\n\nSimone meets every required qualification and nearly every preferred qualification. Her work on high-volume transaction data services, Kafka streaming, REST APIs, AWS infrastructure, and observability maps directly to the Payments Platform role. The primary profile difference (data platform vs. general backend) is minimal given the scope and technical overlap of her work.\n\nFINAL: ADVANCE"
+}

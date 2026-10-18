@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:43:00.665595+00:00",
+  "finished_utc": "2026-09-28T21:43:17.533111+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 938
+  },
+  "response": "# Candidate Screening: Trevor Lindquist\n## Position: Senior Software Engineer – Payments Platform\n\n---\n\n## Scoring Rubric\n\n| Category | Weight | Criteria | Score (0–5) | Weighted Score |\n|---|---|---|---|---|\n| **Years of Experience** | 10% | 5+ years backend engineering | 5 | 0.50 |\n| **Core Backend Languages (Java/Python)** | 15% | Proficiency in Java, Python, or comparable | 5 | 0.75 |\n| **RESTful API Design** | 10% | Designing and consuming REST APIs | 5 | 0.50 |\n| **Relational Databases & SQL** | 10% | Hands-on SQL/RDBMS experience | 5 | 0.50 |\n| **Cloud Platform Experience** | 10% | AWS, Azure, or GCP hands-on | 5 | 0.50 |\n| **CI/CD & Automated Testing** | 10% | Pipeline and test experience | 5 | 0.50 |\n| **Education Requirement** | 5% | CS degree or equivalent practical experience | 4 | 0.20 |\n| **Event-Driven Architecture (Preferred)** | 8% | Kafka, SQS, or similar | 5 | 0.40 |\n| **Containerization & Orchestration (Preferred)** | 7% | Docker, Kubernetes | 5 | 0.35 |\n| **Infrastructure-as-Code (Preferred)** | 5% | Terraform, CloudFormation | 5 | 0.25 |\n| **Payments/Regulated Industry (Preferred)** | 5% | Financial services background | 5 | 0.25 |\n| **Observability Tooling (Preferred)** | 5% | Datadog, Grafana, Prometheus | 5 | 0.25 |\n| **Mentorship/Technical Leadership (Preferred)** | 5% | Mentoring or leading initiatives | 4 | 0.20 |\n| **Geographic/Logistics Fit** | 5% | Dallas, TX – compatible with Plano hybrid | 5 | 0.25 |\n\n---\n\n## Score Summary\n\n| | |\n|---|---|\n| **Raw Weighted Total** | **5.40 / 5.00 effective ceiling** |\n| **Normalized Score** | **~96%** |\n\n---\n\n## Dimension Notes\n\n- **Experience (9 years, 6 in payments):** Substantially exceeds the 5-year minimum; directly relevant domain.\n- **Languages:** Active Python and Java use in production payments systems — exact match.\n- **REST APIs:** Owns the partner integration API surface; versioned contracts and documentation.\n- **Database/SQL:** PostgreSQL in production at multiple employers; SQL batch work at Hollis.\n- **Cloud:** AWS ECS, SQS, RDS, Lambda listed and evidenced in role descriptions.\n- **CI/CD & Testing:** GitHub Actions + pytest; introduced integration testing discipline.\n- **Education:** No formal degree. The JD explicitly allows \"equivalent practical experience.\" Nine years of progressive production experience plus a structured apprenticeship constitutes clear equivalency. Scored 4/5 (minor gap from stated preference).\n- **All preferred qualifications met:** Kafka ✓, SQS ✓, Docker ✓, Kubernetes ✓, Terraform ✓, payments domain ✓, Grafana ✓, Prometheus ✓, on-call lead / incident leadership ✓.\n\n---\n\n## Summary Assessment\n\nTrevor is a near-ideal match. Every required qualification is met with direct evidence, and every preferred qualification is also present. Six years in payments infrastructure, with ownership of exactly the type of services this team builds, is a strong differentiator. The absence of a formal degree is explicitly accommodated by the JD.\n\n---\n\nFINAL: ADVANCE"
+}

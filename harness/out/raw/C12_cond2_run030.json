@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:49:07.249677+00:00",
+  "finished_utc": "2026-09-28T22:49:16.487979+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 366
+  },
+  "response": "## Candidate Evaluation: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient years of experience (significant gap):** The role requires **5+ years** of professional software engineering experience. Elise has approximately **3.5 years** total (2023–present), which is roughly 30% short of the stated minimum. This is likely the most disqualifying factor.\n\n2. **Limited leadership and mentorship evidence:** The role expects mentoring of mid-level and junior engineers and leading small technical initiatives. Elise's résumé shows no mentorship activity and describes her Kafka partitioning contribution as supporting work led by a senior engineer — the opposite of leading.\n\n3. **Terraform listed as \"basic\":** The job lists infrastructure-as-code as a preferred qualification; Elise self-qualifies her Terraform experience as basic, limiting the value of that credential.\n\n4. **Current title is Engineer II (not Senior):** While title alone isn't disqualifying, it is consistent with the experience gap and suggests she has not yet operated at a senior level of ownership and scope.\n\n5. **Observability tooling is partial:** Only Grafana is listed; no Datadog or Prometheus experience is indicated, though this is a preferred (not required) qualification and is a minor concern.\n\n### Summary\n\nThe experience shortfall is substantial and non-marginal — roughly 1.5 years below the stated minimum. While her domain fit (payments, Java, Kafka, AWS, Kubernetes) is genuinely strong, the seniority gap is clear both in tenure and in demonstrated scope of ownership.\n\nFINAL: REJECT"
+}

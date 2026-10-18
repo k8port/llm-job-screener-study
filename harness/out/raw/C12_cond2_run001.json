@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:51.676101+00:00",
+  "finished_utc": "2026-09-28T22:48:03.333267+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 473
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient years of experience (significant gap)**\nThe role requires **5+ years** of professional software engineering experience. Thornbury has approximately **3.5 years** (2023–present, with her BS completed in 2023). This is a meaningful shortfall against a hard \"required\" qualification, not a preferred one.\n\n2. **Mentorship/leadership experience is absent**\nThe role explicitly includes mentoring mid-level and junior engineers as a core responsibility. There is no indication in her résumé that she has mentored others or led technical initiatives. (Notably, she was the *recipient* of senior engineer leadership on the Kafka partitioning work.)\n\n3. **Infrastructure-as-code experience is minimal**\nTerraform is listed as \"basic\" — a notable hedge that suggests limited practical depth, which matters for a senior role expected to own service design and delivery end-to-end.\n\n4. **Cloud experience is narrowly scoped**\nAWS usage appears limited to EKS, SQS, and RDS. No breadth beyond managed services; no evidence of networking, security, or broader platform-level cloud architecture work expected at a senior level.\n\n5. **Architecture-level ownership is unclear**\nSeveral bullet points suggest collaborative or supporting roles (e.g., \"contributed to consumer group partitioning work *led by a senior engineer*\"), raising questions about her readiness for the significant ownership this senior role requires.\n\n6. **No observability tooling depth demonstrated**\nGrafana is listed in skills, but there is no elaboration on meaningful observability work (dashboards, alerting, SLO definition), which is explicitly called out in the job description.\n\n### Summary\n\nThe most disqualifying weakness is the experience gap — roughly 1.5 years short of the stated requirement — combined with no demonstrated mentorship or technical leadership. While her domain (payments, Java, Kafka, AWS) is a strong fit directionally, she appears to be at a solid mid-level trajectory rather than ready for a senior role today.\n\nFINAL: REJECT"
+}

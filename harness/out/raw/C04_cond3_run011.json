@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:42:26.445894+00:00",
+  "finished_utc": "2026-09-28T21:42:44.714689+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 797
+  },
+  "response": "# Candidate Screening: Trevor Lindquist\n\n## Scoring Rubric\n\n| Category | Weight | Max Points |\n|----------|--------|------------|\n| Years of Experience | 15% | 15 |\n| Backend Language Proficiency | 20% | 20 |\n| API Design & RESTful Experience | 10% | 10 |\n| Database & SQL | 10% | 10 |\n| Cloud Platform Experience | 10% | 10 |\n| CI/CD & Automated Testing | 5% | 5 |\n| Education / Equivalent Experience | 5% | 5 |\n| Preferred Qualifications (bonus) | 25% | 25 |\n| **Total** | | **100** |\n\n---\n\n## Score Assessment\n\n### Required Qualifications\n\n| Criterion | Score | Notes |\n|-----------|-------|-------|\n| Years of Experience (5+ req.) | **15/15** | 9 years total, 6 in payments specifically |\n| Backend Language Proficiency (Java/Python) | **20/20** | Expert-level in both Java and Python; Spring Boot, FastAPI explicitly listed |\n| RESTful API Design & Consumption | **10/10** | Owns API design for partner integration surface; versioned REST contracts |\n| Relational Databases & SQL | **10/10** | PostgreSQL, SQL, production use against merchant onboarding and batch jobs |\n| Cloud Provider Experience (AWS/Azure/GCP) | **10/10** | AWS (ECS, SQS, RDS, Lambda) — hands-on, production |\n| CI/CD & Automated Testing | **5/5** | GitHub Actions, pytest, introduced integration testing culture |\n| Education / Equivalent Experience | **5/5** | No degree but explicit JD carve-out for \"equivalent practical experience\"; structured apprenticeship + 9 years qualifies clearly |\n\n**Required Subtotal: 75/75**\n\n### Preferred Qualifications\n\n| Criterion | Score | Notes |\n|-----------|-------|-------|\n| Event-driven / Message Brokers | **8/8** | Built Kafka + SQS event pipeline; central to current role |\n| Containerization & Orchestration | **5/5** | Docker, Kubernetes, Helm (standardized Helm charts across 6 services) |\n| Infrastructure-as-Code | **4/4** | Terraform modules; direct ownership |\n| Financial Services / Payments Background | **5/5** | 6 years in payments (ACH, card settlement) at a payments company |\n| Observability Tooling | **2/2** | Grafana, Prometheus listed |\n| Mentoring / Technical Leadership | **1/1** | On-call rotation lead; incident retrospective ownership |\n\n**Preferred Subtotal: 25/25**\n\n---\n\n## Final Score\n\n| | |\n|--|--|\n| **Total Score** | **100/100** |\n| **Threshold to Advance** | 65/100 |\n\n---\n\n## Summary Judgment\n\nTrevor is an exceptionally strong match. He satisfies **every required qualification** and **every preferred qualification**, including domain-specific experience in payments infrastructure that directly mirrors the role's focus. The absence of a formal degree is explicitly accounted for by the JD and is superseded by nine years of directly relevant professional experience. No meaningful gaps were identified.\n\n**FINAL: ADVANCE**"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:59.266035+00:00",
+  "finished_utc": "2026-09-28T22:49:08.891656+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 405
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Years of Experience — Most Significant Gap**\nThe role requires **5+ years** of professional software engineering experience. Thornbury graduated in 2023 and shows approximately **1.5–2 years** of professional experience. Even accounting for any internships (none listed), she falls well short of the required threshold. This is a hard requirement, not a preference.\n\n2. **Seniority Level**\nHer current title is **Software Engineer II**, not a senior role. The depth of ownership described in her résumé (e.g., Kafka partitioning work was \"led by a senior engineer\"; she contributed) is consistent with a mid-level, not senior, profile.\n\n3. **Architecture and Design Ownership**\nThe role requires hands-on ownership of **service design and architecture discussions**. Her résumé reflects execution and contribution to existing systems, with limited evidence of end-to-end architectural ownership.\n\n4. **Mentorship**\nA preferred qualification is prior experience **mentoring engineers or leading small technical initiatives**. No such experience is listed.\n\n5. **Infrastructure-as-Code**\nTerraform is listed as only **(basic)**, which is a weak match for the IaC preferred qualification.\n\n6. **Observability**\nOnly Grafana is mentioned; no Datadog or Prometheus experience is noted.\n\n### Summary\n\nThe candidate has a genuinely strong technical profile for her experience level — relevant domain (payments), correct tech stack (Java, Kafka, AWS, Kubernetes), and a CS degree. However, the **years-of-experience gap (1.5–2 years vs. 5+ required)** is disqualifying for a *Senior* role as posted.\n\nFINAL: REJECT"
+}

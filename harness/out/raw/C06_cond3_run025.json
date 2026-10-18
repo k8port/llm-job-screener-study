@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:59:52.668151+00:00",
+  "finished_utc": "2026-09-28T22:00:09.312880+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 808,
+    "output_tokens": 805
+  },
+  "response": "## Screening Scorecard: Alan Brightwell\n\n### Required Qualifications (Pass/Fail + Notes)\n\n| Requirement | Score | Notes |\n|---|---|---|\n| 5+ years professional SWE experience | ✅ PASS | ~7 years total (2019–present) |\n| Java, Python, or comparable backend language | ✅ PASS | Java/Spring Boot, core strength |\n| RESTful API design & consumption | ✅ PASS | Explicit ownership of REST API design |\n| Relational databases & SQL | ✅ PASS | Oracle, SQL, PL/SQL, stored procedures |\n| Major cloud provider (AWS/Azure/GCP) | ❌ FAIL | No cloud experience mentioned; on-premise environment explicitly stated |\n| CI/CD pipelines & automated testing | ✅ PASS | Jenkins pipelines, JUnit; limited scope |\n| Bachelor's in CS/related or equivalent | ✅ PASS | B.S. Computer Engineering, Texas Tech |\n\n**Required: 6/7 — One hard miss (cloud)**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Score | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | ⚠️ PARTIAL | JMS listed in skills; not Kafka/SQS, but adjacent concept |\n| Docker / Kubernetes | ❌ ABSENT | No mention |\n| Infrastructure-as-code (Terraform, CloudFormation) | ❌ ABSENT | No mention |\n| Financial services / payments / regulated industry | ❌ WEAK | Manufacturing; not payments or regulated financial context |\n| Observability tooling (Datadog, Grafana, Prometheus) | ❌ ABSENT | No mention |\n| Mentoring / leading technical initiatives | ✅ STRONG | Leads code review for 6-person team, mentors 2 junior engineers |\n\n**Preferred: 1.5/6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating (1–5) | Notes |\n|---|---|---|\n| Backend engineering depth | 4 | Strong Java/Spring Boot track record |\n| Scalability & high-volume systems | 3 | High-volume batch; not distributed/cloud-native scale |\n| API design | 4 | Clear ownership and documentation practice |\n| Database proficiency | 4 | Deep Oracle/SQL expertise |\n| Cloud readiness | 1 | No demonstrable cloud experience — significant gap for this role |\n| Payments/fintech domain | 1 | No relevant domain background |\n| Observability & reliability | 2 | On-call experience; no modern tooling |\n| Team leadership & mentoring | 4 | Solid evidence |\n\n**Composite Core Competency Score: 23/40 (58%)**\n\n---\n\n### Summary Judgment\n\nAlan is a solid, experienced backend engineer with genuine strengths in Java, SQL, REST APIs, and team leadership. However, he presents **two significant gaps** for this specific role:\n\n1. **No cloud experience** — a stated *required* qualification; his background is explicitly on-premise\n2. **No payments, fintech, or regulated-industry experience** — the role sits on a Payments Platform serving enterprise clients\n\nThe cloud gap in particular is a hard requirement miss that would require substantial ramp-up in a role that demands immediate contribution to a production payments platform.\n\n---\n\nFINAL: REJECT"
+}

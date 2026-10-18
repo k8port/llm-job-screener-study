@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:17:21.242770+00:00",
+  "finished_utc": "2026-09-28T22:17:32.833186+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 533
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Pass/Fail or Weighted)\n\n| Requirement | Weight | Assessment | Score |\n|---|---|---|---|\n| 5+ years professional software engineering experience | High | ~5 years total, but in **QA/test engineering**, not software development. Resume explicitly frames as \"transitioning toward software development.\" | 1/3 |\n| Strong proficiency in Java, Python, or comparable backend language | High | Java used for test automation (Selenium, REST Assured); not backend service development. Basic Python scripting only. | 1/3 |\n| Experience designing and consuming RESTful APIs | Medium | Tests REST APIs but no evidence of **designing or building** them | 1/3 |\n| Relational databases / SQL | Medium | SQL listed as a skill; no elaboration on depth or usage | 1/2 |\n| Hands-on experience with major cloud provider | High | **Not mentioned anywhere** | 0/3 |\n| CI/CD pipelines & automated testing | Medium | Jenkins pipeline maintenance ✓; automated testing ✓ | 2/2 |\n| Bachelor's degree or equivalent | Low | B.S. Information Technology ✓ | 1/1 |\n\n**Required Score: 7/17**\n\n---\n\n### Preferred Qualifications\n\n| Preferred Item | Met? |\n|---|---|\n| Event-driven architecture / Kafka / SQS | No |\n| Docker / Kubernetes | No |\n| Infrastructure-as-code | No |\n| Financial services / payments background | No |\n| Observability tooling | No |\n| Mentoring / technical leadership | No |\n\n**Preferred Score: 0/6**\n\n---\n\n### Summary Assessment\n\nGrant has five years in the QA discipline with solid automated testing skills and Java familiarity in a test context. However, the role requires **backend service development** experience — designing scalable APIs, building distributed systems, cloud infrastructure — none of which are evidenced. The cloud gap alone is a significant disqualifier for a Senior Engineer role. His own summary acknowledges he is **transitioning** into development, which confirms he does not yet meet the seniority bar required.\n\n**Total Weighted Score: ~35% of threshold → Does not meet bar**\n\n---\n\nFINAL: REJECT"
+}

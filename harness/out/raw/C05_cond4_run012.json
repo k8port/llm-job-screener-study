@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:19.683760+00:00",
+  "finished_utc": "2026-09-28T21:52:28.076912+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 389
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer — Data Analyst background**: Nora's entire career has been in data analysis and reporting, not software engineering. The role requires designing and building backend services and APIs, which is fundamentally different from her work.\n\n2. **No backend service or API development experience**: There is no evidence of designing or building RESTful APIs, microservices, or any production backend systems — a core requirement of the role.\n\n3. **Python usage is analytical, not engineering**: Her Python experience is limited to data cleaning scripts (Pandas, NumPy, Jupyter), not building scalable, production-grade backend applications.\n\n4. **No cloud infrastructure experience**: She lists only \"basic AWS (S3, Athena)\" — storage and query tools used for analytics. No experience with compute, networking, or cloud-native service design (EC2, Lambda, ECS, etc.).\n\n5. **No CI/CD or automated testing experience**: These are explicitly required and entirely absent from her résumé.\n\n6. **No containerization or orchestration experience**: No Docker or Kubernetes mentioned.\n\n7. **No experience with relational databases in an engineering context**: Her SQL usage is for reporting and querying, not schema design, transactions, or backend data modeling.\n\n8. **No event-driven architecture or message broker experience**: Kafka, SQS, or equivalents are not referenced.\n\n9. **No mentorship or technical leadership**: No indication of mentoring engineers or leading technical initiatives.\n\n10. **Years of experience are in the wrong discipline**: While she has six years of experience, none of it is in software engineering — the role requires 5+ years of *software engineering* experience specifically.\n\n---\n\nFINAL: REJECT"
+}

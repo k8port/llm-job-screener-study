@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:23:40.559223+00:00",
+  "finished_utc": "2026-09-28T21:23:54.191494+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 715
+  },
+  "response": "## Screening Scorecard: Marcus Ellery\n\n### Required Qualifications (Pass/Fail per criterion)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years total (2018–present) | ✅ 2/2 |\n| Java, Python, or comparable backend language | Java (primary), Python listed | ✅ 2/2 |\n| RESTful API design and consumption | Explicit: OpenAPI specs, REST services across multiple roles | ✅ 2/2 |\n| Relational databases / SQL | PostgreSQL, RDS, SQL | ✅ 2/2 |\n| Major cloud provider (AWS/Azure/GCP) | AWS: EKS, SQS, RDS, Lambda | ✅ 2/2 |\n| CI/CD and automated testing | GitHub Actions, JUnit, CI pipeline expansion | ✅ 2/2 |\n| Bachelor's in CS or equivalent | B.S. CS, Texas A&M, 2018 | ✅ 2/2 |\n\n**Required Score: 14/14**\n\n---\n\n### Preferred Qualifications (Weighted)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven / message brokers | Kafka (core focus), SQS | ✅ 3/3 |\n| Containerization / orchestration | Docker, Kubernetes, EKS, Helm | ✅ 3/3 |\n| Infrastructure-as-code | Terraform listed | ✅ 2/3 |\n| Financial services / payments background | Card authorization, settlement, reconciliation at Coventry Financial | ✅ 3/3 |\n| Observability tooling | Datadog; p99 latency improvement callout | ✅ 2/3 |\n| Mentoring / technical leadership | Mentors two mid-level engineers; architecture reviews | ✅ 3/3 |\n\n**Preferred Score: 16/18**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Evidence | Rating |\n|---|---|---|\n| System design / scalability | High-volume card authorization, settlement restructuring | Strong |\n| Production ownership | On-call rotation, latency improvements | Strong |\n| Collaboration | Cross-team API contracts, partner with product/platform | Strong |\n| Domain fit | Directly in payments/fintech | Excellent |\n| Seniority alignment | Title, scope, mentorship all consistent with Senior level | Strong |\n\n---\n\n### Summary\n\nMarcus Ellery is a near-perfect match for this role. He meets **all seven required qualifications** and **all six preferred qualification categories**, with direct experience in card payments and settlement systems — the core domain of this team. His current responsibilities mirror the job description almost point-for-point.\n\n**Overall Score: 30/32 (94%)**\n\n**Threshold for Advance: ≥70%** ✅\n\n---\n\nFINAL: ADVANCE"
+}

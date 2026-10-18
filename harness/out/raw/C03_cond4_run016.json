@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:35:09.135364+00:00",
+  "finished_utc": "2026-09-28T21:35:19.637419+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 450
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-First Profile, Not Backend**\nThe candidate self-identifies as \"frontend-focused\" and the bulk of their experience is in React, TypeScript, and UI development. The role requires a backend-oriented engineer building high-volume transaction processing services. The Node.js/Express work is secondary and supportive of frontend interfaces, not core backend platform engineering.\n\n**2. No Java or Python Experience**\nThe job requires strong proficiency in Java, Python, or a comparable backend language. The candidate's stack is JavaScript/TypeScript/Node.js. While Node.js is a backend runtime, it is not listed among the required languages and the candidate's use of it is limited to lightweight aggregation/session layers — not the kind of high-throughput, enterprise backend work described.\n\n**3. No Payments, Fintech, or Regulated Industry Experience**\nThe role is on a Payments Platform team. The candidate's background is entirely in retail/media web development with no exposure to financial services, payments processing, or regulated environments.\n\n**4. Limited Cloud Experience**\nAWS experience is limited to S3, CloudFront, and Lambda — primarily storage and CDN/serverless edge services, not the compute, networking, or data services typical of backend platform engineering.\n\n**5. No Event-Driven Architecture or Message Brokers**\nNo mention of Kafka, SQS, or any message broker experience.\n\n**6. No Container Orchestration or Infrastructure-as-Code**\nDocker is listed but Kubernetes, Terraform, and CloudFormation are absent.\n\n**7. Degree Mismatch**\nHolds a B.A. in Graphic Design, not Computer Science or a related technical field. While the JD allows for equivalent practical experience, the overall profile does not compensate strongly enough given the other gaps.\n\n**8. No Observability Tooling**\nNo mention of Datadog, Grafana, Prometheus, or similar tools.\n\n---\n\nFINAL: REJECT"
+}

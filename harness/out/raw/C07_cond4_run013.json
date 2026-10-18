@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:53.744395+00:00",
+  "finished_utc": "2026-09-28T22:10:05.218394+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 447
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience**: The job lists Java as the primary preferred backend language, with Python as an alternative. While Simone does use Python, the team is a Payments Platform team likely with a Java-heavy stack, and there is zero mention of Java in the résumé. This may limit her immediate effectiveness.\n\n2. **Data engineering background, not backend/payments engineering**: Simone's entire career is framed around data pipelines, ETL, and data platforms — not building transactional backend services or payment processing systems. The role explicitly requires designing and building \"backend services that process high-volume transactions,\" which is a meaningfully different domain.\n\n3. **No financial services or payments industry experience**: The job lists a background in financial services or payments as a preferred qualification. Simone's experience spans analytics, healthcare reporting, and data platforms — none of which is payments or a closely regulated financial context.\n\n4. **REST API experience is secondary/limited**: While she does design APIs that \"expose pipeline outputs,\" this is a supporting function of her data work, not a core competency. The role requires someone who primarily *builds and maintains* scalable backend APIs as a central responsibility.\n\n5. **No explicit mention of relational database design beyond ETL use**: PostgreSQL and Snowflake appear in an ETL/analytics context rather than transactional, OLTP backend system design.\n\n---\n\nDespite these gaps, Simone meets or exceeds many required and preferred qualifications: 8 years of experience, strong Python and SQL, REST API design, cloud (AWS), CI/CD, Kafka, Docker/Kubernetes, Terraform, Prometheus/Grafana, and on-call experience. The gaps are notable but not disqualifying for a strong hybrid-background candidate.\n\nHowever, given the lack of payments/backend-specific experience and no Java, and the role being specifically on a **Payments Platform** team requiring backend transactional service design, the fit is insufficient.\n\nFINAL: REJECT"
+}

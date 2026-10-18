@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:49:16.489139+00:00",
+  "finished_utc": "2026-09-28T22:49:28.904303+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 635
+  },
+  "response": "# Candidate Screening: Elise Thornbury\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Notes |\n|-----------|--------|-------------|-------|\n| **Years of experience (5+ required)** | High | 1/3 | ~3.5 years total; significantly below the 5-year requirement |\n| **Backend language proficiency (Java/Python)** | High | 3/3 | Java/Spring Boot is primary stack; Python listed in skills |\n| **RESTful API design & consumption** | High | 3/3 | Explicit design, documentation, and partner-facing REST work |\n| **Relational databases & SQL** | High | 3/3 | PostgreSQL on current and prior role |\n| **Cloud provider experience (AWS/Azure/GCP)** | High | 3/3 | AWS (EKS, SQS, RDS) — hands-on, not just familiarity |\n| **CI/CD & automated testing** | High | 3/3 | GitHub Actions, JUnit, Spring Test |\n| **Bachelor's degree (CS or related)** | High | 3/3 | B.S. CS, SMU 2023 |\n| **Event-driven / message brokers** | Medium | 2/3 | Kafka consumer work; partitioning led by senior engineer |\n| **Containerization & orchestration** | Medium | 3/3 | Docker, Kubernetes, EKS, Helm |\n| **Infrastructure-as-code** | Medium | 2/3 | Terraform listed as \"basic\" |\n| **Financial services / payments background** | Medium | 3/3 | Current role at a payments company |\n| **Observability tooling** | Low | 2/3 | Grafana listed; limited detail |\n| **Mentoring / technical leadership** | Low | 0/3 | No evidence of mentoring or leading initiatives |\n\n---\n\n## Summary Assessment\n\n**Strengths:** Elise's technical stack is nearly a perfect match — Java, Spring Boot, REST, PostgreSQL, AWS, Kafka, Docker/Kubernetes, and payments domain experience all align well with the role. She is clearly capable hands-on.\n\n**Critical Gap:** The role requires **5+ years** of professional experience. Elise has approximately **3.5 years** (2023–present), which represents a meaningful shortfall (~30% below the threshold). Additionally, there is no evidence of mentoring or senior-level technical ownership; her Kafka contribution is explicitly noted as supporting a senior engineer's initiative.\n\n**Preferred qualifications** are reasonably covered, but the experience gap is a required — not preferred — criterion.\n\n---\n\nFINAL: REJECT"
+}

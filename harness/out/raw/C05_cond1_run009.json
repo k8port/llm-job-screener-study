@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:48:19.433565+00:00",
+  "finished_utc": "2026-09-28T21:48:27.767563+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 343
+  },
+  "response": "## Evaluation\n\n**Role Requirements vs. Candidate Profile**\n\n**Required Qualifications:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional software engineering experience | 6 years of experience, but as a **data analyst**, not a software engineer | ❌ |\n| Strong proficiency in Java, Python, or comparable backend language | Python scripting (Pandas, data cleaning) — not backend service development | Partial |\n| Experience designing and consuming RESTful APIs | No mention of APIs anywhere on résumé | ❌ |\n| Experience with relational databases and SQL | Strong SQL skills across multiple roles | ✅ |\n| Hands-on experience with a major cloud provider | \"Basic AWS (S3, Athena)\" — surface-level, not backend/infra experience | Weak |\n| Experience with CI/CD pipelines and automated testing | No mention | ❌ |\n| Bachelor's degree in CS or related field | B.S. Statistics — adjacent but not CS | Borderline |\n\n**Assessment:**\n\nNora has solid analytical and SQL skills with relevant experience in a regulated industry (insurance/health). However, her experience is fundamentally in **data analysis and reporting**, not backend software engineering. There is no evidence of building APIs, backend services, cloud infrastructure, CI/CD pipelines, containerization, or software delivery. Her Python usage is for data manipulation, not service development. The gap between her profile and the role requirements is substantial.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:08:05.059899+00:00",
+  "finished_utc": "2026-09-28T22:08:17.590782+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 640
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Pass/Fail + Weight)\n\n| Requirement | Assessment | Score (0–2) |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years total (2018–present) ✅ | 2 |\n| Java, Python, or comparable backend language | Python throughout entire career ✅ | 2 |\n| RESTful API design & consumption | Explicit: \"Design REST APIs,\" contract documentation, versioning ✅ | 2 |\n| Relational databases & SQL | PostgreSQL, Snowflake, SQL listed; ETL into RDBMS ✅ | 2 |\n| Major cloud provider (AWS/Azure/GCP) | AWS: EKS, S3, Lambda, RDS ✅ | 2 |\n| CI/CD & automated testing | GitHub Actions CI, pytest, automated tests ✅ | 2 |\n| Bachelor's degree or equivalent | B.S. Information Systems, U of Arkansas ✅ | 2 |\n\n**Required score: 14/14**\n\n---\n\n### Preferred Qualifications (Weighted Bonus)\n\n| Preference | Assessment | Score (0–2) |\n|---|---|---|\n| Event-driven architecture / Kafka | Owns Kafka pipeline, 40M daily events ✅ | 2 |\n| Containerization & orchestration | Docker, Kubernetes (EKS) ✅ | 2 |\n| Infrastructure-as-code | Terraform ✅ | 2 |\n| Financial services / regulated industry | Healthcare adjacent (Corley); transaction data for enterprise ⚠️ Partial | 1 |\n| Observability tooling | Prometheus, Grafana, built observability layer ✅ | 2 |\n| Mentoring / technical leadership | Not explicitly mentioned ❌ | 0 |\n\n**Preferred score: 9/12**\n\n---\n\n### Core Competency Notes\n\n- **Seniority signal:** Strong — owns infrastructure, on-call, API contracts, and end-to-end service delivery\n- **Payments alignment:** Works with transaction data for enterprise clients; not a payments company per se, but highly adjacent\n- **Java gap:** Role lists Java as the first language; candidate is Python-only — acceptable given \"or comparable\" language clause\n- **Location:** Plano, TX — matches hybrid requirement\n\n---\n\n### Overall Assessment\n\nThe candidate meets **all required qualifications** with strong signal and exceeds on most preferred qualifications. The lack of explicit mentoring experience and the absence of a pure fintech/payments background are minor gaps, well offset by an exceptional match everywhere else.\n\nFINAL: ADVANCE"
+}

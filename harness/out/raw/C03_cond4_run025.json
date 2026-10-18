@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:35:38.893520+00:00",
+  "finished_utc": "2026-09-28T21:35:51.520586+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 518
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-Focused, Not Backend-Focused**\nThe candidate self-identifies as \"frontend-focused\" and their primary experience is in React/TypeScript UI development. The role requires a backend engineer building high-volume transaction processing services. Their Node.js/Express work is described as an \"aggregation layer\" supporting a frontend portal — not core backend systems engineering.\n\n**2. No Java or Python Proficiency**\nThe required qualifications specifically list Java, Python, or a comparable backend language. The candidate's stack is TypeScript/JavaScript/Node.js, which while capable, suggests no experience with the JVM or Python ecosystems that dominate payments/enterprise backend engineering.\n\n**3. No Payments, Financial Services, or Regulated Industry Experience**\nThe role is on a Payments Platform team processing high-volume enterprise transactions. The candidate's background is in retail/media web products with no exposure to financial systems, compliance requirements, or high-stakes transaction processing.\n\n**4. Cloud Experience Is Limited and Frontend-Oriented**\nAWS experience is limited to S3, CloudFront, and Lambda — primarily frontend/CDN services. No evidence of backend-relevant AWS services (e.g., ECS, RDS, SQS, EC2, API Gateway in a backend context).\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nKafka, SQS, and similar tools are listed as preferred qualifications and are common in payments platforms. No mention of any such experience.\n\n**6. No Kubernetes or Infrastructure-as-Code Experience**\nDocker is listed but no Kubernetes or Terraform/CloudFormation experience is evident.\n\n**7. Degree Is in Graphic Design, Not Computer Science or Related Field**\nThe job requires a CS degree or equivalent practical experience. While practical experience can substitute, the candidate's experience is predominantly frontend, weakening this alternative qualifier.\n\n**8. Observability Tooling Not Mentioned**\nNo mention of Datadog, Grafana, Prometheus, or similar tools required for production systems reliability.\n\n**9. Mentorship Is Frontend-Specific**\nMentoring experience exists but is scoped to frontend engineers and design-to-code reviews — not the backend/systems engineering mentorship the role calls for.\n\n---\n\nFINAL: REJECT"
+}

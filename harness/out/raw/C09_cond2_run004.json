@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:59.743436+00:00",
+  "finished_utc": "2026-09-28T22:23:10.930764+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 525
+  },
+  "response": "## Candidate Screening: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n1. **No Cloud Experience**: The candidate's résumé shows no evidence of working with any major cloud provider (AWS, Azure, or GCP). Cloud experience is a **required qualification** for this role.\n\n2. **Outdated Java Proficiency**: The candidate lists \"Java 8\" specifically, which is a version from 2014. There is no indication of experience with modern Java (11, 17, 21) or contemporary Java ecosystem frameworks (Spring Boot, Micronaut, Quarkus, etc.). The Java experience described (JSP, Servlets, WebSphere) reflects early-generation patterns.\n\n3. **No RESTful API Experience**: The résumé does not mention designing or consuming RESTful APIs — a **required qualification**. Web access tools described appear to be JSP/Servlet-based rather than REST-oriented.\n\n4. **No CI/CD Pipeline Experience**: Jenkins is listed as \"basic,\" and the overall CI/CD experience appears minimal. This is a **required qualification**.\n\n5. **No Cloud-Native or Containerization Experience**: No Docker, Kubernetes, or similar technologies are mentioned.\n\n6. **No Event-Driven Architecture or Message Broker Experience**: Kafka, SQS, or equivalents are absent.\n\n7. **No Observability Tooling Experience**: Datadog, Grafana, Prometheus, or equivalents are not mentioned.\n\n8. **No Infrastructure-as-Code Experience**: Terraform or CloudFormation are absent.\n\n9. **Primarily Mainframe-Oriented Background**: The bulk of experience is in COBOL/JCL/z/OS, which, while valuable in legacy environments, does not translate to the modern cloud-native, microservices-based backend role described.\n\n10. **No Evidence of Mentoring or Technical Leadership**: Despite 16 years of experience, there is no mention of mentoring engineers or leading technical initiatives.\n\n### Summary\n\nRaymond meets the years-of-experience threshold and holds the required degree, and his financial services background is a genuine asset. However, he is missing **multiple required qualifications** — most critically cloud experience and REST API design — and virtually all preferred qualifications. The gap between his skill set and the role's technical requirements is substantial.\n\nFINAL: REJECT"
+}

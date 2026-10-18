@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:57.521140+00:00",
+  "finished_utc": "2026-09-28T22:41:07.022203+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 395
+  },
+  "response": "## Candidate Screening: Curtis Ballinger — Senior Software Engineer (Payments Platform)\n\n### Identified Weaknesses\n\n1. **No software engineering background.** Curtis is a systems administrator, not a software engineer. The résumé contains no evidence of designing, building, or maintaining backend services or APIs — the core function of this role.\n\n2. **No proficiency in required backend languages.** The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell (scripting/automation tools), not application development languages.\n\n3. **No RESTful API experience.** There is no mention of designing or consuming APIs of any kind.\n\n4. **SQL is only \"basic.\"** The role requires experience with relational databases and SQL; Curtis explicitly self-rates SQL as basic.\n\n5. **Cloud experience is infrastructure-only and limited.** While Curtis has Azure VM and networking experience, it is purely infrastructure administration — not application development or deployment on a cloud platform as expected in this role.\n\n6. **No CI/CD or automated testing experience.** Neither is mentioned anywhere on the résumé.\n\n7. **Docker is only \"basic.\"** Containerization is listed as a preferred qualification; Curtis notes only basic familiarity.\n\n8. **No experience with event-driven architecture, Kafka, observability tooling, or IaC.**\n\n9. **No engineering mentorship or technical leadership experience.**\n\n10. **Does not meet the years-of-experience bar in the relevant domain.** Nine years of experience is in IT infrastructure/sysadmin work, not software engineering.\n\n### Summary\n\nCurtis lacks virtually all required qualifications for this role. The gap between systems administration and senior backend software engineering is fundamental, not incremental.\n\nFINAL: REJECT"
+}

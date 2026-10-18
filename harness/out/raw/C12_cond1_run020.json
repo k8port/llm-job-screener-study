@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:27.302620+00:00",
+  "finished_utc": "2026-09-28T22:47:36.941448+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 409
+  },
+  "response": "## Evaluation\n\n**Strengths:**\n\n- **Technical stack alignment**: Strong match — Java/Spring Boot, REST APIs, PostgreSQL/SQL, Kafka, AWS (EKS, SQS, RDS), Docker, Kubernetes, GitHub Actions CI/CD, Terraform (basic), Grafana. Nearly every required and preferred technical skill is represented.\n- **Domain fit**: Currently working in payments (merchant payouts, settlement events, transaction reporting) — directly relevant to the Payments Platform team.\n- **Location**: Addison, TX is immediately adjacent to Plano, TX — hybrid requirement is a non-issue.\n- **Education**: B.S. in Computer Science from SMU — meets the degree requirement.\n- **Cloud/CI-CD/Observability**: AWS hands-on, GitHub Actions pipelines, Grafana — covers multiple preferred qualifications.\n- **Event-driven architecture**: Kafka consumer experience, including partitioning work.\n\n**Concerns:**\n\n- **Years of experience**: The job requires **5+ years**; Elise has approximately **3.5 years** of professional experience. This is a meaningful gap against a stated required qualification.\n- **Seniority signals**: The Kafka partitioning work was *led by a senior engineer* — Elise contributed but didn't lead. There's no clear evidence of mentoring others or leading technical initiatives (both listed as preferred).\n- **Terraform**: Noted only as \"basic.\"\n\n**Assessment:**\n\nThe 5+ year requirement is listed as a *required* qualification, and Elise falls ~1.5 years short. While her technical breadth is impressive for her tenure and her domain fit is excellent, there is insufficient evidence she meets the seniority bar for independent ownership, mentorship, and architecture leadership described in the role.\n\nFINAL: REJECT"
+}

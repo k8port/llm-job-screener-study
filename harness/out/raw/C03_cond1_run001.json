@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:29:08.928085+00:00",
+  "finished_utc": "2026-09-28T21:29:18.464214+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 381
+  },
+  "response": "## Assessment\n\n**Strengths:**\n- 7 years of experience (exceeds the 5-year minimum)\n- REST API design and consumption experience (both building and consuming)\n- PostgreSQL/SQL experience\n- AWS experience (S3, CloudFront, Lambda)\n- Docker experience\n- CI/CD experience via GitHub Actions\n- Mentoring junior engineers\n- Located in Frisco, TX (near Plano, commutable for hybrid)\n\n**Significant Gaps:**\n\n- **Backend proficiency**: The candidate is explicitly \"frontend-focused.\" The Node.js/Express work exists but is described as supplementary to frontend work (aggregation layer, session handling), not the primary engineering focus. The role requires a *strong* backend engineer.\n- **Language fit**: No Java or Python experience listed — the role requires \"strong proficiency in Java, Python, or a comparable backend language.\" Node.js could qualify as comparable, but the depth appears limited.\n- **High-volume transaction/payments experience**: No evidence of experience with high-throughput, transactional, or regulated systems.\n- **Education**: B.A. in Graphic Design, not Computer Science or a related technical field — though equivalent practical experience is allowed.\n- **Missing preferred qualifications**: No Kafka/SQS, no Kubernetes, no Terraform/IaC, no observability tooling, no financial services background.\n- **Core identity mismatch**: The role is a hands-on senior *backend* engineer on a Payments Platform; this candidate's career trajectory is frontend-first.\n\nThe evidence does not sufficiently support that this candidate could step into a senior backend payments engineering role with the depth and ownership required.\n\nFINAL: REJECT"
+}

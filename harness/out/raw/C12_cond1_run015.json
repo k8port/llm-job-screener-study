@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:13.018746+00:00",
+  "finished_utc": "2026-09-28T22:47:22.443642+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 407
+  },
+  "response": "## Evaluation\n\n### Strengths\n\n- **Backend engineering**: Strong Java/Spring Boot experience, directly matching the required backend language proficiency\n- **REST APIs**: Explicitly designs and documents REST endpoints consumed by internal and partner teams\n- **Relational databases**: PostgreSQL and SQL experience confirmed\n- **Cloud (AWS)**: Hands-on with EKS, SQS, RDS — solid AWS footprint\n- **CI/CD**: GitHub Actions pipelines in production use\n- **Automated testing**: JUnit and Spring Test coverage\n- **Education**: B.S. Computer Science from SMU (2023)\n- **Payments domain**: Currently working at a payments company (Larkspur Pay), directly relevant to the financial services preferred qualification\n- **Preferred qualifications**: Kafka (event-driven), Docker/Kubernetes/EKS (containerization/orchestration), Terraform (basic), Grafana (observability) — hits nearly all preferred criteria\n- **On-call rotation**: Explicitly mentioned\n\n### Concerns\n\n- **Years of experience**: The JD requires 5+ years; Elise has approximately 3.5 years. This is a meaningful gap against a hard requirement.\n- **Seniority**: Currently a \"Software Engineer II,\" not yet at a senior level. The Kafka partitioning work was *led by a senior engineer*, suggesting she is still developing in that dimension.\n- **Mentorship**: No evidence of mentoring junior engineers or leading technical initiatives.\n\n### Conclusion\n\nThe experience gap (3.5 vs. 5+ years required) and the absence of demonstrated senior-level ownership or mentorship are notable shortfalls against stated requirements. The technical breadth is impressive for her tenure, but the role demands proven seniority that is not yet sufficiently evidenced.\n\nFINAL: REJECT"
+}

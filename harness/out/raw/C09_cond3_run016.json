@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:25:15.315141+00:00",
+  "finished_utc": "2026-09-28T22:25:29.052624+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 755
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 16 years total experience — clearly meets threshold | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Java 8 listed, but dated (no modern Java, no Python, no Go, etc.); COBOL is primary stack | 4/10 |\n| Experience designing and consuming RESTful APIs | Java 8 services provide \"web access\" but no explicit REST API design mentioned; JSP/Servlets suggest older web paradigms | 2/10 |\n| Relational databases and SQL | DB2, Oracle, SQL query writing — solid evidence | 9/10 |\n| Hands-on experience with major cloud provider (AWS, Azure, GCP) | **Not mentioned anywhere** | 0/10 |\n| CI/CD pipelines and automated testing | Jenkins listed as \"basic\"; Subversion/SVN primary; no automated testing evidence | 2/10 |\n| Bachelor's degree in CS or related | B.S. Computer Science, UT Arlington 2010 | 10/10 |\n\n**Required Qualifications Total: 37/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers (Kafka, SQS) | Not mentioned | 0/5 |\n| Containerization/orchestration (Docker, Kubernetes) | Not mentioned | 0/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | Not mentioned | 0/5 |\n| Financial services / regulated industry background | Strong — trust accounting, settlement, audit compliance | 5/5 |\n| Observability tooling (Datadog, Grafana, Prometheus) | Not mentioned | 0/5 |\n| Mentoring / leading technical initiatives | Not mentioned explicitly | 0/5 |\n\n**Preferred Qualifications Total: 5/30**\n\n---\n\n### Overall Score Summary\n\n| Category | Score | Max |\n|---|---|---|\n| Required Qualifications | 37 | 70 |\n| Preferred Qualifications | 5 | 30 |\n| **Total** | **42** | **100** |\n\n---\n\n### Key Observations\n\n**Strengths:** Deep regulated financial services experience, strong SQL/database skills, long tenure, CS degree.\n\n**Critical Gaps:**\n- **Zero cloud experience** (AWS/Azure/GCP) — a hard required qualification for a cloud-native payments platform\n- **No REST API design experience** evident\n- **No CI/CD, testing, or modern DevOps practices**\n- Java stack is dated (Java 8, JSP/Servlets); no modern backend ecosystem exposure\n- No exposure to any preferred technical stack items (Kafka, Docker, Kubernetes, Terraform, observability tools)\n\nThe candidate's background is predominantly mainframe/legacy COBOL, which is misaligned with the role's cloud-native, API-first, modern backend engineering expectations.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:04:24.530619+00:00",
+  "finished_utc": "2026-09-28T22:04:32.369466+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 409
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Check:**\n\n- **5+ years professional engineering experience** ✅ — 8 years total (2018–present)\n- **Strong proficiency in Java, Python, or comparable backend language** ✅ — Python is a primary skill throughout career\n- **Experience designing and consuming RESTful APIs** ✅ — Explicitly designs REST APIs and maintains contract documentation\n- **Relational databases and SQL** ✅ — PostgreSQL, Snowflake, SQL across multiple roles\n- **Hands-on experience with major cloud provider** ✅ — AWS (EKS, S3, Lambda, RDS)\n- **CI/CD pipelines and automated testing** ✅ — GitHub Actions, pytest\n- **Bachelor's degree or equivalent** ✅ — B.S. Information Systems\n\n**Preferred Qualifications Check:**\n\n- **Event-driven architecture / message brokers** ✅ — Kafka (40M daily events)\n- **Containerization and orchestration** ✅ — Docker, Kubernetes/EKS\n- **Infrastructure-as-code** ✅ — Terraform\n- **Observability tooling** ✅ — Prometheus, Grafana, on-call experience\n- **Mentoring / technical leadership** — Not explicitly mentioned; gap\n- **Financial services / regulated industry** — Healthcare adjacent (Corley Systems), transaction data for enterprise clients; partial credit\n\n**Summary:** Simone meets virtually all required qualifications and nearly all preferred qualifications. The work on high-volume transaction data, Kafka streaming, REST APIs, cloud infrastructure, and observability maps directly to the role's responsibilities. The primary gap is explicit mentoring experience, which is a preferred (not required) qualification.\n\nFINAL: ADVANCE"
+}

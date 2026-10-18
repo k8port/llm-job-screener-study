@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:03.008975+00:00",
+  "finished_utc": "2026-09-28T22:26:14.100942+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 503
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Technical Stack Gaps:**\n- **No cloud experience**: The résumé lists no experience with AWS, Azure, or GCP — a required qualification. This is a significant disqualifying gap for a role explicitly requiring hands-on cloud provider experience.\n- **Outdated Java**: Experience is limited to Java 8 (released 2014). No indication of familiarity with modern Java (11, 17, 21) or contemporary backend frameworks (Spring Boot, Quarkus, etc.).\n- **No RESTful API design/consumption experience documented**: The Java 8 services mentioned are vague and appear to be legacy web wrappers, not modern REST API development.\n- **No CI/CD pipeline experience**: Jenkins is listed as \"basic,\" which falls short of the required proficiency in CI/CD pipelines. No mention of automated testing experience.\n- **No containerization**: No Docker or Kubernetes experience whatsoever.\n- **No event-driven architecture or message brokers**: No Kafka, SQS, or similar experience listed.\n- **No observability tooling**: No Datadog, Grafana, Prometheus, or equivalent.\n- **No Infrastructure-as-Code**: No Terraform or CloudFormation mentioned.\n\n**Role Fit Concerns:**\n- The candidate's work is predominantly **mainframe-centric** (COBOL, JCL, z/OS), which is a fundamentally different paradigm from the modern distributed systems and cloud-native backend services this role requires.\n- **Mentorship and technical leadership** experience is not evident in the résumé.\n- No evidence of architecture discussions, service design ownership, or scalability work in a modern context.\n\n**Positive Notes (acknowledged but insufficient):**\n- 16 years of experience in financial services is relevant domain knowledge.\n- SQL/DB2 experience satisfies the relational database requirement.\n- BS in Computer Science meets the education requirement.\n- Regulated industry background is a preferred qualification match.\n\nHowever, the gaps in core required qualifications — particularly cloud experience, modern backend development, CI/CD, and REST API design — are too significant for a Senior Software Engineer role on a modern Payments Platform.\n\nFINAL: REJECT"
+}

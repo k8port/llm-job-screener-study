@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:22:18.245874+00:00",
+  "finished_utc": "2026-09-28T21:22:29.582760+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 417
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Potential Weaknesses\n\n1. **Limited breadth of cloud provider exposure**: Marcus's experience appears concentrated on AWS (EKS, SQS, RDS, Lambda). While AWS is a major cloud provider and satisfies the requirement, there is no cross-cloud exposure. This is a minor concern given the role only requires one major provider.\n\n2. **Python listed as a skill but not demonstrated in experience**: The résumé lists Python in the Skills section but no roles or projects describe actual Python usage. Since Java is clearly the primary language and the requirement is met, this is a minor inconsistency rather than a gap — but Python depth is unverified.\n\n3. **Infrastructure-as-code depth unclear**: Terraform is listed in Skills but no specific IaC projects or ownership are described in the work history. The depth of this skill cannot be confirmed from the résumé alone.\n\n4. **Mentorship scale is modest**: Marcus mentored two mid-level engineers, which fulfills the preferred qualification, though the scope is on the smaller end for a \"Senior\" role at scale.\n\n5. **No explicit CI/CD pipeline ownership described**: The résumé mentions extending a CI pipeline (2019–2022) but lacks a strong, recent, detailed example of CI/CD ownership — though GitHub Actions is listed in Skills.\n\n### Summary\n\nThe weaknesses identified are minor and largely relate to unverified depth on secondary preferred qualifications (Python, Terraform, CI/CD at scale). The core required qualifications are strongly met: 8 years of experience, Java proficiency, RESTful API design, PostgreSQL/SQL, AWS, Kafka, Docker/Kubernetes, automated testing, and a relevant CS degree. His financial services background, event-driven architecture experience, and Datadog usage align closely with both required and preferred qualifications.\n\nFINAL: ADVANCE"
+}

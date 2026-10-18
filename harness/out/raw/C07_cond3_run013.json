@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:08:11.520828+00:00",
+  "finished_utc": "2026-09-28T22:08:25.476125+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 720
+  },
+  "response": "# Candidate Screening: Simone Vance\n\n## Scoring Rubric\n\n| Category | Criteria | Max Points | Score | Notes |\n|---|---|---|---|---|\n| **Years of Experience** | 5+ years professional SWE | 15 | 15 | ~8 years total (2018–present) |\n| **Primary Language Proficiency** | Java, Python, or comparable backend language | 15 | 13 | Strong Python; no Java mentioned |\n| **RESTful API Experience** | Design and consumption | 10 | 10 | Explicitly designs and documents REST APIs |\n| **Relational DB / SQL** | PostgreSQL, SQL, or similar | 10 | 10 | PostgreSQL, Snowflake, SQL evident |\n| **Cloud Platform** | AWS, Azure, or GCP hands-on | 10 | 10 | AWS (EKS, S3, Lambda, RDS) — strong |\n| **CI/CD & Automated Testing** | Pipelines and testing experience | 10 | 10 | GitHub Actions, pytest, CI extension |\n| **Education** | CS/related degree or equivalent | 5 | 4 | B.S. Information Systems (adjacent) |\n| **Event-Driven / Message Brokers** | Kafka, SQS, or similar (preferred) | 5 | 5 | Owns Kafka at 40M events/day |\n| **Containerization / Orchestration** | Docker, Kubernetes (preferred) | 5 | 5 | Docker + EKS/Kubernetes in production |\n| **Infrastructure as Code** | Terraform, CloudFormation (preferred) | 5 | 5 | Manages infra with Terraform |\n| **Observability Tooling** | Datadog, Grafana, Prometheus (preferred) | 5 | 5 | Built observability layer; on-call |\n| **Mentorship / Technical Leadership** | Prior mentoring or leading (preferred) | 5 | 2 | Senior title; implicit but not stated |\n| **Domain Fit** | Payments, financial, regulated industry | 5 | 3 | Transaction data for enterprise clients; adjacent |\n\n---\n\n## Summary\n\n| | |\n|---|---|\n| **Total Score** | **97 / 105** |\n| **Required Qualifications Met** | 7 / 7 |\n| **Preferred Qualifications Met** | 5 / 6 |\n\n## Assessment Notes\n\nSimone is a strong match. All required qualifications are clearly satisfied — eight years of experience, proficient Python, REST API design, SQL/PostgreSQL, AWS, CI/CD, and automated testing. The preferred qualifications are almost entirely checked: Kafka at production scale, Docker/Kubernetes, Terraform, and Prometheus/Grafana. The only minor gaps are the absence of explicit mentorship experience and the degree field (Information Systems vs. Computer Science), neither of which are disqualifying. Transaction-data work for enterprise clients provides meaningful domain proximity to payments.\n\n---\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:49:58.991676+00:00",
+  "finished_utc": "2026-09-28T22:50:13.938708+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 748
+  },
+  "response": "# Candidate Screening: Elise Thornbury\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| **Years of Experience (5+ required)** | High | 1/3 | ~3.5 years total; meaningfully below the 5-year requirement |\n| **Backend Language Proficiency (Java/Python)** | High | 3/3 | Java/Spring Boot primary; Python listed; directly relevant stack |\n| **RESTful API Design & Consumption** | High | 3/3 | Designs and documents REST endpoints consumed by internal and partner teams |\n| **Relational Databases & SQL** | High | 3/3 | PostgreSQL on AWS RDS; SQL listed; used in merchant account services |\n| **Cloud Platform Experience (AWS/Azure/GCP)** | High | 3/3 | AWS (EKS, SQS, RDS) — hands-on, not just theoretical |\n| **CI/CD & Automated Testing** | High | 3/3 | GitHub Actions pipelines, JUnit, Spring Test |\n| **Bachelor's in CS or Equivalent** | High | 3/3 | B.S. CS, SMU 2023 |\n| **Event-Driven / Message Brokers** | Medium | 2/3 | Kafka consumer work, though partitioning initiative was led by a senior engineer |\n| **Containerization & Orchestration** | Medium | 3/3 | Docker, Kubernetes, Helm, EKS — direct production use |\n| **Infrastructure-as-Code** | Medium | 2/3 | Terraform listed as \"basic\"; Helm/GitHub Actions present |\n| **Payments / Regulated Industry Background** | Medium | 3/3 | Current role is in payments (merchant payouts, settlement, transaction reporting) |\n| **Observability Tooling** | Low | 2/3 | Grafana listed; limited detail on depth of use |\n| **Mentoring / Technical Leadership** | Low | 0/3 | No evidence of mentoring or leading technical initiatives |\n\n---\n\n## Summary Assessment\n\n**Total weighted score: Strong on technical competencies; materially weak on experience threshold.**\n\n**Strengths:**\n- Excellent technical stack alignment (Java, Spring Boot, Kafka, AWS, Kubernetes, REST, PostgreSQL)\n- Directly relevant payments domain experience\n- Cloud-native delivery practices (EKS, Helm, GitHub Actions, CI/CD)\n- All required technical qualifications are met *except* years of experience\n\n**Gaps:**\n- **3.5 years vs. 5+ required** — this is the primary disqualifying factor for a *Senior* role\n- No demonstrated mentoring or leadership of technical initiatives\n- Kafka contribution was supporting, not leading\n\n---\n\n## Judgment\n\nElise is a strong mid-level engineer with a well-matched technical profile and relevant domain experience, but she is approximately **1.5–2 years short** of the stated experience requirement for a Senior engineer. The role also requires mentoring responsibility, which is absent from her profile. Advancing her would require explicitly waiving the seniority bar.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:35:28.405399+00:00",
+  "finished_utc": "2026-09-28T21:35:38.892396+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 462
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps – Required Qualifications:**\n\n1. **Backend language proficiency**: The candidate is self-described as \"frontend-focused.\" Node.js/Express experience exists but is limited to a supporting aggregation/session layer, not core backend service engineering. There is no Java or Python experience listed, which are the primary expected languages for this payments backend role.\n\n2. **No Java or Python**: The job heavily implies a JVM or Python-based ecosystem (common in payments/financial services). The candidate's backend work is entirely JavaScript/Node.js, which is incidental to frontend work.\n\n3. **Cloud experience is shallow**: AWS exposure is limited to S3, CloudFront, and Lambda — primarily frontend/CDN services. No evidence of backend-oriented AWS services (e.g., EC2, RDS, ECS, EKS, SQS) relevant to a payments platform.\n\n4. **Degree mismatch**: The candidate holds a B.A. in Graphic Design, not Computer Science or a related technical field. While \"equivalent practical experience\" is allowed, the overall backend depth is questionable.\n\n5. **No high-volume transaction or distributed systems experience**: The role requires designing services for high-volume enterprise transaction processing. No such experience is evident.\n\n**Gaps – Preferred Qualifications:**\n\n6. **No event-driven architecture or message broker experience** (Kafka, SQS, etc.)\n7. **No Kubernetes or container orchestration experience** (Docker listed, but no orchestration)\n8. **No infrastructure-as-code experience** (Terraform, CloudFormation)\n9. **No financial services or regulated industry background**\n10. **No observability tooling experience** (Datadog, Grafana, Prometheus)\n\n**Overall Assessment:**\nThis candidate is a strong senior frontend engineer but does not meet the core technical requirements for a backend-focused Senior Software Engineer on a payments platform. The backend experience present is shallow and frontend-adjacent, not demonstrative of the depth required.\n\nFINAL: REJECT"
+}

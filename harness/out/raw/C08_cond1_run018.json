@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:14.246133+00:00",
+  "finished_utc": "2026-09-28T22:14:22.505670+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 363
+  },
+  "response": "## Assessment: Grant Pemberton for Senior Software Engineer, Payments Platform\n\n### Strengths\n\n- **5 years of experience** in a technical software role, meeting the minimum threshold\n- **Java proficiency** demonstrated through test automation work\n- **REST API experience** — has written API-level tests and validated response contracts\n- **SQL** listed as a skill\n- **CI/CD experience** via Jenkins pipeline maintenance\n- **Bachelor's degree** in a related field (Information Technology)\n- Located in Garland, TX — compatible with Plano, TX hybrid arrangement\n\n### Significant Gaps\n\n- **No software development experience**: The candidate explicitly self-identifies as \"transitioning toward software development.\" All professional experience is in QA/testing, not building production backend services\n- **No cloud experience**: No mention of AWS, Azure, or GCP — a required qualification\n- **No database design or backend service ownership**: Writing tests against APIs is fundamentally different from designing and building them\n- **No architectural experience**: No evidence of participating in service design, system architecture, or owning technical deliverables as a developer\n- **Preferred qualifications largely unmet**: No Kafka/messaging, Docker/Kubernetes, Terraform, observability tooling, or fintech background\n- **Mentoring role**: No evidence of mentoring other engineers\n\n### Conclusion\n\nThe candidate's background is in quality engineering, not software development. While there is some technical overlap (Java, SQL, CI/CD), there is insufficient evidence that Grant could independently design and build scalable backend services, own production systems, or mentor engineers — all core requirements of this senior role.\n\nFINAL: REJECT"
+}

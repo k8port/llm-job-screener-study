@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:40.038662+00:00",
+  "finished_utc": "2026-09-28T21:50:54.237551+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 702
+  },
+  "response": "## Screening Scorecard: Nora Kessler\n\n### Required Qualifications\n\n| Criterion | Weight | Assessment | Score (0–3) |\n|---|---|---|---|\n| 5+ years professional software engineering experience | High | 6 years of experience, but in **data analysis**, not software engineering. No backend service development evident. | 1 |\n| Strong proficiency in Java, Python, or comparable backend language | High | Python used for scripting/data cleaning (Pandas, NumPy), not backend service development. No Java. | 1 |\n| Experience designing and consuming RESTful APIs | High | **Not mentioned anywhere** on résumé. | 0 |\n| Relational databases and SQL | Medium | Strong SQL skills (Snowflake, SQL Server). Meets this criterion. | 3 |\n| Hands-on cloud provider experience (AWS, Azure, GCP) | Medium | \"Basic AWS (S3, Athena)\" — very limited exposure, not hands-on engineering level. | 1 |\n| CI/CD pipelines and automated testing | Medium | **Not mentioned.** | 0 |\n| Bachelor's degree in CS or related field / equivalent experience | Low | B.S. Statistics — adjacent but not CS/engineering. Reasonable equivalent. | 2 |\n\n**Required Qualifications Total: 8 / 21**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Assessment | Score (0–3) |\n|---|---|---|\n| Event-driven architecture / message brokers | Not mentioned | 0 |\n| Docker / Kubernetes | Not mentioned | 0 |\n| Infrastructure-as-code | Not mentioned | 0 |\n| Financial services / regulated industry background | Wexford Insurance and Cadence Health Partners — relevant domain exposure | 2 |\n| Observability tooling | Not mentioned | 0 |\n| Mentoring / leading technical initiatives | No mention of mentoring engineers | 0 |\n\n**Preferred Qualifications Total: 2 / 18**\n\n---\n\n### Summary Assessment\n\n| Category | Score |\n|---|---|\n| Required Qualifications | 8 / 21 (38%) |\n| Preferred Qualifications | 2 / 18 (11%) |\n| **Overall** | **10 / 39 (26%)** |\n\n### Key Disqualifying Gaps\n- **Core role mismatch**: Candidate is a data analyst, not a software/backend engineer. The role requires designing and building scalable backend services and APIs — none of this is present.\n- **No API design or consumption experience** whatsoever.\n- **No CI/CD or automated testing experience.**\n- **Cloud experience is minimal** (basic S3/Athena usage, not infrastructure-level).\n- Python usage is limited to data manipulation scripts, not production service development.\n\nThe regulated-industry background (insurance/health) is a positive signal, but it does not compensate for the fundamental mismatch in core engineering competencies.\n\n---\n\nFINAL: REJECT"
+}

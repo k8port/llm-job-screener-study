@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:04.477617+00:00",
+  "finished_utc": "2026-09-28T22:23:15.652777+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 461
+  },
+  "response": "## Candidate Evaluation: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n**1. No meaningful cloud experience**\nThe role requires hands-on experience with AWS, Azure, or GCP. The résumé contains zero mention of any cloud platform. This is a hard requirement.\n\n**2. Outdated Java stack**\nRaymond's Java experience is limited to Java 8, JSP, and Servlets — technologies that are over a decade old. The role expects modern backend service design, not legacy web-tier development.\n\n**3. No RESTful API experience**\nThere is no mention of designing or consuming REST APIs. This is a listed required qualification.\n\n**4. No CI/CD pipeline experience of substance**\nJenkins is listed as \"basic,\" and his version control experience is primarily Subversion. The role expects meaningful CI/CD and automated testing experience.\n\n**5. No automated testing experience**\nNo unit testing, integration testing, or test frameworks (JUnit, pytest, etc.) are mentioned anywhere on the résumé.\n\n**6. No containerization or modern infrastructure experience**\nDocker, Kubernetes, and Terraform are absent entirely.\n\n**7. No event-driven architecture experience**\nKafka, SQS, or similar tools are not mentioned.\n\n**8. Core skillset is mainframe-centric**\nCOBOL, JCL, z/OS, and DB2 batch processing dominate the résumé. While the financial services background is a positive, the technical stack is fundamentally misaligned with a modern cloud-native payments platform role.\n\n**9. No evidence of mentoring or technical leadership**\nThe role expects senior-level mentorship; the résumé shows no indication of this.\n\n### Summary\n\nRaymond has relevant domain experience (financial services, regulated environment, SQL) and meets the education requirement. However, he fails to meet **multiple required qualifications** — cloud experience, REST API design, modern Java, CI/CD, and automated testing — and meets virtually none of the preferred qualifications. The gaps are fundamental, not peripheral.\n\nFINAL: REJECT"
+}

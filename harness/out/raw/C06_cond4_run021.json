@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:01:00.369296+00:00",
+  "finished_utc": "2026-09-28T22:01:12.717630+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 405
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. No Cloud Experience**\nThe job description lists hands-on experience with a major cloud provider (AWS, Azure, or GCP) as a **required** qualification. Alan's résumé makes no mention of any cloud platform — his entire background is explicitly described as an \"on-premise enterprise environment.\" This is a significant gap for a role on a cloud-native Payments Platform team.\n\n**2. No CI/CD Pipeline Experience (Beyond Basic Jenkins)**\nThe role requires CI/CD pipeline experience. Alan references introducing Jenkins pipeline stages for integration tests, but this appears limited in scope. There is no mention of modern CI/CD practices, deployment automation, or release pipelines — only a narrow testing-stage addition.\n\n**3. No Event-Driven Architecture or Message Broker Experience**\nWhile listed as preferred, experience with Kafka, SQS, or similar is highly relevant for a high-volume payments platform. Alan lists JMS, which is outdated and niche, with no indication of modern message broker experience.\n\n**4. No Containerization or Orchestration Experience**\nNo mention of Docker, Kubernetes, or any container-based deployment — increasingly standard for backend platform roles.\n\n**5. No Financial Services or Payments Background**\nHis domain experience is manufacturing/industrial systems. No exposure to regulated financial environments, payment processing, compliance considerations, or related constraints.\n\n**6. No Observability Tooling Experience**\nNo mention of Datadog, Grafana, Prometheus, or equivalent tools.\n\n**7. No Infrastructure-as-Code Experience**\nNo mention of Terraform, CloudFormation, or similar tooling.\n\n---\n\nThe missing **required** cloud experience is a disqualifying gap on its own, compounded by the absence of nearly every preferred qualification.\n\nFINAL: REJECT"
+}

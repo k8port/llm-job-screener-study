@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:24:03.374621+00:00",
+  "finished_utc": "2026-09-28T22:24:16.516468+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 602
+  },
+  "response": "## Screening Analysis: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n**1. No Cloud Experience**\nThe candidate's résumé shows no experience with AWS, Azure, or GCP. Hands-on cloud experience is a *required* qualification for this role. This is a significant gap.\n\n**2. Outdated Technology Stack / Limited Modern Backend Experience**\nThe candidate's primary work involves COBOL, JCL, z/OS, and Java 8 — largely legacy mainframe technologies. The role requires modern backend service design and API development. While Java 8 is listed, its application appears to be in legacy web-serving contexts (JSP, Servlets), not modern microservice or API-first architectures.\n\n**3. No RESTful API Experience Evident**\nThere is no mention of designing or consuming RESTful APIs, which is a *required* qualification.\n\n**4. No CI/CD Pipeline Experience Beyond Basics**\nJenkins is listed as \"basic,\" and the candidate's release experience appears to be quarterly batch-style cycles — not continuous delivery pipelines. CI/CD experience is a required qualification.\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nNo mention of Kafka, SQS, or similar tools (preferred qualification).\n\n**6. No Containerization or Orchestration Experience**\nNo Docker or Kubernetes experience listed (preferred qualification).\n\n**7. No Observability Tooling Experience**\nNo mention of Datadog, Grafana, Prometheus, or comparable tools (preferred qualification).\n\n**8. No Mentorship or Technical Leadership Evidence**\nDespite 16 years of experience, there is no indication of mentoring engineers or leading technical initiatives (preferred qualification, and implied in the role's seniority expectations).\n\n**9. Git Listed as \"Basic\"**\nFor a senior engineering role in a modern platform environment, this is a notable shortcoming.\n\n### Mitigating Strengths\n\n- 16 years of experience in a regulated financial environment is relevant domain context.\n- Strong SQL/DB2 background satisfies the relational database requirement.\n- B.S. in Computer Science from UT Arlington satisfies the education requirement.\n- Production incident response in a financial services setting is relevant.\n\n### Summary\n\nThe candidate satisfies only two of the core required qualifications (SQL/relational databases, CS degree) and fails to demonstrate cloud experience, RESTful API experience, or meaningful CI/CD experience — all of which are explicitly required. The technology profile reflects a mainframe-centric career that has not transitioned into modern backend engineering practices. The gaps are too numerous and fundamental for a senior role on a cloud-native payments platform.\n\nFINAL: REJECT"
+}

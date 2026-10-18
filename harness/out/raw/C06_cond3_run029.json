@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:07.604321+00:00",
+  "finished_utc": "2026-09-28T22:00:21.633005+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 808,
+    "output_tokens": 674
+  },
+  "response": "## Screening Rubric & Scoring for Alan Brightwell\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total (2019–present) — clearly meets bar | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Java/Spring Boot is core throughout résumé | 10/10 |\n| Experience designing and consuming RESTful APIs | Owns REST API design, maintains interface docs | 10/10 |\n| Relational databases and SQL | Oracle, SQL, PL/SQL, stored procedures — strong | 10/10 |\n| Hands-on cloud experience (AWS, Azure, GCP) | **Not mentioned anywhere on résumé** | 0/10 |\n| CI/CD pipelines and automated testing | Jenkins pipelines, JUnit — adequately covered | 7/10 |\n| Bachelor's in CS/related or equivalent | B.S. Computer Engineering, Texas Tech | 10/10 |\n\n**Required Score: 57/70 (81%)**\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | JMS listed (older tech, not Kafka/SQS) | 2/5 |\n| Containerization / Kubernetes | No mention of Docker or Kubernetes | 0/5 |\n| Infrastructure-as-code | No mention of Terraform/CloudFormation | 0/5 |\n| Financial services / regulated industry | Manufacturing background only | 1/5 |\n| Observability tooling (Datadog, Grafana, etc.) | No mention | 0/5 |\n| Mentoring / leading technical initiatives | Mentors 2 junior engineers, leads code review for team of 6 | 5/5 |\n\n**Preferred Score: 8/30 (27%)**\n\n---\n\n### Summary Assessment\n\n**Strengths:**\n- Solid seven-year Java backend career; directly relevant language and API experience\n- Strong SQL/database depth\n- Genuine mentoring and code review leadership\n- On-call production experience\n\n**Critical Gaps:**\n- **Zero cloud experience** — this is a hard required qualification for a cloud-native payments platform\n- No containerization, orchestration, or IaC experience — the role's infrastructure stack is entirely absent\n- No payments, financial services, or regulated industry background\n- No modern observability tooling\n- On-premise only background; significant ramp risk for a hybrid cloud/payments environment\n\nThe absence of any cloud experience against a role that explicitly requires it as a **hard requirement** is a disqualifying gap. Combined with minimal alignment on preferred qualifications, the candidate does not meet the threshold to advance.\n\n---\n\nFINAL: REJECT"
+}

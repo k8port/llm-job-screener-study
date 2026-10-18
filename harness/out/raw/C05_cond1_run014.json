@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:48:28.079682+00:00",
+  "finished_utc": "2026-09-28T21:48:35.780284+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 308
+  },
+  "response": "## Assessment: Nora Kessler for Senior Software Engineer, Payments Platform\n\n### Analysis\n\n**Critical gaps relative to job requirements:**\n\n1. **Software Engineering vs. Data Analysis**: Nora's background is entirely in data analysis and reporting — not software engineering. The role requires designing and building backend services and APIs, which is a fundamentally different discipline.\n\n2. **No backend service/API development experience**: The job centers on building scalable backend services and RESTful APIs. There is no evidence of this in her résumé.\n\n3. **No CI/CD or automated testing experience**: Not mentioned.\n\n4. **Cloud experience is minimal**: \"Basic AWS (S3, Athena)\" is far below the hands-on cloud experience required for a senior role.\n\n5. **No containerization, Kafka/messaging, or infrastructure-as-code experience**: None of the preferred qualifications are met.\n\n6. **No mentorship or engineering leadership experience**: The role expects mentoring junior/mid engineers.\n\n**What she does bring:**\n- Strong SQL and Python scripting skills\n- Experience in a regulated industry (insurance/health)\n- Collaboration with product stakeholders\n- 6 years of professional experience\n\nHowever, these strengths align with a data/analytics role, not a senior backend engineering role. The overlap is insufficient to conclude she could perform this job as described.\n\nFINAL: REJECT"
+}

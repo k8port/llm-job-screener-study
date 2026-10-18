@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:37.708189+00:00",
+  "finished_utc": "2026-09-28T21:57:48.977562+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 510
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Noted\n- 7 years of professional experience (exceeds the 5-year minimum)\n- Strong Java/Spring Boot background, matching the primary required language\n- REST API design and documentation experience\n- Relational database (Oracle/SQL) experience\n- CI/CD exposure via Jenkins; automated testing via JUnit\n- Code review leadership and junior engineer mentorship\n- On-call rotation participation\n- Relevant B.S. degree (Computer Engineering)\n- JMS listed under skills (adjacent to message broker experience)\n\n---\n\n### Potential Weaknesses\n\n1. **No cloud experience.** The résumé makes no mention of AWS, Azure, or GCP. Cloud proficiency is a **required** qualification. The candidate's background is explicitly described as \"on-premise enterprise environment,\" making this a significant gap.\n\n2. **No containerization or orchestration experience.** No Docker or Kubernetes is listed anywhere. While preferred rather than required, this is a meaningful gap for a modern payments platform role.\n\n3. **No infrastructure-as-code experience.** Terraform and CloudFormation are absent entirely.\n\n4. **No observability tooling.** Datadog, Grafana, Prometheus — none appear in the résumé.\n\n5. **No payments, financial services, or regulated industry background.** The candidate's domain is manufacturing, which differs meaningfully from the target environment.\n\n6. **Event-driven architecture experience is weak.** JMS is listed as a skill but is not elaborated on with any substantive project context. There is no mention of Kafka, SQS, or comparable modern message brokers.\n\n7. **No demonstrated cloud-native or distributed systems experience.** High-volume payments platforms typically require familiarity with distributed systems patterns that are not evidenced here.\n\n---\n\n### Summary\n\nThe candidate meets several **required** qualifications (Java, REST APIs, SQL, CI/CD, automated testing, degree, years of experience, mentorship). However, the **complete absence of cloud experience** is a direct miss on a stated required qualification — and cloud proficiency is foundational to this role. Multiple preferred qualifications are also unmet. The domain and technology stack gaps are substantial for a senior-level payments platform role.\n\nFINAL: REJECT"
+}

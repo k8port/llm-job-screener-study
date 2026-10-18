@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:24.846792+00:00",
+  "finished_utc": "2026-09-28T22:22:32.665774+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 362
+  },
+  "response": "## Assessment: Raymond Dolliver\n\n### Strengths\n- **16 years of experience** — well exceeds the 5-year minimum\n- **Financial services / regulated industry background** — directly relevant (trust accounting, settlement processing)\n- **SQL and relational databases** — strong evidence (DB2, Oracle, query tuning)\n- **Java experience** — meets the language requirement, though Java 8 vintage\n- **Production incident response** — demonstrates operational maturity\n- **B.S. Computer Science** — meets education requirement\n\n### Gaps and Concerns\n\n**Significant gaps against required qualifications:**\n- **Cloud experience (AWS/Azure/GCP):** No evidence whatsoever\n- **RESTful API design/consumption:** Java 8 services mentioned, but framed around \"web access to core banking\" — no mention of REST API design patterns\n- **CI/CD pipelines:** Jenkins listed as \"basic\"; no evidence of meaningful CI/CD practice\n- **Automated testing:** No mention at all\n\n**Gaps against preferred qualifications:**\n- No event-driven architecture / Kafka / SQS\n- No containerization (Docker/Kubernetes)\n- No infrastructure-as-code\n- No observability tooling\n\n**Broader concern:** The candidate's stack (COBOL, JCL, z/OS, Java 8, JSP, WebSphere, Subversion) is largely legacy/mainframe. The role requires modern cloud-native backend engineering. The gap between where this candidate operates and what the role demands is substantial, not bridgeable through adjacent experience.\n\n---\n\nFINAL: REJECT"
+}

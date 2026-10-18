@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:41.821327+00:00",
+  "finished_utc": "2026-09-28T22:22:50.615990+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 385
+  },
+  "response": "## Screening Assessment: Raymond Dolliver\n\n### Evaluating Against Requirements\n\n**Met Requirements:**\n- ✅ 16 years of experience (well exceeds 5+ year requirement)\n- ✅ Java experience (Java 8, though dated)\n- ✅ Relational databases and SQL (DB2, Oracle, SQL)\n- ✅ Financial services / regulated industry background (trust accounting, settlement processing)\n- ✅ Bachelor's in Computer Science\n- ✅ Some CI/CD exposure (Jenkins - basic)\n\n**Gaps or Concerns:**\n- ❌ **Cloud experience**: No evidence of AWS, Azure, or GCP — this is a *required* qualification\n- ❌ **RESTful API design/consumption**: No clear evidence; Java 8 services mentioned but no REST specifics\n- ❌ **Modern backend services**: Work appears heavily mainframe/COBOL-oriented with legacy Java (JSP, Servlets)\n- ❌ **CI/CD pipelines**: Only \"basic\" Jenkins noted; no automated testing mentioned\n- ❌ **Containerization/Kubernetes, Kafka, Terraform**: No evidence of any preferred qualifications\n- ❌ **Scalable distributed systems**: No indication of experience with high-volume, cloud-native architecture\n\n### Summary\n\nWhile Raymond brings deep financial domain knowledge and SQL expertise, the role requires a cloud-native engineer comfortable with modern distributed systems, REST APIs, and cloud infrastructure. His experience is predominantly mainframe-based with legacy Java, and he lacks cloud experience — a *required* qualification. The gap between his skill profile and the role's technical demands is substantial.\n\nFINAL: REJECT"
+}

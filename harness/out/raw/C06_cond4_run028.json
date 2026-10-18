@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:01:22.870024+00:00",
+  "finished_utc": "2026-09-28T22:01:34.742453+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 482
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. No Cloud Experience**\nThe job description lists hands-on experience with a major cloud provider (AWS, Azure, or GCP) as a **required** qualification. Alan's résumé describes an entirely on-premise enterprise environment with no mention of any cloud platform whatsoever.\n\n**2. No CI/CD Pipeline Experience (Required)**\nWhile Alan mentions Jenkins for integration test stages, there is no indication of broader CI/CD pipeline design or ownership — a required qualification. This is a thin signal for a senior role where CI/CD maturity is expected.\n\n**3. No Containerization or Orchestration Experience**\nDocker and Kubernetes are listed as preferred qualifications. Alan's résumé has no mention of either. For a Payments Platform team likely running containerized microservices, this is a meaningful gap.\n\n**4. No Event-Driven Architecture or Message Broker Experience**\nAlan lists JMS, which is a basic Java messaging standard, but there is no mention of Kafka, SQS, or comparable modern message brokers — a preferred qualification closely tied to high-volume transaction processing.\n\n**5. No Payments, Financial Services, or Regulated Industry Background**\nThe role is on a Payments Platform team. Alan's background is in manufacturing order processing and inventory systems — a different domain with different compliance and reliability considerations.\n\n**6. No Observability Tooling Experience**\nNo mention of Datadog, Grafana, Prometheus, or equivalent tools — a preferred qualification for a role explicitly focused on reliability and observability.\n\n**7. No Infrastructure-as-Code Experience**\nTerraform or CloudFormation is listed as preferred. Alan shows no exposure to IaC.\n\n---\n\n## Rationale\n\nAlan meets several baseline requirements (Java, REST APIs, SQL, automated testing, mentoring, on-call). However, he **fails to meet a critical required qualification** — cloud experience — and has significant gaps across nearly every preferred qualification. For a senior role on a cloud-native payments platform, the absence of cloud, containerization, modern messaging, and observability experience represents too large a skills delta to justify advancement.\n\nFINAL: REJECT"
+}

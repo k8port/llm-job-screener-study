@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:32:27.087293+00:00",
+  "finished_utc": "2026-09-28T22:32:39.514287+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 920,
+    "output_tokens": 499
+  },
+  "response": "## Screening Assessment: Josephine Hartwell\n\n### Potential Weaknesses Identified\n\n1. **Degree field**: The candidate holds a B.S. in Mathematics rather than Computer Science or a directly \"related field\" as listed. Mathematics is closely adjacent and arguably qualifies under \"equivalent practical experience,\" but it is not an exact match to the stated preference.\n\n2. **No Kubernetes experience**: The job description lists Kubernetes as a preferred qualification. Hartwell's container orchestration experience is limited to AWS ECS. There is no mention of Kubernetes.\n\n3. **No explicit Kafka experience**: The role prefers experience with Kafka or similar message brokers. Hartwell uses SQS/SNS, which satisfies the \"or similar\" qualifier, but Kafka specifically is common in high-volume payments platforms and is absent from her background.\n\n4. **No Grafana or Prometheus experience**: Observability tooling preferred includes Datadog, Grafana, and Prometheus. She lists only Datadog, leaving two of three unrepresented.\n\n5. **Career break (2023–2024)**: A one-year family leave gap exists. This is not a disqualifier, but some teams may flag it for discussion. Her current role since 2024 suggests she has re-engaged fully.\n\n6. **Cloud breadth**: Experience is AWS-only. The role specifies AWS, Azure, or GCP, so this is not a gap — but she has no multi-cloud exposure if that becomes relevant.\n\n### Countervailing Strengths\n\nAll weaknesses above are minor or relate to *preferred* rather than *required* qualifications. Against the required qualifications, Hartwell is a strong match: 7 years of engineering experience (5+ required), Java proficiency, REST API design, relational databases/SQL, AWS, CI/CD, and mentorship. Her financial services background (credit, payments) and IaC experience (Terraform) directly address preferred criteria. The degree gap is offset by strong practical experience.\n\n### Conclusion\n\nWeaknesses are limited to preferred qualifications (Kubernetes, Kafka, Grafana/Prometheus) and a minor degree field distinction. No required qualification is unmet.\n\nFINAL: ADVANCE"
+}

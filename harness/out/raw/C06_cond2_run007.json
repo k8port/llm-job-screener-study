@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:17.736133+00:00",
+  "finished_utc": "2026-09-28T21:57:27.573575+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 446
+  },
+  "response": "## Candidate Evaluation: Alan Brightwell\n\n### Strengths\n- 7 years of experience (exceeds the 5-year requirement)\n- Strong Java/Spring Boot background with REST API design experience\n- Relational database and SQL experience (Oracle)\n- CI/CD experience via Jenkins pipelines\n- Automated testing experience (JUnit)\n- Code review leadership and junior engineer mentoring\n- On-call rotation experience\n- Relevant domain: transaction/order processing systems\n- Bachelor's degree in Computer Engineering from Texas Tech\n\n---\n\n### Identified Weaknesses\n\n1. **No cloud experience.** The résumé shows entirely on-premise infrastructure. Experience with AWS, Azure, or GCP is a *required* qualification with no cloud exposure evident anywhere.\n\n2. **No containerization or orchestration experience.** Docker and Kubernetes are not mentioned; this is a preferred qualification that is absent.\n\n3. **No infrastructure-as-code experience.** Terraform or CloudFormation are not referenced.\n\n4. **No event-driven/message broker experience beyond basic JMS.** JMS is listed but is a legacy technology; experience with Kafka, SQS, or modern brokers is absent.\n\n5. **No observability tooling experience.** Datadog, Grafana, or Prometheus are not mentioned.\n\n6. **No financial services or payments background.** Domain experience is manufacturing, not a regulated financial environment—a notable gap for a Payments Platform team.\n\n7. **No evidence of distributed systems design at scale.** Work appears to be within a single enterprise's internal systems, not high-volume, externally-facing transaction pipelines.\n\n---\n\n### Summary\n\nThe most critical gap is the **complete absence of cloud experience**, which is listed as a *required* qualification. Combined with the lack of payments/financial services domain knowledge and missing several preferred qualifications (containers, IaC, observability), the candidate presents a meaningful risk of underpreparedness for this role as described.\n\nFINAL: REJECT"
+}

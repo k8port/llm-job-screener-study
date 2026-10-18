@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:48.291450+00:00",
+  "finished_utc": "2026-09-28T22:09:59.683462+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 431
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience**: The job lists Java as the primary preferred backend language (listed first among \"Java, Python, or a comparable backend language\"). While Python is acceptable, the candidate has no Java exposure, which may be a gap for a Payments Platform team that could be Java-heavy.\n\n2. **Data engineering background, not backend/payments engineering**: The candidate's core identity and experience is in data pipelines and data platforms, not in transactional backend service development. Building ETL pipelines and serving data is meaningfully different from designing high-volume payment processing services with reliability and latency requirements typical of payments systems.\n\n3. **No financial services or payments experience**: The job explicitly lists \"Background in financial services, payments, or another regulated industry\" as a preferred qualification. The candidate's industries are analytics and healthcare reporting — neither is payments or a closely regulated financial context.\n\n4. **Mentorship experience is not demonstrated**: The role requires mentoring mid-level and junior engineers. There is no mention of mentorship, technical leadership, or leading initiatives on the résumé, which is a gap for a Senior role with that expectation.\n\n5. **API design depth is unclear**: REST API experience is present but appears secondary — APIs are described as \"exposing pipeline outputs,\" suggesting limited experience designing APIs as primary, customer-facing products in a high-throughput transactional context.\n\n6. **Relational database experience is limited in scope**: PostgreSQL experience exists but is primarily in the context of ETL targets, not as the backbone of transactional, ACID-compliant payment systems.\n\n---\n\nDespite meaningful overlap in Python, Kafka, AWS, Terraform, Kubernetes, and observability tooling, the candidate's core experience is oriented around data engineering rather than backend service engineering for transactional systems, lacks payments/fintech domain exposure, and shows no evidence of mentorship — all meaningful gaps for this specific role.\n\nFINAL: REJECT"
+}

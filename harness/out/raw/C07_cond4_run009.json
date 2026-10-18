@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:41.191365+00:00",
+  "finished_utc": "2026-09-28T22:09:53.743089+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 479
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience**: The job lists Java as the primary/first preferred backend language. The candidate's entire stack is Python-centric. While Python is listed as acceptable, the team emphasis on Java (leading the required qualifications) may be a gap depending on team needs.\n\n2. **Data engineering vs. backend/payments engineering**: The candidate's background is fundamentally in data platforms and pipelines, not transactional backend services. Building ETL pipelines and serving analytics outputs is a meaningfully different discipline from designing low-latency, high-reliability payment processing services.\n\n3. **No financial services or payments experience**: The job explicitly lists \"Background in financial services, payments, or another regulated industry\" as a preferred qualification. The candidate's regulated-industry experience is limited to a healthcare reporting role (2018–2020), which is now 5+ years old and was at a junior level.\n\n4. **API design depth is unclear**: The candidate mentions designing REST APIs \"exposing pipeline outputs,\" which is a narrower use case than the full API lifecycle (consumer/producer patterns, enterprise client integrations, SLA management) expected in a payments platform role.\n\n5. **Mentorship and technical leadership experience is absent**: The job requires mentoring mid-level and junior engineers. The résumé contains no mention of mentorship, tech lead responsibilities, or leading small technical initiatives.\n\n6. **No relational database emphasis in recent work**: Recent DB experience leans on Snowflake (an analytics warehouse), with PostgreSQL usage mostly in an older role. Payment systems typically require strong OLTP relational DB expertise.\n\n---\n\nDespite these gaps, the candidate meets many **required** qualifications (8 years experience, Python, REST APIs, SQL, AWS, CI/CD, cloud infrastructure, Kafka, Docker/Kubernetes, Terraform, observability tooling). The gaps are real but largely in preferred areas and domain alignment rather than hard disqualifiers.\n\nHowever, the core role mismatch (data platform vs. payments backend), absence of mentorship evidence, and lack of financial services background are meaningful enough concerns to recommend rejection for this specific role.\n\nFINAL: REJECT"
+}

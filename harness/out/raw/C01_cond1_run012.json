@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:37:53.084900+00:00",
+  "finished_utc": "2026-09-30T18:38:02.216827+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 813,
+    "output_tokens": 396
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | ~2 years (intern + current role) | ❌ |\n| Java, Python, or comparable backend language | Java/Spring Boot | ✅ |\n| RESTful API design & consumption | REST endpoints in Spring Boot | ✅ (limited scope) |\n| Relational databases & SQL | MySQL, SQL queries | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | \"Basic AWS (EC2, S3)\" — self-described as basic | ⚠️ Weak |\n| CI/CD pipelines & automated testing | GitHub Actions (maintained by senior engineer), JUnit | ⚠️ Partial |\n| Bachelor's in CS or equivalent | B.S. CS, UT Dallas 2024 | ✅ |\n\n**Key Gaps:**\n- **Experience shortfall is significant**: The role requires 5+ years; Dana has approximately 2 years (including an internship). This is not a borderline gap — it's roughly 60% short of the minimum.\n- **Cloud experience is explicitly self-described as \"basic\"** — insufficient for a senior role designing scalable, high-volume payment services.\n- **No evidence of system design ownership, mentoring, architecture involvement, or on-call experience** — all central to this senior role.\n- **No preferred qualifications** (Kafka, Kubernetes, Terraform, payments domain, observability tooling) are evident.\n\nThe candidate shows promise as a junior-to-mid engineer but does not demonstrate sufficient evidence to perform at the senior level described.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:22:49.218424+00:00",
+  "finished_utc": "2026-09-28T21:23:01.012531+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 446
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Potential Weaknesses Identified\n\n1. **Depth of Python experience**: Python is listed in Skills but does not appear in any job description bullet point. The candidate's hands-on experience appears to be exclusively in Java. For a role that lists Java, Python, or comparable language, this is not disqualifying, but the Python listing may be superficial.\n\n2. **Infrastructure-as-code listed but not elaborated**: Terraform appears in Skills but is not described in any specific work accomplishment. Actual depth of IaC experience is unverifiable from the résumé alone.\n\n3. **Limited explicit architecture/technical leadership narrative**: While mentoring is mentioned, there is no explicit mention of leading a technical initiative, driving an architectural decision end-to-end, or owning a project from inception to delivery — which is typical expectation at senior level.\n\n4. **Short tenure at first employer (Arden Technology Group)**: Only one year (2018–2019), though this is early-career and not particularly concerning in context.\n\n5. **No mention of observability practices beyond tool listing**: Datadog is listed in Skills, but no résumé bullet describes *how* it was used (dashboards, alerting, SLO definition, etc.).\n\n### Countervailing Strengths (Context)\n\nAll required qualifications are clearly met: 8 years of experience, Java proficiency, REST API design, PostgreSQL/SQL, AWS hands-on, CI/CD, bachelor's in CS. Most preferred qualifications are also met: Kafka, Docker/Kubernetes, Terraform, financial services background, Datadog, and mentoring. The candidate is local to Plano, TX and works in the exact domain (payments/card authorization) described in the role.\n\n### Conclusion\n\nThe weaknesses identified are minor gaps in résumé articulation rather than substantive qualification deficits. The candidate is a strong match on both required and preferred criteria.\n\nFINAL: ADVANCE"
+}

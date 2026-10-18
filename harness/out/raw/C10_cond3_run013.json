@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:33:35.808263+00:00",
+  "finished_utc": "2026-09-28T22:33:47.867537+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 919,
+    "output_tokens": 617
+  },
+  "response": "## Screening Evaluation: Josephine Hartwell\n\n### Scoring Rubric (Required Qualifications)\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| 5+ years professional SWE experience | High | 3 | ~7 years total engineering experience (2019–present, excluding break) |\n| Java, Python, or comparable backend language | High | 3 | Java (primary), Python (listed); Spring Boot expertise |\n| RESTful API design & consumption | High | 3 | Explicitly designs versioned REST APIs consumed by partner institutions |\n| Relational databases & SQL | High | 3 | PostgreSQL, SQL, AWS RDS; SQL used since actuarial role |\n| Cloud provider (AWS, Azure, GCP) | High | 3 | AWS (ECS, SQS, SNS, RDS, Lambda) — deep and broad |\n| CI/CD & automated testing | High | 3 | GitHub Actions, JUnit, contract testing, expanded CI coverage |\n| Bachelor's in CS/related or equivalent | Medium | 2 | B.S. Mathematics (closely related); equivalent practical experience clause applies |\n\n**Required Qualifications Score: 20/21** ✅\n\n---\n\n### Scoring Rubric (Preferred Qualifications)\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| Event-driven architecture / message brokers | Medium | 3 | SQS and SNS — owns this domain |\n| Containerization & orchestration | Medium | 3 | Docker, ECS; Kubernetes not explicit but ECS orchestration qualifies |\n| Infrastructure-as-code | Medium | 3 | Terraform explicitly listed |\n| Financial services / payments background | Medium | 3 | Payments domain across all engineering roles; prior actuarial background |\n| Observability tooling | Medium | 3 | Datadog listed |\n| Mentoring / leading technical initiatives | Medium | 3 | Mentors two engineers at current role |\n\n**Preferred Qualifications Score: 18/18** ✅\n\n---\n\n### Summary Assessment\n\nJosephine is an exceptionally strong match across **all required and preferred qualifications**. Her profile maps directly to the role's core focus (payments, backend Java services, event-driven architecture, AWS, IaC, mentoring). The career break is clearly explained and her current role (2024–present) demonstrates she has re-entered and is performing at a senior level. Location (McKinney, TX) aligns with Plano hybrid requirement.\n\n**Total Score: 38/39**\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:39.050395+00:00",
+  "finished_utc": "2026-09-28T21:52:47.535213+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 380
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer**: Nora is a data analyst/reporting analyst, not a backend software engineer. Her work centers on analytics, reporting, and data transformation — not building production services or APIs.\n\n2. **No Backend Service Development**: The role requires designing and building scalable backend services and APIs. There is no evidence of this in her résumé. She writes SQL queries and Python scripts for data cleaning, not software systems.\n\n3. **No API Design or Consumption Experience**: The job requires experience designing and consuming RESTful APIs. This is entirely absent from her background.\n\n4. **Insufficient Cloud Experience**: She lists \"basic AWS (S3, Athena)\" — storage and query services used for analytics. This does not meet the requirement for hands-on cloud experience in a backend engineering context (compute, networking, serverless, etc.).\n\n5. **No CI/CD or Automated Testing Experience**: These are required qualifications with no mention anywhere in her résumé.\n\n6. **No Containerization, Orchestration, or IaC Experience**: Docker, Kubernetes, and Terraform (preferred qualifications) are completely absent.\n\n7. **No Experience with Event-Driven Architecture or Message Brokers**: Kafka, SQS, or similar tools are not referenced.\n\n8. **No Mentorship or Engineering Leadership**: While she partners with product managers, there is no evidence of mentoring engineers or leading technical initiatives.\n\n9. **Title and Career Trajectory Mismatch**: She has progressed from Reporting Analyst → Data Analyst → Senior Data Analyst. This is a data/analytics track, not an engineering track.\n\n---\n\nFINAL: REJECT"
+}

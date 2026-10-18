@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:04:52.029047+00:00",
+  "finished_utc": "2026-09-28T22:05:02.105169+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 450
+  },
+  "response": "## Evaluation\n\n**Experience & Seniority**\nSimone has 8 years of professional software engineering experience, exceeding the 5+ year requirement. She holds a Senior-level title at her current employer.\n\n**Required Qualifications — Check**\n- ✅ **Backend language (Python):** Strong proficiency demonstrated across multiple roles\n- ✅ **RESTful APIs:** Designs and maintains REST APIs with versioning and contract documentation\n- ✅ **Relational databases/SQL:** PostgreSQL, Snowflake, SQL used throughout career\n- ✅ **Cloud (AWS):** Hands-on with EKS, S3, Lambda, RDS\n- ✅ **CI/CD and automated testing:** GitHub Actions, pytest explicitly listed\n- ✅ **Degree:** B.S. Information Systems\n\n**Preferred Qualifications — Strong Match**\n- ✅ **Event-driven / Kafka:** Owns Kafka ingestion at 40M daily events — directly relevant to a high-volume payments platform\n- ✅ **Containerization/Orchestration:** Docker + Kubernetes (EKS)\n- ✅ **Infrastructure-as-Code:** Terraform\n- ✅ **Observability:** Prometheus and Grafana with on-call ownership\n- ✅ **Mentorship/leadership:** Senior role implies ownership; on-call and cross-team API work suggest initiative (though mentorship isn't explicitly called out)\n\n**Potential Gaps**\n- No explicit payments/financial services background (though transaction data for enterprise clients is adjacent)\n- Java not present (Python is the demonstrated language, which is listed as acceptable)\n- Mentorship of junior engineers not explicitly stated\n\n**Conclusion:** The candidate meets or exceeds virtually all required qualifications and most preferred ones. Her experience with high-volume transaction data, Kafka, APIs, AWS, and observability maps closely to the role's demands.\n\nFINAL: ADVANCE"
+}

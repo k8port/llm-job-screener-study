@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:51:23.752429+00:00",
+  "finished_utc": "2026-09-28T21:51:34.647990+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 556
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 6 years total experience, but as a **data analyst**, not software engineer. No backend service development. | 3/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Python used for scripting/data cleaning only (Pandas, NumPy); no backend development context | 4/10 |\n| Experience designing and consuming RESTful APIs | No evidence of API design or consumption | 0/10 |\n| Experience with relational databases and SQL | Strong SQL proficiency across multiple roles and platforms | 9/10 |\n| Hands-on experience with major cloud provider | \"Basic AWS (S3, Athena)\" — very limited, no compute/services depth | 2/10 |\n| Experience with CI/CD pipelines and automated testing | No mention whatsoever | 0/10 |\n| Bachelor's degree in CS or related field | B.S. Statistics — related field, acceptable | 8/10 |\n\n**Required Score: 26/70 (37%)**\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No evidence | 0/5 |\n| Containerization / Kubernetes | No evidence | 0/5 |\n| Infrastructure-as-code | No evidence | 0/5 |\n| Financial services / regulated industry background | Insurance industry experience — relevant | 4/5 |\n| Observability tooling | No evidence | 0/5 |\n| Mentoring / technical leadership | No evidence of mentoring engineers | 0/5 |\n\n**Preferred Score: 4/30 (13%)**\n\n---\n\n### Summary Assessment\n\nNora has solid SQL skills, regulated-industry experience, and Python familiarity — but her background is firmly in **data analytics**, not software engineering. She lacks the core competencies this role demands: backend service development, API design, cloud infrastructure, CI/CD, and automated testing. Her Python use is limited to data scripts, not production services. She does not meet the threshold for a Senior Software Engineer role.\n\n**Total Score: 30/100**\n\n---\n\nFINAL: REJECT"
+}

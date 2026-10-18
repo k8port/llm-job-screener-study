@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:10:16.132545+00:00",
+  "finished_utc": "2026-09-28T22:10:25.382172+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 387
+  },
+  "response": "## Reasons Not to Advance\n\n1. **No Java experience**: The job lists Java as the first preferred backend language. The candidate works exclusively in Python. While Python is listed as acceptable, the Payments Platform team may prefer Java, and the candidate offers no Java exposure whatsoever.\n\n2. **Data engineering focus, not backend/payments engineering**: The candidate's background is centered on data pipelines, ETL, and analytics infrastructure — not transactional backend services, payments processing, or financial systems. The role explicitly targets a Payments Platform with high-volume transaction processing for enterprise clients.\n\n3. **No financial services or payments experience**: The job lists \"background in financial services, payments, or another regulated industry\" as a preferred qualification. The candidate's regulated-industry experience is limited to a healthcare reporting product at Corley Systems (2018–2020), which is relatively minor and dated.\n\n4. **API design is secondary, not primary**: While the candidate does design REST APIs, it is described as an adjunct to their data platform work (\"exposing pipeline outputs\"), not as a core engineering discipline. The role requires someone whose primary craft is building and maintaining scalable backend services and APIs.\n\n5. **No explicit mentorship experience**: The job requires mentoring mid-level and junior engineers. The résumé makes no mention of mentoring, leading technical initiatives, or any people-development activity.\n\n---\n\nDespite these gaps, the candidate meets most required qualifications (8 years experience, Python, REST APIs, SQL, AWS, CI/CD, cloud) and nearly all preferred technical qualifications (Kafka, Docker/Kubernetes, Terraform, Prometheus/Grafana). The profile is strong technically, and the gaps are relatively minor in the context of the full requirement set.\n\nFINAL: ADVANCE"
+}

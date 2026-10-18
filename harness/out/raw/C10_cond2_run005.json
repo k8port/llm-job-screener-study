@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:31:30.867310+00:00",
+  "finished_utc": "2026-09-28T22:31:43.263763+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 920,
+    "output_tokens": 509
+  },
+  "response": "## Screening Assessment: Josephine Hartwell\n\n### Potential Weaknesses Identified\n\n1. **Kubernetes not mentioned**: The job lists Docker + Kubernetes as a preferred qualification. Hartwell has Docker and ECS experience but no Kubernetes appears on her résumé. This is a gap against a preferred (not required) qualification.\n\n2. **Career break (2023–2024)**: A roughly one-year family leave exists. This is not a skills gap per se, but the break is recent. Her current role (2024–Present) is relatively short in tenure, so depth of experience in her most recent position is limited — though she is actively employed and the break is transparently explained.\n\n3. **No explicit Kafka experience**: The job mentions Kafka as a preferred message broker. Hartwell uses SQS/SNS, which is directly relevant and comparable, but Kafka specifically is absent.\n\n4. **Mathematics degree rather than Computer Science**: The JD asks for CS or related field \"or equivalent practical experience.\" Mathematics is a closely related field, and she has seven years of engineering experience, so this is a very minor weakness.\n\n5. **No explicit Grafana/Prometheus mention**: Datadog is listed on her résumé, partially covering the observability tooling preference, but Grafana and Prometheus are absent.\n\n6. **No explicit mention of architecture discussions or on-call rotation**: The JD calls these out specifically; her résumé doesn't reference them directly, though senior-level ownership is implied.\n\n### Strengths Summary (for context)\nAll **required** qualifications are clearly met: 7 years of experience, Java/Python proficiency, REST API design, SQL/PostgreSQL, AWS hands-on experience, CI/CD (GitHub Actions), and automated testing (JUnit). Domain background in financial services/payments is directly on point. Preferred qualifications are substantially met (SQS/SNS event-driven architecture, Docker/ECS, Terraform, Datadog, mentoring). She is a strong match on both required and most preferred criteria.\n\n### Conclusion\nThe weaknesses identified are minor and confined almost entirely to preferred (not required) qualifications. No required qualification is missing. The candidate is a well-aligned, strong match for this role.\n\nFINAL: ADVANCE"
+}

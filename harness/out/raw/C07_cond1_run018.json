@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:05:07.946087+00:00",
+  "finished_utc": "2026-09-28T22:05:18.078747+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 475
+  },
+  "response": "## Screening Assessment: Simone Vance\n\n### Evaluation Against Required Qualifications\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years (2018–present) | ✅ |\n| Java, Python, or comparable backend language | Python throughout career | ✅ |\n| RESTful API design and consumption | Explicitly designs REST APIs, maintains versioning/contracts | ✅ |\n| Relational databases and SQL | PostgreSQL, SQL across multiple roles | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | AWS (EKS, S3, Lambda, RDS) | ✅ |\n| CI/CD and automated testing | GitHub Actions, pytest | ✅ |\n| Bachelor's degree or equivalent | B.S. Information Systems | ✅ |\n\n### Evaluation Against Preferred Qualifications\n\n| Preference | Evidence |\n|---|---|\n| Event-driven architecture / Kafka | ✅ Owns Kafka pipeline at 40M events/day |\n| Docker / Kubernetes | ✅ Containerized workloads on EKS |\n| Infrastructure-as-code (Terraform) | ✅ Explicitly listed |\n| Financial services / regulated industry | ⚠️ Healthcare adjacent; transaction data for enterprise clients |\n| Observability tooling | ✅ Prometheus + Grafana, on-call ownership |\n| Mentoring / technical leadership | ⚠️ Not explicitly mentioned |\n\n### Summary\n\nSimone meets **all required qualifications** and satisfies **most preferred qualifications** — including several of the more technically specific ones (Kafka at scale, Terraform, Kubernetes, observability). The profile skews toward data engineering, but the work described (Python services, REST APIs, cloud infrastructure, high-volume transaction data) maps closely to the backend platform role. The gaps (no explicit mentoring, no direct payments background) are minor relative to the strong overall fit.\n\nFINAL: ADVANCE"
+}

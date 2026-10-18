@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:38:28.465981+00:00",
+  "finished_utc": "2026-09-30T18:38:36.906726+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 813,
+    "output_tokens": 370
+  },
+  "response": "## Assessment\n\n**Required Qualifications Review:**\n\n- **5+ years of professional experience** — Dana has approximately 1–2 years total (intern 2024–2025, engineer 2025–present). This is significantly below the requirement. ❌\n- **Strong proficiency in Java or comparable backend language** — Java/Spring Boot experience is present, though at a junior level. Partial ✅\n- **RESTful API design and consumption** — Demonstrated in current role. ✅\n- **Relational databases and SQL** — MySQL experience shown. ✅\n- **Major cloud provider (AWS, Azure, GCP)** — Only \"basic AWS (EC2, S3)\" noted; limited depth. ⚠️\n- **CI/CD and automated testing** — GitHub Actions and JUnit mentioned, but described as maintained by a senior engineer. ⚠️\n- **Bachelor's in CS or equivalent** — B.S. CS from UT Dallas. ✅\n\n**Key Gaps:**\n- The experience gap is the most critical disqualifier. The role requires 5+ years; Dana has ~2 years including internship, with no evidence of senior-level ownership, architecture work, or leadership.\n- No evidence of cloud depth, event-driven systems, containerization, observability tooling, or mentoring—preferred qualifications largely unmet.\n- The summary itself acknowledges being \"eager to take on backend ownership,\" suggesting this is aspirational rather than demonstrated.\n\nThere is **insufficient evidence** that this candidate could successfully perform a Senior Software Engineer role requiring 5+ years of experience and significant technical ownership.\n\nFINAL: REJECT"
+}

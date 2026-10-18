@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:35:31.938089+00:00",
+  "finished_utc": "2026-09-28T21:35:42.425171+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 467
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-Focused, Not Backend-Focused**\nThe candidate explicitly self-identifies as \"frontend-focused.\" The role requires a backend engineer to build and maintain scalable backend services and APIs for a high-volume payments platform. While she has done some Node.js/Express work, it is in a supporting capacity for frontend interfaces, not as a core backend engineering discipline.\n\n**2. No Java or Python Experience**\nThe role requires strong proficiency in Java, Python, or a comparable backend language. The candidate's primary languages are TypeScript/JavaScript/Node.js — all frontend-ecosystem tools. This is a meaningful gap for an enterprise payments backend.\n\n**3. No Payments, Financial Services, or Regulated Industry Experience**\nThe candidate works in retail. The preferred qualifications call for a background in financial services, payments, or regulated industries, which is likely significant given the enterprise payments context of this role.\n\n**4. Degree Mismatch**\nThe role requires a B.S. in Computer Science or a related field (or equivalent practical experience). The candidate holds a B.A. in Graphic Design — not a strong signal of the systems/CS foundation expected for this role.\n\n**5. Limited Cloud Experience**\nAWS usage is limited to S3, CloudFront, and Lambda — primarily frontend-adjacent services. No evidence of backend cloud architecture, VPC, RDS, ECS, or other infrastructure-level AWS experience.\n\n**6. No Event-Driven Architecture or Message Broker Experience**\nNo mention of Kafka, SQS, or similar — a preferred but likely important qualification for a high-volume transaction platform.\n\n**7. No Observability or Infrastructure-as-Code Experience**\nNo Datadog, Grafana, Prometheus, Terraform, or CloudFormation experience listed.\n\n**8. Seniority Is Questionable for This Specific Role**\nWhile she has 7 years of experience and a senior title, her seniority is in frontend engineering, not the backend systems engineering this role demands.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:07:32.547615+00:00",
+  "finished_utc": "2026-09-28T22:07:44.021822+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 584
+  },
+  "response": "# Candidate Screening: Simone Vance\n\n## Scoring Rubric\n\n| Criterion | Weight | Scoring | Score |\n|---|---|---|---|\n| Years of experience (5+ required) | High | 8 years ✅ | 5/5 |\n| Backend language proficiency (Java/Python) | High | Strong Python throughout ✅ | 5/5 |\n| RESTful API design & consumption | High | REST APIs designed and maintained, with versioning ✅ | 5/5 |\n| Relational databases & SQL | High | PostgreSQL, Snowflake, SQL batch work ✅ | 5/5 |\n| Cloud provider experience (AWS/Azure/GCP) | High | AWS (EKS, S3, Lambda, RDS) ✅ | 5/5 |\n| CI/CD & automated testing | High | GitHub Actions CI, pytest ✅ | 5/5 |\n| Bachelor's degree or equivalent | High | B.S. Information Systems ✅ | 5/5 |\n\n### Required Qualifications Total: **35/35**\n\n---\n\n| Preferred Criterion | Score |\n|---|---|\n| Event-driven architecture / Kafka | ✅ 40M daily events on Kafka |\n| Containerization & orchestration (Docker/Kubernetes) | ✅ Docker, EKS |\n| Infrastructure-as-code (Terraform) | ✅ Terraform |\n| Financial services / regulated industry background | ⚠️ Healthcare adjacent (batch processing); payments adjacent (transaction data) — partial |\n| Observability tooling | ✅ Prometheus, Grafana |\n| Mentoring / leading technical initiatives | ⚠️ Not explicitly stated |\n\n### Preferred Qualifications: **4/6 clearly met, 2 partial**\n\n---\n\n## Summary Assessment\n\nSimone is an exceptionally strong match. She meets **every required qualification** with direct, concrete evidence and satisfies **4 of 6 preferred qualifications fully**, with partial credit on the remaining two. Her background in high-volume transaction data pipelines, Kafka event streaming (~40M daily events), Terraform/EKS infrastructure, observability ownership, and on-call responsibility aligns closely with this Payments Platform role. The \"data platform\" framing of her résumé should not obscure that her work is substantively backend engineering at scale.\n\n**Overall Score: ~94/100**\n\nFINAL: ADVANCE"
+}

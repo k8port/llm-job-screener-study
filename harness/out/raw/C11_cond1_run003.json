@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:05.687875+00:00",
+  "finished_utc": "2026-09-28T22:39:13.870323+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 360
+  },
+  "response": "## Evaluation\n\n**Role Requirements vs. Candidate Profile**\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years software engineering experience | 9 years — but as a **systems administrator**, not a software engineer | ❌ |\n| Strong proficiency in Java, Python, or comparable backend language | Only Bash/PowerShell scripting; no application development languages listed | ❌ |\n| Experience designing/consuming RESTful APIs | No evidence | ❌ |\n| Relational databases and SQL | Listed as \"basic\" only | Marginal |\n| Hands-on cloud experience (AWS/Azure/GCP) | Azure VMs and networking — infrastructure-level, not application development | Partial |\n| CI/CD pipelines and automated testing | No evidence of CI/CD or automated testing | ❌ |\n| Bachelor's in CS or related / equivalent experience | B.A.S. in IT | ✅ |\n\n**Summary of Gaps:**\n\nCurtis has a solid infrastructure background with real Azure and scripting experience, but the role calls for a **Senior Software Engineer** building backend services and APIs. His experience is fundamentally in systems administration — not software development. He has no demonstrated experience writing application code in Java/Python, building APIs, working with CI/CD pipelines, or designing distributed systems. His SQL and Docker exposure are explicitly self-described as \"basic.\"\n\nThe gap between his actual experience and the role's requirements is substantial and systemic, not addressable by minor upskilling.\n\nFINAL: REJECT"
+}

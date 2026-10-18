@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:50.105450+00:00",
+  "finished_utc": "2026-09-28T22:00:59.619782+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 393
+  },
+  "response": "## Reasons Against Advancing Alan Brightwell\n\n**1. No Cloud Experience**\nThe job requires \"hands-on experience with a major cloud provider (AWS, Azure, or GCP)\" — a listed *required* qualification. Alan's résumé explicitly describes an on-premise enterprise environment with no mention of any cloud platform.\n\n**2. No Container/Orchestration Experience**\nDocker and Kubernetes are preferred qualifications with no indication Alan has worked with either.\n\n**3. No Event-Driven / Modern Messaging Experience**\nThe role prefers experience with Kafka, SQS, or similar message brokers. Alan lists JMS, which is dated and primarily on-premise; no modern distributed messaging platform is mentioned.\n\n**4. No Payments or Financial Services Background**\nThe role is on a *Payments Platform* team and prefers regulated industry experience. Alan's background is in manufacturing — a meaningfully different domain with different compliance, latency, and reliability concerns.\n\n**5. Limited CI/CD Depth**\nJenkins is listed, but only in the context of adding integration test stages — suggesting limited ownership of CI/CD pipelines, which is a required qualification.\n\n**6. No Observability Tooling**\nNo mention of Datadog, Grafana, Prometheus, or equivalent — a preferred qualification for a team prioritizing production reliability.\n\n**7. No Infrastructure-as-Code Experience**\nTerraform or CloudFormation experience is preferred; Alan shows none.\n\n---\n\nThe candidate meets several *required* qualifications (Java, REST APIs, SQL, CI/CD basics, degree, years of experience, mentorship), but **fails the cloud requirement outright** — a hard required qualification — and lacks depth across multiple preferred areas critical to this specific role.\n\nFINAL: REJECT"
+}

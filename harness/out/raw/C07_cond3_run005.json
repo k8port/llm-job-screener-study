@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:07:44.023303+00:00",
+  "finished_utc": "2026-09-28T22:07:59.367086+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 817
+  },
+  "response": "# Candidate Screening: Simone Vance\n\n## Scoring Rubric\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years total (2018–present) | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Strong Python throughout all roles | 10/10 |\n| RESTful API design and consumption | Explicitly designs and maintains REST APIs at current role | 10/10 |\n| Relational databases and SQL | PostgreSQL, Snowflake, SQL listed and used in multiple roles | 10/10 |\n| Major cloud provider (AWS, Azure, GCP) | AWS (EKS, S3, Lambda, RDS) — hands-on, not just listed | 10/10 |\n| CI/CD pipelines and automated testing | GitHub Actions CI, pytest, automated tests for ETL | 10/10 |\n| Bachelor's degree or equivalent | B.S. Information Systems, Univ. of Arkansas 2018 | 10/10 |\n\n**Required Qualifications Total: 70/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | Kafka at scale (~40M daily events) — strong evidence | 5/5 |\n| Containerization and orchestration | Docker + Kubernetes (EKS) in production | 5/5 |\n| Infrastructure-as-code | Terraform explicitly owned | 5/5 |\n| Financial services / regulated industry | Healthcare adjacent (Corley); transaction data for enterprise — partial match | 2/5 |\n| Observability tooling | Built observability layer with Prometheus and Grafana; carries on-call | 5/5 |\n| Mentoring / leading technical initiatives | Not explicitly mentioned | 0/5 |\n\n**Preferred Qualifications Total: 22/30**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Assessment | Score |\n|---|---|---|\n| Production systems ownership | On-call, owns infrastructure, operates live services | 10/10 |\n| Scalability / high-volume systems | 40M+ daily events via Kafka | 10/10 |\n| Collaboration / cross-team work | Serves APIs to downstream product teams; maintains contracts | 8/10 |\n| Mentorship | No evidence | 2/10 |\n\n**Core Competency Total: 30/40**\n\n---\n\n## Summary Scorecard\n\n| Category | Score | Max |\n|---|---|---|\n| Required Qualifications | 70 | 70 |\n| Preferred Qualifications | 22 | 30 |\n| Core Competencies | 30 | 40 |\n| **TOTAL** | **122** | **140** |\n| **Percentage** | **87%** | — |\n\n---\n\n## Judgment\n\nSimone meets **every required qualification** cleanly and checks nearly all preferred qualifications at a high level. The profile is data-platform focused rather than pure backend, but the work is substantively equivalent — Python services, REST APIs, cloud infrastructure, high-volume streaming, and observability in production. The only notable gaps are mentorship history and a direct fintech/regulated-industry background, both of which are preferred rather than required.\n\nFINAL: ADVANCE"
+}

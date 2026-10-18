@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:04:58.317240+00:00",
+  "finished_utc": "2026-09-28T22:05:07.945086+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 422
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n- **5+ years experience:** ✅ 8 years of professional software engineering experience (2018–present)\n- **Strong proficiency in Java, Python, or comparable backend language:** ✅ Python is core to their work; building production services\n- **Experience designing and consuming RESTful APIs:** ✅ Explicitly designs REST APIs with contract documentation and versioning\n- **Experience with relational databases and SQL:** ✅ PostgreSQL, SQL, Snowflake\n- **Hands-on experience with a major cloud provider:** ✅ AWS (EKS, S3, Lambda, RDS)\n- **CI/CD pipelines and automated testing:** ✅ GitHub Actions, pytest\n- **Bachelor's degree or equivalent:** ✅ B.S. Information Systems\n\n**Preferred Qualifications Assessment:**\n\n- **Event-driven architecture / Kafka:** ✅ Owns Kafka-based streaming at 40M daily events\n- **Containerization / Kubernetes / Docker:** ✅ EKS, Docker, Kubernetes\n- **Infrastructure-as-code (Terraform):** ✅ Manages infrastructure with Terraform\n- **Financial services background:** ✅ Transaction data for enterprise clients; healthcare regulated industry exposure\n- **Observability tooling:** ✅ Prometheus and Grafana\n- **Mentoring/technical leadership:** ⚠️ Not explicitly mentioned\n\n**Summary:** This candidate satisfies all required qualifications and nearly all preferred qualifications. The profile closely mirrors the responsibilities of the role — high-volume transaction data, scalable Python services, REST APIs, Kafka, cloud infrastructure, and observability. The primary gap is lack of explicit Java experience, but Python is listed as acceptable. The title and scope are Senior-level equivalent.\n\nFINAL: ADVANCE"
+}

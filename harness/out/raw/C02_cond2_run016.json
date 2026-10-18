@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:22:36.676749+00:00",
+  "finished_utc": "2026-09-28T21:22:49.217399+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 338
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Potential Weaknesses Identified\n\n1. **Single-employer depth**: The candidate has spent the majority of his career (2019–Present, ~6 years) at Coventry Financial. While this shows loyalty and depth, it may indicate limited exposure to diverse engineering cultures, technology stacks, or organizational approaches.\n\n2. **Python proficiency unclear**: Python is listed in Skills but does not appear in any job description bullet. It is unclear whether this represents meaningful professional experience or surface-level familiarity.\n\n3. **Limited evidence of leading technical initiatives beyond immediate team**: The preferred qualification asks for experience \"leading small technical initiatives.\" Mentoring two engineers is noted, but there is no explicit mention of owning a cross-team initiative, technical roadmap contribution, or project lead role.\n\n4. **Infrastructure-as-code listed but underdeveloped**: Terraform appears in the Skills section but is not substantiated by any specific experience bullet, leaving depth uncertain.\n\n5. **No explicit observability narrative beyond Datadog listing**: While Datadog is in Skills and there is one performance improvement anecdote, there is no explicit description of building or owning observability infrastructure (dashboards, alerting, SLOs), which is a preferred qualification.\n\n### Strengths Noted (for context)\nThese weaknesses are relatively minor. The candidate meets **all required qualifications** and a strong majority of preferred qualifications with direct, domain-matched experience in payments/financial services.\n\n---\n\nFINAL: ADVANCE"
+}

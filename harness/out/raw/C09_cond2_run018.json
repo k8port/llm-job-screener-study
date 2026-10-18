@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:41.188484+00:00",
+  "finished_utc": "2026-09-28T22:23:51.374428+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 468
+  },
+  "response": "## Screening Assessment: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n1. **No cloud experience (AWS, Azure, or GCP):** The candidate's résumé lists no cloud platforms. Cloud proficiency is a **required** qualification for this role.\n\n2. **Limited/outdated Java experience:** The candidate uses Java 8, which dates to 2014. There is no indication of modern Java development (Java 11+, Spring Boot, microservices architecture), which is central to contemporary backend engineering.\n\n3. **No REST API experience documented:** The role requires designing and consuming RESTful APIs. The candidate's services appear to be legacy web-layer work (JSP, Servlets), with no mention of REST API design or consumption.\n\n4. **No CI/CD pipeline experience of substance:** Jenkins is listed as \"basic\" only. CI/CD is a **required** qualification.\n\n5. **No containerization or orchestration experience:** Docker and Kubernetes are not mentioned at all (preferred but indicative of modern stack alignment).\n\n6. **No event-driven architecture or message broker experience:** Kafka, SQS, or similar tools are absent.\n\n7. **No observability tooling experience:** Datadog, Grafana, Prometheus are not mentioned.\n\n8. **Primarily mainframe-centric background:** The bulk of experience is in COBOL, JCL, and z/OS — a technology stack that does not transfer to the modern distributed backend services environment this role requires.\n\n9. **No mentorship or technical leadership evidence:** Despite 16 years of experience, there is no documented mentoring or initiative leadership.\n\n10. **No infrastructure-as-code experience:** Terraform or CloudFormation are absent.\n\n### Summary\n\nRaymond meets the education requirement and has relevant domain experience in financial services and SQL. However, he is missing **multiple required qualifications** — cloud experience, modern REST API development, and meaningful CI/CD experience — and nearly all preferred qualifications. His background is heavily mainframe/legacy-oriented and does not align with the modern distributed systems stack this role demands.\n\nFINAL: REJECT"
+}

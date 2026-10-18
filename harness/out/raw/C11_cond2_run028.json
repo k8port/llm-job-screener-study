@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:41:11.043999+00:00",
+  "finished_utc": "2026-09-28T22:41:22.343170+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 503
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Potential Weaknesses Identified\n\n**Critical Gaps (Required Qualifications):**\n\n1. **Not a software engineer by background** — Curtis is a systems administrator. The role requires designing and building backend services and APIs; his experience is in infrastructure operations, not software development.\n\n2. **No proficiency in Java or Python** — His scripting experience is limited to Bash and PowerShell, which are operational/automation tools, not backend application development languages. This is a hard requirement.\n\n3. **No experience designing or consuming RESTful APIs** — No mention of API design or integration work anywhere in the résumé.\n\n4. **No application development or service design experience** — There is no evidence of building scalable backend services, which is the core function of this role.\n\n5. **SQL listed as \"basic\"** — The role requires solid relational database and SQL experience; he self-rates at a beginner level.\n\n6. **No CI/CD pipeline or automated testing experience** — He lists Git at a basic level; no mention of CI/CD tools (Jenkins, GitHub Actions, etc.) or test frameworks.\n\n**Preferred Qualification Gaps:**\n\n7. **No Kafka/SQS or event-driven architecture experience.**\n8. **No Kubernetes or container orchestration** — Docker listed as \"basic\" only.\n9. **No infrastructure-as-code experience** (Terraform, CloudFormation).\n10. **No observability tooling** relevant to software systems (Datadog, Grafana, Prometheus).\n11. **No mentorship or technical leadership** of engineers.\n\n**Marginal Positives:**\n- Azure cloud exposure (VM/networking) partially satisfies the cloud requirement, but at an infrastructure level, not application development.\n- Healthcare background could loosely relate to regulated industry experience.\n- On-call rotation experience is transferable.\n\n### Summary\n\nCurtis's profile does not match the role. He is a competent systems administrator, but this is a **Senior Software Engineer** position requiring backend application development expertise. He lacks the foundational qualifications — software engineering experience, a backend programming language, API development, and CI/CD — that are non-negotiable for this role.\n\nFINAL: REJECT"
+}

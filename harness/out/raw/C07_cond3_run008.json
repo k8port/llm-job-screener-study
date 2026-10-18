@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:07:52.810018+00:00",
+  "finished_utc": "2026-09-28T22:08:07.963838+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 814
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Each worth 10 points, max 60 pts)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years total (2018–present); Senior title since 2022 | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Python is core language throughout career | 10/10 |\n| RESTful API design and consumption | Explicitly designs and maintains REST APIs for downstream teams | 10/10 |\n| Relational databases and SQL | PostgreSQL, Snowflake, RDS, SQL skills documented | 10/10 |\n| Hands-on major cloud provider (AWS/Azure/GCP) | AWS (EKS, S3, Lambda, RDS) clearly documented | 10/10 |\n| CI/CD pipelines and automated testing | GitHub Actions CI, pytest, automated transformation tests | 10/10 |\n\n**Required Qualifications Total: 60/60**\n\n---\n\n### Preferred Qualifications (Each worth 5 points, max 30 pts)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | Kafka — 40M daily events; strong ownership | 5/5 |\n| Containerization & orchestration (Docker, Kubernetes) | Docker + Kubernetes (EKS) explicitly listed | 5/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | Terraform — manages service infrastructure | 5/5 |\n| Financial services / regulated industry background | Healthcare-adjacent data (Corley); transaction data at Redmond — indirect exposure | 3/5 |\n| Observability tooling (Datadog, Grafana, Prometheus) | Built observability layer with Prometheus + Grafana; owns on-call | 5/5 |\n| Mentoring / leading small technical initiatives | Not explicitly stated; carries senior title and ownership signals | 2/5 |\n\n**Preferred Qualifications Total: 25/30**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Notes | Rating |\n|---|---|---|\n| Scalable backend service design | Python services at enterprise scale (40M events/day) | Strong |\n| Production ownership & reliability | On-call, observability layer ownership | Strong |\n| Cloud-native infrastructure | EKS, Terraform, Docker/K8s — hands-on | Strong |\n| Collaboration with product/platform teams | API contracts, downstream team partnership documented | Strong |\n| Mentorship/leadership | Implicit from seniority; not explicitly evidenced | Moderate |\n\n---\n\n### Overall Score\n\n| Category | Score |\n|---|---|\n| Required Qualifications | 60/60 |\n| Preferred Qualifications | 25/30 |\n| **Total** | **85/90** |\n\n---\n\n### Summary Judgment\n\nSimone Vance is an exceptionally strong match. She satisfies **all six required qualifications** and **five of six preferred qualifications** with direct, concrete evidence. Her background in high-volume transaction data pipelines, Kafka event streaming, AWS/EKS infrastructure, REST API ownership, and observability tooling maps closely to the Payments Platform team's needs. The only minor gaps are explicit mentorship evidence and deep regulated-industry (payments-specific) experience — neither of which is disqualifying at the required level.\n\nFINAL: ADVANCE"
+}

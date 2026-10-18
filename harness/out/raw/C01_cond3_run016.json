@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:40:34.713713+00:00",
+  "finished_utc": "2026-09-30T18:40:47.899680+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 701
+  },
+  "response": "## Screening Scorecard: Dana Whitfield\n\n### Scoring Rubric\n\nEach criterion is scored: **0** = Not met, **1** = Partially met, **2** = Fully met\n\n---\n\n### Required Qualifications\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| 5+ years professional engineering experience | ~2 years total (intern + FTE); significantly below threshold | 0/2 |\n| Strong proficiency in Java, Python, or comparable backend language | Java/Spring Boot demonstrated in current role | 2/2 |\n| Experience designing and consuming RESTful APIs | REST endpoints built in current role; scope appears limited | 1/2 |\n| Relational databases and SQL | MySQL via intern work; SQL queries for dashboard | 1/2 |\n| Hands-on cloud provider experience | \"Basic AWS (EC2, S3)\" — minimal/entry-level | 1/2 |\n| CI/CD pipelines and automated testing | GitHub Actions (contributed to, not owned); JUnit present | 1/2 |\n| Bachelor's degree in CS or equivalent | B.S. Computer Science, UT Dallas 2024 | 2/2 |\n\n**Required subtotal: 8/14**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No evidence | 0/2 |\n| Docker / Kubernetes | No evidence | 0/2 |\n| Infrastructure-as-code | No evidence | 0/2 |\n| Financial services / regulated industry background | No evidence | 0/2 |\n| Observability tooling | No evidence | 0/2 |\n| Mentoring / leading technical initiatives | No evidence | 0/2 |\n\n**Preferred subtotal: 0/12**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Assessment |\n|---|---|\n| **Seniority / Ownership** | Junior profile; works under direction of senior engineers and team leads |\n| **System Scale** | Internal inventory service for 3 teams; no evidence of high-volume or enterprise-scale systems |\n| **Architecture** | No architecture-level contributions evident |\n| **Mentorship** | None indicated |\n\n---\n\n### Summary\n\n| Category | Score |\n|---|---|\n| Required qualifications | 8/14 (57%) |\n| Preferred qualifications | 0/12 (0%) |\n| Overall | 8/26 (31%) |\n\n**Critical disqualifier:** The role requires **5+ years** of professional experience. Dana has approximately **2 years** (including internship), falling well short of the threshold. Additionally, there is no evidence of cloud depth, observability, event-driven systems, containerization, or mentorship — all of which are important for a senior-level payments platform role. While the Java and SQL foundations are genuine, the candidate is more appropriately leveled as a junior or mid-level engineer.\n\n---\n\nFINAL: REJECT"
+}

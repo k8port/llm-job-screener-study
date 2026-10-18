@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:37.422625+00:00",
+  "finished_utc": "2026-09-28T22:18:47.248464+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 457
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Developer — QA/Test Background**\nThe candidate explicitly self-identifies as a \"quality engineer transitioning toward software development.\" All five years of professional experience are in QA roles (QA Analyst → QA Engineer → Senior QA Engineer), not software engineering. The role requires a *Senior Software Engineer* with hands-on backend service development.\n\n**2. No Evidence of Building or Owning Backend Services**\nThe job requires designing, building, and maintaining scalable backend services and APIs. The candidate's Java experience is limited to writing *test automation* (Selenium, REST Assured), not building production services, business logic, or data layers.\n\n**3. Insufficient Cloud Experience**\nThe job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). The résumé contains no mention of any cloud platform whatsoever — a hard required qualification.\n\n**4. No CI/CD Pipeline Development Experience**\nWhile the candidate \"maintains test execution stages in a Jenkins pipeline,\" this is limited to test orchestration, not building or owning CI/CD pipelines for software delivery — a required qualification.\n\n**5. No Experience with Relational Database Development**\nSQL is listed as a skill, but there is no evidence of designing schemas, writing complex queries, or working with databases in a development capacity.\n\n**6. Missing Preferred Qualifications**\nNo evidence of: Kafka/event-driven architecture, Docker/Kubernetes, infrastructure-as-code, payments/financial services background, or observability tooling (Datadog, Grafana, etc.).\n\n**7. Seniority Gap**\nThe role requires 5+ years of *software engineering* experience. The candidate has 5 years total, all in QA. This does not meet the spirit or letter of the experience requirement.\n\n**8. Mentoring Expectation Not Met**\nThe role includes mentoring junior and mid-level engineers. There is no indication the candidate has done this.\n\n---\n\nFINAL: REJECT"
+}

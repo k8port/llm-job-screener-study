@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:34:31.191777+00:00",
+  "finished_utc": "2026-09-28T21:34:43.545394+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 571
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-Focused, Not Backend-Focused**\nThe candidate explicitly self-identifies as a \"frontend-focused engineer.\" The role requires a Senior Software Engineer for a **Payments Platform backend** team. While she has done some Node.js/Express work, it is in service of frontend needs (session handling, aggregation layers), not standalone, scalable backend service design.\n\n**2. No Java or Python Experience**\nThe required qualifications list Java, Python, or a comparable backend language. The candidate's stack is TypeScript/JavaScript/Node.js — which could be argued as \"comparable,\" but there is no demonstrated experience in Java or Python, which are the dominant languages in enterprise payments backends and explicitly named in the JD.\n\n**3. No Experience in Financial Services, Payments, or Regulated Industries**\nHer background is retail and media. The preferred qualification of payments/financial services experience is entirely absent, which is significant given the role is on a Payments Platform.\n\n**4. Limited Cloud Experience**\nHer AWS experience is limited to S3, CloudFront, and Lambda — primarily frontend/static asset delivery services. There is no evidence of backend-oriented AWS services (e.g., RDS, ECS, API Gateway, SQS) relevant to high-volume transaction processing.\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nNo mention of Kafka, SQS (in a backend capacity), or any event-driven systems — a preferred but important qualification for a payments platform.\n\n**6. No Kubernetes or Infrastructure-as-Code Experience**\nDocker is listed, but no Kubernetes or IaC tools (Terraform, CloudFormation) are present.\n\n**7. No Observability Tooling Experience**\nNo mention of Datadog, Grafana, Prometheus, or equivalent.\n\n**8. Non-CS Degree**\nHer degree is a B.A. in Graphic Design — not Computer Science or a closely related field. While \"equivalent practical experience\" is accepted, her experience is heavily frontend-weighted.\n\n**9. No Evidence of High-Volume Transaction or Distributed Systems Experience**\nThe role involves processing high-volume transactions for enterprise clients. Her portal serves ~400K monthly users in a frontend context — there is no evidence of designing or operating high-throughput distributed backend systems.\n\n**10. No On-Call or Production Backend Ownership**\nThe role requires participation in on-call rotation and ownership of backend services in production. Her résumé reflects no such experience.\n\n---\n\nFINAL: REJECT"
+}

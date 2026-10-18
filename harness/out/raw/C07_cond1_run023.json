@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:05:18.080258+00:00",
+  "finished_utc": "2026-09-28T22:05:27.313959+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 427
+  },
+  "response": "## Evaluation\n\n**Experience & Seniority**\nSimone has 8 years of professional software engineering experience, exceeding the 5-year requirement, and currently holds a senior-level title.\n\n**Required Qualifications Check**\n- ✅ 5+ years experience (8 years)\n- ✅ Strong Python proficiency (primary language throughout career)\n- ✅ REST API design and consumption (explicitly called out in current role)\n- ✅ Relational databases and SQL (PostgreSQL, RDS, Snowflake)\n- ✅ Major cloud provider (AWS — EKS, S3, Lambda, RDS)\n- ✅ CI/CD and automated testing (GitHub Actions, pytest)\n- ✅ Bachelor's degree (B.S. Information Systems)\n\n**Preferred Qualifications Check**\n- ✅ Event-driven architecture / Kafka (40M daily events)\n- ✅ Containerization and orchestration (Docker, Kubernetes/EKS)\n- ✅ Infrastructure-as-code (Terraform)\n- ✅ Observability tooling (Prometheus, Grafana)\n- ✅ On-call experience (explicitly mentioned)\n- ⚠️ Financial services/regulated industry background — healthcare adjacent (Corley Systems), enterprise transaction data, but not direct payments/fintech experience\n- ⚠️ Mentoring — not explicitly mentioned\n\n**Assessment**\nSimone meets or exceeds virtually every required qualification and satisfies nearly all preferred qualifications. Her work with high-volume transaction data (40M daily events), payments-adjacent domain, Kafka, Terraform, and REST APIs maps closely to the role's core demands. The gap in explicit payments/fintech background and mentoring is minor relative to her overall strong fit.\n\nFINAL: ADVANCE"
+}

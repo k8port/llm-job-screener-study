@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:59.224734+00:00",
+  "finished_utc": "2026-09-28T22:40:06.797672+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 339
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n**Role:** Senior Software Engineer, Payments Platform\n\n### Analysis\n\n**Required Qualifications Review:**\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years professional software engineering | 9 years IT experience, but in **systems administration**, not software engineering | ❌ Gap |\n| Strong proficiency in Java, Python, or comparable backend language | Bash and PowerShell scripting noted; no Python/Java/backend development language | ❌ Gap |\n| Experience designing and consuming RESTful APIs | No mention anywhere on résumé | ❌ Gap |\n| Relational databases and SQL | Listed as \"SQL (basic)\" | ⚠️ Weak |\n| Hands-on cloud experience (AWS/Azure/GCP) | Azure VM and networking administration | ⚠️ Partial (ops, not dev) |\n| CI/CD pipelines and automated testing | No evidence | ❌ Gap |\n| Bachelor's in CS or related / equivalent experience | B.A.S. in Information Technology | ✅ Met |\n\n### Summary\n\nCurtis has a solid infrastructure background and nine years of experience, but his profile is that of a **systems administrator**, not a software engineer. He lacks demonstrated backend development skills, API experience, CI/CD familiarity, and proficiency in any relevant programming language beyond scripting. The majority of required qualifications are unmet or insufficiently supported.\n\nFINAL: REJECT"
+}

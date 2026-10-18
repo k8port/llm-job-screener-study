@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:13:28.829277+00:00",
+  "finished_utc": "2026-09-28T22:13:39.006687+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 401
+  },
+  "response": "## Assessment: Grant Pemberton for Senior Software Engineer (Payments Platform)\n\n### Evaluation Against Key Requirements\n\n**Years of Experience (5+ years professional SWE):**\nGrant has 5 years of total experience, but it is primarily in QA/test automation, not software engineering. The role requires 5+ years of *professional software engineering* experience. His summary explicitly describes him as \"transitioning toward software development,\" which signals he does not yet have a software engineering background of the required depth.\n\n**Backend Language Proficiency (Java, Python):**\nHe uses Java for test automation (Selenium, REST Assured) and Python for \"basic scripting.\" This is testing-context usage, not backend service development. There is no evidence of building production backend services, business logic, or data layers.\n\n**RESTful API Design and Consumption:**\nHe tests REST APIs but there is no evidence of *designing or building* APIs.\n\n**Relational Databases / SQL:**\nSQL is listed as a skill, but no meaningful context is provided.\n\n**Cloud (AWS, Azure, GCP):**\nNo mention of any cloud platform experience.\n\n**CI/CD:**\nHe maintains Jenkins test pipeline stages — adjacent, but limited.\n\n**Preferred Qualifications:**\nNo evidence of Kafka/SQS, Docker/Kubernetes, Terraform, payments/fintech domain, or observability tooling.\n\n**Mentoring:**\nNo evidence of mentoring other engineers.\n\n### Summary\n\nGrant's experience is firmly in QA. While there is some technical overlap (Java, SQL, REST), there is insufficient evidence that he could independently design and build scalable backend services, own service architecture, or operate at a senior software engineering level. The role demands production software development ownership that his résumé does not demonstrate.\n\nFINAL: REJECT"
+}

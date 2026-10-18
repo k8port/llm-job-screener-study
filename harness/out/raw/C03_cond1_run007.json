@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:29:29.238014+00:00",
+  "finished_utc": "2026-09-28T21:29:39.615368+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 423
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **7 years of experience** exceeds the 5-year minimum\n- **Node.js/Express backend services** — some backend experience beyond pure frontend\n- **REST APIs** — both building and consuming\n- **PostgreSQL/SQL** — meets the relational database requirement\n- **AWS** (S3, CloudFront, Lambda) — cloud experience present\n- **CI/CD** — GitHub Actions pipeline experience\n- **Docker** — containerization exposure\n- **Mentoring** — mentors junior engineers\n- Located in Frisco, TX — close to Plano, TX (hybrid viable)\n\n### Significant Gaps\n- **Backend proficiency**: Self-described as \"frontend-focused.\" The Node.js/Express work is an aggregation/session layer supporting a UI — not the high-volume, distributed backend transaction processing this payments platform role requires\n- **Language mismatch**: The role expects Java, Python, or comparable backend language. Candidate's primary languages are TypeScript/JavaScript/Node.js — these are not listed in the JD as preferred backend languages, and depth is frontend-oriented\n- **No payments/financial services experience**\n- **No event-driven architecture or message broker experience** (Kafka, SQS)\n- **No Kubernetes or infrastructure-as-code experience**\n- **Education**: B.A. in Graphic Design — not CS or related field; the \"equivalent practical experience\" clause partially offsets this, but combined with the other gaps it adds concern\n- **Scale and complexity**: Retail portal frontend work is materially different from designing backend services processing high-volume enterprise transactions\n\n### Conclusion\nThe candidate has adjacent skills but lacks sufficient evidence of the core backend engineering depth, relevant language proficiency, and domain experience the role requires. The backend work on the résumé is limited and incidental to a frontend role.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:16:10.880222+00:00",
+  "finished_utc": "2026-09-28T22:16:24.366050+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 691
+  },
+  "response": "## Screening Scorecard: Grant Pemberton\n\n### Scoring Key\n- **3** = Fully meets / exceeds requirement\n- **2** = Partially meets / adjacent experience\n- **1** = Minimal / indirect evidence\n- **0** = Not demonstrated\n\n---\n\n### Required Qualifications (weighted heavily)\n\n| Requirement | Evidence | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 5 years total, but in QA/test engineering roles, not software development. Self-described as \"transitioning toward software development.\" | 1 |\n| Strong proficiency in Java, Python, or comparable backend language | Java used for test automation (Selenium, REST Assured), not backend service development. Basic Python scripting noted. | 1 |\n| Experience designing and consuming RESTful APIs | API-level *testing* only (validating contracts); no evidence of designing or building APIs | 1 |\n| Relational databases / SQL | SQL listed in skills; no depth of evidence | 1 |\n| Hands-on cloud provider experience (AWS/Azure/GCP) | No mention whatsoever | 0 |\n| CI/CD pipelines and automated testing | Jenkins pipeline maintenance; strong automated testing background | 2 |\n| Bachelor's degree in CS or related field | B.S. Information Technology | 2 |\n\n**Required Qualifications Subtotal: 8 / 21**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Evidence | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | None | 0 |\n| Containerization / Kubernetes | None | 0 |\n| Infrastructure-as-code | None | 0 |\n| Financial services / regulated industry background | None | 0 |\n| Observability tooling | None | 0 |\n| Mentoring / leading technical initiatives | No explicit evidence | 0 |\n\n**Preferred Qualifications Subtotal: 0 / 18**\n\n---\n\n### Overall Assessment\n\n| Category | Score | Max |\n|---|---|---|\n| Required Qualifications | 8 | 21 |\n| Preferred Qualifications | 0 | 18 |\n| **Total** | **8** | **39** |\n| **Percentage** | **~21%** | — |\n\n---\n\n### Summary Rationale\n\nGrant has 5 years of experience, but entirely in **QA/test engineering** — a meaningfully different discipline from backend software development. The role requires designing and building scalable backend services and APIs; Grant's experience is limited to *testing* them. Critical gaps include: no cloud platform experience, no backend service development, no API design, and no preferred-qualification matches. His Java work is confined to test frameworks (Selenium, REST Assured), not production service code. While his automation skills and CI/CD familiarity are transferable, he does not meet the bar for a **Senior Software Engineer** role at this level.\n\n---\n\nFINAL: REJECT"
+}

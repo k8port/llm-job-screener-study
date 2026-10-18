@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:58:03.515771+00:00",
+  "finished_utc": "2026-09-28T21:58:15.153343+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 480
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths\n- 7 years of backend engineering experience (exceeds 5-year requirement)\n- Strong Java/Spring Boot proficiency (core required language)\n- Solid REST API design and documentation experience\n- Relational database and SQL experience (Oracle/PL/SQL)\n- CI/CD experience (Jenkins pipelines, JUnit)\n- Mentoring junior engineers and code review leadership\n- On-call rotation participation\n- Relevant degree (B.S. Computer Engineering)\n- Local to Plano/DFW area\n\n---\n\n### Identified Weaknesses\n\n1. **No cloud experience.** The résumé shows exclusively on-premise infrastructure. AWS, Azure, and GCP are all absent. Cloud experience is a **required** qualification, making this a significant gap.\n\n2. **No containerization or orchestration experience.** Docker and Kubernetes are absent entirely. These are preferred but are closely tied to modern cloud-native backend work expected in a Payments Platform role.\n\n3. **No infrastructure-as-code experience.** Terraform or CloudFormation are not mentioned.\n\n4. **Limited event-driven architecture exposure.** JMS is listed, which is adjacent, but no experience with Kafka, SQS, or modern message brokers is indicated.\n\n5. **No observability tooling experience.** Datadog, Grafana, and Prometheus are absent.\n\n6. **No financial services or payments background.** The role is specifically a Payments Platform team; all experience is in manufacturing operations.\n\n7. **On-premise-only environment.** The candidate's entire career has been in a single company, on-premise stack, which may indicate a steep ramp-up for cloud-native distributed systems at scale.\n\n---\n\n### Summary\n\nAlan meets the baseline language, API, and database requirements and shows genuine seniority in his current role. However, he **fails to meet a clearly stated required qualification** (cloud provider experience) and lacks most of the preferred qualifications that are particularly important for a high-volume payments platform. The gaps are substantial and systemic rather than minor.\n\nFINAL: REJECT"
+}

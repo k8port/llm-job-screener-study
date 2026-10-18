@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:45.563277+00:00",
+  "finished_utc": "2026-09-28T22:43:53.925794+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 330
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer — Systems Administrator background**: Curtis's entire career has been in IT infrastructure and systems administration, not software engineering. The role requires someone who *designs and builds* software services, not manages servers.\n\n2. **No backend software development experience**: There is no evidence of professional software development in Java, Python, or any comparable backend language. His scripting (Bash, PowerShell) is for automation/ops tasks, not application development.\n\n3. **No API design or consumption experience**: The role requires experience designing and consuming RESTful APIs; this is entirely absent from his résumé.\n\n4. **No CI/CD or automated testing experience**: These are listed as required qualifications and are not mentioned anywhere on the résumé.\n\n5. **SQL and Git listed as \"basic\"**: The role requires meaningful experience with relational databases and SQL; self-described basic proficiency does not meet the bar.\n\n6. **Docker listed as \"basic\"**: While Docker is a preferred qualification, even this is self-assessed at only a beginner level.\n\n7. **No experience with event-driven architecture, Kafka, Kubernetes, Terraform, or observability tooling** relevant to the role's preferred qualifications.\n\n8. **No mentoring or technical leadership experience** in an engineering context.\n\n9. **Does not meet the 5+ years of software engineering experience** requirement — his experience is in a different discipline entirely.\n\nFINAL: REJECT"
+}

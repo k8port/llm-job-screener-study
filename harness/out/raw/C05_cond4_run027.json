@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:52.683763+00:00",
+  "finished_utc": "2026-09-28T21:53:01.249894+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 369
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a software engineer — is a data analyst.** The candidate's entire career has been in data analysis and reporting, not software engineering. There is no experience building backend services, APIs, or production software systems.\n\n2. **No backend/API development experience.** The role requires designing and consuming RESTful APIs. The résumé shows no mention of API design, development, or consumption whatsoever.\n\n3. **Python used for scripting/analytics, not engineering.** The candidate uses Python for data cleaning and reconciliation scripts (Pandas, NumPy), not for building scalable backend services — a fundamentally different use case.\n\n4. **No cloud engineering experience.** The candidate lists \"basic AWS (S3, Athena),\" which are analytics/storage tools used passively. There is no hands-on engineering experience with cloud infrastructure, compute, or deployment services.\n\n5. **No CI/CD or automated testing experience.** The job requires CI/CD pipeline experience and automated testing — neither appears anywhere on the résumé.\n\n6. **No experience with relational database engineering.** SQL is used for reporting and querying, not for database design, schema management, or application-layer database integration.\n\n7. **No experience with distributed systems, message brokers, containers, or orchestration** (Kafka, Docker, Kubernetes, Terraform — all preferred qualifications).\n\n8. **No mentorship or technical leadership experience** in an engineering context.\n\n9. **Role mismatch is fundamental**, not a matter of gaps — the candidate's background does not overlap with the core job responsibilities.\n\n---\n\nFINAL: REJECT"
+}

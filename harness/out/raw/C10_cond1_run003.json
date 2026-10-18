@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:30:20.683762+00:00",
+  "finished_utc": "2026-09-28T22:30:28.729455+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 415
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n- **5+ years professional software engineering experience** ✅ — 7 years of backend engineering (2019–present, excluding the career break)\n- **Strong proficiency in Java, Python, or comparable backend language** ✅ — Java/Spring Boot is her primary language; Python is listed in skills\n- **Experience designing and consuming RESTful APIs** ✅ — Explicitly designing REST APIs with versioned contracts at Dunmore\n- **Relational databases and SQL** ✅ — PostgreSQL, SQL-backed persistence workflows\n- **Hands-on experience with a major cloud provider** ✅ — AWS (ECS, SQS, SNS, RDS, Lambda)\n- **CI/CD pipelines and automated testing** ✅ — GitHub Actions, contract testing, CI coverage expansion, JUnit\n- **Bachelor's degree in CS or related field** ✅ — B.S. Mathematics (related field)\n\n**Preferred Qualifications Assessment:**\n\n- **Event-driven architecture / message brokers** ✅ — SQS and SNS in production\n- **Containerization and orchestration** ✅ — Docker, ECS\n- **Infrastructure-as-code** ✅ — Terraform\n- **Financial services / payments background** ✅ — Credit union payments, loan origination, account servicing; prior actuarial work\n- **Observability tooling** ✅ — Datadog\n- **Mentoring experience** ✅ — Currently mentoring two engineers\n\n**Summary:** Josephine meets every required qualification and nearly every preferred qualification. Her background in financial services payments is a direct match to the Payments Platform team context. The evidence strongly supports that she could perform this role successfully.\n\nFINAL: ADVANCE"
+}

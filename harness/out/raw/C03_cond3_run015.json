@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:33:18.655695+00:00",
+  "finished_utc": "2026-09-28T21:33:34.783878+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 885,
+    "output_tokens": 813
+  },
+  "response": "## Screening Scorecard: Priya Ashford\n\n### Scoring Rubric\n\nEach requirement is scored: **2 = Strong Match, 1 = Partial Match, 0 = No Evidence**\n\n---\n\n### Required Qualifications\n\n| Requirement | Score | Notes |\n|---|---|---|\n| 5+ years professional software engineering experience | 2 | ~7 years total (2019–present) |\n| Strong proficiency in Java, Python, or comparable backend language | 1 | Node.js/Express is backend-capable but self-described as \"frontend-focused\"; no Java or Python |\n| RESTful API design and consumption | 1 | Consumes APIs extensively; builds aggregation/session layers, but not core backend services |\n| Relational databases and SQL | 1 | PostgreSQL/SQL listed in skills; no depth of evidence in experience |\n| Hands-on cloud experience (AWS, Azure, GCP) | 1 | AWS listed (S3, CloudFront, Lambda) — edge/CDN focused, limited compute/platform depth |\n| CI/CD and automated testing | 2 | GitHub Actions, Jest, Testing Library clearly evidenced |\n| Bachelor's degree or equivalent | 1 | B.A. Graphic Design (not CS/related); practical experience partially compensates |\n\n**Required Subtotal: 9 / 14**\n\n---\n\n### Preferred Qualifications\n\n| Requirement | Score | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | 0 | No evidence |\n| Containerization/orchestration (Docker, Kubernetes) | 1 | Docker listed; no Kubernetes |\n| Infrastructure-as-code (Terraform, CloudFormation) | 0 | No evidence |\n| Financial services / regulated industry | 0 | Retail background only |\n| Observability tooling (Datadog, Grafana, Prometheus) | 0 | No evidence |\n| Mentoring / leading technical initiatives | 2 | Clearly evidenced — mentors juniors, leads architecture standards |\n\n**Preferred Subtotal: 3 / 12**\n\n---\n\n### Overall Assessment\n\n| Category | Score | Max |\n|---|---|---|\n| Required qualifications | 9 | 14 |\n| Preferred qualifications | 3 | 12 |\n| **Total** | **12** | **26** |\n| **Weighted %** | **~46%** | |\n\n---\n\n### Summary of Concerns\n\n- **Core backend gap**: The role requires designing high-volume transaction processing services; Priya is self-described as \"frontend-focused\" — her backend work is primarily in support of UI layers, not independent platform services\n- **Language mismatch**: No Java or Python; Node.js is partial compensation but not a strong fit for a Payments Platform backend role\n- **No payments/fintech experience**: A meaningful gap for a regulated-industry role\n- **Missing infrastructure depth**: No Kafka/SQS, no Kubernetes, no IaC, no observability tooling\n- **Degree mismatch**: Graphic Design degree adds minor risk, though experience partially offsets\n\n### Strengths\n\n- Strong years of experience and mentorship track record\n- Local (Frisco, TX — near Plano)\n- Some backend exposure and REST API work\n- CI/CD and testing competency\n\n---\n\n**Priya presents as a strong senior frontend engineer but falls meaningfully short of the backend platform engineering profile this role requires.**\n\nFINAL: REJECT"
+}

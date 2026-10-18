@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:21:27.966399+00:00",
+  "finished_utc": "2026-09-28T21:21:37.350978+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 917,
+    "output_tokens": 474
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Evidence Review\n\n**Required Qualifications:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | 8 years (2018–present) | ✅ |\n| Java, Python, or comparable backend language | Java/Spring Boot primary; Python listed | ✅ |\n| RESTful API design/consumption | REST, OpenAPI specs, API contract ownership | ✅ |\n| Relational databases / SQL | PostgreSQL, SQL, AWS RDS | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | AWS (EKS, SQS, RDS, Lambda) | ✅ |\n| CI/CD and automated testing | GitHub Actions CI pipeline, JUnit, test coverage expansion | ✅ |\n| Bachelor's in CS or equivalent | B.S. Computer Science, Texas A&M, 2018 | ✅ |\n\n**Preferred Qualifications:**\n\n| Preference | Evidence |\n|---|---|\n| Event-driven architecture / message brokers | Kafka (topics, consumer groups), SQS |\n| Containerization / orchestration | Docker, Kubernetes/EKS, Helm |\n| Infrastructure-as-code | Terraform |\n| Financial services / payments background | 6+ years at Coventry Financial in card authorization/settlement |\n| Observability tooling | Datadog |\n| Mentoring / technical leadership | Mentored two mid-level engineers; architecture reviews |\n\n### Summary\n\nMarcus meets **every required qualification** and satisfies **all six preferred qualifications**. His background is a near-exact match: he currently holds a Senior Software Engineer title at a financial institution, building high-volume transaction services in Java with Kafka, AWS, and Docker/Kubernetes — precisely the technical profile the role demands. He is also local to Plano, TX.\n\nThere is strong, specific evidence across technical skills, domain fit, and seniority level that he could successfully perform this role.\n\nFINAL: ADVANCE"
+}

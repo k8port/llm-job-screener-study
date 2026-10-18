@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:44.443145+00:00",
+  "finished_utc": "2026-09-30T18:41:52.830822+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 408
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience.** The role requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, full-time engineer 2025–present). This is a significant gap.\n\n2. **No demonstrated senior-level scope or ownership.** The résumé reflects work that is clearly junior in nature: resolving defects from a support queue, contributing to a pipeline \"maintained by a senior engineer,\" and working under a team lead. The role requires significant ownership over service design and delivery.\n\n3. **No cloud depth.** The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which does not meet the bar for a senior role operating a payments platform.\n\n4. **No event-driven or distributed systems experience.** There is no mention of Kafka, SQS, or any message broker/event-driven architecture — a preferred qualification that is highly relevant to high-volume transaction processing.\n\n5. **No containerization or orchestration experience.** Docker and Kubernetes are not mentioned anywhere on the résumé.\n\n6. **No observability tooling experience.** No mention of Datadog, Grafana, Prometheus, or equivalent.\n\n7. **No mentorship or technical leadership experience.** The role explicitly requires mentoring junior/mid-level engineers; the résumé shows no such experience.\n\n8. **No financial services or regulated industry background.**\n\n9. **No infrastructure-as-code experience** (Terraform, CloudFormation, etc.).\n\n## Judgment\n\nThe candidate falls far short of the minimum experience requirement and lacks nearly all of the preferred qualifications. This is a junior engineer being evaluated for a senior role.\n\nFINAL: REJECT"
+}

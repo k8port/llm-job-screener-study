@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:48.683188+00:00",
+  "finished_utc": "2026-09-28T22:15:59.173827+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 433
+  },
+  "response": "## Candidate Evaluation: Grant Pemberton\n\n### Potential Weaknesses\n\n1. **Not a software developer — QA background throughout:** The candidate explicitly self-identifies as \"transitioning toward software development.\" All five years of experience are in QA/testing roles, not backend software engineering. The role requires building and owning production services, not testing them.\n\n2. **No evidence of designing or building backend services or APIs:** The job requires designing and building scalable backend services and APIs. Pemberton's Java usage is confined to test automation (Selenium, REST Assured, TestNG) — there is no indication he has built application-layer or production code.\n\n3. **No cloud platform experience:** AWS, Azure, or GCP experience is a required qualification. There is no mention of any cloud provider anywhere on the résumé.\n\n4. **No relational database depth beyond SQL mentions:** SQL is listed as a skill, but there is no evidence of database design, schema work, query optimization, or ORM usage in a development context.\n\n5. **No event-driven architecture or message broker experience:** Kafka, SQS, or similar are preferred but not present.\n\n6. **No containerization/orchestration experience:** Docker and Kubernetes are absent.\n\n7. **No mentoring or technical leadership experience:** The role expects mentoring of junior/mid engineers; the résumé shows no such responsibility.\n\n8. **Python is \"basic scripting\" only:** The job requires strong proficiency in a backend language; Python is listed at a minimal level.\n\n9. **CI/CD experience is limited to Jenkins pipeline maintenance** (triaging test failures), not building or owning pipelines as a developer.\n\n### Summary\n\nPemberton meets the years-of-experience threshold numerically, but the substance of that experience does not align with a senior backend engineering role. Critical required qualifications — cloud experience, backend service development, API design — are absent or undemonstrated.\n\nFINAL: REJECT"
+}

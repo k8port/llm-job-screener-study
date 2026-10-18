@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:37:58.820026+00:00",
+  "finished_utc": "2026-09-30T18:38:07.467928+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 813,
+    "output_tokens": 367
+  },
+  "response": "## Assessment\n\n**Required Qualifications Review:**\n\n- **5+ years of professional experience** — The candidate has approximately 1–2 years of professional experience (internship 2024–2025, full-time 2025–present). This is a significant shortfall against the 5+ year requirement.\n- **Strong proficiency in Java or comparable backend language** — Demonstrated in Java/Spring Boot. ✓\n- **RESTful API design and consumption** — Demonstrated. ✓\n- **Relational databases and SQL** — Demonstrated via MySQL. ✓\n- **Major cloud provider hands-on experience** — Listed as \"basic AWS (EC2, S3).\" Minimal; does not suggest meaningful cloud architecture experience. Weak/partial.\n- **CI/CD pipelines and automated testing** — Contributes to a pipeline maintained by a senior engineer; writes unit/integration tests. Partial.\n- **Bachelor's degree in CS** — ✓\n\n**Additional Gaps vs. Job Description:**\n\n- No evidence of designing scalable, high-volume systems\n- No experience mentoring others\n- No exposure to event-driven architecture, containers, observability tooling, or financial/payments domains\n- Role requires significant ownership and architecture-level decision-making; the candidate is currently resolving defects and contributing to others' pipelines\n\n**Summary:**\n\nThe candidate is an early-career engineer. The most disqualifying gap is experience: ~2 years vs. the required 5+. This is not a borderline case — the candidate lacks the depth, autonomy, and technical breadth the role demands.\n\nFINAL: REJECT"
+}

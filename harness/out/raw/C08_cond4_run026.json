@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:42.538514+00:00",
+  "finished_utc": "2026-09-28T22:18:51.933613+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 393
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer — QA Background:** The candidate self-identifies as a \"quality engineer transitioning toward software development.\" The role requires a practicing Senior Software Engineer who can immediately design and build production backend services, not someone in transition.\n\n2. **No Production Software Development Experience:** There is no evidence of building, deploying, or owning production backend services or APIs. Writing test suites against APIs is fundamentally different from designing and building them.\n\n3. **Java Usage is Test-Scoped Only:** While Java is listed as a skill, its use is confined to test automation frameworks (Selenium, REST Assured, TestNG) — not backend service development. This does not satisfy the spirit of the \"strong proficiency in Java\" requirement.\n\n4. **No Cloud Experience:** There is no mention of AWS, Azure, or GCP — a hard required qualification.\n\n5. **No CI/CD Pipeline Ownership:** Maintaining test execution stages in Jenkins is materially different from owning CI/CD pipelines for software delivery.\n\n6. **No Relational Database / SQL Development Experience:** SQL is listed as a skill but is not demonstrated in any engineering context (e.g., schema design, query optimization, ORM usage).\n\n7. **No Experience with Preferred Qualifications:** No evidence of Kafka/SQS, Docker/Kubernetes, Terraform, observability tooling, or financial services experience.\n\n8. **No Mentorship or Technical Leadership:** No indication of mentoring engineers or leading technical initiatives.\n\n9. **Insufficient Seniority for the Role:** Even considering all experience, the candidate's work has been in QA/testing functions, not the senior-level backend engineering this role demands.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:13:47.389941+00:00",
+  "finished_utc": "2026-09-28T22:13:55.890933+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 370
+  },
+  "response": "## Assessment\n\n**Role:** Senior Software Engineer, Payments Platform (backend services, high-volume transactions)\n\n**Key Required Qualifications vs. Candidate Evidence:**\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years professional SWE experience | 5 years total, but primarily in QA/testing roles | ❌ Gap |\n| Strong proficiency in Java, Python, or comparable backend language | Java used for test automation; basic Python scripting | ⚠️ Limited — test automation ≠ backend service development |\n| Designing and consuming RESTful APIs | Writes API-level *tests*; no evidence of *designing or building* APIs | ❌ Gap |\n| Relational databases / SQL | SQL listed as a skill | ✅ Partial |\n| Major cloud provider (AWS, Azure, GCP) | No mention whatsoever | ❌ Missing |\n| CI/CD pipelines | Jenkins pipeline maintenance | ⚠️ Peripheral (test execution, not build/deploy pipelines) |\n| Automated testing | Strong — this is his core expertise | ✅ |\n\n**Summary:**\n\nGrant has five years of experience, but it is squarely in QA/test automation, not software development. His own summary acknowledges he is *transitioning* toward software development. He has not built backend services, designed APIs, worked with cloud infrastructure, or demonstrated the software design/architecture skills central to this senior role. The Java experience is in a test automation context, not production service development. There is insufficient evidence he could perform the role as described.\n\nFINAL: REJECT"
+}

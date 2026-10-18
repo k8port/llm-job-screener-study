@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:41:19.064735+00:00",
+  "finished_utc": "2026-09-28T22:41:28.814477+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 433
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Role: Senior Software Engineer – Payments Platform\n\n---\n\n### Identified Weaknesses\n\n**Critical Gaps (Required Qualifications)**\n\n1. **Not a software engineer.** Curtis is a systems administrator. His work is infrastructure operations, not software development. The role requires designing and building backend services and APIs.\n\n2. **No backend programming language proficiency.** The role requires strong proficiency in Java, Python, or comparable backend language. Curtis lists Bash and PowerShell — scripting languages used for automation, not professional software engineering. No mention of Java, Python, Go, C#, etc.\n\n3. **No API design or development experience.** The role requires designing and consuming RESTful APIs. There is no evidence of this in his background.\n\n4. **No software development lifecycle experience.** No mention of CI/CD pipelines, automated testing, or software delivery workflows — only infrastructure-level tools (Git listed as \"basic\").\n\n5. **No application development experience with relational databases.** SQL is listed as \"basic,\" and there is no indication he has written application-layer queries, schema design, or ORM usage.\n\n6. **Cloud experience is infrastructure-only.** Azure VMs and networking are sysadmin functions, not cloud-native backend service development (Lambda, ECS, managed services, etc.).\n\n**Preferred Qualification Gaps**\n\n7. No Kafka/SQS or event-driven architecture experience.\n8. Docker listed as \"basic\" only; no Kubernetes.\n9. No Terraform/IaC experience.\n10. No payments, financial services, or regulated software development background.\n11. No experience mentoring engineers or leading technical initiatives.\n\n---\n\n### Summary\n\nCurtis has a solid infrastructure and operations background, but this role is a backend software engineering position. He does not meet the core required qualifications. The gap is not marginal — it is categorical.\n\nFINAL: REJECT"
+}

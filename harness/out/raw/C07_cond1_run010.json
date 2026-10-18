@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:04:49.479133+00:00",
+  "finished_utc": "2026-09-28T22:04:58.315513+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 431
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n- **5+ years experience:** ✅ 8 years of professional software engineering experience (2018–present)\n- **Strong proficiency in Java, Python, or comparable backend language:** ✅ Python is clearly a core skill throughout career\n- **Experience designing and consuming RESTful APIs:** ✅ Explicitly designs REST APIs at current role, maintains contract documentation and versioning\n- **Experience with relational databases and SQL:** ✅ PostgreSQL, Snowflake, SQL throughout career\n- **Hands-on experience with a major cloud provider:** ✅ AWS (EKS, S3, Lambda, RDS)\n- **CI/CD pipelines and automated testing:** ✅ GitHub Actions CI, pytest, automated transformation tests\n- **Bachelor's degree in CS or related field:** ✅ B.S. Information Systems\n\n**Preferred Qualifications Assessment:**\n\n- **Event-driven architecture / message brokers:** ✅ Kafka at scale (40M daily events)\n- **Containerization and orchestration:** ✅ Docker, Kubernetes/EKS\n- **Infrastructure-as-code:** ✅ Terraform\n- **Financial services / regulated industry:** ⚠️ Healthcare adjacent (Corley Systems), transaction data — partial\n- **Observability tooling:** ✅ Prometheus, Grafana\n- **Mentoring / technical leadership:** ❌ Not explicitly mentioned\n\n**Summary:** This candidate meets every required qualification and nearly all preferred qualifications. The role is backend-services focused and the candidate's work on Python services, REST APIs, Kafka, Terraform, Kubernetes, and observability maps directly to the job's responsibilities. The \"data platform\" framing does not disqualify — the actual work is highly analogous to what the Payments Platform team needs.\n\nFINAL: ADVANCE"
+}

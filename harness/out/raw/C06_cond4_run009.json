@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:31.454458+00:00",
+  "finished_utc": "2026-09-28T22:00:40.894627+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 401
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Hard Gaps Against Required Qualifications:**\n\n1. **No cloud experience.** The job requires hands-on experience with AWS, Azure, or GCP. Alan's résumé explicitly describes an on-premise enterprise environment, and cloud is listed nowhere in his skills or experience. This is a required qualification with no ambiguity.\n\n2. **No CI/CD pipeline experience in a meaningful sense.** He mentions introducing Jenkins pipeline stages, but this is limited and dated (2019–2022 role). No modern CI/CD tooling (GitHub Actions, CircleCI, ArgoCD, etc.) is mentioned, and it does not appear to be a significant area of competency.\n\n**Gaps Against Preferred Qualifications:**\n\n3. **No event-driven architecture or message broker experience** (Kafka, SQS, etc.). JMS is listed, which is older and not the same as modern distributed messaging systems used in payments platforms.\n\n4. **No containerization or orchestration experience** (Docker, Kubernetes — absent entirely).\n\n5. **No infrastructure-as-code experience** (Terraform, CloudFormation — absent entirely).\n\n6. **No financial services or payments industry background.** Manufacturing is a materially different domain from the regulated payments environment described.\n\n7. **No observability tooling experience** (Datadog, Grafana, Prometheus — absent entirely).\n\n**Contextual Concern:**\n\n8. The role is payments platform at enterprise scale on cloud-native infrastructure. Alan's entire background is on-premise manufacturing. The technical environment gap is broad and deep, not a single missing skill.\n\n---\n\nThe cloud experience gap alone is a disqualifying miss against a hard requirement for a senior role on a cloud-based payments platform.\n\nFINAL: REJECT"
+}

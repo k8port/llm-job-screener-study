@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:27:03.997871+00:00",
+  "finished_utc": "2026-09-28T22:27:12.314128+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 376
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Technology Stack Mismatch (Critical)**\nThe candidate's primary language experience is COBOL/JCL — legacy mainframe technologies not relevant to this role. Their Java experience is limited to Java 8 with JSP/Servlets (early 2000s-era web patterns), far removed from modern backend service development frameworks (e.g., Spring Boot, Micronaut, Quarkus).\n\n**2. No Cloud Experience**\nThe job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). The résumé shows no cloud exposure whatsoever — this is a hard required qualification.\n\n**3. No REST API Experience**\nDesigning and consuming RESTful APIs is a required qualification. The candidate lists JSP/Servlets, which is a server-rendered, non-REST pattern. No REST API work is mentioned anywhere.\n\n**4. No CI/CD or Automated Testing Experience**\nJenkins is listed as \"basic\" and no automated testing experience is mentioned — this is a required qualification.\n\n**5. No Event-Driven Architecture, Containers, or Observability**\nNone of the preferred qualifications (Kafka, Docker/Kubernetes, Terraform, Datadog/Grafana) are present on the résumé.\n\n**6. No Mentorship or Technical Leadership Evidence**\nNo mentoring of junior engineers or leading technical initiatives is demonstrated.\n\n**7. Modern Engineering Practices Gap**\nDespite 16 years of experience, the candidate's work reflects a legacy mainframe environment. The role requires modern distributed systems design — a significant capability gap.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:20.367350+00:00",
+  "finished_utc": "2026-09-28T21:57:31.436058+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 499
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Noted\n- 7 years of professional experience (exceeds 5-year requirement)\n- Strong Java/Spring Boot background with direct relevance\n- REST API design and documentation experience\n- Relational database and SQL experience (Oracle)\n- CI/CD exposure via Jenkins; automated testing via JUnit\n- Mentors junior engineers; leads code review\n- On-call rotation experience\n- Relevant B.S. degree (Computer Engineering)\n- Located in Arlington, TX — compatible with Plano hybrid requirement\n\n---\n\n### Identified Weaknesses\n\n1. **No cloud experience.** The résumé contains zero mention of AWS, Azure, or GCP. Cloud proficiency is a *required* qualification. The candidate's background is explicitly described as \"on-premise enterprise environment.\"\n\n2. **No containerization or orchestration experience.** Docker and Kubernetes are absent. This is a preferred qualification but is commonly expected at the senior level in modern payments platforms.\n\n3. **No infrastructure-as-code experience.** Terraform or CloudFormation are not mentioned.\n\n4. **No payments or financial services background.** The candidate comes from manufacturing. Payments domain knowledge is a preferred qualification relevant to the specific team.\n\n5. **Limited/no event-driven architecture experience.** JMS is listed, which is a legacy message broker. No Kafka, SQS, or modern equivalents are mentioned — a notable gap for a high-volume payments platform.\n\n6. **No observability tooling experience.** Datadog, Grafana, and Prometheus are absent.\n\n7. **Batch/on-premise orientation.** The candidate's profile is heavily oriented toward batch processing in on-premise systems, which may not align with the real-time, cloud-native, distributed architecture implied by the role.\n\n---\n\n### Summary\n\nAlan meets several baseline requirements (Java, SQL, REST, CI/CD, experience level, education), but the **absence of any cloud experience is a disqualifying gap against a stated required qualification**. Combined with missing containerization, modern event-driven tooling, and no payments domain exposure, the candidate presents significant risk for a senior role on a cloud-based payments platform.\n\nFINAL: REJECT"
+}

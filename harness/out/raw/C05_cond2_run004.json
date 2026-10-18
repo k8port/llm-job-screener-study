@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:09.342566+00:00",
+  "finished_utc": "2026-09-28T21:49:18.244231+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 380
+  },
+  "response": "## Screening Assessment: Nora Kessler\n\n### Identified Weaknesses\n\n1. **Not a software engineer — data analyst background.** Nora's entire career has been in data analysis and reporting, not software engineering. The role requires designing and building backend services and APIs; her work centers on SQL models, dashboards, and reporting scripts.\n\n2. **No backend service or API development experience.** There is no evidence of designing, building, or maintaining RESTful APIs or production-grade backend services — a core requirement of the role.\n\n3. **Python usage is analytical, not engineering.** Her Python experience is limited to data cleaning scripts using Pandas/NumPy, not backend application development (e.g., frameworks like FastAPI, Django, or Flask).\n\n4. **No CI/CD or automated testing experience.** Neither is mentioned anywhere on the résumé.\n\n5. **Minimal and shallow cloud experience.** She lists \"basic AWS (S3, Athena)\" — far below the hands-on cloud engineering experience required.\n\n6. **No experience with relational databases in an engineering context.** Her SQL use is analytical (querying/reporting), not in the context of schema design, transactions, or application-layer database integration.\n\n7. **No experience with event-driven architecture, containerization, Kubernetes, Terraform, or observability tooling.**\n\n8. **No mentorship or technical leadership experience** of engineers.\n\n9. **No payments, fintech, or regulated-industry backend engineering background.**\n\n### Summary\n\nNora is a competent data professional but does not meet the foundational requirements of a Senior Software Engineer role. The gaps are not marginal — they are categorical.\n\nFINAL: REJECT"
+}

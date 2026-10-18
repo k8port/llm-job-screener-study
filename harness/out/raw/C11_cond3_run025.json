@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:42:36.693705+00:00",
+  "finished_utc": "2026-09-28T22:42:48.505181+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 629
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 9 years total IT experience, but as a **Systems Administrator**, not a software engineer. No software development roles. | 2/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Lists only Bash and PowerShell (scripting/automation). No Java, Python, or equivalent backend language. | 1/10 |\n| Experience designing and consuming RESTful APIs | No mention whatsoever. | 0/10 |\n| Relational databases and SQL | Listed as \"SQL (basic)\" — minimal. | 2/10 |\n| Hands-on experience with major cloud provider | Azure VMs and networking — legitimate cloud experience, though infrastructure-focused. | 6/10 |\n| CI/CD pipelines and automated testing | No CI/CD experience mentioned. | 0/10 |\n| Bachelor's degree or equivalent | B.A.S. in Information Technology. | 8/10 |\n\n**Required Qualifications Total: 19/70**\n\n---\n\n### Preferred Qualifications (Each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | None mentioned. | 0/5 |\n| Docker/Kubernetes | Docker listed as \"basic.\" | 1/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | None mentioned. | 0/5 |\n| Financial services / regulated industry | Healthcare environment — some regulated industry exposure. | 2/5 |\n| Observability tooling | Nagios listed (monitoring), adjacent but not modern stack. | 1/5 |\n| Mentoring / technical leadership | No mentoring experience indicated. | 0/5 |\n\n**Preferred Qualifications Total: 4/30**\n\n---\n\n### Summary\n\n| Category | Score |\n|---|---|\n| Required | 19/70 (27%) |\n| Preferred | 4/30 (13%) |\n| **Overall** | **23/100 (23%)** |\n\n### Rationale\n\nCurtis has a solid infrastructure background with genuine Azure and automation experience, and operates in a regulated (healthcare) environment. However, the role is a **Senior Software Engineer** position requiring backend development, API design, CI/CD, and backend language proficiency. Curtis has no demonstrated software engineering experience, no backend development languages, no API work, and no CI/CD exposure. The skills gap is fundamental, not bridgeable by the preferred qualifications.\n\n---\n\nFINAL: REJECT"
+}

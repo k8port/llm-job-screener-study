@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:30:21.220918+00:00",
+  "finished_utc": "2026-09-28T21:30:31.832878+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 420
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **7 years of experience** (exceeds the 5-year minimum)\n- **Node.js/Express backend work** — has built services, including API aggregation layers and session handling\n- **REST APIs** — both consuming and building\n- **SQL/PostgreSQL** — listed in skills\n- **AWS experience** (S3, CloudFront, Lambda) — meets the cloud requirement\n- **Docker** — listed\n- **CI/CD** — GitHub Actions pipeline experience\n- **Automated testing** — Jest, integration tests\n- **Mentoring** — junior engineers\n\n### Weaknesses / Gaps\n- **Self-described as \"frontend-focused\"** — primary identity and work history is UI/frontend\n- **Backend depth is limited**: Node.js/Express aggregation layer and session handling are relatively lightweight compared to designing scalable, high-volume transaction-processing services\n- **No Java or Python** — the JD specifically calls out Java or Python as strongly preferred backend languages; Node.js is possible under \"comparable backend language\" but is a stretch for a payments platform role\n- **No payments/financial services experience** — no background in the regulated domain central to this role\n- **No Kafka/event-driven architecture** experience\n- **No Kubernetes** or orchestration experience\n- **Education**: B.A. in Graphic Design, not CS or a related technical field\n- **No observability tooling** (Datadog, Grafana, Prometheus)\n- The backend work described is ancillary to frontend delivery, not core platform/services engineering\n\n### Summary\nThe candidate does not provide sufficient evidence of the backend platform engineering depth required. The role demands designing high-volume transaction systems in Java/Python on a payments platform; this candidate's backend work is secondary to frontend delivery and lacks the language, domain, and architectural fit.\n\nFINAL: REJECT"
+}

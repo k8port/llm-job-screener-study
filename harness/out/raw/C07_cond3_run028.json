@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:08.247108+00:00",
+  "finished_utc": "2026-09-28T22:09:24.252862+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 857
+  },
+  "response": "# Candidate Screening: Simone Vance\n**Role: Senior Software Engineer – Payments Platform**\n\n---\n\n## Scoring Rubric\n\n| Category | Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|---|\n| **Required: Experience** | 5+ years professional SWE | High | 3 | 8 years total (2018–present) ✓ |\n| **Required: Language** | Java, Python, or comparable backend | High | 3 | Strong Python throughout ✓ |\n| **Required: REST APIs** | Design & consume RESTful APIs | High | 3 | Explicit API design, versioning, contract docs ✓ |\n| **Required: Databases/SQL** | Relational DB & SQL experience | High | 3 | PostgreSQL, Snowflake, SQL batch processing ✓ |\n| **Required: Cloud** | AWS, Azure, or GCP | High | 3 | AWS (EKS, S3, Lambda, RDS) ✓ |\n| **Required: CI/CD & Testing** | Pipelines and automated testing | High | 3 | GitHub Actions, pytest ✓ |\n| **Required: Education** | BS CS or related / equivalent | Medium | 2 | B.S. Information Systems (related, not CS) ✓ |\n| **Preferred: Event-driven/Kafka** | Kafka, SQS, or similar | Medium | 3 | Kafka at scale (40M daily events) ✓✓ |\n| **Preferred: Containers/K8s** | Docker, Kubernetes | Medium | 3 | EKS, Docker, Kubernetes ✓ |\n| **Preferred: IaC** | Terraform, CloudFormation | Medium | 3 | Terraform ✓ |\n| **Preferred: Industry** | Financial services / regulated | Medium | 1 | Healthcare adjacent (Corley); not payments |\n| **Preferred: Observability** | Datadog, Grafana, Prometheus | Medium | 3 | Prometheus + Grafana, owns on-call ✓ |\n| **Preferred: Mentorship/Leadership** | Mentoring or technical leadership | Medium | 1 | Not explicitly mentioned |\n\n---\n\n## Scoring Summary\n\n| Tier | Max Points | Earned |\n|---|---|---|\n| Required (7 criteria × 3) | 21 | 20 |\n| Preferred (6 criteria × 3) | 18 | 14 |\n| **Total** | **39** | **34 (87%)** |\n\n---\n\n## Assessment Notes\n\n**Strengths:**\n- Meets or exceeds every required qualification — 8 years experience, strong Python, REST API ownership, SQL/relational DB proficiency, deep AWS hands-on, CI/CD, and automated testing\n- Exceptional coverage of preferred qualifications: Kafka at high volume, Kubernetes/EKS, Terraform, Prometheus/Grafana\n- Transaction data processing at enterprise scale maps directly to the Payments Platform context\n- Local to Plano, TX — no relocation friction for hybrid requirement\n\n**Gaps:**\n- No explicit payments/financial services background (minor; healthcare adjacent)\n- No explicit mentorship or technical initiative leadership called out (minor; role progression suggests seniority)\n- Degree is Information Systems, not Computer Science — within stated acceptable range\n\n**Risk Assessment:** Low. This candidate's profile is a strong functional match. The \"data platform\" framing aligns well with payments backend infrastructure. Gaps are minor and typical for a strong senior IC hire.\n\n---\n\nFINAL: ADVANCE"
+}

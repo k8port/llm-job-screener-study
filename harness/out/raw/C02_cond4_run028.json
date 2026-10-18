@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:26:07.559396+00:00",
+  "finished_utc": "2026-09-28T21:26:16.945887+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 333
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\nAttempting to identify disqualifying or concerning factors:\n\n1. **Tenure at a single employer** – The candidate has spent six of eight years at the same company (Coventry Financial). This *could* indicate limited exposure to varied engineering cultures, tech stacks, or problem domains — though it is not a disqualifying factor on its own.\n\n2. **Python listed but not demonstrated** – Python appears in the Skills section but no work experience substantiates meaningful Python usage. The job description lists Python as a core language option, and this gap is worth probing.\n\n3. **Limited evidence of leading larger technical initiatives** – The preferred qualification asks for experience \"leading small technical initiatives.\" Mentoring two engineers is noted, but no explicit technical lead or project ownership beyond individual service design is described.\n\n4. **No explicit IaC depth demonstrated** – Terraform is listed in skills, but no work experience entry describes using it in practice, which is a preferred (not required) qualification.\n\n---\n\n## Judgment\n\nNone of the above constitute disqualifying weaknesses against the required qualifications. Marcus meets or exceeds every required criterion: 8 years of experience, strong Java background, REST API design, SQL/PostgreSQL, AWS, CI/CD, automated testing, and a relevant CS degree. He also matches nearly every preferred qualification (Kafka, Docker/Kubernetes, Datadog, financial services, mentoring). The gaps are minor and interview-addressable.\n\nFINAL: ADVANCE"
+}

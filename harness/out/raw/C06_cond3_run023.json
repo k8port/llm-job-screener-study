@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:59:42.713564+00:00",
+  "finished_utc": "2026-09-28T21:59:56.416994+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 808,
+    "output_tokens": 674
+  },
+  "response": "## Screening Rubric & Scoring: Alan Brightwell\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SE experience | 7 years total (2019–present) — clearly meets bar | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Java/Spring Boot is primary stack, explicitly listed | 10/10 |\n| Experience designing and consuming RESTful APIs | Owns REST API design, maintains interface docs | 10/10 |\n| Relational databases and SQL | Oracle, SQL, PL/SQL, stored procedures — strong | 10/10 |\n| Hands-on cloud experience (AWS, Azure, GCP) | **Not mentioned anywhere on résumé** | 0/10 |\n| CI/CD pipelines and automated testing | Jenkins pipelines, JUnit — present, though modest | 7/10 |\n| Bachelor's in CS or related / equivalent experience | B.S. Computer Engineering, Texas Tech | 10/10 |\n\n**Required Subtotal: 57/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | JMS listed — relevant but lightweight signal | 3/5 |\n| Containerization / orchestration (Docker, K8s) | Not mentioned | 0/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | Not mentioned | 0/5 |\n| Financial services / payments / regulated industry | Manufacturing background only — no payments experience | 1/5 |\n| Observability tooling (Datadog, Grafana, Prometheus) | Not mentioned | 0/5 |\n| Mentoring / leading technical initiatives | Mentors 2 junior engineers, leads code review for team of 6 | 5/5 |\n\n**Preferred Subtotal: 9/30**\n\n---\n\n### Overall Score: 66/100\n\n---\n\n### Summary Assessment\n\n**Strengths:** Alan is a genuine senior Java/Spring Boot engineer with solid REST API, SQL/Oracle, and team leadership credentials. His tenure and mentorship align well with the role's expectations.\n\n**Critical Gap:** The most significant disqualifier is the **complete absence of cloud experience** — a hard requirement for a Payments Platform role. His entire background is on-premise enterprise infrastructure. Cloud fluency is not a \"nice to have\" here; it is listed as required and central to the platform team's operations.\n\n**Additional gaps:** No payments/fintech domain experience, no containerization, no observability tooling, and no IaC experience compound the concern.\n\nThe cloud experience gap alone is sufficient grounds to reject at this stage for a Senior role on a cloud-native payments platform.\n\n---\n\nFINAL: REJECT"
+}

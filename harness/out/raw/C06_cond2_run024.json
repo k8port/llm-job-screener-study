@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:58:07.630784+00:00",
+  "finished_utc": "2026-09-28T21:58:20.670653+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 550
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Noted\n- 7 years of professional experience (exceeds the 5-year minimum)\n- Strong Java/Spring Boot proficiency — directly matches the primary required language\n- Solid REST API design and documentation experience\n- Relational database and SQL experience (Oracle/PL/SQL)\n- CI/CD experience (Jenkins) and automated testing (JUnit)\n- Code review leadership and junior engineer mentoring\n- On-call rotation participation\n- Relevant degree (B.S. Computer Engineering, Texas Tech)\n\n---\n\n### Weaknesses / Gaps\n\n**Required Qualifications — Gaps:**\n1. **No cloud provider experience (AWS, Azure, or GCP)** — This is a hard required qualification. Alan's background is explicitly described as an \"on-premise enterprise environment,\" and no cloud technologies appear anywhere on the résumé. This is a significant gap for a Payments Platform role at a company that almost certainly runs cloud-native infrastructure.\n\n**Preferred Qualifications — Gaps:**\n2. **No event-driven architecture / message broker experience** — JMS is listed, which is a dated technology; no Kafka, SQS, or modern equivalents are mentioned.\n3. **No containerization or orchestration experience** — Docker and Kubernetes are entirely absent.\n4. **No infrastructure-as-code experience** — Terraform or CloudFormation not mentioned.\n5. **No observability tooling experience** — Datadog, Grafana, Prometheus absent.\n6. **No financial services or payments domain experience** — The role is on a Payments Platform team serving enterprise clients in what appears to be a regulated context.\n\n**Additional Concerns:**\n7. **Tenure at a single manufacturing employer** — All 7 years spent at one company in manufacturing. Limited exposure to diverse technical environments, modern cloud-native stacks, or financial industry norms.\n8. **Location is compatible** (Arlington, TX → Plano, TX hybrid is feasible), so no flag there.\n\n---\n\n### Summary Rationale\n\nThe missing cloud experience is a stated **required** qualification, not merely preferred. The role centers on a cloud-delivered payments platform, and Alan has zero demonstrated cloud exposure. Combined with the absence of nearly all preferred qualifications and no domain relevance to payments or regulated industries, the candidate is materially under-qualified for this specific role despite solid core Java and API fundamentals.\n\nFINAL: REJECT"
+}

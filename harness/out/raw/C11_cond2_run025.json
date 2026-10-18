@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:41:07.023231+00:00",
+  "finished_utc": "2026-09-28T22:41:19.063388+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 489
+  },
+  "response": "## Screening Analysis: Curtis Ballinger — Senior Software Engineer (Payments Platform)\n\n---\n\n### Identified Weaknesses\n\n**1. No professional software engineering / application development experience**\nCurtis is a systems administrator. His work centers on server administration, provisioning, patching, and infrastructure operations — not designing and building backend services or APIs. This is a fundamental role mismatch.\n\n**2. No proficiency in required backend languages (Java or Python)**\nHis scripting is limited to Bash and PowerShell — operational automation tools. There is no evidence of Java, Python, or any comparable application-layer programming language.\n\n**3. No experience designing or consuming RESTful APIs**\nThis is a core required qualification with zero indication of exposure on the résumé.\n\n**4. SQL is self-rated as \"basic\"**\nThe role requires meaningful experience with relational databases and SQL. \"Basic\" SQL does not meet that bar.\n\n**5. No CI/CD pipeline or automated testing experience**\nNo mention of CI/CD tools (Jenkins, GitHub Actions, etc.) or any software testing practices.\n\n**6. No experience with event-driven architecture, Kafka, or message brokers**\nNone of the preferred qualifications in this area are represented.\n\n**7. Docker listed as \"basic\" only; no Kubernetes experience**\nContainerization knowledge is superficial and does not meet the preferred level.\n\n**8. No experience in payments, financial services, or regulated application development**\nWhile the candidate works in healthcare (a regulated industry), his role is infrastructure, not application development in that domain.\n\n**9. No mentoring or technical leadership of engineers**\nNo indication of guiding other engineers or leading technical initiatives.\n\n**10. Cloud experience is infrastructure/VM-level only**\nAzure exposure is limited to virtual machines and networking — not application deployment, managed services, or cloud-native development patterns relevant to this role.\n\n---\n\n### Summary\n\nCurtis Ballinger does not meet the required qualifications for this Senior Software Engineer role. He lacks software development experience, backend programming proficiency, API design background, and meaningful database or CI/CD experience. His nine years of experience, while substantial, are in a distinctly different discipline.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:42:08.561537+00:00",
+  "finished_utc": "2026-09-30T18:42:17.678395+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 403
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, full-time engineer 2025–present), which falls significantly short of the requirement.\n\n2. **No cloud platform depth**: The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which does not meet the standard of meaningful, production-level cloud experience expected at a senior level.\n\n3. **No CI/CD ownership**: The job requires experience with CI/CD pipelines. Dana contributes to a GitHub Actions pipeline but explicitly notes it is \"maintained by a senior engineer,\" indicating limited ownership or depth.\n\n4. **No event-driven architecture experience**: The preferred qualifications include Kafka, SQS, or similar message brokers. There is no evidence of this on the résumé.\n\n5. **No containerization or orchestration experience**: Docker and Kubernetes are listed as preferred; Dana shows no exposure to either.\n\n6. **No mentorship or technical leadership experience**: The role expects mentoring of junior/mid-level engineers. Dana is at the stage of being mentored, not leading.\n\n7. **No payments/financial services background**: A preferred qualification with meaningful weight given the team's domain; Dana shows no relevant industry exposure.\n\n8. **No observability tooling experience**: Datadog, Grafana, Prometheus are preferred; none appear on the résumé.\n\n9. **Scope of current work is limited**: Current responsibilities (internal inventory service, defect resolution, supporting a team lead) reflect early-career scope, not the level of ownership and system design expected of a senior engineer.\n\n---\n\nFINAL: REJECT"
+}

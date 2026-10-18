@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:42:54.944334+00:00",
+  "finished_utc": "2026-09-28T22:43:04.012460+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 405
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer**: Curtis is a Systems Administrator by title and function. The role requires a Senior *Software Engineer* — someone who designs and builds software systems, not manages infrastructure.\n\n2. **No Professional Software Development Experience**: The job requires 5+ years of professional software engineering experience. Curtis has zero years in a software engineering or development role. His scripting (Bash, PowerShell) is operational automation, not software engineering.\n\n3. **No Backend Language Proficiency**: The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell, which are scripting/administration tools, not backend development languages.\n\n4. **No API Design or Development Experience**: The role requires experience designing and consuming RESTful APIs. There is no mention of this anywhere on the résumé.\n\n5. **SQL is Listed as \"Basic\"**: The role requires meaningful experience with relational databases and SQL; Curtis explicitly self-rates this as basic.\n\n6. **No CI/CD or Automated Testing Experience**: These are required qualifications with no evidence on the résumé.\n\n7. **No Cloud Engineering Experience at Development Level**: While Curtis manages Azure VMs and networking (an admin function), there is no evidence of cloud-native development, services architecture, or developer-oriented cloud work.\n\n8. **No Event-Driven Architecture, Kafka, Kubernetes, or IaC Experience**: Docker is listed as \"basic\"; all other preferred qualifications are absent.\n\n9. **No Mentorship or Technical Leadership of Engineers**: The role values mentoring; there is no indication of this.\n\n10. **Fundamentally Different Career Track**: The candidate's entire career is in IT operations/infrastructure support — a separate discipline from software development.\n\n---\n\nFINAL: REJECT"
+}

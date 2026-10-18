@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:21:46.864045+00:00",
+  "finished_utc": "2026-09-28T21:21:54.755876+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 917,
+    "output_tokens": 391
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n**Required Qualifications Review:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years experience | 8 years (2018–present) | ✅ |\n| Java, Python, or comparable backend language | Java/Spring Boot (primary), Python listed in skills | ✅ |\n| RESTful API design and consumption | Explicitly mentioned; OpenAPI specs | ✅ |\n| Relational databases and SQL | PostgreSQL, SQL, RDS | ✅ |\n| Major cloud provider | AWS (EKS, SQS, RDS, Lambda) | ✅ |\n| CI/CD and automated testing | GitHub Actions, JUnit, CI pipeline work | ✅ |\n| B.S. CS or equivalent | B.S. Computer Science, Texas A&M, 2018 | ✅ |\n\n**Preferred Qualifications Review:**\n\n- **Event-driven architecture/Kafka:** Core responsibility at current role ✅\n- **Docker/Kubernetes:** Direct hands-on experience ✅\n- **Infrastructure-as-code (Terraform):** Listed in skills ✅\n- **Financial services/payments background:** 6+ years in payments specifically ✅\n- **Observability tooling:** Datadog in active use ✅\n- **Mentoring engineers:** Currently mentoring two mid-level engineers ✅\n\n**Summary:** Marcus meets every required qualification and nearly every preferred qualification. His background is a near-perfect match — payments domain experience, high-volume transaction systems, event-driven architecture, and active mentorship all directly mirror the role's responsibilities.\n\nFINAL: ADVANCE"
+}

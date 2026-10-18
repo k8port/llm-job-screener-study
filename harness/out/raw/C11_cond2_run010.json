@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:27.367062+00:00",
+  "finished_utc": "2026-09-28T22:40:38.481382+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 464
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Potential Weaknesses Identified\n\n1. **Not a software engineer — systems administrator background.** The candidate's entire career is in infrastructure/sysadmin work, not software development. This is a fundamentally different discipline from what the role requires.\n\n2. **No backend software development experience.** The role requires designing and building scalable backend services and APIs. The candidate writes automation scripts (Bash, PowerShell), which is not equivalent to professional software engineering.\n\n3. **No proficiency in required backend languages.** Java and Python are listed as required; the candidate lists only Bash and PowerShell — scripting languages used for admin automation, not backend service development.\n\n4. **No API design or consumption experience.** RESTful API experience is a required qualification; there is no mention of this anywhere on the résumé.\n\n5. **SQL listed as \"basic.\"** The role requires meaningful experience with relational databases and SQL; the candidate self-rates this at a basic level.\n\n6. **No CI/CD pipeline experience.** This is a required qualification with no evidence on the résumé.\n\n7. **No automated testing experience.** Required; not mentioned.\n\n8. **Azure experience is infrastructure-only.** While Azure is listed, the experience is limited to VM and networking administration — not cloud-native development services relevant to a software engineering role.\n\n9. **Docker listed as \"basic.\"** Only surface-level familiarity; no Kubernetes, Terraform, or IaC experience.\n\n10. **No mentorship or technical leadership experience.** Preferred qualification; absent from the résumé.\n\n11. **No payments, fintech, or regulated software development experience.** Healthcare IT adjacent, but from an infrastructure (not engineering) perspective.\n\n### Summary\n\nCurtis is an experienced systems administrator, but this role is a Senior Software Engineer position requiring professional backend development, API design, and software delivery experience. The candidate does not meet the core required qualifications and would require a fundamental career transition — not upskilling — to be competitive for this role.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:33:58.088715+00:00",
+  "finished_utc": "2026-09-28T21:34:12.578480+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 885,
+    "output_tokens": 745
+  },
+  "response": "## Screening Scorecard: Priya Ashford\n\n### Required Qualifications (Pass/Fail + Notes)\n\n| Requirement | Score | Notes |\n|---|---|---|\n| 5+ years professional SWE experience | ✅ PASS | ~7 years total (2019–present) |\n| Strong proficiency in Java, Python, or comparable backend language | ⚠️ PARTIAL | Node.js/Express present but limited; no Java or Python; frontend is primary focus |\n| Experience designing and consuming RESTful APIs | ✅ PASS | REST API consumption confirmed; some aggregation layer development |\n| Relational databases and SQL | ✅ PASS | PostgreSQL and SQL listed in skills |\n| Hands-on cloud experience (AWS, Azure, GCP) | ⚠️ PARTIAL | AWS listed (S3, CloudFront, Lambda) — primarily frontend-tier services, not backend platform work |\n| CI/CD pipelines and automated testing | ✅ PASS | GitHub Actions, Jest, Testing Library |\n| Bachelor's degree or equivalent | ⚠️ PARTIAL | B.A. Graphic Design — not CS or related technical field |\n\n**Required Score: 4.5 / 7**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Score | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | ❌ None | No mention of Kafka, SQS, or equivalent |\n| Containerization / orchestration | ⚠️ Partial | Docker listed; no Kubernetes |\n| Infrastructure-as-code | ❌ None | No Terraform or CloudFormation |\n| Financial services / payments background | ❌ None | Retail background only |\n| Observability tooling | ❌ None | No Datadog, Grafana, Prometheus |\n| Mentoring / leading technical initiatives | ✅ Yes | Mentors junior engineers, runs design-to-code reviews |\n\n**Preferred Score: 1.5 / 6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating (1–5) | Notes |\n|---|---|---|\n| Backend service design & ownership | 2 | Primarily frontend; Node.js work is shallow/supplementary |\n| Scalability / high-volume systems | 1 | No evidence of high-throughput or transaction-processing systems |\n| Cloud platform depth | 2 | AWS usage is CDN/storage layer, not backend compute or data platform |\n| Payments/regulated domain knowledge | 1 | No relevant domain experience |\n| Technical leadership & mentoring | 3 | Demonstrated within frontend context |\n\n**Core Competency Score: 9 / 25**\n\n---\n\n### Summary Judgment\n\nPriya brings solid tenure and genuine frontend depth, but this is a **backend-focused Payments Platform role** requiring experience in high-volume transaction systems, Java/Python, event-driven architecture, and ideally payments domain knowledge. Her backend work is incidental to a frontend role. Gaps in backend proficiency, cloud depth, observability, and domain context are significant for a senior-level hire on this team.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:29.643312+00:00",
+  "finished_utc": "2026-09-30T18:39:39.626213+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 457
+  },
+  "response": "## Screening Assessment: Dana Whitfield\n\n### Potential Weaknesses Identified\n\n**1. Insufficient Years of Experience (Critical Gap)**\nThe role requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, full-time engineer 2025–present). This is a significant shortfall — roughly 3–4 years below the minimum requirement.\n\n**2. No Cloud Platform Depth**\nThe job requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which falls well short of the depth expected for a senior engineer building high-volume transaction services on a payments platform.\n\n**3. No Event-Driven Architecture or Message Broker Experience**\nNo mention of Kafka, SQS, or any messaging/queuing systems — a preferred but substantively relevant qualification for a payments platform role.\n\n**4. No Containerization or Orchestration Experience**\nNo Docker or Kubernetes listed, which are preferred qualifications and common at the senior level in this type of role.\n\n**5. No Financial Services or Payments Domain Experience**\nNo background in regulated industries such as payments, fintech, or banking.\n\n**6. No Mentorship or Technical Leadership Experience**\nThe role expects mentoring of junior/mid-level engineers and leadership of small technical initiatives. No evidence of this in the résumé.\n\n**7. No Observability Tooling Experience**\nNo mention of Datadog, Grafana, Prometheus, or equivalent tools.\n\n**8. Limited Scope of Work**\nCurrent work involves an internal inventory service with limited scale indicators — not aligned with \"high-volume transaction processing for enterprise clients.\"\n\n---\n\n### Summary\n\nDana is an early-career engineer with a solid foundation in Java and REST APIs, but falls materially short on nearly every senior-level dimension: years of experience, cloud depth, system scale, domain knowledge, and leadership capability. The experience gap alone is disqualifying for this role.\n\nFINAL: REJECT"
+}

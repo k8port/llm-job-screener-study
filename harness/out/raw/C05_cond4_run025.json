@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:46.590448+00:00",
+  "finished_utc": "2026-09-28T21:52:56.240128+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 381
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer**: Nora is a data analyst/reporting analyst by background and self-identification. The role requires a Senior *Software Engineer* building backend services and APIs — a fundamentally different discipline.\n\n2. **No backend service development experience**: There is no evidence of designing or building APIs, microservices, or distributed systems. Her Python work is limited to scripting for data cleaning/reconciliation, not production application development.\n\n3. **No RESTful API experience**: The job requires experience designing and consuming RESTful APIs. None is mentioned.\n\n4. **No cloud engineering experience**: She lists \"basic AWS (S3, Athena)\" — read-only/query-focused services used in analytics contexts. This does not constitute hands-on cloud engineering experience with compute, networking, or deployment services.\n\n5. **No CI/CD or automated testing experience**: Neither is mentioned anywhere on the résumé.\n\n6. **No relational database application development experience**: Her SQL experience is analytical/reporting in nature (Snowflake, SQL Server for queries), not schema design or application-layer database interaction.\n\n7. **No containerization or orchestration experience**: No Docker, Kubernetes, or similar mentioned.\n\n8. **No payments or regulated-industry engineering background**: While she works in insurance, her work is analytical, not engineering in a regulated technical environment.\n\n9. **No experience mentoring engineers or leading technical initiatives**.\n\n10. **No event-driven architecture or infrastructure-as-code experience**.\n\n---\n\nThe candidate lacks virtually every required technical qualification for this engineering role. Her six years of experience, while substantial, are in data analytics — a different career track.\n\nFINAL: REJECT"
+}

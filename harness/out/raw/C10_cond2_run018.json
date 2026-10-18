@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:32:11.192613+00:00",
+  "finished_utc": "2026-09-28T22:32:22.542407+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 920,
+    "output_tokens": 444
+  },
+  "response": "## Screening Analysis: Josephine Hartwell\n\n### Potential Weaknesses Identified\n\n1. **Kubernetes gap**: The job lists Docker/Kubernetes as a preferred qualification. Hartwell has Docker and ECS experience but no mention of Kubernetes. This is a gap relative to the preferred stack, though ECS demonstrates container orchestration familiarity.\n\n2. **Career break (2023–2024)**: A roughly one-year family leave creates a gap in continuous employment. This is not a disqualifying factor and is fully disclosed, but some hiring teams flag tenure continuity.\n\n3. **Degree mismatch (minor)**: The role requests a CS degree or equivalent. Hartwell holds a B.S. in Mathematics. This is adjacent and likely satisfies \"related field,\" but is not a direct CS degree.\n\n4. **No Kubernetes or GKE/AKS/EKS mentioned**: AWS EKS is absent; all container orchestration is via ECS. For a platform team that may use Kubernetes, this could matter depending on the actual stack.\n\n5. **No explicit mention of observability practices beyond Datadog**: Grafana and Prometheus are listed as preferred; only Datadog appears on her résumé. Minor gap.\n\n6. **Seven years total, but ~1 year at senior level in current role**: The role asks for 5+ years overall — she meets this — but her senior tenure is relatively recent post-break.\n\n### Strengths Offsetting Weaknesses\n- Directly relevant domain (financial services/payments/credit)\n- Strong Java/Spring Boot + AWS + REST API match\n- Event-driven architecture (SQS/SNS), Terraform, CI/CD all present\n- Active mentorship, observability (Datadog), contract testing\n- Seven years of engineering experience total\n\n### Assessment\nThe weaknesses are minor and largely limited to preferred (not required) qualifications. All required qualifications are met or exceeded.\n\nFINAL: ADVANCE"
+}

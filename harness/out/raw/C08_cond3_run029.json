@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:17:38.146357+00:00",
+  "finished_utc": "2026-09-28T22:17:51.837044+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 705
+  },
+  "response": "## Screening Rubric & Evaluation: Grant Pemberton\n\n---\n\n### Required Qualifications (Pass/Fail + Notes)\n\n| Requirement | Score | Notes |\n|---|---|---|\n| 5+ years professional software engineering experience | ⚠️ Partial | 5 years total, but in QA/testing roles — not software development/engineering |\n| Strong proficiency in Java, Python, or comparable backend language | ⚠️ Partial | Java used for test automation; Python listed as \"basic scripting\" — not backend service development |\n| Experience designing and consuming RESTful APIs | ⚠️ Partial | Consumed/tested APIs; no evidence of designing or building them |\n| Experience with relational databases and SQL | ✅ | SQL listed in skills |\n| Hands-on experience with a major cloud provider (AWS, Azure, GCP) | ❌ | No mention of any cloud platform |\n| Experience with CI/CD pipelines and automated testing | ✅ Partial | Jenkins pipeline maintenance; strong automated testing background |\n| Bachelor's degree in CS or related field | ✅ | B.S. Information Technology |\n\n**Required Qualifications Met: 2.5 / 7**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Score | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | ❌ | No evidence |\n| Containerization / Kubernetes | ❌ | No evidence |\n| Infrastructure-as-code | ❌ | No evidence |\n| Financial services / regulated industry background | ❌ | Retail systems, commercial software |\n| Observability tooling | ❌ | No evidence |\n| Mentoring / leading technical initiatives | ❌ | No evidence |\n\n**Preferred Qualifications Met: 0 / 6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating (1–5) | Notes |\n|---|---|---|\n| Backend service design & development | 1 | No evidence of building backend services |\n| API development | 1 | Testing APIs ≠ building APIs |\n| Cloud infrastructure | 1 | Absent from résumé |\n| System reliability / observability | 2 | Some pipeline work; no production ownership |\n| Collaboration & communication | 3 | Cross-functional QA collaboration noted |\n| Mentorship / leadership | 1 | No evidence |\n\n**Average Core Competency Score: 1.5 / 5**\n\n---\n\n### Summary\n\nGrant has a solid QA background and demonstrates foundational technical literacy (Java for test automation, SQL, REST API testing, CI/CD). However, the role requires a Senior Software Engineer who **builds and owns backend services** — a fundamentally different function. The candidate self-identifies as \"transitioning toward software development,\" confirming the gap. Critical requirements — cloud experience, backend service development, API design, and system ownership — are unmet.\n\n**Total Score: ~25% alignment with requirements**\n\n---\n\nFINAL: REJECT"
+}

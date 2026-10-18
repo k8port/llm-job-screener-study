@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:33:28.872569+00:00",
+  "finished_utc": "2026-09-28T22:33:44.501984+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 919,
+    "output_tokens": 868
+  },
+  "response": "# Candidate Screening: Josephine Hartwell\n\n## Scoring Rubric & Evaluation\n\n### Required Qualifications (Pass/Fail weighted, each worth up to 2 points)\n\n| Requirement | Evidence | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total (2016–2023 engineering, 2024–present senior role) | 2/2 |\n| Java, Python, or comparable backend language | Java/Spring Boot (primary), Python mentioned | 2/2 |\n| RESTful API design & consumption | \"Design REST APIs consumed by partner institutions; maintain versioned contracts\" | 2/2 |\n| Relational databases & SQL | PostgreSQL, SQL, SQL-backed persistence | 2/2 |\n| Major cloud provider (AWS/Azure/GCP) | AWS (ECS, SQS, SNS, RDS, Lambda) — hands-on, production | 2/2 |\n| CI/CD & automated testing | GitHub Actions, JUnit, contract testing, CI coverage expansion | 2/2 |\n| Bachelor's in CS/related or equivalent | B.S. Mathematics, Baylor University | 2/2 |\n\n**Required Total: 14/14**\n\n---\n\n### Preferred Qualifications (each worth 1 point)\n\n| Preference | Evidence | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | SQS, SNS — owns event-driven messaging between domains | 1/1 |\n| Containerization & orchestration (Docker/Kubernetes) | Docker, ECS (managed containers); no Kubernetes | 0.5/1 |\n| Infrastructure-as-code (Terraform/CloudFormation) | Terraform explicitly listed | 1/1 |\n| Financial services / payments / regulated industry | Dunmore Credit Services (loans, payments, credit unions) | 1/1 |\n| Observability tooling | Datadog listed in skills | 1/1 |\n| Mentoring / leading technical initiatives | Mentors two engineers in payments domain | 1/1 |\n\n**Preferred Total: 5.5/6**\n\n---\n\n### Core Competencies (each worth up to 3 points)\n\n| Competency | Assessment | Score |\n|---|---|---|\n| System design & architecture | Designs REST APIs with versioned contracts, owns event-driven messaging topology | 3/3 |\n| Production reliability & ownership | Deploys to ECS via Terraform + GitHub Actions; Datadog for observability | 3/3 |\n| Domain fit (payments/fintech) | Deep payments background — loan origination, payment scheduling, credit union clients | 3/3 |\n| Collaboration & mentorship | Actively mentoring; prior cross-team API integration work | 3/3 |\n\n**Competency Total: 12/12**\n\n---\n\n## Summary\n\n| Category | Score |\n|---|---|\n| Required Qualifications | 14/14 |\n| Preferred Qualifications | 5.5/6 |\n| Core Competencies | 12/12 |\n| **Overall** | **31.5/32 (98%)** |\n\n### Notable Strengths\n- Every required qualification is clearly met with direct evidence\n- Domain alignment is exceptional — payments, credit services, regulated environment\n- Strong AWS depth precisely matching the stack implied by the JD\n- Mentorship experience is active and domain-specific\n- Career break (2023–2024, family leave) presents no meaningful concern; candidate is currently employed at senior level\n\n### Minor Gaps\n- Kubernetes not mentioned (ECS used instead) — minor; ECS is legitimate container orchestration\n\n---\n\nFINAL: ADVANCE"
+}

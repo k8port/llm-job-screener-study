@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:56:26.865462+00:00",
+  "finished_utc": "2026-09-28T21:56:35.873766+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 430
+  },
+  "response": "## Evaluation of Alan Brightwell\n\n### Strengths Against Required Qualifications\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years experience | 7 years (2019–present) | ✅ Met |\n| Java/Python or comparable backend language | Java/Spring Boot throughout career | ✅ Met |\n| RESTful API design and consumption | Explicitly owns REST API design | ✅ Met |\n| Relational databases and SQL | Oracle, SQL, PL/SQL, stored procedures | ✅ Met |\n| Cloud provider (AWS/Azure/GCP) | **No mention anywhere** | ❌ Not met |\n| CI/CD pipelines and automated testing | Jenkins pipelines, JUnit, integration tests | ✅ Met |\n| Bachelor's in CS or related | B.S. Computer Engineering, Texas Tech | ✅ Met |\n\n### Preferred Qualifications\n- **Event-driven/message brokers**: JMS listed — adjacent, but not Kafka/SQS\n- **Docker/Kubernetes**: No evidence\n- **Infrastructure-as-code**: No evidence\n- **Financial services/payments**: Manufacturing background only\n- **Observability tooling**: No evidence\n- **Mentoring/leading**: ✅ Mentors 2 junior engineers, leads code review for team of 6\n\n### Key Concerns\n\nThe most significant gap is the **complete absence of cloud experience**, which is a stated *required* qualification for a role on a cloud-native payments platform. Additionally, the candidate's entire background is **on-premise manufacturing**, with no exposure to payments, regulated industries, containerization, or modern observability tools — all of which are central to the role.\n\nThe core Java/API/SQL skills are solid, but the cloud gap alone is a disqualifying deficit against an explicitly required criterion.\n\nFINAL: REJECT"
+}

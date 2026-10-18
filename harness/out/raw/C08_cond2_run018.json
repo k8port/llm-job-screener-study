@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:29.277899+00:00",
+  "finished_utc": "2026-09-28T22:15:39.101159+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 408
+  },
+  "response": "## Screening Analysis: Grant Pemberton\n\n### Potential Weaknesses\n\n1. **Not a software engineer — QA/testing background only.** The candidate's entire career has been in quality assurance and test automation, not software development. The role requires someone who designs and builds backend services; Pemberton writes *tests against* those services, not the services themselves.\n\n2. **Java use is limited to test automation, not production service development.** Writing Selenium/REST Assured test code is materially different from designing and building scalable backend APIs and microservices. This is a significant gap relative to the required proficiency.\n\n3. **No cloud platform experience.** There is no mention of AWS, Azure, or GCP — a hard required qualification.\n\n4. **No CI/CD pipeline ownership.** Maintaining test execution stages in Jenkins is a narrow slice of CI/CD; there is no evidence of building or owning full CI/CD pipelines for application delivery.\n\n5. **No experience with relational database design or meaningful SQL work.** SQL is listed as a skill but is not elaborated upon beyond likely test data querying.\n\n6. **No experience with message brokers, containerization, Kubernetes, or infrastructure-as-code.** All preferred qualifications are unmet.\n\n7. **No mentorship or technical leadership experience.** The role includes mentoring junior engineers; nothing in the résumé reflects this.\n\n8. **Self-described as \"transitioning toward software development.\"** The candidate's own summary acknowledges the gap.\n\n9. **Years of experience misalignment.** While 5 years total are present, none are in the software engineering capacity required by the role.\n\n### Conclusion\n\nThe candidate does not meet the core required qualifications for this Senior Software Engineer role. The gaps are fundamental, not marginal.\n\nFINAL: REJECT"
+}

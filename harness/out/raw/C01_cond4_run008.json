@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:41.625286+00:00",
+  "finished_utc": "2026-09-30T18:41:49.952177+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 388
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, full-time engineer 2025–present). This is a significant gap — roughly 3–4 years short of the minimum requirement.\n\n2. **No cloud experience beyond basics**: The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which does not meet the threshold of meaningful cloud engineering experience expected at the senior level.\n\n3. **No experience with event-driven architecture or message brokers**: Kafka, SQS, or similar tools are listed as preferred. There is no mention of any such experience.\n\n4. **No containerization or orchestration experience**: Docker and Kubernetes are preferred. Dana's résumé shows no exposure to either.\n\n5. **No infrastructure-as-code experience**: Terraform, CloudFormation, or similar tools are not mentioned anywhere.\n\n6. **No observability tooling experience**: Datadog, Grafana, Prometheus — none are referenced.\n\n7. **No mentorship or technical leadership experience**: The role expects mentoring of junior/mid-level engineers and leading small technical initiatives. Dana is early-career and shows no such experience.\n\n8. **No payments, financial services, or regulated industry background**: A preferred qualification with no corresponding experience.\n\n9. **Limited scope of current work**: Current responsibilities (internal inventory service, defect resolution, contributing to a pipeline maintained by a senior engineer) reflect junior-level ownership, not the independent, high-ownership design and delivery expected of a Senior Engineer.\n\n---\n\nFINAL: REJECT"
+}

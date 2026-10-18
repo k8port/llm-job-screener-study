@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:35.826261+00:00",
+  "finished_utc": "2026-09-30T18:41:44.441838+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 397
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, full-time engineer 2025–present), falling significantly short of the requirement.\n\n2. **No cloud depth**: The job requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" indicating surface-level familiarity rather than substantive, production-grade cloud engineering experience.\n\n3. **No evidence of system design or architectural ownership**: The role expects someone who can design scalable backend services and lead architecture discussions. Dana's experience is limited to maintaining existing REST endpoints and resolving support defects under senior supervision.\n\n4. **No experience with event-driven architecture or message brokers**: Kafka, SQS, or similar tools are a preferred qualification and relevant to a payments platform. Dana shows no exposure to these.\n\n5. **No containerization or orchestration experience**: Docker and Kubernetes are preferred. Dana does not mention either.\n\n6. **No infrastructure-as-code experience**: Terraform or CloudFormation are preferred. Not present on the résumé.\n\n7. **No mentorship or technical leadership**: The role requires mentoring junior/mid-level engineers. Dana is early-career and has no demonstrated experience in this area.\n\n8. **No financial services or regulated industry background**: Preferred experience not met.\n\n9. **No observability tooling experience**: Datadog, Grafana, Prometheus — none are listed.\n\n10. **CI/CD experience is limited**: Dana contributes to a pipeline maintained by a senior engineer, rather than owning or building pipeline infrastructure independently.\n\n---\n\nFINAL: REJECT"
+}

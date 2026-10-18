@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:23.545391+00:00",
+  "finished_utc": "2026-09-28T22:48:34.847496+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 458
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient Years of Experience (Critical Gap)**\nThe role requires **5+ years** of professional software engineering experience. Elise's résumé shows approximately **3.5 years** (2023 graduation, ~2 years at Larkspur Pay). This is a meaningful shortfall against a firm required qualification, not a preferred one.\n\n2. **Limited Seniority / Leadership Signal**\nThe role involves mentoring mid-level and junior engineers and leading technical initiatives. There is no evidence of mentorship activity or ownership of significant technical initiatives. Notably, she explicitly notes the Kafka partitioning work was \"led by a senior engineer,\" which underscores a followership rather than leadership pattern at this stage.\n\n3. **Infrastructure-as-Code Listed as \"Basic\"**\nTerraform is self-described as basic. While IaC is a preferred (not required) qualification, it reinforces the overall picture of a mid-level rather than senior practitioner.\n\n4. **Limited Architecture Ownership**\nSenior roles expect meaningful input into service and system architecture. The résumé describes building and implementing within existing patterns rather than owning architectural decisions end-to-end.\n\n5. **No Evidence of Cross-Team Technical Leadership**\nThe JD calls for partnering across product, infrastructure, and partner engineering at a senior level. The résumé describes consuming partner requirements rather than leading such engagements.\n\n### Strengths (for context)\n- Payments domain is directly relevant\n- Strong technical stack alignment (Java, Kafka, AWS, Kubernetes, Terraform, Grafana)\n- B.S. CS from SMU satisfies education requirement\n\n### Directive\nThe most critical gap — years of experience — is a stated required qualification, and the candidate falls materially short (~3.5 vs. 5+ years). Combined with limited evidence of seniority-level ownership and mentorship, this candidate is more appropriately matched to a mid-level role.\n\nFINAL: REJECT"
+}

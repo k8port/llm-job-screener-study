@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:41.912307+00:00",
+  "finished_utc": "2026-09-30T18:39:51.298624+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 423
+  },
+  "response": "## Screening Assessment: Dana Whitfield\n\n### Identified Weaknesses\n\n**Critical Gaps:**\n\n1. **Insufficient experience (Major):** The role requires 5+ years of professional software engineering experience. Dana has approximately 1–1.5 years as a full Software Engineer (2025–Present) plus roughly 1 year as an intern — totaling ~2 years at most. This is a severe shortfall against the stated requirement.\n\n2. **No cloud depth:** Dana lists \"basic AWS (EC2, S3),\" which does not demonstrate meaningful hands-on experience with a major cloud provider at a production/enterprise scale. The job requires substantive cloud experience.\n\n3. **No CI/CD ownership:** Dana explicitly notes that the GitHub Actions pipeline is \"maintained by a senior engineer.\" The role requires independent CI/CD experience.\n\n4. **No event-driven architecture experience:** No exposure to Kafka, SQS, or similar message brokers (a preferred qualification).\n\n5. **No containerization/orchestration:** No Docker or Kubernetes experience listed.\n\n6. **No infrastructure-as-code experience:** Terraform, CloudFormation, or similar — entirely absent.\n\n7. **No observability tooling:** Datadog, Grafana, Prometheus — not mentioned.\n\n8. **No mentorship or technical leadership:** The role requires mentoring junior/mid engineers; Dana is early-career with no such experience.\n\n9. **No payments, financial services, or regulated industry background.**\n\n10. **Scale mismatch:** Experience is limited to internal tooling for small teams; no evidence of high-volume, enterprise-scale systems.\n\n### Summary\n\nDana is an early-career engineer with a solid foundational profile for a junior or mid-level role, but falls substantially short of the Senior Software Engineer requirements across nearly every dimension — experience level, cloud depth, systems complexity, and leadership expectations.\n\nFINAL: REJECT"
+}

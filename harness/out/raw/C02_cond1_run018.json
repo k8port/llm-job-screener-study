@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:21:28.726410+00:00",
+  "finished_utc": "2026-09-28T21:21:36.360937+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 917,
+    "output_tokens": 367
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Check:**\n\n- ✅ **5+ years experience** – 8 years total (2018–present)\n- ✅ **Java/Python or comparable backend language** – Java/Spring Boot primary, Python listed in skills\n- ✅ **RESTful API design and consumption** – Explicitly mentioned across multiple roles; maintains OpenAPI specs\n- ✅ **Relational databases and SQL** – PostgreSQL/SQL explicitly listed and used in production context\n- ✅ **Major cloud provider (AWS)** – AWS with EKS, SQS, RDS, Lambda\n- ✅ **CI/CD and automated testing** – GitHub Actions, JUnit, CI pipeline expansion mentioned\n- ✅ **Bachelor's in CS or equivalent** – B.S. Computer Science, Texas A&M, 2018\n\n**Preferred Qualifications Check:**\n\n- ✅ **Event-driven architecture / Kafka** – Core part of current role\n- ✅ **Docker/Kubernetes** – Direct hands-on experience\n- ✅ **Infrastructure-as-code (Terraform)** – Listed in skills\n- ✅ **Financial services/payments background** – Card authorization and settlement at a financial firm\n- ✅ **Observability tooling (Datadog)** – Explicitly listed\n- ✅ **Mentoring engineers** – Currently mentoring two mid-level engineers\n\nMarcus is an exceptionally strong match, meeting all required qualifications and nearly all preferred qualifications with directly relevant domain experience.\n\nFINAL: ADVANCE"
+}

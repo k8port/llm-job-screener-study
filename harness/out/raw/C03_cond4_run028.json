@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:35:45.041446+00:00",
+  "finished_utc": "2026-09-28T21:35:55.005337+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 456
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-Focused, Not Backend-Focused**\nThe role is explicitly for a backend engineer on a Payments Platform. Priya's own summary describes herself as \"frontend-focused,\" and the majority of her experience is in React, TypeScript, and UI work. Her backend work (Node.js/Express) is described as supporting frontend interfaces, not as a primary backend engineering role.\n\n**2. No Java or Python Experience**\nThe required qualifications call for strong proficiency in Java, Python, or a \"comparable backend language.\" Priya's stack is Node.js/JavaScript/TypeScript — and even that is used primarily in a frontend or thin-service context, not in high-volume backend transaction processing systems.\n\n**3. No Relevant Payments or High-Volume Transaction Experience**\nThe role centers on processing high-volume transactions for enterprise clients. Priya has no financial services, payments, or regulated industry experience — a preferred but heavily weighted qualification for this team.\n\n**4. Degree Is Not in Computer Science or a Related Technical Field**\nThe required qualifications specify a B.S. in Computer Science or related field, or equivalent practical experience. Priya holds a B.A. in Graphic Design, and her experience does not clearly substitute in a backend-heavy engineering context.\n\n**5. Limited Cloud Depth**\nHer AWS exposure is limited to S3, CloudFront, and Lambda — primarily frontend/CDN services — rather than the backend infrastructure (e.g., EC2, RDS, ECS, SQS) expected for this role.\n\n**6. No Event-Driven Architecture or Message Broker Experience**\nThere is no mention of Kafka, SQS (beyond basic AWS familiarity), or event-driven patterns — a meaningful preferred qualification for a payments platform.\n\n**7. No Observability or Production Reliability Experience**\nNo mention of Datadog, Grafana, Prometheus, or similar tooling relevant to maintaining reliable production backend systems.\n\n---\n\nFINAL: REJECT"
+}

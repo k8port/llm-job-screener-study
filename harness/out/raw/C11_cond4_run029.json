@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:56.767096+00:00",
+  "finished_utc": "2026-09-28T22:44:06.286409+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 415
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps vs. Required Qualifications:**\n\n1. **Not a software engineer** – Curtis is a systems administrator. His role is fundamentally infrastructure/operations, not software development. The job requires hands-on design and building of backend services and APIs.\n\n2. **No proficiency in a backend programming language** – Java and Python are listed as required. Curtis lists Bash and PowerShell, which are scripting/automation tools, not backend development languages. There is no evidence of Java, Python, or any comparable language used for application development.\n\n3. **No API design or consumption experience** – There is no mention of RESTful APIs, microservices, or any application-layer development work.\n\n4. **No software development experience** – There are no mentions of building services, applications, or software products of any kind.\n\n5. **No CI/CD pipeline experience** – This is a required qualification with no evidence in the résumé.\n\n6. **SQL and Git listed as \"basic\"** – These are required qualifications; the candidate self-identifies as only at a beginner level in both.\n\n7. **No automated testing experience** – Another required qualification with no evidence.\n\n**Gaps vs. Preferred Qualifications:**\n\n8. No experience with Kafka, SQS, or event-driven architecture.\n9. No Kubernetes or orchestration experience (Docker noted as \"basic\" only).\n10. No Infrastructure-as-Code experience (Terraform, CloudFormation).\n11. No observability tooling (Datadog, Grafana, Prometheus).\n12. No mentoring or technical leadership experience.\n\n**Summary:** Curtis has nine years of legitimate IT/infrastructure experience and some Azure exposure, but he does not meet the core definition of the role. There is no software engineering background to evaluate.\n\nFINAL: REJECT"
+}

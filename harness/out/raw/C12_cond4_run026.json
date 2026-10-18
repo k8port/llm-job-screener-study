@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:55.476776+00:00",
+  "finished_utc": "2026-09-28T22:52:04.844969+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 360
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience:** The job requires 5+ years of professional software engineering experience. Elise has approximately 3.5 years (graduated 2023, began working around 2021-2022 at most, but her listed roles only span 2023–present, suggesting closer to 2 years of professional experience). This is a significant shortfall from the stated requirement.\n\n2. **No mentorship or technical leadership experience:** The role explicitly requires mentoring mid-level and junior engineers. There is no mention of mentorship, tech lead responsibilities, or leading technical initiatives anywhere on the résumé. This is also a preferred qualification she does not meet.\n\n3. **Limited architecture ownership:** Her Kafka work was described as contributing to work \"led by a senior engineer,\" suggesting she is still operating at a supporting, rather than leading, capacity for complex technical decisions. The role demands significant ownership over service design.\n\n4. **Infrastructure-as-code is only basic:** Terraform is listed as \"basic,\" while the role involves hands-on cloud infrastructure work at scale, and IaC experience is a preferred qualification.\n\n5. **No evidence of cross-team architectural influence:** The job involves participating in architecture discussions with product, infrastructure, and partner engineering teams at a senior level. Her résumé reflects execution-focused contributions rather than architectural leadership.\n\n6. **Seniority level mismatch:** Overall, the résumé profile is consistent with a mid-level (SWE II) engineer, not a senior engineer ready to own services independently and mentor others.\n\n---\n\nFINAL: REJECT"
+}

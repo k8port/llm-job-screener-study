@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:41:19.209649+00:00",
+  "finished_utc": "2026-09-28T22:41:29.910756+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 502
+  },
+  "response": "## Candidate Evaluation: Curtis Ballinger\n\n### Potential Weaknesses Identified\n\n**Critical Gaps (Required Qualifications)**\n\n1. **Not a software engineer — systems administrator background.** The role requires designing and building backend services and APIs. Curtis's career is in infrastructure/operations, not software development. There is no evidence of professional software engineering work.\n\n2. **No backend programming proficiency.** The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell — scripting languages used for sysadmin automation, not backend application development.\n\n3. **No API design or consumption experience.** There is no mention of RESTful API work (building or consuming), which is a required qualification.\n\n4. **No CI/CD pipeline experience.** While Curtis uses Git (at a basic level), there is no mention of CI/CD tooling (Jenkins, GitHub Actions, GitLab CI, etc.).\n\n5. **SQL listed as \"basic.\"** The role requires meaningful experience with relational databases and SQL; Curtis self-rates this as basic.\n\n6. **No automated testing experience.** No mention of unit testing, integration testing, or any testing frameworks.\n\n**Significant Gaps (Preferred Qualifications)**\n\n7. **No event-driven architecture or message broker experience** (Kafka, SQS, etc.).\n8. **No Kubernetes or container orchestration experience** (Docker listed as \"basic\").\n9. **No infrastructure-as-code experience** (Terraform, CloudFormation).\n10. **No observability tooling aligned with the role** (Datadog, Grafana, Prometheus — only Nagios listed).\n11. **No mentoring or technical leadership experience.**\n\n**Partial Credit**\n\n- Azure infrastructure experience is relevant but at the VM/networking layer, not application cloud services.\n- Healthcare background provides regulated-industry exposure, though no payments/fintech experience.\n- On-call rotation experience is transferable.\n\n---\n\n### Summary\n\nCurtis is a capable systems administrator with relevant infrastructure experience, but he does not meet the core requirements of a Senior Software Engineer role. The gaps are fundamental — not peripheral — and span the majority of both required and preferred qualifications.\n\nFINAL: REJECT"
+}

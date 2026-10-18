@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:22.740264+00:00",
+  "finished_utc": "2026-09-28T22:15:32.732858+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 405
+  },
+  "response": "## Candidate Screening: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n1. **Not a software developer by role.** Grant is a QA/test engineer, not a software engineer. His Java experience is confined to writing test automation (Selenium, REST Assured, TestNG), not building backend services, APIs, or production systems. The role requires designing and building scalable backend services.\n\n2. **No demonstrated experience building or owning production software.** There is no evidence of having designed, shipped, or maintained backend services or APIs — only of testing them.\n\n3. **No cloud platform experience.** The job requires hands-on experience with AWS, Azure, or GCP. None is listed or implied.\n\n4. **No relational database / SQL experience in a development context.** SQL is listed as a skill but only in a QA context; no experience with schema design, query optimization, or data modeling.\n\n5. **No CI/CD pipeline ownership.** He maintains test stages in Jenkins but has not built or owned a CI/CD pipeline for software delivery.\n\n6. **No event-driven architecture, containerization, or IaC experience** (preferred but adds to the overall gap).\n\n7. **Years of experience are QA-focused.** His five years do not constitute five years of professional *software engineering* experience as the job requires.\n\n8. **Self-described as \"transitioning toward software development,\"** which explicitly acknowledges he is not yet at the senior engineer level this role demands.\n\n9. **No mentoring or technical leadership experience** in an engineering capacity.\n\n---\n\n### Summary\n\nGrant's profile shows meaningful technical literacy and adjacent exposure to software systems, but his experience is fundamentally in quality assurance, not software engineering. He does not meet the core required qualifications for this Senior Software Engineer role.\n\nFINAL: REJECT"
+}

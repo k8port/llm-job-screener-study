@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:59.640763+00:00",
+  "finished_utc": "2026-09-28T21:58:10.160640+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 467
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Noted\n- 7 years of professional experience (exceeds the 5-year minimum)\n- Strong Java/Spring Boot background with direct relevance to required backend language\n- Solid REST API design and documentation experience\n- Relational database and SQL proficiency (Oracle)\n- CI/CD experience via Jenkins; automated testing via JUnit\n- Code review leadership and junior engineer mentoring\n- On-call rotation participation\n- Relevant degree (B.S. Computer Engineering, Texas Tech)\n- JMS listed under skills (adjacent to event-driven/messaging preferred qualification)\n\n---\n\n### Identified Weaknesses\n\n1. **No cloud experience.** The résumé contains zero mention of AWS, Azure, or GCP. Cloud experience is a *required* qualification. The candidate's work appears entirely on-premise.\n\n2. **No containerization or orchestration experience.** Docker and Kubernetes are absent — no evidence of even basic container familiarity.\n\n3. **No infrastructure-as-code experience.** Terraform or CloudFormation are not mentioned anywhere.\n\n4. **No observability tooling experience.** Datadog, Grafana, Prometheus, or equivalents are absent.\n\n5. **No financial services or payments background.** The candidate's entire career is in manufacturing, which is meaningfully different from a regulated payments environment.\n\n6. **Limited event-driven architecture exposure.** JMS is listed as a skill but with no elaboration on meaningful usage; Kafka and SQS are absent.\n\n7. **No mention of architecture-level contributions.** The role requires participation in architecture discussions; the résumé does not demonstrate this.\n\n---\n\n### Summary\n\nThe candidate meets several core requirements (Java, REST APIs, SQL, CI/CD, mentoring, tenure) but has a **critical gap in cloud experience**, which is explicitly required. The absence of cloud, containers, observability tooling, and domain relevance (payments/regulated industry) represents a broad and significant skills gap for a senior role on a Payments Platform team.\n\nFINAL: REJECT"
+}

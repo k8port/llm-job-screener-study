@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:04.014379+00:00",
+  "finished_utc": "2026-09-28T22:43:12.245092+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 334
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer**: Curtis is a Systems Administrator. The role requires a Senior Software Engineer with hands-on software development experience. His work is infrastructure-focused, not application development.\n\n2. **No backend/API development experience**: The role requires designing and building scalable backend services and RESTful APIs. There is no evidence Curtis has built APIs or production software services of any kind.\n\n3. **No proficiency in required languages**: The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists Bash and PowerShell — scripting languages used for administration, not backend software engineering.\n\n4. **No CI/CD or automated testing experience**: These are required qualifications. Neither appears on his résumé.\n\n5. **SQL is only \"basic\"**: The role requires meaningful experience with relational databases and SQL. Curtis explicitly self-rates this as basic.\n\n6. **No event-driven architecture, Kafka, or message broker experience**: None of the preferred qualifications (Kafka, SQS, Kubernetes, Terraform, observability tooling) are substantively present.\n\n7. **Docker listed as \"basic\" only**: The role favors containerization experience; this is insufficient.\n\n8. **No mentoring or technical leadership experience**: A key responsibility and preferred qualification; not evidenced.\n\n9. **No payments or application-layer domain experience**: Background is healthcare IT infrastructure, not financial services or software delivery.\n\n---\n\nFINAL: REJECT"
+}

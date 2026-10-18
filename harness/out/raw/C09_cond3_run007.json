@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:24:40.441304+00:00",
+  "finished_utc": "2026-09-28T22:24:53.325213+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 658
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional engineering experience | 16 years total experience — clearly meets bar | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Java 8 listed; however, it's described in a supporting/maintenance capacity alongside legacy COBOL stack; no modern Java or Python | 5/10 |\n| Experience designing and consuming RESTful APIs | Java 8 services providing \"web access\" to banking functions — vague; JSP/Servlets suggest older paradigms, no REST explicitly mentioned | 2/10 |\n| Relational databases and SQL | DB2, Oracle, SQL tuning — strong evidence | 9/10 |\n| Hands-on cloud experience (AWS, Azure, GCP) | No cloud experience mentioned whatsoever | 0/10 |\n| CI/CD pipelines and automated testing | Jenkins (basic), Subversion, Git (basic) — minimal; no automated testing mentioned | 2/10 |\n| Bachelor's degree in CS or related | B.S. Computer Science, UTA 2010 | 10/10 |\n\n**Required Subtotal: 38/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers (Kafka, SQS) | Not mentioned | 0/5 |\n| Containerization / orchestration (Docker, Kubernetes) | Not mentioned | 0/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | Not mentioned | 0/5 |\n| Financial services / regulated industry background | Strong — 16 years in trust/banking/settlement in regulated environment | 5/5 |\n| Observability tooling (Datadog, Grafana, Prometheus) | Not mentioned | 0/5 |\n| Mentoring or leading technical initiatives | Not evident in résumé | 0/5 |\n\n**Preferred Subtotal: 5/30**\n\n---\n\n### Overall Score: 43/100\n\n---\n\n## Summary Assessment\n\nRaymond brings genuine longevity in financial services and solid SQL/DB2 skills, both of which are relevant. However, the profile is heavily mainframe/legacy-oriented. Critical gaps include **zero cloud experience**, **no REST API design**, **no modern CI/CD or testing practices**, **no containerization**, and **no event-driven architecture exposure**. The role requires a hands-on senior engineer building modern, cloud-native payment services. Raymond's stack is a generation behind the core requirements, and the gaps are too fundamental to bridge through onboarding alone.\n\n---\n\nFINAL: REJECT"
+}

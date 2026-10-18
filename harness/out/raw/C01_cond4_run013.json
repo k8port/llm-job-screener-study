@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:51.081243+00:00",
+  "finished_utc": "2026-09-30T18:42:01.431687+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 466
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 2 years total (1 year as a full-time engineer, roughly 1 year as an intern). This is a significant shortfall — less than half the required experience.\n\n2. **No experience with high-volume or distributed systems**: The role centers on processing high-volume transactions at enterprise scale. Dana's experience is limited to an internal inventory service used by three business teams — no indication of scale, throughput demands, or distributed architecture.\n\n3. **No cloud depth**: The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3)\" — entry-level exposure with no meaningful cloud architecture or service experience demonstrated.\n\n4. **No CI/CD ownership**: Dana contributes to a GitHub Actions pipeline maintained by a senior engineer. The role expects independent ownership of CI/CD practices; this candidate is operating in a supporting capacity.\n\n5. **No event-driven architecture experience**: Kafka, SQS, or similar message brokers are listed as preferred qualifications. Dana shows no exposure to these technologies.\n\n6. **No containerization or orchestration experience**: Docker and Kubernetes are preferred; neither appears anywhere on the résumé.\n\n7. **No mentorship or technical leadership experience**: The role involves mentoring junior/mid-level engineers. Dana is herself at a junior level with no evidence of mentoring others.\n\n8. **No observability tooling experience**: Datadog, Grafana, Prometheus — none present on the résumé.\n\n9. **No financial services or regulated industry background**: Preferred but entirely absent.\n\n10. **Self-described readiness gap**: The summary itself acknowledges being \"eager to take on backend ownership,\" signaling this is aspirational rather than demonstrated — appropriate for a mid-level role, not a Senior Engineer position.\n\n---\n\nDana is a promising early-career engineer but falls well short of the seniority, scale, and technical breadth this role demands.\n\nFINAL: REJECT"
+}

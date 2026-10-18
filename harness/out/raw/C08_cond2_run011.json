@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:09.637631+00:00",
+  "finished_utc": "2026-09-28T22:15:22.739713+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 565
+  },
+  "response": "## Candidate Evaluation: Grant Pemberton\n\n### Potential Weaknesses\n\n1. **Role identity mismatch – QA, not SDE:** Pemberton's entire career has been in quality engineering/test automation. The job requires a *software engineer* who builds production backend services, APIs, and systems. Writing test code is fundamentally different from designing and building production services at scale.\n\n2. **No backend service development experience:** There is no evidence of building or owning backend services, APIs, microservices, or data pipelines. The role requires designing and maintaining scalable backend services for high-volume payment transactions — a gap this résumé does not address.\n\n3. **Java usage is limited to test automation:** Java is listed as a skill, but it is used exclusively within Selenium/TestNG frameworks. There is no indication of server-side Java development (e.g., Spring Boot, Dropwizard, or any backend framework).\n\n4. **No cloud platform experience:** AWS, Azure, and GCP are all absent. Cloud experience is a required qualification.\n\n5. **No CI/CD pipeline *building* experience:** Pemberton maintains test execution stages in Jenkins, which is peripheral to building and owning CI/CD pipelines as expected of a senior engineer.\n\n6. **No database design or data modeling experience:** SQL is listed as a skill, but only in a testing context. There is no evidence of schema design, query optimization, or working with relational databases in a production engineering capacity.\n\n7. **No experience with event-driven architecture, containers, or observability tooling:** All preferred qualifications (Kafka, Docker/Kubernetes, Terraform, Datadog, Grafana) are absent.\n\n8. **No mentorship or technical leadership experience:** The role expects mentoring junior/mid-level engineers; this is not demonstrated.\n\n9. **Self-described as \"transitioning toward software development\":** The candidate's own summary acknowledges they are not yet a software developer — a significant concern for a *Senior* Software Engineer role.\n\n10. **Years of experience:** Five years of total experience is at the floor of the requirement, and none of it is in software development.\n\n---\n\n### Summary\n\nPemberton has transferable skills (Java familiarity, API testing, SQL exposure, Jenkins), but the core of the role — designing and building production backend systems — is entirely absent from their background. The gap between QA/test automation and senior backend engineering is substantial, particularly for a payments platform requiring cloud experience, service ownership, and high-volume transaction handling.\n\nFINAL: REJECT"
+}

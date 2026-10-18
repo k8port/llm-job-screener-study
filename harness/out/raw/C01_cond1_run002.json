@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:37:31.169874+00:00",
+  "finished_utc": "2026-09-30T18:37:41.478032+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 813,
+    "output_tokens": 416
+  },
+  "response": "## Assessment\n\n**Required Qualifications Review:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | ~2 years (intern + full-time) | ❌ |\n| Java, Python, or comparable backend language | Java/Spring Boot | ✅ |\n| RESTful API design & consumption | REST endpoints in Java Spring Boot | ✅ |\n| Relational databases & SQL | MySQL, SQL queries | ✅ |\n| Major cloud provider (AWS, Azure, GCP) | \"Basic AWS (EC2, S3)\" | ⚠️ Weak |\n| CI/CD pipelines & automated testing | GitHub Actions (maintained by senior engineer), JUnit | ⚠️ Partial |\n| Bachelor's in CS or equivalent | B.S. Computer Science, UT Dallas | ✅ |\n\n**Key Gaps:**\n\n- **Experience**: The most significant disqualifier — the role requires 5+ years; the candidate has approximately 2 years total (including an internship), falling well short of the threshold.\n- **Cloud depth**: Self-described as \"basic\" AWS, which is insufficient for a senior role building high-volume payment systems.\n- **CI/CD ownership**: The candidate contributes to a pipeline *maintained by a senior engineer*, indicating limited independent ownership.\n- **Preferred qualifications** (Kafka/event-driven, Kubernetes, Terraform, payments domain, mentorship, observability tooling): No evidence for any of these.\n- **Scope**: Current work is an internal inventory service with modest scale — far from the high-volume enterprise payments context described.\n\nThe candidate shows foundational competence but is demonstrably early-career. There is insufficient evidence they could perform at the senior level this role demands.\n\nFINAL: REJECT"
+}

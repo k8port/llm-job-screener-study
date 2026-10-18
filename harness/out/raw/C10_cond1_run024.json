@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:31:03.964593+00:00",
+  "finished_utc": "2026-09-28T22:31:12.770931+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 391
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence |\n|---|---|\n| 5+ years professional software engineering experience | ~7 years total (2016–2023 engineering + 2024–present), with ~5 years as a software engineer proper (not counting actuarial role) |\n| Java, Python, or comparable backend language | Java (Spring Boot) is a primary skill; Python listed as well |\n| RESTful API design and consumption | Explicitly mentioned — designs REST APIs, maintains versioned contracts |\n| Relational databases and SQL | PostgreSQL, SQL listed; SQL-backed persistence in prior role |\n| Major cloud provider (AWS) | AWS experience across ECS, SQS, SNS, RDS, Lambda |\n| CI/CD and automated testing | GitHub Actions, JUnit, contract testing, CI coverage expansion |\n| Bachelor's degree or equivalent | B.S. Mathematics, Baylor University |\n\n**Preferred Qualifications Assessment:**\n\n- ✅ Event-driven architecture / message brokers (SQS, SNS)\n- ✅ Containerization / orchestration (Docker, ECS)\n- ✅ Infrastructure-as-code (Terraform)\n- ✅ Financial services / payments background (credit services, loan origination, payment scheduling)\n- ✅ Observability tooling (Datadog)\n- ✅ Mentoring engineers\n\n**Summary:** This candidate meets virtually every required qualification and nearly all preferred qualifications. Her background in payments/credit services is directly relevant to the Payments Platform team. The career break is brief and clearly explained, and she has already returned to a senior role in the same domain.\n\nFINAL: ADVANCE"
+}

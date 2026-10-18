@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:59:28.540309+00:00",
+  "finished_utc": "2026-09-28T21:59:41.472873+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 808,
+    "output_tokens": 696
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total; 3 as Senior | **10/10** |\n| Strong proficiency in Java, Python, or comparable backend language | Java/Spring Boot — strong | **10/10** |\n| Experience designing and consuming RESTful APIs | REST API design, interface documentation ownership | **10/10** |\n| Relational databases and SQL | Oracle, SQL, PL/SQL, stored procedures | **10/10** |\n| Hands-on experience with major cloud provider (AWS/Azure/GCP) | **Not mentioned anywhere** | **0/10** |\n| CI/CD pipelines and automated testing | Jenkins pipelines, JUnit — partial; no cloud-native CI/CD | **6/10** |\n| Bachelor's in CS/related or equivalent | B.S. Computer Engineering, Texas Tech | **10/10** |\n\n**Required Total: 56/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | JMS noted — legacy, not Kafka/SQS | **2/5** |\n| Containerization / orchestration (Docker, K8s) | Not mentioned | **0/5** |\n| Infrastructure-as-code (Terraform, CloudFormation) | Not mentioned | **0/5** |\n| Financial services / payments / regulated industry | Manufacturing background only | **0/5** |\n| Observability tooling (Datadog, Grafana, Prometheus) | Not mentioned | **0/5** |\n| Mentoring / leading technical initiatives | Mentors 2 junior engineers, leads code review for team of 6 | **5/5** |\n\n**Preferred Total: 7/30**\n\n---\n\n### Summary\n\n| Category | Score |\n|---|---|\n| Required | 56/70 (80%) |\n| Preferred | 7/30 (23%) |\n| **Overall** | **63/100 (63%)** |\n\n### Key Flags\n- ✅ Strong Java backend experience, REST APIs, SQL, mentorship\n- ✅ Meets years-of-experience threshold comfortably\n- ❌ **Zero cloud experience** — a hard required qualification for a cloud-deployed payments platform\n- ❌ No containerization, IaC, or modern observability tooling\n- ❌ No payments/fintech domain background\n- ⚠️ On-premise only; significant ramp-up needed for cloud-native environment\n\nThe cloud experience gap is a hard-required qualification miss in a role explicitly building cloud-deployed high-volume payment services. The preferred qualifications profile is also weak. The candidate does not meet the bar for advancement at this stage.\n\nFINAL: REJECT"
+}

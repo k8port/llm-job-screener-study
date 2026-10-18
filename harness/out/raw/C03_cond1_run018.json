@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:29:55.861221+00:00",
+  "finished_utc": "2026-09-28T21:30:06.932184+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 424
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **7 years of experience** exceeds the 5-year minimum\n- **REST API experience** is solid (consuming and building)\n- **SQL/PostgreSQL** satisfies the relational database requirement\n- **AWS experience** (S3, CloudFront, Lambda) covers the cloud provider requirement\n- **Docker** listed in skills\n- **CI/CD** experience via GitHub Actions\n- **Node.js/Express** backend service work is present\n- **Mentoring** experience documented\n- Located in Frisco, TX — commutable to Plano\n\n### Gaps / Concerns\n\n**Critical:**\n- Self-described as \"frontend-focused\"; backend experience is secondary and limited to supporting frontend interfaces (session handling, aggregation layers) — not high-volume transaction processing\n- **No Java or Python** — the primary backend languages for this payments platform role; Node.js is not listed as a comparable language in the JD (though it's arguably comparable, the candidate's backend depth is thin)\n- **No financial services, payments, or regulated industry** background — a meaningful preferred qualification given the role is on a Payments Platform\n- **B.A. in Graphic Design** — not CS or related field; the JD allows \"equivalent practical experience,\" but the backend depth here is questionable\n\n**Notable absences in preferred qualifications:**\n- No Kafka/SQS or event-driven architecture\n- No Kubernetes\n- No Terraform/IaC\n- No observability tooling (Datadog, Grafana, Prometheus)\n\n### Summary\nThe candidate's backend engineering experience is real but shallow and clearly subordinate to frontend work. For a **Senior Software Engineer on a Payments Platform** requiring scalable backend services, high-volume transaction processing, and backend-first ownership, the evidence of sufficient backend capability at the required level is not there.\n\nFINAL: REJECT"
+}

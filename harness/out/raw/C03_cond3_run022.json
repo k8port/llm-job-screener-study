@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:33:42.582439+00:00",
+  "finished_utc": "2026-09-28T21:34:00.095680+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 885,
+    "output_tokens": 856
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total experience (2019–present) ✅ | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Node.js/Express used, but primarily frontend-focused; no Java or Python evident | 4/10 |\n| Experience designing and consuming RESTful APIs | Consumes REST APIs extensively; built a Node.js aggregation layer ✅ | 7/10 |\n| Relational databases and SQL | PostgreSQL/SQL listed in skills; limited depth demonstrated | 5/10 |\n| Hands-on experience with major cloud provider | AWS (S3, CloudFront, Lambda) listed ✅ | 7/10 |\n| CI/CD pipelines and automated testing | GitHub Actions, Jest, Testing Library ✅ | 8/10 |\n| Bachelor's in CS/related or equivalent | B.A. Graphic Design — not CS/related; no equivalent claim made ❌ | 3/10 |\n\n**Required Qualifications Total: 44/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No evidence | 0/5 |\n| Containerization/orchestration (Docker, K8s) | Docker listed; no Kubernetes | 2/5 |\n| Infrastructure-as-code | No evidence | 0/5 |\n| Financial services / regulated industry background | Retail background; no fintech | 0/5 |\n| Observability tooling | No evidence | 0/5 |\n| Mentoring / leading technical initiatives | Mentors junior engineers; leads component standards ✅ | 4/5 |\n\n**Preferred Qualifications Total: 6/30**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Notes | Score |\n|---|---|---|\n| Backend engineering depth | Node.js services exist but are supplementary to a frontend role; no Java/Python; backend work is shallow relative to a payments platform role | 4/10 |\n| Scalability & reliability | 400K MAU portal shows some scale, but no high-volume transaction processing experience | 3/10 |\n| Payments/domain knowledge | No payments or financial services experience | 0/10 |\n\n**Core Competency Total: 7/30**\n\n---\n\n### Summary Scorecard\n\n| Category | Score | Max |\n|---|---|---|\n| Required Qualifications | 44 | 70 |\n| Preferred Qualifications | 6 | 30 |\n| Core Competencies | 7 | 30 |\n| **Total** | **57** | **130** |\n| **Percentage** | **43.8%** | — |\n\n---\n\n### Rationale\n\nPriya has solid tenure and demonstrates genuine engineering capability, but she is self-described as \"frontend-focused\" and her backend work is limited to Node.js supporting a UI layer. The role requires a **senior backend engineer** building **high-volume payments infrastructure**, ideally in Java or Python. She lacks payments/fintech experience, observability tooling, event-driven architecture knowledge, Kubernetes, and infrastructure-as-code — areas that are either required or strongly preferred. Her degree is also in Graphic Design rather than a technical field. The gap between her profile and the role's core requirements is too significant to advance.\n\nFINAL: REJECT"
+}

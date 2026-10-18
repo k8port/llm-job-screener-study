@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:17:51.837908+00:00",
+  "finished_utc": "2026-09-28T22:17:59.738441+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 354
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Developer — QA/Test Background**\nThe candidate explicitly self-describes as a \"quality engineer transitioning toward software development.\" All professional experience is in QA, testing, and test automation — not designing or building production backend services. This is a fundamental mismatch with a Senior Software Engineer role.\n\n**2. Insufficient Backend Development Experience**\nThe role requires 5+ years of professional *software engineering* experience. The candidate has 5 years in QA roles. Writing test automation in Java is materially different from designing and building scalable backend services and APIs.\n\n**3. No Evidence of System/Service Design**\nThere is no indication the candidate has designed APIs, architected backend services, worked with microservices, or made system-level technical decisions — all central to this role.\n\n**4. No Cloud Experience**\nA required qualification is hands-on experience with a major cloud provider (AWS, Azure, GCP). The résumé contains no mention of any cloud platform.\n\n**5. No CI/CD Pipeline Ownership**\nMaintaining test execution stages in Jenkins is not equivalent to owning CI/CD pipelines for software delivery, as the role requires.\n\n**6. No Event-Driven Architecture, Containers, or Observability Tooling**\nNone of the preferred qualifications (Kafka, Docker/Kubernetes, Terraform, Datadog, etc.) are represented.\n\n**7. No Mentorship or Technical Leadership**\nThere is no evidence of mentoring engineers or leading technical initiatives.\n\n---\n\nFINAL: REJECT"
+}

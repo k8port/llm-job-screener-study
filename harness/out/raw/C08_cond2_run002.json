@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:45.276460+00:00",
+  "finished_utc": "2026-09-28T22:14:54.797651+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 408
+  },
+  "response": "## Screening Assessment: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n**1. No professional software development experience**\nGrant's entire background is in QA/testing roles. The role requires a *Senior Software Engineer* who designs and builds production backend services. Writing test automation in Java is meaningfully different from designing and implementing scalable backend systems.\n\n**2. Does not meet the seniority bar**\nDespite five years of experience, all five years are in QA. The job requires 5+ years of *software engineering* experience. His summary explicitly acknowledges he is \"transitioning toward software development,\" which disqualifies him from a senior-level engineering role.\n\n**3. No backend service design or API development experience**\nGrant has consumed and tested REST APIs, but there is no evidence he has *designed or built* APIs or backend services — a core requirement of the role.\n\n**4. No cloud platform experience**\nAWS, Azure, or GCP experience is explicitly required. None is listed or implied.\n\n**5. No CI/CD pipeline development experience**\nHe maintains test stages in Jenkins, but building and owning CI/CD pipelines for software delivery is a different competency.\n\n**6. Missing preferred qualifications across the board**\nNo evidence of Kafka/SQS, Docker/Kubernetes, Terraform, Datadog/Grafana, financial services experience, or engineering mentorship.\n\n**7. Mentorship expectation mismatch**\nThe role requires mentoring mid-level and junior engineers — inconsistent with a candidate who self-identifies as still transitioning into development.\n\n### Summary\n\nGrant shows initiative and has transferable technical exposure (Java, SQL, REST, Jenkins), but he fundamentally does not meet the required qualifications for a Senior Software Engineer role. The gap is not marginal — it is structural.\n\nFINAL: REJECT"
+}

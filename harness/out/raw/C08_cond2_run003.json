@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:47.115576+00:00",
+  "finished_utc": "2026-09-28T22:14:57.864153+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 464
+  },
+  "response": "## Screening Assessment: Grant Pemberton\n\n### Potential Weaknesses\n\n1. **QA/Testing background, not software development.** The candidate is explicitly described as \"transitioning toward software development.\" All five years of professional experience are in QA roles (QA Analyst → QA Engineer → Senior QA Engineer), not in software engineering or backend service development. The role requires building and owning production backend services, not testing them.\n\n2. **No demonstrated experience designing or building backend services/APIs.** The candidate *tests* REST APIs and validates contracts but has not designed or built them. The job requires hands-on ownership of scalable service design and delivery.\n\n3. **No cloud platform experience.** AWS, Azure, or GCP experience is a required qualification. The résumé contains no mention of any cloud provider.\n\n4. **No relational database / SQL depth beyond skills listing.** SQL is listed as a skill but there is no evidence of meaningful database design, query optimization, or schema ownership in a production context.\n\n5. **No CI/CD ownership.** The candidate maintains test execution stages in Jenkins but has not built or owned a CI/CD pipeline for application delivery—a required qualification.\n\n6. **No experience with event-driven architecture, containers, or IaC.** None of the preferred qualifications (Kafka/SQS, Docker/Kubernetes, Terraform) are represented.\n\n7. **No mentoring or technical leadership experience.** The role requires mentoring junior/mid-level engineers; no such experience is evident.\n\n8. **Years of experience caveat.** While five years total professional experience are present, none of it is in software engineering in the sense the role intends, making the \"5+ years\" requirement effectively unmet.\n\n---\n\n### Summary\n\nGrant shows competence in Java-based test automation and API testing, which provides some transferable foundation, but the gap between QA engineering and senior backend software engineering is substantial. The candidate lacks cloud experience, backend service development, CI/CD ownership, and leadership experience—all of which are required or strongly expected for this role.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:38:25.335183+00:00",
+  "finished_utc": "2026-09-30T18:38:33.839801+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 813,
+    "output_tokens": 408
+  },
+  "response": "## Assessment\n\n**Required Qualifications Review:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | ~2 years (intern + full-time) | ❌ |\n| Java, Python, or comparable backend language | Java/Spring Boot | ✅ |\n| RESTful API design & consumption | REST endpoints in Java Spring Boot | ✅ |\n| Relational databases & SQL | MySQL, SQL queries | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | \"Basic AWS (EC2, S3)\" — limited | ⚠️ |\n| CI/CD pipelines & automated testing | GitHub Actions (maintained by senior engineer), JUnit | ⚠️ |\n| Bachelor's in CS or equivalent | B.S. Computer Science, UT Dallas | ✅ |\n\n**Key Gaps:**\n- **Experience shortfall is significant**: The role requires 5+ years; the candidate has approximately 2 years total (including an internship). This is a substantial gap for a *Senior* role.\n- **Cloud experience is minimal**: Self-described as \"basic AWS,\" which falls well short of hands-on cloud architecture expected at the senior level.\n- **CI/CD ownership is limited**: The pipeline is maintained by a senior engineer — the candidate is a contributor, not an owner.\n- **No evidence of**: mentoring others, leading technical initiatives, event-driven systems, observability tooling, containerization, or payments/regulated industry background.\n- **Scope of work is narrow**: Internal inventory service with limited scale, not indicative of high-volume enterprise systems.\n\nThere is insufficient evidence this candidate could successfully perform a Senior Software Engineer role with the scope, ownership, and depth described.\n\nFINAL: REJECT"
+}

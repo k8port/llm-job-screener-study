@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:48:05.238169+00:00",
+  "finished_utc": "2026-09-28T21:48:13.099455+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 353
+  },
+  "response": "## Assessment\n\n**Role Requirements vs. Candidate Profile**\n\n**Required Qualifications Review:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional software engineering | 6 years experience, but as a data/reporting analyst, not software engineering | ❌ |\n| Strong proficiency in Java, Python, or comparable backend language | Python used for scripting/data cleaning; no backend development | Partial |\n| Experience designing and consuming RESTful APIs | No mention | ❌ |\n| Relational databases and SQL | Strong SQL skills (Snowflake, SQL Server) | ✅ |\n| Hands-on experience with major cloud provider | \"Basic AWS (S3, Athena)\" — minimal exposure | ❌ |\n| CI/CD pipelines and automated testing | No mention | ❌ |\n| Bachelor's degree in CS or related field | B.S. Statistics | ✅ |\n\n**Key Gaps:**\n- The candidate is a **data analyst**, not a software engineer. The distinction is material — no backend service development, no API design/consumption, no CI/CD, no containerization, no production system ownership.\n- Python usage is limited to data cleaning scripts, not backend application development.\n- Cloud experience is minimal and data-focused, not infrastructure or services-oriented.\n- No evidence of mentoring engineers or leading technical initiatives in a software engineering context.\n\nThe candidate's profile does not provide sufficient evidence of the core competencies required for this Senior Software Engineering role.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:25:27.202419+00:00",
+  "finished_utc": "2026-09-28T21:25:36.956024+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 336
+  },
+  "response": "## Reasons Why This Candidate Should Not Advance\n\nAttempting to build a case for rejection, the following potential concerns were identified:\n\n1. **Limited breadth of language experience**: Marcus is primarily a Java engineer. While Python is listed in skills, there is no demonstrated project or work experience using Python — it may be superficial familiarity.\n\n2. **Single employer concentration**: Six of his eight years were spent at one company (Coventry Financial), which could indicate limited exposure to diverse engineering cultures, codebases, or problem domains.\n\n3. **No explicit mention of GCP or Azure**: Cloud experience is limited to AWS. This is minor and AWS qualifies, but breadth is narrower than some candidates might offer.\n\n4. **Mentorship scope is modest**: He mentions mentoring two mid-level engineers, which is relatively limited in scale for a senior role that emphasizes mentorship as a key responsibility.\n\n5. **No explicit infrastructure-as-code project detail**: Terraform is listed in skills but not elaborated on in work experience bullets, making depth uncertain.\n\n## Assessment\n\nThese concerns are **minor and largely unconvincing as disqualifying factors**. Marcus meets every required qualification — years of experience, Java proficiency, REST APIs, SQL/PostgreSQL, AWS, CI/CD, automated testing, and a relevant degree. He also matches nearly every preferred qualification: Kafka, Docker/Kubernetes, Terraform, financial services background, Datadog, and mentorship. His experience is directly aligned with the role.\n\nFINAL: ADVANCE"
+}

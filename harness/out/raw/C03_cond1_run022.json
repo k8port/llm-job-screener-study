@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:30:07.926879+00:00",
+  "finished_utc": "2026-09-28T21:30:18.090928+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 413
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **7 years of experience** (exceeds the 5-year minimum)\n- **Backend/API work**: Node.js/Express services, REST API design and consumption\n- **SQL/PostgreSQL**: Listed in skills\n- **AWS exposure**: S3, CloudFront, Lambda\n- **CI/CD**: GitHub Actions pipeline experience\n- **Automated testing**: Jest, integration tests\n- **Mentoring**: Junior engineers, design reviews\n- **Located in Frisco, TX** — close to Plano, TX (hybrid feasible)\n\n### Gaps / Concerns\n- **Self-described as \"frontend-focused\"** — backend experience is supplementary to UI work, not primary\n- **No Java or Python** — core backend languages required; Node.js is listed as \"comparable\" but the depth is in a supporting/aggregation role, not high-volume transaction processing\n- **No relational database design at scale** — PostgreSQL is listed but no evidence of meaningful DB design ownership\n- **No Kafka, SQS, or event-driven architecture** experience\n- **No Kubernetes or Terraform/IaC** experience\n- **No financial services / payments background**\n- **No observability tooling** (Datadog, Grafana, Prometheus)\n- **Education**: B.A. Graphic Design — not CS or a related technical field; practical experience could compensate, but backend depth is limited\n- The backend work described (session handling, API aggregation) is not at the scale or complexity expected of a Payments Platform senior engineer\n\n### Summary\nThe candidate has breadth but lacks the backend depth, language proficiency (Java/Python), and domain experience (payments, high-volume systems) the role requires. The evidence does not sufficiently support success in this role as described.\n\nFINAL: REJECT"
+}

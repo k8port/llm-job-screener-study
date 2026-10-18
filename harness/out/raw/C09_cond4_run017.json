@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:46.779564+00:00",
+  "finished_utc": "2026-09-28T22:26:56.900923+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 438
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Missing or Insufficient Technical Stack:**\n- **No cloud experience (AWS, Azure, GCP):** A hard required qualification with zero evidence on the résumé. The candidate works entirely in on-premises mainframe/z/OS environments.\n- **No RESTful API design/consumption experience:** The Java 8 work appears limited to internal web access layers (JSP, Servlets), not modern REST service design.\n- **No CI/CD pipeline experience:** Jenkins is listed as \"basic\" and SVN is the primary VCS; no evidence of modern CI/CD practices.\n- **No automated testing experience:** No mention of unit, integration, or any automated test frameworks.\n\n**Outdated Technology Profile:**\n- Primary stack is COBOL/JCL/z/OS — mainframe-centric, not relevant to building modern distributed backend services.\n- Java experience is limited to Java 8 and legacy patterns (JSP, Servlets, WebSphere); no modern Java frameworks (Spring Boot, etc.).\n- No evidence of microservices, containerization (Docker/Kubernetes), or event-driven architecture (Kafka, SQS).\n\n**No Cloud or Infrastructure Experience:**\n- Lacks any cloud provider experience, infrastructure-as-code, or containerization — all preferred qualifications where the candidate shows zero exposure.\n\n**Limited Observability/Reliability Experience:**\n- No mention of Datadog, Grafana, Prometheus, or any modern observability tooling.\n\n**Mentorship/Leadership:**\n- No evidence of mentoring engineers or leading technical initiatives.\n\n**Summary:**\nWhile the candidate has 16 years of experience in a regulated financial environment and meets the education and SQL requirements, they fall critically short on the core required qualifications — particularly cloud, REST API, and CI/CD experience. The overall technical profile is too far removed from modern backend engineering to be viable for this role.\n\nFINAL: REJECT"
+}

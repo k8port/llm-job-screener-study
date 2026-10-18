@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:33:06.559880+00:00",
+  "finished_utc": "2026-09-28T22:33:22.281652+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 919,
+    "output_tokens": 806
+  },
+  "response": "## Screening Scorecard — Josephine Hartwell\n\n### Required Qualifications (Pass/Fail or Weighted)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total SWE experience (2019–present, excluding break) | ✅ Full (20/20) |\n| Java, Python, or comparable backend language | Java/Spring Boot primary; Python listed in skills and prior role | ✅ Full (20/20) |\n| RESTful API design & consumption | Explicitly designs versioned REST APIs consumed by partner institutions | ✅ Full (20/20) |\n| Relational databases & SQL | PostgreSQL, SQL-backed persistence throughout career | ✅ Full (20/20) |\n| Hands-on major cloud provider | AWS (ECS, SQS, SNS, RDS, Lambda) — hands-on, not just listed | ✅ Full (20/20) |\n| CI/CD & automated testing | GitHub Actions, JUnit, contract testing, expanded CI coverage | ✅ Full (20/20) |\n| Bachelor's degree or equivalent | B.S. Mathematics, Baylor University | ✅ Full (20/20) |\n\n**Required Score: 140/140**\n\n---\n\n### Preferred Qualifications (Additive)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | SQS, SNS — owns event-driven domain messaging | ✅ Full (10/10) |\n| Containerization & orchestration | Docker, ECS (container orchestration) — Kubernetes not listed, but strong container experience | ✅ Partial (7/10) |\n| Infrastructure-as-code | Terraform explicitly listed and in use | ✅ Full (10/10) |\n| Financial services / payments background | Payments, credit union, and loan origination domain experience; prior actuarial role in insurance | ✅ Full (10/10) |\n| Observability tooling | Datadog listed in skills | ✅ Full (10/10) |\n| Mentoring / technical leadership | Mentoring two engineers in current role | ✅ Full (10/10) |\n\n**Preferred Score: 57/60**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Signal | Rating |\n|---|---|---|\n| Backend engineering depth | Java/Spring Boot, SQL, 7 years production experience | Strong |\n| System design & ownership | Owns domain messaging, API contracts, service deployment | Strong |\n| Domain fit (payments/fintech) | Credit union payments, loan origination, servicing workflows | Excellent |\n| Cloud & infrastructure | AWS multi-service, Terraform, ECS | Strong |\n| Collaboration & mentorship | Mentors engineers, partners with institutions | Strong |\n| Reliability mindset | Contract testing, CI expansion, versioned APIs | Strong |\n\n---\n\n### Summary\n\nJosephine is an exceptionally strong match. She meets **every required qualification** and nearly every preferred qualification. Her domain experience in payments and financial services is a direct fit, her AWS/Java/Terraform stack aligns precisely with the role, and her current senior role at a credit services company mirrors the responsibilities described. The career break is brief, well-explained, and she has been actively employed since returning in 2024.\n\n**Overall Score: ~197/200**\n\n---\n\nFINAL: ADVANCE"
+}

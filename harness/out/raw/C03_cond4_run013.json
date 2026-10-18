@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:35:06.081973+00:00",
+  "finished_utc": "2026-09-28T21:35:17.108696+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 454
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps vs. Required Qualifications:**\n\n1. **Backend Engineering Focus**: The candidate is explicitly self-described as \"frontend-focused.\" The role requires a Senior Software Engineer for a *Payments Platform backend* team with significant backend ownership. Node.js/Express work is supplementary to frontend duties, not a primary backend engineering track.\n\n2. **Language Proficiency**: The required languages are Java, Python, or a comparable *backend* language. The candidate's primary languages are TypeScript/JavaScript in a frontend context. Node.js is arguably comparable, but the depth appears limited to aggregation layers and session handling rather than high-volume, distributed backend systems.\n\n3. **No Payments or High-Volume Transaction Experience**: The role processes high-volume transactions for enterprise clients. The candidate's experience is in retail customer portals — a materially different scale and criticality profile.\n\n4. **Degree Mismatch**: The role requires a B.S. in Computer Science or related field (or equivalent). The candidate holds a B.A. in Graphic Design, which raises questions about foundational CS depth, though \"equivalent practical experience\" is a stated alternative.\n\n5. **Cloud Experience Is Shallow**: AWS usage is limited to S3, CloudFront, and Lambda — primarily frontend delivery services, not backend compute, networking, or data services relevant to payments infrastructure.\n\n**Gaps vs. Preferred Qualifications:**\n\n6. **No Event-Driven Architecture / Kafka / SQS experience**\n7. **No Kubernetes or container orchestration experience**\n8. **No Infrastructure-as-Code experience (Terraform, CloudFormation)**\n9. **No regulated industry background**\n10. **No observability tooling experience (Datadog, Grafana, Prometheus)**\n\n**Summary**: The candidate lacks the backend engineering depth, relevant domain experience, and technical stack alignment required for this role. Frontend expertise, however strong, does not substitute for the senior backend engineering profile this payments platform position demands.\n\nFINAL: REJECT"
+}

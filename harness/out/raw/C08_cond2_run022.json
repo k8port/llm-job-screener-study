@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:39.102510+00:00",
+  "finished_utc": "2026-09-28T22:15:50.002388+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 443
+  },
+  "response": "## Screening Analysis: Grant Pemberton\n\n### Potential Weaknesses\n\n1. **Quality Engineering Background, Not Software Development**: The candidate explicitly self-identifies as a \"quality engineer transitioning toward software development.\" The role requires a Senior *Software Engineer* who designs and builds production backend services — not a QA professional at any level.\n\n2. **No Evidence of Building Production Services**: There is no indication Grant has designed or built backend microservices, APIs, or any production software system. His Java experience is confined to test automation frameworks (Selenium, REST Assured), not service development.\n\n3. **Cloud Experience Absent**: The role requires hands-on experience with AWS, Azure, or GCP. No cloud platform is mentioned anywhere on the résumé.\n\n4. **No CI/CD Pipeline Ownership**: Maintaining test execution stages in Jenkins is meaningfully different from owning CI/CD pipelines for software delivery, which the role requires.\n\n5. **No Database/SQL Engineering Experience**: SQL is listed as a skill, but there is no demonstrated experience with relational database design, query optimization, or schema management in a development context.\n\n6. **No Architectural or System Design Experience**: The role involves architecture discussions, service design ownership, and high-volume transaction processing — none of which appear in the candidate's history.\n\n7. **No Mentorship or Technical Leadership**: No evidence of mentoring engineers or leading technical initiatives.\n\n8. **Preferred Qualifications Largely Unmet**: Kafka/event-driven architecture, Docker/Kubernetes, Terraform, observability tooling, and financial services experience are all absent.\n\n9. **Seniority Mismatch**: While the candidate has five years of experience, it is in QA — not software engineering — making the \"Senior\" designation inapplicable to this role.\n\n### Summary\n\nGrant's background falls significantly short of the required qualifications for this role in nearly every material dimension. The gap between QA automation engineering and senior backend software engineering is substantial.\n\nFINAL: REJECT"
+}

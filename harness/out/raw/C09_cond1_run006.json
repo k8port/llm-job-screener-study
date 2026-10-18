@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:21:54.907142+00:00",
+  "finished_utc": "2026-09-28T22:22:04.938835+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 392
+  },
+  "response": "## Assessment: Raymond Dolliver\n\n### Strengths\n- **16 years of experience** — well exceeds the 5-year minimum\n- **Financial services background** — directly in trust accounting and settlement processing, highly relevant to payments domain\n- **SQL/DB2 experience** — solid relational database background\n- **Java experience** — though limited to Java 8 and legacy web frameworks (JSP/Servlets)\n- **B.S. Computer Science** — meets education requirement\n- **Regulated industry** — understands audit, compliance, and high-priority production incident handling\n- **Some CI/CD exposure** — Jenkins (basic)\n\n### Gaps / Concerns\n- **Cloud experience**: No evidence of AWS, Azure, or GCP — this is a *required* qualification\n- **Modern backend architecture**: Experience is heavily mainframe-centric (COBOL, JCL, z/OS); Java work appears legacy and limited in scope\n- **RESTful APIs**: No clear evidence of designing or consuming REST APIs\n- **CI/CD**: Listed as \"basic\" Jenkins only; no automated testing mentioned\n- **Event-driven architecture, Kafka/SQS**: No evidence\n- **Containerization/Kubernetes/Docker**: No evidence\n- **Observability tooling**: No evidence\n- **Mentorship/technical leadership**: Not mentioned\n\n### Summary\nRaymond has relevant domain knowledge (financial services) and a long career, but his technical profile is centered on legacy mainframe systems. The role requires modern cloud-native backend engineering skills — cloud platforms, RESTful API design, CI/CD, containerization — for which there is **insufficient evidence**. The gaps are not minor preferences; several are listed as *required* qualifications.\n\nFINAL: REJECT"
+}

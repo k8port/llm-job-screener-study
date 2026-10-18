@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:50:18.136739+00:00",
+  "finished_utc": "2026-09-28T22:50:32.350018+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 694
+  },
+  "response": "## Screening Scorecard — Elise Thornbury\n\n### Required Qualifications (Pass/Fail + Notes)\n\n| Requirement | Score | Notes |\n|---|---|---|\n| 5+ years professional SWE experience | ❌ FAIL | ~2 years total (2023–present); does not meet threshold |\n| Java, Python, or comparable backend language | ✅ PASS | Java/Spring Boot primary; Python listed |\n| RESTful API design & consumption | ✅ PASS | Core of both roles |\n| Relational databases & SQL | ✅ PASS | PostgreSQL, SQL confirmed |\n| Major cloud provider (AWS/Azure/GCP) | ✅ PASS | AWS (EKS, SQS, RDS) |\n| CI/CD pipelines & automated testing | ✅ PASS | GitHub Actions, JUnit, Spring Test |\n| Bachelor's in CS or equivalent | ✅ PASS | B.S. CS, SMU 2023 |\n\n**Required qualifications met: 6 of 7 — with 1 hard FAIL (experience threshold)**\n\n---\n\n### Preferred Qualifications (Bonus Signal)\n\n| Preferred | Met? |\n|---|---|\n| Event-driven / message brokers (Kafka) | ✅ Yes |\n| Containerization & orchestration | ✅ Yes (Docker, K8s, Helm, EKS) |\n| Infrastructure-as-code (Terraform) | ⚠️ Partial (\"basic\") |\n| Payments / regulated industry background | ✅ Yes (Larkspur Pay) |\n| Observability tooling | ✅ Grafana listed |\n| Mentoring / leading initiatives | ❌ No evidence |\n\n**Preferred qualifications: 4–5 of 6 met** — strong domain and technical alignment.\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating | Notes |\n|---|---|---|\n| Technical depth | Medium-High | Solid payments/backend stack; Kafka contributor role was supporting, not leading |\n| Seniority signal | Low-Medium | SE II title; defers to senior on complex Kafka work |\n| Domain fit | High | Payments/fintech directly relevant |\n| Ownership & scope | Medium | Good scope for tenure, but tenure is short |\n\n---\n\n### Summary Judgment\n\nElise is a **strong early-career engineer** with directly relevant domain experience (payments), a well-matched tech stack, and impressive accomplishments for ~2 years of experience. However, the **5+ year experience requirement is a hard threshold** she falls significantly short of (~2 years vs. 5+ required). The role also calls for mentoring junior/mid engineers — no evidence of this. Her profile is better suited to a **mid-level** position.\n\n**Score: 52/100** (strong preferred signal cannot compensate for the hard experience gap)\n\n---\n\nFINAL: REJECT"
+}

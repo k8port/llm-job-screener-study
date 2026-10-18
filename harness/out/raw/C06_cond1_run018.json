@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:56:31.371651+00:00",
+  "finished_utc": "2026-09-28T21:56:41.059685+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 468
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Against Requirements\n\n**Required Qualifications:**\n- ✅ **7 years of experience** — exceeds the 5-year requirement\n- ✅ **Java/Spring Boot proficiency** — strong, consistent, and current\n- ✅ **RESTful API design and consumption** — explicitly owned API design for internal services\n- ✅ **Relational databases and SQL** — deep Oracle/SQL/PL/SQL experience\n- ✅ **CI/CD pipelines and automated testing** — Jenkins pipelines, JUnit, integration testing\n- ✅ **Bachelor's degree** — B.S. Computer Engineering, Texas Tech\n- ✅ **Mentorship and code review** — leads code review for team of six, mentors two junior engineers\n- ✅ **On-call rotation** — explicitly mentioned\n\n**Preferred Qualifications:**\n- ✅ **Event-driven/message brokers** — JMS listed in skills (lighter than Kafka/SQS but relevant)\n- ✅ **Mentoring engineers** — confirmed\n\n### Notable Gaps\n\n- ❌ **No cloud experience** — entire background is on-premise; AWS/Azure/GCP is a *required* qualification\n- ❌ **No containerization** (Docker/Kubernetes) — not mentioned\n- ❌ **No infrastructure-as-code** — not mentioned\n- ❌ **No financial services/payments background** — manufacturing context only\n- ❌ **No observability tooling** — Datadog, Grafana, Prometheus absent\n\n### Summary\n\nAlan is a strong backend engineer whose experience closely mirrors the role in many respects. However, the **complete absence of cloud experience** is a meaningful gap against an explicitly *required* qualification for a role centered on cloud-native transaction processing. The accumulation of additional gaps (containers, IaC, observability, payments domain) compounds the concern for a senior role with significant ownership expectations.\n\nFINAL: REJECT"
+}

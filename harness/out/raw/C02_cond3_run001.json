@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:23:19.899841+00:00",
+  "finished_utc": "2026-09-28T21:23:33.754267+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 722
+  },
+  "response": "## Screening Scorecard: Marcus Ellery\n\n### Required Qualifications (Pass/Fail per item)\n\n| Requirement | Evidence | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years (2018–present) | ✅ |\n| Java, Python, or comparable backend language | Java/Spring Boot primary; Python listed | ✅ |\n| RESTful API design & consumption | Explicit: OpenAPI specs, RESTful services across roles | ✅ |\n| Relational databases & SQL | PostgreSQL/SQL across multiple roles | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | AWS: EKS, SQS, RDS, Lambda | ✅ |\n| CI/CD & automated testing | GitHub Actions, JUnit, expanded test coverage | ✅ |\n| Bachelor's in CS or equivalent | B.S. CS, Texas A&M, 2018 | ✅ |\n\n**Required: 7/7 ✅**\n\n---\n\n### Preferred Qualifications (Weighted Bonuses)\n\n| Preference | Evidence | Score |\n|---|---|---|\n| Event-driven / message brokers | Kafka (topics, consumer groups), SQS | ✅ Strong |\n| Containerization & orchestration | Docker, Kubernetes/EKS, Helm | ✅ Strong |\n| Infrastructure-as-code | Terraform listed | ✅ |\n| Financial services / regulated industry | 6+ years at Coventry Financial (card auth, payments) | ✅ Strong |\n| Observability tooling | Datadog listed; p99 latency improvement noted | ✅ |\n| Mentoring / technical leadership | Mentored two mid-level engineers; architecture reviews | ✅ |\n\n**Preferred: 6/6 ✅**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating (1–5) | Notes |\n|---|---|---|\n| Technical depth (backend/Java) | 5 | 8 years Java, Spring Boot, production-scale systems |\n| System design & scalability | 5 | High-volume card authorization, event-driven architecture |\n| Cloud & DevOps | 5 | AWS, Docker, K8s, Terraform, CI/CD |\n| Domain relevance | 5 | Direct payments/financial services background |\n| Collaboration & mentorship | 4 | Clear evidence; no formal tech lead title yet |\n| Observability & reliability | 5 | Datadog, latency optimization, on-call rotation |\n\n**Competency Average: 4.8 / 5.0**\n\n---\n\n### Overall Score: **97 / 100**\n\nMarcus meets every required qualification and every preferred qualification. His background is a near-exact match to the role: senior Java engineer building high-volume payment services at a financial institution, with hands-on Kafka, AWS, Kubernetes, Terraform, and Datadog experience, plus active mentorship and on-call ownership.\n\nFINAL: ADVANCE"
+}

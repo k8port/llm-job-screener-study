@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:16:37.195534+00:00",
+  "finished_utc": "2026-09-28T22:16:49.961284+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 600
+  },
+  "response": "## Screening Evaluation: Grant Pemberton\n\n### Scoring Rubric (Required Qualifications)\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| 5+ years professional SWE experience | High | 1 | 5 years total experience, but primarily in QA/test automation, not software development |\n| Strong proficiency in Java, Python, or comparable backend language | High | 1.5 | Java used for test automation (not production service development); \"basic Python scripting\" only |\n| RESTful API design & consumption | High | 1 | Tests REST APIs but no evidence of *designing or building* APIs |\n| Relational databases & SQL | Medium | 1.5 | SQL listed as a skill; no detail on depth of use |\n| Cloud provider (AWS, Azure, GCP) | High | 0 | No cloud experience mentioned |\n| CI/CD pipelines & automated testing | Medium | 2 | Jenkins pipeline maintenance; strong automated testing background |\n| Bachelor's degree / equivalent | Low | 2.5 | B.S. Information Technology ✓ |\n\n### Scoring Rubric (Preferred Qualifications)\n\n| Criterion | Score (0–3) | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | 0 | No mention |\n| Containerization / orchestration | 0 | No mention |\n| Infrastructure-as-code | 0 | No mention |\n| Financial services / regulated industry | 0 | Retail systems; no payments background |\n| Observability tooling | 0 | No mention |\n| Mentoring / technical leadership | 0.5 | Collaborates with developers; no formal mentoring |\n\n---\n\n### Summary Assessment\n\n**Critical Gaps:**\n- **Role mismatch**: Candidate is a QA/test engineer transitioning to development — not a practicing software engineer. The job requires someone *building* backend services, not testing them.\n- **No cloud experience**: A hard requirement with zero evidence of coverage.\n- **No backend service development**: Java usage is confined to test frameworks (Selenium, TestNG, REST Assured), not production application code.\n- **No preferred qualifications met**: Kafka, Docker/K8s, Terraform, payments domain, observability — all absent.\n\n**Strengths:** Solid CI/CD and testing background; Java familiarity; local to the area; degree meets requirement.\n\n**Overall Score: ~9 / 30** — Substantially below threshold for a Senior Software Engineer role.\n\n---\n\nFINAL: REJECT"
+}

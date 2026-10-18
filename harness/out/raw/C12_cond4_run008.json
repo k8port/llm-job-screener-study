@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:13.415293+00:00",
+  "finished_utc": "2026-09-28T22:51:21.397692+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 326
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The job requires 5+ years of professional software engineering experience. Elise graduated in 2023 and has approximately 1.5–2 years of professional experience (Engineer role starting 2023, Engineer II starting 2024). This is a significant shortfall — roughly 3+ years below the stated minimum.\n\n2. **Junior-to-mid level seniority**: Her current title is \"Software Engineer II,\" which is not a senior-level role. The position she is applying for is a Senior Software Engineer role with significant ownership expectations.\n\n3. **Limited independent ownership**: Her résumé indicates she contributed to Kafka partitioning work \"led by a senior engineer,\" suggesting she operates in a supporting rather than leading capacity on complex technical initiatives. The role expects candidates to lead architecture discussions and own service design independently.\n\n4. **No demonstrated mentorship experience**: The role requires mentoring mid-level and junior engineers. There is no evidence of mentorship or technical leadership in her résumé — a required preferred qualification and implied expectation of the senior role.\n\n5. **Limited scope of architecture experience**: Her experience appears to be at the feature/service implementation level rather than at the broader systems design and architecture level expected of a senior engineer.\n\n6. **Terraform listed as \"basic\"**: While infrastructure-as-code is preferred, her own self-assessment signals limited capability here.\n\n---\n\nFINAL: REJECT"
+}

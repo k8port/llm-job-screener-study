@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:49:44.699881+00:00",
+  "finished_utc": "2026-09-28T22:49:58.964979+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 693
+  },
+  "response": "## Screening Evaluation: Elise Thornbury\n\n---\n\n### Scoring Rubric (Required Qualifications)\n\n| Criterion | Weight | Assessment | Score (0–3) |\n|---|---|---|---|\n| 5+ years professional SWE experience | High | ~2 years at Larkspur Pay (2023–present); summary states \"three and a half years\" total — does **not** meet the 5-year requirement | **0** |\n| Java, Python, or comparable backend language | High | Java/Spring Boot (primary), Python listed in skills | **3** |\n| RESTful API design & consumption | High | Designs and documents REST endpoints for internal/partner teams | **3** |\n| Relational databases & SQL | High | PostgreSQL experience on merchant account management services | **3** |\n| Major cloud provider (AWS, Azure, GCP) | High | AWS (EKS, SQS, RDS) hands-on | **3** |\n| CI/CD & automated testing | Medium | GitHub Actions pipelines, JUnit, Spring Test | **3** |\n| Bachelor's in CS or equivalent | Medium | B.S. CS, SMU 2023 | **3** |\n\n**Required Qualifications Score: 18/21** *(with a critical 0 on experience threshold)*\n\n---\n\n### Scoring Rubric (Preferred Qualifications)\n\n| Criterion | Assessment | Score (0–2) |\n|---|---|---|\n| Event-driven / message brokers | Kafka consumers, SQS listed | **2** |\n| Containerization / orchestration | Docker, Kubernetes, Helm, EKS | **2** |\n| Infrastructure-as-code | Terraform (basic) | **1** |\n| Financial services / payments background | Active payments domain (merchant payouts, settlement) | **2** |\n| Observability tooling | Grafana listed | **1** |\n| Mentoring / technical leadership | No evidence of mentoring; Kafka partitioning work was *led by a senior engineer* | **0** |\n\n**Preferred Qualifications Score: 8/12**\n\n---\n\n### Summary Assessment\n\n| Category | Finding |\n|---|---|\n| **Strengths** | Strong technical stack alignment (Java, Kafka, AWS, Kubernetes, REST), payments domain experience, solid education |\n| **Critical Gap** | Experience is ~3.5 years vs. the **5+ year hard requirement** — falls materially short |\n| **Additional Gap** | No evidence of mentoring junior engineers or independently leading technical initiatives |\n\n---\n\n### Judgment\n\nElise Thornbury is a technically well-matched candidate for the stack and domain, but she falls approximately **18 months short** of the stated 5-year experience floor — a hard requirement for a senior-level role. Her current title (Software Engineer II) and the framing of her Kafka contribution (supporting a senior engineer) further support a mid-level rather than senior classification at this time.\n\nFINAL: REJECT"
+}

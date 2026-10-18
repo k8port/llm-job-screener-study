@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:39.720219+00:00",
+  "finished_utc": "2026-09-28T22:43:47.852481+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 346
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer:** Curtis is a Systems Administrator, not a software engineer. His experience is in infrastructure operations, server management, and IT support — not designing or building software applications.\n\n2. **No backend development experience:** The role requires building scalable backend services and APIs. Curtis has no demonstrated experience writing application code, building APIs, or designing software systems.\n\n3. **Insufficient programming proficiency:** The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell (scripting languages used for ops automation), which do not qualify.\n\n4. **No REST API design or consumption experience:** There is no evidence of API development or integration work on his résumé.\n\n5. **Inadequate SQL/database experience:** SQL is listed as \"basic,\" whereas the role requires substantive relational database experience.\n\n6. **No CI/CD pipeline experience:** No mention of CI/CD tools (Jenkins, GitHub Actions, etc.) or automated testing practices.\n\n7. **Docker listed as \"basic\":** Docker experience is superficial and does not extend to Kubernetes or orchestration.\n\n8. **No relevant preferred qualifications met:** No Kafka/event-driven architecture, no IaC tools (Terraform/CloudFormation), no observability tooling experience in a development context.\n\n9. **Years of experience are in the wrong domain:** Nine years of sysadmin experience does not substitute for the 5+ years of professional *software engineering* experience required.\n\nFINAL: REJECT"
+}

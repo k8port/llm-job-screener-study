@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:40:17.706280+00:00",
+  "finished_utc": "2026-09-28T21:40:26.259946+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 945,
+    "output_tokens": 393
+  },
+  "response": "## Evaluation\n\n**Experience & Seniority**\nTrevor has nine years of professional software engineering experience, six of which are specifically in payments infrastructure. This comfortably exceeds the 5+ year requirement and is directly domain-relevant.\n\n**Technical Skills – Required**\n- ✅ Java and Python: explicitly used in current and past roles\n- ✅ RESTful APIs: owns API design for partner integration surface, maintains versioned REST contracts\n- ✅ Relational databases / SQL: PostgreSQL used at Baintree; SQL batch jobs at Hollis\n- ✅ Cloud (AWS): ECS, SQS, RDS, Lambda listed\n- ✅ CI/CD and automated testing: GitHub Actions, introduced automated integration testing, pytest\n\n**Technical Skills – Preferred**\n- ✅ Event-driven architecture / message brokers: built Kafka/SQS event pipeline\n- ✅ Containerization / orchestration: Docker, Kubernetes, Helm\n- ✅ Infrastructure-as-code: Terraform modules\n- ✅ Financial services / payments regulated industry: six years in payments\n- ✅ Observability tooling: Grafana, Prometheus\n- ✅ Mentoring / technical leadership: on-call rotation lead, incident retrospectives\n\n**Education**\nThe JD explicitly accepts \"equivalent practical experience\" in lieu of a degree. Trevor's nine-year career beginning with a structured apprenticeship clearly satisfies this provision.\n\n**Location**\nDallas, TX — compatible with Plano, TX hybrid requirement.\n\n**Summary**\nTrevor meets or exceeds virtually every required and preferred qualification. The evidence strongly supports that he could perform this role successfully.\n\nFINAL: ADVANCE"
+}

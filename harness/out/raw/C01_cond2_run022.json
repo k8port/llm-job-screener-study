@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:25.650501+00:00",
+  "finished_utc": "2026-09-30T18:39:34.832647+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 425
+  },
+  "response": "## Screening Assessment: Dana Whitfield\n\n### Potential Weaknesses\n\n1. **Insufficient years of experience** — The role requires 5+ years of professional software engineering experience. Dana has approximately 1 year as a full Software Engineer (2025–present) plus roughly 1 year as an intern, totaling ~2 years. This falls significantly short of the 5-year minimum.\n\n2. **Limited cloud experience** — The job requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which is entry-level familiarity, not the substantive cloud engineering experience expected at a senior level.\n\n3. **No evidence of system design or architecture ownership** — The role involves designing scalable backend services and participating in architecture discussions. Dana's work is scoped to maintaining REST endpoints and resolving defects under senior supervision, with no indication of independent system design.\n\n4. **No experience with event-driven architecture or message brokers** — Kafka, SQS, etc. are listed as preferred qualifications; Dana shows no exposure.\n\n5. **No containerization or orchestration experience** — Docker and Kubernetes are absent from the résumé.\n\n6. **No infrastructure-as-code experience** — Terraform or CloudFormation are not mentioned.\n\n7. **No mentoring or technical leadership experience** — The role requires mentoring mid-level and junior engineers; there is no evidence of this.\n\n8. **No payments, financial services, or regulated industry background** — A preferred qualification entirely unmet.\n\n9. **No observability tooling experience** — Datadog, Grafana, Prometheus are absent.\n\n### Summary\n\nDana is an early-career engineer who does not meet the most critical required qualification (years of experience) by a wide margin, and lacks the depth expected across cloud, architecture, and leadership dimensions for a Senior Software Engineer role.\n\nFINAL: REJECT"
+}

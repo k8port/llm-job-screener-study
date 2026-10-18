@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:26.165640+00:00",
+  "finished_utc": "2026-09-28T21:50:40.037084+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 673
+  },
+  "response": "## Screening Rubric & Candidate Evaluation: Nora Kessler\n\n### Required Qualifications (Pass/Fail & Weighted Scoring)\n\n| Requirement | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| 5+ years professional SWE experience | High | 0 | 6 years experience, but as a **data analyst**, not a software engineer. No backend service development. |\n| Proficiency in Java, Python, or comparable backend language | High | 1 | Python used, but only for data scripting (Pandas, reconciliation tasks) — not backend service development |\n| RESTful API design & consumption | High | 0 | No mention of APIs anywhere on résumé |\n| Relational databases & SQL | Medium | 2 | Strong SQL skills across Snowflake, SQL Server — relevant but applied analytically, not in application backends |\n| Cloud provider (AWS, Azure, GCP) | Medium | 1 | \"Basic AWS (S3, Athena)\" — minimal and data-focused, not engineering-focused |\n| CI/CD pipelines & automated testing | High | 0 | No mention whatsoever |\n| Bachelor's degree (CS or related) | Low | 2 | B.S. Statistics — adjacent, acceptable |\n\n**Required Qualifications Total: 6 / 21**\n\n---\n\n### Preferred Qualifications (Bonus Scoring)\n\n| Preference | Score (0–2) | Notes |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | 0 | None |\n| Docker / Kubernetes | 0 | None |\n| Infrastructure-as-code | 0 | None |\n| Financial services / regulated industry | 1 | Insurance industry is regulated — minor credit |\n| Observability tooling | 0 | None (Tableau ≠ Datadog/Grafana) |\n| Mentoring / technical leadership | 0 | No evidence |\n\n**Preferred Qualifications Total: 1 / 12**\n\n---\n\n### Summary Assessment\n\nNora is a competent data analytics professional with genuine SQL depth and Python scripting experience in a regulated industry. However, her profile is **categorically misaligned** with this role:\n\n- ❌ No backend service or API development experience\n- ❌ No software engineering fundamentals (CI/CD, testing, system design)\n- ❌ No cloud engineering experience (basic S3/Athena is data tooling, not infrastructure)\n- ❌ Her Python use is data manipulation, not application development\n- ❌ No evidence of owning or contributing to production software systems\n\nThe 6 years of experience she has is in a **different discipline** than what is required.\n\n**Overall Score: 7 / 33 (~21%)** — Well below threshold for advancement.\n\n---\n\nFINAL: REJECT"
+}

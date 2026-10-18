@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:04:36.411965+00:00",
+  "finished_utc": "2026-09-28T22:04:44.945155+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 441
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence |\n|---|---|\n| 5+ years professional SWE experience | ✅ 8 years total experience (2018–present) |\n| Strong proficiency in Java, Python, or comparable backend language | ✅ Python throughout career, building production services |\n| Experience designing and consuming RESTful APIs | ✅ Designs REST APIs, maintains versioning/contracts |\n| Experience with relational databases and SQL | ✅ PostgreSQL, Snowflake, SQL listed across roles |\n| Hands-on experience with a major cloud provider | ✅ AWS (EKS, S3, Lambda, RDS) |\n| CI/CD pipelines and automated testing | ✅ GitHub Actions CI, pytest, automated tests |\n| Bachelor's degree or equivalent | ✅ B.S. Information Systems |\n\n**Preferred Qualifications Assessment:**\n\n| Preference | Evidence |\n|---|---|\n| Event-driven architecture / message brokers | ✅ Kafka at scale (40M daily events) |\n| Containerization and orchestration | ✅ Docker, Kubernetes/EKS |\n| Infrastructure-as-code | ✅ Terraform |\n| Financial services / regulated industry | ⚠️ Transaction data for enterprise clients; healthcare adjacent at Corley — not explicitly fintech |\n| Observability tooling | ✅ Prometheus, Grafana, carries on-call |\n| Mentoring / leading technical initiatives | ⚠️ Not explicitly mentioned |\n\n**Summary:** Simone meets all required qualifications and nearly all preferred qualifications. The role is backend-focused and she builds production backend Python services, APIs, and infrastructure at scale. The \"data platform\" framing of her title is context, not a disqualifier — the underlying work is directly transferable.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:48:15.952150+00:00",
+  "finished_utc": "2026-09-28T21:48:25.821426+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 393
+  },
+  "response": "## Assessment: Nora Kessler vs. Senior Software Engineer (Payments Platform)\n\n### Key Gaps Identified\n\n**Critical missing qualifications:**\n\n1. **Backend software engineering experience**: Nora is a data analyst. Her Python work is limited to scripting for data cleaning/reconciliation (Pandas, NumPy), not building backend services or APIs. There is no evidence of software engineering in the traditional sense.\n\n2. **RESTful API design/consumption**: No mention of API development or consumption anywhere in her résumé.\n\n3. **CI/CD pipelines and automated testing**: Not present.\n\n4. **Cloud experience**: Listed as \"basic AWS (S3, Athena)\" — read-only/query tooling, not service development on a cloud platform.\n\n5. **Relational databases in an engineering context**: She uses SQL for reporting and analytics, not for application backend design.\n\n6. **Containerization, Kafka/messaging, Kubernetes, Terraform**: No evidence of any of these.\n\n7. **Mentoring engineers or leading technical initiatives**: No evidence.\n\n### Partial Matches\n- 6 years of professional experience (meets the years threshold on the surface)\n- Python proficiency (but in analytics, not engineering contexts)\n- SQL proficiency (analytics context, not application backend)\n- B.S. in Statistics (adjacent to CS requirement)\n- Works in insurance (regulated industry — minor partial credit)\n\n### Conclusion\n\nNora's background is solidly in **data analytics**, not software engineering. The role requires hands-on backend service development, API design, cloud infrastructure, and production system ownership — none of which are demonstrated in her résumé. There is insufficient evidence she could perform this role as described.\n\nFINAL: REJECT"
+}

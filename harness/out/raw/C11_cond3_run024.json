@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:42:30.459829+00:00",
+  "finished_utc": "2026-09-28T22:42:43.381625+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 617
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Pass/Fail & Weighted)\n\n| Requirement | Assessment | Score (0–2) |\n|---|---|---|\n| 5+ years professional software engineering experience | 9 years in **systems administration**, not software engineering. Scripting/automation present but incidental, not primary SWE role. | 0 |\n| Strong proficiency in Java, Python, or comparable backend language | No Java or Python listed. Bash/PowerShell are scripting/ops tools, not backend development languages. | 0 |\n| Experience designing and consuming RESTful APIs | No mention of API design or consumption. | 0 |\n| Relational databases and SQL | Listed as \"SQL (basic)\" — minimal exposure only. | 1 |\n| Hands-on experience with a major cloud provider | Azure VMs and networking — genuine hands-on, but infrastructure/ops context, not development. | 1 |\n| CI/CD pipelines and automated testing | No CI/CD experience mentioned. | 0 |\n| Bachelor's degree / equivalent experience | B.A.S. in Information Technology — meets threshold. | 2 |\n\n**Required Score: 4 / 14**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Assessment | Score (0–1) |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | None. | 0 |\n| Docker / Kubernetes | Docker listed as \"basic.\" | 0 |\n| Infrastructure-as-code (Terraform, CloudFormation) | Not mentioned. | 0 |\n| Financial services / regulated industry | Healthcare (regulated), but no payments/fintech. Partial credit. | 1 |\n| Observability tooling | Nagios listed — adjacent but outdated/ops-focused. | 0 |\n| Mentoring engineers / leading technical initiatives | No evidence. | 0 |\n\n**Preferred Score: 1 / 6**\n\n---\n\n## Summary Assessment\n\nCurtis has a solid nine-year career in enterprise infrastructure and systems administration, with genuine Azure and scripting experience. However, he does not meet the **core requirements** of this Senior Software Engineer role:\n\n- **No software development experience** in any backend language (Java, Python, Go, etc.)\n- **No API design or consumption experience**\n- **No CI/CD or automated testing experience**\n- **No application-layer engineering work** — all experience is infrastructure/ops\n- Skills are better aligned with a Senior SysAdmin or Cloud Infrastructure Engineer role\n\nThe gap between this candidate's profile and the role's requirements is fundamental, not supplemental.\n\n---\n\nFINAL: REJECT"
+}

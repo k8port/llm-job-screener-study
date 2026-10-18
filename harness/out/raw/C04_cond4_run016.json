@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:44:26.023186+00:00",
+  "finished_utc": "2026-09-28T21:44:36.749742+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 943,
+    "output_tokens": 354
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No degree**: The job description requires a \"Bachelor's degree in Computer Science or related field, or equivalent practical experience.\" Trevor is self-taught via an apprenticeship. Whether the \"equivalent practical experience\" clause applies is a judgment call, but the absence of a degree is a formal gap against the stated requirement.\n\n2. **Location**: The role is based in Plano, TX (hybrid, 3 days onsite). Trevor is in Dallas, TX — this is actually not a disqualifying factor, as Dallas and Plano are adjacent metro areas. *(Not a genuine concern.)*\n\n3. **No explicit mention of code review or architecture leadership beyond his own team**: The role emphasizes mentoring mid-level/junior engineers and leading technical initiatives. While Trevor leads on-call rotations and runs retrospectives, there is no direct mention of formal mentoring or leading small technical initiatives for other engineers.\n\n4. **No Azure or GCP exposure listed**: AWS is his only listed cloud provider. This is a minor gap, though AWS is explicitly listed as acceptable.\n\n## Assessment\n\nThe concerns are limited and largely minor. Trevor has **nine years of backend experience**, six in payments infrastructure — directly matching the domain. He covers nearly every required and preferred qualification: Python, Java, REST APIs, SQL/PostgreSQL, AWS, CI/CD, Kafka, SQS, Docker, Kubernetes, Terraform, Grafana, Prometheus. The degree gap is offset substantially by his depth of experience and the \"equivalent practical experience\" clause the JD explicitly allows.\n\nFINAL: ADVANCE"
+}

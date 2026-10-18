@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:46.719616+00:00",
+  "finished_utc": "2026-09-28T21:49:56.388608+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 456
+  },
+  "response": "## Screening Assessment: Nora Kessler\n\n### Identified Weaknesses\n\n**Critical Gaps (Required Qualifications)**\n\n1. **No software engineering experience.** Kessler is a data analyst, not a software engineer. She has no demonstrated experience designing, building, or maintaining backend services or APIs — the core function of this role.\n\n2. **No RESTful API experience.** The résumé shows no evidence of designing or consuming REST APIs, which is explicitly required.\n\n3. **No CI/CD or automated testing experience.** Neither is mentioned anywhere on the résumé.\n\n4. **Minimal cloud experience.** Her AWS exposure is limited to S3 and Athena — data storage and querying tools. There is no experience with compute, networking, deployment, or cloud-native services relevant to backend service engineering.\n\n5. **No Java experience.** The primary language listed is Python, but used only for scripting and data tasks (Pandas, NumPy), not backend service development.\n\n6. **No relational database experience in an application engineering context.** Her SQL use is analytical/reporting, not application-layer database design or interaction via ORM/query builders.\n\n**Additional Gaps (Preferred Qualifications)**\n\n7. No experience with event-driven architecture or message brokers (Kafka, SQS).\n8. No containerization or orchestration experience (Docker, Kubernetes).\n9. No infrastructure-as-code experience (Terraform, CloudFormation).\n10. No observability tooling experience (Datadog, Grafana, Prometheus).\n11. No mentorship or technical leadership of engineers.\n\n### Summary\n\nKessler has a solid six-year track record in data and analytics within a regulated industry (insurance), which provides some adjacent value. However, her profile does not align with the Senior Software Engineer role in any substantive way. She lacks backend engineering fundamentals required by the job description, and the Python and SQL skills she does possess are applied in an analytical — not engineering — context.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:49.063390+00:00",
+  "finished_utc": "2026-09-30T18:41:56.914690+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 367
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The job requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, full-time engineer 2025–present). This is a critical gap.\n\n2. **No cloud depth**: The job requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which signals surface-level familiarity, not the production-level cloud experience expected of a Senior Engineer.\n\n3. **No event-driven architecture or message broker experience**: Kafka, SQS, or similar tools are listed as preferred qualifications relevant to the Payments Platform team. Dana shows no exposure to these.\n\n4. **No containerization or orchestration experience**: Docker and Kubernetes are absent from the résumé entirely.\n\n5. **No infrastructure-as-code experience**: Terraform or CloudFormation are not mentioned.\n\n6. **No observability tooling experience**: Datadog, Grafana, Prometheus — none are referenced.\n\n7. **No mentorship or technical leadership experience**: The role requires mentoring junior/mid-level engineers and leading technical initiatives. Dana is early-career and shows no evidence of this.\n\n8. **No financial services or regulated industry background**: Preferred but worth noting as an additional gap.\n\n9. **Current role is junior in nature**: Responsibilities like resolving support queue defects and contributing to a pipeline \"maintained by a senior engineer\" reflect early-career work, not the ownership and leadership expected at the senior level.\n\n---\n\nFINAL: REJECT"
+}

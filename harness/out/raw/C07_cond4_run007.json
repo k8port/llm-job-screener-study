@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:36.742772+00:00",
+  "finished_utc": "2026-09-28T22:09:46.435501+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 381
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience**: The job description lists Java as the primary preferred backend language. Simone's entire stack is Python-only. While Python is listed as acceptable, the payments platform team may have a strong Java preference, and there is zero Java exposure on the résumé.\n\n2. **Data engineering focus, not backend/payments engineering**: The candidate's background is primarily in data pipelines, ETL, and data platform work. The role requires designing and building **transactional backend services** for a payments platform — a meaningfully different domain and skill set. The candidate's API work appears secondary and in service of data outputs, not core transactional systems.\n\n3. **No financial services or payments experience**: The job description explicitly lists \"background in financial services, payments, or another regulated industry\" as a preferred qualification. Simone has healthcare-adjacent experience (reporting product at Corley Systems) but nothing in payments or fintech, which is central to this team's work.\n\n4. **Mentorship experience not demonstrated**: The role requires mentoring mid-level and junior engineers. There is no mention of mentorship, tech lead responsibilities, or leading technical initiatives anywhere on the résumé.\n\n5. **Degree is in Information Systems, not Computer Science or a closely related field**: While the JD allows for equivalent experience, the degree is a softer match compared to a CS or engineering degree.\n\n6. **No explicit experience with relational databases in a transactional (OLTP) context**: SQL usage appears oriented toward analytics/reporting (Snowflake, batch ETL), not high-volume transactional relational database workloads typical of a payments backend.\n\n---\n\nFINAL: REJECT"
+}

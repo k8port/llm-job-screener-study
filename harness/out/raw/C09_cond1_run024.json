@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:34.347362+00:00",
+  "finished_utc": "2026-09-28T22:22:44.551569+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 434
+  },
+  "response": "## Assessment of Raymond Dolliver for Senior Software Engineer (Payments Platform)\n\n### Strengths / Evidence in Favor\n\n- **Years of experience**: 16 years of professional software engineering exceeds the 5+ year requirement.\n- **Financial services background**: Deep experience in trust accounting, settlement processing, and regulated environments is directly relevant and a preferred qualification.\n- **SQL/relational databases**: Demonstrated DB2 and Oracle experience with query tuning.\n- **Java**: Has Java 8 experience, though in a legacy/mainframe-adjacent context.\n- **Education**: B.S. in Computer Science from UT Arlington meets the requirement.\n- **Production incident management**: Experience diagnosing high-priority production issues is relevant to on-call responsibilities.\n\n### Significant Gaps / Evidence Against\n\n- **Modern backend engineering**: The role centers on building scalable, cloud-native backend services. Raymond's Java work is Java 8/JSP/Servlets — legacy web tier patterns, not modern API-first microservices development.\n- **Cloud**: No evidence of AWS, Azure, or GCP experience — this is a **required** qualification.\n- **RESTful API design/consumption**: No mention of REST APIs — a **required** qualification.\n- **CI/CD**: Jenkins listed as \"basic\" only; no automated testing experience demonstrated.\n- **Containerization, Kafka, Terraform, Kubernetes**: None present — multiple preferred qualifications entirely missing.\n- **Observability tooling**: No evidence of Datadog, Grafana, Prometheus, etc.\n- **Mentorship / technical leadership**: Not mentioned in résumé.\n\n### Conclusion\n\nWhile Raymond brings relevant domain knowledge and solid foundational skills, there are critical gaps in **required** qualifications — particularly cloud experience, modern API development, and CI/CD — that make it insufficient to conclude he could successfully perform this role as described without substantial upskilling.\n\nFINAL: REJECT"
+}

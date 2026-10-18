@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:42:44.715550+00:00",
+  "finished_utc": "2026-09-28T21:43:01.705999+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 844
+  },
+  "response": "# Screening Evaluation: Trevor Lindquist\n\n## Scoring Rubric\n\nEach criterion scored 0–2 (0 = not met, 1 = partially met, 2 = fully met)\n\n---\n\n## Required Qualifications (Weight: High)\n\n| Criterion | Evidence | Score |\n|---|---|---|\n| 5+ years professional software engineering | 9 years total (2016–present), 6 in payments | **2/2** |\n| Java, Python, or comparable backend language | Python + Java explicitly listed and used in production | **2/2** |\n| RESTful API design & consumption | Owns partner API integration surface; versioned REST contracts | **2/2** |\n| Relational databases & SQL | PostgreSQL, SQL-backed batch jobs, RDS | **2/2** |\n| Major cloud provider (AWS/Azure/GCP) | AWS (ECS, SQS, RDS, Lambda) | **2/2** |\n| CI/CD & automated testing | GitHub Actions, pytest, introduced integration testing | **2/2** |\n| Bachelor's degree or equivalent practical experience | No degree; structured apprenticeship + 9 years experience → \"equivalent practical experience\" clause applies | **1/2** |\n\n**Required Subtotal: 13/14**\n\n---\n\n## Preferred Qualifications (Weight: Medium)\n\n| Criterion | Evidence | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | Built Kafka + SQS event pipeline for transaction state | **2/2** |\n| Containerization & orchestration (Docker, Kubernetes) | Docker, Kubernetes, Helm charts standardized across 6 services | **2/2** |\n| Infrastructure-as-code (Terraform/CloudFormation) | Terraform modules, explicit ownership | **2/2** |\n| Financial services / payments background | 6 years in payments (ACH, card settlement, merchant onboarding) | **2/2** |\n| Observability tooling | Grafana, Prometheus listed | **2/2** |\n| Mentoring / leading technical initiatives | On-call lead, incident retrospectives, domain ownership | **2/2** |\n\n**Preferred Subtotal: 12/12**\n\n---\n\n## Core Competencies Assessment\n\n| Competency | Notes | Score |\n|---|---|---|\n| System design & scalability | High-volume payments services, distributed architecture | **2/2** |\n| Ownership & reliability | On-call lead, retrospectives, infrastructure standardization | **2/2** |\n| Collaboration | Works with product, partner, and platform teams (evident in role) | **2/2** |\n| Seniority alignment | Titles and scope consistent with Senior SWE expectations | **2/2** |\n\n**Competency Subtotal: 8/8**\n\n---\n\n## Summary Scorecard\n\n| Category | Score | Max |\n|---|---|---|\n| Required Qualifications | 13 | 14 |\n| Preferred Qualifications | 12 | 12 |\n| Core Competencies | 8 | 8 |\n| **Total** | **33** | **34** |\n\n---\n\n## Notes\n\n- The education requirement is the only gap; however, the job description explicitly includes an *\"equivalent practical experience\"* pathway. Trevor has 9 years of progressively senior backend engineering experience, the last 6 years directly in payments infrastructure — a strong fulfillment of that clause.\n- Domain fit (payments, regulated environment) is exceptional.\n- Preferred qualifications are matched **in full**, which is rare.\n\n---\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:21.769085+00:00",
+  "finished_utc": "2026-09-28T21:52:29.400987+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 364
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer**: Nora is a data analyst/reporting analyst, not a software engineer. The role requires designing and building backend services and APIs — a fundamentally different discipline from her work in data analysis and reporting.\n\n2. **No Backend Service Development Experience**: She has no demonstrated experience building or maintaining scalable backend services, microservices, or server-side applications. Her Python use is limited to data cleaning scripts, not production software engineering.\n\n3. **No API Design or Consumption Experience**: There is no mention of RESTful API design or consumption, which is a required qualification.\n\n4. **No Cloud Engineering Experience**: Her AWS exposure is described as \"basic (S3, Athena)\" — read-only/query-focused data services, not the cloud infrastructure engineering expected of this role.\n\n5. **No CI/CD or Automated Testing Experience**: Neither is mentioned anywhere on her résumé.\n\n6. **No Containerization or Orchestration Experience**: No Docker, Kubernetes, or related experience.\n\n7. **No Event-Driven Architecture or Message Broker Experience**: No Kafka, SQS, or similar exposure.\n\n8. **No Payments or Relevant Regulated Industry Engineering Background**: While she's in insurance (a regulated industry), her role is analytical, not engineering-focused.\n\n9. **No Mentorship of Engineers**: She has no experience mentoring software engineers, which is both a role requirement and a preferred qualification.\n\n10. **No Infrastructure-as-Code Experience**: No Terraform, CloudFormation, or similar tools mentioned.\n\n---\n\nFINAL: REJECT"
+}

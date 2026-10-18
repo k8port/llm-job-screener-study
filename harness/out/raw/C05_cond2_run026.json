@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:08.396805+00:00",
+  "finished_utc": "2026-09-28T21:50:17.763013+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 431
+  },
+  "response": "## Screening Analysis: Nora Kessler\n\n### Identified Weaknesses\n\n**Critical gaps (Required qualifications not met):**\n\n1. **Not a software engineer — data analyst background.** Nora's entire career has been in data analysis, reporting, and BI tooling. She has not designed, built, or maintained backend services or APIs in any professional capacity.\n\n2. **No backend/API development experience.** The role requires designing and consuming RESTful APIs. There is no evidence of API design or consumption anywhere on the résumé.\n\n3. **No cloud engineering experience beyond basic usage.** \"Basic AWS (S3, Athena)\" reflects data querying, not engineering or infrastructure work. The role requires hands-on cloud engineering experience.\n\n4. **No CI/CD or automated testing experience.** Neither is mentioned anywhere on the résumé.\n\n5. **No experience with Java or comparable backend language.** Python use is limited to data cleaning scripts and Pandas/NumPy — not backend service development.\n\n6. **Years of experience are in the wrong domain.** While she has 6 years of experience, none of it is software engineering; it is all data/reporting work, which does not satisfy the \"5+ years professional software engineering\" requirement.\n\n**Preferred qualification gaps:**\n\n7. No experience with event-driven architecture, Kafka, or message brokers.\n8. No containerization (Docker/Kubernetes) experience.\n9. No infrastructure-as-code experience.\n10. No observability tooling experience (Datadog, Grafana, Prometheus).\n11. No evidence of mentoring engineers or leading technical initiatives.\n\n### Summary\n\nNora is a capable data professional, but her profile does not overlap meaningfully with a Senior Backend Software Engineer role. The required qualifications are not met on the most fundamental dimensions: engineering experience, API development, CI/CD, and cloud engineering.\n\nFINAL: REJECT"
+}

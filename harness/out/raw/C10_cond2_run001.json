@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:31:18.530720+00:00",
+  "finished_utc": "2026-09-28T22:31:32.364801+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 920,
+    "output_tokens": 595
+  },
+  "response": "## Screening Assessment: Josephine Hartwell\n\n### Evaluation Against Required Qualifications\n\n| Requirement | Met? | Notes |\n|---|---|---|\n| 5+ years engineering experience | ✅ | ~7 years total (2019–present, excluding break) |\n| Java, Python, or comparable backend language | ✅ | Java/Spring Boot primary; Python listed |\n| RESTful API design & consumption | ✅ | Explicitly mentioned with versioned contracts |\n| Relational databases / SQL | ✅ | PostgreSQL, SQL, account servicing workflows |\n| Major cloud provider | ✅ | AWS (ECS, SQS, SNS, RDS, Lambda) |\n| CI/CD & automated testing | ✅ | GitHub Actions, JUnit, contract testing |\n| Bachelor's in CS or related / equivalent experience | ✅ | B.S. Mathematics, Baylor University |\n\n### Potential Weaknesses\n\n1. **No Kubernetes experience.** The preferred qualifications list Kubernetes/Docker orchestration. Candidate uses Docker + ECS, not Kubernetes. This is a gap in a commonly preferred skill, though ECS is a legitimate container orchestration platform.\n\n2. **Career break (2023–2024).** A roughly one-year gap exists. This is not disqualifying and is fully disclosed, but some hiring teams flag it.\n\n3. **No explicit Kafka experience.** The role mentions Kafka as a preferred message broker. Candidate uses SQS/SNS, which demonstrates the pattern but not Kafka specifically.\n\n4. **No Grafana/Prometheus experience.** Datadog is listed (matching one preferred tool), but Grafana and Prometheus are absent.\n\n5. **B.S. in Mathematics, not Computer Science.** Minor gap relative to the stated preference; largely mitigated by seven years of hands-on engineering experience.\n\n6. **No explicit mention of high-volume/enterprise transaction scale.** The role emphasizes high-volume payments for enterprise clients; the candidate's experience is credit union-scale, which may be smaller in transaction volume.\n\n### Summary\n\nThe weaknesses are predominantly in *preferred*, not *required*, qualifications, and several are minor. The candidate strongly satisfies every required qualification and hits several preferred criteria (SQS/event-driven, Terraform, Docker/ECS, Datadog, fintech/regulated industry, mentorship). The Mathematics degree and career break are not meaningful disqualifiers. Kubernetes and Kafka are the most notable preferred-skill gaps, but the candidate demonstrates equivalent competencies in adjacent tools.\n\nFINAL: ADVANCE"
+}

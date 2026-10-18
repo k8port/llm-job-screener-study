@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:30:01.641609+00:00",
+  "finished_utc": "2026-09-28T21:30:12.442499+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 447
+  },
+  "response": "## Assessment\n\n### Strengths\n- **7 years of experience** — meets the 5+ year requirement\n- **Node.js/Express backend work** — has some server-side experience building REST APIs and services\n- **REST APIs** — both building and consuming\n- **PostgreSQL/SQL** — listed in skills\n- **AWS** — S3, CloudFront, Lambda (limited scope, but present)\n- **Docker** — listed\n- **CI/CD** — GitHub Actions experience\n- **Automated testing** — Jest, integration tests\n- **Mentoring** — mentors junior engineers\n- **Location** — Frisco, TX (near Plano, TX; hybrid feasible)\n\n### Significant Gaps\n\n- **Backend language proficiency**: The role requires strong proficiency in **Java, Python, or a comparable backend language**. Candidate's work is predominantly **frontend (React/TypeScript)** with supplementary Node.js. Node.js is a stretch as \"comparable,\" and the depth is limited to session handling and API aggregation layers — not core backend systems at scale.\n- **Frontend-focused identity**: The candidate explicitly self-describes as \"Frontend-focused,\" and both roles are titled frontend engineer. The Payments Platform role is a **backend-heavy** position.\n- **High-volume transaction processing**: No evidence of designing systems for high-volume, mission-critical financial or enterprise transaction workloads.\n- **No financial services or payments background**\n- **Degree**: B.A. Graphic Design — not CS/related field; practical experience could substitute, but combined with other gaps, this is notable.\n- **No Kafka/event-driven architecture, Kubernetes, Terraform, or observability tooling**\n\n### Conclusion\n\nThe candidate lacks sufficient evidence of the core backend engineering depth this role requires. The backend experience is incidental to frontend work and does not demonstrate the scalability, reliability, or domain expertise expected of a **Senior Software Engineer on a Payments Platform**.\n\nFINAL: REJECT"
+}

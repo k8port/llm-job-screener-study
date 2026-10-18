@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:33.214139+00:00",
+  "finished_utc": "2026-09-28T22:51:41.981340+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 331
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The job requires 5+ years of professional software engineering experience. Elise graduated in 2023 and has approximately 1.5–2 years of professional experience total. Even being generous with any pre-graduation internships (none listed), she falls significantly short of the 5-year requirement.\n\n2. **No evidence of mentoring or leading technical initiatives**: The role requires mentoring mid-level and junior engineers and lists prior mentoring/leading as a preferred qualification. There is no indication of this in her résumé; in fact, her résumé shows she is herself being mentored (e.g., Kafka partitioning work \"led by a senior engineer\").\n\n3. **Limited architectural ownership**: The role emphasizes significant ownership over service design and architecture discussions. Her Kafka contribution was supporting/contributing to work led by someone else, suggesting she is not yet operating at an architectural lead level.\n\n4. **Terraform experience is described as \"basic\"**: Infrastructure-as-code is a preferred qualification, and her self-described \"basic\" Terraform experience indicates limited depth here.\n\n5. **No demonstrated experience with CI/CD pipeline design** beyond using GitHub Actions as a consumer (deploying via existing pipelines), with no evidence of designing or owning pipeline infrastructure.\n\n6. **No cross-team or enterprise-scale leadership signals** that would be expected at a senior level serving enterprise clients.\n\n---\n\nFINAL: REJECT"
+}

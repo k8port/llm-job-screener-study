@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:28.355441+00:00",
+  "finished_utc": "2026-09-28T22:43:36.410219+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 342
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a software engineer by trade.** Curtis is a Systems Administrator, not a software developer. His career has been centered on infrastructure operations, server management, and IT support — not designing and building software services.\n\n2. **No backend software development experience.** The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis's scripting (Bash, PowerShell) is operational/automation scripting, not professional software engineering. He lists no application development experience.\n\n3. **No API design or consumption experience.** The role requires experience designing and consuming RESTful APIs. There is no mention of this anywhere on the résumé.\n\n4. **Insufficient database experience.** He lists SQL as \"basic,\" whereas the role requires meaningful experience with relational databases and SQL for backend service development.\n\n5. **No CI/CD or automated testing experience.** These are required qualifications with no evidence of them on the résumé.\n\n6. **Cloud experience is infrastructure-level, not application-level.** Azure VM and networking administration does not satisfy the cloud experience expected for a senior backend engineer building scalable services.\n\n7. **No experience with event-driven architecture, Kafka, containers beyond basic Docker, or observability tooling** — missing nearly all preferred qualifications as well.\n\n8. **Does not meet the seniority bar.** Nine years of experience in a sysadmin role does not equate to 5+ years of professional software engineering experience.\n\n---\n\nFINAL: REJECT"
+}

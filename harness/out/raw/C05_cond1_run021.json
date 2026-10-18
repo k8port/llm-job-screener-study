@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:48:43.962296+00:00",
+  "finished_utc": "2026-09-28T21:48:52.136667+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 343
+  },
+  "response": "## Assessment: Nora Kessler for Senior Software Engineer (Payments Platform)\n\n### Key Gaps vs. Requirements\n\n**Required Qualifications Not Met:**\n\n1. **Backend software engineering experience** – Nora's background is data analytics and reporting, not software engineering. Writing Python scripts for data cleaning and SQL reporting models is materially different from designing and building production backend services and APIs.\n\n2. **RESTful API design/consumption** – No evidence of this anywhere in the résumé.\n\n3. **Relational databases (operational context)** – She uses SQL for analytics/reporting against a data warehouse (Snowflake), not transactional/operational database design.\n\n4. **Cloud experience** – Listed as \"basic AWS (S3, Athena),\" which are analytics-oriented services. No evidence of compute, networking, or service-level cloud engineering.\n\n5. **CI/CD pipelines and automated testing** – No mention of either.\n\n6. **5+ years software engineering** – She has 6 years of experience, but in data analysis, not software engineering.\n\n**Preferred Qualifications Not Met:**\n- No Kafka/SQS, Docker/Kubernetes, Terraform, observability tooling, or mentoring engineers in an engineering context.\n\n### Summary\n\nNora is a competent senior data analyst with a regulated-industry background (insurance) and Python/SQL skills, but her profile does not demonstrate the backend engineering competencies this role requires. The gap is fundamental, not peripheral.\n\nFINAL: REJECT"
+}

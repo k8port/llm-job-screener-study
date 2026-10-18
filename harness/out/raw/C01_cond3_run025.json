@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:07.498849+00:00",
+  "finished_utc": "2026-09-30T18:41:20.417488+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 641
+  },
+  "response": "## Screening Scorecard — Dana Whitfield\n\n**Role:** Senior Software Engineer, Payments Platform\n**Evaluator:** Résumé Screener\n\n---\n\n### Required Qualifications Rubric\n\n| Requirement | Weight | Assessment | Score (0–3) |\n|---|---|---|---|\n| 5+ years professional SWE experience | High | **~1 year full-time** (intern 2024–2025, engineer 2025–present). Falls significantly short. | 0 |\n| Java, Python, or comparable backend language | High | Java + Spring Boot — solid match for experience level | 3 |\n| RESTful API design & consumption | High | Builds REST endpoints; documents APIs | 2 |\n| Relational databases / SQL | High | MySQL experience confirmed | 2 |\n| Cloud provider (AWS, Azure, GCP) | High | \"Basic AWS (EC2, S3)\" — surface-level only | 1 |\n| CI/CD & automated testing | Medium | GitHub Actions (contributed, not owned); JUnit present | 1 |\n| Bachelor's CS or equivalent | Medium | B.S. CS, UTD 2024 ✓ | 3 |\n\n**Required Score: 12 / 21**\n\n---\n\n### Preferred Qualifications Rubric\n\n| Preference | Score (0–2) |\n|---|---|\n| Event-driven architecture / message brokers | 0 |\n| Containerization / Kubernetes | 0 |\n| Infrastructure-as-code | 0 |\n| Financial services / regulated industry | 0 |\n| Observability tooling | 0 |\n| Mentoring / technical leadership | 0 |\n\n**Preferred Score: 0 / 12**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Notes |\n|---|---|\n| **Seniority & Ownership** | Junior profile; defers to senior/team lead; no architectural ownership |\n| **System Scale** | Internal tooling, small user base — no high-volume or enterprise context |\n| **Technical Breadth** | Narrow stack; missing cloud depth, distributed systems, observability |\n| **Leadership / Mentoring** | No evidence |\n\n---\n\n### Summary\n\nDana is an **early-career engineer** (~1 year of full-time experience) with a solid foundation in Java and REST APIs, but falls critically short on nearly every dimension required for a **Senior** role. The experience gap alone (1 year vs. 5+ required) is disqualifying, compounded by no cloud depth, no distributed systems exposure, no mentoring history, and no preferred qualifications met. This is a strong entry-level profile misaligned with a senior-level search.\n\n---\n\nFINAL: REJECT"
+}

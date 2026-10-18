@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:11.419096+00:00",
+  "finished_utc": "2026-09-28T22:26:21.250918+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 473
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps vs. Requirements:**\n\n1. **Cloud experience (Required):** No mention of AWS, Azure, or GCP anywhere on the résumé. This is a hard requirement for the role.\n\n2. **Modern backend / RESTful API design (Required):** The Java experience is limited to Java 8 with JSP/Servlets — a legacy web framework. There is no evidence of designing or building modern RESTful APIs or microservices.\n\n3. **CI/CD pipelines (Required):** Jenkins is listed as \"basic,\" and there is no evidence of meaningful CI/CD pipeline work or automated testing practices.\n\n4. **Automated testing (Required):** No mention of unit testing, integration testing, or test frameworks (JUnit, pytest, etc.).\n\n**Significant Gaps vs. Preferred Qualifications:**\n\n5. **Event-driven architecture / message brokers:** No mention of Kafka, SQS, RabbitMQ, or similar.\n6. **Containerization / orchestration:** No Docker or Kubernetes experience.\n7. **Infrastructure-as-code:** No Terraform or CloudFormation experience.\n8. **Observability tooling:** No Datadog, Grafana, or Prometheus experience.\n9. **Mentorship / technical leadership:** No evidence of mentoring engineers or leading technical initiatives.\n\n**General Concerns:**\n\n10. **Technology currency:** The candidate's work is largely centered on mainframe technologies (COBOL, JCL, z/OS) that are architecturally far removed from the cloud-native, distributed systems environment described in the job posting.\n11. **Scalability / high-volume modern systems:** Experience is with batch processing and legacy systems rather than high-volume real-time transaction platforms.\n\n---\n\nThe candidate meets the years-of-experience threshold, has a relevant degree, financial industry background, and SQL/relational DB experience — but falls critically short on the non-negotiable technical requirements (cloud, modern APIs, CI/CD, automated testing) and nearly all preferred qualifications.\n\nFINAL: REJECT"
+}

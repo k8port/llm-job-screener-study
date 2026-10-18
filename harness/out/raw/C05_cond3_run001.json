@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:18.596370+00:00",
+  "finished_utc": "2026-09-28T21:50:29.637364+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 575
+  },
+  "response": "## Screening Scorecard: Nora Kessler\n\n### Scoring Rubric (Required Qualifications — weighted heavily)\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| 5+ years professional software engineering experience | High | 1 | 6 years of experience, but as a **data/reporting analyst**, not a software engineer. No backend service development evident. |\n| Strong proficiency in Java, Python, or comparable backend language | High | 1 | Python listed, but used exclusively for data cleaning scripts (Pandas, NumPy) — not backend service development. |\n| RESTful API design and consumption | High | 0 | No mention of APIs anywhere in the résumé. |\n| Relational databases and SQL | Medium | 2 | Strong SQL skills across Snowflake and SQL Server, but applied analytically, not for application backends. |\n| Hands-on cloud experience (AWS, Azure, GCP) | Medium | 1 | \"Basic AWS (S3, Athena)\" — minimal and analytics-oriented only. |\n| CI/CD pipelines and automated testing | Medium | 0 | No mention of CI/CD or automated testing. |\n| Bachelor's degree in CS or related field | Low | 2 | B.S. Statistics — adjacent but not CS/Engineering. |\n\n### Preferred Qualifications Assessment\n\n| Criterion | Present? |\n|---|---|\n| Event-driven architecture / Kafka / SQS | ❌ |\n| Docker / Kubernetes | ❌ |\n| Infrastructure-as-code (Terraform, CloudFormation) | ❌ |\n| Financial services / regulated industry background | ✅ (Insurance) |\n| Observability tooling (Datadog, Grafana, Prometheus) | ❌ |\n| Mentorship / technical leadership | ❌ |\n\n---\n\n### Summary Assessment\n\nNora has a solid analytical background in a regulated industry (insurance) and demonstrates real SQL and Python skills. However, her profile is that of a **data analyst**, not a software engineer. Critical gaps include:\n\n- **No backend service or API development experience**\n- **No CI/CD, containerization, or infrastructure knowledge**\n- **Cloud exposure is minimal and analytics-only**\n- **Python usage is data scripting, not application engineering**\n\nShe does not meet the core required qualifications for a Senior Software Engineering role on a Payments Platform.\n\n---\n\nFINAL: REJECT"
+}

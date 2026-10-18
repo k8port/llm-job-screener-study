@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:41.456253+00:00",
+  "finished_utc": "2026-09-28T22:00:50.104152+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 366
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps:**\n\n1. **No cloud experience** – The candidate explicitly works in an \"on-premise enterprise environment.\" The role requires hands-on experience with a major cloud provider (AWS, Azure, or GCP), listed as a required qualification. There is no mention of any cloud platform anywhere on the résumé.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins** – Jenkins is listed, but only in the context of adding integration test stages. There is no evidence of building or owning CI/CD pipelines at the level expected for a Senior Engineer on a modern platform team.\n\n3. **No containerization or orchestration experience** – No Docker or Kubernetes mentioned, which are preferred but indicative of the modern infrastructure stack this team uses.\n\n4. **No event-driven architecture or message broker experience** – JMS is listed, which is dated. No mention of Kafka, SQS, or comparable modern message brokers preferred for a payments platform.\n\n5. **No payments, financial services, or regulated industry background** – Manufacturing domain experience does not translate directly to the compliance, security, and reliability demands of a payments platform.\n\n6. **No observability tooling experience** – No mention of Datadog, Grafana, Prometheus, or equivalent tools.\n\n7. **No infrastructure-as-code experience** – Terraform or CloudFormation are entirely absent.\n\n**Summary of Judgment:**\nThe candidate meets baseline qualifications in Java and SQL, but fails to meet the required cloud experience criterion and lacks nearly all preferred qualifications relevant to this role's modern, cloud-native payments context.\n\nFINAL: REJECT"
+}

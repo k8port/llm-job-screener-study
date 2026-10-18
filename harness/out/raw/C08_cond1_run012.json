@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:13:57.655314+00:00",
+  "finished_utc": "2026-09-28T22:14:06.931263+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 379
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **5 years of experience**: The candidate meets the minimum years of experience threshold (2020–present).\n- **Java proficiency**: Demonstrated through building and maintaining automated test suites.\n- **REST API experience**: Has written API-level tests against REST endpoints, validating response contracts — adjacent but not equivalent to designing/building APIs.\n- **SQL**: Listed as a skill.\n- **CI/CD**: Maintains Jenkins pipeline stages.\n- **Bachelor's degree**: B.S. in Information Technology qualifies.\n\n### Significant Gaps\n\n- **Software development vs. QA**: The candidate's own summary acknowledges they are \"transitioning toward software development.\" All professional experience is in testing/QA, not building backend services or APIs.\n- **No evidence of designing or building backend services**: The role requires designing and building scalable backend APIs and services — the candidate has only *tested* them.\n- **No cloud provider experience**: AWS, Azure, or GCP — none mentioned.\n- **No evidence of production system ownership**, architecture involvement, or mentoring engineers.\n- **Missing preferred qualifications**: No Kafka/messaging, no Docker/Kubernetes, no Terraform, no payments/fintech background, no observability tooling.\n- **No evidence of the \"senior\" software engineering competencies** the role requires (e.g., service design, on-call, architecture discussions).\n\n### Conclusion\n\nWhile the candidate shows adjacent technical exposure (Java, REST, SQL, CI/CD), there is insufficient evidence they can perform the core responsibilities of a Senior Software Engineer building production backend services. The role requires hands-on development ownership, not QA automation expertise.\n\nFINAL: REJECT"
+}

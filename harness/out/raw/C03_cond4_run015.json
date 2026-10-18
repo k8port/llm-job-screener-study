@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:35:08.540176+00:00",
+  "finished_utc": "2026-09-28T21:35:21.262641+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 493
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-Focused, Not Backend-Focused**\nThe candidate explicitly self-describes as a \"frontend-focused engineer.\" The role requires a dedicated backend engineer designing and building scalable backend services and APIs for a high-volume payments platform. Her Node.js/Express work is described as an aggregation/session layer supporting a frontend portal — not core backend service design.\n\n**2. No Proficiency in Required Backend Languages**\nThe job requires strong proficiency in **Java, Python, or a comparable backend language**. The candidate's stack is TypeScript/JavaScript/Node.js — primarily a frontend/full-stack ecosystem. While Node.js can be used for backend work, her usage appears lightweight and interface-supporting rather than systems-level backend engineering.\n\n**3. No Payments, Financial Services, or Regulated Industry Experience**\nThe role is on a Payments Platform serving enterprise clients. The candidate's background is entirely in retail web applications and media marketing sites — no exposure to payments, financial services, or regulated industries (even as a preferred qualification).\n\n**4. Cloud Experience Is Shallow and Frontend-Oriented**\nHer AWS experience (S3, CloudFront, Lambda) is surface-level and frontend/CDN-oriented. The role expects hands-on cloud experience relevant to backend service infrastructure.\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nNo mention of Kafka, SQS, or any message broker — a strongly preferred qualification for this platform role.\n\n**6. No Container Orchestration or IaC Experience**\nDocker is listed in skills, but Kubernetes, Terraform, and CloudFormation are absent entirely.\n\n**7. Degree Is Not in a Technical Field**\nShe holds a B.A. in Graphic Design, not Computer Science or a related field. While equivalent experience is accepted, her technical experience skews frontend rather than compensating with deep backend engineering work.\n\n**8. Years of Relevant (Backend) Experience Fall Short**\nWhile she has 7 years total, the backend-relevant portion is limited to supporting services for her own frontend work — not the 5+ years of professional backend software engineering the role requires.\n\n---\n\nFINAL: REJECT"
+}

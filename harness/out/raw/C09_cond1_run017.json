@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:21.025867+00:00",
+  "finished_utc": "2026-09-28T22:22:29.510955+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 358
+  },
+  "response": "## Assessment: Raymond Dolliver\n\n### Strengths\n- **Years of experience**: 16 years total, well exceeding the 5+ year requirement\n- **Financial services background**: Strong alignment with the preferred background in regulated industries (trust accounting, settlement processing)\n- **SQL/Relational databases**: Solid DB2 and SQL experience\n- **Java**: Has Java 8 experience, though in a legacy context\n- **CS degree**: Meets the education requirement\n- **Production incident management**: Demonstrated reliability work in a high-stakes environment\n\n### Significant Gaps\n\n| Requirement | Evidence |\n|-------------|----------|\n| Modern cloud (AWS/Azure/GCP) | None |\n| RESTful API design/consumption | Minimal — JSP/Servlets suggest older web patterns |\n| CI/CD pipelines | Only \"basic\" Jenkins |\n| Containerization (Docker/Kubernetes) | None |\n| Event-driven architecture/Kafka | None |\n| Observability tooling | None |\n| Mentoring/technical leadership | None mentioned |\n| Modern backend engineering practices | Limited — stack is largely mainframe-era |\n\n### Summary\n\nRaymond has domain knowledge in financial services and foundational programming skills, but his technical stack is heavily mainframe- and legacy-oriented. The role requires modern cloud-native backend engineering — distributed systems, APIs, containers, observability, and CI/CD — for which there is little to no evidence in his résumé. The gap between his current skill set and the role's requirements is substantial and structural, not merely cosmetic.\n\nFINAL: REJECT"
+}

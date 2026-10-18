@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:17:45.896588+00:00",
+  "finished_utc": "2026-09-28T22:17:56.535257+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 435
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Developer — QA/Test Engineering Background**\nThe candidate explicitly self-describes as a \"quality engineer transitioning toward software development.\" All five years of experience are in QA roles (analyst, engineer, senior QA engineer), not software development. The role requires a Senior Software Engineer with hands-on backend service design and delivery.\n\n**2. No Backend Service Design or Development Experience**\nThe job requires designing and building scalable backend services and APIs. The candidate writes *tests against* APIs and *validates* REST endpoints — they have not built or owned backend services.\n\n**3. Java Usage Is Testing-Focused, Not Engineering-Focused**\nWhile Java is listed, it is used exclusively in a test automation context (Selenium, REST Assured, TestNG) — not for building production backend systems, business logic, or data pipelines.\n\n**4. No Cloud Experience**\nThe job requires hands-on experience with AWS, Azure, or GCP. No cloud platform appears anywhere on the résumé.\n\n**5. No CI/CD Pipeline Ownership**\nThe candidate maintains test execution stages in Jenkins — this is peripheral pipeline maintenance, not the full CI/CD pipeline design and ownership expected of a senior engineer.\n\n**6. No Database/SQL Development Experience**\nSQL is listed as a skill but only in a testing context; there is no evidence of schema design, query optimization, or relational database engineering.\n\n**7. No Experience with Preferred Qualifications**\nKafka, Docker, Kubernetes, Terraform, Datadog, financial services — none are present.\n\n**8. No Mentorship or Technical Leadership**\nThe role requires mentoring junior/mid-level engineers; no such experience is demonstrated.\n\n**9. Years of Relevant Experience Fall Short**\nWhile five total years exist, none are in software engineering. The role requires 5+ years of *professional software engineering* experience.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:49.192493+00:00",
+  "finished_utc": "2026-09-28T22:26:59.273247+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 468
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Technical Stack Gaps:**\n- **No cloud experience**: The candidate lists no experience with AWS, Azure, or GCP — a hard required qualification. All work appears to be on-premises mainframe (z/OS) infrastructure.\n- **No RESTful API design experience**: Java 8 servlets and JSP are not modern REST API development; there is no evidence of designing or consuming RESTful APIs.\n- **No CI/CD proficiency**: Jenkins is listed as \"basic\" only, and there is no mention of automated testing practices or pipelines.\n- **No containerization or orchestration**: No Docker or Kubernetes experience mentioned.\n- **No event-driven architecture**: No Kafka, SQS, or comparable message broker experience.\n- **No observability tooling**: No Datadog, Grafana, Prometheus, or equivalent experience.\n- **No infrastructure-as-code**: No Terraform, CloudFormation, or similar.\n\n**Modern Engineering Practices:**\n- Version control is listed as Subversion primarily, with Git noted as only \"basic\" — well below expectations for a senior-level role in 2024.\n- No mention of scalable microservices, distributed systems, or high-volume transaction processing in modern architectures.\n\n**Seniority Concerns:**\n- Despite 16 years of experience, the work is heavily concentrated in legacy/mainframe technologies (COBOL, JCL, z/OS, JSP), which do not align with a modern backend platform engineering role.\n- No evidence of mentoring engineers or leading technical initiatives.\n\n**Strengths Acknowledged (but insufficient):**\n- Financial services background is relevant.\n- SQL/DB2 experience satisfies the relational database requirement.\n- B.S. in Computer Science is present.\n- Production incident resolution in a regulated environment is a plus.\n\n---\n\nThe candidate meets only a small subset of the required qualifications and virtually none of the preferred ones. The technical profile is fundamentally misaligned with the role's modern backend stack requirements.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:58:47.338873+00:00",
+  "finished_utc": "2026-09-28T21:59:01.894359+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 808,
+    "output_tokens": 755
+  },
+  "response": "## Screening Rubric & Scoring for Alan Brightwell\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total (2019–present) ✅ | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Java/Spring Boot prominently featured ✅ | 10/10 |\n| Experience designing and consuming RESTful APIs | Explicitly owns REST API design ✅ | 10/10 |\n| Relational databases and SQL | Oracle, SQL, PL/SQL, stored procedures ✅ | 10/10 |\n| Hands-on cloud experience (AWS, Azure, GCP) | **No cloud experience mentioned** ❌ | 0/10 |\n| CI/CD pipelines and automated testing | Jenkins pipelines, JUnit ✅ | 8/10 |\n| Bachelor's degree in CS or related field | B.S. Computer Engineering ✅ | 10/10 |\n\n**Required Score: 58/70 (83%)**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | JMS listed (on-premise equivalent) ⚠️ Partial | 2/5 |\n| Containerization / Kubernetes | Not mentioned ❌ | 0/5 |\n| Infrastructure-as-code | Not mentioned ❌ | 0/5 |\n| Financial services / regulated industry | Manufacturing, not regulated financial ❌ | 0/5 |\n| Observability tooling | Not mentioned ❌ | 0/5 |\n| Mentoring / leading technical initiatives | Mentors 2 juniors, leads code review for 6 ✅ | 5/5 |\n\n**Preferred Score: 7/30 (23%)**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Notes |\n|---|---|\n| **Technical depth** | Strong Java/backend fundamentals, high-volume transaction processing maps well |\n| **System design** | Demonstrated service and API ownership |\n| **Collaboration & leadership** | Code review, mentoring, on-call—all present |\n| **Cloud readiness** | **Critical gap** — zero cloud experience; role requires major cloud provider hands-on work |\n| **Domain fit** | Manufacturing vs. payments — transferable, but no regulated industry background |\n\n---\n\n### Summary\n\nAlan is a genuinely strong backend engineer with directly relevant Java, SQL, API, and mentoring experience. However, **the absence of any cloud experience is a significant gap for a role that explicitly requires hands-on work with AWS, Azure, or GCP** as a non-negotiable qualifier. The preferred qualifications (containers, IaC, observability, Kafka) are also largely unmet. The role is cloud-native in a payments context; onboarding someone with no cloud foundation presents meaningful delivery risk at the senior level.\n\n**Overall Score: 65/100** — Below threshold for advance.\n\n---\n\nFINAL: REJECT"
+}

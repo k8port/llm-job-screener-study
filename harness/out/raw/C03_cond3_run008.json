@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:32:51.505548+00:00",
+  "finished_utc": "2026-09-28T21:33:09.330803+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 885,
+    "output_tokens": 797
+  },
+  "response": "## Screening Rubric & Scoring — Priya Ashford\n\n### Required Qualifications (each worth up to 10 pts)\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total experience (2019–present). Qualifies. | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Primary stack is TypeScript/JavaScript/Node.js. Node.js is a defensible backend language, but it is a secondary concern in her role; Java/Python absent entirely. Partial credit. | 4/10 |\n| RESTful API design & consumption | Builds and consumes REST APIs; aggregation layer over internal APIs noted. | 8/10 |\n| Relational databases & SQL | PostgreSQL and SQL listed in skills; no depth of usage described. | 5/10 |\n| Hands-on cloud (AWS/Azure/GCP) | AWS listed (S3, CloudFront, Lambda); limited services, frontend-oriented. | 5/10 |\n| CI/CD & automated testing | GitHub Actions pipeline, Jest/Testing Library integration tests. | 7/10 |\n| Bachelor's in CS/related or equivalent | B.A. Graphic Design. Not a technical degree; no explicit \"equivalent experience\" claim. | 3/10 |\n\n**Required Subtotal: 42/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 pts)\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| Event-driven / message brokers (Kafka, SQS) | No mention. | 0/5 |\n| Containerization/orchestration (Docker, K8s) | Docker listed; no Kubernetes. | 2/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | No mention. | 0/5 |\n| Financial services / payments / regulated industry | Retail background; no regulated industry experience. | 0/5 |\n| Observability tooling (Datadog, Grafana, Prometheus) | No mention. | 0/5 |\n| Mentoring / leading technical initiatives | Mentors junior frontend engineers; leads component standards. | 4/5 |\n\n**Preferred Subtotal: 6/30**\n\n---\n\n### Overall Score Summary\n\n| Category | Score | Max |\n|---|---|---|\n| Required | 42 | 70 |\n| Preferred | 6 | 30 |\n| **Total** | **48** | **100** |\n\n---\n\n### Key Concerns\n\n- **Backend depth is insufficient**: The role demands a *backend-primary* engineer for high-volume transaction systems. Priya is frontend-primary with auxiliary Node.js work.\n- **No Java or Python**: The payments platform stack almost certainly leans on these.\n- **No payments/financial services experience**: A meaningful gap for an enterprise payments platform.\n- **No observability, Kafka/SQS, or IaC exposure**: Missing across the board on preferred cloud-native tooling.\n- **Degree mismatch**: Graphic Design does not satisfy the CS/related field requirement, and her experience doesn't fully compensate given the backend gaps.\n\n### Threshold Judgment\n\nScore of **48/100** falls well below an advance threshold (~70+) for a Senior role with this level of required specialization.\n\nFINAL: REJECT"
+}

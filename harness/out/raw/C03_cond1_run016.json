@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:29:51.212136+00:00",
+  "finished_utc": "2026-09-28T21:30:01.640081+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 454
+  },
+  "response": "## Evaluation\n\n### Strengths\n\n- **7 years of experience** — meets the 5+ year requirement\n- **Backend service work** — Node.js/Express services, REST API design and consumption\n- **SQL/PostgreSQL** — meets the relational database requirement\n- **AWS exposure** — S3, CloudFront, Lambda (limited but present)\n- **CI/CD** — GitHub Actions pipeline\n- **Automated testing** — Jest, integration tests\n- **Mentoring** — mentors junior engineers\n- **Located in Frisco, TX** — near Plano, TX; hybrid viable\n\n### Gaps / Concerns\n\n- **Self-described as \"frontend-focused\"** — backend experience is secondary and supporting in nature (aggregation layers, session handling), not core scalable backend systems\n- **Language mismatch** — Node.js/JavaScript rather than Java or Python; the JD lists Java or Python as primary with \"comparable backend language\" as an option — Node.js could qualify, but the depth is limited\n- **No Java or Python** — the payments platform likely expects JVM or Python ecosystem experience\n- **No event-driven architecture / message brokers** (Kafka, SQS) — a preferred but significant gap for a payments platform\n- **No Kubernetes or container orchestration** — Docker present but no K8s\n- **No financial services / payments background**\n- **No observability tooling** (Datadog, Grafana, Prometheus)\n- **Degree is B.A. in Graphic Design** — not CS or related field; practical experience must compensate\n- **Scale is modest** — 400K monthly users on a retail portal is not high-volume financial transaction processing\n\n### Summary\n\nThe candidate's backend experience is real but thin and secondary to frontend work. The core requirements of a **Payments Platform Senior Backend Engineer** — deep backend system design, Java/Python proficiency, high-volume transaction processing, and cloud-native patterns — are not sufficiently evidenced.\n\nFINAL: REJECT"
+}

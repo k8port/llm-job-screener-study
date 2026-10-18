@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:51:04.308086+00:00",
+  "finished_utc": "2026-09-28T21:51:19.389801+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 714
+  },
+  "response": "## Screening Scorecard: Nora Kessler\n\n### Required Qualifications\n\n| Criterion | Weight | Assessment | Score (0–3) |\n|---|---|---|---|\n| 5+ years professional software engineering experience | High | Kessler has 6 years, but **as a data analyst**, not a software engineer. No backend service development, API work, or production engineering evident. | 0 |\n| Strong proficiency in Java, Python, or comparable backend language | High | Python is listed, but usage is limited to scripting/data cleaning (Pandas, NumPy), not backend service development. | 1 |\n| Experience designing/consuming RESTful APIs | High | No mention anywhere on résumé. | 0 |\n| Relational databases and SQL | Medium | Strong SQL skills demonstrated across multiple roles (SQL Server, Snowflake). | 3 |\n| Hands-on cloud experience (AWS, Azure, GCP) | High | \"Basic AWS (S3, Athena)\" — extremely limited, data-focused only. | 1 |\n| CI/CD pipelines and automated testing | High | No evidence whatsoever. | 0 |\n| Bachelor's degree in CS/related or equivalent experience | Medium | B.S. Statistics — tangentially related; no equivalent engineering experience. | 2 |\n\n**Required Qualifications Score: ~7/21 (~33%)**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Assessment | Score (0–3) |\n|---|---|---|\n| Event-driven architecture / message brokers | None. | 0 |\n| Containerization / Kubernetes | None. | 0 |\n| Infrastructure-as-code | None. | 0 |\n| Financial services / regulated industry background | Insurance industry (Wexford, Cadence Health) — relevant domain. | 2 |\n| Observability tooling | None. | 0 |\n| Mentoring / technical leadership | No direct mentoring, but cross-departmental documentation and stakeholder partnership noted. | 1 |\n\n**Preferred Qualifications Score: ~3/18 (~17%)**\n\n---\n\n### Core Competency Summary\n\n| Competency | Finding |\n|---|---|\n| Backend software engineering | **Not demonstrated.** Role is entirely analytical/reporting. |\n| System/service design | **Absent.** No architecture, API, or service ownership. |\n| Production reliability/on-call | **Absent.** |\n| Python for engineering | Scripting only; not production backend development. |\n| SQL | Genuine strength, but insufficient for this role alone. |\n\n---\n\n### Overall Assessment\n\nNora Kessler is an experienced data professional with meaningful SQL depth and regulated-industry exposure. However, she is **not a software engineer** — her background lacks backend service development, API design, cloud infrastructure, CI/CD, testing, or any production system ownership. The gap between her profile and the role's requirements is fundamental, not marginal.\n\n**Composite Score: ~25% of required criteria met — well below advancement threshold.**\n\nFINAL: REJECT"
+}

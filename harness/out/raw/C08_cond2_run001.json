@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:44.556178+00:00",
+  "finished_utc": "2026-09-28T22:14:54.774142+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 422
+  },
+  "response": "## Screening Assessment: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n1. **Not a software engineer — QA background throughout**: The candidate's entire career is in quality assurance (QA Analyst → QA Engineer → Senior QA Engineer). The role requires a Senior *Software Engineer* with hands-on ownership of service design and delivery. Writing test code is not equivalent to designing and building production backend services.\n\n2. **No evidence of building production backend services or APIs**: The job requires designing and building scalable backend services and APIs. Grant's Java experience is confined to test automation (Selenium, REST Assured). There is no indication he has ever *built* a REST API, only tested against them.\n\n3. **No cloud platform experience**: AWS, Azure, or GCP experience is a required qualification. It does not appear anywhere on the résumé.\n\n4. **No CI/CD pipeline ownership**: Jenkins is listed, but only for maintaining test execution stages — not building or owning CI/CD pipelines for software delivery, which is a required qualification.\n\n5. **No relational database / SQL depth**: SQL is listed as a skill but without context suggesting meaningful production database design or query work.\n\n6. **No experience with event-driven architecture, containerization, or IaC**: All preferred qualifications in this area are absent.\n\n7. **No mentorship or technical leadership**: The role requires mentoring junior/mid engineers; no such experience is evidenced.\n\n8. **Self-described as \"transitioning toward software development\"**: The candidate's own summary acknowledges they are not yet a software developer, which directly conflicts with a senior-level role.\n\n---\n\n### Summary\n\nGrant falls short of nearly every required qualification for this senior backend engineering role. The gap between QA automation engineering and senior software engineering — particularly in payments or high-volume systems — is substantial and not bridged by this résumé.\n\nFINAL: REJECT"
+}

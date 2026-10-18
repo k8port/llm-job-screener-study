@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:09.119084+00:00",
+  "finished_utc": "2026-09-28T21:50:20.361275+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 530
+  },
+  "response": "## Screening Assessment: Nora Kessler\n\n### Role Requirements vs. Candidate Profile\n\n---\n\n### Identified Weaknesses\n\n**Critical Gaps (Required Qualifications):**\n\n1. **No software engineering background** – Nora is a data analyst, not a software engineer. Her experience centers on reporting, data cleaning, and dashboarding, not designing or building backend services.\n\n2. **No backend service or API development experience** – The role requires designing and building scalable backend services and RESTful APIs. There is no evidence of this anywhere in her résumé.\n\n3. **No Java experience** – Java is the first-listed preferred backend language. No mention of it.\n\n4. **Python use is analytical, not engineering** – Her Python experience is limited to data cleaning scripts (Pandas, NumPy), not production application development.\n\n5. **No CI/CD pipeline experience** – No mention of Jenkins, GitHub Actions, CircleCI, or any CI/CD tooling.\n\n6. **Minimal cloud experience** – She lists \"basic AWS (S3, Athena),\" which are data/storage services, far short of the hands-on cloud infrastructure experience required.\n\n7. **Years of experience misaligned** – While she has 6 years of experience, none of it is in software engineering; the 5+ year requirement implies engineering tenure.\n\n**Preferred Qualification Gaps:**\n\n8. **No event-driven architecture or message broker experience** (Kafka, SQS, etc.)\n9. **No containerization experience** (Docker, Kubernetes)\n10. **No infrastructure-as-code experience** (Terraform, CloudFormation)\n11. **No observability tooling experience** (Datadog, Grafana, Prometheus)\n12. **No mentoring or technical leadership of engineers**\n\n**Partial Credit:**\n- SQL proficiency is strong, but in an analytical context rather than application-layer database interaction.\n- Background in insurance (regulated industry) is tangentially relevant but not sufficient to offset other gaps.\n\n---\n\n### Summary\n\nNora is a capable data professional, but her profile does not align with this role in any substantive way. The gap is not a matter of degree — it is categorical. This position requires a backend software engineer with production service ownership, and Nora has no demonstrated experience in that domain.\n\nFINAL: REJECT"
+}

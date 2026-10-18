@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:59:44.868006+00:00",
+  "finished_utc": "2026-09-28T21:59:57.926900+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 808,
+    "output_tokens": 641
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total experience (2019–present) | 10/10 |\n| Java, Python, or comparable backend language | Strong Java/Spring Boot | 10/10 |\n| RESTful API design & consumption | Explicitly owns REST API design | 10/10 |\n| Relational databases & SQL | Oracle, SQL, PL/SQL — deep experience | 10/10 |\n| Major cloud provider (AWS, Azure, GCP) | **No evidence of any cloud experience** | 0/10 |\n| CI/CD pipelines & automated testing | Jenkins pipelines, JUnit — met | 8/10 |\n| Bachelor's in CS/related or equivalent | B.S. Computer Engineering, Texas Tech | 10/10 |\n\n**Required Score: 58/70**\n\n---\n\n### Preferred Qualifications (Each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | JMS listed; no Kafka/SQS | 2/5 |\n| Containerization & orchestration (Docker, K8s) | No evidence | 0/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | No evidence | 0/5 |\n| Financial services / regulated industry background | Manufacturing — not payments/fintech | 1/5 |\n| Observability tooling (Datadog, Grafana, Prometheus) | No evidence | 0/5 |\n| Mentoring / leading technical initiatives | Mentors 2 juniors, leads code review for 6 | 5/5 |\n\n**Preferred Score: 8/30**\n\n---\n\n## Summary Assessment\n\n**Total: 66/100**\n\n### Key Strengths\n- Solid, senior-level Java/Spring Boot background with real transaction-processing context\n- Strong SQL/database experience; REST API ownership; on-call experience\n- Genuine mentorship and code review leadership\n\n### Critical Gaps\n- **Zero cloud experience** — a hard required qualification for a cloud-native payments platform\n- No containerization or orchestration experience\n- No observability tooling experience\n- On-premise only background; no exposure to distributed, cloud-scale systems\n- No fintech/payments domain knowledge\n\nThe cloud experience gap is a **hard-required qualification** that is entirely absent from the résumé. For a Payments Platform team operating in a cloud-native environment, this represents a disqualifying deficiency that cannot be offset by other strengths.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:25:29.833262+00:00",
+  "finished_utc": "2026-09-28T21:25:39.919967+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 380
+  },
+  "response": "## Reasons Why This Candidate Should Not Advance\n\nReviewing Marcus Ellery's résumé against the job description, I am looking for meaningful gaps, deficiencies, or red flags. The case against advancing is notably thin:\n\n1. **No explicit gaps identified against required qualifications.** The candidate meets every listed requirement: 8 years of experience (exceeds the 5-year minimum), Java proficiency, RESTful API design, SQL/PostgreSQL, AWS (EKS, SQS, RDS, Lambda), CI/CD, and a B.S. in Computer Science.\n\n2. **Python is listed as a skill but not evidenced in project work.** The résumé lists Python under skills but all described work is Java-based. This may indicate Python is a peripheral or self-studied skill rather than one used professionally.\n\n3. **Infrastructure-as-code (Terraform) is listed as a skill but not elaborated on.** It appears only in the skills list without any described project context, making depth uncertain.\n\n4. **No explicit mention of CloudFormation** (minor, as Terraform is listed and is equivalent).\n\n5. **Local candidate in Plano, TX — no concern there**, but no explicit acknowledgment of hybrid availability (trivially minor).\n\n6. **No demonstrated experience leading small technical initiatives beyond mentoring**, though mentoring is confirmed. \"Leading initiatives\" is only a preferred qualification.\n\n## Assessment\n\nThe reasons to reject are weak and largely nitpicky. Every required qualification is clearly met. Most preferred qualifications are also met (Kafka, Docker/Kubernetes, Terraform, financial services, Datadog, mentoring). The candidate is a strong match.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:29.543630+00:00",
+  "finished_utc": "2026-09-28T21:49:38.177861+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 375
+  },
+  "response": "## Screening Assessment: Nora Kessler\n\n### Potential Weaknesses Identified\n\n1. **Not a software engineer — data analyst background.** Kessler's entire career is in data analysis and reporting, not backend software engineering. The role requires designing and building scalable backend services and APIs, which is a fundamentally different discipline.\n\n2. **No backend service or API development experience.** There is no evidence of designing, building, or maintaining RESTful APIs, microservices, or any production backend systems. Her Python use is limited to data cleaning scripts (Pandas, NumPy), not application development.\n\n3. **No cloud engineering experience.** Her AWS exposure is described as \"basic (S3, Athena)\" — purely data-oriented services, not infrastructure, compute, or cloud-native backend development.\n\n4. **No CI/CD or automated testing experience.** Neither is mentioned anywhere on the résumé. Both are listed as required qualifications.\n\n5. **No experience with containerization, Kubernetes, Kafka, or infrastructure-as-code.** All preferred qualifications are entirely absent.\n\n6. **No mentorship or technical leadership experience.** The role expects senior-level mentorship of junior/mid engineers; no such experience is indicated.\n\n7. **No payments, fintech, or regulated industry backend experience.** While she works in insurance (a regulated industry), her work is analytical, not engineering.\n\n8. **Role mismatch is fundamental, not marginal.** This is not a case of a candidate who meets 80% of requirements — the core job function (backend software engineering) does not align with the candidate's background at all.\n\n---\n\nFINAL: REJECT"
+}

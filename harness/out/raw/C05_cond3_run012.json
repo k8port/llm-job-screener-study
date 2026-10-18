@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:54.238989+00:00",
+  "finished_utc": "2026-09-28T21:51:08.372335+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 653
+  },
+  "response": "## Screening Scorecard: Nora Kessler\n\n### Required Qualifications\n\n| Criterion | Weight | Assessment | Score (0–3) |\n|---|---|---|---|\n| 5+ years professional software engineering experience | High | 6 years total experience, but as a **data analyst**, not a software engineer. No evidence of building production services or applications. | 0 |\n| Strong proficiency in Java, Python, or comparable backend language | High | Python listed, but usage is limited to scripts, data cleaning, and Pandas/NumPy — not backend service development | 1 |\n| RESTful API design and consumption | High | No mention of API design or consumption anywhere in the résumé | 0 |\n| Relational databases and SQL | Medium | Strong SQL skills evident across all roles; Snowflake, SQL Server | 3 |\n| Cloud provider hands-on experience | High | \"Basic AWS (S3, Athena)\" — read-only/data access tools only, not compute/services | 1 |\n| CI/CD pipelines and automated testing | Medium | No mention of CI/CD or automated testing | 0 |\n| Bachelor's degree in CS or related field | Low | B.S. Statistics — reasonably adjacent | 2 |\n\n**Required Qualifications Total: 7 / 21**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Assessment | Score (0–3) |\n|---|---|---|\n| Event-driven architecture / message brokers | No evidence | 0 |\n| Docker / Kubernetes | No evidence | 0 |\n| Infrastructure-as-code | No evidence | 0 |\n| Financial services / regulated industry | Insurance industry (Wexford, Cadence Health) — relevant domain | 2 |\n| Observability tooling | No evidence | 0 |\n| Mentoring / technical leadership | No evidence | 0 |\n\n**Preferred Qualifications Total: 2 / 18**\n\n---\n\n### Summary Assessment\n\n| Category | Score |\n|---|---|\n| Required qualifications met | ~33% |\n| Preferred qualifications met | ~11% |\n| Role fit (backend engineering vs. data analytics) | Very low |\n\n**Key disqualifying gaps:**\n- This candidate is a **data analyst**, not a software engineer. The résumé contains no evidence of backend service development, API work, or software delivery lifecycle participation.\n- Python is used for scripting and data manipulation, not service-layer engineering.\n- Cloud experience is minimal and data-oriented (S3, Athena), not infrastructure or services.\n- No CI/CD, testing, containerization, or system design experience demonstrated.\n- While domain adjacency (insurance) is a mild positive, it cannot compensate for the absence of core engineering competencies.\n\n---\n\nFINAL: REJECT"
+}

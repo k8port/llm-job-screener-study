@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:22:00.721316+00:00",
+  "finished_utc": "2026-09-28T21:22:12.609894+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 464
+  },
+  "response": "## Candidate Screening: Marcus Ellery\n\n### Potential Weaknesses\n\n1. **Limited employer diversity** – Ellery has spent six of his eight professional years at a single employer (Coventry Financial). While depth is valuable, this raises a question about adaptability to different engineering cultures, codebases, and organizational structures.\n\n2. **Python is listed but not demonstrated** – Python appears in his Skills section, but none of his work experience describes Python-based projects. The job lists Python as a core language option alongside Java. His Python proficiency is unverifiable from the résumé alone.\n\n3. **Mentorship scope is narrow** – He mentions mentoring two mid-level engineers, which is positive but modest in scale. The role calls for mentoring \"mid-level and junior engineers\" and potentially leading small technical initiatives; there is no evidence of broader technical leadership (e.g., leading a project end-to-end, driving architecture decisions across teams).\n\n4. **Infrastructure-as-code is listed but thin on detail** – Terraform appears in his skills, but no experience bullet describes IaC work meaningfully (scope, provider, what was provisioned). This is a preferred qualification and the depth is unclear.\n\n5. **No explicit CI/CD ownership** – He notes extending a CI pipeline, but the description suggests a supporting rather than owning role. The JD requires hands-on CI/CD experience; this is met but not strongly demonstrated.\n\n### Strengths Outweighing Weaknesses\n\nDespite the above gaps, the weaknesses are relatively minor. Ellery meets or exceeds every **required** qualification: 8 years of experience, strong Java background, RESTful API design, PostgreSQL/SQL, AWS (EKS, SQS, RDS, Lambda), and CI/CD. He also matches the majority of **preferred** qualifications: Kafka, Docker/Kubernetes, Terraform, Datadog, financial services background, and mentorship. His domain (card authorization and settlement at a financial services firm) is directly aligned with the Payments Platform role.\n\nFINAL: ADVANCE"
+}

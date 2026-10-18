@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:25.745334+00:00",
+  "finished_utc": "2026-09-28T21:57:36.558291+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 477
+  },
+  "response": "## Candidate Evaluation: Alan Brightwell\n\n### Strengths\n- 7 years of backend engineering experience (exceeds the 5-year requirement)\n- Strong Java/Spring Boot proficiency (a primary required language)\n- Solid REST API design and documentation experience\n- Relational database and SQL experience (Oracle, PL/SQL)\n- CI/CD exposure via Jenkins pipelines\n- Automated testing with JUnit\n- Code review leadership and junior engineer mentorship\n- On-call rotation participation\n- Relevant B.S. degree (Computer Engineering)\n\n---\n\n### Potential Weaknesses\n\n1. **No cloud experience** — The résumé contains zero mention of AWS, Azure, or GCP. Cloud experience is a *required* qualification. This is the most significant gap.\n\n2. **No containerization or orchestration experience** — No mention of Docker or Kubernetes, which are preferred qualifications and increasingly standard in payments platform environments.\n\n3. **No event-driven architecture or message broker experience** — JMS is listed in skills but is an older, on-premise technology. No Kafka, SQS, SNS, or comparable modern broker experience is evident.\n\n4. **Entirely on-premise background** — All experience is in a manufacturing enterprise environment with no cloud-native or distributed systems exposure, which is a notable mismatch for a payments platform role.\n\n5. **No payments, financial services, or regulated industry experience** — No domain alignment with the target team's context.\n\n6. **No observability tooling experience** — No mention of Datadog, Grafana, Prometheus, or equivalent tools.\n\n7. **No infrastructure-as-code experience** — No Terraform, CloudFormation, or equivalent listed.\n\n---\n\n### Summary\n\nAlan meets several baseline requirements (Java, REST APIs, SQL, CI/CD, mentorship, years of experience), but has a **critical gap in cloud experience**, which is explicitly listed as a *required* qualification — not merely preferred. Combined with the absence of modern distributed systems exposure, containerization, and domain relevance, the profile does not adequately match the role's requirements.\n\nFINAL: REJECT"
+}

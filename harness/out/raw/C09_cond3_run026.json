@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:25:44.553983+00:00",
+  "finished_utc": "2026-09-28T22:25:56.863553+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 607
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Pass/Fail + Weight)\n\n| Requirement | Assessment | Score (0–2) |\n|---|---|---|\n| 5+ years professional engineering experience | 16 years total, 10+ as Senior — clearly met | 2 |\n| Strong proficiency in Java, Python, or comparable backend language | Java 8 noted, but aged; COBOL/JCL are primary skills — marginal | 1 |\n| Experience designing and consuming RESTful APIs | No REST API design mentioned; JSP/Servlet-era web work only | 0 |\n| Relational databases and SQL | DB2, SQL, Oracle — strong evidence | 2 |\n| Hands-on cloud experience (AWS/Azure/GCP) | No cloud experience mentioned anywhere | 0 |\n| CI/CD pipelines and automated testing | Jenkins listed as \"basic\"; Subversion primary; no automated testing noted | 0 |\n| Bachelor's in CS or equivalent | B.S. Computer Science, UT Arlington — met | 2 |\n\n**Required Qualifications Total: 7 / 14**\n\n---\n\n### Preferred Qualifications (Bonus, 0–1 each)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | None mentioned | 0 |\n| Containerization / Kubernetes | None mentioned | 0 |\n| Infrastructure-as-code | None mentioned | 0 |\n| Financial services / regulated industry | Strong — trust accounting, settlement, audit | 1 |\n| Observability tooling | None mentioned | 0 |\n| Mentoring / technical leadership | Not evidenced | 0 |\n\n**Preferred Qualifications Total: 1 / 6**\n\n---\n\n### Summary Assessment\n\n| Category | Result |\n|---|---|\n| Years of experience | ✅ Strong |\n| Core backend language (modern) | ⚠️ Weak — Java 8, COBOL-primary |\n| REST API design | ❌ Missing |\n| Cloud experience | ❌ Missing (critical gap) |\n| CI/CD / testing | ❌ Missing |\n| Financial domain | ✅ Strong |\n| Overall fit | **Below threshold** |\n\n**Critical gaps**: No cloud experience, no REST API design, no meaningful CI/CD, no modern backend services work. The candidate's background is deeply mainframe-oriented. While domain experience is valuable, the core technical requirements for a Payments Platform senior backend engineer are not met.\n\n---\n\nFINAL: REJECT"
+}

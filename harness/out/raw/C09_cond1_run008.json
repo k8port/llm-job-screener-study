@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:21:58.062653+00:00",
+  "finished_utc": "2026-09-28T22:22:06.561253+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 373
+  },
+  "response": "## Assessment\n\n**Strengths:**\n- 16 years of professional software engineering experience (well exceeds the 5-year requirement)\n- B.S. in Computer Science ✓\n- SQL/relational database experience (DB2, Oracle) ✓\n- Background in financial services/regulated industry ✓\n- Java experience ✓\n- Production incident response and reliability work ✓\n- Some CI/CD exposure (Jenkins, basic) ✓\n\n**Significant Gaps:**\n- **Java**: Experience is limited to Java 8 with legacy technologies (JSP, Servlets, WebSphere) — no evidence of modern Java frameworks (Spring Boot, etc.) or contemporary backend service development\n- **Cloud**: No evidence of AWS, Azure, or GCP experience — this is a required qualification\n- **RESTful APIs**: No mention of designing or consuming REST APIs — required qualification\n- **CI/CD**: Only \"basic\" Jenkins; no automated testing mentioned\n- **Containerization**: No Docker or Kubernetes experience\n- **Event-driven architecture**: No Kafka, SQS, or similar\n- **Modern observability tooling**: No mention of Datadog, Grafana, etc.\n- **Git**: Only basic familiarity\n\n**Summary:**\n\nWhile Raymond has deep domain experience in financial services and relevant SQL/Java fundamentals, his technical stack is heavily mainframe/legacy-oriented. The role requires modern cloud-native backend engineering — REST APIs, cloud infrastructure, CI/CD pipelines, and containerization — for which there is little to no evidence of competency. The gaps are too substantial and too central to the role's requirements.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:04:41.283114+00:00",
+  "finished_utc": "2026-09-28T22:04:49.477732+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 399
+  },
+  "response": "## Assessment\n\n**Required Qualifications Review:**\n\n- **5+ years experience:** ✅ 8 years of professional software engineering experience (2018–present)\n- **Strong proficiency in Java, Python, or comparable backend language:** ✅ Python is a core skill throughout all roles\n- **Experience designing and consuming RESTful APIs:** ✅ Explicitly designs REST APIs at current role, maintains versioning and contract documentation\n- **Experience with relational databases and SQL:** ✅ PostgreSQL, Snowflake, SQL used consistently\n- **Hands-on experience with a major cloud provider:** ✅ AWS (EKS, S3, Lambda, RDS)\n- **Experience with CI/CD pipelines and automated testing:** ✅ GitHub Actions CI, pytest, automated tests for transformation logic\n- **Bachelor's degree in CS or related field:** ✅ B.S. Information Systems\n\n**Preferred Qualifications Review:**\n\n- **Event-driven architecture / message brokers:** ✅ Kafka (40M daily events)\n- **Containerization and orchestration:** ✅ Docker, Kubernetes/EKS\n- **Infrastructure-as-code:** ✅ Terraform\n- **Observability tooling:** ✅ Prometheus and Grafana, with on-call ownership\n- **Financial services / regulated industry background:** ⚠️ Healthcare adjacent (Corley Systems), transaction data at current role — partial\n- **Mentoring engineers:** ❌ Not mentioned\n\n**Summary:** This candidate meets every required qualification and nearly every preferred qualification. The backend work is primarily data-platform oriented rather than payments-specific, but the skills, scale, and ownership level are directly transferable.\n\nFINAL: ADVANCE"
+}

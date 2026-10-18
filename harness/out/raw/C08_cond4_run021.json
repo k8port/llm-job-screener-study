@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:31.369875+00:00",
+  "finished_utc": "2026-09-28T22:18:40.517964+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 377
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Developer — QA Background**\nThe candidate explicitly self-identifies as a \"quality engineer transitioning toward software development.\" This role requires a Senior Software *Engineer* who designs and builds backend services. The candidate has no professional experience actually building production software systems.\n\n**2. Insufficient Backend Development Experience**\nDespite 5 years in the industry, that experience is in test automation, manual QA, and defect triage — not designing, building, or maintaining backend services or APIs. Writing API *tests* is fundamentally different from designing and building APIs.\n\n**3. Java Usage is Peripheral**\nJava is used for test automation (Selenium, REST Assured, TestNG), not for building backend services. This does not satisfy the spirit of the \"strong proficiency in Java\" requirement.\n\n**4. No Cloud Experience**\nThere is zero mention of AWS, Azure, or GCP — a required qualification.\n\n**5. No Relational Database / SQL Development Experience**\nSQL is listed as a skill but only in the context of QA. No evidence of database schema design or backend data access patterns.\n\n**6. No CI/CD Pipeline Ownership**\nMaintaining test stages in Jenkins is not equivalent to building and owning CI/CD pipelines for software delivery.\n\n**7. No Architecture or System Design Experience**\nNo evidence of participation in architecture discussions, service design, or any senior engineering ownership.\n\n**8. No Preferred Qualifications Met**\nNo Kafka/SQS, no Docker/Kubernetes, no Terraform, no observability tooling, no payments/fintech background, no mentoring experience.\n\n---\n\nFINAL: REJECT"
+}

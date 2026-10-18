@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:12.103130+00:00",
+  "finished_utc": "2026-09-28T22:15:23.300244+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 453
+  },
+  "response": "## Candidate Evaluation: Grant Pemberton\n\n### Potential Weaknesses\n\n1. **Role identity mismatch**: Grant is a QA/test engineer by trade, explicitly self-described as \"transitioning toward software development.\" This is a senior *software engineering* role focused on designing and building production services — not testing them.\n\n2. **No software development/production code ownership**: There is no evidence of Grant having designed, built, or shipped backend services or APIs. His Java experience is confined to writing test automation (Selenium, REST Assured), not building production application code.\n\n3. **No cloud platform experience**: The job requires hands-on experience with AWS, Azure, or GCP. No cloud experience is listed anywhere on the résumé.\n\n4. **No database/relational DB design experience**: SQL appears in his skills list, but only in the context of QA work; there's no evidence of schema design, query optimization, or working with relational databases as a backend engineer would.\n\n5. **No CI/CD pipeline ownership**: Grant maintains test stages in Jenkins, which is adjacent but not equivalent to owning end-to-end CI/CD pipelines for software delivery.\n\n6. **No experience with preferred qualifications**: Kafka/event-driven architecture, Docker/Kubernetes, Terraform, observability tooling, and financial services experience are all absent.\n\n7. **No mentorship or technical leadership experience**: The role requires mentoring junior/mid engineers; nothing in the résumé demonstrates this.\n\n8. **Seniority concern**: While Grant has 5 years of experience, it is in QA — not software engineering — making the \"senior\" designation in the target role a stretch.\n\n### Summary\n\nGrant meets the minimum years-of-experience threshold and holds a relevant degree, but his experience is fundamentally in quality assurance, not software engineering. The gap between test automation and designing/building high-volume backend payment services is substantial. He lacks cloud, production development, and architecture experience that are core requirements — not preferences — for this role.\n\nFINAL: REJECT"
+}

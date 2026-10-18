@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:31.326372+00:00",
+  "finished_utc": "2026-09-28T22:47:41.808883+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 452
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Strengths Against Job Requirements\n\n**Required Qualifications Review:**\n- **Years of experience:** ~3.5 years total — **does not meet the 5+ year requirement**\n- **Backend language proficiency (Java/Python):** ✅ Strong — Java/Spring Boot is her primary stack\n- **RESTful API design and consumption:** ✅ Demonstrated clearly\n- **Relational databases and SQL:** ✅ PostgreSQL experience confirmed\n- **Cloud provider experience (AWS):** ✅ AWS (EKS, SQS, RDS) confirmed\n- **CI/CD and automated testing:** ✅ GitHub Actions, JUnit, Spring Test confirmed\n- **Bachelor's in CS:** ✅ B.S. CS from SMU (2023)\n\n**Preferred Qualifications Review:**\n- Kafka/event-driven architecture: ✅ (as a contributor, not lead)\n- Docker/Kubernetes: ✅\n- Terraform: ✅ (basic)\n- Financial services/payments background: ✅ Strong — current role is in payments\n- Observability tooling: ✅ Grafana\n- Mentoring/technical leadership: ❌ No evidence\n\n### Key Gap\n\nThe most significant gap is **years of experience**: the role requires 5+ years; the candidate has approximately 3.5 years. Beyond the raw count, the résumé reflects a **mid-level engineer profile** — she contributes to senior-led initiatives rather than owning architecture or mentoring others. The job involves significant ownership, architecture leadership, and mentoring, which are not evidenced here.\n\n### Conclusion\n\nWhile her domain alignment (payments, Java, Kafka, AWS) is excellent, the experience gap is material and her current level appears to be mid-level rather than senior. There is insufficient evidence she could perform the *senior* aspects of the role as described.\n\nFINAL: REJECT"
+}

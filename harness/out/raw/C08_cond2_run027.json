@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:54.598751+00:00",
+  "finished_utc": "2026-09-28T22:16:03.811620+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 389
+  },
+  "response": "## Screening Assessment: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n**Critical Gaps:**\n\n1. **Not a software developer — QA/test background only.** The candidate's entire career has been in quality assurance and test automation. The role requires designing and building production backend services and APIs, not testing them. Writing automated tests in Java is meaningfully different from building scalable backend systems in Java.\n\n2. **No experience building or deploying backend services.** There is no evidence of designing APIs, building microservices, architecting data models, or owning production software delivery — all central to this role.\n\n3. **No cloud platform experience.** AWS, Azure, and GCP experience is a required qualification. The résumé lists none.\n\n4. **No CI/CD pipeline ownership.** Maintaining test execution stages in Jenkins is adjacent but does not equate to experience building and owning CI/CD pipelines for software delivery.\n\n5. **Self-described as \"transitioning toward software development.\"** The candidate explicitly acknowledges the gap, confirming this is an early-stage career pivot rather than a qualified senior engineer candidacy.\n\n**Notable Additional Gaps (Preferred Qualifications):**\n\n6. No event-driven architecture or message broker experience (Kafka, SQS).\n7. No containerization/Kubernetes experience.\n8. No infrastructure-as-code experience.\n9. No financial services or payments background.\n10. No mentorship or technical leadership experience.\n\n### Summary\n\nThe candidate fails to meet the majority of the **required** qualifications for a Senior Software Engineer role. The technical experience, while legitimate and adjacent, is in quality engineering — not backend software development. The shortfall is fundamental, not marginal.\n\nFINAL: REJECT"
+}

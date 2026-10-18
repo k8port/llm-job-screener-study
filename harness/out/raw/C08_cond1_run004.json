@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:13:40.247428+00:00",
+  "finished_utc": "2026-09-28T22:13:50.469397+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 400
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **Years of experience**: 5 years of professional software engineering-adjacent experience, meeting the minimum threshold technically, though the nature of the work is important to assess.\n- **Java proficiency**: Actively writes Java for test automation, which demonstrates real coding ability.\n- **RESTful API exposure**: Has written API-level tests against REST endpoints, but as a *consumer/tester*, not a *designer or builder*.\n- **SQL**: Listed as a skill.\n- **CI/CD**: Maintains Jenkins pipeline stages.\n- **Education**: B.S. in Information Technology qualifies under \"related field.\"\n- **Location**: Garland, TX is near Plano, TX — hybrid feasibility is fine.\n\n### Gaps / Concerns\n- **Core role mismatch**: The candidate is a QA/test engineer transitioning toward development. The job requires a *Senior Software Engineer* who *designs and builds* backend services. There is no evidence of building production backend systems, services, or APIs.\n- **No cloud experience**: AWS, Azure, or GCP experience is a required qualification — not mentioned anywhere.\n- **No relational database design experience**: SQL is listed, but only in a testing context.\n- **No distributed systems, event-driven architecture, or high-volume transaction experience**.\n- **No mentoring experience** of engineers (a required senior-level expectation).\n- **Self-described as transitioning** — this is a senior-level production engineering role, not an entry-level development position.\n\n### Conclusion\nThe candidate lacks sufficient evidence of the core engineering competencies required: building scalable backend services, cloud infrastructure, and senior-level technical ownership. Testing exposure to Java and APIs does not substitute for engineering experience building those systems.\n\nFINAL: REJECT"
+}

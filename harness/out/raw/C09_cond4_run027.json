@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:27:12.315281+00:00",
+  "finished_utc": "2026-09-28T22:27:21.095149+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 385
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Outdated Technology Stack**\nThe candidate's primary experience is in COBOL, JCL, and z/OS — mainframe technologies that are not relevant to the role. The job requires modern backend engineering (microservices, cloud-native development), which is not demonstrated.\n\n**2. Java Experience Is Dated and Limited**\nThe candidate lists \"Java 8\" specifically, suggesting no progression to modern Java versions (11, 17, 21). Their Java work appears limited to JSP/Servlet-era web access layers, not scalable backend service development.\n\n**3. No Cloud Experience**\nThe role requires hands-on experience with AWS, Azure, or GCP. The résumé contains no mention of any cloud platform whatsoever — a hard required qualification.\n\n**4. No RESTful API Design Experience**\nThe job requires experience designing and consuming RESTful APIs. No REST API experience is mentioned; the candidate's web work appears to be JSP/Servlet-based.\n\n**5. No CI/CD or Containerization Experience**\nJenkins is listed as \"basic,\" which falls well short of the required CI/CD experience. Docker, Kubernetes, and Terraform are entirely absent.\n\n**6. No Event-Driven Architecture Experience**\nKafka, SQS, or similar message brokers — preferred qualifications — are completely absent.\n\n**7. No Evidence of Mentorship or Technical Leadership**\nThe role expects mentoring of junior/mid-level engineers; no such experience is indicated.\n\n**8. Version Control Is Minimal**\nGit is listed as \"basic,\" which is a concern for a senior-level collaborative engineering role.\n\n---\n\nFINAL: REJECT"
+}

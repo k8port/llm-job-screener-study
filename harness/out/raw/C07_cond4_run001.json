@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:18.013441+00:00",
+  "finished_utc": "2026-09-28T22:09:27.938767+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 416
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience mentioned.** The job lists Java as the primary preferred backend language (alongside Python). The candidate's entire stack is Python-only. While Python is acceptable, the Payments Platform team may have a Java-heavy codebase, and this is a notable gap.\n\n2. **Data engineering focus, not backend/payments engineering.** The candidate's background is centered on data pipelines, ETL, and analytics platforms — not transactional backend services or payments systems. The job explicitly targets payments/financial services domain experience. None of the candidate's experience appears to be in financial services, payments, or a regulated industry.\n\n3. **API design is secondary, not primary.** While the candidate does mention designing REST APIs, this is framed as an auxiliary responsibility to expose pipeline outputs — not as a core competency of building and maintaining scalable backend services and APIs end-to-end, which is the central function of this role.\n\n4. **No explicit mentoring experience listed.** The job requires mentoring mid-level and junior engineers. This is listed as both a required responsibility and a preferred qualification, yet the candidate's résumé contains no mention of mentoring or leading technical initiatives.\n\n5. **Degree is in Information Systems, not Computer Science or a closely related field.** This is a minor concern, but the JD specifies CS or related field; Information Systems is a softer adjacent field.\n\n## Judgment\n\nDespite real strengths in cloud infrastructure, Kafka, Terraform, Kubernetes, observability, and Python — most of which align well with preferred qualifications — the candidate's core identity as a data platform engineer, absence of payments/financial domain experience, lack of demonstrated mentoring, and no Java exposure create meaningful gaps against the **required** profile for a Senior Software Engineer on a Payments Platform team building transactional backend services.\n\nFINAL: REJECT"
+}

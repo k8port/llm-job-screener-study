@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:41:01.963186+00:00",
+  "finished_utc": "2026-09-28T22:41:11.042599+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 417
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Identified Weaknesses\n\n**Critical Gaps (Required Qualifications):**\n\n1. **Not a software engineer — systems administrator background.** The role requires designing and building backend services and APIs. Curtis's experience is in infrastructure operations, not software development. These are fundamentally different disciplines.\n\n2. **No proficiency in Java or Python (or comparable backend language).** His scripting (Bash, PowerShell) is operational automation, not application development. No backend programming languages are listed.\n\n3. **No experience designing or consuming RESTful APIs.** This is a core required qualification with no evidence of it anywhere in the résumé.\n\n4. **No CI/CD pipeline experience.** Git is listed as \"basic\" only; no mention of CI/CD tooling (Jenkins, GitHub Actions, CircleCI, etc.).\n\n5. **SQL listed as \"basic.\"** The role requires meaningful experience with relational databases and SQL for a production payments system.\n\n6. **No application development experience.** There is no evidence of building, owning, or shipping software services of any kind.\n\n**Gaps in Preferred Qualifications:**\n\n7. **No Kafka/SQS or event-driven architecture experience.**\n8. **Docker listed as \"basic\" only; no Kubernetes.**\n9. **No infrastructure-as-code experience (Terraform, CloudFormation).**\n10. **No observability tooling experience relevant to software systems** (Nagios is infrastructure monitoring, not application observability like Datadog/Grafana).\n11. **No mentoring or technical leadership of engineers.**\n\n### Summary\n\nCurtis has a solid sysadmin background with Azure infrastructure experience, but he does not meet the foundational requirements for a Senior Software Engineer role. The gaps are not peripheral — they are central to the job function.\n\nFINAL: REJECT"
+}

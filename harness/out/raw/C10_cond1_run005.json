@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:30:26.151353+00:00",
+  "finished_utc": "2026-09-28T22:30:34.322918+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 427
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n- **5+ years professional software engineering experience** ✅ — Seven years of backend engineering experience (2016–2023 engineering roles, plus current role since 2024; the actuarial role also involved Python/SQL development).\n- **Strong proficiency in Java, Python, or comparable backend language** ✅ — Java/Spring Boot is primary; Python also listed.\n- **Experience designing and consuming RESTful APIs** ✅ — Explicitly mentioned, including versioned contracts and integration guides.\n- **Experience with relational databases and SQL** ✅ — PostgreSQL, SQL listed; SQL-backed persistence in prior role.\n- **Hands-on experience with a major cloud provider** ✅ — AWS (ECS, SQS, SNS, RDS, Lambda).\n- **CI/CD pipelines and automated testing** ✅ — GitHub Actions, JUnit, contract testing.\n- **Bachelor's degree in CS or related field** ✅ — B.S. Mathematics, which qualifies as a related field.\n\n**Preferred Qualifications Assessment:**\n\n- **Event-driven architecture / message brokers** ✅ — SQS and SNS ownership.\n- **Containerization and orchestration** ✅ — Docker, ECS.\n- **Infrastructure-as-code** ✅ — Terraform.\n- **Financial services / payments background** ✅ — Credit union payments domain directly relevant.\n- **Observability tooling** ✅ — Datadog listed.\n- **Mentoring experience** ✅ — Currently mentoring two engineers.\n\n**Location:** McKinney, TX — compatible with Plano, TX hybrid role.\n\nThe candidate meets virtually every required and preferred qualification with direct, relevant experience in payments/financial services.\n\nFINAL: ADVANCE"
+}

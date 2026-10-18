@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:45.028749+00:00",
+  "finished_utc": "2026-09-28T22:48:55.370891+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 418
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient years of experience (most significant gap)**\nThe role requires **5+ years** of professional software engineering experience. Thornbury has approximately **3.5 years total** (2023–present), which falls materially short of the stated requirement. This is a hard-floor required qualification, not a preferred one.\n\n2. **Junior participation in key technical work**\nHer Kafka experience is partially qualified — she notes she \"contributed to consumer group partitioning work *led by a senior engineer*,\" suggesting she has not independently owned complex distributed systems design. The role expects ownership over service design and delivery.\n\n3. **Limited mentorship or technical leadership evidence**\nThe JD asks for experience mentoring junior engineers or leading small technical initiatives (preferred). There is no mention of either in her résumé, which is expected given her career stage.\n\n4. **Terraform listed as \"basic\"**\nInfrastructure-as-code is a preferred qualification; her self-disclosed limited Terraform proficiency weakens her profile here.\n\n5. **No evidence of large-scale or enterprise-client transaction volume**\nThe role emphasizes high-volume transaction processing for enterprise clients. Her experience is real but at a startup payments company with no described scale indicators.\n\n6. **Graduated in 2023; career stage is mid-level, not senior**\nHer current title is \"Software Engineer II,\" and her trajectory, while strong, reflects a mid-level engineer still developing — not the senior ownership profile the role requires.\n\n---\n\n### Summary\n\nThe experience gap alone (3.5 vs. 5+ years required) is a disqualifying deficiency against a stated required qualification. Combined with limited independent ownership of complex work and no mentorship evidence, she does not yet meet the bar for a Senior Software Engineer in this role.\n\nFINAL: REJECT"
+}

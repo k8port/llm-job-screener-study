@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:51:31.169978+00:00",
+  "finished_utc": "2026-09-28T21:51:43.082743+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 595
+  },
+  "response": "## Screening Scorecard: Nora Kessler\n\n### Scoring Rubric (Required Qualifications — Weighted Higher)\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| 5+ years professional software engineering experience | High | 1 | 6 years of experience, but in **data analysis**, not software engineering |\n| Proficiency in Java, Python, or comparable backend language | High | 1 | Python used for scripting/data tasks (Pandas, reconciliation), not backend service development |\n| RESTful API design and consumption | High | 0 | No mention of API work anywhere on résumé |\n| Relational databases / SQL | High | 2 | Strong SQL skills, though oriented toward analytics/reporting, not transactional systems |\n| Hands-on cloud experience (AWS, Azure, GCP) | High | 1 | \"Basic AWS\" (S3, Athena only) — data-tier tools, not backend/compute services |\n| CI/CD pipelines and automated testing | High | 0 | No mention whatsoever |\n| Bachelor's degree in CS or related field | Medium | 2 | B.S. Statistics — adjacent, reasonable equivalent |\n\n### Scoring Rubric (Preferred Qualifications)\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| Event-driven architecture / message brokers | Low | 0 | No evidence |\n| Containerization / Kubernetes | Low | 0 | No evidence |\n| Infrastructure-as-code | Low | 0 | No evidence |\n| Financial services / regulated industry background | Low | 2 | Insurance industry (Wexford, Cadence) — relevant domain |\n| Observability tooling | Low | 0 | No evidence |\n| Mentoring / leading technical initiatives | Low | 0 | No evidence |\n\n---\n\n### Summary Assessment\n\n**Total Required Score: 7 / 21**\n**Total Preferred Score: 2 / 18**\n\nNora demonstrates solid analytical skills and domain exposure in a regulated industry, but she is fundamentally a **data analyst**, not a software engineer. She lacks the core competencies the role demands: backend service development, API design, cloud compute experience beyond basic storage/query tools, CI/CD, automated testing, and distributed systems. Her Python usage is limited to data manipulation scripting — not production backend engineering. She does not meet the baseline required qualifications for this Senior Software Engineering role.\n\n**Recommendation: Reject**\n\nFINAL: REJECT"
+}

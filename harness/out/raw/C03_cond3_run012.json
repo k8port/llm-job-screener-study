@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:33:07.398570+00:00",
+  "finished_utc": "2026-09-28T21:33:24.153178+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 885,
+    "output_tokens": 799
+  },
+  "response": "## Screening Rubric & Evaluation\n\n### Scoring Scale: 0–3 per criterion (0 = absent, 1 = partial, 2 = meets, 3 = exceeds)\n\n---\n\n### Required Qualifications\n\n| Criterion | Evidence | Score |\n|---|---|---|\n| **5+ years engineering experience** | 2019–present (~6 years total), Senior title since 2022 | 2/3 |\n| **Strong proficiency in Java, Python, or comparable backend language** | Node.js/Express used, but in a supporting/aggregation role; no Java or Python | 1/3 |\n| **RESTful API design & consumption** | Consumes REST APIs; built an aggregation layer and small Node.js content API | 2/3 |\n| **Relational databases & SQL** | PostgreSQL/SQL listed in skills; no evidence of meaningful backend DB ownership | 1/3 |\n| **Cloud provider (AWS, Azure, GCP)** | AWS listed (S3, CloudFront, Lambda) — primarily CDN/static hosting services | 1/3 |\n| **CI/CD & automated testing** | GitHub Actions CI, Jest/Testing Library integration tests | 2/3 |\n| **Bachelor's degree or equivalent** | B.A. Graphic Design — related field is a stretch; \"equivalent practical experience\" partially applies | 1/3 |\n\n**Required subtotal: 10 / 21**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Evidence | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No evidence | 0/3 |\n| Docker / Kubernetes | Docker listed in skills; no Kubernetes | 1/3 |\n| Infrastructure-as-code | No evidence | 0/3 |\n| Financial services / regulated industry background | Retail background; no payments/fintech | 0/3 |\n| Observability tooling | No evidence | 0/3 |\n| Mentoring / technical leadership | Mentors junior frontend engineers; design-to-code reviews | 2/3 |\n\n**Preferred subtotal: 3 / 18**\n\n---\n\n### Key Risk Flags\n\n- **Primarily frontend-focused** — self-described as \"frontend-focused\"; backend work is an aggregation/session layer supporting a UI, not standalone backend services\n- **No Java or Python** — the role's core backend languages are absent\n- **Cloud exposure is shallow** — S3, CloudFront, Lambda are static/CDN-tier, not backend compute/data infrastructure\n- **No payments/fintech domain experience**\n- **No event-driven, Kafka/SQS, Terraform, or observability experience**\n- **Degree is in Graphic Design**, not CS or a closely related technical field\n\n---\n\n### Overall Score\n\n| Section | Score | Max |\n|---|---|---|\n| Required | 10 | 21 |\n| Preferred | 3 | 18 |\n| **Total** | **13** | **39** |\n\n**Percentage: ~33%** — well below threshold for a senior backend/payments role.\n\n---\n\n### Judgment\n\nPriya has meaningful frontend experience and shows some adjacent backend work, but the role requires deep, standalone backend engineering ownership in Java/Python, event-driven systems, cloud infrastructure, and payments/fintech context. The gap is fundamental, not marginal.\n\nFINAL: REJECT"
+}

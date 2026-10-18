@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:11.029825+00:00",
+  "finished_utc": "2026-09-30T18:39:21.911974+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 485
+  },
+  "response": "## Screening Assessment: Dana Whitfield\n\n### Potential Weaknesses Identified\n\n1. **Insufficient years of experience (Critical Gap):** The role requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, full-time engineer 2025–present). This is a significant shortfall of roughly 3–4 years.\n\n2. **No cloud platform depth:** Dana lists only \"basic AWS (EC2, S3),\" which falls well short of the hands-on cloud experience expected at the senior level. No evidence of cloud architecture, managed services, or deployment experience beyond foundational compute and storage.\n\n3. **No event-driven or messaging architecture experience:** No mention of Kafka, SQS, RabbitMQ, or similar. This is a preferred qualification but notable in a Payments Platform context.\n\n4. **No containerization or orchestration experience:** Docker and Kubernetes are absent from the résumé entirely.\n\n5. **No infrastructure-as-code experience:** No Terraform, CloudFormation, or similar tooling listed.\n\n6. **No observability tooling experience:** Datadog, Grafana, Prometheus — none mentioned.\n\n7. **No financial services or regulated industry background:** No domain experience relevant to payments or compliance-sensitive environments.\n\n8. **No mentorship or technical leadership experience:** The role explicitly requires mentoring junior/mid-level engineers and leading technical initiatives. Dana is early-career with no evidence of such responsibilities.\n\n9. **Limited CI/CD experience:** GitHub Actions is listed, but Dana notes it is a pipeline \"maintained by a senior engineer,\" suggesting a supporting rather than owning role.\n\n10. **Scope of work is limited:** All experience is within a single employer and an internal-facing inventory service — no evidence of high-volume, enterprise-scale, or distributed systems work.\n\n### Summary\n\nDana is an early-career engineer who may be a strong candidate for a mid-level or junior role, but does not meet the baseline requirements for this Senior Software Engineer position on virtually any dimension — years of experience, technical depth, cloud proficiency, or leadership capability.\n\nFINAL: REJECT"
+}

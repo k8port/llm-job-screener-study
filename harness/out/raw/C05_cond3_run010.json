@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:46.595522+00:00",
+  "finished_utc": "2026-09-28T21:50:59.956184+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 590
+  },
+  "response": "## Candidate Screening: Nora Kessler\n\n### Scoring Rubric (Required Qualifications)\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| 5+ years professional software engineering experience | High | 1 | 6 years total experience, but as a **data analyst**, not a software engineer. No backend service development. |\n| Strong proficiency in Java, Python, or comparable backend language | High | 1 | Python is present but limited to scripting/data cleaning (Pandas, NumPy), not backend service development. |\n| RESTful API design and consumption | High | 0 | No mention of API design or consumption anywhere on résumé. |\n| Relational databases and SQL | Medium | 2 | Strong SQL skills demonstrated (Snowflake, SQL Server). Analytical use, not application-layer DB work. |\n| Hands-on cloud experience (AWS/Azure/GCP) | Medium | 1 | \"Basic AWS (S3, Athena)\" — surface-level, data-focused only. |\n| CI/CD pipelines and automated testing | Medium | 0 | No mention of CI/CD, testing frameworks, or deployment pipelines. |\n| Bachelor's degree in CS or related field | Low | 2 | B.S. Statistics — adjacent, acceptable as related field. |\n\n### Scoring (Preferred Qualifications)\n\n| Criterion | Score |\n|---|---|\n| Event-driven architecture / message brokers | 0 |\n| Containerization / Kubernetes / Docker | 0 |\n| Infrastructure-as-code | 0 |\n| Financial services / regulated industry background | 1 (insurance) |\n| Observability tooling | 0 |\n| Mentoring / technical leadership | 0 |\n\n---\n\n### Summary Assessment\n\n**Required qualifications met:** 2 of 6 substantively (SQL, degree). The remaining requirements are either absent or minimally satisfied.\n\n**Core gap:** Nora is a skilled data analyst, not a software engineer. Her background does not include backend service development, API work, CI/CD, software architecture, or production system ownership — all central to this role. Python experience is analytical, not engineering-grade. Cloud exposure is minimal and data-tooling-specific.\n\n**Domain adjacency:** Insurance background is a minor positive, but insufficient to offset the foundational skill misalignment.\n\n**Total Score: ~7/21 on required criteria** — well below threshold for a Senior Software Engineer role.\n\n---\n\nFINAL: REJECT"
+}

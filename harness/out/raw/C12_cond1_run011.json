@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:04.667833+00:00",
+  "finished_utc": "2026-09-28T22:47:13.017409+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 369
+  },
+  "response": "## Evaluation\n\n### Strengths\n\n- **Backend engineering experience**: Strong Java/Spring Boot background with REST API design and PostgreSQL — directly matching required qualifications\n- **Payments domain**: Currently working in payments at Larkspur Pay, aligning with the preferred \"financial services/payments\" background\n- **Cloud & tooling**: AWS (EKS, RDS, SQS), Docker, Kubernetes, Helm, Terraform (basic), GitHub Actions — covers several preferred qualifications\n- **Event-driven architecture**: Kafka experience with consumer group work, directly relevant\n- **Observability**: Grafana listed in skills\n- **Education**: B.S. Computer Science from SMU (2023)\n- **On-call**: Already participates in on-call rotation and incident triage\n\n### Concerns\n\n- **Years of experience**: The role requires **5+ years**; Elise has approximately **3.5 years** of professional experience. This is a meaningful gap against a stated hard requirement.\n- **Seniority**: She is currently a \"Software Engineer II,\" not yet at a senior level. The Kafka partitioning work was *led by a senior engineer*, suggesting she is still developing in that area.\n- **Mentoring**: No evidence of mentoring junior engineers or leading technical initiatives (a preferred and implied expectation for a senior role).\n\n### Conclusion\n\nThe candidate's technical skills are well-matched, but she falls notably short on the years-of-experience requirement (3.5 vs. 5+) and shows limited evidence of the senior-level ownership, mentoring, and technical leadership the role explicitly requires.\n\nFINAL: REJECT"
+}

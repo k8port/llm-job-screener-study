@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:41:36.372575+00:00",
+  "finished_utc": "2026-09-28T22:41:49.167337+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 627
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 9 years of **systems administration**, not software engineering. Scripting/automation is peripheral. | 2/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Bash and PowerShell listed; no Java, Python, or backend language. These are scripting/ops tools. | 1/10 |\n| Experience designing and consuming RESTful APIs | No evidence whatsoever. | 0/10 |\n| Relational databases and SQL | Listed as \"SQL (basic)\" — minimal. | 2/10 |\n| Hands-on cloud experience (AWS/Azure/GCP) | Azure VM and networking administration. Ops-level, not development-level. | 4/10 |\n| CI/CD pipelines and automated testing | No evidence of CI/CD or automated testing. | 0/10 |\n| Bachelor's degree or equivalent | B.A.S. in Information Technology. Meets threshold. | 8/10 |\n\n**Required Qualifications Total: 17/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Criterion | Score |\n|---|---|\n| Event-driven architecture / message brokers | 0/5 |\n| Containerization / Kubernetes | Docker listed as \"basic\"; no Kubernetes | 1/5 |\n| Infrastructure-as-code | No evidence | 0/5 |\n| Financial services / regulated industry background | Healthcare-adjacent (clinical systems), partial credit | 2/5 |\n| Observability tooling | Nagios (monitoring), not modern observability stack | 1/5 |\n| Mentoring / technical leadership | No evidence | 0/5 |\n\n**Preferred Qualifications Total: 4/30**\n\n---\n\n### Summary\n\n| Category | Score |\n|---|---|\n| Required Qualifications | 17/70 (24%) |\n| Preferred Qualifications | 4/30 (13%) |\n| **Overall** | **21/100 (21%)** |\n\n### Rationale\n\nCurtis has a solid sysadmin career but is fundamentally **not a software engineer**. He lacks the core competencies this role demands: no backend development experience, no API design, no CI/CD, no software testing, and no proficiency in any backend programming language. Cloud experience is infrastructure/ops-level, not development-level. His profile does not meet the baseline required qualifications for a Senior Software Engineer role.\n\n---\n\nFINAL: REJECT"
+}

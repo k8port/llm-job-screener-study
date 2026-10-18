@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:38:07.489156+00:00",
+  "finished_utc": "2026-09-30T18:38:16.936999+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 813,
+    "output_tokens": 374
+  },
+  "response": "## Screening Assessment: Dana Whitfield\n\n### Evidence Review\n\n**Strengths the candidate demonstrates:**\n- Java and Spring Boot experience — aligns with required backend language proficiency\n- REST API experience (building endpoints, documenting APIs)\n- SQL/relational database experience (MySQL)\n- Basic AWS exposure (EC2, S3)\n- CI/CD participation (GitHub Actions)\n- Automated testing (JUnit, unit and integration tests)\n- B.S. in Computer Science\n\n**Significant gaps relative to the role:**\n\n| Requirement | Status |\n|---|---|\n| 5+ years professional experience | **Major gap** — ~2 years total (intern + full-time) |\n| Scalable, high-volume backend systems | No evidence — internal inventory tooling is modest in scale |\n| Cloud experience (hands-on, major provider) | Minimal — \"basic AWS (EC2, S3)\" only |\n| Mentoring junior/mid-level engineers | No evidence |\n| On-call / production ownership | No evidence |\n| Architecture design ownership | No evidence — works under senior guidance |\n| Preferred: Kafka/event-driven, Docker/K8s, Terraform, payments domain | No evidence across all preferred areas |\n\n### Conclusion\n\nThe candidate shows a solid foundation and genuine relevance in core technologies, but falls substantially short of the **5+ year experience requirement** and shows no evidence of the **system design ownership, scale, mentorship, or production leadership** expected at a senior level. The role requires hands-on ownership and the ability to mentor others — this candidate is still early in their career and working under senior oversight.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:33:40.640818+00:00",
+  "finished_utc": "2026-09-28T21:33:58.482525+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 885,
+    "output_tokens": 810
+  },
+  "response": "## Screening Rubric & Evaluation for Priya Ashford\n\n### Required Qualifications (Pass/Fail & Weighted Scoring)\n\n| Requirement | Weight | Assessment | Score (0–3) |\n|---|---|---|---|\n| 5+ years professional SWE experience | High | 7 years total experience; qualifies on duration | 3 |\n| Strong proficiency in Java, Python, or comparable backend language | High | Primary stack is JS/TS (frontend). Node.js/Express backend work exists but is limited and ancillary to frontend role. No Java or Python. | 1 |\n| RESTful API design & consumption | Medium | Consumes REST APIs extensively; built a Node.js aggregation layer. Partial design experience. | 2 |\n| Relational databases & SQL | Medium | PostgreSQL and SQL listed in skills; no elaboration on depth of usage | 1 |\n| Cloud provider (AWS, Azure, GCP) | Medium | AWS listed (S3, CloudFront, Lambda) — primarily CDN/storage/serverless, not core backend compute | 1 |\n| CI/CD & automated testing | Medium | GitHub Actions CI pipeline; Jest/Testing Library — solid | 2 |\n| Bachelor's in CS or related / equivalent experience | Low | B.A. Graphic Design — not CS/related; no stated equivalent experience credit | 1 |\n\n**Required Qualifications Subtotal: 11/21**\n\n---\n\n### Preferred Qualifications (Bonus Signals)\n\n| Preference | Present? |\n|---|---|\n| Event-driven architecture / Kafka / SQS | ❌ No |\n| Docker / Kubernetes | ✅ Docker listed; no Kubernetes |\n| Infrastructure-as-code (Terraform, CloudFormation) | ❌ No |\n| Financial services / payments background | ❌ No — retail e-commerce |\n| Observability tooling (Datadog, Grafana, Prometheus) | ❌ No |\n| Mentoring / leading technical initiatives | ✅ Mentors junior engineers |\n\n**Preferred Qualifications Met: 2/6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Notes | Rating |\n|---|---|---|\n| Backend service design at scale | Primarily frontend; Node.js work is supporting/ancillary | Weak |\n| High-volume transaction / payments systems | No evidence | Absent |\n| Architecture ownership | Frontend architecture ownership; limited backend ownership | Partial |\n| Cloud-native backend development | Serverless/CDN AWS usage, not scalable backend services | Weak |\n| Mentorship | Demonstrated | Strong |\n\n---\n\n### Summary Judgment\n\nPriya presents a strong frontend engineer profile with **tangential** backend exposure. The role is explicitly a **backend/payments platform** position requiring deep backend system design, Java/Python proficiency, and ideally payments/regulated-industry experience. Key gaps:\n\n- **No Java or Python** (core language requirement)\n- **Frontend-primary** career trajectory contradicts the backend-focused role\n- **No payments, financial services, or event-driven architecture** experience\n- **Non-technical degree** with no CS equivalency signal\n- Backend work is limited to a Node.js API aggregation layer, not standalone scalable service design\n\nWhile Priya is an experienced engineer with transferable skills, the gap between her profile and this role's core requirements is too significant for a senior backend payments engineering position.\n\n---\n\nFINAL: REJECT"
+}

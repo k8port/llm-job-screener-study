@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:30:12.443492+00:00",
+  "finished_utc": "2026-09-28T21:30:21.854833+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 390
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **7 years of experience** exceeds the 5-year minimum\n- **Node.js/Express backend work** shows some server-side capability\n- **REST API** experience (both building and consuming)\n- **PostgreSQL/SQL** experience\n- **AWS** (S3, CloudFront, Lambda) — cloud experience present\n- **Docker** and **GitHub Actions (CI/CD)** — checks those boxes\n- **Mentoring** experience — matches a preferred qualification\n- **Jest** — automated testing experience\n- Local to the area (Frisco, TX near Plano)\n\n### Concerns\n- **Self-described as \"frontend-focused\"** — the role is explicitly a **backend/payments platform** engineering position\n- **No Java or Python** — the primary languages listed in required qualifications; Node.js is listed as \"comparable\" but her use is limited to aggregation layers and small APIs, not high-volume transaction processing\n- **No demonstrated experience with high-volume, distributed backend systems** — her backend work is supplementary to frontend products, not core scalable service design\n- **No event-driven architecture, Kafka, or message brokers**\n- **No Kubernetes or infrastructure-as-code**\n- **No financial services or regulated industry background**\n- **B.A. in Graphic Design** — not CS or related field; while practical experience can substitute, her backend depth is limited\n- **No observability tooling** experience\n\n### Summary\nThe candidate's backend experience is shallow and incidental to frontend work. The role requires deep, primary backend engineering ownership over high-volume payment systems. There is insufficient evidence she could step into this senior backend platform role as described.\n\nFINAL: REJECT"
+}

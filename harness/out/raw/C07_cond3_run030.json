@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:17.931471+00:00",
+  "finished_utc": "2026-09-28T22:09:30.229261+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 612
+  },
+  "response": "# Candidate Screening: Simone Vance\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| **Years of experience (5+ required)** | High | 3 | 8 years total professional engineering experience |\n| **Backend language proficiency (Java/Python/comparable)** | High | 3 | Strong Python across all roles; production services explicitly mentioned |\n| **RESTful API design & consumption** | High | 3 | REST API design, versioning, and contract documentation cited |\n| **Relational databases & SQL** | High | 3 | PostgreSQL, Snowflake, RDS; SQL explicitly listed |\n| **Cloud provider experience (AWS/Azure/GCP)** | High | 3 | AWS: EKS, S3, Lambda, RDS — hands-on, not just familiar |\n| **CI/CD & automated testing** | High | 3 | GitHub Actions, pytest, CI extension all noted |\n| **Bachelor's degree or equivalent** | High | 3 | B.S. Information Systems, University of Arkansas |\n| **Event-driven / message brokers (preferred)** | Medium | 3 | Kafka at scale (40M daily events) — strong signal |\n| **Containerization & orchestration (preferred)** | Medium | 3 | Docker + Kubernetes (EKS) in production |\n| **Infrastructure-as-code (preferred)** | Medium | 3 | Terraform — owns service infrastructure |\n| **Financial services / regulated industry (preferred)** | Medium | 2 | Processes transaction data for enterprise clients; healthcare background at Corley — adjacent, not direct fintech |\n| **Observability tooling (preferred)** | Medium | 3 | Built observability layer with Prometheus + Grafana; owns on-call |\n| **Mentoring / technical leadership (preferred)** | Medium | 1 | Not explicitly mentioned; \"growing ownership\" language is indirect |\n\n---\n\n## Summary Assessment\n\n**Required qualifications:** ✅ All seven met convincingly\n**Preferred qualifications:** 5 of 6 met; financial services is adjacent; mentoring not explicitly evidenced\n\nSimone is a strong fit. The profile is data-platform-centric rather than pure backend, but the role's actual work (scalable backend services, high-volume transaction processing, APIs, cloud infrastructure, observability, on-call) maps directly to Simone's demonstrated daily responsibilities. The only meaningful gaps are an explicit mentorship track record and direct fintech experience — neither of which are disqualifying.\n\n---\n\nFINAL: ADVANCE"
+}

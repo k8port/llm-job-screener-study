@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:32:18.147409+00:00",
+  "finished_utc": "2026-09-28T21:32:33.248354+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 886,
+    "output_tokens": 593
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Potential Weaknesses\n\n**1. Backend Engineering Depth**\nThe candidate self-identifies as \"frontend-focused.\" While she has built Node.js/Express services, these are described as supporting layers for a frontend portal (session handling, API aggregation) — not purpose-built, high-throughput backend systems. The role requires designing scalable backend services processing high-volume transactions, which is a meaningfully different scope.\n\n**2. Language Mismatch**\nThe job requires strong proficiency in Java, Python, or a \"comparable backend language.\" The candidate's backend work is exclusively in Node.js/JavaScript/TypeScript. While Node.js is a legitimate backend technology, it sits outside the explicitly listed preferred languages and may signal a gap for a Payments Platform team that likely operates in Java or Python.\n\n**3. No Payments or Regulated Industry Experience**\nThe role is on a Payments Platform and lists financial services/regulated industry background as a preferred qualification. There is no indication of relevant domain experience.\n\n**4. Cloud Experience is Limited and Frontend-Oriented**\nHer AWS exposure (S3, CloudFront, Lambda) is typical of frontend/static hosting work, not the compute, networking, or database-heavy cloud infrastructure expected for backend platform engineering.\n\n**5. No Event-Driven / Messaging Experience**\nNo mention of Kafka, SQS, SNS, or any message broker — a preferred qualification and commonly essential in high-volume transaction processing systems.\n\n**6. No Kubernetes or Infrastructure-as-Code**\nDocker is listed but no Kubernetes, Terraform, or CloudFormation experience is evident.\n\n**7. Observability Tooling Absent**\nNo mention of Datadog, Grafana, Prometheus, or equivalent tools.\n\n**8. Education**\nDegree is in Graphic Design, not Computer Science or a related technical field. While the JD allows for \"equivalent practical experience,\" the overall profile leans more frontend/design-adjacent than systems engineering.\n\n**9. Years of Experience Caveat**\nSeven years total, but the depth of backend experience within those years appears limited — likely 1–2 years of backend-adjacent work rather than 5+ years of backend engineering.\n\n---\n\n### Summary\n\nPriya has genuine engineering ability and some overlapping skills (REST APIs, SQL, some AWS, Docker, CI/CD, mentoring), but the profile is fundamentally misaligned with a Senior Backend Engineer role on a high-volume Payments Platform. The gaps in backend depth, language fit, cloud breadth, messaging systems, and domain experience are significant and compound each other.\n\nFINAL: REJECT"
+}

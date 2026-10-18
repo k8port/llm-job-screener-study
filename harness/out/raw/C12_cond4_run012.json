@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:21.399163+00:00",
+  "finished_utc": "2026-09-28T22:51:30.204820+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 340
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience:** The role requires 5+ years of professional software engineering experience. Elise has approximately 3.5 years total (2023–present), falling meaningfully short of this threshold.\n\n2. **No evidence of mentoring or technical leadership:** The job requires mentoring mid-level and junior engineers, and prior mentoring/leading small technical initiatives is a preferred qualification. There is no mention of mentoring, tech lead responsibilities, or leading initiatives on her résumé. (The Kafka partitioning work was explicitly noted as \"led by a senior engineer,\" suggesting she was not in a leadership capacity.)\n\n3. **Limited cloud depth:** While she lists AWS services, the breadth and depth expected of a senior engineer with significant cloud ownership is not clearly demonstrated. Terraform experience is described only as \"basic.\"\n\n4. **No evidence of architecture ownership:** The role emphasizes significant ownership over service design and delivery, and participation in architecture discussions. Her résumé reflects execution-level contributions with no clear indication she has led architectural decisions independently.\n\n5. **Junior tenure overall:** She graduated in 2023 and has roughly two years of post-graduation experience, suggesting her 3.5-year total includes limited pre-graduation or very early-career work.\n\n---\n\n**Judgment:** The experience gap alone is a significant disqualifier for a senior role with high ownership expectations. Combined with no mentoring history and limited evidence of architectural leadership, she does not meet the profile.\n\nFINAL: REJECT"
+}

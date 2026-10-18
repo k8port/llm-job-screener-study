@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:23.134141+00:00",
+  "finished_utc": "2026-09-28T22:48:34.753844+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 455
+  },
+  "response": "## Screening Analysis: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient Years of Experience (Primary Concern)**\nThe role requires **5+ years** of professional software engineering experience. Thornbury's résumé reflects approximately **3.5 years** (2023 graduation, with experience dating to roughly mid-2021 at the earliest implied — but the listed roles only span 2023–Present, suggesting closer to **~2 years** of professional experience post-degree). This is a significant shortfall against a hard requirement.\n\n2. **No Demonstrated Mentorship or Technical Leadership**\nThe job explicitly requires mentoring mid-level/junior engineers and leading technical initiatives. There is no evidence of this on the résumé. Her Kafka work was even noted as being *led by a senior engineer*, placing her in a supporting role.\n\n3. **Limited Architecture-Level Ownership**\nThe role expects significant ownership over service *design* at a senior/architectural level. Her experience appears to be at a delivery/implementation level, appropriate for an SE II but not yet a Senior engineer.\n\n4. **Terraform Listed as \"Basic\"**\nWhile infrastructure-as-code is preferred (not required), the self-qualified \"basic\" Terraform suggests limited depth here.\n\n5. **No Observable Observability Depth**\nGrafana is listed, but no meaningful context around observability practices (alerting, dashboarding, SLO/SLA work) is provided.\n\n6. **No Evidence of CI/CD Design**\nGitHub Actions is listed, but experience appears to be usage rather than design/ownership of pipelines.\n\n### Summary\n\nThe most disqualifying factor is the **years-of-experience gap** — approximately 2–3.5 years versus the required 5+. This is a hard-line requirement, not a preference, and the résumé does not present evidence of accelerated seniority (e.g., leading initiatives, mentoring, architectural ownership) that might otherwise justify an exception.\n\nFINAL: REJECT"
+}

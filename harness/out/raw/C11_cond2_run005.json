@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:17.244781+00:00",
+  "finished_utc": "2026-09-28T22:40:26.421692+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 409
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Role: Senior Software Engineer – Payments Platform\n\n---\n\n### Identified Weaknesses\n\n1. **Not a software engineer by background.** Curtis is a systems administrator, not a software developer. His career has been in infrastructure operations, not application development. This is a fundamental mismatch with the role.\n\n2. **No proficiency in a backend programming language.** The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell — scripting languages used for automation/administration, not backend service development.\n\n3. **No experience designing or building APIs.** The role centers on designing and consuming RESTful APIs. There is no evidence of this in Curtis's résumé.\n\n4. **No software development experience at any level.** The role requires 5+ years of professional software engineering experience. Curtis has zero years in that capacity.\n\n5. **SQL listed as \"basic.\"** The role requires meaningful experience with relational databases and SQL; Curtis explicitly self-rates this as basic.\n\n6. **No CI/CD pipeline or automated testing experience.** These are listed as required qualifications; Curtis shows no evidence of either.\n\n7. **Docker listed as \"basic\" only; no Kubernetes.** Preferred qualifications include containerization/orchestration; Curtis has only surface-level Docker exposure.\n\n8. **No experience with event-driven architecture, observability tooling, or infrastructure-as-code** (all preferred qualifications).\n\n9. **No mentorship or technical leadership experience** in an engineering context.\n\n---\n\n### Summary\n\nCurtis's profile reflects a solid infrastructure and operations background, but he does not meet the core required qualifications for a Senior Software Engineer role. The gap is not marginal — it is categorical. There is no demonstrated software development experience.\n\nFINAL: REJECT"
+}

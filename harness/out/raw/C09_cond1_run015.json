@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:14.962350+00:00",
+  "finished_utc": "2026-09-28T22:22:24.845151+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 407
+  },
+  "response": "## Assessment: Raymond Dolliver for Senior Software Engineer (Payments Platform)\n\n### Strengths\n\n- **Years of experience**: 16 years of professional software engineering, well exceeding the 5-year requirement\n- **Financial services background**: Deep experience in a regulated financial environment (trust accounting, settlement processing) — a preferred qualification\n- **SQL/relational databases**: Strong evidence with DB2 and Oracle query writing and tuning\n- **Java**: Java 8 experience is present, though dated\n- **CS degree**: B.S. Computer Science from UT Arlington satisfies the education requirement\n- **Production incident response**: Demonstrated experience in high-priority production diagnostics\n\n### Gaps / Concerns\n\n- **Modern backend/cloud engineering**: No evidence of cloud provider experience (AWS, Azure, GCP) — a required qualification\n- **RESTful APIs**: Java 8 services providing \"web access\" are mentioned, but no clear evidence of designing/consuming RESTful APIs in a modern context\n- **CI/CD**: Jenkins listed as \"basic\" only; Subversion is primary VCS; minimal modern DevOps exposure\n- **Preferred qualifications largely unmet**: No Kafka/SQS, Docker/Kubernetes, Terraform, or observability tooling\n- **Technology currency**: Stack is primarily legacy (COBOL, JCL, z/OS, Java 8, JSP, Servlets) — not aligned with the modern distributed systems focus of this role\n- **Scalable microservices**: No evidence of designing scalable distributed backend services\n\n### Conclusion\n\nWhile Raymond has valuable domain experience in financial services and meets some baseline criteria, there are critical gaps in the required qualifications — particularly cloud experience and modern backend engineering — that leave insufficient evidence he could step into this role without significant ramp-up.\n\nFINAL: REJECT"
+}

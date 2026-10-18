@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:40:44.787075+00:00",
+  "finished_utc": "2026-09-28T21:40:56.791392+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 950,
+    "output_tokens": 539
+  },
+  "response": "## Screening Assessment – Trevor Lindquist\n\n### Strengths (for context)\n- 9 years of experience, well exceeding the 5-year requirement\n- Strong proficiency in both Java and Python (core required languages)\n- Deep payments/fintech domain experience (6 years)\n- Direct hands-on experience with REST API design, PostgreSQL/SQL, AWS, CI/CD, and automated testing\n- Covers nearly every preferred qualification: Kafka/SQS, Docker/Kubernetes, Terraform, Grafana/Prometheus, mentorship/on-call leadership\n- Self-taught / apprenticeship background is explicitly accommodated by the JD (\"or equivalent practical experience\")\n\n---\n\n### Potential Weaknesses\n\n1. **No formal degree.** The JD requires a \"Bachelor's degree in Computer Science or related field, **or equivalent practical experience**.\" The candidate has no degree. Whether 9 years of progressive professional experience satisfies \"equivalent practical experience\" is a judgment call, but the JD explicitly carves out this path — so this is a minor and arguably non-disqualifying concern.\n\n2. **No explicit mention of GCP or Azure.** AWS is listed clearly; the candidate does not reference GCP or Azure. The JD requires experience with \"a major cloud provider (AWS, Azure, or GCP)\" — AWS alone fully satisfies this requirement, so this is not a real gap.\n\n3. **No explicit mention of CI/CD tooling beyond GitHub Actions.** GitHub Actions is listed, which is a legitimate CI/CD platform. This is satisfied.\n\n4. **No explicit mention of architecture leadership or formal mentorship role.** The résumé references on-call lead and incident retrospectives but does not explicitly call out mentoring junior engineers. The JD lists mentorship as a preferred (not required) qualification. Mild gap.\n\n5. **Single employer for 6 years.** All payments experience is at one company (Baintree). Breadth of exposure across different environments is limited, though depth is strong.\n\n---\n\n### Summary\n\nThe weaknesses identified are minor. The absence of a formal degree is explicitly covered by the JD's \"equivalent practical experience\" clause, and 9 years of professional experience — six of which are directly in payments infrastructure — clearly meets that bar. All required qualifications are met; most preferred qualifications are also satisfied. No disqualifying gaps exist.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:42:50.098786+00:00",
+  "finished_utc": "2026-09-28T22:43:02.475452+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 677
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 9 years total, but in **systems administration**, not software engineering. No professional software development experience evident. | 2/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Skills list shows Bash and PowerShell (scripting/automation), not backend development languages. No Java or Python listed. | 1/10 |\n| Experience designing and consuming RESTful APIs | No mention of API design or consumption anywhere. | 0/10 |\n| Relational databases and SQL | Listed as \"SQL (basic)\" — minimal proficiency only. | 2/10 |\n| Hands-on cloud experience (AWS, Azure, GCP) | Azure VMs and networking present — legitimate hands-on experience. | 6/10 |\n| CI/CD pipelines and automated testing | No mention of CI/CD pipelines or automated testing. | 0/10 |\n| Bachelor's degree or equivalent | B.A.S. in Information Technology — meets threshold. | 8/10 |\n\n**Required Qualifications Total: 19/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No evidence. | 0/5 |\n| Docker / Kubernetes | Docker listed as \"basic.\" No Kubernetes. | 1/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | No mention. | 0/5 |\n| Financial services / regulated industry background | Healthcare (regulated), some relevant exposure. | 3/5 |\n| Observability tooling | Nagios listed — adjacent but not the preferred tools. | 1/5 |\n| Mentoring / leading technical initiatives | No mentoring experience noted. | 0/5 |\n\n**Preferred Qualifications Total: 5/30**\n\n---\n\n## Summary\n\n| Category | Score |\n|---|---|\n| Required Qualifications | 19/70 (27%) |\n| Preferred Qualifications | 5/30 (17%) |\n| **Overall** | **24/100 (24%)** |\n\n### Key Disqualifying Gaps\n- **Not a software engineer** — career is entirely in systems/infrastructure administration\n- **No backend development proficiency** — no Java, Python, or equivalent language\n- **No API design/consumption experience**\n- **No CI/CD or automated testing experience**\n- **No application-layer development work of any kind**\n\nThe candidate has transferable technical exposure (Azure, scripting, on-call), but lacks the core software engineering competencies this role requires. The gap is fundamental, not marginal.\n\n---\n\nFINAL: REJECT"
+}

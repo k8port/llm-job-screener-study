@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:20.542009+00:00",
+  "finished_utc": "2026-09-28T22:43:29.199106+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 390
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps Against Required Qualifications:**\n\n1. **Not a software engineer:** Curtis is a systems administrator. His nine years of experience are in infrastructure operations, server management, and IT support — not professional software engineering/development. The role requires 5+ years of *software engineering* experience.\n\n2. **No backend development proficiency:** The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell, which are scripting/automation tools, not backend application development languages. There is no evidence of building applications or services.\n\n3. **No API design or consumption experience:** No mention of designing or consuming RESTful APIs, which is a required qualification.\n\n4. **No CI/CD or automated testing experience:** Neither is referenced anywhere on the résumé.\n\n5. **No relational database experience beyond basic SQL:** He lists \"SQL (basic),\" which falls far short of the required experience with relational databases.\n\n6. **No cloud engineering depth:** While he manages Azure VMs and networking, this is infrastructure administration, not cloud-native application development as the role requires.\n\n**Gaps Against Preferred Qualifications:**\n- No event-driven architecture or message broker experience (Kafka, SQS)\n- No Kubernetes or container orchestration (only \"basic\" Docker)\n- No infrastructure-as-code (Terraform, CloudFormation)\n- No observability tooling relevant to application monitoring\n- No mentorship or technical leadership of engineers\n\n**Summary:** This candidate lacks the foundational software engineering background that the role requires. His profile is that of a skilled sysadmin, which is a materially different discipline from what is being hired for.\n\nFINAL: REJECT"
+}

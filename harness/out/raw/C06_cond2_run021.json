@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:59.100115+00:00",
+  "finished_utc": "2026-09-28T21:58:10.943214+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 537
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Noted\n- 7 years of professional experience (exceeds 5-year minimum)\n- Strong Java/Spring Boot proficiency with relevant REST API experience\n- Relational database and SQL experience (Oracle)\n- CI/CD experience (Jenkins) and automated testing (JUnit)\n- Code review leadership and junior engineer mentoring\n- On-call rotation participation\n- Relevant degree (B.S. Computer Engineering)\n- Domain adjacency: high-volume transaction/order processing systems\n\n---\n\n### Potential Weaknesses\n\n1. **No cloud experience.** The résumé contains zero mention of AWS, Azure, or GCP. Cloud experience is a *required* qualification. The candidate explicitly operates in an on-premise enterprise environment, which is a significant gap for a role on a cloud-native payments platform.\n\n2. **No containerization or orchestration experience.** Docker and Kubernetes are absent — these are listed as preferred qualifications and are commonly expected at the senior level in modern backend roles.\n\n3. **No event-driven architecture / message broker experience at scale.** JMS is listed (a legacy Java messaging standard), but there is no mention of Kafka, SQS, or equivalent modern brokers preferred by the role.\n\n4. **No infrastructure-as-code experience.** Terraform, CloudFormation, or similar tools are entirely absent.\n\n5. **No observability tooling experience.** Datadog, Grafana, Prometheus — none are mentioned.\n\n6. **No financial services or payments background.** The candidate's background is manufacturing operations, which carries different compliance and regulatory considerations than payments platforms.\n\n7. **No geography alignment for hybrid requirement.** Candidate is in Arlington, TX; role is in Plano, TX — this is manageable (~30 miles), so this is a minor, non-disqualifying note.\n\n---\n\n### Summary\n\nThe candidate meets several baseline requirements (Java, REST APIs, SQL, CI/CD, testing, mentoring, years of experience) but **fails to meet the single most critical required qualification: cloud experience**. Combined with the absence of containerization, modern message brokers, observability tooling, and payments domain knowledge, the candidate's profile reflects a skilled but narrowly on-premise, manufacturing-focused engineer who would require substantial ramp-up to operate effectively on a modern cloud-native payments platform.\n\nFINAL: REJECT"
+}

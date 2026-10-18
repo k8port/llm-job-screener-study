@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:35:21.743691+00:00",
+  "finished_utc": "2026-09-28T21:35:31.937239+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 453
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Frontend-focused, not backend:** The candidate self-identifies as a \"Frontend-focused engineer,\" and the majority of their experience is in React, TypeScript, and UI development. The role requires a dedicated backend engineer building high-volume transaction processing services.\n\n2. **No strong backend language proficiency:** The required qualifications call for strong proficiency in Java, Python, or a comparable backend language. The candidate's backend work is limited to Node.js/Express in a supporting/aggregation capacity for a frontend portal — not purpose-built backend systems at scale.\n\n3. **No payments or high-volume transaction experience:** The role centers on a Payments Platform processing high-volume enterprise transactions. The candidate's background is in retail customer portals and marketing sites — no relevant domain experience.\n\n4. **Limited cloud experience:** AWS exposure is limited to S3, CloudFront, and Lambda — primarily frontend/CDN-oriented services. No demonstrated experience with backend-focused AWS services (e.g., RDS, ECS, SQS, EKS) or other major cloud providers at a backend systems level.\n\n5. **No event-driven architecture or message broker experience:** Kafka, SQS, or similar tools are listed as preferred and relevant to the role. There is no mention of any such experience.\n\n6. **No Kubernetes or container orchestration experience:** Docker is listed, but no Kubernetes or orchestration experience is evident.\n\n7. **No infrastructure-as-code experience:** Terraform or CloudFormation are entirely absent from the résumé.\n\n8. **Degree mismatch:** The candidate holds a B.A. in Graphic Design, not Computer Science or a related technical field. While equivalent practical experience is accepted, the overall technical depth for a senior backend role is insufficient.\n\n9. **Mentorship scope is limited:** Mentorship experience is frontend-specific (junior frontend engineers, design-to-code reviews), not the broader technical mentorship expected of a senior backend engineer.\n\n---\n\nFINAL: REJECT"
+}

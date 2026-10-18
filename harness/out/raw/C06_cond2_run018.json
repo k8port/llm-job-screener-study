@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:48.979188+00:00",
+  "finished_utc": "2026-09-28T21:57:59.098007+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 479
+  },
+  "response": "## Candidate Evaluation: Alan Brightwell\n\n### Strengths\n- 7 years of professional software engineering experience (exceeds 5-year requirement)\n- Strong Java/Spring Boot background with REST API design experience\n- Solid relational database and SQL experience (Oracle)\n- CI/CD experience via Jenkins pipelines and automated testing (JUnit)\n- Mentors junior engineers and leads code review — aligns with preferred mentoring qualification\n- On-call rotation experience\n- Relevant degree (B.S. Computer Engineering)\n- Located in Arlington, TX — proximate to Plano, TX hybrid role\n\n---\n\n### Potential Weaknesses\n\n1. **No cloud experience (major gap against a required qualification).** The résumé shows no mention of AWS, Azure, or GCP. Alan's background is explicitly described as \"on-premise enterprise environment,\" which is a direct contrast to a required qualification.\n\n2. **No containerization or orchestration experience.** Docker and Kubernetes are preferred qualifications with no evidence of exposure.\n\n3. **No event-driven architecture / message broker experience beyond JMS.** JMS is dated; Kafka, SQS, and similar modern brokers are preferred and not listed.\n\n4. **No infrastructure-as-code experience.** Terraform/CloudFormation absent.\n\n5. **No observability tooling experience.** Datadog, Grafana, Prometheus — none mentioned.\n\n6. **No financial services or payments domain experience.** The role is specifically a Payments Platform team; this is a notable gap.\n\n7. **Manufacturing domain background only.** Limited transferability of domain knowledge to a regulated payments/financial services environment.\n\n---\n\n### Summary Assessment\n\nAlan meets several **required** qualifications (Java, REST APIs, SQL, CI/CD, years of experience, degree, mentoring), but **fails a critical required qualification — cloud experience** — with no evidence of any cloud platform exposure. Given that the role is building cloud-hosted payment services, this is a foundational gap rather than a minor one. He also lacks most of the preferred qualifications that would signal readiness for a payments platform role.\n\nFINAL: REJECT"
+}

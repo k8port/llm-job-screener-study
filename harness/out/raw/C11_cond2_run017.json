@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:47.397724+00:00",
+  "finished_utc": "2026-09-28T22:40:57.519693+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 433
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Potential Weaknesses Identified\n\n1. **Not a software engineer — systems administrator background.** Curtis's entire career is in infrastructure/systems administration, not software development. The role requires designing and building backend services and APIs; his work centers on server management, provisioning, and operational support.\n\n2. **No professional software development experience.** The role requires 5+ years of professional software engineering. Curtis has 0 years in that capacity. Scripting (Bash/PowerShell) for automation does not equate to backend service development.\n\n3. **No proficiency in required languages for this role.** Java and Python are the primary languages listed; Curtis lists only Bash and PowerShell, which are scripting/automation tools, not backend application development languages.\n\n4. **No API design or consumption experience.** No mention of RESTful API development anywhere on the résumé.\n\n5. **SQL is listed as \"basic.\"** The role requires meaningful experience with relational databases and SQL; self-described basic proficiency is insufficient.\n\n6. **No CI/CD experience.** No mention of CI/CD pipelines or automated testing frameworks.\n\n7. **Docker listed as \"basic\"; no Kubernetes.** The role prefers containerization/orchestration experience; his exposure appears minimal.\n\n8. **No observability tooling relevant to the role.** Nagios is listed, which is a legacy monitoring tool; no Datadog, Grafana, or Prometheus.\n\n9. **No experience with event-driven architecture** (Kafka, SQS, or similar).\n\n10. **No mentoring or technical leadership experience** in an engineering context.\n\n### Summary\n\nCurtis is a capable systems administrator, but he does not meet the core requirements of this Senior Software Engineer role. The gaps are fundamental — not peripheral — spanning the primary skill set, years of relevant experience, and the nature of the work itself.\n\nFINAL: REJECT"
+}

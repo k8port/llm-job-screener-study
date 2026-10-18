@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:24:07.603687+00:00",
+  "finished_utc": "2026-09-28T21:24:21.986954+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 732
+  },
+  "response": "## Screening Scorecard: Marcus Ellery\n\n### Required Qualifications (Pass/Fail + Notes)\n\n| Requirement | Score | Notes |\n|---|---|---|\n| 5+ years professional experience | ✅ Pass | ~8 years total (2018–present) |\n| Java, Python, or comparable backend language | ✅ Pass | Java (primary), Python listed |\n| RESTful API design & consumption | ✅ Pass | Explicit ownership of API contracts, OpenAPI specs |\n| Relational databases / SQL | ✅ Pass | PostgreSQL on multiple projects |\n| Major cloud provider (AWS/Azure/GCP) | ✅ Pass | AWS – EKS, SQS, RDS, Lambda |\n| CI/CD & automated testing | ✅ Pass | GitHub Actions, JUnit, expanded test coverage |\n| Bachelor's in CS or equivalent | ✅ Pass | B.S. CS, Texas A&M 2018 |\n\n**Required: 7/7 met**\n\n---\n\n### Preferred Qualifications (Weighted)\n\n| Preference | Score | Notes |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | ✅ Strong | Kafka is a core competency; SQS in AWS skill set |\n| Docker / Kubernetes | ✅ Strong | Docker, EKS, Helm — hands-on |\n| Infrastructure-as-code (Terraform) | ✅ Strong | Terraform listed explicitly |\n| Financial services / payments background | ✅ Strong | 6+ years in fintech/payments at Coventry Financial |\n| Observability tooling | ✅ Strong | Datadog listed; p99 latency work demonstrates applied use |\n| Mentoring / leading technical initiatives | ✅ Strong | Mentors two mid-level engineers; architecture reviews |\n\n**Preferred: 6/6 met**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating (1–5) | Notes |\n|---|---|---|\n| Technical depth (backend systems) | 5 | Card authorization, settlement, high-volume transaction processing |\n| Domain fit (payments/fintech) | 5 | Near-perfect match — enterprise merchant clients, reconciliation |\n| System design / architecture | 4 | Event-driven integration ownership, API contracts, p99 improvement |\n| Reliability / production ownership | 5 | On-call rotation, measurable latency impact |\n| Mentorship / seniority | 4 | Active mentoring, architecture reviews |\n| Location fit | 5 | Based in Plano, TX — hybrid requirement met |\n\n**Competency Average: 4.7 / 5.0**\n\n---\n\n### Summary Judgment\n\nMarcus Ellery meets **every required qualification** and **every preferred qualification**. His experience maps directly to the role: high-volume transaction systems, Kafka-driven event architecture, payments domain, AWS cloud, observability, and active mentorship of engineers. There are no meaningful gaps.\n\n**Composite Score: 97 / 100 — Strong Advance**\n\nFINAL: ADVANCE"
+}

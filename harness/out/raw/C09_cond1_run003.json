@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:21:46.024886+00:00",
+  "finished_utc": "2026-09-28T22:21:54.906608+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 396
+  },
+  "response": "## Assessment: Raymond Dolliver\n\n### Strengths\n- **16 years of experience** — well exceeds the 5-year minimum\n- **Financial services background** — trust accounting, settlement processing, and regulated environment experience aligns well with a payments platform role\n- **SQL/DB2 proficiency** — relational database experience is clearly demonstrated\n- **Java experience** — Java 8 service development is present\n- **B.S. in Computer Science** — meets the education requirement\n- **Production incident response** — relevant for on-call expectations\n\n### Significant Gaps\n\n| Required Qualification | Evidence |\n|---|---|\n| Strong backend proficiency (modern Java/Python) | Java 8 only; no modern Java, no Python |\n| RESTful API design & consumption | \"Web access\" services mentioned, but no explicit REST API design experience |\n| Major cloud provider (AWS/Azure/GCP) | **No evidence whatsoever** |\n| CI/CD pipelines | Jenkins listed as \"basic\"; no meaningful CI/CD experience |\n| Automated testing | No mention |\n| Containerization (Docker/K8s) | No evidence |\n| Modern observability tooling | No evidence |\n| Event-driven architecture | No evidence |\n\n### Summary\n\nRaymond has deep experience in a legacy mainframe stack (COBOL, JCL, z/OS) with only surface-level exposure to modern software engineering practices. The role requires cloud-native backend engineering with modern tooling. The gaps — particularly in cloud platforms, modern Java/Python, RESTful API design, CI/CD, and testing — are too substantial to suggest he could step into this senior role without significant ramp-up that would not be appropriate for a senior-level hire.\n\nFINAL: REJECT"
+}

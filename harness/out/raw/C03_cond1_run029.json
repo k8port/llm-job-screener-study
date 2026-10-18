@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:30:26.488542+00:00",
+  "finished_utc": "2026-09-28T21:30:37.911044+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 437
+  },
+  "response": "## Assessment\n\n### Strengths\n\n- **7 years of experience** exceeds the 5-year minimum\n- **Node.js/Express backend work** provides some server-side experience, though it's described as supporting a frontend portal\n- **REST APIs** – consumes and builds them\n- **SQL/PostgreSQL** – present\n- **AWS exposure** (S3, CloudFront, Lambda) – limited but real\n- **Docker, GitHub Actions (CI/CD)** – present\n- **Mentoring** – demonstrated\n- **Location** – Frisco, TX, compatible with Plano hybrid requirement\n\n### Significant Gaps\n\n- **Backend-first identity is absent**: Candidate self-describes as \"frontend-focused\"; the Node.js work is explicitly an aggregation/session layer backing a UI, not a standalone payments or platform service\n- **No Java or Python**: The role strongly prefers Java/Python for backend; candidate works in JavaScript/TypeScript (Node.js), which is not listed among the preferred backend languages and is less common in enterprise payments platforms\n- **No experience in financial services, payments, or regulated industries**\n- **No evidence of high-volume transaction processing**, distributed systems, or event-driven architecture (Kafka, SQS)\n- **No Kubernetes, Terraform, or observability tooling**\n- **Education**: B.A. in Graphic Design, not CS or a related technical field — not disqualifying on its own but combined with other gaps, adds risk\n- **Cloud experience is shallow** (CDN, storage, Lambda) — not the infrastructure-level AWS work expected for a payments platform role\n\n### Conclusion\n\nThe candidate has adjacent skills but is fundamentally a frontend engineer with supplementary backend exposure. The role requires deep, primary backend engineering in a high-volume, likely Java/Python environment with payments domain knowledge. There is insufficient evidence she could step into this senior backend payments role without significant ramp-up.\n\nFINAL: REJECT"
+}

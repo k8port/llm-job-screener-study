@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:06.759668+00:00",
+  "finished_utc": "2026-09-28T22:48:16.957600+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 439
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Years of Experience (Critical Gap)**\nThe role requires **5+ years** of professional software engineering experience. Thornbury graduated in 2023 and has been working since approximately 2023, giving her roughly **2–2.5 years** of total professional experience. This is roughly half the stated minimum requirement.\n\n2. **Seniority Level**\nHer current title is **Software Engineer II**, not a senior-level role. The job requires someone who can own service design, lead architecture discussions, and mentor junior/mid-level engineers. Her résumé shows she contributed to a senior engineer's partitioning work rather than leading it, which is consistent with her seniority level but not with the target role.\n\n3. **Mentorship and Technical Leadership**\nOne of the preferred qualifications — and an implied expectation of a senior role — is **prior experience mentoring engineers or leading small technical initiatives**. There is no evidence of this on her résumé.\n\n4. **Infrastructure-as-Code**\nTerraform is listed as **\"basic\"** by her own characterization, which falls short of the preferred IaC experience.\n\n5. **Cloud Breadth**\nWhile she has AWS experience, it appears narrowly scoped to EKS, SQS, and RDS; there is no evidence of broader architectural cloud design experience expected of a senior engineer.\n\n### Strengths Noted (for balance)\n- Payments domain experience is directly relevant\n- Strong technical stack alignment (Java, Kafka, PostgreSQL, AWS, Kubernetes)\n- B.S. in CS from SMU meets the education requirement\n\n### Conclusion\nThe **experience gap is the disqualifying factor**. At ~2.5 years of experience against a 5+ year minimum, she does not meet the threshold for a senior-level role, regardless of her otherwise relevant technical background.\n\nFINAL: REJECT"
+}

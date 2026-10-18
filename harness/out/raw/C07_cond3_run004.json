@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:07:38.517587+00:00",
+  "finished_utc": "2026-09-28T22:07:52.808595+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 777
+  },
+  "response": "## Screening Scorecard: Simone Vance\n\n### Required Qualifications (Pass/Fail + Notes)\n\n| Requirement | Score | Notes |\n|---|---|---|\n| 5+ years professional SWE experience | ✅ PASS | 8 years (2018–present) |\n| Java, Python, or comparable backend language | ✅ PASS | Python is core throughout career |\n| RESTful API design & consumption | ✅ PASS | Explicit REST API design and versioning experience |\n| Relational databases & SQL | ✅ PASS | PostgreSQL, Snowflake, SQL throughout |\n| Major cloud provider (AWS/Azure/GCP) | ✅ PASS | AWS (EKS, S3, Lambda, RDS) |\n| CI/CD & automated testing | ✅ PASS | GitHub Actions, pytest |\n| Bachelor's in CS or related / equivalent | ✅ PASS | B.S. Information Systems |\n\n**Required Qualifications: 7/7 met**\n\n---\n\n### Preferred Qualifications (Weighted)\n\n| Preference | Score | Notes |\n|---|---|---|\n| Event-driven architecture / Kafka/SQS | ✅ Strong | 40M daily events on Kafka |\n| Docker / Kubernetes | ✅ Strong | EKS, containerized workloads |\n| Infrastructure-as-code (Terraform) | ✅ Strong | Explicitly mentioned |\n| Financial services / regulated industry | ⚠️ Partial | Transaction data for enterprise clients; healthcare adjacent at Corley; not direct fintech/payments |\n| Observability tooling | ✅ Strong | Prometheus, Grafana, on-call ownership |\n| Mentoring / technical leadership | ⚠️ Partial | Not explicitly stated; some implied ownership |\n\n**Preferred Qualifications: 4/6 fully met, 2/6 partially met**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating (1–5) | Notes |\n|---|---|---|\n| Backend service design & scalability | 4/5 | High-volume data services; API design |\n| Systems reliability / observability | 5/5 | Owns on-call, built observability layer |\n| Cloud & infrastructure proficiency | 5/5 | Deep AWS, Terraform, EKS |\n| Data/API collaboration | 4/5 | Serves product teams via APIs |\n| Mentoring / leadership | 2/5 | Gap — not evidenced on résumé |\n| Payments/fintech domain | 2/5 | Adjacent (transaction data) but not direct |\n\n**Average Core Competency Score: 3.7/5**\n\n---\n\n### Overall Assessment\n\n**Strengths:** Simone is a strong technical match. All required qualifications are met, and the preferred technical stack (Kafka, Terraform, Kubernetes, Prometheus/Grafana) aligns almost perfectly. Eight years of experience, hands-on ownership, and on-call responsibility demonstrate seniority in practice.\n\n**Gaps:** No direct payments/fintech domain experience; mentorship/leadership evidence is thin. Neither gap is disqualifying given the role's requirements.\n\n**Total Score: ~83/100**\n\n---\n\nFINAL: ADVANCE"
+}

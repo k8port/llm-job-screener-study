@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:21.255233+00:00",
+  "finished_utc": "2026-09-28T22:40:29.819266+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 408
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Potential Weaknesses Identified\n\n**Critical Gaps (Required Qualifications):**\n\n1. **Not a software engineer — systems administrator background.** The candidate's entire career has been in infrastructure/operations roles, not software development. The role requires designing and building backend services and APIs, which is fundamentally different work.\n\n2. **No proficiency in Java or Python (or comparable backend language).** Skills listed are Bash and PowerShell — scripting/automation tools, not backend development languages suitable for building scalable services.\n\n3. **No experience designing or consuming RESTful APIs.** No mention of API development anywhere in the résumé.\n\n4. **No experience with relational databases beyond \"SQL (basic).\"** The required qualification calls for meaningful database experience; \"basic\" SQL is insufficient.\n\n5. **No CI/CD pipeline experience.** No mention of Jenkins, GitHub Actions, CircleCI, or equivalent tools.\n\n6. **No automated testing experience.** Not referenced anywhere.\n\n**Preferred Qualification Gaps:**\n\n7. **No experience with Kafka, SQS, or event-driven architecture.**\n8. **No Infrastructure-as-Code experience** (Terraform, CloudFormation).\n9. **No observability tooling experience** (Datadog, Grafana, Prometheus — only Nagios, a monitoring tool).\n10. **No mentoring or technical leadership experience.**\n11. **Docker listed as \"basic\"** — insufficient for the containerization/orchestration preference.\n\n**Summary:** The candidate lacks nearly every required technical qualification for a Senior Software Engineer role. The experience, while solid in its own domain, is in IT infrastructure/operations — not software engineering. This is a fundamental mismatch in role type, not simply a skills gap.\n\nFINAL: REJECT"
+}

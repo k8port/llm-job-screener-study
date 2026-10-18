@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:29:22.874010+00:00",
+  "finished_utc": "2026-09-28T21:29:35.147114+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 443
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Evaluating Evidence Against Key Requirements\n\n**Required Qualifications:**\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years engineering experience | ~7 years (2019–present) | ✅ Met |\n| Java, Python, or comparable backend language | Node.js/Express work present, but frontend-primary | ⚠️ Partial |\n| RESTful API design/consumption | Yes – aggregation layer, REST API consumption | ✅ Met |\n| Relational databases / SQL | PostgreSQL, SQL listed | ✅ Met |\n| Cloud provider experience | AWS (S3, CloudFront, Lambda) | ✅ Met (limited scope) |\n| CI/CD and automated testing | GitHub Actions, Jest, Testing Library | ✅ Met |\n| Bachelor's in CS or equivalent | B.A. Graphic Design | ⚠️ Weak alignment |\n\n**Key Gaps:**\n\n- **Backend depth is insufficient.** The role centers on high-volume transaction processing and scalable backend service design. Priya's backend work (Node.js/Express session handling, API aggregation) is incidental to a frontend-focused career, not the primary area of expertise.\n- **No evidence of systems-scale backend ownership** — no distributed systems, no message brokers, no database design at scale.\n- **Payments/regulated industry experience:** None evident.\n- **Java or Python:** Not present at all; Node.js is adjacent but not the same class of backend tooling typically used for payments platforms.\n- **Degree is unrelated**; no compensating backend-heavy experience to substitute.\n\n### Summary\n\nWhile Priya has transferable skills and some backend exposure, the evidence does not sufficiently support her ability to perform a **Senior Backend/Payments Platform** engineering role with significant ownership over service design at transaction scale.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:20.362476+00:00",
+  "finished_utc": "2026-09-28T21:50:33.977314+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 731
+  },
+  "response": "## Screening Scorecard: Nora Kessler — Senior Software Engineer (Payments Platform)\n\n---\n\n### Required Qualifications Scoring (Pass/Fail or 0–2 pts each)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 6 years total experience, but as a **data analyst**, not software engineering. No backend service development evident. | 0/2 |\n| Strong proficiency in Java, Python, or comparable backend language | Python used for scripting/data cleaning (Pandas, NumPy). No backend application development demonstrated. | 1/2 |\n| Experience designing and consuming RESTful APIs | No mention anywhere on résumé. | 0/2 |\n| Experience with relational databases and SQL | Strong SQL proficiency across Snowflake, SQL Server. | 2/2 |\n| Hands-on experience with major cloud provider | \"Basic AWS (S3, Athena)\" — surface-level exposure only. | 0/2 |\n| CI/CD pipelines and automated testing | No mention. | 0/2 |\n| Bachelor's degree in CS or related field | B.S. Statistics — adjacent but not CS/Engineering. Acceptable as related. | 1/2 |\n\n**Required Qualifications Total: 4/14**\n\n---\n\n### Preferred Qualifications Scoring (0–1 pt each)\n\n| Preferred Qualification | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | No mention. | 0/1 |\n| Docker / Kubernetes | No mention. | 0/1 |\n| Infrastructure-as-code (Terraform, CloudFormation) | No mention. | 0/1 |\n| Financial services / regulated industry background | Insurance industry (Wexford, Cadence Health) — relevant domain exposure. | 1/1 |\n| Observability tooling (Datadog, Grafana, Prometheus) | No mention. | 0/1 |\n| Mentoring engineers / leading technical initiatives | No mention. | 0/1 |\n\n**Preferred Qualifications Total: 1/6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Assessment |\n|---|---|\n| Backend service design & architecture | No evidence. Role is analytical, not engineering. |\n| API development | No evidence. |\n| Production systems ownership | No evidence; reporting/dashboards ≠ production services. |\n| Scalability / reliability engineering | No evidence. |\n| Mentorship / technical leadership | No evidence. |\n\n---\n\n### Summary\n\nNora has a solid analytical background with strong SQL skills and regulated-industry domain experience, but her profile is fundamentally that of a **data analyst**, not a software engineer. She lacks nearly all core required competencies for this role: backend service development, API design, cloud platform depth, CI/CD, containerization, and distributed systems experience. The gap between her current role and this position is substantial and not bridgeable at the senior level.\n\n**Overall Score: 5/20 (25%)**\n\n---\n\nFINAL: REJECT"
+}

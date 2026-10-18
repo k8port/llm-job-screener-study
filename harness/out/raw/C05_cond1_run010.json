@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:48:20.046176+00:00",
+  "finished_utc": "2026-09-28T21:48:28.077942+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 357
+  },
+  "response": "## Assessment\n\n**Role Requirements vs. Candidate Profile**\n\n**Required Qualifications Analysis:**\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years software engineering | 6 years experience, but as a **data analyst**, not software engineer | ❌ Not met |\n| Java, Python, or comparable backend language | Python used for scripting/data tasks (Pandas, NumPy) — not backend service development | ⚠️ Partial |\n| RESTful API design/consumption | No evidence | ❌ Not met |\n| Relational databases / SQL | Strong SQL skills evident | ✅ Met |\n| Major cloud provider (AWS/Azure/GCP) | \"Basic AWS (S3, Athena)\" — minimal, data-oriented | ⚠️ Weak |\n| CI/CD pipelines & automated testing | No evidence | ❌ Not met |\n| Bachelor's in CS or related field | B.S. Statistics | ✅ Acceptable |\n\n**Key Gaps:**\n- No backend service or API development experience\n- No evidence of software engineering in any traditional sense (services, microservices, deployments)\n- No CI/CD, containerization, or production system ownership\n- Python use is analytical scripting, not backend engineering\n- No mentoring or technical leadership experience\n\nThe candidate is a capable data professional, but the role requires **backend software engineering** — distributed systems, APIs, cloud-native services, and production ownership. There is insufficient evidence she could perform this role.\n\nFINAL: REJECT"
+}

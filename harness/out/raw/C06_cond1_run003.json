@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:55:53.911269+00:00",
+  "finished_utc": "2026-09-28T21:56:03.081937+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 395
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Against Required Qualifications\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years experience | 7 years (2017–present) | ✅ Met |\n| Java/Python/backend proficiency | Java/Spring Boot, primary stack | ✅ Strong |\n| RESTful API design & consumption | Owns REST API design, maintains documentation | ✅ Met |\n| Relational databases & SQL | Oracle, SQL, PL/SQL, stored procedures | ✅ Strong |\n| CI/CD & automated testing | Jenkins pipelines, JUnit, integration tests | ✅ Met |\n| Bachelor's in CS or related | B.S. Computer Engineering, Texas Tech | ✅ Met |\n| **Cloud experience (AWS/Azure/GCP)** | **No mention anywhere on résumé** | ❌ Not met |\n\n### Preferred Qualifications\n- JMS listed under skills — adjacent to message broker experience, but limited\n- No Docker/Kubernetes, no Terraform, no observability tooling (Datadog/Grafana)\n- Mentoring junior engineers ✅ | Code review leadership ✅\n- No financial services/payments background\n\n### Key Concern\nThe **cloud experience requirement** is listed as a *required* qualification, and there is **zero evidence** of AWS, Azure, or GCP experience. The candidate's entire background is explicitly on-premise enterprise infrastructure. For a Payments Platform role at a company operating in cloud-native environments, this is a material gap in a non-negotiable requirement.\n\nThe candidate is otherwise compelling, but the hard requirement gap is significant.\n\nFINAL: REJECT"
+}

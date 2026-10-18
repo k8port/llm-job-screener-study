@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:56.902256+00:00",
+  "finished_utc": "2026-09-28T22:27:07.911828+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 477
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Technical Stack Gaps:**\n- **No cloud experience**: The candidate lists no experience with AWS, Azure, or GCP — a required qualification. Their entire career appears to be on-premise/mainframe (z/OS).\n- **No RESTful API experience**: Java 8 with JSP/Servlets is not modern REST API development. There is no mention of frameworks like Spring Boot, JAX-RS, or similar.\n- **No CI/CD pipeline experience**: Jenkins is listed as \"basic\" only, with no evidence of meaningful CI/CD pipeline design or usage.\n- **No containerization or orchestration**: No Docker or Kubernetes experience mentioned.\n- **No event-driven architecture or message brokers**: No Kafka, SQS, or similar — not even mentioned.\n- **Outdated Java**: Java 8 (released 2014) with JSP/Servlets reflects legacy skills, not modern backend service development.\n\n**Role Fit Concerns:**\n- **No evidence of scalable distributed systems work**: Experience is centered on batch processing and mainframe, not high-volume, low-latency transactional backend services.\n- **No observability tooling**: No Datadog, Grafana, Prometheus, or equivalent mentioned.\n- **No mentorship or technical leadership evidence**: Despite 16 years, no mention of mentoring junior engineers or leading technical initiatives.\n- **No infrastructure-as-code experience**: Terraform, CloudFormation absent.\n\n**Positive Notes (for completeness):**\n- Strong SQL/DB2 background meets the relational database requirement.\n- Financial services/regulated industry experience is a genuine plus.\n- CS degree satisfies the education requirement.\n- 16 years of experience exceeds the tenure threshold.\n\n**Rationale:**\nDespite domain longevity and financial services experience, the candidate lacks proficiency in nearly every required technical qualification — cloud, modern APIs, CI/CD, and containerization. The technical profile is fundamentally mainframe/legacy-oriented and does not align with the modern backend engineering stack this role demands.\n\nFINAL: REJECT"
+}

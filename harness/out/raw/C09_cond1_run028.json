@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:44.552297+00:00",
+  "finished_utc": "2026-09-28T22:22:54.154251+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 405
+  },
+  "response": "## Assessment of Raymond Dolliver\n\n### Strengths\n- **16 years of experience** — well exceeds the 5+ year requirement\n- **Financial services background** — works in trust/banking, a regulated industry (preferred qualification)\n- **Java experience** — has Java 8 development experience\n- **SQL/relational databases** — DB2 and SQL experience is strong\n- **CS degree** — B.S. Computer Science from UT Arlington\n- **Production incident response** — demonstrated ability to handle high-priority issues\n- **Jenkins (basic)** — some CI/CD exposure\n\n### Significant Gaps\n- **No cloud experience** — no AWS, Azure, or GCP (a required qualification); mainframe/z/OS environment throughout\n- **Java is dated and limited** — Java 8 with JSP/Servlets is not modern backend service development; no evidence of RESTful API design or consumption\n- **No CI/CD pipeline depth** — Jenkins listed as \"basic\"; SVN-primary history\n- **No containerization or orchestration** — no Docker, Kubernetes\n- **No event-driven architecture** — no Kafka, SQS, or similar\n- **No observability tooling** — no Datadog, Grafana, Prometheus\n- **No infrastructure-as-code**\n- **No evidence of mentoring or technical leadership**\n- **Modern distributed systems experience is absent** — the role requires designing scalable, high-volume backend services\n\n### Summary\nRaymond has deep domain experience in financial services and solid foundational credentials, but his technical stack is anchored in mainframe/legacy environments. The role requires modern cloud-native backend engineering skills that are not evidenced in his résumé. The gaps span multiple **required** qualifications, not just preferred ones.\n\nFINAL: REJECT"
+}

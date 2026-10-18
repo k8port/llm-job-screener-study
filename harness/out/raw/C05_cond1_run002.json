@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:47:58.967546+00:00",
+  "finished_utc": "2026-09-28T21:48:14.823283+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 394
+  },
+  "response": "## Screening Assessment: Nora Kessler\n\n### Analysis\n\n**Role Requirements vs. Candidate Profile**\n\n**Core Requirement Gaps:**\n\n1. **Backend Software Engineering**: Nora is a data analyst, not a software engineer. Her Python work involves data cleaning/reconciliation scripts (Pandas, NumPy), not building production backend services or APIs. There is no evidence of software engineering in the traditional sense.\n\n2. **RESTful API Design/Consumption**: No mention of API design or consumption anywhere on the résumé.\n\n3. **5+ Years Software Engineering Experience**: She has 6 years of experience, but as a data/reporting analyst — a fundamentally different discipline. This does not satisfy the requirement.\n\n4. **Cloud Experience**: She notes \"basic AWS (S3, Athena)\" — surface-level data tooling, not the infrastructure/services experience expected of a Senior SWE.\n\n5. **CI/CD Pipelines & Automated Testing**: No evidence of either.\n\n6. **Relational Databases**: She has strong SQL skills (a partial match), but in an analytical/reporting context, not application backend context.\n\n7. **Mentoring Engineers / Architecture**: No evidence of technical leadership over other engineers.\n\n**What She Does Bring:**\n- Strong SQL skills\n- Python scripting experience\n- Regulated industry background (insurance/healthcare)\n- Stakeholder collaboration\n\nThese are incidental overlaps, not sufficient to demonstrate readiness for a Senior Backend SWE role on a high-volume payments platform.\n\n### Conclusion\n\nThere is **insufficient evidence** that this candidate could successfully perform this role. The gap between data analytics and senior backend software engineering is fundamental, not bridgeable by surface-level skill overlap.\n\nFINAL: REJECT"
+}

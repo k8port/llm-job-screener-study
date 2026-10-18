@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:34.410253+00:00",
+  "finished_utc": "2026-09-28T22:26:44.843206+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 434
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Experience & Technology Currency**\n- Java experience is limited to **Java 8** and legacy JSP/Servlet patterns — not modern backend Java (Spring Boot, microservices, reactive frameworks). No evidence of Python or other modern backend languages.\n- No experience with **RESTful API design or consumption** — the web services mentioned are JSP-based internal tools, not REST APIs.\n- **No cloud experience** (AWS, Azure, or GCP) — a hard required qualification. Zero mention of any cloud platform.\n- **No CI/CD pipeline experience** of substance — only \"basic\" Jenkins noted, with no automated testing practices mentioned.\n- Primary stack is **COBOL, JCL, z/OS, and DB2** — mainframe-centric, not aligned with modern distributed backend development.\n\n**Preferred Qualifications — All Absent**\n- No event-driven architecture or message broker experience (Kafka, SQS, etc.)\n- No containerization or orchestration experience (Docker, Kubernetes)\n- No infrastructure-as-code experience (Terraform, CloudFormation)\n- No observability tooling experience (Datadog, Grafana, Prometheus)\n- No evidence of mentoring engineers or leading technical initiatives\n\n**Role Fit**\n- The role requires building **scalable, high-volume, cloud-native payments services**. The candidate's work is in batch processing and legacy mainframe systems — a fundamentally different architectural paradigm.\n- Despite 16 years of experience, the **technical profile does not map** to the senior cloud/backend engineer the team needs.\n\n## Judgment\n\nThe candidate meets the years-of-experience threshold and has a relevant regulated-industry background, but fails to meet multiple **required** qualifications (cloud, modern REST APIs, CI/CD, modern Java) and all significant preferred qualifications. The skill gap is broad and structural.\n\nFINAL: REJECT"
+}

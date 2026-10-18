@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:31:40.150982+00:00",
+  "finished_utc": "2026-09-28T22:31:53.143720+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 920,
+    "output_tokens": 514
+  },
+  "response": "## Screening Assessment: Josephine Hartwell\n\n### Potential Weaknesses Identified\n\n1. **Kubernetes not mentioned**: The job lists Docker + Kubernetes as a preferred qualification. Hartwell shows Docker and ECS experience but no Kubernetes experience is listed. This is a gap relative to the preferred stack, though ECS is a reasonable substitute.\n\n2. **No explicit Kafka experience**: The role prefers Kafka or SQS for event-driven architecture. Hartwell uses SQS/SNS (AWS-native), not Kafka. Functional overlap exists, but it's not a direct match if the team uses Kafka specifically.\n\n3. **No mention of Grafana or Prometheus**: The preferred observability tools include Datadog, Grafana, and Prometheus. Hartwell lists Datadog only — partial coverage.\n\n4. **Employment gap (2023–2024)**: A family leave gap exists. This is disclosed and explained, and is not a disqualifying factor, but some hiring teams flag it. Worth noting contextually.\n\n5. **Degree is Mathematics, not Computer Science**: The JD asks for CS or related field, or equivalent experience. Mathematics is adjacent but not a direct match. Seven years of engineering experience comfortably satisfies the \"equivalent practical experience\" clause.\n\n6. **No explicit mention of architecture leadership or on-call rotation**: The role mentions on-call and architecture discussions as responsibilities. These aren't evidenced directly on the résumé, though senior ownership of services is implied.\n\n### Strengths Offsetting Weaknesses\n\n- Directly in financial services/payments (required domain preference)\n- 7 years total engineering experience, currently in a Senior role\n- Strong Java, Spring Boot, REST API, SQL, AWS, Terraform, Docker, CI/CD, Datadog coverage\n- Event-driven architecture with SQS/SNS — matches core concept if not exact tooling\n- Active mentorship experience documented\n- Fintech/regulated industry background is a strong preferred-qualification match\n\n### Summary\n\nThe weaknesses are largely in **preferred** qualifications (Kubernetes, Kafka, Grafana/Prometheus), not required ones. All required qualifications are met or clearly satisfied by equivalent experience. The candidate's profile is a strong match for this role.\n\nFINAL: ADVANCE"
+}

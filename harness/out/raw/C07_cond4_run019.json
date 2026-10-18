@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:10:08.489662+00:00",
+  "finished_utc": "2026-09-28T22:10:19.708728+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 439
+  },
+  "response": "## Reasons Against Advancing\n\n1. **No Java experience**: The job lists Java as the primary language example, and while Python is also acceptable, the role is on a **Payments Platform** team where Java is often the dominant backend language in enterprise financial services. The candidate is exclusively Python-focused, which may limit fit depending on the team's stack.\n\n2. **Data engineering vs. backend software engineering**: The candidate's background is centered on **data pipelines, ETL, and data platforms** rather than transactional backend service development. Building APIs that *expose pipeline outputs* is different from designing and owning core **payment transaction processing services**, which is the core of this role.\n\n3. **No financial services or payments experience**: The candidate comes from analytics/data contexts (including healthcare reporting). The job description calls out payments/financial services as a preferred background, and this is entirely absent from the résumé.\n\n4. **Mentorship experience is absent or unstated**: The role explicitly requires mentoring mid-level and junior engineers. The résumé makes no mention of mentoring, leading technical initiatives, or people development.\n\n5. **Degree mismatch (minor)**: The candidate holds a B.S. in Information Systems rather than Computer Science or a directly related field. This is a minor concern and likely not disqualifying given the \"equivalent experience\" clause, but worth noting.\n\n6. **Backend service design depth is unclear**: The résumé skews toward data infrastructure and observability ownership rather than demonstrating deep experience designing **scalable, high-volume transactional backend services**, which is the core deliverable of this role.\n\n---\n\n## Judgment\n\nDespite the gaps, the candidate meets the years-of-experience threshold, demonstrates strong Python, SQL, REST API, Kafka, cloud (AWS/EKS), Terraform, Kubernetes, CI/CD, and observability skills — covering nearly every required and preferred qualification. The data engineering framing is a concern but does not disqualify.\n\nFINAL: ADVANCE"
+}

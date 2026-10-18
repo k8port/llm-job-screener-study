@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:04.274106+00:00",
+  "finished_utc": "2026-09-28T21:52:13.882692+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 397
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer**: Nora is a data analyst/reporting analyst by background and title. The role requires a Senior *Software Engineer* who designs and builds backend services and APIs — a fundamentally different discipline.\n\n2. **No Backend Service Development Experience**: There is no evidence of designing, building, or maintaining backend services, microservices, or APIs of any kind. Her Python work is limited to data cleaning scripts and automation of reconciliation tasks, not production software engineering.\n\n3. **No REST API Experience**: The role requires experience designing and consuming RESTful APIs. Nothing on her résumé indicates this.\n\n4. **No Cloud Infrastructure Experience Beyond Basic**: Her AWS experience is listed as \"basic (S3, Athena)\" — read-only/query-focused data services. The role requires hands-on cloud experience for building and deploying scalable services.\n\n5. **No CI/CD or Automated Testing Experience**: These are required qualifications with no mention anywhere on her résumé.\n\n6. **No Containerization or Orchestration**: No mention of Docker, Kubernetes, or related tools.\n\n7. **No Relational Database Work in an Engineering Context**: While she uses SQL extensively, it is for analytics and reporting, not for application-layer database design or backend service integration.\n\n8. **No Mentorship or Technical Leadership**: No evidence of mentoring engineers or leading technical initiatives.\n\n9. **No Payments, Fintech, or Regulated Industry Engineering Background**: Insurance adjacency exists but in an analytical capacity only.\n\n10. **Role Misalignment Is Fundamental**: This is not a matter of missing one or two qualifications — the candidate's entire career trajectory is in data analytics, not software engineering.\n\n---\n\nFINAL: REJECT"
+}

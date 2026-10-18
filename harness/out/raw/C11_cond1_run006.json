@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:13.871118+00:00",
+  "finished_utc": "2026-09-28T22:39:21.413260+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 323
+  },
+  "response": "## Evaluation\n\n**Role Requirements vs. Candidate Profile**\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years software engineering experience | 9 years in systems administration/IT; not software engineering | ❌ |\n| Strong proficiency in Java, Python, or comparable backend language | Bash, PowerShell scripting only — not backend development languages | ❌ |\n| RESTful API design and consumption | No evidence | ❌ |\n| Relational databases and SQL | Listed as \"SQL (basic)\" | Marginal |\n| Cloud provider hands-on experience | Azure VMs and networking | Partial ✅ |\n| CI/CD pipelines and automated testing | No evidence | ❌ |\n| Bachelor's in CS or related field | B.A.S. in Information Technology | ✅ |\n\n**Key Gap:** Curtis is a systems administrator, not a software engineer. His work centers on infrastructure operations — server management, patching, provisioning — rather than designing and building backend services, APIs, or application code. His scripting experience (Bash/PowerShell) does not substitute for proficiency in backend development languages. There is no evidence of application development, API work, database design, or CI/CD experience.\n\nThe gap between this candidate's background and the role's requirements is fundamental, not marginal.\n\nFINAL: REJECT"
+}

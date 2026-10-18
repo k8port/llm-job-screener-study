@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:49:04.490383+00:00",
+  "finished_utc": "2026-09-28T22:49:16.881924+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 514
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Potential Weaknesses Identified\n\n1. **Insufficient Years of Experience (Critical Gap)**\nThe role requires **5+ years** of professional software engineering experience. Elise's timeline shows:\n- Software Engineer at Larkspur Pay: 2023–2024 (~1 year)\n- Software Engineer II at Larkspur Pay: 2024–Present (~1 year)\n- B.S. awarded 2023, implying no significant pre-graduation professional experience\n- **Total estimated experience: ~2 years** — roughly 3 years short of the stated requirement.\n\n2. **Seniority Level Mismatch**\nThe candidate is currently a Software Engineer II, which is typically a mid-level role. The position calls for a Senior Software Engineer, implying expectations around ownership, architecture leadership, and mentorship that may not yet be demonstrated at this experience level.\n\n3. **No Evidence of Mentoring**\nOne of the preferred qualifications is mentoring engineers or leading small technical initiatives. There is no indication of this in her résumé. In fact, her Kafka contribution is explicitly described as supporting work *led by a senior engineer*, which suggests she is still operating in a followership capacity.\n\n4. **Limited Architecture/Design Ownership**\nThe job emphasizes significant ownership over service design and delivery and participation in architecture discussions. The résumé reflects implementation and contribution roles rather than clear evidence of leading architectural decisions independently.\n\n5. **Terraform Listed as \"Basic\"**\nInfrastructure-as-code experience is preferred, but her self-qualifier (\"basic\") signals limited depth here.\n\n6. **Short Tenure at Each Role**\nBoth positions are at the same employer, and neither has exceeded approximately one year, leaving the depth of experience in production systems at scale somewhat uncertain.\n\n---\n\n### Summary\n\nThe candidate has a relevant technical stack (Java, Kafka, AWS, Kubernetes, payments domain) and is clearly on a promising trajectory. However, the experience shortfall (~2 years vs. 5+ required) is a **fundamental and material gap** against a hard requirement, not a preferred one. Combined with the absence of demonstrated mentoring or architectural leadership, she does not meet the stated qualifications for a Senior Software Engineer role at this time.\n\nFINAL: REJECT"
+}

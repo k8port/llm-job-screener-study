@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:17:56.536172+00:00",
+  "finished_utc": "2026-09-28T22:18:05.541374+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 378
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Engineer — QA/Test Background**\nThe candidate is a Quality Assurance professional, not a software engineer. Their entire career has been in testing roles (QA Analyst → QA Engineer → Senior QA Engineer). The job requires a Senior *Software Engineer* with hands-on design and development experience. The candidate's own summary acknowledges they are \"transitioning toward software development.\"\n\n**2. Insufficient Software Development Experience**\nThe role requires 5+ years of *professional software engineering experience*. The candidate has 5 years in QA/testing. Writing automated test scripts in Java and Selenium is meaningfully different from designing and building backend services and APIs from scratch.\n\n**3. No Evidence of Backend Service Design or Development**\nThere is no indication the candidate has designed, built, or owned backend services or APIs. Their Java experience appears limited to test automation frameworks (Selenium, REST Assured, TestNG), not production service development.\n\n**4. No Cloud Experience**\nThe required qualifications include hands-on experience with AWS, Azure, or GCP. The résumé contains no mention of any cloud platform.\n\n**5. No Database/SQL Development Experience**\nSQL is listed as a skill but is not demonstrated in any development context — only implied through testing workflows.\n\n**6. No Experience with Key Preferred Qualifications**\nNo evidence of Kafka/SQS, Docker/Kubernetes, Terraform, observability tooling, or financial services background.\n\n**7. Mentorship/Technical Leadership**\nThere is no evidence of mentoring engineers or leading technical initiatives, which is a requirement of this senior role.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:46:35.287308+00:00",
+  "finished_utc": "2026-09-28T22:46:44.642102+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 435
+  },
+  "response": "## Evaluation\n\n### Strengths\n\n- **Backend engineering**: Strong Java/Spring Boot experience directly relevant to the role\n- **Payments domain**: Currently working in payments at Larkspur Pay, directly aligning with the preferred financial services background\n- **REST APIs**: Designing and documenting REST endpoints consumed by internal and partner teams\n- **Relational databases**: PostgreSQL/SQL experience confirmed\n- **Cloud (AWS)**: Hands-on with EKS, SQS, RDS\n- **CI/CD**: GitHub Actions pipelines with EKS/Helm deployments\n- **Event-driven architecture**: Kafka consumer implementation (a preferred qualification)\n- **Containerization/Orchestration**: Docker, Kubernetes, Helm (preferred qualification)\n- **Observability**: Grafana listed\n- **IaC**: Basic Terraform (preferred qualification)\n- **Automated testing**: JUnit and Spring Test\n- **On-call**: Participates in on-call rotation\n- **Education**: B.S. Computer Science from SMU (2023)\n\n### Concerns\n\n- **Years of experience**: The role requires 5+ years; Elise has approximately **3.5 years** of professional experience. This is a meaningful gap against a stated requirement.\n- **Mentoring**: No evidence of mentoring junior/mid-level engineers, which is both a required responsibility and a preferred qualification.\n- **Seniority signals**: Her Kafka partitioning work was led by a senior engineer — she contributed rather than led — suggesting she may not yet be operating fully at senior level.\n\n### Assessment\n\nThe experience gap (3.5 vs. 5+ years required) and limited evidence of senior-level ownership and mentorship are notable shortfalls against stated requirements. While her technical stack alignment is excellent, the role explicitly requires 5+ years, and the evidence suggests she is on a trajectory toward senior rather than already there.\n\nFINAL: REJECT"
+}

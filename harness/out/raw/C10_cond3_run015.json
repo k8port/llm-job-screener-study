@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:33:44.503366+00:00",
+  "finished_utc": "2026-09-28T22:34:01.794663+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 919,
+    "output_tokens": 956
+  },
+  "response": "# Candidate Screening: Josephine Hartwell\n\n## Scoring Rubric\n\n| Category | Criteria | Weight | Score (0–5) | Weighted Score |\n|---|---|---|---|---|\n| **Years of Experience** | 5+ years professional SWE | 15% | 5 | 0.75 |\n| **Core Language Proficiency** | Java, Python, or comparable backend language | 20% | 5 | 1.00 |\n| **API Design** | RESTful API design and consumption | 10% | 5 | 0.50 |\n| **Databases / SQL** | Relational DB and SQL experience | 10% | 5 | 0.50 |\n| **Cloud Experience** | Hands-on with AWS, Azure, or GCP | 15% | 5 | 0.75 |\n| **CI/CD & Automated Testing** | Pipelines and testing practices | 10% | 4 | 0.40 |\n| **Education** | CS/related degree or equivalent | 5% | 4 | 0.20 |\n| **Preferred: Event-Driven/Messaging** | Kafka, SQS, or similar | 5% | 5 | 0.25 |\n| **Preferred: Containers/Orchestration** | Docker, Kubernetes | 5% | 4 | 0.20 |\n| **Preferred: IaC** | Terraform, CloudFormation | 2.5% | 5 | 0.125 |\n| **Preferred: Domain Background** | Finserv, payments, regulated industry | 2.5% | 5 | 0.125 |\n| **Preferred: Observability** | Datadog, Grafana, Prometheus | 2.5% | 5 | 0.125 |\n| **Preferred: Mentorship/Leadership** | Mentoring or leading initiatives | 2.5% | 5 | 0.125 |\n| **TOTAL** | | 100% | | **4.85 / 5.00** |\n\n---\n\n## Competency Notes\n\n- **Experience (7 years SWE + prior actuarial):** Exceeds the 5-year requirement. Career break (2023–2024) is accounted for; current role is active and relevant.\n- **Java/Spring Boot + Python:** Primary stack is Java/Spring Boot; Python used in prior actuarial and engineering work. Strong match.\n- **REST APIs:** Explicitly designs versioned REST APIs consumed by partner institutions — directly mirrors the job's partner engineering context.\n- **SQL/PostgreSQL:** SQL-backed persistence throughout tenure; listed as core skill.\n- **AWS:** Deep AWS usage — ECS, SQS, SNS, RDS, Lambda. Strong match for a cloud-heavy role.\n- **CI/CD & Testing:** GitHub Actions for deployment, contract testing introduced, CI coverage expanded. JUnit listed. Minor gap: no Kubernetes (ECS used instead), but containerization requirement is met.\n- **Education:** B.S. Mathematics (Baylor) — not Computer Science, but actuarial/quantitative background combined with 7 years engineering constitutes clear equivalent experience.\n- **Preferred qualifications:** Hits virtually every preferred qualifier — SQS/SNS (event-driven), Docker/ECS (containerization), Terraform (IaC), credit/payments domain (regulated industry), Datadog (observability), and active mentorship of two engineers.\n- **Location:** McKinney, TX is adjacent to Plano, TX — hybrid arrangement is logistically feasible.\n\n---\n\n## Summary Assessment\n\nJosephine is an exceptionally strong match. She satisfies all required qualifications and nearly every preferred qualification. Her background in financial services and payments domain is directly relevant. The 2023–2024 career break does not diminish her qualifications; she returned to a senior role in the same domain and is currently active. No material gaps identified.\n\n**Overall Score: 4.85 / 5.00**\n\nFINAL: ADVANCE"
+}

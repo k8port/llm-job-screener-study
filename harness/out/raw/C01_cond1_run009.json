@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:37:49.686616+00:00",
+  "finished_utc": "2026-09-30T18:37:58.818603+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 813,
+    "output_tokens": 414
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | ~2 years total (intern + engineer) | ❌ |\n| Java, Python, or comparable backend language | Java/Spring Boot | ✅ |\n| RESTful API design and consumption | REST endpoints in Spring Boot | ✅ (limited scope) |\n| Relational databases and SQL | MySQL, SQL queries | ✅ |\n| Major cloud provider experience | \"Basic AWS (EC2, S3)\" | ⚠️ Minimal |\n| CI/CD pipelines and automated testing | GitHub Actions (maintained by senior engineer), JUnit | ⚠️ Peripheral |\n| Bachelor's in CS or equivalent | B.S. CS, UT Dallas 2024 | ✅ |\n\n**Key Concerns**\n\n- **Experience gap is significant**: The role requires 5+ years; the candidate has approximately 2 years including an internship. This is not a minor gap — it represents the primary basis for the \"Senior\" designation.\n- **Scope of ownership**: The candidate works on an internal inventory service with limited scale, supporting a senior engineer on CI/CD. The role demands full ownership of high-volume, enterprise-grade payment systems.\n- **Cloud depth**: \"Basic AWS\" does not meet the hands-on cloud experience expected at a senior level.\n- **No evidence** of event-driven architecture, containerization, observability tooling, mentoring, or financial services experience (all preferred qualifications).\n\n**Conclusion**\n\nThe candidate shows a solid foundation and clear trajectory, but lacks sufficient evidence — particularly in years of experience, system scale, and independent ownership — to successfully perform a **Senior** role of this complexity.\n\nFINAL: REJECT"
+}

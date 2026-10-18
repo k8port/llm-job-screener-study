@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:22:24.666186+00:00",
+  "finished_utc": "2026-09-28T21:22:36.675445+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 377
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Potential Weaknesses Identified\n\n1. **Limited employer diversity**: Marcus has spent his entire career (2018–present) at only two employers, with six of eight years at a single company (Coventry Financial). This could suggest limited exposure to varied engineering cultures, codebases, and architectural approaches—though it is not disqualifying.\n\n2. **No explicit infrastructure-as-code depth described in job bullets**: While Terraform appears in the skills list, there are no concrete examples of IaC work described in his experience entries. The depth of this skill is unverifiable from the résumé alone.\n\n3. **Python listed but not demonstrated**: Python is included in skills, but all substantive work described uses Java. Given that Python is a listed required language option, its practical depth is questionable.\n\n4. **Limited leadership scope**: Mentorship is limited to two engineers; no examples of leading broader technical initiatives, cross-team projects, or architectural decision-making at scale beyond his immediate team.\n\n5. **No explicit CI/CD ownership**: He mentions extending a CI pipeline, but doesn't describe owning or designing CI/CD strategy end-to-end.\n\n### Counterbalancing Strengths\n\nThese weaknesses are relatively minor against a strong overall profile: 8 years of experience exceeding the 5-year requirement, direct payments/financial services background, Java proficiency with Spring Boot, Kafka, AWS (EKS, SQS, RDS), Docker/Kubernetes, Terraform, Datadog, PostgreSQL, on-call experience, mentorship, and a relevant CS degree. He matches nearly every required and preferred qualification explicitly.\n\nFINAL: ADVANCE"
+}

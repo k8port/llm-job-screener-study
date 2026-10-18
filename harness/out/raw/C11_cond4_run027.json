@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:53.927191+00:00",
+  "finished_utc": "2026-09-28T22:44:01.772850+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 339
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a software engineer — systems administrator background**: Curtis's entire career has been in IT infrastructure and systems administration, not software development. The role requires designing and building backend services and APIs, which is fundamentally different work.\n\n2. **No backend programming experience in required languages**: The job requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell, which are scripting/automation languages for sysadmin tasks, not backend application development.\n\n3. **No API design or consumption experience**: There is no evidence of experience designing or consuming RESTful APIs, a required qualification.\n\n4. **No software development lifecycle experience**: No mention of CI/CD pipelines (beyond being a consumer/admin), automated testing, code review participation, or software architecture work.\n\n5. **Only basic SQL knowledge**: The role requires meaningful experience with relational databases and SQL; Curtis self-describes his SQL as \"basic.\"\n\n6. **No experience with backend services, distributed systems, or event-driven architecture**: None of the preferred qualifications (Kafka, Kubernetes, Terraform, Datadog, Grafana, etc.) are meaningfully represented.\n\n7. **No mentorship or technical leadership of engineers**: The role expects mentoring junior/mid-level engineers; no such experience is indicated.\n\n8. **Years of experience in the wrong discipline**: While Curtis has nine years of IT experience, none of it constitutes professional software engineering experience as required.\n\n---\n\nFINAL: REJECT"
+}

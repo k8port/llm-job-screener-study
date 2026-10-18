@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:24:15.113256+00:00",
+  "finished_utc": "2026-09-28T22:24:26.700215+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 528
+  },
+  "response": "## Screening Assessment: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n1. **Cloud Experience — Critical Gap**: No evidence of hands-on experience with any major cloud provider (AWS, Azure, or GCP). This is a listed *required* qualification and there is zero indication of exposure.\n\n2. **Modern Backend/API Development — Significant Gap**: The candidate's Java experience is limited to Java 8 with JSP/Servlets — technologies that are 10–15+ years old. No evidence of building modern RESTful APIs, microservices, or contemporary backend frameworks (e.g., Spring Boot).\n\n3. **CI/CD and Automated Testing — Weak**: Jenkins is listed as \"basic\" and Subversion is still prominently featured. No mention of automated testing practices. This is a *required* qualification.\n\n4. **Containerization/Orchestration — Absent**: No mention of Docker or Kubernetes (preferred qualifications).\n\n5. **Event-Driven Architecture/Message Brokers — Absent**: No mention of Kafka, SQS, or similar (preferred qualification).\n\n6. **Observability Tooling — Absent**: No mention of Datadog, Grafana, or Prometheus (preferred qualification).\n\n7. **Infrastructure-as-Code — Absent**: No mention of Terraform or CloudFormation (preferred qualification).\n\n8. **Mentorship/Technical Leadership — Unclear**: No explicit mention of mentoring engineers despite 16 years of experience.\n\n9. **Technology Currency**: The bulk of the candidate's work is in COBOL/JCL/mainframe — valuable in legacy contexts but misaligned with a modern payments platform engineering role.\n\n### Mitigating Factors\n\n- Strong SQL/relational database experience (DB2, Oracle) — meets a required qualification.\n- Genuine regulated financial services background (trust accounting, settlement processing) — a preferred qualification.\n- 16 years of experience and a relevant CS degree meet the baseline seniority and education requirements.\n- Production incident response experience is relevant.\n\n### Summary\n\nDespite strong domain experience in financial services and solid SQL skills, the candidate has critical gaps in **all** cloud-related requirements and lacks demonstrable modern backend engineering practices. Multiple *required* qualifications (cloud, CI/CD, modern API development) are unmet or only nominally addressed.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:27:17.872226+00:00",
+  "finished_utc": "2026-09-28T22:27:27.993996+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 470
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Technical Skill Gaps:**\n- **No cloud experience**: The résumé lists no experience with AWS, Azure, or GCP — a required qualification. This is a significant gap for a cloud-native payments platform role.\n- **No RESTful API design experience**: Only \"web access\" via Java 8/JSP/Servlets is mentioned; no REST API design or consumption is cited, which is a required qualification.\n- **Outdated Java stack**: Experience is limited to Java 8 and legacy servlet-based frameworks (JSP, Servlets), not modern backend frameworks (e.g., Spring Boot, Quarkus).\n- **No CI/CD pipeline experience**: Jenkins is listed as only \"basic,\" and there is no evidence of building or maintaining CI/CD pipelines — a required qualification.\n- **No containerization or orchestration**: No Docker, Kubernetes, or similar tools mentioned (preferred but increasingly standard).\n- **No event-driven architecture experience**: No Kafka, SQS, or message broker experience mentioned.\n- **No observability tooling**: No Datadog, Grafana, Prometheus, or equivalent mentioned.\n- **No infrastructure-as-code**: No Terraform, CloudFormation, or equivalent mentioned.\n\n**Role Fit Concerns:**\n- **Primarily a mainframe/legacy engineer**: The core of the candidate's experience is COBOL, JCL, and z/OS — technologies entirely disconnected from a modern cloud-native backend platform role.\n- **No mentorship or technical leadership evidence**: Despite 16 years of experience, no mentoring or leading technical initiatives is mentioned.\n- **No automated testing experience**: No unit, integration, or automated testing frameworks mentioned — a required qualification.\n\n**Summary:**\nRaymond has relevant domain experience (financial services, SQL, regulated environments) and meets the education requirement, but fails to meet multiple *required* qualifications including cloud experience, REST API design, CI/CD, and automated testing. His technical profile is rooted in legacy mainframe systems rather than modern backend engineering.\n\nFINAL: REJECT"
+}

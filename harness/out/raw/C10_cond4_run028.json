@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:35:51.347803+00:00",
+  "finished_utc": "2026-09-28T22:36:00.798326+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 913,
+    "output_tokens": 379
+  },
+  "response": "## Reasons Why This Candidate Should Not Advance\n\nEvaluating the candidate against the job description, I will identify any gaps or concerns:\n\n1. **Kubernetes not mentioned**: The job lists Docker/Kubernetes as a preferred qualification. The candidate has Docker and ECS experience but no mention of Kubernetes.\n\n2. **No mention of Grafana or Prometheus**: The job lists observability tooling (Datadog, Grafana, Prometheus) as preferred. The candidate lists Datadog but not Grafana or Prometheus — a minor gap.\n\n3. **Career break in 2023–2024**: There is a gap year for family leave, though this is entirely disclosed and legal to note only for completeness; it does not represent a skills deficit.\n\n4. **No explicit Kafka experience**: The job specifically mentions Kafka as a preferred message broker. The candidate uses SQS/SNS but not Kafka.\n\n5. **Degree is in Mathematics, not Computer Science**: The job prefers a CS degree or related field; Mathematics is adjacent but not an exact match — though the JD explicitly allows \"equivalent practical experience.\"\n\n## Assessment\n\nThe gaps above are **minor and concentrated in preferred (not required) qualifications**. The candidate meets every required qualification: 7 years of experience, strong Java and Python proficiency, REST API design, SQL/PostgreSQL, AWS cloud experience, CI/CD (GitHub Actions), and automated testing. She also hits multiple preferred qualifications: financial services background, event-driven architecture (SQS/SNS), containerization (Docker/ECS), Terraform, Datadog, and active mentorship. Her domain background in payments/credit is a strong fit.\n\nFINAL: ADVANCE"
+}

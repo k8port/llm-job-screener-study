@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:22.444862+00:00",
+  "finished_utc": "2026-09-28T22:47:31.325278+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 394
+  },
+  "response": "## Evaluation\n\n### Strengths\n\n- **Backend engineering**: Strong Java/Spring Boot background, REST API design and documentation, PostgreSQL/SQL — all directly matching required qualifications.\n- **Cloud/infrastructure**: Hands-on AWS (EKS, RDS, SQS), Docker, Kubernetes, Helm, Terraform (basic) — covers several preferred qualifications.\n- **Event-driven architecture**: Kafka experience (consumer implementation, partitioning work), directly matching a preferred qualification.\n- **CI/CD**: GitHub Actions pipelines in production.\n- **Payments domain**: Currently at a payments company building merchant payout and transaction services — strong domain relevance.\n- **Observability**: Grafana listed in skills.\n- **Education**: B.S. Computer Science from SMU (2023).\n- **Location**: Addison, TX — near Plano, TX; hybrid model is feasible.\n\n### Concerns\n\n- **Years of experience**: ~3.5 years total vs. the required 5+ years. This is a meaningful gap against a stated requirement.\n- **Mentoring**: No evidence of mentoring junior/mid-level engineers, which is both a job duty and a preferred qualification.\n- **Seniority signals**: The Kafka partitioning work was *led by a senior engineer* — Elise contributed but didn't lead. Some initiative ownership is unclear.\n\n### Assessment\n\nThe experience gap (3.5 vs. 5+ years) is real but partially offset by highly relevant domain experience, strong technical alignment across nearly every required and preferred qualification, and demonstrated work in a payments environment. The technical profile is genuinely strong for the role's requirements. The shortfall is primarily in tenure and mentorship evidence.\n\nFINAL: ADVANCE"
+}

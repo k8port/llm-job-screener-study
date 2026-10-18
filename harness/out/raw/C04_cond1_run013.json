@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:39:39.683492+00:00",
+  "finished_utc": "2026-09-28T21:39:48.362966+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 945,
+    "output_tokens": 410
+  },
+  "response": "## Screening Assessment: Trevor Lindquist\n\n### Evaluation Against Requirements\n\n**Required Qualifications:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | 9 years total (2016–present) | ✅ |\n| Java, Python, or comparable backend language | Python and Java explicitly listed and used throughout career | ✅ |\n| RESTful API design and consumption | Owns partner API design, versioned REST contracts at Baintree | ✅ |\n| Relational databases and SQL | PostgreSQL, SQL used across multiple roles | ✅ |\n| Major cloud provider (AWS, Azure, GCP) | AWS (ECS, SQS, RDS, Lambda) | ✅ |\n| CI/CD and automated testing | GitHub Actions, pytest, introduced integration testing | ✅ |\n| Bachelor's degree or equivalent practical experience | No degree, but 9 years of demonstrated professional experience | ✅ (equivalent experience clause applies) |\n\n**Preferred Qualifications:**\n\n- Event-driven architecture / Kafka / SQS ✅\n- Docker, Kubernetes ✅\n- Terraform / IaC ✅\n- Financial services / payments background (6 years) ✅\n- Observability tooling (Grafana, Prometheus) ✅\n- Mentoring / technical leadership (on-call lead, incident retrospectives) ✅\n\n### Summary\n\nTrevor meets or exceeds every required qualification and satisfies all six preferred qualifications. His six years in payments infrastructure at Baintree directly mirrors the responsibilities of this role. The absence of a formal degree is clearly covered by the \"equivalent practical experience\" clause and is overwhelmingly offset by his experience record.\n\nFINAL: ADVANCE"
+}

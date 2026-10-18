@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:29:21.262246+00:00",
+  "finished_utc": "2026-09-28T21:29:31.603597+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 470
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Evaluation Against Requirements\n\n**Required Qualifications:**\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years engineering experience | ~7 years total (2017–present implied) | ✅ Met |\n| Java, Python, or comparable backend language | Node.js/Express; no Java or Python | ⚠️ Marginal |\n| RESTful API design/consumption | Aggregation layer over REST APIs, API integration work | ✅ Met |\n| Relational databases / SQL | PostgreSQL, SQL listed in skills | ✅ Met (limited depth shown) |\n| Major cloud provider (AWS) | AWS (S3, CloudFront, Lambda) | ✅ Met (limited scope) |\n| CI/CD and automated testing | GitHub Actions, Jest, Testing Library | ✅ Met |\n| Bachelor's in CS or related, or equivalent | B.A. Graphic Design | ⚠️ Non-technical degree |\n\n### Key Concerns\n\n1. **Frontend-first profile**: The candidate is self-described as \"frontend-focused,\" and the bulk of their work is UI/React. The role is a **backend-heavy, payments platform** position.\n2. **No backend depth**: Node.js services are described as secondary/supporting work (session handling, aggregation layers), not core system design. No Java or Python.\n3. **No relevant domain experience**: No financial services, payments, or regulated industry background.\n4. **Cloud exposure is shallow**: AWS usage limited to frontend-adjacent services (S3, CloudFront, Lambda).\n5. **No evidence of**: event-driven architecture, Kafka, distributed systems, high-volume transaction processing, or observability tooling — all highly relevant to this role.\n\n### Conclusion\n\nThe evidence does not sufficiently support that this candidate could successfully perform a **senior backend engineer** role on a **high-volume payments platform**. The gap between her actual experience and the role's demands is substantial.\n\nFINAL: REJECT"
+}

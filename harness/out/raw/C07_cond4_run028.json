@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:10:32.511202+00:00",
+  "finished_utc": "2026-09-28T22:10:42.087490+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 383
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience mentioned.** The job lists Java as the primary preferred backend language (alongside Python). The candidate's entire background is Python-only. While Python is acceptable per the JD, the Payments Platform team likely leans Java-heavy given it's listed first; this could be a gap.\n\n2. **Data engineering focus, not backend/application engineering.** The candidate's self-described identity and work history is centered on data pipelines, ETL, and data platform work — not building transactional backend services or payment processing systems. The role requires designing services that *process high-volume transactions*, which is a different domain than ingesting and transforming data.\n\n3. **No explicit financial services or payments experience.** The preferred qualifications specifically call out \"financial services, payments, or another regulated industry.\" The candidate's background is in analytics/data platforms for enterprise clients, not regulated financial transaction processing.\n\n4. **No explicit mentorship experience listed.** The JD requires mentoring mid-level and junior engineers (required, not just preferred). The résumé contains no mention of mentoring, leading engineers, or technical leadership of others.\n\n5. **Degree is Information Systems, not Computer Science or directly related field.** Minor concern, but the JD specifies CS or related field; this is a soft gap.\n\n## Judgment\n\nDespite the gaps, the candidate meets or exceeds most required qualifications: 8 years of experience, strong Python, REST APIs, SQL/PostgreSQL, AWS, CI/CD, containerization, Kafka, Terraform, Prometheus/Grafana, and on-call experience. The gaps are real but not disqualifying for a screen.\n\nFINAL: ADVANCE"
+}

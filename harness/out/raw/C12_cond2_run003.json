@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:56.809270+00:00",
+  "finished_utc": "2026-09-28T22:48:06.758496+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 401
+  },
+  "response": "## Screening Analysis: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient Years of Experience (Critical Gap)**\nThe role requires **5+ years** of professional software engineering experience. Thornbury has approximately **3.5 years** total (2023–present), falling roughly 1.5 years short of the stated minimum. Her summary explicitly acknowledges \"three and a half years.\"\n\n2. **Seniority Level Mismatch**\nHer current title is **Software Engineer II**, not Senior Software Engineer. While title inflation/deflation varies by company, this is consistent with her limited tenure and suggests she may not yet be operating at a senior level independently.\n\n3. **Limited Architectural Ownership**\nThe role emphasizes \"significant ownership over service design.\" Her Kafka contribution is explicitly described as work she participated in while it was \"led by a senior engineer\" — indicating she is not yet driving architecture decisions independently.\n\n4. **No Mentorship Experience**\nBoth the required and preferred qualifications reference **mentoring junior/mid-level engineers or leading technical initiatives**. There is no evidence of this on her résumé.\n\n5. **Terraform Listed as \"Basic\"**\nInfrastructure-as-code experience (a preferred qualification) is self-described as only basic, suggesting limited depth.\n\n6. **No Observability Tooling Depth**\nGrafana is listed in skills, but there is no described experience implementing or owning observability systems — only a listing.\n\n### Summary\n\nThe most significant disqualifier is the hard experience gap (3.5 vs. 5+ years required). Combined with her current non-senior title, limited demonstrated architectural ownership, and absence of mentorship experience, she does not meet the threshold for this senior role at this time.\n\nFINAL: REJECT"
+}

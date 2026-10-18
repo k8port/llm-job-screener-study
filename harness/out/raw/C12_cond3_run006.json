@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:49:28.743665+00:00",
+  "finished_utc": "2026-09-28T22:49:44.698633+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 782
+  },
+  "response": "## Screening Scorecard: Elise Thornbury\n\n### Required Qualifications\n\n| Requirement | Assessment | Score (0–2) |\n|---|---|---|\n| 5+ years professional SWE experience | ~2 years at Larkspur Pay (2023–Present); résumé implies ~3.5 years total, but employment history only supports ~2 years. Falls short of the 5-year minimum. | 0 |\n| Java, Python, or comparable backend language | Java/Spring Boot is core to both roles; Python listed in skills | 2 |\n| RESTful API design and consumption | Explicitly designs and documents REST endpoints; consumed by internal and partner teams | 2 |\n| Relational databases and SQL | PostgreSQL and SQL listed; used in prior role | 2 |\n| Cloud provider hands-on experience | AWS (EKS, SQS, RDS) — hands-on, not just listed | 2 |\n| CI/CD pipelines and automated testing | GitHub Actions, JUnit, Spring Test | 2 |\n| Bachelor's degree in CS or equivalent | B.S. Computer Science, SMU, 2023 | 2 |\n\n**Required Qualifications Total: 12 / 14**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Assessment | Score (0–1) |\n|---|---|---|\n| Event-driven architecture / message brokers | Kafka consumers, SQS listed | 1 |\n| Containerization / orchestration | Docker, Kubernetes, Helm, EKS | 1 |\n| Infrastructure-as-code | Terraform (basic) — partial | 0.5 |\n| Financial services / payments background | Currently at a payments company (Larkspur Pay) | 1 |\n| Observability tooling | Grafana listed | 0.5 |\n| Mentoring / leading technical initiatives | No evidence of mentoring; participated in (not led) partitioning work | 0 |\n\n**Preferred Qualifications Total: 4 / 6**\n\n---\n\n### Summary Assessment\n\n| Dimension | Notes |\n|---|---|\n| **Years of Experience** | This is the critical gap. The role requires **5+ years**; Elise has approximately **2 years** of professional experience per her documented employment history. The summary claims \"three and a half years,\" but her timeline (graduated May 2023, joined Larkspur 2023) does not corroborate this. |\n| **Technical Depth** | Strong match for a mid-level engineer — Java, Spring Boot, Kafka, AWS, Kubernetes, CI/CD, payments domain. All core technical competencies are present. |\n| **Seniority Signals** | Currently \"Software Engineer II,\" contributed to (but did not lead) architecture work, no mentoring evidence. Does not yet reflect a senior engineering profile. |\n| **Domain Fit** | Excellent — payments background directly relevant. |\n\n---\n\n### Verdict\n\nElise is a technically promising candidate with a well-matched domain background and solid technical skills. However, she falls significantly short of the **5+ years experience requirement** (roughly 2–2.5 years demonstrated), and her seniority indicators do not yet reflect the ownership, mentoring, and leadership expected at the Senior level. The experience gap is a disqualifying factor for this specific role.\n\nFINAL: REJECT"
+}

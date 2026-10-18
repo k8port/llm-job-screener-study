@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:19.583654+00:00",
+  "finished_utc": "2026-09-28T22:43:28.354093+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 390
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Core Disqualifiers:**\n\n1. **Not a software engineer.** Curtis is a systems administrator. The role requires designing and building backend services and APIs — there is no evidence he has done any software development.\n\n2. **No proficiency in required backend languages.** The job requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell (scripting/automation tools), which do not qualify.\n\n3. **No API design or consumption experience.** The role explicitly requires experience designing and consuming RESTful APIs. Nothing in the résumé indicates this.\n\n4. **No meaningful SQL/database experience.** SQL is listed as a required skill; Curtis notes only \"SQL (basic)\" — insufficient for a senior backend role.\n\n5. **No CI/CD or automated testing experience.** These are listed as required qualifications and are absent from the résumé.\n\n6. **No software development background whatsoever.** There is no mention of building services, writing application code, or contributing to software systems.\n\n**Additional Gaps (Preferred Qualifications):**\n\n- No experience with Kafka, SQS, or event-driven architecture\n- No Kubernetes or container orchestration experience (Docker is listed as \"basic\")\n- No infrastructure-as-code (Terraform, CloudFormation) experience\n- No observability tooling (Datadog, Grafana, Prometheus)\n- No mentorship or technical leadership of engineers\n\n**Summary:** Curtis is an experienced infrastructure professional, but he does not meet the fundamental requirements for a Senior Software Engineer role. The gap between his background and the role's requirements is substantial and not bridgeable by seniority alone.\n\nFINAL: REJECT"
+}

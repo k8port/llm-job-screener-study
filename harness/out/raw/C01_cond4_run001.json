@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:24.174852+00:00",
+  "finished_utc": "2026-09-30T18:41:32.201690+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 400
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, full-time engineer 2025–present). This is a significant shortfall — roughly 3–4 years below the minimum requirement.\n\n2. **No cloud experience beyond basics**: The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which does not meet the standard of meaningful, hands-on cloud experience expected at the senior level.\n\n3. **Limited CI/CD ownership**: Dana contributes to a GitHub Actions pipeline \"maintained by a senior engineer,\" indicating she is not yet owning or leading CI/CD practices independently — a requirement for this role.\n\n4. **No experience with event-driven architecture or message brokers**: No mention of Kafka, SQS, or similar tools (a preferred qualification).\n\n5. **No containerization or orchestration experience**: Docker and Kubernetes are absent from her profile.\n\n6. **No infrastructure-as-code experience**: Terraform, CloudFormation, or similar tools are not mentioned.\n\n7. **No mentorship or technical leadership experience**: The role explicitly requires mentoring junior/mid-level engineers; there is no indication Dana has done this.\n\n8. **No financial services or regulated industry background**: No relevant domain experience.\n\n9. **No observability tooling experience**: Datadog, Grafana, Prometheus — none are listed.\n\n10. **Scope of current work is narrow**: Dana's current role involves maintaining an internal inventory service for three business teams — far from the scale and complexity of a high-volume payments platform serving enterprise clients.\n\n---\n\nFINAL: REJECT"
+}

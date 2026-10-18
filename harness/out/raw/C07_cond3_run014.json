@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:08:17.592470+00:00",
+  "finished_utc": "2026-09-28T22:08:31.818690+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 748
+  },
+  "response": "# Candidate Screening: Simone Vance\n## Role: Senior Software Engineer – Payments Platform\n\n---\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of experience (5+)** | High | 3 | 9/9 | 8 years total; 3 years at senior level |\n| **Backend language proficiency (Java/Python/comparable)** | High | 3 | 9/9 | Strong Python throughout career |\n| **RESTful API design & consumption** | High | 3 | 9/9 | Explicitly designs and documents REST APIs at current role |\n| **Relational databases & SQL** | High | 3 | 9/9 | PostgreSQL, Snowflake, SQL across multiple roles |\n| **Cloud provider experience (AWS/Azure/GCP)** | High | 3 | 9/9 | AWS (EKS, S3, Lambda, RDS) — hands-on |\n| **CI/CD & automated testing** | High | 3 | 9/9 | GitHub Actions CI, pytest automated testing |\n| **Bachelor's degree (CS/related or equivalent)** | Medium | 2 | 6/9 | B.S. Information Systems — related field ✓ |\n| **Event-driven / message brokers (preferred)** | Medium | 3 | 6/6 | Kafka at scale (40M events/day) — strong |\n| **Containerization & orchestration (preferred)** | Medium | 3 | 6/6 | Docker + Kubernetes (EKS) |\n| **Infrastructure-as-code (preferred)** | Medium | 3 | 6/6 | Terraform — current role ownership |\n| **Observability tooling (preferred)** | Medium | 3 | 6/6 | Built observability layer with Prometheus + Grafana |\n| **Mentorship / technical leadership (preferred)** | Low | 1 | 1/3 | Not explicitly mentioned; senior title, on-call ownership implies some |\n| **Payments/regulated industry background (preferred)** | Low | 1 | 1/3 | Handles transaction data; not explicitly payments/regulated |\n\n---\n\n## Summary Assessment\n\n**Total Weighted Score: ~86/93 (~92%)**\n\n**Strengths:**\n- Meets or exceeds every **required** qualification\n- Exceptional alignment on **preferred** qualifications (Kafka at scale, Kubernetes, Terraform, Prometheus/Grafana)\n- Directly handles high-volume transaction data for enterprise clients — directly analogous to role requirements\n- Local to Plano, TX — hybrid requirement satisfied\n\n**Gaps:**\n- No explicit Java experience; Python is strong and acceptable per JD\n- Mentoring/leadership experience not stated on résumé (minor gap)\n- No explicit payments or regulated-industry experience (minor; transaction data experience is adjacent)\n\n**Conclusion:** Simone is a strong match across both required and preferred criteria, with hands-on experience that maps closely to the role's core responsibilities.\n\n---\n\nFINAL: ADVANCE"
+}

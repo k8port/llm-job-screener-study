@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:43:54.906824+00:00",
+  "finished_utc": "2026-09-28T21:44:04.939581+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 943,
+    "output_tokens": 345
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Bachelor's Degree**: The job description requires a \"Bachelor's degree in Computer Science or related field, or equivalent practical experience.\" Trevor explicitly states \"No degree\" and lists only a completed apprenticeship as his educational credential. Whether the apprenticeship qualifies as \"equivalent practical experience\" is a judgment call, but it is a factual gap against the stated requirement.\n\n2. **No Explicit Mentorship Experience Listed**: The job description lists mentoring mid-level and junior engineers as a core responsibility, and prior mentorship is also a preferred qualification. Trevor's résumé does not mention mentoring other engineers at any point, only leading on-call rotations and incident retrospectives.\n\n3. **Limited Evidence of Architecture-Level Ownership**: While Trevor owns API design and service infrastructure, the résumé lacks explicit examples of driving broader system architecture decisions or leading cross-team technical initiatives, which are implied expectations for a senior role of this scope.\n\n---\n\n## Rationale for Judgment\n\nDespite the above gaps, Trevor's profile is exceptionally strong against the role's requirements. He has nine years of experience (exceeding the five-year minimum), direct payments domain experience, proficiency in Java and Python, Kafka/SQS, REST APIs, PostgreSQL, AWS, Terraform, Kubernetes, and observability tooling. The \"equivalent practical experience\" clause in the degree requirement is clearly satisfied by nearly a decade of relevant professional experience. The mentorship gap is minor and not disqualifying given the overall fit.\n\nFINAL: ADVANCE"
+}

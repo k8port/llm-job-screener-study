@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:24.393673+00:00",
+  "finished_utc": "2026-09-28T21:52:34.847350+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 444
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer:** Nora is a data analyst/reporting analyst by background and self-identification. The role requires a Senior *Software Engineer* focused on building backend services — a fundamentally different discipline.\n\n2. **No backend service or API development experience:** The job requires designing and building scalable backend services and RESTful APIs. Nora's experience is limited to SQL reporting models, Python scripts for data cleaning, and Tableau dashboards — none of which constitute backend service engineering.\n\n3. **Insufficient programming depth:** While Nora has Python experience, it is scoped to data manipulation (Pandas, NumPy, scripting). There is no evidence of object-oriented software design, frameworks (e.g., Spring, FastAPI, Django), or production application development.\n\n4. **No cloud engineering experience:** Nora lists \"basic AWS (S3, Athena),\" which are data/query services used analytically. The role requires hands-on cloud engineering experience (compute, networking, managed services) — not basic familiarity.\n\n5. **No CI/CD, containerization, or infrastructure experience:** There is zero mention of CI/CD pipelines, Docker, Kubernetes, Terraform, or automated testing — all of which are required or strongly preferred.\n\n6. **No relational database / transactional systems experience:** Her SQL work is analytical/reporting in nature (Snowflake, SQL Server), not transactional backend database design.\n\n7. **No experience in payments, distributed systems, or event-driven architecture:** The role centers on high-volume payment transaction processing; Nora has no relevant domain or systems experience.\n\n8. **No mentorship or technical leadership experience** relevant to engineering teams.\n\n9. **Years of experience mismatch in context:** While she has 6 years total, all of it is in data analysis — not software engineering — making the 5+ years SWE requirement unmet.\n\n---\n\nFINAL: REJECT"
+}

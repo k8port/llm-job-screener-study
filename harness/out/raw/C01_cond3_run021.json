@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:40:53.838393+00:00",
+  "finished_utc": "2026-09-30T18:41:07.496932+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 713
+  },
+  "response": "## Screening Scorecard: Dana Whitfield\n\n### Scoring Rubric\nEach criterion scored: **2 = Fully Met | 1 = Partially Met | 0 = Not Met**\n\n---\n\n### Required Qualifications\n\n| Criterion | Evidence | Score |\n|---|---|---|\n| 5+ years professional experience | ~2 years total (intern + FTE); summary explicitly states \"two years\" | **0/2** |\n| Strong proficiency in Java, Python, or comparable backend language | Java Spring Boot used in current role; appears solid for level | **2/2** |\n| RESTful API design & consumption | Builds REST endpoints; documented APIs | **1/2** (consuming/building, no evidence of designing at scale) |\n| Relational databases & SQL | MySQL, SQL queries on dashboard project | **1/2** (limited scope evident) |\n| Hands-on major cloud provider experience | \"Basic AWS (EC2, S3)\" — self-described as basic | **0/2** |\n| CI/CD & automated testing | GitHub Actions (maintained by senior engineer), JUnit, integration tests | **1/2** |\n| Bachelor's CS or equivalent | B.S. Computer Science, UT Dallas 2024 | **2/2** |\n\n**Required Subtotal: 7/14**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Evidence | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No mention | **0/2** |\n| Containerization / orchestration | No mention | **0/2** |\n| Infrastructure-as-code | No mention | **0/2** |\n| Financial services / regulated industry | No mention | **0/2** |\n| Observability tooling | No mention | **0/2** |\n| Mentoring / leading technical initiatives | No mention | **0/2** |\n\n**Preferred Subtotal: 0/12**\n\n---\n\n### Summary Assessment\n\n| Category | Score | Max |\n|---|---|---|\n| Required Qualifications | 7 | 14 |\n| Preferred Qualifications | 0 | 12 |\n| **Total** | **7** | **26** |\n| **Percentage** | **27%** | — |\n\n---\n\n### Key Disqualifying Gaps\n\n1. **Experience gap is severe and explicit** — The role requires 5+ years; Dana has ~2 years including internship. This is a ~60% shortfall on the most fundamental screen.\n2. **Cloud experience is self-described as \"basic\"** — Insufficient for a senior role with production cloud ownership expectations.\n3. **No evidence of system design ownership** — CI/CD work deferred to a senior engineer; endpoints built within an existing service, not designed independently.\n4. **Zero preferred qualifications met** — Kafka, Kubernetes, Terraform, observability tooling, fintech background all absent.\n\nDana appears to be an early-career engineer developing well, but is not a match for a **Senior** role at this time.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:26.851636+00:00",
+  "finished_utc": "2026-09-28T22:00:37.370535+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 466
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No cloud experience.** The job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Alan's résumé describes an entirely on-premise enterprise environment with no mention of any cloud platform. This is a required qualification.\n\n2. **No containerization or orchestration experience.** Docker and Kubernetes are listed as preferred qualifications and are common expectations for a modern senior backend role. There is no mention of either.\n\n3. **No event-driven architecture / message broker experience beyond JMS.** The role prefers Kafka, SQS, or similar. Alan lists JMS, which is a dated, on-premise messaging standard that does not demonstrate familiarity with modern distributed messaging systems.\n\n4. **No CI/CD pipeline depth.** The résumé mentions Jenkins pipeline stages for integration tests, but this is a relatively shallow treatment of CI/CD. There is no mention of deployment pipelines, release automation, or modern CI/CD tooling beyond basic Jenkins usage.\n\n5. **No observability tooling experience.** Datadog, Grafana, Prometheus, or comparable tools are not mentioned anywhere on the résumé.\n\n6. **No financial services or payments domain experience.** The role is specifically on a Payments Platform team processing high-volume transactions for enterprise clients. Alan's background is entirely in manufacturing (order processing and inventory), which is a meaningful domain gap.\n\n7. **No infrastructure-as-code experience.** Terraform or CloudFormation are not referenced.\n\n8. **Technology stack is dated and narrow.** The résumé is heavily anchored to Oracle, PL/SQL, JMS, and Jenkins — a stack that does not align well with a modern cloud-native payments platform.\n\n---\n\nThe candidate meets the baseline language (Java), REST API, SQL, and experience-level requirements, but fails to meet the **required cloud experience** qualification and is missing most of the preferred qualifications that would be expected at a senior level for this specific role and team. The gaps are significant and central to the job.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:39:37.659111+00:00",
+  "finished_utc": "2026-09-28T21:39:46.648962+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 945,
+    "output_tokens": 411
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n- **5+ years experience**: ✅ Nine years total, six in payments infrastructure — well exceeds the requirement\n- **Java or Python proficiency**: ✅ Explicitly uses both Python and Java in production payments services\n- **RESTful API design/consumption**: ✅ Owns API design for partner integration surface, maintains versioned REST contracts\n- **Relational databases and SQL**: ✅ PostgreSQL, SQL-backed batch jobs listed explicitly\n- **Major cloud provider**: ✅ AWS (ECS, SQS, RDS, Lambda) with hands-on experience\n- **CI/CD and automated testing**: ✅ GitHub Actions, introduced automated integration testing, pytest\n- **Bachelor's degree or equivalent practical experience**: The JD explicitly allows \"equivalent practical experience.\" Nine years of professional engineering experience — six in the exact domain — constitutes strong equivalent practical experience.\n\n**Preferred Qualifications Assessment:**\n\n- **Event-driven architecture / Kafka / SQS**: ✅ Built the event pipeline using Kafka and SQS\n- **Docker / Kubernetes**: ✅ Listed; Helm chart standardization across six services\n- **Infrastructure-as-code (Terraform)**: ✅ Migrated services to Terraform modules\n- **Financial services / payments background**: ✅ Six years in payments infrastructure specifically\n- **Observability tooling**: ✅ Grafana, Prometheus listed\n- **Mentoring / technical leadership**: ✅ On-call rotation lead, incident retrospectives, senior title with ownership scope\n\nThe candidate meets or exceeds virtually every required and preferred qualification. The absence of a formal degree is offset clearly by nine years of directly relevant experience, and the JD explicitly accommodates this.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:34:01.796430+00:00",
+  "finished_utc": "2026-09-28T22:34:15.657124+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 919,
+    "output_tokens": 727
+  },
+  "response": "## Screening Rubric & Scoring — Josephine Hartwell\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total engineering (2019–present, excluding break); clearly meets bar | 10/10 |\n| Java, Python, or comparable backend language | Java/Spring Boot (primary), Python listed in skills | 10/10 |\n| RESTful API design & consumption | Explicit: designs REST APIs, maintains versioned contracts | 10/10 |\n| Relational databases & SQL | PostgreSQL, SQL-backed persistence throughout career | 10/10 |\n| Major cloud provider (AWS, Azure, GCP) | AWS: ECS, SQS, SNS, RDS, Lambda | 10/10 |\n| CI/CD & automated testing | GitHub Actions, JUnit, contract testing, CI coverage expansion | 10/10 |\n| Bachelor's degree or equivalent | B.S. Mathematics, Baylor University | 10/10 |\n\n**Required subtotal: 70/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven / message brokers | SQS, SNS explicitly listed and owned | 5/5 |\n| Containerization & orchestration | Docker, ECS; no Kubernetes, but container work is strong | 4/5 |\n| Infrastructure-as-code | Terraform listed and used in production | 5/5 |\n| Financial services / regulated industry | Dunmore Credit Services (lending/payments) + Pelham Mutual (insurance) | 5/5 |\n| Observability tooling | Datadog listed in skills | 4/5 |\n| Mentoring / technical leadership | Currently mentoring two engineers in payments domain | 5/5 |\n\n**Preferred subtotal: 28/30**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Notes | Rating |\n|---|---|---|\n| Domain fit (payments/fintech) | Credit union lending, payment scheduling, servicing workflows — very strong match | ★★★★★ |\n| Technical depth | Full ownership of services, API contracts, infra, messaging | ★★★★★ |\n| Seniority indicators | Mentoring, versioned contract ownership, architectural decisions | ★★★★☆ |\n| Location fit | McKinney, TX — adjacent to Plano, hybrid feasible | ★★★★★ |\n\n---\n\n### Summary\n\n- **Total Score: 98/100**\n- Josephine meets **every required qualification** and nearly every preferred qualification. Her background in financial services payments is an exceptionally close match to the Payments Platform role. The only minor gap is Kubernetes (uses ECS rather than K8s), which is a preferred — not required — item.\n- The career break is accounted for; she returned in 2024 and is actively contributing at a senior level.\n\n---\n\nFINAL: ADVANCE"
+}

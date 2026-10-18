@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:36.942735+00:00",
+  "finished_utc": "2026-09-28T22:47:46.328323+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 406
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Strengths vs. Job Requirements\n\n**Required Qualifications Review:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years experience | ~3.5 years total | ❌ |\n| Java/Python/backend proficiency | Java/Spring Boot, Python listed | ✅ |\n| RESTful API design & consumption | Explicitly described in both roles | ✅ |\n| Relational databases & SQL | PostgreSQL, SQL | ✅ |\n| Major cloud provider | AWS (EKS, SQS, RDS) | ✅ |\n| CI/CD & automated testing | GitHub Actions, JUnit, Spring Test | ✅ |\n| Bachelor's in CS or equivalent | B.S. CS, SMU 2023 | ✅ |\n\n**Key Gap:** The most significant shortfall is experience. The role requires **5+ years**; Thornbury has approximately **3.5 years**. This is a meaningful gap for a *Senior* role, not a rounding-error difference.\n\n**Preferred Qualifications:** She checks many boxes — Kafka, Docker/Kubernetes, Terraform (basic), payments background, Grafana, GitHub Actions — which is impressive for her experience level. However, there is **no evidence of mentoring** or leading technical initiatives, which are preferred for a Senior role.\n\n### Summary\n\nWhile Thornbury is clearly a strong engineer with directly relevant domain experience (payments) and a well-matched tech stack, there is insufficient evidence she has the seniority the role demands. The experience gap is both quantitative (~1.5 years short) and qualitative (no mentoring, led no initiatives independently).\n\nFINAL: REJECT"
+}

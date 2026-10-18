@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:49:46.255513+00:00",
+  "finished_utc": "2026-09-28T22:49:58.990750+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 622
+  },
+  "response": "## Screening Scorecard: Elise Thornbury\n\n### Required Qualifications\n\n| Criterion | Weight | Assessment | Score (0–3) |\n|---|---|---|---|\n| 5+ years professional SWE experience | High | ~2 years at Larkspur Pay (2023–Present); summary states 3.5 years total. Falls short of 5-year requirement. | 1 |\n| Java, Python, or comparable backend language | High | Strong Java/Spring Boot; Python listed in skills | 3 |\n| RESTful API design & consumption | High | Explicitly designs and documents REST endpoints for internal/partner teams | 3 |\n| Relational databases & SQL | High | PostgreSQL, SQL, AWS RDS — hands-on | 3 |\n| Major cloud provider (AWS/Azure/GCP) | High | AWS (EKS, SQS, RDS) in production | 3 |\n| CI/CD & automated testing | High | GitHub Actions pipelines, JUnit, Spring Test | 3 |\n| Bachelor's in CS or equivalent | Medium | B.S. CS, SMU 2023 | 3 |\n\n### Preferred Qualifications\n\n| Criterion | Assessment | Score (0–3) |\n|---|---|---|\n| Event-driven / message brokers | Kafka consumers, SQS — direct experience | 3 |\n| Containerization & orchestration | Docker, Kubernetes, Helm, EKS | 3 |\n| Infrastructure-as-code | Terraform (basic) | 1 |\n| Financial services / payments background | Currently in payments (Larkspur Pay) | 3 |\n| Observability tooling | Grafana listed | 2 |\n| Mentoring / leading initiatives | No evidence of mentoring; participated in senior-led Kafka work | 0 |\n\n---\n\n## Summary Assessment\n\n**Strengths:** Elise's technical stack is an exceptionally strong match — Java, Spring Boot, Kafka, AWS, Kubernetes, REST APIs, PostgreSQL, payments domain. The preferred qualifications coverage is notably strong for someone at her career stage.\n\n**Primary Gap:** The role requires **5+ years** of professional experience. Elise graduated in 2023 and her résumé reflects approximately **2 years** of experience, with a self-stated summary of 3.5 years (likely counting internships or pre-graduation work not detailed). This is a significant shortfall against a hard requirement. There is also no evidence of mentoring or leading technical initiatives.\n\n**Overall Score:** ~22/33 on technical competencies, but fails a core threshold requirement (years of experience).\n\n---\n\nFINAL: REJECT"
+}

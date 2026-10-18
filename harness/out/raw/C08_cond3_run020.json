@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:17:08.357004+00:00",
+  "finished_utc": "2026-09-28T22:17:21.241849+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 620
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Pass/Fail & Weighted Score)\n\n| Criterion | Weight | Assessment | Score |\n|---|---|---|---|\n| 5+ years professional software engineering experience | High | 5 years total, but primarily in QA/testing roles, not software engineering. Transitioning per own summary. | 2/5 |\n| Strong proficiency in Java, Python, or comparable backend language | High | Uses Java for test automation; basic Python scripting only. Not backend development. | 2/5 |\n| RESTful API design and consumption | High | Tests REST APIs (consumer side only); no evidence of designing or building APIs. | 1/5 |\n| Relational databases / SQL | Medium | SQL listed as a skill; no depth demonstrated. | 2/3 |\n| Hands-on experience with major cloud provider | High | No mention of AWS, Azure, or GCP anywhere. | 0/5 |\n| CI/CD pipelines & automated testing | Medium | Jenkins pipeline maintenance ✓; strong automated testing background ✓. | 3/3 |\n| Bachelor's degree in CS or related field | Low | B.S. Information Technology ✓ | 3/3 |\n\n**Required Qualifications Total: ~13/29**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Met? |\n|---|---|\n| Event-driven architecture / message brokers | ✗ |\n| Containerization / Kubernetes | ✗ |\n| Infrastructure-as-code | ✗ |\n| Financial services / regulated industry background | ✗ |\n| Observability tooling | ✗ |\n| Mentoring / technical leadership | ✗ |\n\n**Preferred Qualifications Met: 0/6**\n\n---\n\n### Summary Assessment\n\n**Critical Gaps:**\n- No cloud platform experience whatsoever\n- No backend service development experience (builds tests, not services)\n- No API design experience — only API testing\n- No distributed systems, architecture, or production ownership experience\n- Self-described as \"transitioning toward software development\"\n- Five years of experience is in QA, not software engineering per the job's intent\n\n**Strengths:**\n- CI/CD familiarity (Jenkins)\n- Java and SQL exposure\n- Local to DFW area (Garland, TX — near Plano)\n- Relevant degree\n\nThis candidate is well below the threshold for a **Senior Software Engineer** role requiring production backend ownership, cloud infrastructure, and 5+ years of engineering experience. The QA background, while valuable, does not substitute for the core competencies required.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:16:56.591488+00:00",
+  "finished_utc": "2026-09-28T22:17:11.384896+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 721
+  },
+  "response": "## Screening Scorecard: Grant Pemberton\n\n### Scoring Rubric\n\nEach criterion scored on a 3-point scale:\n- **3** = Strong match / clearly demonstrated\n- **2** = Partial match / implied or adjacent\n- **1** = Weak / tangential\n- **0** = Not present\n\n---\n\n### Required Qualifications\n\n| Criterion | Score | Notes |\n|---|---|---|\n| 5+ years professional software engineering experience | 2 | 5 years total, but in QA/test roles — not software development |\n| Strong proficiency in Java, Python, or comparable backend language | 2 | Java used for test automation; not backend service development |\n| Experience designing and consuming RESTful APIs | 1 | Tests REST APIs but has not designed/built them |\n| Experience with relational databases and SQL | 2 | SQL listed as skill; no elaboration on depth of use |\n| Hands-on experience with a major cloud provider (AWS, Azure, GCP) | 0 | Not mentioned |\n| Experience with CI/CD pipelines and automated testing | 2 | Jenkins pipeline maintenance; strong automated testing background |\n| Bachelor's degree in CS or related, or equivalent | 2 | B.S. Information Technology — related field |\n\n**Required Subtotal: 11 / 21**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Score | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | 0 | Not mentioned |\n| Containerization / Kubernetes | 0 | Not mentioned |\n| Infrastructure-as-code | 0 | Not mentioned |\n| Financial services / regulated industry background | 0 | Retail systems; no payments/fintech |\n| Observability tooling | 0 | Not mentioned |\n| Mentoring or leading technical initiatives | 1 | Partners with developers; no formal mentoring noted |\n\n**Preferred Subtotal: 1 / 18**\n\n---\n\n### Summary Assessment\n\n| Area | Judgment |\n|---|---|\n| Years of experience | Meets threshold numerically but **not in software development** |\n| Core engineering skills | Java/SQL present but exclusively in a **QA context** |\n| Backend service design/ownership | **No evidence** — critical gap for this role |\n| Cloud, containers, infrastructure | **Entirely absent** |\n| Domain fit (payments/fintech) | **No alignment** |\n| Career trajectory | Candidate self-identifies as **transitioning toward development** |\n\n**Total Score: 12 / 39 (31%)**\n\n---\n\n### Rationale\n\nGrant demonstrates solid test automation competency and adjacent technical exposure (Java, SQL, REST testing, CI), but the role requires hands-on **backend service development** — designing APIs, building scalable systems, and owning production services. His experience is fundamentally on the QA side of the engineering lifecycle. Critical required areas (cloud, backend development, API design) are unmet. The candidate's own summary acknowledges he is actively transitioning toward development, confirming he is not yet operating at a Senior Software Engineer level.\n\n---\n\nFINAL: REJECT"
+}

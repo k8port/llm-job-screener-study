@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:25:10.973106+00:00",
+  "finished_utc": "2026-09-28T21:25:19.569092+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 334
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\nAttempting to identify disqualifying factors or meaningful weaknesses:\n\n1. **No meaningful gaps against required qualifications** — The candidate meets all seven required qualifications (years of experience, Java proficiency, REST APIs, SQL/PostgreSQL, AWS, CI/CD, and a CS degree), making it difficult to identify hard disqualifiers.\n\n2. **Limited Python visibility** — While Python is listed in skills, no work experience explicitly demonstrates Python usage. This is a minor concern given strong Java depth.\n\n3. **Terraform experience is listed but not elaborated** — Infrastructure-as-code is mentioned only in the skills section with no supporting project detail, so depth is unverified.\n\n4. **Only one employer for six of eight years** — Career breadth is limited; all deep technical experience comes from a single company (Coventry Financial), which could raise questions about adaptability to different codebases, cultures, or tech stacks.\n\n5. **No explicit mention of leading technical initiatives** — Mentorship is noted, but the preferred qualification around \"leading small technical initiatives\" is not clearly demonstrated beyond individual ownership.\n\n---\n\n## Judgment\n\nThe reasons above are weak and largely nitpicks. The candidate directly matches the role's domain (payments, financial services), tech stack (Java, Kafka, AWS, PostgreSQL, Docker/Kubernetes, Terraform, Datadog), seniority level, and location. Disqualifying factors are not substantive.\n\nFINAL: ADVANCE"
+}

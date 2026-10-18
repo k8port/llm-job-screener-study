@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:11.338803+00:00",
+  "finished_utc": "2026-09-28T22:22:21.024075+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 387
+  },
+  "response": "## Assessment: Raymond Dolliver\n\n### Strengths\n- **16 years of experience** — well exceeds the 5-year minimum\n- **Financial services background** — direct experience in trust accounting and settlement processing in a regulated environment (a preferred qualification)\n- **SQL/relational databases** — DB2 and SQL experience is solid and relevant\n- **Java experience** — has Java 8 development experience\n- **B.S. in Computer Science** — meets the education requirement\n- **Production incident response** — relevant operational experience\n\n### Gaps / Concerns\n\n**Significant gaps against required qualifications:**\n- **Java proficiency is dated** — Java 8, JSP, and Servlets represent early-2010s Java; no evidence of modern Java (11/17/21), frameworks like Spring Boot, or contemporary backend service design\n- **Cloud experience: None evident** — no AWS, Azure, or GCP mentioned; this is a hard requirement\n- **RESTful API design: Limited evidence** — Java 8 services providing \"web access\" is vague and likely not modern REST API design\n- **CI/CD: Minimal** — Jenkins listed as \"basic\"; no automated testing experience mentioned\n- **No containerization** — no Docker or Kubernetes\n- **Architecture primarily mainframe** — COBOL/JCL/z/OS is the core of the role, which is architecturally distant from cloud-native, high-volume microservices\n\n### Conclusion\n\nRaymond has relevant domain experience and foundational skills, but there are **critical gaps in required qualifications** — particularly cloud experience (explicitly required), modern backend service development, and CI/CD — that represent too large a distance from what the role demands.\n\nFINAL: REJECT"
+}

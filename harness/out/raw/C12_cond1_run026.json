@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:41.810086+00:00",
+  "finished_utc": "2026-09-28T22:47:51.356549+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 392
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Strengths Against Requirements\n\n**Required Qualifications Review:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years experience | ~3.5 years total | ❌ |\n| Java/Python/comparable backend | Java/Spring Boot, Python | ✅ |\n| RESTful API design & consumption | Explicit in both roles | ✅ |\n| Relational DB / SQL | PostgreSQL, SQL | ✅ |\n| Major cloud provider | AWS (EKS, SQS, RDS) | ✅ |\n| CI/CD & automated testing | GitHub Actions, JUnit | ✅ |\n| Bachelor's in CS or equivalent | B.S. CS, SMU 2023 | ✅ |\n\n**Preferred Qualifications:** Kafka, Docker/Kubernetes, Terraform (basic), payments background, Grafana — strong alignment on most preferred qualifications.\n\n### Key Concern\n\nThe most significant gap is **years of experience**. The role requires **5+ years**; the candidate has approximately **3.5 years**. This is a meaningful shortfall for a *Senior* role, not a borderline miss. Additionally, the résumé signals she is currently a **Software Engineer II**, not yet at a senior level, and her Kafka work was explicitly described as supporting a senior engineer's initiative rather than leading it. There is limited evidence of mentoring others or leading technical initiatives.\n\n### Conclusion\n\nDespite strong technical alignment and a directly relevant domain (payments), the experience gap is substantial and the seniority indicators don't yet support a Senior Engineer designation as described.\n\nFINAL: REJECT"
+}

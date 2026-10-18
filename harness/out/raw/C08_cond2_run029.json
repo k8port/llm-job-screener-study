@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:59.174423+00:00",
+  "finished_utc": "2026-09-28T22:16:08.932494+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 396
+  },
+  "response": "## Screening Analysis: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n1. **Not a software developer — QA/testing background only.** The candidate self-describes as \"transitioning toward software development.\" All experience is in quality assurance, not building and shipping production backend services. The role requires designing and building scalable backend APIs and services, which is a distinct skill set from testing them.\n\n2. **No cloud platform experience.** AWS, Azure, or GCP is a *required* qualification. There is no mention of any cloud provider in the résumé — not even incidental exposure.\n\n3. **No CI/CD pipeline ownership.** The candidate maintains \"test execution stages in a Jenkins pipeline,\" which is test infrastructure, not software delivery pipeline engineering. This does not satisfy the spirit of CI/CD experience for a software engineer role.\n\n4. **No relational database / SQL development experience.** SQL is listed as a skill, but only in the context of QA testing (validating data). No evidence of schema design, query optimization, or SQL used in backend service development.\n\n5. **No experience with preferred qualifications.** No Kafka/SQS, no Docker/Kubernetes, no Terraform, no observability tooling, no payments/financial services background.\n\n6. **No mentorship or technical leadership experience.** The role explicitly requires mentoring junior/mid-level engineers; no evidence of this.\n\n7. **Degree mismatch (minor).** B.S. in Information Technology rather than Computer Science — not disqualifying on its own, but relevant alongside other gaps.\n\n---\n\nThe candidate lacks the core required qualification of hands-on backend software engineering experience, as well as cloud experience. The profile does not meet the bar for a Senior Software Engineer role.\n\nFINAL: REJECT"
+}

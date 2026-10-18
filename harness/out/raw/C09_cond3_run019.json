@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:25:19.587109+00:00",
+  "finished_utc": "2026-09-28T22:25:31.779611+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 658
+  },
+  "response": "## Screening Scorecard: Raymond Dolliver\n\n**Role:** Senior Software Engineer – Payments Platform\n\n---\n\n### Required Qualifications (Pass/Fail & Notes)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional engineering experience | ✅ 16 years total experience | 2/2 |\n| Java, Python, or comparable backend language | ⚠️ Java 8 (dated); no modern Java, Python, or Go | 1/2 |\n| RESTful API design/consumption | ❌ No evidence; JSP/Servlets are pre-REST paradigm | 0/2 |\n| Relational databases / SQL | ✅ DB2, Oracle, SQL query tuning | 2/2 |\n| Major cloud provider (AWS, Azure, GCP) | ❌ No mention of any cloud platform | 0/2 |\n| CI/CD pipelines and automated testing | ❌ Jenkins listed as \"basic\"; no automated testing mentioned | 0/2 |\n| Bachelor's in CS or equivalent | ✅ B.S. Computer Science, UT Arlington 2010 | 2/2 |\n\n**Required Score: 7/14**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven / message brokers (Kafka, SQS) | ❌ None | 0/1 |\n| Docker / Kubernetes | ❌ None | 0/1 |\n| Infrastructure-as-code (Terraform, CloudFormation) | ❌ None | 0/1 |\n| Financial services / regulated industry | ✅ Trust & banking environment, 11+ years | 1/1 |\n| Observability tooling (Datadog, Grafana, Prometheus) | ❌ None | 0/1 |\n| Mentoring / technical leadership | ❌ No evidence | 0/1 |\n\n**Preferred Score: 1/6**\n\n---\n\n### Summary Assessment\n\n| Dimension | Notes |\n|---|---|\n| **Strengths** | Long tenure in regulated financial services; strong SQL/DB2 background; incident response experience; CS degree |\n| **Critical Gaps** | No cloud experience (disqualifying for cloud-native payments platform); no modern API development; no containerization; no observability tooling; no CI/CD proficiency; Java 8 with mainframe/legacy stack is not current |\n| **Overall Fit** | Raymond brings relevant domain knowledge but his technical stack is significantly misaligned with a modern, cloud-native backend engineering role. The gaps in required qualifications are numerous and fundamental. |\n\n**Total Score: 8/20 (40%)**\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:44.749531+00:00",
+  "finished_utc": "2026-09-28T21:57:56.020518+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 497
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths\n- 7 years of professional experience (exceeds the 5-year minimum)\n- Strong Java/Spring Boot proficiency (core required language)\n- Solid REST API design and documentation experience\n- Relational database and SQL experience (Oracle/PL/SQL)\n- CI/CD experience via Jenkins; automated testing via JUnit\n- Code review leadership and junior engineer mentoring\n- On-call rotation participation\n- Relevant B.S. degree (Computer Engineering, Texas Tech)\n- JMS experience hints at some messaging/event-driven familiarity\n\n---\n\n### Weaknesses / Gaps\n\n1. **No cloud experience.** The résumé is explicitly described as \"on-premise enterprise environment.\" AWS, Azure, and GCP experience is a *required* qualification. This is the most significant gap.\n\n2. **No containerization or orchestration.** No mention of Docker or Kubernetes — both are preferred qualifications that complement cloud-native backend development.\n\n3. **No infrastructure-as-code.** No Terraform, CloudFormation, or equivalent tools mentioned.\n\n4. **No observability tooling.** No Datadog, Grafana, Prometheus, or similar — particularly relevant for a role emphasizing reliability and production observability.\n\n5. **No financial services or payments background.** The role targets a Payments Platform team in what appears to be a regulated-industry context; Alan's background is manufacturing/order processing.\n\n6. **Event-driven architecture is limited.** JMS is present but is a legacy messaging technology; no Kafka, SQS, or modern equivalents listed.\n\n7. **On-premise-only background.** The overall technical profile reflects an on-premise, enterprise manufacturing context, which may require significant re-tooling to operate effectively in a cloud-native payments environment.\n\n---\n\n### Summary\n\nAlan meets the baseline language, API, database, and experience-level requirements, and he shows leadership qualities. However, he is missing the **required** cloud experience — a non-negotiable qualification — and lacks nearly all of the preferred qualifications. The gap between his on-premise manufacturing background and a cloud-native payments platform is substantial.\n\nFINAL: REJECT"
+}

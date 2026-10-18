@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:43.571259+00:00",
+  "finished_utc": "2026-09-28T22:15:54.597012+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 440
+  },
+  "response": "## Screening Assessment: Grant Pemberton\n\n### Potential Weaknesses\n\n1. **Not a Software Engineer by role/background.** Grant's entire career has been in QA/testing roles. His summary explicitly acknowledges he is \"transitioning toward software development.\" This is a senior individual contributor engineering role, not a QA or testing role.\n\n2. **No evidence of designing or building production backend services.** The job requires hands-on experience building scalable backend services and APIs. Grant's Java experience is limited to writing automated test suites and test scripts — consuming and validating APIs, not building them.\n\n3. **No cloud platform experience.** The job lists hands-on experience with AWS, Azure, or GCP as a required qualification. Cloud experience does not appear anywhere on the résumé.\n\n4. **No relational database / SQL experience beyond testing context.** SQL is listed as a skill, but there is no indication it was used in a development capacity (e.g., schema design, query optimization, ORM usage).\n\n5. **No CI/CD pipeline development experience.** Maintaining test execution stages in Jenkins is not equivalent to owning or building CI/CD pipelines for software delivery.\n\n6. **No experience with preferred technologies.** Kafka/SQS, Docker/Kubernetes, Terraform/CloudFormation, and observability tooling (Datadog, Grafana, Prometheus) are all absent.\n\n7. **No mentorship or technical leadership experience.** The role expects mentoring of junior/mid engineers; no such experience is indicated.\n\n8. **5 years of experience is in QA, not software engineering.** Meeting the raw years-of-experience threshold requires it to be in professional software engineering, which this is not.\n\n### Summary\n\nGrant does not meet the core required qualifications for this senior backend engineering role. His experience is substantively in quality assurance and test automation, with no demonstrated background in building production services, cloud infrastructure, or system design.\n\nFINAL: REJECT"
+}

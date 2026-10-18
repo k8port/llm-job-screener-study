@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:32.355929+00:00",
+  "finished_utc": "2026-09-28T22:22:41.820713+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 380
+  },
+  "response": "## Assessment\n\n### Strengths\n- **Experience level**: 16 years total, exceeding the 5+ year requirement\n- **Education**: B.S. Computer Science from UT Arlington ✓\n- **SQL/relational databases**: Strong DB2/Oracle/SQL experience ✓\n- **Financial services background**: Trust accounting and settlement processing in a regulated environment ✓\n- **Java**: Java 8 experience present ✓\n- **Production incident response**: Demonstrated in regulated environment ✓\n\n### Significant Gaps\n- **Cloud experience**: No evidence of AWS, Azure, or GCP — this is a *required* qualification\n- **RESTful API design/consumption**: Java 8 services mentioned vaguely, but no explicit REST API experience; background is largely mainframe/COBOL\n- **CI/CD pipelines**: Only \"basic\" Jenkins listed; no meaningful pipeline experience evident\n- **Modern backend development**: Primary work is in COBOL/JCL/mainframe batch processing — a fundamentally different paradigm than cloud-native microservices\n- **Containerization/Kubernetes, Kafka/event-driven, Terraform**: No evidence of any preferred qualifications\n- **Mentoring/technical leadership**: Not mentioned\n- **Observability tooling**: No evidence\n\n### Summary\nWhile Raymond has genuine strengths in financial services domain knowledge and SQL, he is missing multiple *required* qualifications — most critically cloud platform experience and modern backend/API development. His technical profile is centered on legacy mainframe technologies that do not transfer readily to the cloud-native, high-volume payments platform described in this role. There is insufficient evidence he could perform this role as described.\n\nFINAL: REJECT"
+}

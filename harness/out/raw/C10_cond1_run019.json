@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:30:54.208175+00:00",
+  "finished_utc": "2026-09-28T22:31:03.964010+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 435
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n- ✅ **5+ years experience**: 7 years of professional software engineering experience (2016–2023 engineering, plus current role), with the career break clearly explained as family leave\n- ✅ **Java/Python proficiency**: Java/Spring Boot is her primary stack; Python listed in skills and used in prior actuarial work\n- ✅ **RESTful API design and consumption**: Explicitly designs REST APIs consumed by partner institutions, maintains versioned contracts\n- ✅ **Relational databases/SQL**: PostgreSQL, SQL listed; SQL-backed persistence built throughout career\n- ✅ **Cloud provider (AWS)**: Extensive AWS experience (ECS, SQS, SNS, RDS, Lambda)\n- ✅ **CI/CD and automated testing**: GitHub Actions, JUnit, contract testing introduced at Dunmore\n- ✅ **Degree or equivalent**: B.S. Mathematics from Baylor University qualifies as a related field\n\n**Preferred Qualifications Assessment:**\n\n- ✅ **Event-driven architecture/message brokers**: SQS and SNS ownership in current role\n- ✅ **Containerization**: Docker, ECS deployment\n- ✅ **Infrastructure-as-code**: Terraform\n- ✅ **Financial services/regulated industry**: Credit services/payments domain directly relevant\n- ✅ **Observability tooling**: Datadog listed\n- ✅ **Mentoring**: Currently mentoring two engineers in the payments domain\n\n**Summary**: This candidate meets all required qualifications and nearly all preferred qualifications. Her background is exceptionally well-matched to this specific role — payments/financial services, Java backend, AWS, event-driven architecture, and mentoring experience. The family leave is clearly accounted for and she is currently active in a directly comparable senior role.\n\nFINAL: ADVANCE"
+}

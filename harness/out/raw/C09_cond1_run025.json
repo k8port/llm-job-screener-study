@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:39.792677+00:00",
+  "finished_utc": "2026-09-28T22:22:48.609746+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 398
+  },
+  "response": "## Evaluation\n\n**Strengths:**\n- 16 years of professional software engineering experience (well exceeds the 5+ year requirement)\n- B.S. in Computer Science ✓\n- Java experience (though Java 8, older) ✓\n- SQL/relational database experience (DB2, Oracle) ✓\n- Financial services / regulated industry background ✓\n- Production incident response / reliability experience ✓\n- Senior-level title with sustained tenure ✓\n\n**Significant Gaps:**\n- **Cloud experience**: No mention of AWS, Azure, or GCP — this is a *required* qualification\n- **CI/CD pipelines**: Only \"basic\" Jenkins; no modern CI/CD pipeline experience evident\n- **RESTful APIs**: Java 8 services are mentioned vaguely, but no clear evidence of designing/consuming RESTful APIs at scale\n- **Modern backend development**: Stack is heavily mainframe-oriented (COBOL, JCL, z/OS, JSP/Servlets) — not indicative of scalable, cloud-native backend service development\n- **No containerization**: No Docker, Kubernetes, or orchestration experience\n- **No event-driven/messaging experience**: No Kafka, SQS, or equivalent\n- **No observability tooling**: No Datadog, Grafana, Prometheus\n\n**Assessment:**\nThe candidate has longevity and relevant domain knowledge (financial services, SQL, Java), but is missing multiple *required* qualifications — most notably cloud experience and modern CI/CD — and lacks evidence of the cloud-native, distributed systems capabilities central to a Payments Platform senior engineering role. The technical profile is anchored in legacy mainframe paradigms that do not map well to the described responsibilities.\n\nFINAL: REJECT"
+}

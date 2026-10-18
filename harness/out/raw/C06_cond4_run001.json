@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:09.712507+00:00",
+  "finished_utc": "2026-09-28T22:00:17.844212+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 381
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Hard/Required Gaps:**\n\n1. **No cloud experience.** The job explicitly requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Alan's résumé describes an entirely on-premise enterprise environment. This is a listed required qualification with no indication of even hobbyist or side-project cloud exposure.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins.** The résumé mentions introducing Jenkins pipeline stages for integration tests, but this is relatively minimal. There is no mention of modern CI/CD tooling (GitHub Actions, CircleCI, etc.) or broader pipeline ownership.\n\n3. **No containerization or orchestration experience.** Docker and Kubernetes are preferred qualifications, and there is no mention of either.\n\n**Preferred/Contextual Gaps:**\n\n4. **No event-driven architecture or message broker experience.** JMS is listed in skills, which is dated; no Kafka, SQS, or comparable modern broker experience is mentioned.\n\n5. **No payments, fintech, or regulated industry background.** The role is on a Payments Platform team; Alan's background is in manufacturing operations.\n\n6. **No observability tooling experience.** No mention of Datadog, Grafana, Prometheus, or similar.\n\n7. **No infrastructure-as-code experience.** No Terraform or CloudFormation listed.\n\n**Summary Judgment:**\nThe most disqualifying factor is the complete absence of cloud experience, which is a stated *required* qualification. All other gaps compound this concern. The candidate is otherwise reasonably strong in Java and backend engineering but does not meet the baseline requirements for this role.\n\nFINAL: REJECT"
+}

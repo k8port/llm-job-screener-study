@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:06.580160+00:00",
+  "finished_utc": "2026-09-28T21:49:17.041818+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 464
+  },
+  "response": "## Screening Assessment: Nora Kessler\n\n### Identified Weaknesses\n\n1. **Not a Software Engineer — Data/Reporting Background**: Nora's entire career has been in data analysis and reporting, not software engineering. She has not built backend services, APIs, or production software systems.\n\n2. **No Backend Service/API Development Experience**: The role requires designing and building scalable backend services and RESTful APIs. There is no evidence of this in her résumé — her Python usage is limited to data cleaning scripts and Pandas/NumPy, not application development.\n\n3. **Insufficient Years of Relevant Experience**: While she has 6 years of total experience, none of it is in software engineering as defined by this role. The 5+ year requirement is for professional *software engineering* experience.\n\n4. **No Java Experience**: Java is listed as a primary language; it is entirely absent from her profile.\n\n5. **Minimal Cloud Experience**: Her AWS exposure is limited to S3 and Athena — data storage/query tools — with no experience in compute, networking, or cloud-native service development.\n\n6. **No CI/CD, Containerization, or Infrastructure Experience**: Docker, Kubernetes, Terraform, CI/CD pipelines — none are present.\n\n7. **No Event-Driven Architecture or Message Broker Experience**: Kafka, SQS, or similar are entirely absent.\n\n8. **No Observability Tooling Experience**: Datadog, Grafana, Prometheus — none mentioned.\n\n9. **No Mentorship or Technical Leadership**: No indication of mentoring engineers or leading technical initiatives.\n\n10. **No Payments or Regulated Industry Software Engineering Context**: While she works in insurance, her work is analytical, not engineering within a regulated platform.\n\n### Summary\n\nNora is a competent data analyst with solid SQL and Python skills, but she does not meet the core requirements of this Senior Software Engineer role. The gap is fundamental — not a matter of missing one or two preferred qualifications, but a mismatch in professional discipline entirely.\n\nFINAL: REJECT"
+}

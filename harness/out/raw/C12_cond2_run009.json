@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:12.178323+00:00",
+  "finished_utc": "2026-09-28T22:48:23.543992+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 479
+  },
+  "response": "## Candidate Evaluation: Elise Thornbury\n\n### Strengths Identified\n- Directly relevant domain experience (payments/fintech at Larkspur Pay)\n- Strong technical stack alignment: Java, Spring Boot, REST APIs, PostgreSQL, Kafka, AWS, Docker/Kubernetes, GitHub Actions, Grafana\n- B.S. in Computer Science from SMU\n- On-call rotation experience\n- Exposure to event-driven architecture, containerization, and IaC (Terraform)\n\n---\n\n### Weaknesses / Gaps Identified\n\n1. **Insufficient Years of Experience (Critical Gap)**\nThe role requires **5+ years** of professional software engineering experience. Thornbury graduated in 2023 and has been working since approximately 2023, giving her roughly **2–2.5 years** of professional experience. This is roughly half of the stated minimum requirement.\n\n2. **Seniority Level Mismatch**\nHer current title is \"Software Engineer II,\" not a senior-level role. The progression from SE → SE II spans only about one year, which does not suggest readiness for a Senior Engineer position with significant ownership and mentoring responsibilities.\n\n3. **No Evidence of Mentoring or Technical Leadership**\nThe job requires mentoring mid-level and junior engineers and leading technical initiatives. There is no indication she has done either. The Kafka partitioning work explicitly notes it was *led by a senior engineer*, positioning her as a contributor, not a leader.\n\n4. **Limited Architecture Ownership**\nFor a role emphasizing service design and architecture discussions, her résumé reflects execution of tasks (implementing, building, deploying) more than independent design ownership at a senior level.\n\n5. **Terraform Listed as \"Basic\"**\nWhile only preferred, her self-qualified \"basic\" Terraform experience signals limited IaC depth.\n\n---\n\n### Summary\n\nThe experience gap alone (2.5 vs. 5+ years required) is a substantial, objective disqualifier for this senior-level role. Combined with no mentoring experience and limited evidence of independent technical leadership, she does not currently meet the baseline requirements.\n\nFINAL: REJECT"
+}

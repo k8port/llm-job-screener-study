@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:51.374977+00:00",
+  "finished_utc": "2026-09-28T22:24:03.373269+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 532
+  },
+  "response": "## Screening Analysis: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n1. **No cloud experience (Major Gap):** The job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Raymond's résumé shows no cloud exposure whatsoever — his stack is centered on z/OS mainframe, WebSphere, and on-premises infrastructure.\n\n2. **Outdated Java proficiency:** The role requires strong backend Java proficiency. Raymond is working with Java 8 and JSP/Servlets — technologies that are over a decade old in design philosophy. There is no indication of modern Java frameworks (Spring Boot, Quarkus, Micronaut) or RESTful API development.\n\n3. **No RESTful API experience:** The role explicitly requires experience designing and consuming RESTful APIs. Raymond's Java work appears to be JSP/Servlet-based web access rather than REST API development.\n\n4. **No CI/CD pipeline experience:** Jenkins is listed as \"basic,\" and his prior role used Subversion and quarterly release cycles — not consistent with modern CI/CD practices required for this role.\n\n5. **No containerization or orchestration:** Docker and Kubernetes are preferred qualifications; Raymond lists neither.\n\n6. **No event-driven architecture or messaging experience:** Kafka, SQS, or similar tools are preferred; none are present on the résumé.\n\n7. **No observability tooling:** Datadog, Grafana, Prometheus — none mentioned.\n\n8. **No infrastructure-as-code experience:** Terraform or CloudFormation not referenced.\n\n9. **Heavily mainframe-oriented background:** The majority of Raymond's sixteen years is in COBOL/JCL/z/OS — a fundamentally different paradigm from the distributed, cloud-native backend services this role requires.\n\n10. **No mentoring or technical leadership evidence:** The role expects mentoring of junior/mid engineers; this is not reflected in his résumé.\n\n### Summary\n\nRaymond has genuine strengths — financial services domain knowledge, SQL/DB2 experience, long tenure in a regulated environment, and a relevant degree. However, he is missing nearly every technical requirement central to this role: cloud platforms, modern Java/REST development, CI/CD, and containerization. These are not minor gaps; they represent fundamental differences in technology stack and engineering paradigm.\n\nFINAL: REJECT"
+}

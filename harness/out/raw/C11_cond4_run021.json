@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:38.956594+00:00",
+  "finished_utc": "2026-09-28T22:43:48.282441+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 390
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps Against Required Qualifications:**\n\n1. **Not a software engineer — systems administrator background.** The candidate's entire career has been in infrastructure/operations roles. The job requires designing and building backend services and APIs, which is fundamentally different work.\n\n2. **No proficiency in Java or Python (or comparable backend language).** The candidate lists only Bash and PowerShell, which are scripting/automation tools, not backend application development languages. There is no evidence of building production software.\n\n3. **No experience designing or consuming RESTful APIs.** Not mentioned anywhere on the résumé.\n\n4. **No experience with CI/CD pipelines or automated testing.** These are required qualifications not evidenced in the résumé.\n\n5. **No relational database experience beyond \"basic\" SQL.** The role requires meaningful hands-on experience with relational databases, not surface-level familiarity.\n\n6. **Azure experience is infrastructure-only** (VMs, networking) — not cloud application development, serverless, managed services, or anything relevant to building payment services.\n\n**Gaps Against Preferred Qualifications:**\n\n7. No Kafka/SQS or event-driven architecture experience.\n8. Docker is listed as \"basic\" only; no Kubernetes experience.\n9. No Terraform, CloudFormation, or IaC experience.\n10. No observability tooling experience (Datadog, Grafana, Prometheus).\n11. No mentorship or technical leadership experience.\n\n**Summary:** The candidate does not meet the core required qualifications for a Senior Software Engineer role. There is no evidence of software development, API design, or application engineering experience at any level.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:42:14.181934+00:00",
+  "finished_utc": "2026-09-30T18:42:21.755766+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 324
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 2 years total (including an internship), falling significantly short of the requirement.\n\n2. **No cloud experience beyond basics**: The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which does not meet the standard of meaningful cloud architecture or operational experience expected at the senior level.\n\n3. **No evidence of independent ownership or leadership**: The role emphasizes significant ownership over service design and delivery, as well as mentoring junior engineers. Dana's résumé reflects a junior/supporting role — contributing to a pipeline \"maintained by a senior engineer,\" working under a team lead, and documenting APIs.\n\n4. **No experience with distributed systems or high-volume transaction processing**: The payments platform context requires experience with scalable, high-volume systems. There is no indication of this in Dana's background.\n\n5. **Missing preferred qualifications entirely**: No evidence of Kafka/SQS, Docker/Kubernetes, Terraform/CloudFormation, observability tooling, financial services experience, or technical leadership — none of the preferred qualifications are met.\n\n6. **Scope of work is limited**: Experience is confined to internal tooling for a small audience (three business teams, one service), not the enterprise-scale systems described in the job.\n\n---\n\nFINAL: REJECT"
+}

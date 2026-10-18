@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:07:34.186937+00:00",
+  "finished_utc": "2026-09-28T22:07:47.865763+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 726
+  },
+  "response": "# Candidate Screening: Simone Vance\n\n## Scoring Rubric\n\n| Category | Weight | Criteria | Score (0–5) | Weighted Score |\n|---|---|---|---|---|\n| **Years of Experience** | 15% | 5+ years required | 5 | 0.75 |\n| **Backend Language Proficiency** | 20% | Java, Python, or comparable | 5 | 1.00 |\n| **RESTful API Design & Consumption** | 15% | Required | 5 | 0.75 |\n| **Relational DB & SQL** | 10% | Required | 4 | 0.40 |\n| **Cloud Provider Experience** | 10% | AWS, Azure, or GCP | 5 | 0.50 |\n| **CI/CD & Automated Testing** | 10% | Required | 4 | 0.40 |\n| **Education** | 5% | CS/related degree or equivalent | 4 | 0.20 |\n| **Preferred: Kafka/Event-Driven** | 5% | Preferred | 5 | 0.25 |\n| **Preferred: Docker/Kubernetes** | 5% | Preferred | 5 | 0.25 |\n| **Preferred: IaC (Terraform)** | 5% | Preferred | 5 | 0.25 |\n| **Preferred: Observability Tooling** | 5% | Preferred | 5 | 0.25 |\n| **Preferred: Mentorship/Leadership** | 5% | Preferred | 2 | 0.10 |\n\n**Total Weighted Score: 4.10 / 5.00 (82%)**\n\n---\n\n## Assessment Notes\n\n### Strengths\n- **8 years** of professional experience well exceeds the 5-year requirement\n- **Python** expertise is deep and demonstrated through production services, not just scripts\n- **REST API design** explicitly called out with versioning and documentation ownership\n- **Kafka at scale** (40M daily events) directly aligns with a high-volume payments platform\n- **Terraform + EKS + Docker/Kubernetes** fully covers preferred infra skills\n- **Prometheus/Grafana + on-call rotation** matches observability and reliability expectations\n- **AWS** cloud experience is hands-on and current\n- **SQL/PostgreSQL** and CI/CD (GitHub Actions + pytest) meet required bar\n\n### Gaps\n- **No Java** — Python-only; acceptable per JD (\"or comparable\")\n- **Mentorship** not explicitly mentioned; some implicit senior-level ownership present\n- **Degree** is Information Systems, not CS — acceptable per JD's \"related field\" clause\n- **Payments/financial services** background not stated, though transaction data processing at enterprise scale is closely adjacent\n\n---\n\n## Summary Judgment\nSimone Vance meets or exceeds all required qualifications and hits nearly every preferred qualification. The profile is a strong match for the Payments Platform team's technical needs.\n\nFINAL: ADVANCE"
+}

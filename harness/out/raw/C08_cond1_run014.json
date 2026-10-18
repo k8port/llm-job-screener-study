@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:05.040654+00:00",
+  "finished_utc": "2026-09-28T22:14:14.244728+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 400
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **5 years of experience**: The candidate has exactly 5 years of professional experience in tech (2020–2025), meeting the minimum threshold.\n- **Java proficiency**: Demonstrated through building and maintaining automated test suites.\n- **RESTful API experience**: Has written API-level tests against REST endpoints, validating contracts and error handling — adjacent but not equivalent to designing/building APIs.\n- **SQL**: Listed as a skill.\n- **CI/CD**: Maintains test execution stages in a Jenkins pipeline.\n- **Location**: Based in Garland, TX — compatible with Plano, TX hybrid requirement.\n- **Bachelor's degree**: B.S. in Information Technology from Texas State University.\n\n### Significant Gaps\n- **Role type mismatch**: The candidate is a QA/test engineer, not a software engineer. The job requires *designing and building* backend services and APIs, not testing them.\n- **No evidence of building production software**: All experience centers on testing, automation, and quality assurance — not service design, backend development, or shipping production code.\n- **No cloud experience**: No mention of AWS, Azure, or GCP.\n- **No database design experience**: SQL is listed but only in a testing context.\n- **No evidence of mentoring engineers or leading technical initiatives**.\n- **Preferred qualifications (Kafka, Docker/Kubernetes, Terraform, payments/fintech, observability)**: None addressed.\n- **Candidate's own summary** acknowledges transitioning *toward* software development — explicitly not there yet.\n\n### Conclusion\nThe candidate lacks sufficient evidence of the core competency required: building and owning backend production services. The experience is adjacent but materially different from what the role demands.\n\nFINAL: REJECT"
+}

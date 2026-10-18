@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:22:43.501843+00:00",
+  "finished_utc": "2026-09-28T21:22:54.866584+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 410
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Strengths (for context)\nMarcus is a strong overall match — 8 years of experience, directly in financial services/payments, Java-primary backend engineer with Kafka, AWS, Docker/Kubernetes, Terraform, Datadog, and mentorship experience. Nearly every required and preferred qualification is addressed.\n\n---\n\n### Potential Weaknesses\n\n1. **Limited Python depth**: Python is listed in Skills but absent from any specific work experience bullet. The job lists Java, Python, or a comparable language as required. His Python proficiency cannot be independently validated from the résumé.\n\n2. **Infrastructure-as-code listed but not elaborated**: Terraform appears in Skills but is not mentioned in any experience bullet. The depth of his IaC experience is unclear — it may be superficial or incidental.\n\n3. **Single employer for 6 of 8 years**: The bulk of his career (2019–present) is at Coventry Financial. While not a disqualifier, it raises a question about adaptability to different team cultures, codebases, and technology stacks.\n\n4. **No explicit architecture leadership mentioned**: The job references leading small technical initiatives as a preferred qualifier. His mentorship is noted, but no example of formally leading a technical initiative or project end-to-end is clearly stated.\n\n5. **On-call and observability noted but lightly**: Datadog is listed in Skills and on-call is mentioned, but specific observability tooling practices (dashboards, alerting, SLOs) are not detailed — a minor gap given the role's emphasis on reliability.\n\n---\n\n### Summary\n\nThe weaknesses identified are minor and largely preferential rather than disqualifying. All hard requirements are met or strongly evidenced. The role is a very close match to his current position.\n\nFINAL: ADVANCE"
+}

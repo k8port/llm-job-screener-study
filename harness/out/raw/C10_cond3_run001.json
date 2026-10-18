@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:32:54.326995+00:00",
+  "finished_utc": "2026-09-28T22:33:08.521637+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 919,
+    "output_tokens": 682
+  },
+  "response": "## Screening Rubric & Scoring: Josephine Hartwell\n\n---\n\n### Required Qualifications (Pass/Fail + Weight)\n\n| Requirement | Evidence | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total engineering (2016–present, minus ~1yr leave); ~5 years as SWE before senior role | ✅ PASS |\n| Strong proficiency in Java, Python, or comparable backend language | Java/Spring Boot primary; Python mentioned in skills and prior role | ✅ PASS |\n| Experience designing and consuming RESTful APIs | Explicitly designs REST APIs with versioned contracts for partner institutions | ✅ PASS |\n| Relational databases and SQL | PostgreSQL, SQL, RDS listed; built SQL-backed persistence | ✅ PASS |\n| Hands-on cloud experience (AWS/Azure/GCP) | AWS: ECS, SQS, SNS, RDS, Lambda — hands-on, not just listed | ✅ PASS |\n| CI/CD pipelines and automated testing | GitHub Actions, JUnit, contract testing, expanded CI coverage | ✅ PASS |\n| Bachelor's degree or equivalent | B.S. Mathematics, Baylor University | ✅ PASS |\n\n**Required: 7/7**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Evidence | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | SQS, SNS — owns event-driven messaging between domains | ✅ |\n| Containerization / orchestration | Docker, ECS — containerized services in production | ✅ (Kubernetes not present, but solid container exp) |\n| Infrastructure-as-code | Terraform explicitly listed and used in current role | ✅ |\n| Financial services / regulated industry | Credit union payments and loan origination — direct match | ✅ |\n| Observability tooling | Datadog listed in skills | ✅ |\n| Mentoring / leading technical initiatives | Currently mentoring two engineers in payments domain | ✅ |\n\n**Preferred: 6/6**\n\n---\n\n### Overall Assessment\n\n- **Strengths:** Exceptional alignment across all required and preferred criteria. Financial services/payments domain experience is a direct match. Senior-level ownership evident. AWS-native stack mirrors likely company infrastructure. Datadog observability, Terraform IaC, and event-driven patterns all present.\n- **Minor Gaps:** No Kubernetes experience (uses ECS instead); no explicit Grafana/Prometheus. Neither is a concern given strong overall fit.\n- **Location:** McKinney, TX — adjacent to Plano, TX. Hybrid arrangement is highly feasible.\n- **Career break:** Clearly explained (family leave); candidate is actively employed in a senior role since return.\n\n**Overall Score: 13/13 criteria met | Strong Advance**\n\n---\n\nFINAL: ADVANCE"
+}

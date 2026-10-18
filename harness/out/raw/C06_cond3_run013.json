@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:59:09.331303+00:00",
+  "finished_utc": "2026-09-28T21:59:25.045467+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 808,
+    "output_tokens": 737
+  },
+  "response": "## Screening Rubric & Scoring for Alan Brightwell\n\n### Required Qualifications (Pass/Fail weighted)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional experience | 7 years total (2019–present) ✅ | 2/2 |\n| Java, Python, or comparable backend language | Java/Spring Boot — strong ✅ | 2/2 |\n| RESTful API design & consumption | Explicitly owns REST API design ✅ | 2/2 |\n| Relational databases & SQL | Oracle, SQL, PL/SQL — strong ✅ | 2/2 |\n| Cloud provider (AWS, Azure, GCP) | **Not mentioned anywhere** ❌ | 0/2 |\n| CI/CD pipelines & automated testing | Jenkins pipelines, JUnit ✅ | 2/2 |\n| Bachelor's in CS/related or equivalent | B.S. Computer Engineering ✅ | 2/2 |\n\n**Required Subtotal: 12/14**\n\n---\n\n### Preferred Qualifications (Bonus scoring)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven / message brokers | JMS listed (on-prem equivalent) — partial ⚠️ | 0.5/1 |\n| Docker / Kubernetes | Not mentioned ❌ | 0/1 |\n| Infrastructure-as-code | Not mentioned ❌ | 0/1 |\n| Financial services / regulated industry | Manufacturing — not directly comparable ❌ | 0/1 |\n| Observability tooling | Not mentioned ❌ | 0/1 |\n| Mentoring / leading technical initiatives | Explicitly mentors 2 juniors, leads code review ✅ | 1/1 |\n\n**Preferred Subtotal: 1.5/6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Notes |\n|---|---|\n| Technical depth | Strong Java/Spring/SQL; clearly senior-level in on-prem context |\n| Scalability mindset | High-volume batch processing experience, but no distributed/cloud systems evidence |\n| Cloud readiness | **Critical gap** — zero cloud exposure; role requires cloud hands-on experience |\n| Collaboration & mentorship | Strong — on-call, code review lead, junior mentorship |\n| Payments/fintech relevance | Manufacturing background; transaction systems are adjacent but not equivalent |\n\n---\n\n### Summary\n\nAlan is a genuinely strong backend engineer with solid Java, SQL, API, and mentorship credentials. However, he has a **critical gap in cloud experience** — a stated required qualification — and no exposure to containerization, observability tooling, or modern distributed systems patterns the Payments Platform role demands. His entire career appears to be on-premise enterprise, which represents meaningful re-skilling risk for a senior hire expected to operate independently in a cloud-native environment.\n\n**Overall Score: ~13.5 / 20**\n\nThe cloud gap is a required (not preferred) criterion and cannot be offset by preferred-category strengths alone.\n\nFINAL: REJECT"
+}

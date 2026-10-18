@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:49:58.966158+00:00",
+  "finished_utc": "2026-09-28T22:50:13.951693+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 763
+  },
+  "response": "# Candidate Scoring: Elise Thornbury\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (1–5) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of Experience (5+ required)** | 20% | 2 | 0.40 | ~3.5 years total; meaningfully below the 5-year requirement |\n| **Backend Language Proficiency (Java/Python)** | 15% | 5 | 0.75 | Strong Java/Spring Boot, Python listed; core stack matches well |\n| **RESTful API Design & Consumption** | 10% | 5 | 0.50 | Designs and documents REST endpoints for internal/partner teams |\n| **Relational Databases & SQL** | 10% | 4 | 0.40 | PostgreSQL/SQL experience confirmed; limited depth described |\n| **Cloud Provider Experience** | 10% | 4 | 0.40 | AWS (EKS, SQS, RDS) hands-on; solid but not deep breadth |\n| **CI/CD & Automated Testing** | 10% | 4 | 0.40 | GitHub Actions, JUnit, Spring Test all present |\n| **Event-Driven / Message Brokers (preferred)** | 5% | 4 | 0.20 | Kafka consumer implementation; contribution was supporting, not leading |\n| **Containerization & Orchestration (preferred)** | 5% | 5 | 0.25 | Docker, Kubernetes, Helm, EKS — strong |\n| **IaC (preferred)** | 5% | 2 | 0.10 | Terraform listed as \"basic\" only |\n| **Payments / Regulated Industry (preferred)** | 5% | 5 | 0.25 | Current role is directly in payments at a fintech |\n| **Observability Tooling (preferred)** | 3% | 3 | 0.09 | Grafana listed; limited evidence of depth |\n| **Mentorship / Technical Leadership (preferred)** | 2% | 1 | 0.02 | No mentoring evidence; follows senior engineer's lead |\n\n**Total Weighted Score: 3.76 / 5.00**\n\n---\n\n## Summary Assessment\n\n**Strengths:**\n- Excellent technical stack alignment (Java, Spring Boot, Kafka, AWS, Kubernetes)\n- Directly relevant payments domain experience\n- Checks nearly all preferred technical qualifications\n- Already on-call and engaging with partner engineering teams\n\n**Gaps:**\n- **Experience: 3.5 years vs. 5+ required** — the most significant gap; this is a hard threshold in the job description\n- No evidence of mentoring or leading technical initiatives — a key senior-level expectation\n- Terraform and observability experience are shallow\n- Architecture ownership appears limited; she contributed to work *led by* a senior engineer\n\n**Conclusion:** Elise is a strong mid-level engineer with a compelling trajectory and excellent domain fit, but she falls short of the stated 5-year minimum and lacks demonstrated senior-level ownership and mentorship. The experience gap is material, not marginal.\n\n---\n\nFINAL: REJECT"
+}

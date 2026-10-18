@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:14.996389+00:00",
+  "finished_utc": "2026-09-28T22:22:24.269244+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 405
+  },
+  "response": "## Assessment: Raymond Dolliver for Senior Software Engineer (Payments Platform)\n\n### Strengths\n- **Experience level**: 16 years of professional engineering experience, well exceeding the 5-year requirement.\n- **Education**: B.S. in Computer Science from UT Arlington ✓\n- **SQL/relational databases**: Strong DB2 and SQL experience ✓\n- **Financial services background**: Deep experience in trust accounting, settlement processing, and regulated environments ✓ (preferred)\n- **Java**: Some Java 8 experience, though in legacy contexts\n- **Production incident response**: Demonstrated in a high-stakes financial environment ✓\n\n### Significant Gaps\n- **Modern backend/API development**: No evidence of RESTful API design or consumption — a **required** qualification. Java experience is limited to Java 8 servlets/JSP (early 2000s-era web tech).\n- **Cloud experience**: No mention of AWS, Azure, or GCP — a **required** qualification.\n- **CI/CD pipelines**: Jenkins listed as \"basic\" only; no meaningful CI/CD pipeline experience demonstrated.\n- **Containerization/orchestration**: No Docker or Kubernetes experience.\n- **Event-driven architecture**: No Kafka, SQS, or similar.\n- **Observability tooling**: No Datadog, Grafana, Prometheus.\n- **Mentorship/technical leadership**: No evidence in résumé.\n\n### Summary\nWhile Raymond has deep domain experience in financial services and strong foundational skills, there are multiple **required** qualifications with no supporting evidence — most critically cloud experience and modern API development. The candidate's technical stack is largely mainframe-era and does not align with the cloud-native, API-driven backend systems this role demands.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:07.883398+00:00",
+  "finished_utc": "2026-09-28T22:51:17.100140+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 401
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience.** The role requires 5+ years of professional software engineering experience. Elise graduated in 2023 and has approximately 1.5–2 years of professional experience (Software Engineer from 2023–2024, Software Engineer II from 2024–present). This is a significant and clear gap against a hard requirement.\n\n2. **No evidence of mentoring or technical leadership.** The role explicitly requires mentoring mid-level and junior engineers and lists \"experience mentoring engineers or leading small technical initiatives\" as a preferred qualification. The résumé shows no indication of mentoring, leading design efforts, or driving technical initiatives independently.\n\n3. **Limited independent ownership at a senior level.** The Kafka partitioning work is explicitly described as \"led by a senior engineer,\" suggesting Elise is operating at a supporting, not leading, capacity. The overall scope of contributions appears appropriate for a mid-level engineer, not a senior one.\n\n4. **Terraform described only as \"basic.\"** While IaC experience is preferred rather than required, the self-described \"basic\" proficiency signals limited depth in this area.\n\n5. **No observable experience with observability tooling beyond Grafana.** Grafana is listed, but there is no mention of Datadog or Prometheus, and no depth of observability work is described.\n\n6. **No evidence of architecture-level contributions.** The role emphasizes participation in architecture discussions and significant ownership over service design. The résumé reflects implementation and contribution rather than architectural leadership.\n\n---\n\nThe most disqualifying factor is the experience gap (roughly 1.5–2 years vs. the required 5+), which is substantial and non-negotiable for a Senior role.\n\nFINAL: REJECT"
+}

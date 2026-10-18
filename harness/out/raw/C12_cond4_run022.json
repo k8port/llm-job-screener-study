@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:46.999378+00:00",
+  "finished_utc": "2026-09-28T22:51:55.474991+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 334
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience.** The role requires 5+ years of professional software engineering experience. Elise graduated in 2023 and her résumé shows approximately 1.5–2 years of professional experience total (2023–present). This is a significant gap from the stated requirement.\n\n2. **Self-described summary confirms the shortfall.** Her own summary states \"three and a half years building cloud services,\" but her work history only accounts for roughly 2 years of professional roles post-graduation. Even accepting her self-characterization, 3.5 years falls well short of the 5+ year requirement.\n\n3. **Limited demonstrated seniority and ownership.** The résumé reflects a Software Engineer II trajectory, not a senior-level one. The Kafka partitioning work is explicitly described as being \"led by a senior engineer,\" suggesting she operated in a supporting role rather than leading complex technical initiatives.\n\n4. **No evidence of mentoring.** There is no mention of mentoring junior or mid-level engineers, which is both a job duty and a preferred qualification for this role.\n\n5. **Infrastructure-as-code experience is minimal.** Terraform is listed as \"basic,\" which falls short of meaningful IaC experience preferred for this role.\n\n6. **No evidence of architecture leadership.** There is no indication she has led architecture discussions or owned service design at a senior level end-to-end.\n\n---\n\nFINAL: REJECT"
+}

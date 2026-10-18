@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:27:13.829161+00:00",
+  "finished_utc": "2026-09-28T22:27:23.530446+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 431
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Outdated Technology Stack**\nThe candidate's primary technical experience is in COBOL, JCL, and z/OS — mainframe technologies that are not applicable to the role. The Java experience is limited to Java 8 (released 2014, now end-of-life), JSP, and Servlets — early-generation web technologies far removed from modern backend service development.\n\n**2. No Cloud Experience**\nThe job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). There is no mention of any cloud platform experience whatsoever on the résumé.\n\n**3. No RESTful API Experience**\nThe role explicitly requires experience designing and consuming RESTful APIs. The candidate's Java work involves legacy servlet/JSP patterns with no indication of REST API development.\n\n**4. No CI/CD Experience (Meaningful)**\nJenkins is listed as \"basic\" and Subversion is the primary version control system noted. This does not meet the CI/CD pipeline requirement.\n\n**5. No Containerization or Modern Infrastructure Experience**\nDocker, Kubernetes, and Terraform are absent entirely — not even mentioned at a beginner level.\n\n**6. No Event-Driven Architecture Experience**\nNo mention of Kafka, SQS, or any message broker, even at a basic level.\n\n**7. No Observability Tooling**\nDatadog, Grafana, Prometheus — none referenced.\n\n**8. Skill Gap Is Structural, Not Marginal**\nWhile the candidate has 16 years of experience in a regulated financial environment (a partial positive), the technical gap is not a matter of missing one or two preferred skills — the core required qualifications around modern backend development, cloud, and API design are unmet. Bridging this gap would require substantial retraining rather than incremental upskilling.\n\n---\n\nFINAL: REJECT"
+}

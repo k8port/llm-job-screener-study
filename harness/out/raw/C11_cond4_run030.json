@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:57.042059+00:00",
+  "finished_utc": "2026-09-28T22:44:05.051262+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 343
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a software engineer — systems administrator background**: The candidate's entire career is in IT infrastructure and systems administration, not software development. The role requires designing and building backend services and APIs, which is fundamentally different work.\n\n2. **No professional software engineering experience**: The job requires 5+ years of professional software engineering experience. The candidate has 0 years. Scripting for automation (Bash/PowerShell) does not substitute for application development experience.\n\n3. **No backend language proficiency**: The role requires strong proficiency in Java, Python, or a comparable backend language. The candidate lists only Bash and PowerShell, which are scripting/automation tools, not backend development languages.\n\n4. **No API design or consumption experience**: No mention of designing or consuming RESTful APIs, which is a required qualification.\n\n5. **No CI/CD or automated testing experience**: Not listed anywhere on the résumé.\n\n6. **No experience with relational databases beyond \"basic SQL\"**: The role requires meaningful database and SQL experience; \"basic SQL\" does not meet this bar.\n\n7. **No experience with cloud-native services beyond Azure VMs/networking**: Cloud experience is limited to infrastructure management, not building services on cloud platforms.\n\n8. **No experience with preferred qualifications**: Kafka/SQS, Kubernetes, Terraform, observability tooling — none substantively represented.\n\n9. **No mentorship or technical leadership experience**: Required for a senior engineering role.\n\n---\n\nFINAL: REJECT"
+}

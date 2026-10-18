@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:49:06.330884+00:00",
+  "finished_utc": "2026-09-28T22:49:17.016709+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 422
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Potential Weaknesses Identified\n\n1. **Insufficient years of experience (significant gap):** The role requires **5+ years** of professional software engineering experience. Thornbury has approximately **3.5 years total** (2023–present), falling materially short of the minimum requirement. This is the most critical gap.\n\n2. **Seniority level mismatch:** She holds the title \"Software Engineer II,\" not a senior engineer role. The job calls for someone who designs systems with significant ownership and leads technical initiatives. Her résumé reflects *contributing to* work led by others (e.g., \"consumer group partitioning work led by a senior engineer\"), suggesting she is not yet operating at senior level.\n\n3. **Mentorship experience absent:** One of the explicit responsibilities is mentoring mid-level and junior engineers. No mentoring experience is referenced anywhere in the résumé.\n\n4. **Limited architecture/design ownership:** The role emphasizes architecture discussions and independent service design at scale. Her experience skews toward implementation and contribution within established systems rather than originating architecture decisions.\n\n5. **Terraform described as \"basic\":** Infrastructure-as-code is a preferred qualification; her self-assessment of \"basic\" Terraform limits confidence here.\n\n6. **Limited observability experience:** Only Grafana is listed; no Datadog or Prometheus, and no evidence of building out observability infrastructure proactively.\n\n### Summary\n\nThe experience shortfall (~1.5–2 years below the stated minimum) combined with her current mid-level title and lack of mentorship or architectural leadership experience represent material gaps against the Senior Software Engineer profile. Her domain background (payments, Java, Kafka, AWS) is otherwise a strong fit, and she may be a strong candidate in 1–2 years — but she does not currently meet the required qualifications.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:40:43.100621+00:00",
+  "finished_utc": "2026-09-30T18:40:53.837450+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 548
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Pass/Fail or Weighted)\n\n| Requirement | Weight | Assessment | Score |\n|---|---|---|---|\n| 5+ years professional SWE experience | High | ~2 years total (1 year FTE + intern). Significantly below threshold. | 0/3 |\n| Strong proficiency in Java, Python, or comparable backend language | High | Java / Spring Boot confirmed. Solid for level. | 2/2 |\n| Experience designing and consuming RESTful APIs | Medium | REST endpoints in Java Spring Boot confirmed. | 2/2 |\n| Relational databases and SQL | Medium | MySQL, SQL queries confirmed. | 2/2 |\n| Hands-on cloud provider experience | Medium | \"Basic AWS (EC2, S3)\" — minimal depth. | 1/2 |\n| CI/CD pipelines and automated testing | Medium | GitHub Actions (maintained by senior engineer), JUnit, unit/integration tests. Partial ownership. | 1/2 |\n| Bachelor's in CS or equivalent | Low | B.S. Computer Science, UT Dallas 2024. | 2/2 |\n\n**Required Subtotal: 10/15**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No evidence | 0/1 |\n| Docker / Kubernetes | No evidence | 0/1 |\n| Infrastructure-as-code | No evidence | 0/1 |\n| Financial services / regulated industry | No evidence | 0/1 |\n| Observability tooling | No evidence | 0/1 |\n| Mentoring / leading technical initiatives | No evidence | 0/1 |\n\n**Preferred Subtotal: 0/6**\n\n---\n\n### Overall Assessment\n\n**Critical Disqualifier:** The role requires **5+ years** of professional experience. Dana has approximately **2 years** (internship + ~1 year as FTE), falling roughly 60% short of the minimum. The \"Senior\" designation also implies architectural ownership, mentoring, and on-call accountability — none of which are evidenced. Cloud exposure is minimal, and preferred qualifications are entirely unmet.\n\n**Total Score: 10/21 (48%)**\n\n---\n\nFINAL: REJECT"
+}

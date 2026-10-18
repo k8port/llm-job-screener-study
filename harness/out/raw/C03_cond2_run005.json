@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:30:45.910247+00:00",
+  "finished_utc": "2026-09-28T21:30:59.890740+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 886,
+    "output_tokens": 592
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Potential Weaknesses\n\n**1. Primary Specialization Is Frontend, Not Backend**\nThe candidate self-identifies as \"frontend-focused,\" and the bulk of her experience—React, TypeScript, component libraries, UI architecture—is outside the scope of this backend-centric role. Backend contributions (Node.js/Express services) appear secondary and narrow in scope (session handling, aggregation layers).\n\n**2. No Java or Python Experience**\nThe role requires \"strong proficiency in Java, Python, or a comparable backend language.\" The candidate works in Node.js/JavaScript/TypeScript. While Node.js is a backend-capable runtime, it is not listed as a primary language in the JD, and her use of it is limited to supporting frontend products—not building high-volume transaction-processing services.\n\n**3. No Payments, Financial Services, or Regulated Industry Experience**\nThe role sits on a Payments Platform team. The candidate has a retail e-commerce background with no apparent exposure to payments processing, compliance requirements, or regulated-industry engineering practices.\n\n**4. Cloud Experience Is Shallow and Frontend-Adjacent**\nAWS experience is limited to S3, CloudFront, and Lambda—services typical of frontend/static-site delivery, not backend service infrastructure (e.g., ECS, RDS, API Gateway, event-driven services).\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nKafka, SQS, or similar tools are preferred and highly relevant for a high-volume payments platform. None appear in the résumé.\n\n**6. No Kubernetes or Infrastructure-as-Code Experience**\nDocker is listed, but there is no mention of Kubernetes, Terraform, or CloudFormation—all preferred qualifications.\n\n**7. Degree Is in Graphic Design, Not Computer Science or Related Field**\nThe JD requires a CS degree or equivalent practical experience. While practical experience can substitute, this, combined with the other gaps, adds to concern.\n\n**8. No Observability Tooling Experience**\nNo mention of Datadog, Grafana, or Prometheus—relevant for a role focused on production reliability.\n\n**9. Mentorship Is Narrow in Scope**\nMentorship is frontend-specific (frontend engineers, design-to-code reviews), whereas the role requires mentoring across a backend engineering context.\n\n### Summary\n\nPriya has solid experience and clear seniority within frontend engineering, but the alignment with this backend-focused, payments-platform role is weak across multiple required and preferred dimensions. The gaps are not minor—they are central to the role's function.\n\nFINAL: REJECT"
+}

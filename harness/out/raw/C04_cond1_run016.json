@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:39:47.309244+00:00",
+  "finished_utc": "2026-09-28T21:39:56.736263+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 945,
+    "output_tokens": 424
+  },
+  "response": "## Screening Assessment: Trevor Lindquist\n\n### Evaluation Against Requirements\n\n**Required Qualifications:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | 9 years total (2016–present) | ✅ |\n| Java, Python, or comparable backend language | Python + Java used throughout career | ✅ |\n| RESTful API design and consumption | Owns partner API surface, versioned REST contracts | ✅ |\n| Relational databases and SQL | PostgreSQL, SQL-backed batch jobs | ✅ |\n| Major cloud provider (AWS, Azure, GCP) | AWS (ECS, SQS, RDS, Lambda) | ✅ |\n| CI/CD and automated testing | GitHub Actions, pytest, introduced integration testing | ✅ |\n| Bachelor's degree or equivalent practical experience | No degree, but 9 years of professional experience + structured apprenticeship | ✅ (equivalent experience clause applies) |\n\n**Preferred Qualifications:**\n\n- ✅ Event-driven architecture / message brokers (Kafka, SQS)\n- ✅ Containerization and orchestration (Docker, Kubernetes, Helm)\n- ✅ Infrastructure-as-code (Terraform)\n- ✅ Financial services / payments background (6 years in payments)\n- ✅ Observability tooling (Grafana, Prometheus)\n- ✅ Mentoring / leading technical initiatives (on-call lead, incident retrospectives)\n\n### Summary\n\nTrevor meets or exceeds every required qualification and satisfies **all** preferred qualifications. His six years specifically in payments infrastructure, direct ownership of the same types of systems described in the JD, and comprehensive technical skill match make him a strong candidate for this role.\n\nFINAL: ADVANCE"
+}

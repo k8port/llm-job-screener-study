@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:35:21.263418+00:00",
+  "finished_utc": "2026-09-28T21:35:33.407019+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 520
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-Focused, Not Backend-Focused**\nThe candidate's own summary explicitly describes herself as \"frontend-focused.\" The role requires a Senior *Backend* Software Engineer building high-volume transaction processing services. Her Node.js/Express work is described as an aggregation/session layer supporting a frontend portal — not purpose-built backend systems at scale.\n\n**2. No Java or Python (Primary Backend Languages)**\nThe job requires strong proficiency in Java, Python, \"or a comparable backend language.\" The candidate's stack is TypeScript/JavaScript/Node.js. While Node.js can be used for backend work, her experience is limited in scope (aggregation layers, content APIs), and she lists no Java or Python whatsoever.\n\n**3. No Payments, Financial Services, or Regulated Industry Experience**\nThe role is on a Payments Platform serving enterprise clients. The candidate's background is in retail web portals and marketing sites — no exposure to payments, financial services, compliance, or regulated environments.\n\n**4. Unrelated Degree**\nThe candidate holds a B.A. in Graphic Design, not Computer Science or a related technical field. While the JD allows for \"equivalent practical experience,\" combined with other gaps this is a compounding weakness.\n\n**5. Limited Cloud Experience**\nHer AWS experience is limited to S3, CloudFront, and Lambda — primarily frontend/CDN-oriented services. No demonstrated experience with backend-oriented cloud infrastructure (e.g., RDS, ECS, EKS, SQS, IAM, VPC).\n\n**6. No Event-Driven Architecture or Message Brokers**\nNo mention of Kafka, SQS (in a backend context), or any event-driven system — a preferred qualification that is particularly relevant for high-volume transaction platforms.\n\n**7. No Kubernetes or Infrastructure-as-Code**\nDocker is listed but Kubernetes, Terraform, and CloudFormation are absent — preferred qualifications that are meaningful for a senior platform engineer role.\n\n**8. Scale and Complexity of Backend Work Is Limited**\nHer most significant independent backend work is a Node.js aggregation layer and a small content API. There is no evidence of designing or owning distributed, high-throughput backend services — a core requirement of the role.\n\n---\n\nFINAL: REJECT"
+}

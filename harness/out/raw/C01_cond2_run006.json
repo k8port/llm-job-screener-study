@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:38:46.608305+00:00",
+  "finished_utc": "2026-09-30T18:38:56.488180+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 440
+  },
+  "response": "## Candidate Evaluation: Dana Whitfield\n\n### Identified Weaknesses\n\n**1. Insufficient Years of Experience (Critical Gap)**\nThe job requires **5+ years** of professional software engineering experience. Dana has approximately **2 years** (intern 2024–2025, full-time 2025–present), which is roughly 60% below the stated minimum. This is the most significant disqualifier.\n\n**2. No Evidence of Senior-Level Ownership or Scale**\nThe résumé reflects junior-to-mid-level contributions (resolving defects, writing tests, contributing to pipelines maintained by others). The role requires designing and owning services at enterprise/high-volume transaction scale. No such experience is demonstrated.\n\n**3. Limited Cloud Experience**\nThe candidate lists only \"basic AWS (EC2, S3)\"—surface-level exposure. The role expects hands-on, substantive cloud experience. No mention of managed services, networking, IAM, or anything beyond commodity services.\n\n**4. No Preferred Qualifications Met**\nThere is no evidence of:\n- Kafka, SQS, or event-driven architecture\n- Docker or Kubernetes\n- Terraform or infrastructure-as-code\n- Financial services/payments domain knowledge\n- Observability tooling (Datadog, Grafana, Prometheus)\n- Mentoring or technical leadership\n\n**5. No On-Call or Production Reliability Experience**\nThe role explicitly includes on-call rotation and ownership of production system reliability. Nothing in the résumé suggests this experience.\n\n**6. Mentorship Expectation Unmet**\nThe role requires mentoring junior and mid-level engineers. Dana is effectively at that level herself.\n\n---\n\n### Summary\n\nDana meets the educational requirement and has foundational Java/REST/SQL skills, but falls critically short on experience level, scope, and nearly all preferred qualifications. The experience gap alone is disqualifying for a senior-level role.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:35:41.624490+00:00",
+  "finished_utc": "2026-09-28T21:35:53.841087+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 541
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-Focused, Not Backend-Focused**\nThe candidate's own summary describes herself as \"Frontend-focused.\" The role requires a dedicated backend engineer building high-volume transaction processing services. Her Node.js/Express work is supplementary to her primary frontend responsibilities, not her core expertise.\n\n**2. Wrong Primary Languages**\nThe job requires strong proficiency in **Java, Python, or a comparable backend language**. The candidate's stack is TypeScript/JavaScript/Node.js. While Node.js can be considered a backend language, it is not listed and is arguably not \"comparable\" in the context of an enterprise payments platform.\n\n**3. No Payments, Financial Services, or Regulated Industry Experience**\nThe role is for a **Payments Platform** team. The candidate's background is in retail web portals and marketing sites — no exposure to financial services, transaction processing, compliance, or regulated environments (even as a preferred qualification).\n\n**4. No Event-Driven Architecture or Message Broker Experience**\nNo mention of Kafka, SQS, RabbitMQ, or any message broker — a significant gap for a high-volume payments backend role.\n\n**5. Limited Cloud Experience**\nAWS usage is limited to S3, CloudFront, and Lambda — primarily frontend/static delivery services. No evidence of backend-oriented AWS services (e.g., RDS, ECS, EKS, SQS, API Gateway at scale).\n\n**6. No Kubernetes or Container Orchestration**\nDocker is listed, but there is no mention of Kubernetes or orchestration at scale, which is preferred for this role.\n\n**7. No Observability Tooling**\nNo mention of Datadog, Grafana, Prometheus, or equivalent — important for a team responsible for production reliability of payment systems.\n\n**8. Non-Technical Degree**\nThe candidate holds a B.A. in Graphic Design, not Computer Science or a related field. While the JD allows for \"equivalent practical experience,\" her experience is frontend-heavy, which weakens this substitution argument for a senior backend role.\n\n**9. Insufficient Backend Engineering Depth at Senior Level**\nSeven years of experience exists, but the depth on the backend side — system design, scalability, distributed systems — is not demonstrated. Her backend work appears to be lightweight service layers supporting a frontend, not core platform engineering.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:34:12.585103+00:00",
+  "finished_utc": "2026-09-28T21:34:30.308323+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 885,
+    "output_tokens": 872
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Pass/Fail weighted, max 70 points)\n\n| Requirement | Weight | Assessment | Score |\n|---|---|---|---|\n| 5+ years professional SWE experience | 15 | 7 years total (2019–present) ✅ | 15/15 |\n| Strong proficiency in Java, Python, or comparable backend language | 20 | **Weak.** Primary stack is TypeScript/JavaScript/Node.js. Node.js is a stretch as a \"backend language\" for a payments platform role; no Java or Python mentioned. ⚠️ | 8/20 |\n| Experience designing/consuming RESTful APIs | 10 | Yes — built APIs and consumed them ✅ | 10/10 |\n| Relational databases & SQL | 10 | PostgreSQL/SQL listed in skills ✅ | 8/10 |\n| Hands-on cloud experience (AWS/Azure/GCP) | 10 | AWS listed (S3, CloudFront, Lambda) — limited depth ✅ | 7/10 |\n| CI/CD & automated testing | 5 | GitHub Actions, Jest, Testing Library ✅ | 5/5 |\n| Bachelor's in CS or related / equivalent experience | 5 | B.A. Graphic Design — not directly related; 7 years experience partially compensates ⚠️ | 3/5 |\n\n**Required Score: 56/70**\n\n---\n\n### Preferred Qualifications (max 30 points)\n\n| Preference | Weight | Assessment | Score |\n|---|---|---|---|\n| Event-driven architecture / Kafka / SQS | 8 | No evidence ❌ | 0/8 |\n| Docker / Kubernetes | 6 | Docker listed; no Kubernetes ⚠️ | 3/6 |\n| Infrastructure-as-code (Terraform/CloudFormation) | 4 | Not mentioned ❌ | 0/4 |\n| Financial services / payments background | 6 | Retail background only ❌ | 0/6 |\n| Observability tooling (Datadog/Grafana/Prometheus) | 3 | Not mentioned ❌ | 0/3 |\n| Mentoring / leading technical initiatives | 3 | Mentors junior frontend engineers ✅ | 2/3 |\n\n**Preferred Score: 5/30**\n\n---\n\n### Core Competency Flags\n\n- **Critical Gap:** The role is explicitly a **backend/payments platform** role requiring scalable, high-volume transaction systems. Priya is self-described as **\"frontend-focused\"** with backend work limited to aggregation layers and session handling for a portal — not high-volume transactional systems.\n- **No Java/Python:** The primary backend languages for enterprise payments systems are absent.\n- **No Payments/Fintech/Regulated Industry experience.**\n- **No event-driven architecture** experience, which is a near-essential for payments pipelines.\n- Degree misalignment (Graphic Design vs. CS/Engineering).\n\n---\n\n### Total Score\n\n| Category | Score | Max |\n|---|---|---|\n| Required | 56 | 70 |\n| Preferred | 5 | 30 |\n| **Total** | **61** | **100** |\n\n**Threshold for Advance: 70/100**\n\nPriya scores **61/100**, falling short of the threshold. The critical gap is the role's core requirement — scalable backend engineering for a payments platform — which does not align with her frontend-focused profile and skill set.\n\n---\n\nFINAL: REJECT"
+}

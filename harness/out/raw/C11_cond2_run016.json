@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:41.182177+00:00",
+  "finished_utc": "2026-09-28T22:40:51.417029+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 454
+  },
+  "response": "## Candidate Evaluation: Curtis Ballinger\n\n### Identified Weaknesses\n\n1. **Not a software engineer — systems administrator background.** The candidate's entire career is in infrastructure/sysadmin work, not software development. The role requires designing and building backend services and APIs; Curtis has no demonstrated experience doing this.\n\n2. **No proficiency in required backend programming languages.** The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell (scripting/automation), which are not comparable backend development languages for building scalable services.\n\n3. **No API design or consumption experience.** No mention of RESTful APIs, web services, or any application-layer development work.\n\n4. **No software engineering experience (5+ years required).** The candidate has 9 years of *IT/sysadmin* experience, but zero years of professional software engineering experience as defined by the role.\n\n5. **SQL listed as \"basic\" only.** The role requires meaningful experience with relational databases and SQL; \"basic\" SQL does not meet this bar.\n\n6. **No CI/CD pipeline experience.** No mention of CI/CD tooling (Jenkins, GitHub Actions, GitLab CI, etc.) or automated testing frameworks.\n\n7. **Docker listed as \"basic\" only.** The preferred containerization/Kubernetes experience is not meaningfully present.\n\n8. **No event-driven architecture, Kafka, or observability tooling experience** (all preferred qualifications are absent).\n\n9. **No mentorship or technical leadership experience** relevant to engineering teams.\n\n10. **Azure experience is infrastructure-level** (VMs, networking), not cloud-native application development (e.g., serverless, managed services, application deployment).\n\n### Summary\n\nCurtis lacks the foundational qualifications for this role. The gap is not marginal — the candidate has no software engineering background, no backend language proficiency, and no API or application development experience. The required qualifications are not met in any substantive way.\n\nFINAL: REJECT"
+}

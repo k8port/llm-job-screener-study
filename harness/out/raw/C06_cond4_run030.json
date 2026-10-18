@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:01:23.882748+00:00",
+  "finished_utc": "2026-09-28T22:01:34.172873+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 414
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No cloud experience.** The job description lists hands-on experience with a major cloud provider (AWS, Azure, or GCP) as a **required** qualification. Alan's résumé shows exclusively on-premise enterprise environment experience, with no mention of any cloud platform.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins.** While Jenkins is mentioned in the context of adding integration test stages, there is no evidence of a mature CI/CD practice. The job requires meaningful CI/CD pipeline experience, and this is a thin reference.\n\n3. **No containerization or orchestration experience.** Docker and Kubernetes are preferred qualifications with significant weight for a cloud-native payments platform role. There is no mention of either.\n\n4. **No event-driven architecture or message broker experience at scale.** JMS is listed as a skill, but there is no mention of Kafka, SQS, or comparable modern distributed messaging systems, which are a preferred qualification and common in high-volume payments platforms.\n\n5. **No financial services or payments domain experience.** The role is specifically on a Payments Platform for enterprise clients in what is implied to be a regulated environment. Alan's background is manufacturing/operations.\n\n6. **No observability tooling experience.** Datadog, Grafana, and Prometheus are not mentioned anywhere in the résumé.\n\n7. **Entirely on-premise background.** The overall technology posture (Oracle, on-prem Linux, JMS, Jenkins) suggests limited exposure to modern cloud-native architecture patterns expected in this role.\n\n---\n\nThe candidate meets several baseline requirements (Java, REST APIs, SQL, mentoring, code review, on-call), but fails to meet the **required** cloud experience qualification and is weak or absent across multiple preferred qualifications that are central to this role's context.\n\nFINAL: REJECT"
+}

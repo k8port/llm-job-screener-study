@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:34:55.234892+00:00",
+  "finished_utc": "2026-09-28T21:35:06.080725+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 463
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-First Profile, Not a Backend Engineer**\nThe candidate explicitly self-identifies as \"frontend-focused.\" The role requires a backend engineer designing and building scalable backend services and APIs for a high-volume payments platform. Her backend work (Node.js/Express) is described as supporting her own frontend — an aggregation/session layer — not core backend service design.\n\n**2. Wrong Primary Language Stack**\nThe job requires strong proficiency in **Java, Python, or a comparable backend language**. The candidate's languages are TypeScript/JavaScript/Node.js. While Node.js can be used for backend work, it is not listed among the required or preferred languages, and her use of it is limited in scope.\n\n**3. No Cloud Infrastructure Depth**\nHer AWS experience is limited to S3, CloudFront, and Lambda — largely frontend/CDN-adjacent services. The role expects hands-on cloud experience relevant to backend platform engineering (e.g., compute, networking, managed services).\n\n**4. No Event-Driven Architecture or Message Brokers**\nNo mention of Kafka, SQS, or similar systems, which are preferred and highly relevant for a high-volume payments platform.\n\n**5. No Payments, Fintech, or Regulated Industry Experience**\nThe role is on a Payments Platform; industry background is a preferred qualifier she does not meet.\n\n**6. Non-Technical Degree**\nShe holds a B.A. in Graphic Design. While the JD allows for \"equivalent practical experience,\" combined with the other gaps this adds to the overall mismatch.\n\n**7. No Observability, Kubernetes, or Infrastructure-as-Code Experience**\nNone of the preferred tooling (Datadog, Grafana, Terraform, Kubernetes) appears on her résumé.\n\n**8. Mentorship Is Narrow**\nShe mentors junior *frontend* engineers and conducts design-to-code reviews — not the backend engineering mentorship and technical leadership the role envisions.\n\n---\n\nFINAL: REJECT"
+}

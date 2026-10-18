@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:21:48.931154+00:00",
+  "finished_utc": "2026-09-28T22:21:58.061931+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 396
+  },
+  "response": "## Assessment\n\n**Strengths:**\n- 16 years of professional experience (far exceeds the 5-year requirement)\n- B.S. in Computer Science ✓\n- SQL/DB2 experience ✓\n- Java experience (Java 8) ✓\n- Financial services / regulated industry background ✓\n- Production incident management and high-priority system support ✓\n\n**Significant Gaps:**\n\n- **Cloud experience**: No mention of AWS, Azure, or GCP — this is a required qualification\n- **RESTful API design/consumption**: Java 8 services are mentioned but no explicit REST API experience described; primarily mainframe/batch work\n- **CI/CD pipelines**: Jenkins listed as \"basic\"; no evidence of meaningful CI/CD experience\n- **Modern backend development**: Stack is heavily mainframe-oriented (COBOL, JCL, z/OS, JSP, Servlets) — not aligned with building scalable modern backend services\n- **No containerization** (Docker/Kubernetes): Not mentioned\n- **No event-driven architecture** (Kafka, SQS): Not mentioned\n- **No observability tooling**: Not mentioned\n- **Mentorship**: No evidence of mentoring or leading technical initiatives\n- **Version control**: Git listed as \"basic\" — a concern for a senior role in 2024\n\n**Conclusion:**\n\nWhile Raymond has deep experience in financial services and strong SQL skills, his technical profile is centered on legacy mainframe technologies. Multiple *required* qualifications are absent (cloud, modern CI/CD, RESTful APIs at scale), and the gap between his current stack and the role's expectations is substantial. There is insufficient evidence he could successfully perform this role as described without significant re-skilling.\n\nFINAL: REJECT"
+}

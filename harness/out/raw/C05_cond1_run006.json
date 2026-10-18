@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:48:13.100754+00:00",
+  "finished_utc": "2026-09-28T21:48:20.045336+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 321
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional software engineering experience | 6 years, but as a **data analyst**, not software engineer | ❌ |\n| Strong proficiency in Java, Python, or comparable backend language | Python used for scripting/data cleaning; no backend development | Partial |\n| Experience designing and consuming RESTful APIs | No mention anywhere | ❌ |\n| Experience with relational databases and SQL | Strong SQL experience (Snowflake, SQL Server) | ✅ |\n| Hands-on experience with major cloud provider | \"Basic AWS (S3, Athena)\" — minimal, data-focused only | Weak |\n| Experience with CI/CD pipelines and automated testing | No mention | ❌ |\n| Bachelor's degree in CS or related field | B.S. Statistics | Marginal |\n\n**Summary:**\n\nNora has solid data analytics experience and Python/SQL skills, but her background is fundamentally in **data analysis and reporting**, not software engineering. She has not built backend services, APIs, or distributed systems. She has no demonstrated experience with CI/CD, automated testing, containerization, event-driven architecture, or production software delivery. The role requires hands-on backend engineering ownership at a senior level — there is insufficient evidence she could perform that role.\n\nFINAL: REJECT"
+}

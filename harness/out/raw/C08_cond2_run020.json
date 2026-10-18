@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:35.022031+00:00",
+  "finished_utc": "2026-09-28T22:15:47.709278+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 488
+  },
+  "response": "## Candidate Evaluation: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n1. **Role is QA/Testing, Not Software Development**: Pemberton's entire career has been in quality assurance and test automation. The job requires a Senior *Software Engineer* who designs and builds backend services — a fundamentally different function. His summary even acknowledges he is \"transitioning toward software development,\" signaling he has not yet made that transition.\n\n2. **No Production Backend Development Experience**: There is no evidence of designing, building, or maintaining backend services or APIs in a production capacity. Writing *tests against* REST endpoints is materially different from *building* REST APIs.\n\n3. **Java Usage is Testing-Focused**: While Java is listed and used, it is applied exclusively through Selenium and REST Assured (testing frameworks), not for building application logic, services, or backend systems.\n\n4. **No Cloud Experience**: The role requires hands-on experience with AWS, Azure, or GCP. No cloud platform experience is listed anywhere on the résumé.\n\n5. **No CI/CD Pipeline Ownership**: Maintaining test stages in Jenkins is notably different from owning or designing full CI/CD pipelines for software delivery.\n\n6. **No Database/Backend Architecture Experience**: SQL appears as a skill but there is no demonstrated experience with relational database design, query optimization, or data modeling in a development context.\n\n7. **No Experience with Preferred Qualifications**: Kafka/SQS, Docker/Kubernetes, Terraform, Datadog/Grafana, and payments/fintech domain experience are all absent.\n\n8. **Mentorship/Technical Leadership**: No evidence of mentoring engineers, which is a stated requirement for the senior level.\n\n9. **Years of Relevant Experience**: While five years of total experience technically meets the threshold, none of those years are in software engineering proper, making the \"5+ years\" requirement effectively unmet in spirit and substance.\n\n### Summary\n\nThe candidate has a solid QA background and some transferable technical exposure, but lacks the core competencies this role demands — production backend engineering, cloud experience, API development, and architectural ownership. The gap is too significant for a senior-level hire.\n\nFINAL: REJECT"
+}

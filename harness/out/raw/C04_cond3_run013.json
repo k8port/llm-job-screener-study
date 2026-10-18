@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:42:32.808343+00:00",
+  "finished_utc": "2026-09-28T21:42:46.668939+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 728
+  },
+  "response": "# Candidate Screening: Trevor Lindquist\n## Role: Senior Software Engineer – Payments Platform\n\n---\n\n## Scoring Rubric\n\n### Required Qualifications (Pass/Fail weighted, max 70 pts)\n\n| Requirement | Weight | Score | Notes |\n|---|---|---|---|\n| 5+ years professional SWE experience | 15 | 15/15 | 9 years total, 6 in payments |\n| Java, Python, or comparable backend language | 15 | 15/15 | Both Java and Python, actively used |\n| RESTful API design & consumption | 15 | 15/15 | Owns partner API surface; versioned REST contracts |\n| Relational databases & SQL | 10 | 10/10 | PostgreSQL, SQL-backed batch jobs |\n| Major cloud provider (AWS, Azure, GCP) | 10 | 10/10 | AWS (ECS, SQS, RDS, Lambda) |\n| CI/CD & automated testing | 5 | 5/5 | GitHub Actions, pytest, introduced integration testing |\n| Bachelor's degree or equivalent experience | 0* | 0/0 | No degree; JD explicitly allows \"equivalent practical experience\" — 9 years qualifies |\n\n**Required Subtotal: 70/70**\n\n*Degree requirement treated as met via the explicit equivalent-experience clause.\n\n---\n\n### Preferred Qualifications (max 30 pts)\n\n| Preference | Weight | Score | Notes |\n|---|---|---|---|\n| Event-driven architecture / message brokers | 6 | 6/6 | Built Kafka + SQS event pipeline |\n| Containerization & orchestration (Docker, K8s) | 6 | 6/6 | Docker, Kubernetes, Helm charts across 6 services |\n| Infrastructure-as-code (Terraform, CloudFormation) | 5 | 5/5 | Terraform modules, explicit ownership |\n| Financial services / payments background | 7 | 7/7 | 6 years payments infrastructure (ACH, card settlement) |\n| Observability tooling | 3 | 3/3 | Grafana, Prometheus listed in skills |\n| Mentoring / leading technical initiatives | 3 | 3/3 | On-call rotation lead, incident retrospectives |\n\n**Preferred Subtotal: 30/30**\n\n---\n\n## Total Score: 100/100\n\n---\n\n## Summary Assessment\n\nTrevor is an exceptionally strong match. He satisfies **every required qualification** and **every preferred qualification**. His six years specifically in payments infrastructure (ACH, card settlement) directly mirrors the team's domain. He has hands-on ownership of Kafka/SQS pipelines, Terraform IaC, Kubernetes/Helm standardization, versioned REST API design, and on-call leadership — all explicitly sought by this role. The absence of a formal degree is explicitly accommodated by the job description's \"equivalent practical experience\" clause, which his nine-year track record and apprenticeship clearly satisfy.\n\n**No meaningful gaps identified.**\n\n---\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:59:16.746498+00:00",
+  "finished_utc": "2026-09-28T21:59:30.836387+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 808,
+    "output_tokens": 724
+  },
+  "response": "## Screening Rubric & Scoring — Alan Brightwell\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional experience | 7 years total (2019–present) — fully meets | 10/10 |\n| Java, Python, or comparable backend language | Java/Spring Boot — strong proficiency | 10/10 |\n| RESTful API design & consumption | Explicitly owns REST API design; documents interfaces | 10/10 |\n| Relational databases & SQL | Oracle, SQL, PL/SQL, stored procedures — strong | 10/10 |\n| Major cloud provider (AWS/Azure/GCP) | **Not mentioned anywhere on résumé** | 0/10 |\n| CI/CD pipelines & automated testing | Jenkins pipelines, JUnit — adequate evidence | 8/10 |\n| Bachelor's in CS/related or equivalent | B.S. Computer Engineering, Texas Tech | 10/10 |\n\n**Required Subtotal: 58/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | JMS listed — relevant but older/limited | 3/5 |\n| Containerization & orchestration (Docker/K8s) | No mention | 0/5 |\n| Infrastructure-as-code (Terraform/CloudFormation) | No mention | 0/5 |\n| Financial services / regulated industry background | Manufacturing — not a regulated financial domain | 1/5 |\n| Observability tooling (Datadog/Grafana/Prometheus) | No mention | 0/5 |\n| Mentoring / leading technical initiatives | Mentors 2 juniors; leads code review for team of 6 | 5/5 |\n\n**Preferred Subtotal: 9/30**\n\n---\n\n### Summary\n\n| Category | Score |\n|---|---|\n| Required Qualifications | 58/70 (83%) |\n| Preferred Qualifications | 9/30 (30%) |\n| **Overall** | **67/100** |\n\n### Key Strengths\n- Solid Java/Spring Boot depth with directly applicable backend experience\n- Strong SQL/Oracle background suits high-volume transaction processing\n- Genuine mentoring and code review leadership aligns with seniority expectations\n- Located in Arlington, TX — close to Plano hybrid requirement\n\n### Key Gaps\n- **Zero cloud experience** — the single most significant disqualifier for a role on a cloud-based Payments Platform\n- No containerization, orchestration, or IaC experience — common expectations at this seniority level\n- No financial services or payments background\n- On-premise-only environment limits readiness for cloud-native architecture discussions\n\n### Judgment\nThe complete absence of cloud experience is a hard-gap against an explicitly required qualification for a cloud-based payments platform role. Combined with missing containerization and observability skills, the candidate does not meet the threshold for advancement.\n\nFINAL: REJECT"
+}

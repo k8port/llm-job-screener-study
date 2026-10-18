@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:42.751338+00:00",
+  "finished_utc": "2026-09-30T18:39:53.227514+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 452
+  },
+  "response": "## Screening Assessment: Dana Whitfield\n\n### Identified Weaknesses\n\n1. **Insufficient years of experience.** The role requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, engineer 2025–present). This is a critical gap and likely the most disqualifying factor.\n\n2. **No demonstrated experience with cloud platforms beyond basics.** The résumé lists only \"basic AWS (EC2, S3),\" which falls well short of the hands-on cloud experience required for a senior role designing and maintaining production systems.\n\n3. **No experience with CI/CD ownership.** Dana contributes to a GitHub Actions pipeline \"maintained by a senior engineer,\" indicating limited ownership or depth in CI/CD — a required qualification.\n\n4. **No experience with event-driven architecture or message brokers.** Kafka, SQS, and similar technologies are listed as preferred qualifications; Dana shows no exposure.\n\n5. **No experience with containerization or orchestration (Docker/Kubernetes).** A preferred qualification with no evidence on the résumé.\n\n6. **No mentorship or technical leadership experience.** The role involves mentoring junior/mid-level engineers; Dana is at the beginning of their career and shows no such experience.\n\n7. **No exposure to financial services, payments, or regulated industries.** Preferred but entirely absent.\n\n8. **No observability tooling experience.** Datadog, Grafana, Prometheus — none referenced.\n\n9. **Limited scope of work.** Current role involves an internal inventory service with modest scale; no evidence of high-volume, distributed, or enterprise-scale system experience.\n\n### Summary\n\nDana is a junior engineer at the very start of their career. While the technical foundation (Java, REST APIs, SQL, testing) is directionally relevant, the candidate falls critically short on experience level, cloud depth, system scale, and every preferred qualification. This is a mismatch for a **Senior** Software Engineer role.\n\nFINAL: REJECT"
+}

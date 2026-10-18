@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:27:07.913520+00:00",
+  "finished_utc": "2026-09-28T22:27:18.605603+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 490
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Outdated Technology Stack**\nThe candidate's primary expertise is in COBOL, JCL, z/OS, and JSP/Servlets — legacy mainframe technologies with no meaningful relevance to the modern backend services environment described in the job description.\n\n**2. Insufficient Modern Java Experience**\nWhile Java 8 is listed, the role implies current, modern Java development for scalable microservices. Java 8 (released 2014) used in a mainframe-adjacent context suggests limited exposure to modern Java ecosystems, frameworks (Spring Boot, etc.), or contemporary backend service patterns.\n\n**3. No Cloud Experience**\nThe job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). The candidate lists none. This is a required qualification.\n\n**4. No CI/CD or Automated Testing Experience**\nJenkins is listed as \"basic\" and there is no mention of automated testing — both are required qualifications.\n\n**5. No RESTful API Design/Consumption Experience**\nThe role requires designing and consuming RESTful APIs. The candidate shows no evidence of this.\n\n**6. No Containerization or Modern Infrastructure Experience**\nNo Docker, Kubernetes, Terraform, or infrastructure-as-code experience is listed.\n\n**7. No Event-Driven Architecture Experience**\nNo Kafka, SQS, or equivalent messaging systems are mentioned.\n\n**8. No Observability Tooling**\nNo Datadog, Grafana, Prometheus, or similar tools are referenced.\n\n**9. Version Control is Minimal**\nGit is listed as \"basic,\" which is inadequate for a senior engineering role in a modern software team.\n\n**10. Technology Trajectory Concern**\nSixteen years of experience predominantly spent on mainframe batch processing suggests limited exposure to the distributed, cloud-native, API-first architecture this role demands.\n\n---\n\nDespite the candidate's genuine strengths — longevity in a regulated financial environment, SQL expertise, production incident management, and domain knowledge in trust/settlement processing — the gaps against the required qualifications are too numerous and fundamental for a senior role in a modern payments platform.\n\nFINAL: REJECT"
+}

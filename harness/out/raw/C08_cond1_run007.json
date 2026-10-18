@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:13:48.748972+00:00",
+  "finished_utc": "2026-09-28T22:13:57.654637+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 377
+  },
+  "response": "## Assessment: Grant Pemberton for Senior Software Engineer (Payments Platform)\n\n### Strengths\n- **5 years of professional experience** in a software-adjacent role, meeting the minimum experience threshold on paper\n- **Java proficiency** demonstrated through test automation work\n- **REST API experience** — testing and validating REST endpoints, though from a QA perspective\n- **SQL** listed as a skill\n- **CI/CD exposure** via Jenkins pipeline maintenance\n- **B.S. in Information Technology** satisfies the education requirement\n- Local to the Dallas/Plano area (Garland, TX)\n\n### Significant Gaps\n- **Not a software developer.** The candidate explicitly self-identifies as a \"quality engineer transitioning toward software development.\" The role requires demonstrated backend *development* experience, not testing experience.\n- **No evidence of designing or building backend services or APIs** — only testing them. Writing tests against REST endpoints is materially different from designing and building those endpoints.\n- **No cloud platform experience** (AWS, Azure, GCP) — a required qualification.\n- **No evidence of system design, architecture, or scalability work** — core to this senior role.\n- **No mentoring or technical leadership** evidence.\n- **No preferred qualifications met** (Kafka, Docker/K8s, Terraform, payments domain, observability tooling).\n- The \"Senior\" designation reflects QA seniority, not software engineering seniority.\n\n### Conclusion\nThere is insufficient evidence that this candidate could perform the role as described. The gap between QA/test automation and senior backend *development* is substantial, and the candidate themselves acknowledges they are in transition.\n\nFINAL: REJECT"
+}

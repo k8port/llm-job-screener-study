@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:23:11.957289+00:00",
+  "finished_utc": "2026-09-28T21:23:24.040561+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 433
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Potential Weaknesses Identified\n\n1. **Terraform listed only in Skills, not demonstrated in experience bullets.** While Terraform appears in the skills section, no specific project or work context describes its use. This is a preferred qualification, so it's a minor gap, but the depth of IaC experience is unverifiable from the résumé alone.\n\n2. **Python listed in Skills but absent from experience.** The job description calls for strong proficiency in Java, Python, or a comparable language. Java is clearly demonstrated, but Python appears only in the skills list with no supporting work experience. This raises a question about actual Python proficiency vs. familiarity.\n\n3. **Limited breadth of cloud platform experience described.** AWS is evident (EKS, SQS, RDS, Lambda), but the experience descriptions lean heavily on containerization/EKS context. Broader AWS architectural ownership isn't explicitly described.\n\n4. **Observability depth is thin.** Datadog is listed in skills, but no experience bullet describes meaningful observability work (e.g., building dashboards, alerting, instrumentation). One performance improvement is mentioned but without observability tooling as the mechanism.\n\n5. **Mentorship scope is modest.** Two engineers mentioned; the role asks for mentoring mid-level *and* junior engineers and leading small technical initiatives. Leadership scope could be stronger.\n\n### Countervailing Strengths\n\nThe weaknesses above are relatively minor and largely confined to preferred (not required) qualifications. Marcus meets or exceeds every required qualification: 8 years of experience, strong Java proficiency demonstrated in production, RESTful API design, PostgreSQL/SQL, AWS, CI/CD, automated testing, and a relevant CS degree. He also brings highly relevant domain experience (financial services/payments) and checks most preferred qualifications (Kafka, Docker/Kubernetes, Terraform, Datadog).\n\nFINAL: ADVANCE"
+}

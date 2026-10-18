@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:38.789686+00:00",
+  "finished_utc": "2026-09-28T22:15:48.681983+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 414
+  },
+  "response": "## Screening Assessment: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n1. **Not a software engineer by trade — QA/test background.** The candidate self-describes as a \"quality engineer transitioning toward software development.\" The role requires a Senior Software *Engineer* who designs and builds production backend services, not tests them.\n\n2. **No demonstrated experience building backend services or APIs.** All listed work involves *testing* APIs and services, not *designing or building* them. Writing REST API tests is fundamentally different from engineering REST APIs.\n\n3. **Years of experience are borderline and misaligned.** The candidate has ~5 years of total experience, but those years are in QA roles, not software development. The job requires 5+ years of *professional software engineering* experience.\n\n4. **No cloud platform experience listed.** AWS, Azure, and GCP are required qualifications. None appear on the résumé.\n\n5. **No CI/CD pipeline ownership.** Maintaining test stages in Jenkins is not equivalent to owning CI/CD pipeline design and delivery for production software systems.\n\n6. **No relational database / SQL engineering experience.** SQL is listed as a skill, but no evidence of meaningful database work (schema design, query optimization, etc.) is shown.\n\n7. **No exposure to preferred qualifications.** Kafka, Docker, Kubernetes, Terraform, Datadog, financial services — none are present.\n\n8. **No mentorship or technical leadership experience.** Preferred qualification for mentoring engineers is unmet.\n\n---\n\n### Summary\n\nThe candidate's skills and experience are largely in quality assurance and test automation, not software engineering. Core required qualifications — particularly cloud experience, backend service development, and CI/CD ownership — are absent or not demonstrated. The gap between QA automation and senior-level backend engineering is significant.\n\nFINAL: REJECT"
+}

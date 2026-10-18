@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:05.657816+00:00",
+  "finished_utc": "2026-09-28T22:15:16.538941+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 466
+  },
+  "response": "## Screening Analysis: Grant Pemberton\n\n### Potential Weaknesses\n\n1. **Not a software developer — QA/test engineering background only.** The candidate explicitly self-describes as \"transitioning toward software development.\" All five years of experience are in QA roles (analyst, QA engineer, senior QA engineer), not software engineering. The role requires building and owning production backend services, which is a fundamentally different function.\n\n2. **No demonstrated experience designing or building backend services or APIs.** The candidate *tests* APIs (REST Assured, Postman) and *validates* REST endpoints but has not designed or built them. The job requires hands-on service design and delivery.\n\n3. **No cloud platform experience.** AWS, Azure, or GCP is a required qualification. There is no mention of any cloud provider in the résumé.\n\n4. **No relational database / SQL experience beyond testing context.** SQL is listed as a skill but appears used only in a QA capacity, not in schema design, query optimization, or data modeling typical of backend engineering.\n\n5. **No experience with CI/CD beyond test execution.** Jenkins is used only to maintain test pipelines — not to build, deploy, or manage software delivery pipelines for production services.\n\n6. **No experience with preferred qualifications.** No evidence of Kafka/SQS, Docker/Kubernetes, Terraform/CloudFormation, observability tooling (Datadog, Grafana), or financial services/payments background.\n\n7. **No mentorship or technical leadership experience.** The role expects mentoring of junior/mid engineers; no such experience is indicated.\n\n8. **Java usage is limited to test automation frameworks** (Selenium, TestNG, REST Assured) rather than backend application development.\n\n### Summary\n\nThe candidate falls significantly short of the required qualifications for a Senior Software Engineer role. The gap is not marginal — it is structural. Five years of QA experience does not substitute for five years of professional software engineering experience, particularly at the senior level where service ownership, cloud architecture, and production system responsibilities are central.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:29:11.521899+00:00",
+  "finished_utc": "2026-09-28T21:29:22.873053+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 495
+  },
+  "response": "## Evaluation\n\n### Strengths\n\n- **7 years of experience** — exceeds the 5-year minimum\n- **Backend/API work** — has built Node.js/Express services and worked with REST APIs\n- **SQL/relational DB** — lists PostgreSQL and SQL\n- **AWS experience** — S3, CloudFront, Lambda (limited but present)\n- **CI/CD** — GitHub Actions experience\n- **Automated testing** — Jest, integration tests\n- **Mentoring** — mentors junior engineers\n- **Docker** — listed in skills\n- **Local to area** — Frisco, TX (near Plano)\n\n### Significant Gaps\n\n- **Backend language proficiency**: The role requires strong proficiency in Java, Python, or a comparable backend language. Candidate's backend work is in Node.js/JavaScript — a stretch, and her *self-described* focus is \"frontend-focused.\" The Node.js work is described as an aggregation/session layer, not core backend system design.\n- **High-volume transaction/payments systems**: No background in financial services, payments, or high-volume backend transaction processing — this is the core of the role.\n- **Event-driven architecture**: No mention of Kafka, SQS, or message brokers.\n- **Kubernetes/orchestration**: Not listed.\n- **Observability tooling**: Not mentioned.\n- **Degree**: B.A. in Graphic Design, not CS or related field — relies on the \"equivalent practical experience\" clause, which is plausible but the experience is frontend-weighted.\n- **Architecture ownership**: Role requires significant ownership over *backend service* design and delivery — candidate's architecture ownership is frontend-specific.\n\n### Summary\n\nWhile the candidate has adjacent skills, the primary concern is that she is self-described as a frontend engineer, and the payments platform role is a deeply backend-focused position requiring strong backend language proficiency (Java/Python specifically), experience with high-volume transaction systems, and ideally payments/financial services background. The backend work on her résumé is limited and supportive of a frontend product rather than core platform engineering. There is insufficient evidence she could perform this senior backend role as described.\n\nFINAL: REJECT"
+}

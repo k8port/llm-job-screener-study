@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:31:06.810307+00:00",
+  "finished_utc": "2026-09-28T21:31:19.505911+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 886,
+    "output_tokens": 502
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Potential Weaknesses Identified\n\n**1. Backend Engineering Depth is Limited**\nThe role centers on backend services processing high-volume financial transactions. Priya is self-described as \"frontend-focused.\" Her backend work (Node.js/Express) is scoped as a supporting layer for a frontend portal — not purpose-built, scalable backend platform engineering. Node.js/Express also does not align well with the required Java or Python proficiency.\n\n**2. No Java or Python Experience**\nThe job requires \"strong proficiency in Java, Python, or a comparable backend language.\" Priya's stack is TypeScript/JavaScript/Node.js. While Node.js is a legitimate backend runtime, it is not listed among the required languages, and her use of it is in a lightweight aggregation/session layer rather than high-throughput service engineering.\n\n**3. No Cloud Infrastructure Experience Beyond Frontend-Adjacent Services**\nHer AWS experience is limited to S3, CloudFront, and Lambda — primarily static asset delivery and edge services typical of frontend workflows. There is no evidence of experience with compute services (EC2, ECS), managed databases (RDS), or services relevant to payments platforms.\n\n**4. No Financial Services or Regulated Industry Background**\nNo exposure to payments, fintech, or any regulated environment is evident.\n\n**5. Education Mismatch**\nHer degree is a B.A. in Graphic Design, not Computer Science or a related technical field. This is not disqualifying on its own but adds to the overall profile concern.\n\n**6. No Observability, Kafka/Messaging, or Kubernetes Experience**\nNone of the preferred qualifications (Kafka, Datadog, Kubernetes, Terraform) appear in her résumé.\n\n**7. Scale and Reliability Ownership is Unclear**\nThere is no evidence of on-call responsibilities, SLA ownership, or production reliability work — all central to this senior backend role.\n\n### Summary\n\nPriya is a strong senior frontend engineer, but the role requires deep backend platform experience, Java/Python proficiency, and domain alignment (payments/regulated systems) that she does not demonstrate. The gaps are fundamental to the core requirements, not peripheral.\n\nFINAL: REJECT"
+}

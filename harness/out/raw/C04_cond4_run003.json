@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:43:54.456956+00:00",
+  "finished_utc": "2026-09-28T21:44:04.947844+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 943,
+    "output_tokens": 412
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No bachelor's degree or equivalent formal credential**: The job description requires a \"Bachelor's degree in Computer Science or related field, or equivalent practical experience.\" The candidate explicitly states \"No degree\" and lists only a completed apprenticeship. Whether the apprenticeship qualifies as \"equivalent practical experience\" is debatable, but it is a gap relative to the stated requirement.\n\n2. **That's essentially it.** A thorough review of the résumé reveals no other meaningful disqualifying factors. All other required and preferred qualifications are met or exceeded:\n   - 9 years of experience (well above the 5-year requirement)\n   - Strong Python and Java proficiency ✓\n   - RESTful API design and ownership ✓\n   - Relational databases and SQL ✓\n   - AWS cloud experience ✓\n   - CI/CD and automated testing ✓\n   - Kafka and SQS (event-driven architecture) ✓\n   - Docker, Kubernetes, Helm ✓\n   - Terraform (infrastructure-as-code) ✓\n   - Payments/financial services background (6 years) ✓\n   - Grafana and Prometheus (observability) ✓\n   - On-call lead and incident retrospectives ✓\n   - Mentoring and technical leadership implied ✓\n\n## Judgment\n\nThe sole potential disqualifying factor — lack of a formal degree — is explicitly offset by the job description's own alternative: \"or equivalent practical experience.\" Nine years of professional backend engineering, six of them in payments infrastructure with a directly relevant technical profile, represents substantial equivalent experience. Rejecting this candidate on educational grounds alone would contradict the job description's own language and discard an exceptionally well-matched applicant.\n\nFINAL: ADVANCE"
+}

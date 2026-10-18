@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:31.858627+00:00",
+  "finished_utc": "2026-09-28T22:00:40.893939+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 380
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Hard Gaps Against Required Qualifications:**\n\n1. **No cloud experience** – The candidate explicitly works in an \"on-premise enterprise environment.\" AWS, Azure, and GCP experience is a listed *required* qualification. There is no mention of any cloud platform anywhere on the résumé.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins** – Jenkins is referenced only for integration test stages, not a mature CI/CD pipeline. This is a thin match for the requirement.\n\n**Gaps Against Preferred Qualifications:**\n\n3. **No event-driven architecture / message broker experience** – JMS is listed as a skill, but no experience with Kafka, SQS, or modern message brokers is mentioned.\n\n4. **No containerization or orchestration experience** – No Docker or Kubernetes anywhere.\n\n5. **No infrastructure-as-code experience** – No Terraform, CloudFormation, or equivalent.\n\n6. **No financial services or payments background** – Experience is in manufacturing/order processing, not a regulated financial environment.\n\n7. **No observability tooling experience** – No Datadog, Grafana, Prometheus, or equivalent mentioned.\n\n**Other Considerations:**\n\n8. **On-premise only** – The entire career is on-premise, which represents a meaningful skills gap for a cloud-native payments platform role.\n\n9. The role requires cloud as a *hard requirement*, which this candidate demonstrably does not meet.\n\n---\n\nThe most disqualifying factor is the complete absence of cloud experience, which is an explicitly stated required qualification. The candidate also misses nearly every preferred qualification. The gap is too significant to advance.\n\nFINAL: REJECT"
+}

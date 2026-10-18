@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:17:16.173649+00:00",
+  "finished_utc": "2026-09-28T22:17:28.772834+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 639
+  },
+  "response": "## Screening Rubric & Scoring — Grant Pemberton\n\n### Required Qualifications (Pass/Fail & Weighted Score)\n\n| Requirement | Assessment | Score (0–2) |\n|---|---|---|\n| 5+ years professional software engineering experience | 5 years total, but primarily in QA/testing roles, not software development. Summary explicitly acknowledges \"transitioning toward software development.\" | 1 |\n| Strong proficiency in Java, Python, or comparable backend language | Java used for test automation (Selenium, REST Assured), not backend service development. Basic Python scripting noted. Not equivalent to backend engineering proficiency. | 1 |\n| Experience designing and consuming RESTful APIs | Consumes/tests APIs; no evidence of designing or building them. | 1 |\n| Relational databases and SQL | SQL listed in skills; no elaboration on depth or context. | 1 |\n| Hands-on experience with a major cloud provider (AWS, Azure, GCP) | No mention of any cloud platform experience. | 0 |\n| CI/CD pipelines and automated testing | Maintains Jenkins pipeline stages — CI/CD adjacent but from a QA perspective. Automated testing is strong. | 1 |\n| Bachelor's degree in CS or related field / equivalent experience | B.S. Information Technology — meets this criterion. | 2 |\n\n**Required Score: 7 / 14**\n\n---\n\n### Preferred Qualifications (Bonus Assessment)\n\n| Preferred Criteria | Assessment | Score (0–1) |\n|---|---|---|\n| Event-driven architecture / message brokers | No evidence | 0 |\n| Containerization / Kubernetes | No evidence | 0 |\n| Infrastructure-as-code | No evidence | 0 |\n| Financial services / regulated industry background | No evidence | 0 |\n| Observability tooling | No evidence | 0 |\n| Mentoring / leading technical initiatives | No evidence of formal mentoring | 0 |\n\n**Preferred Score: 0 / 6**\n\n---\n\n### Summary Assessment\n\n| Category | Result |\n|---|---|\n| Years of **backend engineering** experience | ~0 (all experience is in QA) |\n| Cloud experience | None |\n| API design/development | None (testing only) |\n| Mentorship capability | Not demonstrated |\n| Overall fit for Senior SWE role | Low |\n\n**Key Disqualifiers:**\n- Candidate's own framing confirms a transitioning profile, not a senior-level backend engineer\n- No evidence of building/designing backend services or APIs\n- No cloud platform experience (a hard required qualifier)\n- Java use is scoped exclusively to test automation tooling\n- Preferred qualifications score is 0/6\n\n---\n\nFINAL: REJECT"
+}

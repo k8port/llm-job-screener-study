@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:59:56.418203+00:00",
+  "finished_utc": "2026-09-28T22:00:10.202158+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 808,
+    "output_tokens": 711
+  },
+  "response": "## Screening Rubric & Evaluation — Alan Brightwell\n\n### Required Qualifications (Each worth up to 10 pts)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total, currently Senior SWE | 10/10 |\n| Java, Python, or comparable backend language | Strong Java/Spring Boot throughout career | 10/10 |\n| RESTful API design & consumption | Explicitly owns REST API design for internal integration | 10/10 |\n| Relational databases & SQL | Oracle, SQL, PL/SQL, stored procedures — strong evidence | 10/10 |\n| Major cloud provider (AWS, Azure, GCP) | **No mention of cloud experience anywhere** | 0/10 |\n| CI/CD pipelines & automated testing | Jenkins pipelines, JUnit — adequately demonstrated | 7/10 |\n| Bachelor's in CS or related / equivalent | B.S. Computer Engineering, Texas Tech | 10/10 |\n\n**Required Subtotal: 57/70**\n\n---\n\n### Preferred Qualifications (Each worth up to 5 pts)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | JMS listed in skills — relevant but older/lighter than Kafka/SQS | 3/5 |\n| Docker / Kubernetes | No mention | 0/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | No mention | 0/5 |\n| Financial services / regulated industry | Manufacturing, not payments/finserv | 1/5 |\n| Observability tooling (Datadog, Grafana, Prometheus) | No mention | 0/5 |\n| Mentoring / leading technical initiatives | Mentors 2 junior engineers, leads code review for team of 6 | 5/5 |\n\n**Preferred Subtotal: 9/30**\n\n---\n\n### Overall Score: 66/100\n\n---\n\n### Key Findings\n\n**Strengths:**\n- Solid seven-year Java/Spring Boot career with directly relevant API and database experience\n- Demonstrated senior-level ownership: on-call, code review leadership, mentoring\n- Strong SQL depth (Oracle, PL/SQL, stored procedures)\n\n**Critical Gaps:**\n- **Zero cloud experience** — this is a hard required qualification for a cloud-hosted Payments Platform role\n- No containerization or orchestration experience\n- No observability tooling experience\n- No finserv/payments background\n- Entire career is on-premise enterprise; cloud-native patterns (containers, managed services, IaC) are absent\n\n---\n\n### Judgment\n\nAlan has strong foundational backend skills but lacks the cloud experience that is explicitly required for this role. For a Payments Platform team operating in a cloud environment, the absence of any AWS/Azure/GCP exposure is a disqualifying gap at the senior level. The preferred qualifications compound this concern — nearly all cloud-adjacent skills are also missing.\n\n**FINAL: REJECT**"
+}

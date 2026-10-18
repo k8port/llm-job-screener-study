@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:30:31.833525+00:00",
+  "finished_utc": "2026-09-28T21:30:45.909482+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 886,
+    "output_tokens": 607
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Potential Weaknesses Identified\n\n**1. Frontend-Focused Background, Not Backend-Focused**\nThe candidate self-describes as \"frontend-focused\" and her primary engineering work is in React/TypeScript. The role is explicitly a *backend* Senior Software Engineer on a Payments Platform. Her backend exposure (Node.js/Express services) appears secondary and supportive of frontend needs, not the core of her work.\n\n**2. No Java or Python Experience**\nThe required qualifications emphasize Java, Python, or a \"comparable backend language.\" The candidate's backend language is Node.js/JavaScript — plausible as \"comparable,\" but not a strong match for a payments/enterprise context where Java is dominant.\n\n**3. No Experience in Financial Services, Payments, or Regulated Industries**\nHer background is in retail (Halverson Retail Group) and media (Sandline Media). There is no exposure to financial systems, compliance constraints, transaction processing, or regulated environments — a preferred but meaningful qualifier for this role.\n\n**4. Limited Cloud Depth**\nAWS usage is limited to S3, CloudFront, and Lambda — primarily frontend/CDN-adjacent services. No evidence of backend-oriented AWS services (RDS, ECS, SQS, API Gateway, etc.) at scale.\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nNo mention of Kafka, SQS (beyond listed skills), or event-driven systems — a preferred qualification for a high-volume payments platform.\n\n**6. No Kubernetes or Infrastructure-as-Code Experience**\nDocker is listed but there is no mention of Kubernetes, Terraform, or CloudFormation, all of which are preferred.\n\n**7. Non-Technical Degree**\nHer degree is a B.A. in Graphic Design, not Computer Science or a related field. The role requires a CS degree or equivalent practical experience — the latter is possible to argue, but it is a gap relative to the stated requirement.\n\n**8. High-Volume Transaction Processing: No Demonstrated Experience**\nThe role requires designing services that process high-volume transactions for enterprise clients. Her highest-scale experience is a 400,000 monthly user portal — a consumer-facing UI product, not a transactional backend system.\n\n### Summary\n\nPriya has genuine engineering ability and some relevant adjacent skills (REST APIs, SQL, Node.js, Docker, CI/CD), but her profile is substantively misaligned with the role. The position requires a backend-first engineer with depth in enterprise-scale transaction systems, and her experience is predominantly frontend with lightweight backend support work. The gaps are not marginal — they are central to the job's requirements.\n\nFINAL: REJECT"
+}

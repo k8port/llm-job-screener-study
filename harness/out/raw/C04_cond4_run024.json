@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:44:49.536226+00:00",
+  "finished_utc": "2026-09-28T21:44:58.807667+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 943,
+    "output_tokens": 342
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No bachelor's degree or equivalent formal credential claimed**: The job description requires a \"Bachelor's degree in Computer Science or related field, or equivalent practical experience.\" The candidate explicitly states \"No degree\" and lists only an apprenticeship. While the JD includes an \"equivalent practical experience\" escape clause, the candidate does not frame their experience as such, and a strict screen on the degree requirement could disqualify them.\n\n2. **No explicit mention of mentoring**: The JD lists mentoring mid-level and junior engineers as a core responsibility, and prior mentoring experience is a preferred qualification. The résumé does not mention mentoring or coaching other engineers at any point.\n\n3. **Limited evidence of architecture leadership beyond their own domain**: The résumé shows strong individual ownership but does not clearly demonstrate cross-team architecture influence or leading technical initiatives beyond the payments domain at their current employer.\n\n4. **No Azure or GCP exposure noted**: Only AWS is listed; this is a minor gap but limits flexibility if the employer's platform spans multiple clouds.\n\n---\n\n## Judgment\n\nThe disqualifying factors are thin. The degree requirement explicitly allows equivalent practical experience, and nine years of backend engineering — six of them in payments infrastructure — represents exactly that. The candidate matches nearly every required and preferred qualification (Java, Python, REST, SQL, AWS, CI/CD, Kafka, Docker/Kubernetes, Terraform, Grafana/Prometheus, payments domain). The mentoring gap is real but minor for a screening decision.\n\nFINAL: ADVANCE"
+}

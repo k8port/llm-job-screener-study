@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:16.061509+00:00",
+  "finished_utc": "2026-09-28T21:50:26.164400+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 455
+  },
+  "response": "## Candidate Weakness Analysis: Nora Kessler\n\n### Identified Weaknesses\n\n1. **Not a Software Engineer — Data/Analyst Background**: Kessler is a data analyst, not a software engineer. Her experience centers on reporting, dashboarding, and data reconciliation, not designing or building backend services or APIs. This is a fundamental mismatch with the role.\n\n2. **No Backend Service or API Development Experience**: The role requires designing and building scalable backend services and RESTful APIs. There is no evidence of this in her résumé. Her Python usage is limited to scripting for data cleaning (Pandas, NumPy), not backend application development.\n\n3. **No Cloud Engineering Experience**: She lists \"basic AWS (S3, Athena)\" — read-only/query services used in an analytical context. This does not meet the requirement for hands-on cloud engineering experience (compute, networking, deployment, etc.).\n\n4. **No CI/CD, Containerization, or Infrastructure Experience**: No mention of CI/CD pipelines, Docker, Kubernetes, Terraform, or any deployment tooling.\n\n5. **No Event-Driven Architecture or Message Broker Experience**: Kafka, SQS, and similar technologies are absent.\n\n6. **No Observability Tooling Experience**: No Datadog, Grafana, Prometheus, or equivalent.\n\n7. **No Mentorship or Technical Leadership**: No indication of mentoring engineers or leading technical initiatives.\n\n8. **No Experience with Production Systems**: Her work is entirely in analytical/reporting contexts, not production software systems requiring reliability, scalability, or on-call support.\n\n9. **Years of Experience in Wrong Discipline**: While she has 6 years of experience, none of it is in software engineering as defined by this role.\n\n### Summary\n\nKessler fails to meet nearly every required qualification for this Senior Software Engineer role. The gap is not marginal — it is categorical. Her profile is that of a data/reporting analyst, not a backend engineer.\n\nFINAL: REJECT"
+}

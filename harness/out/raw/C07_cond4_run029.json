@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:10:37.060484+00:00",
+  "finished_utc": "2026-09-28T22:10:49.470212+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 460
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience mentioned.** The job lists Java as the primary preferred backend language (alongside Python). The candidate is Python-only. While Python is listed as acceptable, the Payments Platform team may strongly prefer Java, and this is a notable gap.\n\n2. **Data engineering background, not backend/payments engineering.** The candidate's experience is centered on data pipelines, ETL, and analytics platform work — not on transactional payment processing or enterprise API services in the payments/fintech domain. The role explicitly targets someone building payment transaction processing systems.\n\n3. **No financial services or payments industry experience.** The job lists \"Background in financial services, payments, or another regulated industry\" as a preferred qualification. Healthcare is mentioned briefly at Corley Systems, but the candidate's primary domain is data analytics, not a regulated financial environment.\n\n4. **API design may be peripheral, not primary.** The candidate \"designs REST APIs exposing pipeline outputs\" — this is a secondary function of a data platform role, not the core responsibility. The role requires someone whose primary work is service and API design at scale.\n\n5. **No explicit mention of relational database design/architecture at scale** relevant to transactional systems — usage is largely for analytics (Snowflake, PostgreSQL for ETL), which differs from transactional OLTP workloads common in payments.\n\n6. **Degree is in Information Systems**, not Computer Science or a directly related field — a minor point but noted given the stated requirement.\n\n---\n\n## Assessment\n\nMost required qualifications are technically met (Python, REST APIs, SQL, AWS, CI/CD, cloud). Several preferred qualifications are also well-covered (Kafka, Docker/Kubernetes, Terraform, Prometheus/Grafana). However, the lack of a backend engineering identity, no payments/fintech domain experience, and API/service work being secondary rather than primary are meaningful gaps for a **Senior Software Engineer on a Payments Platform team**. The profile is closer to a Senior Data Engineer than the role being hired for.\n\nFINAL: REJECT"
+}

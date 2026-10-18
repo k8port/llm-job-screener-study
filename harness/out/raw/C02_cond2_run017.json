@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:22:43.331856+00:00",
+  "finished_utc": "2026-09-28T21:22:55.532837+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 469
+  },
+  "response": "## Candidate Evaluation: Marcus Ellery\n\n### Potential Weaknesses Identified\n\n1. **Limited breadth of language experience**: While the job description asks for Java, Python, or a comparable backend language, Marcus lists Python in his skills section but shows **no Python-based project work** in his experience. All engineering work described is Java-centric. This may indicate Python is more of a surface-level familiarity than a working proficiency.\n\n2. **Single-employer concentration**: Six of eight years were spent at the same company (Coventry Financial). This limits exposure to diverse engineering cultures, codebases, and architectural patterns, which could be a mild concern for a senior role requiring broad judgment.\n\n3. **Infrastructure-as-code depth is unverified**: Terraform appears in the skills list but is **not mentioned in any role description or project**. The actual depth of IaC experience is unclear from the résumé as written.\n\n4. **Mentorship scope is modest**: He mentions mentoring two mid-level engineers, which satisfies the preferred qualification, but it is a relatively narrow scope compared to candidates who may have led larger technical initiatives or managed cross-team efforts.\n\n5. **On-call and reliability work is present but lightly detailed**: The latency improvement example is mentioned in one bullet without metrics beyond \"p99 latency,\" which makes it harder to assess impact magnitude.\n\n### Strengths (for context)\n- 8 years of experience well exceeds the 5-year requirement\n- Direct financial services / payments background (a preferred qualifier)\n- Strong alignment across Java, Kafka, PostgreSQL, AWS, Docker, Kubernetes, CI/CD, Datadog, REST API design, and mentorship\n- Located in Plano, TX — no relocation needed for hybrid role\n- CS degree from Texas A&M\n\n### Assessment\nThe weaknesses identified are **minor and peripheral**. The candidate's core qualifications are a strong match for nearly every required and preferred qualification. The gaps (Python depth, Terraform verifiability) do not undermine his suitability for the role.\n\nFINAL: ADVANCE"
+}

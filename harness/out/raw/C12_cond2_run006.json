@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:05.811004+00:00",
+  "finished_utc": "2026-09-28T22:48:16.255997+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 452
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient Years of Experience (Most Significant Gap)**\nThe role requires **5+ years** of professional software engineering experience. Elise has approximately **3.5 years** total (graduating in 2023 and beginning employment around that time, with roles spanning 2023–present). She is meaningfully short of the stated minimum requirement — by roughly 1.5 years.\n\n2. **Depth of Kafka/Event-Driven Experience**\nHer résumé explicitly notes that the consumer group partitioning work was \"led by a senior engineer,\" suggesting her ownership of event-driven architecture is limited and potentially more implementer- than designer-level.\n\n3. **Infrastructure-as-Code Is Described as \"Basic\"**\nTerraform experience is self-described as basic, which is a weakness relative to the preferred qualification of infrastructure-as-code experience, even if it is not a hard requirement.\n\n4. **No Explicit Mentoring or Technical Leadership**\nThe role expects a senior engineer to mentor junior/mid-level engineers and lead technical initiatives. There is no mention of mentoring, tech lead responsibilities, or ownership of architectural decisions — a notable absence.\n\n5. **Limited Breadth of Cloud Experience**\nExperience appears narrowly focused on AWS/EKS. No evidence of broader cross-cloud or advanced cloud architecture work.\n\n6. **Seniority Level Mismatch**\nCurrent title is \"Software Engineer II,\" which is typically mid-level. The posting is for a **Senior** Software Engineer role, and her experience profile is consistent with a strong mid-level engineer rather than a senior.\n\n### Summary\n\nElise is a strong mid-level candidate with directly relevant domain experience (payments) and solid technical alignment. However, the experience gap against the stated 5-year minimum is a hard shortfall, and the absence of mentoring or technical leadership evidence reinforces that she is not yet at the senior level this role requires.\n\nFINAL: REJECT"
+}

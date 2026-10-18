@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:42:43.035154+00:00",
+  "finished_utc": "2026-09-28T22:42:53.908143+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 576
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 9 years in IT/sysadmin — **not software engineering**; scripting/automation is peripheral | 2/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Lists Bash and PowerShell (scripting, not backend dev languages); no Java, Python, Go, etc. | 1/10 |\n| RESTful API design and consumption | No mention anywhere | 0/10 |\n| Relational databases and SQL | Listed as \"basic\" only | 2/10 |\n| Hands-on cloud experience (AWS/Azure/GCP) | Azure VM and networking administration — infrastructure ops, not development | 4/10 |\n| CI/CD pipelines and automated testing | No mention of CI/CD; no automated testing | 0/10 |\n| Bachelor's degree or equivalent | B.A.S. in Information Technology | 7/10 |\n\n**Required Score: 16/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No mention | 0/5 |\n| Docker / Kubernetes | Docker listed as \"basic\" | 1/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | No mention | 0/5 |\n| Financial services / regulated industry | Healthcare adjacent (health system) | 2/5 |\n| Observability tooling | Nagios (monitoring, not modern observability) | 1/5 |\n| Mentoring / technical leadership | No mention | 0/5 |\n\n**Preferred Score: 4/30**\n\n---\n\n### Summary\n\n| Category | Score |\n|---|---|\n| Required | 16/70 (23%) |\n| Preferred | 4/30 (13%) |\n| **Overall** | **20/100 (20%)** |\n\n**Assessment:** Curtis is an experienced systems administrator, not a software engineer. He lacks the core competencies central to this role: backend development proficiency, API design, CI/CD, and automated testing. His cloud experience is operational rather than development-oriented. His profile does not meet the threshold for a Senior Software Engineer role.\n\nFINAL: REJECT"
+}

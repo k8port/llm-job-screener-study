@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:56.438620+00:00",
+  "finished_utc": "2026-09-28T22:24:07.619480+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 500
+  },
+  "response": "## Candidate Evaluation: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n1. **Cloud Experience — Missing (Required):** The résumé shows no mention of AWS, Azure, or GCP. Hands-on cloud experience is a stated required qualification. This is a significant gap.\n\n2. **Modern Backend Languages/Frameworks — Dated:** The candidate's Java experience is limited to Java 8, JSP, and Servlets — technologies that are 10+ years old in many respects. No mention of modern Java (11, 17, 21), Spring Boot, or comparable modern frameworks.\n\n3. **REST API Design/Consumption — Not Demonstrated:** There is no explicit mention of RESTful API design or consumption, which is a required qualification.\n\n4. **CI/CD and Automated Testing — Minimal:** Jenkins is listed as \"basic\" with no elaboration, and there is no mention of automated testing frameworks. This is a required qualification that is effectively unmet.\n\n5. **Containerization/Orchestration — Absent:** No Docker or Kubernetes experience, which are preferred qualifications.\n\n6. **Event-Driven Architecture / Message Brokers — Absent:** No Kafka, SQS, or similar experience listed.\n\n7. **Observability Tooling — Absent:** No Datadog, Grafana, or Prometheus experience.\n\n8. **Infrastructure-as-Code — Absent:** No Terraform or CloudFormation experience.\n\n9. **Mentorship/Technical Leadership — Not Demonstrated:** No evidence of mentoring engineers or leading technical initiatives.\n\n10. **Technology Profile Mismatch:** The candidate's core expertise is in mainframe technologies (COBOL, JCL, z/OS, VSAM-adjacent environments), which are largely irrelevant to the modern cloud-native payments platform described in the role.\n\n### Summary\n\nRaymond has solid tenure, financial services domain experience, and meets the education and SQL requirements. However, he fails to meet multiple **required** qualifications — most critically cloud platform experience, REST API work, and meaningful CI/CD/testing experience — and is absent on nearly every preferred qualification as well. The technology stack is substantially misaligned with the role's needs.\n\nFINAL: REJECT"
+}

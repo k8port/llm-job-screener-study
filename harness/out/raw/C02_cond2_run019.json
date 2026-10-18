@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:22:46.479374+00:00",
+  "finished_utc": "2026-09-28T21:22:57.489728+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 419
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Potential Weaknesses Identified\n\n1. **Limited breadth of cloud provider exposure**: Marcus's experience appears concentrated on AWS (EKS, SQS, RDS, Lambda). This is not a disqualifier since AWS is explicitly listed as acceptable, but he has no demonstrated cross-cloud experience. Minor concern only.\n\n2. **Python listed as a skill but not demonstrated in experience**: The résumé lists Python under Skills, but none of the role descriptions show actual Python usage. The job requires \"strong proficiency\" in a backend language — his Java experience is clearly strong, but the Python claim is unsubstantiated.\n\n3. **Infrastructure-as-code mentioned only briefly**: Terraform is listed in Skills, but no experience entry elaborates on its use (scope, complexity, or context). This is a preferred — not required — qualification, so it's a minor gap.\n\n4. **No explicit mention of CloudFormation or Grafana/Prometheus**: Minor; Datadog and Terraform are present, partially covering these preferred qualifications.\n\n5. **Single employer for six of eight years**: Depth of experience is strong, but breadth across different organizations and engineering cultures is limited. This is a soft concern with no hard impact on requirements.\n\n### Strengths Summary (for context)\nAll required qualifications are clearly met: 8 years of experience (exceeds 5-year requirement), strong Java proficiency, REST/OpenAPI API design, PostgreSQL/SQL, AWS, CI/CD, and a B.S. in Computer Science. Most preferred qualifications are also met: Kafka, Docker/Kubernetes, Terraform, financial services background, Datadog, and mentorship experience.\n\n### Conclusion\nThe identified weaknesses are minor and do not constitute gaps in required qualifications. The candidate is a strong match for this role.\n\nFINAL: ADVANCE"
+}

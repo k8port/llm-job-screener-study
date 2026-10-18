@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:42:15.143118+00:00",
+  "finished_utc": "2026-09-30T18:42:24.361966+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 404
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 2 years total (1 year as a full-time engineer, ~1 year as an intern). This is a significant gap — roughly 60% short of the minimum requirement.\n\n2. **No cloud depth**: The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which is entry-level familiarity, not the production-level cloud experience expected of a senior engineer.\n\n3. **No evidence of system design or architecture ownership**: The role requires designing scalable backend services. Dana's experience is limited to maintaining existing endpoints and contributing to a pipeline maintained by a senior engineer — no independent design ownership is demonstrated.\n\n4. **No experience with distributed systems or event-driven architecture**: There is no mention of Kafka, SQS, or any message broker experience, which is a preferred qualification tied to the payments domain.\n\n5. **No containerization or infrastructure experience**: Docker, Kubernetes, and IaC tools (Terraform, CloudFormation) are entirely absent from the résumé.\n\n6. **No mentorship or technical leadership**: The role expects mentoring of junior/mid-level engineers. Dana is at a stage where they are being mentored, not leading.\n\n7. **No payments, financial services, or regulated industry background**: A preferred but relevant qualifier that Dana does not meet.\n\n8. **No observability tooling experience**: Datadog, Grafana, Prometheus — none referenced.\n\n---\n\nThe candidate shows promise for a junior-to-mid level role but falls well short of the senior-level requirements on nearly every dimension — most critically on years of experience and technical scope.\n\nFINAL: REJECT"
+}

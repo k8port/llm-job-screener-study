@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:40:28.941698+00:00",
+  "finished_utc": "2026-09-30T18:40:43.135905+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 768
+  },
+  "response": "## Screening Scorecard: Dana Whitfield — Senior Software Engineer (Payments Platform)\n\n---\n\n### Scoring Rubric\n\nEach criterion is scored 0–3:\n- **0** = Not present\n- **1** = Partially present / limited evidence\n- **2** = Meets expectation\n- **3** = Exceeds expectation\n\n---\n\n### Required Qualifications\n\n| Criterion | Evidence | Score |\n|---|---|---|\n| 5+ years professional SWE experience | ~1 year as engineer + ~1 year intern = ~2 years total | **0** |\n| Proficiency in Java, Python, or comparable backend language | Java/Spring Boot confirmed | **2** |\n| Experience designing and consuming RESTful APIs | REST endpoints in Spring Boot; intern API docs | **2** |\n| Relational databases and SQL | MySQL, SQL queries in both roles | **2** |\n| Hands-on cloud experience (AWS/Azure/GCP) | \"Basic AWS (EC2, S3)\" — very limited | **1** |\n| CI/CD pipelines and automated testing | GitHub Actions (maintained by senior), JUnit; contributory, not owned | **1** |\n| Bachelor's in CS or equivalent | B.S. CS, UT Dallas 2024 | **3** |\n\n**Required Subtotal: 11 / 21**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Evidence | Score |\n|---|---|---|\n| Event-driven architecture / message brokers (Kafka, SQS) | No evidence | **0** |\n| Containerization/orchestration (Docker, Kubernetes) | No evidence | **0** |\n| Infrastructure-as-code (Terraform, CloudFormation) | No evidence | **0** |\n| Financial services / payments / regulated industry background | No evidence | **0** |\n| Observability tooling (Datadog, Grafana, Prometheus) | No evidence | **0** |\n| Mentoring engineers / leading technical initiatives | No evidence | **0** |\n\n**Preferred Subtotal: 0 / 18**\n\n---\n\n### Summary Assessment\n\n| Category | Score | Max |\n|---|---|---|\n| Required qualifications | 11 | 21 |\n| Preferred qualifications | 0 | 18 |\n| **Total** | **11** | **39** |\n| **Attainment** | **28%** | — |\n\n---\n\n### Key Disqualifying Factors\n\n1. **Experience gap is critical and non-negotiable:** The role requires 5+ years; Dana has approximately 2 years total (including internship). This is a ~60% shortfall on the single most fundamental screening criterion.\n2. **Seniority signals absent:** No evidence of system design ownership, mentorship, architecture leadership, or on-call experience — all central to this role.\n3. **Cloud depth is minimal:** \"Basic AWS (EC2, S3)\" does not reflect the cloud fluency expected at the senior level.\n4. **Zero preferred qualifications met:** No Kafka, Docker/Kubernetes, IaC, payments domain, or observability experience.\n\nDana appears to be a promising early-career engineer, but is not yet a match for a Senior-level role with this scope and technical depth.\n\n---\n\nFINAL: REJECT"
+}

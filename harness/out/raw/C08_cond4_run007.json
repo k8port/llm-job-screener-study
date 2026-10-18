@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:17:59.739128+00:00",
+  "finished_utc": "2026-09-28T22:18:09.994841+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 459
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Engineer — QA/Test Background**\nThe candidate explicitly self-describes as a \"Quality engineer…transitioning toward software development.\" All professional experience is in QA roles (QA Analyst, QA Engineer, Senior QA Engineer). The role requires a Senior *Software Engineer* with hands-on *development* experience, not test automation experience.\n\n**2. No Evidence of Designing or Building Production Backend Services**\nThe job requires designing and building scalable backend services and APIs. The candidate has *tested* APIs and *consumed* REST endpoints for validation purposes, but there is no indication they have ever designed, built, or maintained a backend service in production.\n\n**3. Java Use Is Limited to Test Automation**\nWhile Java is listed as a skill, it has only been used within Selenium/TestNG test frameworks — not for developing application logic, services, or APIs. This is a materially different use case than what the role demands.\n\n**4. No Cloud Experience**\nThe job requires hands-on experience with AWS, Azure, or GCP. The résumé contains no mention of any cloud platform whatsoever — this is a hard required qualification.\n\n**5. No Database/SQL Development Experience**\nSQL is listed as a skill, but there is no demonstrated experience with relational database design, query optimization, or schema work in a development context.\n\n**6. No Experience with Event-Driven Architecture, Containerization, or Observability Tooling**\nKafka, SQS, Docker, Kubernetes, Terraform, Datadog, Grafana — none appear anywhere on the résumé.\n\n**7. Insufficient Years of Relevant Experience**\nWhile the candidate has five years of *QA* experience, they have effectively zero years of professional *software engineering/development* experience, falling well short of the 5+ years required.\n\n**8. No Mentoring or Technical Leadership Experience**\nThe role expects mentoring of junior/mid engineers. There is no evidence of this.\n\n---\n\nFINAL: REJECT"
+}

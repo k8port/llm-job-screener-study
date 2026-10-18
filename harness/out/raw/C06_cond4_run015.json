@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:46.938982+00:00",
+  "finished_utc": "2026-09-28T22:00:59.328615+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 550
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps (Required Qualifications):**\n\n1. **No cloud experience.** The job explicitly requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Alan's résumé describes an entirely on-premise enterprise environment with no mention of any cloud platform. This is a non-negotiable requirement for a Payments *Platform* team.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins usage.** He introduced Jenkins pipeline stages for integration tests, but there is no evidence of owning or designing CI/CD pipelines at a meaningful level, which is a stated requirement.\n\n**Significant Gaps (Preferred Qualifications):**\n\n3. **No event-driven architecture or modern message broker experience.** He lists JMS (an older Java messaging standard) but no Kafka, SQS, RabbitMQ, or comparable modern message broker — especially important for high-volume payments processing.\n\n4. **No containerization or orchestration experience.** No mention of Docker or Kubernetes anywhere on the résumé.\n\n5. **No infrastructure-as-code experience.** Terraform, CloudFormation, or similar tools are entirely absent.\n\n6. **No observability tooling experience.** No Datadog, Grafana, Prometheus, or equivalent mentioned.\n\n7. **No financial services or payments domain experience.** The role involves processing high-volume transactions for enterprise clients in a regulated context; his background is manufacturing ERP systems.\n\n**Contextual Concerns:**\n\n8. **Entirely on-premise background.** The Payments Platform team operates in a cloud-native, distributed systems environment. His entire seven-year career has been within a single on-premise enterprise stack, suggesting a potentially steep adaptation curve.\n\n9. **Limited scope of technical environment.** Working at one company for seven years in a manufacturing context may indicate limited exposure to the architectural patterns (microservices at scale, cloud-native design, event streaming) common in payments platforms.\n\n---\n\n**Rationale Summary:** Alan meets the core language (Java), REST API, SQL, and years-of-experience requirements, and he demonstrates mentorship and code review leadership. However, the **complete absence of cloud experience** is a hard requirement the role explicitly states, and this gap alone is disqualifying. Combined with missing containerization, event-driven architecture, and observability experience, his profile does not align sufficiently with the technical environment of this role.\n\nFINAL: REJECT"
+}

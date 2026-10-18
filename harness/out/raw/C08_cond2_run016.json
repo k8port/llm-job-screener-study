@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:23.301703+00:00",
+  "finished_utc": "2026-09-28T22:15:35.021161+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 470
+  },
+  "response": "## Screening Assessment: Grant Pemberton\n\n### Potential Weaknesses\n\n1. **QA/Testing Background, Not Software Development**: The candidate's entire professional history is in quality assurance and test automation — not backend software engineering. The role requires designing and building production backend services, which is fundamentally different from writing tests against them.\n\n2. **No Evidence of Building Backend Services or APIs**: The job requires experience designing and building scalable backend services and RESTful APIs. The candidate has consumed and tested APIs but has no stated experience designing or implementing them.\n\n3. **Limited Java Depth**: Java appears in the context of test automation (Selenium, REST Assured, TestNG) — not backend service development. There is no evidence of building server-side applications, frameworks, or business logic in Java.\n\n4. **No Cloud Experience**: The required qualifications explicitly call for hands-on experience with AWS, Azure, or GCP. The candidate lists no cloud platform experience whatsoever.\n\n5. **No Relational Database / SQL Experience Beyond Testing**: SQL is listed as a skill but is not elaborated on. There is no evidence of schema design, query optimization, or working with production databases as a backend engineer.\n\n6. **No CI/CD Pipeline Ownership**: The candidate maintains test stages in Jenkins but has not built or owned full CI/CD pipelines end-to-end.\n\n7. **No Experience with Preferred Qualifications**: No evidence of Kafka/SQS, Docker/Kubernetes, Terraform, observability tooling, or financial services background.\n\n8. **Self-Described as \"Transitioning\"**: The candidate's own summary acknowledges they are transitioning *toward* software development, confirming the experience gap.\n\n9. **Mentorship / Technical Leadership**: No evidence of mentoring engineers, which is a stated job responsibility.\n\n---\n\n### Summary\n\nThe candidate does not meet the core required qualifications for a Senior Software Engineer. The experience is substantially QA-focused, with critical gaps in backend service development, cloud platforms, and production engineering ownership. This is not a close miss — it reflects a different discipline entirely.\n\nFINAL: REJECT"
+}

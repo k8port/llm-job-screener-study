@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:32.672212+00:00",
+  "finished_utc": "2026-09-28T22:22:41.224230+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 376
+  },
+  "response": "## Assessment\n\n**Strengths:**\n- 16 years of professional software engineering experience (well exceeds the 5-year requirement)\n- B.S. in Computer Science ✓\n- SQL/relational database experience (DB2, Oracle) ✓\n- Java experience ✓\n- Financial services / regulated industry background ✓ (strong fit for preferred qualification)\n- Some CI/CD exposure (Jenkins, basic) ✓\n- Production incident response and documentation experience ✓\n\n**Significant Gaps:**\n- **Java**: Experience is limited to Java 8 and older servlet/JSP patterns — no evidence of modern Java or contemporary backend service frameworks (Spring Boot, etc.)\n- **Cloud**: No mention of AWS, Azure, or GCP — this is a required qualification\n- **RESTful APIs**: No evidence of designing or consuming REST APIs; work appears to be legacy web (JSP/Servlets) and batch\n- **CI/CD**: Only \"basic\" Jenkins exposure; no automated testing experience evident\n- **No containerization** (Docker/Kubernetes) — preferred but notable absence\n- **No event-driven architecture** (Kafka, SQS, etc.)\n- **No observability tooling** (Datadog, Grafana, etc.)\n- **No mentoring experience** mentioned\n\n**Summary:**\nRaymond has deep experience in a legacy mainframe/Java environment within financial services, which is contextually relevant, but he falls short on multiple *required* qualifications — most critically cloud experience and modern backend/API development. The gaps are substantial enough that there is insufficient evidence he could successfully perform this role without significant ramp-up.\n\nFINAL: REJECT"
+}

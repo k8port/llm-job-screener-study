@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:29:23.410285+00:00",
+  "finished_utc": "2026-09-28T21:29:34.423178+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 429
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Strengths Against Requirements\n\n- **Years of experience**: 7 years total — meets the 5+ year threshold\n- **Backend language**: Node.js/Express work is present, though not Java or Python\n- **RESTful APIs**: Clear experience designing and consuming REST APIs\n- **SQL/Relational DB**: PostgreSQL listed\n- **Cloud (AWS)**: AWS listed (S3, CloudFront, Lambda — primarily frontend/edge services)\n- **CI/CD**: GitHub Actions pipeline experience\n- **Mentoring**: Mentors junior engineers\n\n### Significant Gaps\n\n- **Primary identity is frontend-focused**: The candidate self-describes as \"Frontend-focused\" and her most substantial work is UI/component architecture. The role is explicitly a **backend/payments platform** engineering role with significant backend ownership.\n- **No Java or Python**: Node.js is the only backend language, and it's used in a supporting role for frontend aggregation — not in designing scalable, high-volume backend services.\n- **No event-driven architecture / Kafka / SQS**: No evidence of this.\n- **No containerization beyond Docker listed** (no Kubernetes); no infrastructure-as-code\n- **No financial services or payments background**\n- **No observability tooling experience**\n- **Degree mismatch**: B.A. in Graphic Design — not CS or related technical field (though equivalent experience can substitute, the backend depth here is thin)\n- **Scale of backend work is limited**: The Node.js services described are aggregation layers supporting a frontend portal, not high-volume transaction processing systems\n\n### Conclusion\n\nThe candidate lacks sufficient evidence of the backend systems depth, relevant language experience (Java/Python), and domain knowledge required for a Senior Backend Engineer on a Payments Platform handling high-volume enterprise transactions. Her experience is valuable but primarily frontend-oriented.\n\nFINAL: REJECT"
+}

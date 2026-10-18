@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:48.309473+00:00",
+  "finished_utc": "2026-09-28T22:51:57.622793+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 371
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires **5+ years** of professional software engineering experience. Elise has approximately **3.5 years** total (2023–present), falling meaningfully short of this hard requirement.\n\n2. **No demonstrated mentorship**: The role explicitly requires mentoring mid-level and junior engineers, and prior mentorship is listed as a preferred qualification. There is **no mention of mentoring** on the résumé, which is expected at a senior level.\n\n3. **Limited architectural ownership**: The résumé describes contributing to work \"led by a senior engineer\" (e.g., Kafka consumer group partitioning), suggesting she is **still operating below the senior/lead level** rather than driving technical decisions independently.\n\n4. **Infrastructure-as-code is nascent**: Terraform is listed as \"basic,\" which falls short of the hands-on IaC experience preferred for a role with infrastructure responsibilities.\n\n5. **No evidence of leading technical initiatives**: The preferred qualifications include leading small technical initiatives; the résumé shows no examples of owning a project end-to-end from a leadership standpoint.\n\n6. **No explicit CI/CD pipeline design experience**: GitHub Actions is listed, but pipeline usage appears limited to deployment steps rather than designing or owning CI/CD strategy.\n\n---\n\n## Judgment\n\nThe most critical disqualifier is the significant experience gap — 3.5 years versus the required 5+ years — compounded by a résumé that reflects a mid-level contributor profile, not a senior engineer ready to lead design, mentor others, and drive initiatives independently.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:14.897548+00:00",
+  "finished_utc": "2026-09-30T18:39:25.649090+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 436
+  },
+  "response": "## Candidate Evaluation: Dana Whitfield\n\n### Potential Weaknesses Identified\n\n**1. Insufficient Years of Experience (Critical Gap)**\nThe job requires **5+ years** of professional software engineering experience. Dana has approximately **2 years total** (1 year as an intern + ~1 year as a full-time engineer). This is a fundamental mismatch with the stated requirement.\n\n**2. No Evidence of Cloud Depth**\nThe required qualification is hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3)\" — this is explicitly self-described as surface-level and does not meet the bar expected for a senior-level role.\n\n**3. No CI/CD Ownership**\nDana \"contributes to a GitHub Actions pipeline maintained by a senior engineer,\" indicating no independent experience designing or owning CI/CD pipelines — a required qualification.\n\n**4. No Mentorship or Technical Leadership**\nThe role requires mentoring mid-level and junior engineers. There is no evidence of Dana having done this; Dana is in a position where *they* are being mentored.\n\n**5. No Event-Driven or Distributed Systems Experience**\nNo mention of Kafka, SQS, message brokers, containerization (Docker/Kubernetes), or infrastructure-as-code — all preferred and relevant to a payments platform at scale.\n\n**6. No Payments or Regulated Industry Background**\nPreferred domain experience is entirely absent.\n\n**7. Scope of Work Does Not Reflect Senior-Level Ownership**\nCurrent responsibilities (resolving support queue defects, assisting a senior engineer, sprint participation) reflect an early-career engineer, not someone ready for significant architectural ownership.\n\n---\n\n### Summary\n\nDana is a promising early-career engineer but falls materially short across nearly every dimension of this role — years of experience, technical depth, leadership, and domain background. The gaps are not marginal; they are structural.\n\nFINAL: REJECT"
+}

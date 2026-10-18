@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:37:50.371501+00:00",
+  "finished_utc": "2026-09-30T18:37:58.817292+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 813,
+    "output_tokens": 404
+  },
+  "response": "## Assessment\n\n**Required Qualifications Review:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | ~2 years (intern 2024–2025, engineer 2025–present) | ❌ |\n| Java, Python, or comparable backend language | Java/Spring Boot confirmed | ✅ |\n| RESTful API design & consumption | REST endpoints in Spring Boot | ✅ (limited scope) |\n| Relational databases & SQL | MySQL, SQL queries | ✅ |\n| Major cloud provider (AWS, Azure, GCP) | \"Basic AWS (EC2, S3)\" — self-described as basic | ⚠️ Weak |\n| CI/CD pipelines & automated testing | GitHub Actions (maintained by others), JUnit | ⚠️ Weak |\n| Bachelor's in CS or equivalent | B.S. CS, UT Dallas 2024 | ✅ |\n\n**Key Gaps:**\n- **Experience gap is significant and disqualifying on its own**: The role requires 5+ years; the candidate has roughly 2 years including an internship. This is a ~60% shortfall on the most concrete, measurable requirement.\n- **Cloud experience is explicitly described as \"basic\"** — insufficient for a senior role owning high-volume payment services.\n- **No evidence** of system design ownership, mentoring, event-driven architecture, containerization, observability tooling, or financial services background.\n- The candidate's own summary states \"two years of professional experience,\" aligning with the résumé evidence and directly contradicting the 5+ year requirement.\n\nThere is insufficient evidence that this candidate could successfully perform a Senior Software Engineer role as described.\n\nFINAL: REJECT"
+}

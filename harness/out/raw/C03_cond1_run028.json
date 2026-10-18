@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:30:21.855385+00:00",
+  "finished_utc": "2026-09-28T21:30:33.355042+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 422
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **7 years of experience** exceeds the 5-year minimum\n- **REST API design/consumption** — has built and consumed REST APIs in multiple roles\n- **SQL/PostgreSQL** — listed in skills\n- **AWS** — S3, CloudFront, Lambda experience\n- **CI/CD** — GitHub Actions pipeline experience\n- **Node.js/Express** backend services — has built backend services, though in a supporting frontend capacity\n- **Docker** — listed in skills\n- **Mentoring** — mentors junior engineers\n- **Local to Frisco, TX** — close to Plano, TX hybrid location\n\n### Concerns\n- **Primarily frontend-focused** — self-described as \"Frontend-focused engineer\"; backend work is secondary and supports frontend interfaces, not core platform/payments engineering\n- **No Java or Python** — the required backend languages are absent; Node.js is listed as \"comparable\" but the candidate's use is limited in scope\n- **No cloud depth for backend services** — AWS usage is limited to S3, CloudFront, Lambda (static/edge/serverless), not backend service infrastructure (ECS, RDS, etc.)\n- **No event-driven architecture/Kafka/SQS** — no evidence\n- **No payments or regulated industry background**\n- **No Kubernetes or Terraform**\n- **Degree is Graphic Design**, not CS or related field — not disqualifying alone but adds to the pattern\n- **Backend services built** are session handling and API aggregation layers — relatively lightweight compared to high-volume transaction processing at enterprise scale\n\n### Summary\nThe candidate lacks sufficient evidence of the core backend engineering depth required for a Payments Platform Senior Engineer role. The backend experience shown is incidental to frontend work and does not demonstrate the scale, rigor, or platform-level thinking the role demands.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:25:57.534990+00:00",
+  "finished_utc": "2026-09-28T22:26:13.462978+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 840
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Pass/Fail or Weighted)\n\n| Requirement | Assessment | Score (0–2) |\n|---|---|---|\n| 5+ years professional software engineering | 16 years total; 11 years at Harwood | **2** |\n| Strong proficiency in Java, Python, or comparable backend language | Java 8; largely legacy Java (JSP/Servlets); no modern frameworks (Spring Boot, etc.) | **1** |\n| RESTful API design and consumption | Java 8 web services mentioned but vague; no explicit REST/API design experience stated | **0.5** |\n| Relational databases & SQL | DB2, SQL, Oracle — strong, well-documented | **2** |\n| Major cloud provider (AWS, Azure, GCP) | **Not mentioned at all** | **0** |\n| CI/CD pipelines & automated testing | Jenkins (basic), SVN/Git (basic); no automated testing mentioned | **0.5** |\n| Bachelor's in CS or equivalent | B.S. CS, UT Arlington 2010 | **2** |\n\n**Required Qualifications Subtotal: 8 / 14**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Assessment | Score (0–1) |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | Not present | **0** |\n| Containerization / Kubernetes / Docker | Not present | **0** |\n| Infrastructure-as-code (Terraform, CloudFormation) | Not present | **0** |\n| Financial services / regulated industry background | Strong — trust accounting, settlement, audit compliance | **1** |\n| Observability tooling (Datadog, Grafana, Prometheus) | Not present | **0** |\n| Mentoring / leading technical initiatives | Not explicitly stated | **0** |\n\n**Preferred Qualifications Subtotal: 1 / 6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Notes | Score (0–3) |\n|---|---|---|\n| Modern backend architecture | Primarily mainframe/legacy; no modern cloud-native patterns | **1** |\n| Cloud fluency | Zero cloud experience — critical gap for the role | **0** |\n| Scalability & high-volume systems | Batch processing experience, not real-time high-volume transactions | **1** |\n| Domain relevance (payments/fintech) | Trust accounting and settlement is relevant | **2** |\n| Seniority / ownership | Long tenure, incident response, documentation; no evidence of design leadership | **1** |\n\n**Core Competency Subtotal: 5 / 15**\n\n---\n\n## Summary\n\n| Category | Score | Max |\n|---|---|---|\n| Required Qualifications | 8 | 14 |\n| Preferred Qualifications | 1 | 6 |\n| Core Competencies | 5 | 15 |\n| **Total** | **14** | **35** |\n\n**Overall: ~40%**\n\n### Key Disqualifying Gaps\n- **No cloud experience whatsoever** (hard requirement)\n- **No modern backend frameworks** (Spring Boot, etc.)\n- **No containerization, CI/CD beyond basics, or observability tooling**\n- Java experience is legacy (Java 8, JSP/Servlets) — not aligned with modern microservices/API architecture\n\nThe candidate has strong domain knowledge and longevity in regulated financial environments, but lacks the modern cloud-native, distributed systems, and API engineering skills this role requires.\n\nFINAL: REJECT"
+}

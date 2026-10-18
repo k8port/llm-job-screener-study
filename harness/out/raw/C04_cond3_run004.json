@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:41:54.523659+00:00",
+  "finished_utc": "2026-09-28T21:42:10.215270+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 723
+  },
+  "response": "# Candidate Scoring: Trevor Lindquist\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–5) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of experience (5+ required)** | 10% | 5 | 0.50 | 9 years total, 6 in payments |\n| **Backend language proficiency (Java/Python)** | 15% | 5 | 0.75 | Expert in both Java and Python; production use at scale |\n| **RESTful API design & consumption** | 10% | 5 | 0.50 | Owns partner API surface; versioned REST contracts |\n| **Relational databases & SQL** | 10% | 5 | 0.50 | PostgreSQL across multiple roles; SQL batch jobs |\n| **Cloud provider experience (AWS/Azure/GCP)** | 10% | 5 | 0.50 | AWS (ECS, SQS, RDS, Lambda) — hands-on |\n| **CI/CD & automated testing** | 10% | 4 | 0.40 | GitHub Actions; introduced integration testing; Helm standardization |\n| **Education (BS CS or equivalent practical experience)** | 5% | 4 | 0.20 | No degree, but \"equivalent practical experience\" explicitly accepted; apprenticeship + 9 years |\n| **Event-driven architecture / message brokers (preferred)** | 8% | 5 | 0.40 | Built Kafka + SQS event pipeline; strong fit |\n| **Containerization & orchestration (preferred)** | 7% | 5 | 0.35 | Docker, Kubernetes, Helm — production use |\n| **Infrastructure-as-code (preferred)** | 5% | 5 | 0.25 | Terraform modules across 6 services |\n| **Financial services / payments background (preferred)** | 5% | 5 | 0.25 | 6 years in payments infrastructure specifically |\n| **Observability tooling (preferred)** | 5% | 5 | 0.25 | Grafana, Prometheus listed |\n| **Mentoring / technical leadership (preferred)** | 5% | 4 | 0.20 | On-call lead, incident retrospectives; implied mentoring |\n\n## Total Score: **4.90 / 5.00 (98%)**\n\n---\n\n## Summary Assessment\n\nTrevor is an exceptionally strong match for this role. He satisfies **every required qualification** — including the education requirement via the explicit \"equivalent practical experience\" clause — and meets **every preferred qualification** as well. His six years in payments infrastructure directly mirrors the team's domain, and his hands-on ownership of API design, event pipelines, Terraform infrastructure, and on-call operations reflects the scope of impact expected at the senior level.\n\nThe only marginal deduction is on the education criterion (acknowledged non-traditional path) and CI/CD (solid but slightly less detailed than other areas).\n\n---\n\nFINAL: ADVANCE"
+}

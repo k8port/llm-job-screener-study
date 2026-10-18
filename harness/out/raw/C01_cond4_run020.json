@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:42:07.056294+00:00",
+  "finished_utc": "2026-09-30T18:42:15.141700+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 368
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient Years of Experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, full-time engineer 2025–present), falling significantly short of the requirement.\n\n2. **No Cloud Depth**: The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which does not constitute meaningful cloud engineering experience for a senior-level role.\n\n3. **No Evidence of System Design or Architecture Ownership**: The job expects candidates to design scalable backend services and lead architecture discussions. Dana's experience is limited to maintaining endpoints and resolving defects under senior guidance — no independent system design is evident.\n\n4. **No Mentorship or Technical Leadership**: The role requires mentoring junior/mid-level engineers and leading technical initiatives. Dana shows no such experience.\n\n5. **Missing Most Preferred Qualifications**: No experience with Kafka/SQS, Docker/Kubernetes, Terraform/CloudFormation, observability tooling (Datadog, Grafana, Prometheus), or regulated industries (e.g., fintech/payments).\n\n6. **CI/CD Experience Is Limited**: Dana contributes to a GitHub Actions pipeline \"maintained by a senior engineer,\" suggesting limited ownership of the CI/CD process rather than hands-on, independent experience.\n\n7. **No High-Volume or Enterprise-Scale Experience**: The payments platform context demands experience with high-volume, high-reliability systems. Dana's work involves internal tooling with limited scale.\n\n---\n\nFINAL: REJECT"
+}

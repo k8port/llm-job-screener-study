@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:35:31.129772+00:00",
+  "finished_utc": "2026-09-28T21:35:41.623824+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 439
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-Focused, Not Backend-Focused**\nThe candidate explicitly self-identifies as a \"Frontend-focused engineer.\" The role requires a backend engineer designing and building scalable backend services and APIs at high volume. Her backend experience (Node.js/Express) is secondary and appears limited to supporting frontend interfaces, not standalone distributed systems.\n\n**2. No Java or Python Proficiency**\nThe required qualifications list Java, Python, or a \"comparable backend language.\" The candidate's stack is TypeScript/JavaScript/Node.js — a language often accepted in some backend roles, but her use of it is in a frontend-supporting capacity, not as a core backend systems engineer. There is no Java or Python listed anywhere.\n\n**3. No Experience with High-Volume Transaction Processing or Financial Services**\nThe role centers on a Payments Platform processing high-volume enterprise transactions. The candidate's background is in retail web portals and marketing sites — no payments, fintech, or regulated industry experience whatsoever.\n\n**4. Limited Cloud Experience**\nHer AWS exposure is confined to S3, CloudFront, and Lambda — primarily frontend/CDN services. There is no evidence of backend-relevant AWS services (e.g., RDS, ECS, EKS, SQS, API Gateway in a backend context).\n\n**5. Degree Mismatch**\nShe holds a B.A. in Graphic Design, not Computer Science or a related technical field. While practical experience can substitute, this compounds other concerns.\n\n**6. No Event-Driven Architecture or Observability Tooling**\nKafka, SQS, Datadog, Grafana, Prometheus — none are present. These are preferred but signal meaningful gaps for a senior payments platform role.\n\n**7. Mentorship Is Limited to Frontend Context**\nWhile she mentors junior frontend engineers, the role requires mentoring in a backend/systems engineering context.\n\n---\n\nFINAL: REJECT"
+}

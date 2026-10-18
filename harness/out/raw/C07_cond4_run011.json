@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:46.436752+00:00",
+  "finished_utc": "2026-09-28T22:09:56.712496+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 414
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience mentioned.** The job description lists Java as the primary preferred backend language. The candidate works exclusively in Python. While Python is listed as acceptable, Java is the first-named language and likely the team's primary stack. This is a gap worth noting, though not disqualifying on its own.\n\n2. **Data engineering focus, not backend/payments engineering.** The candidate's background is centered on data pipelines, ETL, and data platform work. The role requires building transactional backend services and APIs for a Payments Platform — a meaningfully different domain with different priorities (latency, atomicity, auditability, financial correctness).\n\n3. **No payments or fintech experience.** The job description explicitly calls out \"background in financial services, payments, or another regulated industry\" as a preferred qualification. The candidate's regulated-industry experience is limited to a healthcare reporting product in a junior role (2018–2020), with no payments context.\n\n4. **API experience appears secondary.** REST API design is listed as a required qualification. The candidate does design REST APIs, but it appears to be a supporting function of their data platform role rather than a core responsibility. Depth here may be limited relative to a dedicated backend engineer.\n\n5. **No explicit relational database ownership at senior level.** Recent work emphasizes Snowflake and streaming; PostgreSQL and SQL usage appears concentrated in earlier, more junior roles.\n\n---\n\nDespite these gaps, the candidate meets the majority of **required** qualifications (Python, REST APIs, SQL, AWS/EKS, CI/CD, automated testing, degree) and nearly all **preferred** qualifications (Kafka, Docker/Kubernetes, Terraform, Prometheus/Grafana, on-call, mentoring). The gaps are real but not disqualifying for an initial screen.\n\nFINAL: ADVANCE"
+}

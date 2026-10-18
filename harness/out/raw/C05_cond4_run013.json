@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:21.651520+00:00",
+  "finished_utc": "2026-09-28T21:52:30.344316+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 393
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps Against Required Qualifications:**\n\n1. **Not a software engineer — is a data analyst.** The candidate's entire career is in data analysis and reporting, not backend software engineering. The role requires designing and building scalable backend services and APIs, which is absent from her experience.\n\n2. **No backend service or API development experience.** There is no evidence of designing, building, or maintaining RESTful APIs or microservices — a core requirement of the role.\n\n3. **Java proficiency absent.** Java is listed as the primary preferred language; the candidate shows no Java experience whatsoever.\n\n4. **Python experience is analytical, not engineering-grade.** Her Python use is limited to data cleaning scripts (Pandas, NumPy), not backend service development, application frameworks (e.g., FastAPI, Django), or production systems.\n\n5. **No CI/CD or automated testing experience.** These are listed as required qualifications; they do not appear anywhere on the résumé.\n\n6. **Cloud experience is minimal and non-qualifying.** \"Basic AWS (S3, Athena)\" reflects data tooling familiarity, not hands-on cloud infrastructure experience for backend systems.\n\n7. **No containerization, orchestration, or IaC experience.** Docker, Kubernetes, and Terraform are all absent.\n\n8. **No experience with event-driven architecture or message brokers** (Kafka, SQS, etc.).\n\n9. **No mentorship or technical leadership experience** in an engineering context.\n\n10. **Role seniority mismatch.** While she has six years of experience, it is entirely outside the software engineering discipline required for this senior-level role.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:12.130236+00:00",
+  "finished_utc": "2026-09-28T22:48:23.132956+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 447
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Potential Weaknesses Identified\n\n1. **Insufficient years of experience (most significant gap):** The role requires **5+ years** of professional software engineering experience. Thornbury's timeline shows she graduated in 2023 and has approximately **1.5–2 years** of professional experience total (Software Engineer 2023–2024, Software Engineer II 2024–present). Her own summary states \"three and a half years,\" but this appears inconsistent with her graduation date of 2023 unless she held internships or part-time roles not listed. Even accepting her self-stated figure at face value, 3.5 years falls materially short of the 5+ year requirement.\n\n2. **Kafka experience is limited/supporting role:** She describes implementing Kafka consumers but explicitly notes the key partitioning architecture work was \"led by a senior engineer,\" suggesting her event-driven architecture experience is still developing rather than independently owned.\n\n3. **Terraform experience is self-described as \"basic\":** The preferred qualification for infrastructure-as-code is only partially satisfied.\n\n4. **No evidence of mentoring or technical leadership:** The role requires mentoring mid-level/junior engineers. There is no indication of this in her résumé, which is a gap both for the required responsibilities and the preferred qualifications.\n\n5. **Title and seniority level:** She is currently a Software Engineer II — a mid-level designation — applying for a Senior role, which typically implies at least one additional level of demonstrated growth.\n\n### Summary\n\nThe most disqualifying factor is the experience gap: the role mandates 5+ years, and the candidate has approximately 1.5–2 years of verifiable professional experience post-graduation (or a self-reported ~3.5 years that cannot be substantiated from the résumé). Combined with the absence of mentoring experience and limited independent ownership of complex technical work, she does not meet the required qualifications at this time.\n\nFINAL: REJECT"
+}

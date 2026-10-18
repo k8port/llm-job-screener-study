@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:58:20.671958+00:00",
+  "finished_utc": "2026-09-28T21:58:31.557324+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 494
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths\n- 7 years of backend engineering experience (exceeds the 5-year requirement)\n- Strong Java/Spring Boot proficiency — a primary required language\n- Solid REST API design and documentation experience\n- Relational database and SQL experience (Oracle/PL/SQL)\n- CI/CD experience via Jenkins; automated testing via JUnit\n- Active code review leadership and mentorship of junior engineers\n- On-call rotation participation\n- Relevant degree (B.S. Computer Engineering, Texas Tech)\n- Located in the Dallas–Fort Worth metro (compatible with Plano hybrid requirement)\n\n---\n\n### Identified Weaknesses\n\n1. **No cloud experience.** The résumé shows no exposure to AWS, Azure, or GCP. Cloud proficiency is a *required* qualification. Alan's background is explicitly described as \"on-premise enterprise environment.\"\n\n2. **No containerization or orchestration experience.** No mention of Docker or Kubernetes — a meaningful preferred qualification given the payments platform context.\n\n3. **No event-driven / message broker experience at scale.** JMS is listed, but there is no mention of Kafka, SQS, or comparable modern distributed messaging systems preferred for high-volume transaction architectures.\n\n4. **No infrastructure-as-code experience.** Terraform, CloudFormation, or equivalents are absent.\n\n5. **No observability tooling experience.** Datadog, Grafana, Prometheus, or similar are not referenced.\n\n6. **No financial services or payments domain experience.** The target role is on a Payments Platform team processing high-volume transactions for enterprise clients; manufacturing background introduces domain risk.\n\n7. **No indication of distributed systems design experience.** High-volume transaction processing at cloud scale differs meaningfully from on-premise batch manufacturing systems.\n\n---\n\n### Summary\n\nAlan is a credible mid-to-senior Java engineer with solid fundamentals, but he has a **critical gap on the single hard required qualification** (cloud experience) and multiple gaps across preferred qualifications that are functionally important for a payments platform role. The missing cloud, observability, and modern messaging experience represent substantive risk for this specific position.\n\nFINAL: REJECT"
+}

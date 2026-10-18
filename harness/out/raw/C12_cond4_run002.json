@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:50:57.848668+00:00",
+  "finished_utc": "2026-09-28T22:51:06.240772+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 346
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience:** The job requires **5+ years** of professional software engineering experience. Elise has approximately **3.5 years** total (2023–present), falling meaningfully short of the stated requirement.\n\n2. **No demonstrated mentorship experience:** The role requires mentoring mid-level and junior engineers, and prior mentorship is listed as a preferred qualification. There is no mention of mentoring, leading technical initiatives, or taking on informal leadership responsibilities on her résumé.\n\n3. **Limited infrastructure-as-code depth:** Terraform experience is self-described as \"basic,\" whereas the role involves significant ownership over service design and delivery in a high-stakes payments context. This may be insufficient for the IaC responsibilities implied.\n\n4. **Kafka experience is limited in scope:** While she has Kafka exposure, her résumé explicitly notes that the more substantive consumer group partitioning work was \"led by a senior engineer,\" suggesting she was a contributor rather than a driver of architectural decisions — which is the level of ownership this Senior role requires.\n\n5. **No evidence of architecture-level contributions:** The role emphasizes architecture discussions, service design ownership, and translating requirements into technical solutions. Her experience appears execution-focused rather than design/architecture-focused.\n\n6. **Recent graduation (2023):** She graduated with her B.S. in 2023, which, combined with her total experience, confirms she is likely at a mid-level career stage rather than a senior one.\n\n---\n\nFINAL: REJECT"
+}

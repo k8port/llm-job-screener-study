@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:05:27.315313+00:00",
+  "finished_utc": "2026-09-28T22:05:40.096359+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 418
+  },
+  "response": "## Evaluation\n\n### Required Qualifications Assessment\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years (2018–present) | ✅ |\n| Strong proficiency in Java, Python, or comparable backend language | Python throughout career, production services | ✅ |\n| Experience designing and consuming RESTful APIs | Designs REST APIs, maintains versioning/contracts | ✅ |\n| Relational databases and SQL | PostgreSQL, Snowflake, SQL explicitly listed | ✅ |\n| Hands-on cloud experience (AWS/Azure/GCP) | AWS (EKS, S3, Lambda, RDS) | ✅ |\n| CI/CD and automated testing | GitHub Actions CI, pytest, automated tests | ✅ |\n| Bachelor's degree or equivalent | B.S. Information Systems | ✅ |\n\n### Preferred Qualifications Assessment\n\n- **Event-driven / message brokers**: Kafka at 40M daily events ✅\n- **Containerization / Kubernetes**: Docker, EKS (Kubernetes) ✅\n- **Infrastructure-as-code**: Terraform ✅\n- **Financial services / regulated industry**: Transaction data for enterprise clients; adjacent healthcare background ✅ (partial)\n- **Observability tooling**: Prometheus, Grafana, owns on-call ✅\n- **Mentoring / technical leadership**: Not explicitly mentioned ⚠️\n\n### Summary\n\nSimone meets every required qualification and nearly every preferred qualification. The role is backend services/APIs — her work is substantively that, even if her title is \"Data Platform Engineer.\" The only gap is the absence of explicit mentoring experience, which is a preferred (not required) criterion.\n\nFINAL: ADVANCE"
+}

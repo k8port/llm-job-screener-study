@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:46.157112+00:00",
+  "finished_utc": "2026-09-28T22:09:57.237933+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 444
+  },
+  "response": "## Reasons Not to Advance\n\n1. **No Java experience mentioned.** The job description lists Java as the primary preferred backend language. The candidate works exclusively in Python. While Python is listed as acceptable, the payments platform team likely has Java codebases given it's listed first; this could be a gap.\n\n2. **Data engineering focus, not backend/payments engineering.** The candidate's background is in data pipelines, ETL, and analytics platforms — not transactional backend systems or payments processing. The role requires building services that process high-volume *financial transactions* for enterprise clients, which is a distinct discipline from data engineering.\n\n3. **No financial services or payments experience.** The job description explicitly lists \"background in financial services, payments, or another regulated industry\" as a preferred qualification. The candidate's domains are analytics and healthcare reporting (limited exposure), with no payments or fintech context mentioned.\n\n4. **API work appears secondary/supplementary.** The candidate \"designs REST APIs exposing pipeline outputs\" — this is ancillary to their core data work, not the primary focus. The role requires APIs as a central deliverable.\n\n5. **No explicit mentorship experience documented.** The role involves mentoring junior/mid-level engineers, a required soft-skill dimension. The résumé does not mention any mentorship or technical leadership of other engineers.\n\n6. **Degree is in Information Systems, not Computer Science or a closely related field.** Minor concern, but noted given the job description specifies CS or related field.\n\n## Judgment\n\nDespite the gaps, the candidate meets nearly all *required* qualifications (8 years experience, Python, REST APIs, SQL/PostgreSQL, AWS, CI/CD, automated testing) and nearly all *preferred* qualifications (Kafka, Docker/Kubernetes, Terraform, Prometheus/Grafana). The gaps are real but not disqualifying for a screen — the domain and language concerns are worth surfacing to a hiring manager, not grounds for outright rejection at this stage.\n\nFINAL: ADVANCE"
+}

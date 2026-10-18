@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:11.021999+00:00",
+  "finished_utc": "2026-09-28T22:26:21.034153+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 445
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps vs. Required Qualifications:**\n\n1. **Cloud experience (Required):** No mention of AWS, Azure, or GCP anywhere on the résumé. This is a required qualification for a cloud-native payments platform role.\n\n2. **Modern backend language proficiency:** The candidate's Java experience is limited to Java 8 and legacy patterns (JSP, Servlets). No evidence of modern Java (11+) or Python. Java 8 reached end of life in 2019; this suggests limited exposure to current backend development practices.\n\n3. **RESTful API design/consumption:** No mention of REST APIs. The Java work appears to be internal-facing legacy web tooling, not API-driven service design.\n\n4. **CI/CD pipelines and automated testing:** Jenkins is listed only as \"basic,\" and there is no mention of automated testing at all. These are required qualifications.\n\n5. **No cloud or containerization exposure:** Docker and Kubernetes are absent entirely, which are also preferred qualifications.\n\n**Gaps vs. Preferred Qualifications:**\n\n6. **No event-driven architecture/message brokers:** No Kafka, SQS, or equivalent experience.\n7. **No infrastructure-as-code:** No Terraform, CloudFormation, or similar.\n8. **No observability tooling:** No Datadog, Grafana, or Prometheus.\n9. **No mentorship or technical leadership** demonstrated in the résumé.\n\n**Other Concerns:**\n\n10. **Technology currency:** The candidate's stack (COBOL, JCL, z/OS, JSP, Subversion, WebSphere) is largely legacy/mainframe. While this demonstrates depth in regulated environments, it does not translate to the modern distributed systems architecture this role requires.\n11. **The role requires *designing* scalable backend services**; the résumé reflects a *maintenance and support* profile.\n\n---\n\nFINAL: REJECT"
+}

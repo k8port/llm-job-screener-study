@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:30.016926+00:00",
+  "finished_utc": "2026-09-28T22:43:38.955049+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 356
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Engineer — Systems Administration Background**\nCurtis identifies as a \"Systems Administrator\" and all experience reflects infrastructure operations, not software development. The role requires someone who *designs and builds* backend services and APIs.\n\n**2. No Backend Software Development Experience**\nThere is no evidence of building applications, services, or APIs in any language. Writing Bash/PowerShell automation scripts for sysadmin tasks does not constitute professional software engineering.\n\n**3. Does Not Meet the Core Language Requirement**\nThe role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell — scripting languages used in an operations context, not backend application development.\n\n**4. No API Design or Consumption Experience**\nNo mention of RESTful APIs, service design, or any application-layer development.\n\n**5. SQL Listed as \"Basic\"**\nThe role requires meaningful relational database and SQL experience; Curtis explicitly self-rates this as basic.\n\n**6. No CI/CD or Automated Testing Experience**\nNeither appears anywhere on the résumé.\n\n**7. Does Not Meet the Years-of-Experience Standard in the Right Domain**\nNine years of experience is present, but none of it is software engineering experience as defined by this role.\n\n**8. Preferred Qualifications Also Largely Unmet**\nNo Kafka/SQS, no Kubernetes (Docker listed as \"basic\"), no IaC, no observability tooling relevant to engineering, no mentorship of engineers.\n\n---\n\nFINAL: REJECT"
+}

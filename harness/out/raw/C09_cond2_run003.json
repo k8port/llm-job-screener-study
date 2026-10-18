@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:56.827310+00:00",
+  "finished_utc": "2026-09-28T22:23:07.529766+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 465
+  },
+  "response": "## Screening Assessment: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n1. **No Cloud Experience**: The candidate lists no experience with AWS, Azure, or GCP. Cloud proficiency is a *required* qualification for this role.\n\n2. **Outdated Java Stack**: Experience is limited to Java 8 with JSP/Servlets — older, largely deprecated web technologies. No evidence of modern Java frameworks (Spring Boot, Quarkus, Micronaut) or microservices architecture.\n\n3. **No RESTful API Experience**: The candidate shows no explicit experience designing or consuming RESTful APIs, which is a *required* qualification.\n\n4. **No CI/CD Pipeline Experience**: Jenkins is listed as \"basic,\" and there is no evidence of meaningful CI/CD pipeline design or use — another *required* qualification.\n\n5. **No Containerization or Orchestration**: No mention of Docker or Kubernetes (preferred, but notably absent given the seniority level).\n\n6. **No Event-Driven/Messaging Experience**: No Kafka, SQS, or comparable message broker experience listed.\n\n7. **No Observability Tooling**: No Datadog, Grafana, Prometheus, or equivalent mentioned.\n\n8. **No Mentorship or Technical Leadership**: No evidence of mentoring engineers or leading technical initiatives, which is both a role expectation and a preferred qualification.\n\n9. **Technology Profile is Largely Mainframe-Centric**: The bulk of experience is in COBOL/JCL/z/OS — a fundamentally different paradigm from the modern distributed backend systems this role requires.\n\n10. **No Infrastructure-as-Code Experience**: Terraform or CloudFormation entirely absent.\n\n### Summary\n\nRaymond has strong tenure in regulated financial environments and solid SQL/database skills, which are relevant. However, he fails to meet multiple *required* qualifications — most critically cloud experience, REST API design, and meaningful CI/CD — and lacks nearly all of the preferred qualifications. The technology stack is significantly misaligned with the role's needs.\n\nFINAL: REJECT"
+}

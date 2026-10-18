@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 5,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:44:40.601032+00:00",
+  "finished_utc": "2026-09-30T18:44:58.951569+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 844,
+    "output_tokens": 945
+  },
+  "response": "## ATS Evaluation: Dana Whitfield — Senior Software Engineer (Payments Platform)\n\n---\n\n### 1. STRICT REQUIREMENTS CHECK\n\n| Required Qualification | Candidate Evidence | Met? |\n|---|---|---|\n| 5+ years professional SWE experience | ~2 years (intern 2024–2025, FTE 2025–present) | ❌ FAIL |\n| Java, Python, or comparable backend language | Java / Spring Boot confirmed | ✅ |\n| RESTful API design & consumption | REST endpoints in Spring Boot | ✅ (partial — consuming not evidenced) |\n| Relational databases & SQL | MySQL, SQL queries | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | \"Basic AWS (EC2, S3)\" — self-described as basic | ⚠️ WEAK |\n| CI/CD pipelines & automated testing | GitHub Actions (contributed, not owned); JUnit | ⚠️ WEAK |\n| Bachelor's in CS or equivalent | B.S. CS, UT Dallas 2024 | ✅ |\n\n**Hard Fail: Experience requirement (5+ years vs. ~2 years).** This is a ~60% shortfall on the single most important gate criterion.\n\n---\n\n### 2. PREFERRED QUALIFICATIONS KEYWORD MATCH\n\n| Preferred Qualification | Evidence | Score |\n|---|---|---|\n| Event-driven / Kafka / SQS | None | 0/1 |\n| Docker / Kubernetes | None | 0/1 |\n| Terraform / CloudFormation / IaC | None | 0/1 |\n| Financial services / payments background | None | 0/1 |\n| Observability tooling (Datadog, Grafana, Prometheus) | None | 0/1 |\n| Mentoring / leading technical initiatives | None | 0/1 |\n\n**Preferred match: 0/6 (0%)**\n\n---\n\n### 3. COMPETENCY SCORING (1–5)\n\n| Competency | Score | Notes |\n|---|---|---|\n| Backend Engineering Depth | 2/5 | Junior-level Java/Spring Boot work; small internal services |\n| System Design / Architecture | 1/5 | No evidence of service design ownership |\n| Cloud Proficiency | 1/5 | Self-described \"basic\" EC2/S3 only |\n| Scalability / High-Volume Systems | 1/5 | No evidence; inventory service for 3 teams is low-scale |\n| CI/CD & DevOps | 2/5 | Contributed to, but did not own, a pipeline |\n| Mentoring / Leadership | 1/5 | None evidenced |\n| Payments / Regulated Industry | 1/5 | None |\n\n**Composite Score: 9/35 (26%)** — well below a senior-level threshold (~70%+)\n\n---\n\n### 4. RISK FLAGS\n\n- 🚩 **Experience gap**: ~3 years below minimum requirement\n- 🚩 **Self-described \"basic\" cloud**: signals awareness of skill gap, not competency\n- 🚩 **No ownership signals**: pipeline maintained by a senior engineer; works under team lead\n- 🚩 **Zero domain alignment**: no payments, financial services, or regulated industry exposure\n- 🚩 **No distributed systems exposure**: no Kafka, queues, containers, or orchestration\n- 🚩 **Scale mismatch**: \"three business teams\" vs. high-volume enterprise payment processing\n\n---\n\n### 5. OVERALL THRESHOLD ASSESSMENT\n\nDana is an early-career engineer with a legitimate foundation in Java and SQL, but falls critically short across every dimension of this Senior role — years of experience, cloud depth, system design, observability, domain knowledge, and leadership. There are no compensating factors that override the hard experience gap. This profile is better suited to a mid-level or junior backend role in 2–3 years.\n\n---\n\nFINAL: REJECT"
+}

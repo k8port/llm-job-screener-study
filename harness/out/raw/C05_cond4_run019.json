@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:34.848702+00:00",
+  "finished_utc": "2026-09-28T21:52:43.859499+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 394
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer — Data Analyst background**: Nora's entire career has been in data analysis and reporting, not backend software engineering. She has no experience building production backend services or APIs.\n\n2. **No backend/API development experience**: The role requires designing and building scalable backend services and RESTful APIs. There is no evidence of any such work on her résumé.\n\n3. **Python usage is analytical, not engineering**: Her Python experience is limited to data cleaning scripts using Pandas/NumPy — not building services, frameworks, or production-grade applications.\n\n4. **No Java or comparable backend language**: Java is listed first among required languages; her profile shows no Java experience whatsoever.\n\n5. **No cloud engineering experience**: She lists \"basic AWS (S3, Athena)\" — purely data/storage tools used in an analytical context, not the cloud infrastructure engineering the role requires.\n\n6. **No CI/CD, containerization, or infrastructure experience**: No mention of CI/CD pipelines, Docker, Kubernetes, Terraform, or any DevOps/platform tooling.\n\n7. **No relational database engineering experience**: Her SQL experience is query-writing for reporting, not database design, schema management, or transactional system work.\n\n8. **No experience with event-driven architecture, message brokers, or observability tooling**: None of the preferred qualifications are met.\n\n9. **No mentorship or technical leadership**: The role requires mentoring engineers; her résumé shows no such experience.\n\n10. **Role seniority mismatch**: While she has 6 years of experience, it is entirely in analytics — not equivalent to 5+ years of software engineering as required.\n\nFINAL: REJECT"
+}

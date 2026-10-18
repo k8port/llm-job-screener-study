@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:55.948889+00:00",
+  "finished_utc": "2026-09-28T22:44:04.548091+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 376
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Engineer — Wrong Discipline**\nCurtis is a Systems Administrator, not a software engineer. His career has been focused on infrastructure operations, server management, and IT support — not designing or building software systems. The role requires a hands-on backend software development background.\n\n**2. No Professional Software Development Experience**\nThe role requires 5+ years of professional software engineering. Curtis has zero years of software engineering experience. His scripting work (Bash, PowerShell) is operational automation, not application development.\n\n**3. No Proficiency in Required Backend Languages**\nThe role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists neither. His scripting languages (Bash, PowerShell) are not comparable backend development languages for building scalable services and APIs.\n\n**4. No API Design or Consumption Experience**\nThere is no mention of RESTful API design or consumption anywhere on the résumé.\n\n**5. No CI/CD or Automated Testing Experience**\nThe role requires CI/CD pipeline and automated testing experience. Neither appears on the résumé.\n\n**6. Only Basic SQL — Not Sufficient**\nSQL is listed as \"basic,\" falling well short of the required experience with relational databases.\n\n**7. No Event-Driven Architecture, Kafka, or Observability Tooling**\nNone of the preferred qualifications (Kafka, Kubernetes, Terraform, Datadog, Grafana) are present in any meaningful way.\n\n**8. No Mentorship or Technical Leadership Experience**\nThe role expects mentoring of junior engineers; no such experience is indicated.\n\n---\n\nFINAL: REJECT"
+}

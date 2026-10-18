@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:51:12.716645+00:00",
+  "finished_utc": "2026-09-28T21:51:23.751000+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 591
+  },
+  "response": "## Screening Scorecard: Nora Kessler\n\n### Required Qualifications (Pass/Fail weighted)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 6 years total, but as **data analyst**, not software engineer. No evidence of building production services/APIs. | 0/2 |\n| Strong proficiency in Java, Python, or comparable backend language | Python used for scripting/data cleaning (Pandas, NumPy); not backend service development | 1/2 |\n| Experience designing/consuming RESTful APIs | No mention anywhere on résumé | 0/2 |\n| Relational databases and SQL | Strong SQL skills (Snowflake, SQL Server) | 2/2 |\n| Hands-on cloud provider experience | \"Basic AWS (S3, Athena)\" — surface-level, not engineering-grade | 0.5/2 |\n| CI/CD pipelines and automated testing | No mention | 0/2 |\n| Bachelor's in CS or related / equivalent experience | B.S. Statistics — adjacent but not CS/engineering | 1/2 |\n\n**Required Qualifications Total: 4.5 / 14**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | None | 0/1 |\n| Docker / Kubernetes | None | 0/1 |\n| Infrastructure-as-code | None | 0/1 |\n| Financial services / regulated industry | Insurance industry background ✓ | 1/1 |\n| Observability tooling | None | 0/1 |\n| Mentoring / leading technical initiatives | No evidence | 0/1 |\n\n**Preferred Qualifications Total: 1 / 6**\n\n---\n\n### Summary Assessment\n\nNora has a solid analytics background with genuine SQL and Python experience in a regulated (insurance) industry. However, she is fundamentally a **data analyst**, not a software engineer. Critical gaps include:\n\n- **No backend service or API development**\n- **No CI/CD, testing frameworks, or deployment experience**\n- **No containerization or cloud infrastructure experience beyond basic storage/query tools**\n- **No evidence of engineering-level system design**\n\nThe role requires building high-volume transaction-processing systems — her experience simply does not overlap with those core competencies.\n\n---\n\n**Overall Score: ~27% of weighted criteria met — well below threshold.**\n\nFINAL: REJECT"
+}

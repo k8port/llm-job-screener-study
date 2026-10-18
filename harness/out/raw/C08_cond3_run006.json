@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:16:23.616471+00:00",
+  "finished_utc": "2026-09-28T22:16:35.198918+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 627
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 5 years total, but primarily in QA/testing roles, not software development. The role is explicitly for a **software engineer**. | 4/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Uses Java for test automation (Selenium, REST Assured); basic Python scripting. No evidence of building backend services or production application code. | 4/10 |\n| Experience designing and consuming RESTful APIs | Tests REST APIs (consumer/validation), but no evidence of designing or building APIs. | 3/10 |\n| Experience with relational databases and SQL | SQL listed as a skill, but no depth or context provided. | 4/10 |\n| Hands-on experience with major cloud provider | No mention of AWS, Azure, or GCP. | 0/10 |\n| Experience with CI/CD pipelines and automated testing | Maintains Jenkins pipeline stages; strong automated testing background. | 7/10 |\n| Bachelor's degree in CS or related field | B.S. Information Technology — meets threshold. | 8/10 |\n\n**Required Qualifications Total: 30/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No mention. | 0/5 |\n| Containerization / Kubernetes | No mention. | 0/5 |\n| Infrastructure-as-code | No mention. | 0/5 |\n| Financial services / regulated industry background | No mention. | 0/5 |\n| Observability tooling | No mention. | 0/5 |\n| Mentoring / leading technical initiatives | No mention of mentoring; some collaboration with developers. | 1/5 |\n\n**Preferred Qualifications Total: 1/30**\n\n---\n\n### Summary Assessment\n\n| Category | Score |\n|---|---|\n| Required Qualifications | 30/70 (43%) |\n| Preferred Qualifications | 1/30 (3%) |\n| **Overall** | **31/100 (31%)** |\n\n### Key Disqualifying Gaps\n- **No cloud experience** (hard requirement)\n- **No backend/production service development** — the candidate writes tests against applications, not the applications themselves\n- **No API design or backend architecture experience**\n- Candidate's own summary acknowledges they are \"transitioning toward software development\"\n- Zero preferred qualifications met\n\nFINAL: REJECT"
+}

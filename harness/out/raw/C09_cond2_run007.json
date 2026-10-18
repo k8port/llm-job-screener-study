@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:07.531038+00:00",
+  "finished_utc": "2026-09-28T22:23:20.426325+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 565
+  },
+  "response": "## Screening Assessment: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n**1. No Cloud Experience**\nThe candidate's résumé shows no hands-on experience with AWS, Azure, or GCP. Cloud proficiency is a *required* qualification. His stack is entirely on-premises (z/OS, WebSphere).\n\n**2. Outdated Java Proficiency**\nThe candidate lists Java 8, which was released in 2014. There is no mention of modern Java (11, 17, 21), current frameworks (Spring Boot, Micronaut, Quarkus), or RESTful API development — another *required* qualification.\n\n**3. No CI/CD Pipeline Experience Beyond Basics**\nJenkins is listed as \"basic,\" and version control experience is limited (\"basic\" Git, primarily Subversion). CI/CD experience is a *required* qualification.\n\n**4. No RESTful API Design/Consumption Experience**\nThe résumé references JSP/Servlets and Java 8 web services, but there is no explicit mention of designing or consuming REST APIs — a *required* qualification.\n\n**5. No Container or Modern Infrastructure Experience**\nDocker, Kubernetes, and Terraform are entirely absent. These are preferred but indicative of the broader technology gap.\n\n**6. No Event-Driven Architecture Experience**\nNo mention of Kafka, SQS, or any message broker.\n\n**7. No Observability Tooling**\nNo mention of Datadog, Grafana, Prometheus, or comparable tools.\n\n**8. Stagnant Technology Trajectory**\nThe candidate has spent 11+ years at one employer in a largely mainframe-centric environment. While his regulated financial services background is a genuine asset, there is no evidence of adaptation toward modern distributed systems or cloud-native development.\n\n### Strengths Noted (for balance)\n- Strong tenure in regulated financial services (trust accounting, settlement)\n- Genuine SQL and database experience (DB2, Oracle)\n- Production incident response in a high-stakes environment\n- Bachelor's in Computer Science\n- Meets the years-of-experience threshold (16 years)\n\n### Summary\n\nRaymond meets the experience-years and domain-background requirements, but has significant gaps in multiple *required* qualifications (cloud, modern Java/REST APIs, CI/CD). The breadth and depth of the technology gap makes it unlikely he could perform effectively in this role without extensive ramp-up that a senior-level hire is not expected to require.\n\nFINAL: REJECT"
+}

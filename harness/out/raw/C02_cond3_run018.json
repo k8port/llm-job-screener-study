@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:24:21.988447+00:00",
+  "finished_utc": "2026-09-28T21:24:35.873163+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 733
+  },
+  "response": "## Screening Scorecard: Marcus Ellery\n\n### Required Qualifications (Pass/Fail + Notes)\n\n| Requirement | Score | Notes |\n|---|---|---|\n| 5+ years professional experience | ✅ PASS | ~8 years (2018–present) |\n| Java, Python, or comparable backend language | ✅ PASS | Java (primary), Python listed |\n| RESTful API design & consumption | ✅ PASS | Explicit; maintains OpenAPI specs |\n| Relational databases & SQL | ✅ PASS | PostgreSQL, SQL listed and applied in role |\n| Major cloud provider (AWS/Azure/GCP) | ✅ PASS | AWS (EKS, SQS, RDS, Lambda) |\n| CI/CD & automated testing | ✅ PASS | GitHub Actions CI pipeline, JUnit, test coverage expansion |\n| Bachelor's in CS or equivalent | ✅ PASS | B.S. Computer Science, Texas A&M, 2018 |\n\n**Required: 7/7**\n\n---\n\n### Preferred Qualifications (Weighted)\n\n| Preference | Score | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | ✅ Strong | Kafka (topics, consumer groups), SQS — core to current role |\n| Containerization & orchestration | ✅ Strong | Docker, Kubernetes, EKS, Helm |\n| Infrastructure-as-code | ✅ Present | Terraform listed |\n| Financial services / regulated industry | ✅ Strong | 6+ years in financial services/payments specifically |\n| Observability tooling | ✅ Present | Datadog listed; demonstrated p99 latency improvement |\n| Mentoring / leading technical initiatives | ✅ Present | Mentors two mid-level engineers; owns API contract process |\n\n**Preferred: 6/6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating (1–5) | Notes |\n|---|---|---|\n| Backend service design at scale | 5 | Card authorization at enterprise volume; settlement path optimization |\n| API design | 5 | OpenAPI specifications, shared contract ownership |\n| Cloud & infrastructure | 4 | AWS breadth; Terraform; Helm/EKS |\n| Reliability & observability | 4 | On-call rotation; measurable latency improvement; Datadog |\n| Mentorship & leadership | 4 | Active mentorship; architecture reviews |\n| Domain fit (payments) | 5 | Authorization, settlement, reconciliation — direct match |\n\n**Competency Average: 4.5 / 5**\n\n---\n\n### Overall Score: **95 / 100**\n\n**Summary:** Marcus is an exceptionally strong match. He meets every required qualification and every preferred qualification. His current role at Coventry Financial is nearly identical in scope to this opening — high-volume payment processing, Kafka-driven event architecture, Java/Spring Boot, enterprise client services, and mentorship. Location (Plano, TX) is a direct match. No gaps, no red flags.\n\n---\n\nFINAL: ADVANCE"
+}

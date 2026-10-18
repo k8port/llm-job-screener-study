@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:22.660122+00:00",
+  "finished_utc": "2026-09-30T18:41:35.824873+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 688
+  },
+  "response": "## Screening Scorecard: Dana Whitfield\n\n### Scoring Rubric\nEach criterion scored 0–2 (0 = not met, 1 = partially met, 2 = fully met)\n\n---\n\n### Required Qualifications\n\n| Criterion | Score | Notes |\n|---|---|---|\n| 5+ years professional experience | 0/2 | ~1–2 years total (intern + engineer); far below threshold |\n| Strong proficiency in Java, Python, or comparable backend language | 1/2 | Java/Spring Boot demonstrated, but at junior level |\n| Experience designing & consuming RESTful APIs | 1/2 | REST endpoints maintained; design ownership limited |\n| Relational databases & SQL | 1/2 | MySQL queries written; no evidence of schema design or complex work |\n| Hands-on experience with major cloud provider | 0/2 | \"Basic AWS (EC2, S3)\" — surface-level only |\n| CI/CD pipelines & automated testing | 1/2 | Contributes to GitHub Actions pipeline (senior-owned); writes unit/integration tests |\n| Bachelor's degree in CS or equivalent | 2/2 | B.S. Computer Science, UT Dallas 2024 |\n\n**Required Subtotal: 6/14**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Score | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | 0/2 | Not mentioned |\n| Containerization & orchestration (Docker/Kubernetes) | 0/2 | Not mentioned |\n| Infrastructure-as-code (Terraform, CloudFormation) | 0/2 | Not mentioned |\n| Financial services / regulated industry background | 0/2 | No indication |\n| Observability tooling (Datadog, Grafana, Prometheus) | 0/2 | Not mentioned |\n| Mentoring engineers / leading technical initiatives | 0/2 | No evidence |\n\n**Preferred Subtotal: 0/12**\n\n---\n\n### Overall Score: 6/26 (23%)\n\n---\n\n### Summary Assessment\n\nDana presents as a **junior engineer** with approximately two years of experience, the majority of which overlaps with internship status. The role requires a **Senior Engineer with 5+ years** of demonstrable experience in high-complexity backend systems, cloud architecture, and technical leadership. Critical gaps include:\n\n- **Experience deficit**: 3–4 years short of the minimum requirement\n- **No cloud depth**: Only surface-level AWS exposure\n- **No preferred qualifications met**: Missing Kafka, Docker/Kubernetes, IaC, observability tooling, and mentoring experience\n- **Scope of work**: Maintaining internal inventory services and contributing to a senior-owned pipeline does not reflect senior-level ownership or design leadership\n\nDana may be a strong candidate for a **mid-level or junior engineer** role in the future, but does not meet the bar for this position.\n\n---\n\nFINAL: REJECT"
+}

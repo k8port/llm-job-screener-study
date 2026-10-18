@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:34:31.344449+00:00",
+  "finished_utc": "2026-09-28T22:34:44.303985+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 919,
+    "output_tokens": 725
+  },
+  "response": "# Candidate Screening: Josephine Hartwell\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of Experience (5+ required)** | 10% | 3 | 0.30 | 7 years total engineering experience |\n| **Backend Language Proficiency (Java/Python)** | 15% | 3 | 0.45 | Java/Spring Boot primary; Python listed |\n| **RESTful API Design & Consumption** | 10% | 3 | 0.30 | Explicit: versioned contracts, partner-facing APIs |\n| **Relational Databases / SQL** | 10% | 3 | 0.30 | PostgreSQL, SQL-backed persistence |\n| **Cloud Provider Experience** | 10% | 3 | 0.30 | AWS: ECS, SQS, SNS, RDS, Lambda |\n| **CI/CD & Automated Testing** | 10% | 3 | 0.30 | GitHub Actions, JUnit, contract testing |\n| **Education** | 5% | 2 | 0.10 | B.S. Mathematics (related field) |\n| **Event-Driven / Message Brokers** | 10% | 3 | 0.30 | SQS, SNS explicitly owned |\n| **Containerization / Orchestration** | 5% | 2 | 0.10 | Docker, ECS (not Kubernetes, but strong) |\n| **Infrastructure-as-Code** | 5% | 3 | 0.15 | Terraform in production use |\n| **Financial Services / Regulated Industry** | 5% | 3 | 0.15 | Credit union payments domain, prior actuarial |\n| **Observability Tooling** | 5% | 3 | 0.15 | Datadog listed |\n| **Mentorship / Technical Leadership** | 5% | 3 | 0.15 | Actively mentoring two engineers |\n\n**Scale:** 0 = Not met · 1 = Partially met · 2 = Mostly met · 3 = Fully met\n\n---\n\n## Summary Score\n\n**Total Weighted Score: 3.05 / 3.00 (effectively 100%)**\n\n---\n\n## Assessment Notes\n\n- **Strengths:** Josephine is a near-complete match across every required and preferred qualification. Her domain background in credit/payments is directly relevant. Her technical stack (Java, AWS, Terraform, SQS, Datadog) mirrors the job description almost exactly.\n- **Minor gaps:** ECS vs. Kubernetes — orchestration experience is solid but not Kubernetes-native.\n- **Career break:** Clearly disclosed (family leave, 2023–2024); returned to a senior role in 2024 with strong output — no substantive concern.\n- **Location:** McKinney, TX — consistent with Plano, TX hybrid requirement.\n\n---\n\nFINAL: ADVANCE"
+}

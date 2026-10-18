@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:21:54.757201+00:00",
+  "finished_utc": "2026-09-28T21:22:07.803180+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 532
+  },
+  "response": "## Screening Analysis: Marcus Ellery\n\n### Evaluation Against Requirements\n\nFirst, a quick confirmation that all **required qualifications** are clearly met:\n- ✅ 5+ years experience (8 years total)\n- ✅ Java proficiency (primary language throughout)\n- ✅ RESTful API design and consumption\n- ✅ Relational databases and SQL (PostgreSQL)\n- ✅ Major cloud provider (AWS — EKS, SQS, RDS, Lambda)\n- ✅ CI/CD and automated testing (GitHub Actions, JUnit)\n- ✅ B.S. Computer Science, Texas A&M\n\nAll **preferred qualifications** are also substantially met (Kafka, Docker/Kubernetes, Terraform, financial services background, Datadog, mentoring experience).\n\n---\n\n### Potential Weaknesses\n\n1. **Limited employer diversity.** Six of eight years were spent at a single employer (Coventry Financial). While depth is evident, this raises a mild question about adaptability to different engineering cultures, codebases, and technology stacks.\n\n2. **Python listed in skills but not demonstrated in experience.** Python appears in the skills section but no work experience or project references it. Given that Java is one of two explicitly listed required languages, this is a minor gap — but it suggests Python proficiency may be surface-level.\n\n3. **Infrastructure-as-code depth is unclear.** Terraform is listed in skills, but there is no descriptive work experience around it. The depth of IaC ownership versus incidental use is unknown.\n\n4. **No explicit evidence of leading technical initiatives.** Mentoring two engineers is noted, but there is no clear example of leading a cross-team technical initiative or scoped project end-to-end, which is called out in preferred qualifications.\n\n5. **Short early tenure.** The 2018–2019 role at Arden Technology Group lasted approximately one year, though this is early-career and not a material concern.\n\n---\n\n### Assessment\n\nThe weaknesses identified are **minor and largely peripheral**. The core required qualifications are met with strong evidence, the candidate's background maps almost precisely to the role's domain (payments, high-volume transactions, financial services), and the preferred qualifications are broadly satisfied. The gaps do not represent disqualifying deficiencies.\n\nFINAL: ADVANCE"
+}

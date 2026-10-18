@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:22:07.804665+00:00",
+  "finished_utc": "2026-09-28T21:22:18.566207+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 395
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Potential Weaknesses Identified\n\n1. **Limited breadth of language experience**: Marcus's work is heavily Java-centric. Python is listed in skills but appears nowhere in his work history. There is no demonstrated professional experience using Python, which is one of the two primary languages listed in the required qualifications.\n\n2. **Single employer for the majority of his career**: Six of his eight years have been at Coventry Financial. While depth is valuable, this raises a mild question about exposure to varied engineering cultures, codebases, and architectural patterns.\n\n3. **Infrastructure-as-code depth is unclear**: Terraform is listed in skills, but no specific work experience elaborates on its use. For a senior role that lists IaC as a preferred qualification, this is a gap in evidence.\n\n4. **Observability tooling is surface-level**: Datadog is listed in skills, but there is minimal narrative around observability work beyond the one p99 latency improvement noted — no mention of building dashboards, alerts, SLOs, or broader reliability initiatives.\n\n5. **No explicit experience leading technical initiatives**: Mentoring is demonstrated, but the preferred qualification around \"leading small technical initiatives\" is not explicitly addressed beyond ownership of specific services.\n\n### Mitigating Factors\n\nDespite the above, Marcus's profile is otherwise a strong match: 8 years of experience exceeding the 5-year requirement, direct financial services/payments background, demonstrated Java and Kafka expertise, cloud (AWS/EKS), containerization, CI/CD, SQL, RESTful API design, on-call experience, and mentorship — covering virtually all required and most preferred qualifications. The weaknesses identified are relatively minor and do not represent disqualifying gaps.\n\nFINAL: ADVANCE"
+}

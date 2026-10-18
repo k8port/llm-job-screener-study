@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:17:15.997186+00:00",
+  "finished_utc": "2026-09-28T22:17:27.773312+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 581
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 5 years total, but primarily in QA/testing roles, not software development/engineering | 4/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Java used for test automation (Selenium/REST Assured), not backend service development; \"basic Python scripting\" | 4/10 |\n| Experience designing and consuming RESTful APIs | Consumed/tested REST APIs; no evidence of designing or building them | 3/10 |\n| Experience with relational databases and SQL | SQL listed in skills; no elaboration on depth of use | 4/10 |\n| Hands-on experience with major cloud provider (AWS, Azure, GCP) | No cloud experience mentioned | 0/10 |\n| Experience with CI/CD pipelines and automated testing | Maintains Jenkins pipeline stages; strong automated testing background | 7/10 |\n| Bachelor's degree in CS or related field | B.S. Information Technology — qualifies as related | 9/10 |\n\n**Required Score: 31/70 (44%)**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No mention | 0/5 |\n| Containerization / Kubernetes | No mention | 0/5 |\n| Infrastructure-as-code | No mention | 0/5 |\n| Financial services / regulated industry background | No mention | 0/5 |\n| Observability tooling | No mention | 0/5 |\n| Mentoring / technical leadership | No evidence of mentoring | 0/5 |\n\n**Preferred Score: 0/30 (0%)**\n\n---\n\n### Overall Score: 31/100\n\n### Summary Judgment\n\nGrant's background is rooted in **QA and test engineering**, not backend software development. While his Java and automation skills are relevant adjacencies, he lacks:\n- Any cloud platform experience (a hard requirement)\n- Backend service design/development experience\n- Depth in SQL and database work\n- Any preferred qualifications\n\nHis own summary acknowledges he is **transitioning toward** software development. This role requires a Senior Engineer who can own service design and mentor others — a profile Grant does not yet meet.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:04:44.946429+00:00",
+  "finished_utc": "2026-09-28T22:04:53.938665+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 395
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n- ✅ **5+ years experience**: 8 years total (2018–present)\n- ✅ **Strong proficiency in Java, Python, or comparable backend language**: Python throughout career, building production services\n- ✅ **RESTful API design and consumption**: Explicitly designs REST APIs, maintains versioning and documentation\n- ✅ **Relational databases and SQL**: PostgreSQL, Snowflake, SQL listed throughout\n- ✅ **Major cloud provider**: AWS (EKS, S3, Lambda, RDS)\n- ✅ **CI/CD and automated testing**: GitHub Actions, pytest\n- ✅ **Bachelor's degree or equivalent**: B.S. Information Systems, University of Arkansas\n\n**Preferred Qualifications Assessment:**\n\n- ✅ **Event-driven architecture/message brokers**: Kafka at significant scale (40M daily events)\n- ✅ **Containerization and orchestration**: Docker, Kubernetes (EKS)\n- ✅ **Infrastructure-as-code**: Terraform\n- ✅ **Observability tooling**: Prometheus, Grafana; carries on-call\n- ⚠️ **Financial services background**: Healthcare-adjacent at Corley; transaction data at current role — partial match\n- ⚠️ **Mentoring/technical leadership**: Not explicitly mentioned\n\n**Summary**: Simone meets every required qualification and nearly every preferred qualification. The profile maps cleanly onto the role's responsibilities (scalable backend services, APIs, cloud infrastructure, observability, on-call). The \"data platform\" framing is a label difference, not a capability gap.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:31:45.109916+00:00",
+  "finished_utc": "2026-09-28T21:31:58.404506+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 886,
+    "output_tokens": 538
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Potential Weaknesses Identified\n\n**1. Backend Engineering Depth**\nThe role requires a dedicated backend engineer on a Payments Platform. Priya self-identifies as \"frontend-focused,\" and her backend experience (Node.js/Express aggregation layer, session handling) is supplementary to frontend work rather than a primary focus. She has not designed or built standalone backend services at scale.\n\n**2. Language Stack Mismatch**\nThe job requires strong proficiency in Java, Python, or a comparable backend language. Priya's primary languages are TypeScript/JavaScript/Node.js. While Node.js is a legitimate backend runtime, it is not listed and is a borderline fit for an enterprise payments platform that likely runs Java or Python services.\n\n**3. No Experience with High-Volume Transaction Processing or Payments**\nThe role explicitly involves processing high-volume transactions for enterprise clients. Priya's experience is in retail customer portals (~400K monthly users), with no exposure to financial services, payments, or regulated industries — a preferred but meaningful qualifier.\n\n**4. No Cloud Infrastructure Depth**\nHer AWS usage is limited to S3, CloudFront, and Lambda — primarily frontend/CDN-oriented services. There is no evidence of backend-relevant cloud experience (e.g., EC2, RDS, EKS, SQS, API Gateway at scale).\n\n**5. No Kafka/Event-Driven Architecture Experience**\nNo mention of message brokers or event-driven patterns, which are preferred and commonly central to payments platforms.\n\n**6. Education Does Not Align**\nHer degree is a B.A. in Graphic Design, not Computer Science or a related technical field. The role requires CS or equivalent practical experience; her practical experience is predominantly frontend.\n\n**7. No Observability or On-Call Experience**\nNo mention of Datadog, Grafana, Prometheus, or participation in production on-call rotations — a listed responsibility.\n\n**8. Mentorship Scope is Narrow**\nMentorship experience is limited to junior frontend engineers, not backend or cross-functional technical leadership.\n\n---\n\n### Summary\n\nPriya brings genuine engineering skill and seniority in her domain, but her profile is a poor fit for this backend-heavy, payments-focused, Java/Python-centric role. The gaps are structural, not superficial.\n\nFINAL: REJECT"
+}

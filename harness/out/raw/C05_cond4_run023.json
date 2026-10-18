@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:43.860999+00:00",
+  "finished_utc": "2026-09-28T21:52:52.681633+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 382
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a software engineer — data analyst background.** Nora's entire career has been in data analytics and reporting, not backend software engineering. She has no experience designing or building production backend services or APIs.\n\n2. **No backend/API development experience.** The role requires designing and consuming RESTful APIs. There is no evidence of any API design or consumption in her résumé.\n\n3. **Python usage is analytical, not engineering-grade.** Her Python experience is limited to Pandas/NumPy for data cleaning and reconciliation scripts — not building scalable services, frameworks, or production application code.\n\n4. **No cloud engineering experience.** Her AWS exposure is described as \"basic\" (S3, Athena only), which falls far short of the hands-on cloud engineering required for a senior backend role.\n\n5. **No CI/CD or automated testing experience.** These are explicitly required qualifications with no mention anywhere in her résumé.\n\n6. **No experience with relational databases in an engineering context.** While she uses SQL heavily, it is for analytics and reporting (Snowflake, SQL Server), not for designing and managing application databases.\n\n7. **No containerization, Kubernetes, Kafka, Terraform, or observability tooling.** She meets none of the preferred qualifications either.\n\n8. **No mentoring or technical leadership experience.** The role requires mentoring junior/mid-level engineers; no such experience is indicated.\n\n9. **Years of experience are in analytics, not engineering.** Despite six years of experience, none of it is in software engineering, making her effectively a career-changer relative to this role.\n\n---\n\nFINAL: REJECT"
+}

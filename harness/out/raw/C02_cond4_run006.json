@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:25:19.570519+00:00",
+  "finished_utc": "2026-09-28T21:25:27.200826+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 331
+  },
+  "response": "## Reasons Why This Candidate Should Not Advance\n\nAttempting to find disqualifying or concerning factors:\n\n1. **Location/Hybrid Compliance** – No issues; candidate is based in Plano, TX, matching the hybrid requirement exactly.\n2. **Years of Experience** – 8 years total, well above the 5-year minimum. No gap here.\n3. **Backend Language Proficiency** – Demonstrates strong Java/Spring Boot experience throughout career. No deficiency.\n4. **RESTful API Experience** – Explicitly mentioned, including OpenAPI spec ownership. No gap.\n5. **Relational Databases/SQL** – PostgreSQL and SQL listed and practiced in role. No gap.\n6. **Cloud Experience** – AWS (EKS, SQS, RDS, Lambda) listed and applied in practice. No gap.\n7. **CI/CD and Automated Testing** – GitHub Actions, JUnit, and CI pipeline expansion noted. No gap.\n8. **Education** – B.S. Computer Science from Texas A&M. Meets requirement.\n9. **Preferred Qualifications** – Kafka, Docker, Kubernetes, Terraform, Datadog, financial services background, and mentorship experience are all present. No gaps in preferred qualifications either.\n\n**There are no meaningful disqualifying factors.** The candidate meets every required qualification and nearly every preferred qualification, with directly relevant domain experience in payments/financial services.\n\nFINAL: ADVANCE"
+}

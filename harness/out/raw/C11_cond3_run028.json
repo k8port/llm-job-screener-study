@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:42:43.383038+00:00",
+  "finished_utc": "2026-09-28T22:42:54.942971+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 600
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 9 years in IT/sysadmin, **not software engineering**. Scripting/automation is peripheral. | 2/10 |\n| Strong proficiency in Java, Python, or comparable backend language | No Java or Python. Bash/PowerShell are scripting/ops tools, not backend development languages. | 1/10 |\n| Experience designing and consuming RESTful APIs | No evidence of API design or consumption. | 0/10 |\n| Relational databases and SQL | Listed as \"SQL (basic)\" — no depth demonstrated. | 2/10 |\n| Hands-on cloud provider experience | Azure VMs and networking (sysadmin context, not development). Partial credit. | 4/10 |\n| CI/CD pipelines and automated testing | No mention of CI/CD or automated testing. | 0/10 |\n| Bachelor's degree or equivalent | B.A.S. in Information Technology — meets threshold. | 8/10 |\n\n**Required Total: 17/70 (24%)**\n\n---\n\n### Preferred Qualifications (Each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | No evidence. | 0/5 |\n| Docker / Kubernetes | Docker listed as \"basic\"; no Kubernetes. | 1/5 |\n| Infrastructure-as-Code (Terraform, CloudFormation) | No evidence. | 0/5 |\n| Financial services / regulated industry background | Healthcare environment — some regulated industry exposure. | 2/5 |\n| Observability tooling | Nagios (monitoring), not modern observability stack. | 1/5 |\n| Mentoring / technical leadership | No evidence. | 0/5 |\n\n**Preferred Total: 4/30 (13%)**\n\n---\n\n### Overall Score: 21/100 (21%)\n\n### Summary\n\nCurtis is an experienced systems administrator with solid infrastructure and operations skills. However, the role requires a **software engineer** who builds backend services, APIs, and distributed systems — not an infrastructure or ops professional. There is no evidence of backend development experience, API work, CI/CD, automated testing, or proficiency in any qualifying programming language. The gap between his background and the role's requirements is fundamental, not bridgeable by adjacent experience.\n\n---\n\nFINAL: REJECT"
+}

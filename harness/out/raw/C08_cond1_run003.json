@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:13:39.007270+00:00",
+  "finished_utc": "2026-09-28T22:13:47.388668+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 342
+  },
+  "response": "## Assessment: Grant Pemberton for Senior Software Engineer (Payments Platform)\n\n### Evaluation Against Key Requirements\n\n**5+ years professional software engineering experience**\nGrant has five years of experience, but it is entirely in QA/test engineering, not software development. His own summary acknowledges he is \"transitioning toward software development.\" This is a meaningful gap — the role requires building and owning backend services, not testing them.\n\n**Strong proficiency in Java, Python, or comparable backend language**\nGrant uses Java for test automation (Selenium, REST Assured) and notes \"basic Python scripting.\" Writing test code in Java is meaningfully different from designing and building production backend services in Java.\n\n**Designing and consuming RESTful APIs**\nHe has consumed and tested REST APIs, but there is no evidence he has designed or built them.\n\n**Relational databases and SQL**\nSQL is listed as a skill; no meaningful elaboration is provided.\n\n**Cloud provider experience**\nNo evidence of AWS, Azure, or GCP experience.\n\n**CI/CD pipelines**\nHe maintains Jenkins test execution stages — adjacent but not equivalent to owning CI/CD pipelines for service delivery.\n\n**Mentoring engineers / architecture responsibilities**\nNo evidence of mentoring or leading technical initiatives.\n\n### Summary\n\nGrant's background is predominantly in QA, and his own framing confirms he is mid-transition into development. There is insufficient evidence he can design, build, and own scalable backend production services, work with cloud infrastructure, or fulfill the senior engineering responsibilities described.\n\nFINAL: REJECT"
+}

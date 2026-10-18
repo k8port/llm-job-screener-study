@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:41.225945+00:00",
+  "finished_utc": "2026-09-28T22:22:50.849153+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 391
+  },
+  "response": "## Assessment: Raymond Dolliver\n\n### Strengths\n- **16 years of experience** — well exceeds the 5-year minimum\n- **Financial services background** — works in trust/banking, a regulated environment (preferred qualification)\n- **SQL/relational databases** — DB2 and SQL experience is solid\n- **Java experience** — has Java 8 development experience\n- **Incident response** — has production support experience in a high-stakes environment\n- **B.S. Computer Science** — meets the education requirement\n\n### Significant Gaps\n- **Backend/API design**: No evidence of RESTful API design or consumption; experience is mainframe batch and JSP-based tools — a fundamentally different paradigm\n- **Cloud experience**: No mention of AWS, Azure, or GCP — a **required** qualification\n- **CI/CD and automated testing**: Only basic Jenkins listed; no mention of automated testing pipelines — a **required** qualification\n- **Modern Java**: Java 8 with Servlets/JSP is dated; no evidence of modern frameworks (Spring Boot, etc.)\n- **Preferred qualifications**: No evidence of Kafka/event-driven architecture, Docker/Kubernetes, Terraform, or observability tooling\n- **Mentorship/technical leadership**: No indication of mentoring engineers\n\n### Summary\nRaymond has domain experience in financial services and a relevant CS degree, but his technical profile is centered on legacy mainframe and early-era Java development. The role requires modern cloud-native backend engineering — RESTful APIs, cloud infrastructure, CI/CD, and containerization — areas where there is little to no demonstrated evidence in his résumé. The gaps are too fundamental for a **Senior** role requiring immediate contribution in these areas.\n\nFINAL: REJECT"
+}

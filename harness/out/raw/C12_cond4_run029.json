@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:59.833670+00:00",
+  "finished_utc": "2026-09-28T22:52:08.497596+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 339
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The job requires **5+ years** of professional software engineering experience. Elise graduated in 2023 and her work history begins in 2023, giving her approximately **2 years** of professional experience — less than half the required threshold. This is the most significant disqualifying factor.\n\n2. **Mentorship requirement not met**: The role requires mentoring mid-level and junior engineers, and the preferred qualifications call for \"prior experience mentoring engineers or leading small technical initiatives.\" There is no mention of mentorship, tech lead responsibilities, or leading initiatives in her résumé. Her Kafka work was explicitly described as *contributed to* work *led by a senior engineer*, indicating a supporting rather than leading role.\n\n3. **Terraform listed as \"basic\"**: The preferred qualification calls for infrastructure-as-code experience. Her self-assessment of \"basic\" Terraform suggests she does not meaningfully meet even this preferred criterion.\n\n4. **No evidence of architecture-level contributions**: The role emphasizes ownership over service design, architecture discussions, and translating requirements into technical solutions at a senior level. Her experience reflects solid execution but not demonstrated architecture ownership.\n\n5. **No regulated industry depth yet**: While she is in payments, her tenure is short, limiting depth of experience in compliance or regulated-environment complexity.\n\n---\n\nThe experience gap alone (2 years vs. 5+ required) is a hard disqualifier for a Senior-level role.\n\nFINAL: REJECT"
+}

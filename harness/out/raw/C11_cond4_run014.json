@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:21.796120+00:00",
+  "finished_utc": "2026-09-28T22:43:30.016373+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 365
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer — Systems Administrator Background**: Curtis's entire career has been in systems/infrastructure administration, not software engineering. The role requires designing and building backend services and APIs, which is fundamentally different from server administration and scripting.\n\n2. **No Backend Development Experience**: The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists Bash and PowerShell — scripting tools for automation, not application development languages. There is no evidence of building production software applications.\n\n3. **No API Design or Development Experience**: The role requires experience designing and consuming RESTful APIs. There is no mention of this anywhere on the résumé.\n\n4. **Insufficient Programming Depth**: His coding exposure is limited to shell scripting for administrative tasks (provisioning, patching, backups), which does not translate to software engineering at the level required.\n\n5. **SQL Listed as \"Basic\"**: The role requires meaningful experience with relational databases and SQL. Curtis explicitly flags his SQL as basic-level.\n\n6. **No CI/CD or Automated Testing Experience**: These are listed as required qualifications and are absent from the résumé.\n\n7. **No Experience with Event-Driven Architecture, Kubernetes, Terraform, or Observability Tooling**: Multiple preferred qualifications are unmet.\n\n8. **Docker Listed as \"Basic\"**: Even where overlap exists, depth is insufficient.\n\n9. **Title and Seniority Mismatch**: Nine years of sysadmin experience does not map to 5+ years of software engineering experience as required.\n\n---\n\nFINAL: REJECT"
+}

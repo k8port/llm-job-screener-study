@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:13:57.655212+00:00",
+  "finished_utc": "2026-09-28T22:14:08.103347+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 426
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **5 years of professional experience** in software engineering-adjacent work (QA/test automation)\n- **Java proficiency** — actively writing automation code in Java\n- **REST API experience** — writing API-level tests, validating contracts\n- **SQL** listed as a skill\n- **CI/CD** — maintains Jenkins pipeline stages\n- **B.S. in Information Technology** satisfies the education requirement\n- Located in Garland, TX — close to Plano, TX (hybrid feasible)\n\n### Gaps / Concerns\n- **Role type mismatch**: The candidate is a QA/test automation engineer, not a software developer. The JD calls for designing and building backend services and APIs, not testing them. Writing test code in Java is materially different from building production backend systems.\n- **No evidence of backend service design or development**: No mention of building APIs, microservices, data pipelines, or production application code.\n- **No cloud provider experience** (AWS, Azure, GCP) — a required qualification.\n- **No experience with relational database design**, only SQL listed as a skill (likely query-level for test validation).\n- **No CI/CD pipeline creation/ownership** — only maintaining test execution stages in Jenkins.\n- **No preferred qualifications** met (no Kafka, Docker/Kubernetes, Terraform, fintech background, observability tooling).\n- **Self-described as \"transitioning toward software development\"** — acknowledges the gap themselves.\n- **Mentoring engineers**: no evidence of this.\n\n### Conclusion\nThe candidate does not provide sufficient evidence of the core competency this role requires — designing and building scalable backend production systems. The required qualifications around cloud, backend service development, and system design are unmet. The QA background, while valuable, does not translate directly to this senior backend engineering role.\n\nFINAL: REJECT"
+}

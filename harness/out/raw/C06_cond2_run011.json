@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:27.574825+00:00",
+  "finished_utc": "2026-09-28T21:57:38.830126+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 488
+  },
+  "response": "## Screening Analysis: Alan Brightwell\n\n### Strengths\n- 7 years of professional experience (exceeds 5-year requirement)\n- Strong Java/Spring Boot proficiency (core required language)\n- REST API design and documentation experience\n- Relational database and SQL experience (Oracle)\n- CI/CD experience (Jenkins pipelines)\n- Automated testing (JUnit)\n- Code review leadership and junior engineer mentoring\n- On-call rotation participation\n- B.S. in Computer Engineering from an accredited university\n- Transaction processing background (relevant to payments domain)\n\n---\n\n### Potential Weaknesses\n\n1. **No cloud experience (significant gap).** The résumé shows exclusively on-premise infrastructure. AWS, Azure, and GCP are all listed as required, and there is zero indication of any cloud exposure. This is a hard required qualification.\n\n2. **No containerization/orchestration experience.** No mention of Docker or Kubernetes, which are preferred and commonly expected at the senior level for a platform role.\n\n3. **No infrastructure-as-code experience.** Terraform and CloudFormation are absent.\n\n4. **No observability tooling experience.** Datadog, Grafana, Prometheus — none appear.\n\n5. **Message broker experience is limited/unclear.** JMS is listed, which is an older on-premise messaging standard. There is no Kafka, SQS, or modern event-driven architecture experience.\n\n6. **No financial services or regulated industry background.** The candidate's domain is manufacturing, which is meaningfully different from payments or fintech compliance contexts.\n\n7. **Environment mismatch overall.** The entire background is on-premise enterprise manufacturing, whereas this role requires cloud-native, distributed systems thinking in a payments context.\n\n---\n\n### Summary\n\nAlan meets some baseline requirements (Java, SQL, REST APIs, CI/CD, experience level, degree), but fails to meet the **cloud experience requirement**, which is explicitly listed as required — not preferred. The gaps in cloud, containerization, observability, and modern messaging are compounded by a domain mismatch with financial services. The missing cloud requirement alone is disqualifying per the job description.\n\nFINAL: REJECT"
+}

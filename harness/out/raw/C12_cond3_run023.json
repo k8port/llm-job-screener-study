@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:50:28.559961+00:00",
+  "finished_utc": "2026-09-28T22:50:40.999300+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 609
+  },
+  "response": "## Screening Scorecard: Elise Thornbury\n\n### Required Qualifications (Pass/Fail with notes)\n\n| Requirement | Score | Notes |\n|---|---|---|\n| 5+ years professional SWE experience | ❌ **Fail** | ~2 years total (2023–Present). Significantly short of the 5-year requirement. |\n| Strong proficiency in Java, Python, or comparable backend language | ✅ Pass | Java/Spring Boot is clearly primary; Python listed in skills |\n| Experience designing and consuming RESTful APIs | ✅ Pass | REST design and documentation explicitly mentioned at both roles |\n| Relational databases and SQL | ✅ Pass | PostgreSQL/SQL used in production |\n| Hands-on cloud experience (AWS/Azure/GCP) | ✅ Pass | AWS EKS, SQS, RDS in active use |\n| CI/CD pipelines and automated testing | ✅ Pass | GitHub Actions, JUnit, Spring Test |\n| Bachelor's in CS or equivalent | ✅ Pass | B.S. CS, SMU 2023 |\n\n**Required qualifications met: 6 of 7 — but the experience gap is a hard miss**\n\n---\n\n### Preferred Qualifications\n\n| Preferred Item | Score | Notes |\n|---|---|---|\n| Event-driven architecture / Kafka | ✅ Strong | Kafka consumer work at Larkspur Pay |\n| Docker / Kubernetes | ✅ Strong | EKS, Helm charts in production |\n| Infrastructure-as-code | ⚠️ Partial | Terraform listed as \"basic\" |\n| Payments / regulated industry | ✅ Strong | Currently in payments (Larkspur Pay) |\n| Observability tooling | ✅ Pass | Grafana listed |\n| Mentoring / leading technical initiatives | ❌ Weak | No evidence of mentoring; participated (vs. led) in senior-led Kafka work |\n\n**Preferred: ~4 of 6**\n\n---\n\n### Summary Assessment\n\nElise is a high-quality early-career engineer in exactly the right domain (payments, Java, Kafka, AWS). Her technical breadth is impressive for someone ~2 years into her career. However, she falls materially short of the **5+ year experience requirement** — she has approximately **2 years** of professional experience, and the role requires senior-level ownership and mentoring capacity that she has not yet demonstrated.\n\n**Total Score: 6.5 / 10** — Strong technical fit, critical experience gap.\n\n---\n\nFINAL: REJECT"
+}

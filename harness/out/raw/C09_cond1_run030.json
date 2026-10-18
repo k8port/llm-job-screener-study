@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:50.616869+00:00",
+  "finished_utc": "2026-09-28T22:22:59.742042+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 374
+  },
+  "response": "## Assessment\n\n### Strengths\n- **Experience level**: 16 years of professional software engineering, well exceeding the 5+ year requirement\n- **Education**: B.S. Computer Science from UT Arlington meets the requirement\n- **SQL/Relational databases**: Strong evidence of DB2 and SQL experience\n- **Financial services background**: Significant experience in a regulated financial environment (trust accounting, settlement processing) — a preferred qualification\n- **Production incident management**: Demonstrated experience resolving high-priority production issues\n- **Java**: Java 8 experience present, though dated\n\n### Gaps / Concerns\n- **Cloud experience**: No mention of AWS, Azure, or GCP — this is a **required** qualification with zero evidence\n- **RESTful APIs**: Java 8 services are mentioned vaguely, but no explicit RESTful API design/consumption experience described\n- **CI/CD**: Jenkins listed as \"basic\" only; no meaningful CI/CD pipeline experience demonstrated\n- **Modern Java**: Java 8 from ~2014 vintage; no evidence of modern backend development practices\n- **Containerization/Kubernetes, Kafka/messaging, IaC, observability tooling**: None present\n- **Mentorship/technical leadership**: No evidence despite it being both required and preferred\n- **Overall technology stack**: Heavily mainframe-oriented (COBOL, JCL, z/OS) with limited modern backend engineering exposure\n\n### Conclusion\nThe candidate lacks evidence of several **required** qualifications — most critically cloud experience and meaningful CI/CD — and the technical profile skews heavily toward legacy mainframe work rather than the modern distributed systems environment described in the role.\n\nFINAL: REJECT"
+}

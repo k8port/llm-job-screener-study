@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:34.754587+00:00",
+  "finished_utc": "2026-09-28T22:48:45.027923+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 445
+  },
+  "response": "## Screening Analysis: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Years of Experience (Critical Gap)**\nThe role requires **5+ years** of professional software engineering experience. Elise's résumé shows approximately **3.5 years** total (graduating in 2023, with roles beginning in 2023–2024). This is a meaningful shortfall of roughly 1.5–2 years against a stated required qualification.\n\n2. **Seniority Level**\nHer current title is **Software Engineer II**, not a senior-level role. The position she's applying for is a **Senior Software Engineer** with expectations of significant ownership, architecture involvement, and mentorship responsibilities. There is no evidence she has led architecture discussions or owned service design end-to-end independently.\n\n3. **Limited Mentorship Experience**\nA preferred qualification and implied expectation of the role is **mentoring mid-level and junior engineers**. There is no mention of mentorship, tech lead activity, or leading small technical initiatives in her résumé.\n\n4. **Kafka Contribution Was Supporting, Not Leading**\nHer Kafka experience is partially qualified: the consumer group partitioning work was **led by a senior engineer**, with Elise contributing. This suggests bounded depth in event-driven architecture ownership.\n\n5. **Terraform Listed as \"Basic\"**\nInfrastructure-as-code experience is preferred; she self-identifies her Terraform knowledge as only **basic**, limiting her on that dimension.\n\n6. **No Observable Cross-Team or Architecture Leadership**\nThe role involves architecture discussions and translating complex requirements into technical solutions. The résumé reflects solid execution but does not demonstrate **design ownership or cross-functional technical leadership**.\n\n### Summary\n\nThe most disqualifying factor is the **years of experience requirement** (5+ years required; ~3.5 years present), which is a stated *required* qualification, not a preference. The other gaps around seniority behaviors and mentorship compound this concern.\n\nFINAL: REJECT"
+}

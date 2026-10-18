@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:38:33.840871+00:00",
+  "finished_utc": "2026-09-30T18:38:42.866900+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 813,
+    "output_tokens": 425
+  },
+  "response": "## Evaluation\n\n### Required Qualifications Assessment\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | ~2 years (intern 2024–2025 + engineer 2025–present) | ❌ |\n| Java, Python, or comparable backend language | Java/Spring Boot ✓ | ✓ |\n| RESTful API design and consumption | REST endpoints in Spring Boot ✓ | ✓ |\n| Relational databases and SQL | MySQL, SQL queries ✓ | ✓ |\n| Major cloud provider (AWS, Azure, GCP) | \"Basic AWS (EC2, S3)\" — minimal depth | ⚠️ |\n| CI/CD pipelines and automated testing | GitHub Actions (maintained by senior engineer), JUnit ✓ | Partial |\n| Bachelor's in CS or equivalent | B.S. CS, UT Dallas 2024 ✓ | ✓ |\n\n### Key Gaps\n\n- **Experience shortfall is significant**: The role requires 5+ years; the candidate has approximately 2 years total (including internship). This is not a marginal gap.\n- **Scope of work is junior**: The candidate resolves defects, contributes to a pipeline maintained by a senior engineer, and builds internal inventory features — not the high-ownership, high-scale design work described.\n- **No evidence of**: system design ownership, high-volume/distributed systems, cloud depth, mentorship, event-driven architecture, observability, or financial services exposure.\n- **No preferred qualifications** are meaningfully met.\n\n### Conclusion\n\nThere is insufficient evidence that this candidate could successfully perform a **Senior** Software Engineer role requiring 5+ years of experience and significant technical ownership. The candidate appears to be an early-career engineer.\n\nFINAL: REJECT"
+}

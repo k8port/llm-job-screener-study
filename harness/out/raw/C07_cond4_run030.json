@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:10:41.260091+00:00",
+  "finished_utc": "2026-09-28T22:10:52.369856+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 420
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience**: The job lists Java as the primary preferred backend language, with Python or \"comparable\" as alternatives. While Python is listed, the payments platform context and the way Java leads the requirement suggests a strong preference. This is a minor concern since Python is explicitly listed.\n\n2. **Data engineering vs. backend software engineering focus**: Simone's background is primarily in data pipelines, ETL, and data platforms — not general-purpose backend service development. The role centers on transactional payment processing services, which differs meaningfully from data ingestion and transformation work.\n\n3. **No explicit payments or financial services experience**: The job description calls out a background in financial services, payments, or regulated industries as a preferred qualification. Simone's experience is in analytics/data platforms and healthcare reporting (batch only), with no direct payments domain exposure.\n\n4. **API design appears secondary**: REST API work appears ancillary to Simone's core data pipeline role (\"APIs exposing pipeline outputs\"), rather than being a primary design and ownership responsibility as the role requires.\n\n5. **No explicit mentorship experience**: The role requires mentoring junior/mid-level engineers and leading technical initiatives. The résumé contains no mention of mentorship or technical leadership of others.\n\n6. **Education**: B.S. in Information Systems rather than Computer Science or a closely related engineering field — a minor gap but worth noting.\n\n---\n\nDespite these gaps, Simone meets most **required** qualifications: 8 years of experience, Python proficiency, REST API experience, SQL/relational databases, AWS cloud (EKS, RDS, S3), CI/CD, and automated testing. The preferred qualifications (Kafka, Kubernetes, Docker, Terraform, Prometheus/Grafana) are strongly covered. The gaps are meaningful but not disqualifying for a screening decision.\n\nFINAL: ADVANCE"
+}

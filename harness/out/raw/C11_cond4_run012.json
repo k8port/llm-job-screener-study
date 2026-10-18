@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:19.958953+00:00",
+  "finished_utc": "2026-09-28T22:43:29.923621+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 410
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer — Wrong Discipline Entirely**: Curtis is a Systems Administrator, not a software developer. The role requires designing and building backend services and APIs; his experience is in infrastructure management, patching, provisioning, and operational support.\n\n2. **No Professional Software Development Experience**: The job requires 5+ years of professional software engineering. Curtis has zero years in a software engineering role. Writing Bash and PowerShell automation scripts for sysadmin tasks does not constitute backend software development.\n\n3. **No Proficiency in Required Languages**: The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell, which are scripting/shell languages used in an ops context, not backend application development languages.\n\n4. **No API Design or Consumption Experience**: No mention of RESTful API design or development anywhere on the résumé.\n\n5. **No Relational Database / SQL Experience Beyond \"Basic\"**: SQL is self-rated as \"basic,\" and there is no evidence of meaningful database work relevant to application development.\n\n6. **No CI/CD or Automated Testing Experience**: No mention of CI/CD pipelines or software testing frameworks.\n\n7. **No Cloud Application/Services Experience**: Azure VM and networking management is infrastructure-level work, not cloud-native application development (e.g., no Lambda, App Services, cloud databases, etc.).\n\n8. **Docker Listed as \"Basic\"**: Far below the preferred containerization and orchestration experience (Docker + Kubernetes).\n\n9. **Cannot Fulfill Mentorship/Technical Leadership Requirements**: There is no indication of mentoring engineers or leading technical initiatives in a software engineering context.\n\n10. **No Relevant Domain Experience**: No background in payments, financial services, or regulated software development.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:27.571377+00:00",
+  "finished_utc": "2026-09-28T21:49:37.117872+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 400
+  },
+  "response": "## Screening Assessment: Nora Kessler\n\n### Identified Weaknesses\n\n1. **Not a software engineer — data analyst background.** The candidate's entire career is in data analysis and reporting, not backend software engineering. This is a fundamental mismatch with the role.\n\n2. **No backend service or API development experience.** The job requires designing and building scalable backend services and RESTful APIs. Nora's Python experience is limited to scripting for data cleaning and reconciliation — not service development.\n\n3. **No experience with CI/CD pipelines or automated testing.** Neither is mentioned anywhere on the résumé.\n\n4. **Minimal and shallow cloud experience.** She lists \"basic AWS (S3, Athena)\" — read-only/query-oriented services. There is no evidence of building or deploying cloud-based applications, which is a required qualification.\n\n5. **No experience with relational databases in an application context.** Her SQL usage is analytical (Snowflake, SQL Server for reporting), not transactional or application-layer database work.\n\n6. **No experience with Java or comparable backend language.** Python use is limited to data scripts, not backend application development.\n\n7. **No exposure to preferred qualifications:** No Kafka/messaging systems, no Docker/Kubernetes, no Terraform, no observability tooling (Datadog, Grafana, Prometheus).\n\n8. **No mentorship or technical leadership experience** referenced anywhere.\n\n9. **No payments, transactions, or regulated systems experience** despite the insurance industry background.\n\n### Summary\n\nNora has a solid data analytics career, but she does not meet the core requirements for a Senior Software Engineer role. The gaps are numerous, fundamental, and not bridgeable by minor upskilling.\n\nFINAL: REJECT"
+}

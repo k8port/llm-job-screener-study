@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:29.512794+00:00",
+  "finished_utc": "2026-09-28T22:22:39.790926+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 408
+  },
+  "response": "## Assessment: Raymond Dolliver\n\n### Strengths\n- **Years of experience**: 16 years total, well above the 5-year requirement\n- **Financial services background**: Direct experience in trust accounting and settlement processing in a regulated environment — a strong preferred qualification\n- **SQL/relational databases**: Solid experience with DB2, SQL, Oracle\n- **Java**: Some Java 8 experience exists\n- **Education**: B.S. in Computer Science meets the requirement\n- **Production incident response**: Demonstrated ownership of high-priority issues\n\n### Significant Gaps\n\n| Required Qualification | Evidence |\n|---|---|\n| Strong proficiency in Java/Python (modern backend) | Java 8 with JSP/Servlets — dated, limited scope; no modern frameworks (Spring Boot, etc.) |\n| RESTful API design and consumption | Not evident; web services appear to be legacy Java web tier, not REST APIs |\n| Major cloud provider (AWS/Azure/GCP) | **No evidence whatsoever** |\n| CI/CD pipelines and automated testing | Jenkins listed as \"basic\"; no automated testing mentioned |\n| Scalable backend services (high-volume) | Batch processing context, not real-time high-volume transaction services |\n\n### Preferred Qualification Gaps\n- No Kafka/event-driven architecture\n- No Docker/Kubernetes\n- No Infrastructure-as-code\n- No observability tooling\n\n### Summary\n\nRaymond has a genuinely relevant industry background and foundational skills, but the core technical stack is centered on mainframe/legacy technology. The role requires modern cloud-native backend engineering (REST APIs, cloud platforms, containers, CI/CD), and there is **insufficient evidence** he has developed those capabilities. The gaps are too broad and fundamental for a senior-level hire in this context.\n\nFINAL: REJECT"
+}

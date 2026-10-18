@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:36.559947+00:00",
+  "finished_utc": "2026-09-28T21:57:47.652638+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 505
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Candidate Strengths\n- 7 years of backend engineering experience (exceeds the 5-year minimum)\n- Strong Java/Spring Boot proficiency (a required language)\n- Solid REST API design and documentation experience\n- Relational database and SQL experience (Oracle)\n- CI/CD experience via Jenkins pipelines\n- Automated testing experience (JUnit)\n- Mentoring and code review leadership\n- On-call rotation participation\n- B.S. in Computer Engineering from an accredited university\n- Located in Arlington, TX — close to Plano, TX (hybrid feasible)\n\n---\n\n### Potential Weaknesses\n\n1. **No Cloud Experience** — The résumé contains zero mention of AWS, Azure, or GCP. Cloud proficiency is a *required* qualification. All experience appears to be on-premise enterprise infrastructure.\n\n2. **No Containerization or Orchestration** — No mention of Docker or Kubernetes, which are preferred qualifications.\n\n3. **No Infrastructure-as-Code** — No Terraform, CloudFormation, or equivalent tools referenced.\n\n4. **No Event-Driven Architecture / Message Brokers at Scale** — JMS is listed, but it is a legacy technology. No Kafka, SQS, or modern message broker experience is evident.\n\n5. **No Observability Tooling** — No Datadog, Grafana, Prometheus, or comparable monitoring tools mentioned.\n\n6. **No Financial Services / Payments Background** — Entire career is in manufacturing. The role is on a Payments Platform serving enterprise clients in what is likely a regulated environment.\n\n7. **No Evidence of Distributed Systems at Scale** — Experience is in an on-premise, single-enterprise context. The role requires high-volume transaction processing across a distributed cloud architecture.\n\n---\n\n### Summary\n\nAlan meets several of the baseline qualifications (Java, REST APIs, SQL, CI/CD, testing, mentoring), but is **missing a required qualification outright** — cloud experience — and lacks nearly every preferred qualification. The gap between his on-premise manufacturing background and the cloud-native, payments-domain requirements of this role is substantial and not bridgeable by minor upskilling alone.\n\nFINAL: REJECT"
+}

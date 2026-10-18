@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:54.420511+00:00",
+  "finished_utc": "2026-09-30T18:40:05.997177+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 609
+  },
+  "response": "## Screening Scorecard — Dana Whitfield\n\n**Role:** Senior Software Engineer, Payments Platform\n\n---\n\n### Required Qualifications (Pass/Fail weighted)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional experience | ~2 years total (intern + FTE); significantly below threshold | ❌ 0/2 |\n| Strong proficiency in Java, Python, or comparable backend language | Java/Spring Boot confirmed | ✅ 2/2 |\n| RESTful API design & consumption | REST endpoints in Spring Boot confirmed | ✅ 2/2 |\n| Relational databases & SQL | MySQL experience confirmed | ✅ 2/2 |\n| Major cloud provider (AWS/Azure/GCP) | \"Basic AWS (EC2, S3)\" only — surface-level | ⚠️ 1/2 |\n| CI/CD & automated testing | GitHub Actions (contributor, not owner); JUnit confirmed | ⚠️ 1/2 |\n| Bachelor's in CS or equivalent | B.S. CS, UT Dallas | ✅ 2/2 |\n\n**Required Score: 10/14**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | No evidence | 0/1 |\n| Docker / Kubernetes | No evidence | 0/1 |\n| Infrastructure-as-code | No evidence | 0/1 |\n| Financial services / regulated industry | No evidence | 0/1 |\n| Observability tooling | No evidence | 0/1 |\n| Mentoring / technical leadership | No evidence | 0/1 |\n\n**Preferred Score: 0/6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Assessment |\n|---|---|\n| **Seniority / Ownership** | Junior profile; works under senior direction, not independently leading design |\n| **System Scale** | Small internal tooling; no high-volume or enterprise-scale systems |\n| **Architecture** | No evidence of system design or architecture contribution |\n| **Mentorship** | No evidence |\n\n---\n\n### Summary\n\nDana is an early-career engineer with a solid foundation in Java and REST APIs, but falls substantially short of the Senior Engineer profile. The experience gap (2 years vs. 5+ required) is a hard disqualifier, and there is no demonstrated ownership of architecture, cloud infrastructure, observability, or mentorship. Preferred qualifications are entirely unmet.\n\n---\n\nFINAL: REJECT"
+}

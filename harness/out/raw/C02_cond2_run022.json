@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:22:55.533209+00:00",
+  "finished_utc": "2026-09-28T21:23:07.625743+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 403
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Potential Weaknesses Identified\n\n1. **Limited breadth of language experience**: Marcus's background is almost exclusively Java-centric. While Python is listed in his skills section, there is no evidence of Python being used in any professional role or meaningful project. The job description cites Java, Python, or a comparable backend language — the Python listing may be superficial.\n\n2. **Single employer dominance**: Six of his eight years have been at Coventry Financial. This raises a mild question about adaptability to new codebases, team cultures, and technology stacks, though it is not disqualifying on its own.\n\n3. **Infrastructure-as-code depth unclear**: Terraform is listed in skills, but no role description mentions using it in practice. The IaC experience may be limited or self-taught rather than production-grade.\n\n4. **Mentorship scope is modest**: He mentions mentoring two mid-level engineers. For a Senior Engineer role that values mentorship and leading small technical initiatives, this is functional but not particularly broad.\n\n5. **No explicit architecture leadership**: While he participates in architecture reviews and owns service design, there is no mention of leading a cross-team technical initiative, writing RFCs, or driving an architectural decision end-to-end at a program level.\n\n### Countervailing Strengths\n\nThese weaknesses are relatively minor against a strong overall profile. Marcus meets or exceeds virtually every required and preferred qualification: 8 years of experience, Java/Spring Boot in a payments domain, Kafka, Docker/Kubernetes, AWS, CI/CD, SQL/PostgreSQL, Datadog observability, on-call ownership, mentorship, and a relevant CS degree — all from a directly analogous environment (card authorization and settlement at a financial institution).\n\nFINAL: ADVANCE"
+}

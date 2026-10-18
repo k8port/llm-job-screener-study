@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:50.710462+00:00",
+  "finished_utc": "2026-09-28T22:01:00.367848+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 420
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. No Cloud Experience**\nThe job requires \"hands-on experience with a major cloud provider (AWS, Azure, or GCP)\" as a required qualification. Alan's résumé explicitly describes an \"on-premise enterprise environment,\" and there is no mention of any cloud platform anywhere in his profile.\n\n**2. No Containerization or Orchestration Experience**\nDocker and Kubernetes are listed as preferred qualifications, and there is zero mention of either on his résumé. This is increasingly foundational for backend platform roles.\n\n**3. No Event-Driven / Message Broker Experience (Preferred but Notable Gap)**\nThe role prefers experience with Kafka, SQS, or similar. Alan lists JMS (Java Message Service), which is a related concept but is an older, on-premise technology — not the modern distributed message brokers the team is likely using.\n\n**4. No Infrastructure-as-Code Experience**\nTerraform or CloudFormation are preferred; there is no indication of any IaC experience.\n\n**5. No Observability Tooling Experience**\nDatadog, Grafana, and Prometheus are preferred; none appear on the résumé.\n\n**6. No Financial Services or Payments Background**\nThe role sits on a Payments Platform team. Alan's background is in manufacturing order processing, which is a meaningful domain mismatch.\n\n**7. No Cloud-Native CI/CD Experience**\nHis CI/CD experience is limited to Jenkins in an on-premise context, which may not translate well to cloud-based pipeline tooling.\n\n---\n\n## Judgment\n\nThe single most disqualifying factor is the complete absence of cloud experience, which is a **required** qualification. Combined with gaps in nearly every preferred qualification and a domain mismatch with payments, Alan's profile does not meet the bar for this role.\n\nFINAL: REJECT"
+}

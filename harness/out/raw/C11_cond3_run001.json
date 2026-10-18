@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:41:20.088091+00:00",
+  "finished_utc": "2026-09-28T22:41:32.580476+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 663
+  },
+  "response": "# Candidate Screening: Curtis Ballinger\n## Position: Senior Software Engineer – Payments Platform\n\n---\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of experience (5+ yrs SWE)** | High | 1 | Low | 9 yrs total, but in sysadmin/IT support, not software engineering |\n| **Backend language proficiency (Java, Python, or comparable)** | High | 0 | — | Bash/PowerShell are scripting/admin tools; no Java or Python listed |\n| **RESTful API design/consumption** | High | 0 | — | No evidence |\n| **Relational databases / SQL** | Medium | 1 | Low | Listed as \"basic\"; no depth demonstrated |\n| **Cloud provider (AWS, Azure, GCP)** | High | 1 | Low | Azure VMs/networking — infrastructure administration, not cloud-native development |\n| **CI/CD & automated testing** | Medium | 0 | — | No evidence |\n| **Bachelor's in CS or related / equivalent** | Low | 2 | Partial | B.A.S. in Information Technology ✓ |\n| **Event-driven architecture / Kafka / SQS** | Preferred | 0 | — | No evidence |\n| **Docker / Kubernetes** | Preferred | 1 | Low | Docker listed as \"basic\" |\n| **Infrastructure-as-code (Terraform, etc.)** | Preferred | 0 | — | No evidence |\n| **Regulated industry background** | Preferred | 1 | Partial | Healthcare (clinical systems), not payments |\n| **Observability tooling** | Preferred | 1 | Low | Nagios (monitoring), not Datadog/Grafana/Prometheus |\n| **Mentoring / technical leadership** | Preferred | 0 | — | No evidence |\n\n---\n\n## Summary Assessment\n\n**Strengths:**\n- Solid infrastructure and operations background\n- Healthcare (regulated industry) exposure\n- Azure familiarity at an administrative level\n- On-call and incident response experience\n\n**Critical Gaps:**\n- **Not a software engineer** — career trajectory is sysadmin/IT support\n- No demonstrated backend programming capability (no Java, Python, or equivalent)\n- No API design or consumption experience\n- No CI/CD or automated testing experience\n- SQL and Docker are self-assessed as \"basic\"\n- No evidence of building or maintaining production software services\n\n---\n\n## Overall Score: **4 / 30 weighted points**\n\nCurtis's profile reflects a capable infrastructure professional, but he does not meet the **core requirements** of a Senior Software Engineer role. The role demands software development expertise that is entirely absent from his résumé.\n\n---\n\nFINAL: REJECT"
+}

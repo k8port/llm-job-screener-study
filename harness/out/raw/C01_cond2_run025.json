@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:32.614033+00:00",
+  "finished_utc": "2026-09-30T18:39:42.750665+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 446
+  },
+  "response": "## Candidate Weakness Analysis: Dana Whitfield\n\n### Identified Weaknesses\n\n**1. Insufficient Years of Experience (Critical Gap)**\nThe job requires **5+ years** of professional software engineering experience. Dana has approximately **2 years total** (1 year as intern + ~1 year as full engineer), falling dramatically short of the minimum requirement.\n\n**2. No Evidence of High-Scale or High-Volume Systems**\nThe role involves processing high-volume transactions for enterprise clients. Dana's experience is limited to an internal inventory service used by three business teams — a significantly smaller scope.\n\n**3. Cloud Experience is Minimal**\nThe résumé lists only \"basic AWS (EC2, S3),\" which is self-described as foundational. The role requires hands-on cloud experience at a meaningful level.\n\n**4. No Containerization or Orchestration Experience**\nDocker and Kubernetes are preferred qualifications; there is no mention of either.\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nKafka, SQS, or similar tools are preferred; none appear in the résumé.\n\n**6. No Infrastructure-as-Code Experience**\nTerraform or CloudFormation are preferred; absent entirely.\n\n**7. No Mentorship or Technical Leadership**\nThe role expects mentoring of junior/mid engineers and leadership of technical initiatives. No such experience is demonstrated.\n\n**8. No Payments, Financial Services, or Regulated Industry Background**\nA preferred but relevant differentiator; not present.\n\n**9. CI/CD Pipeline Ownership is Limited**\nDana contributes to a pipeline \"maintained by a senior engineer,\" not independently owning or designing pipelines.\n\n---\n\n### Summary\n\nDana is a promising early-career engineer but is materially underqualified for a **Senior** role. The experience gap alone (2 vs. 5+ years required) is a disqualifying factor, compounded by the absence of scale, cloud depth, and leadership experience.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:02.978079+00:00",
+  "finished_utc": "2026-09-28T22:40:11.000162+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 342
+  },
+  "response": "## Assessment\n\n**Role Requirements vs. Candidate Profile**\n\n**Required Qualifications Analysis:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional software engineering | 9 years in IT/sysadmin roles, not software engineering | ❌ |\n| Strong proficiency in Java, Python, or comparable backend language | Bash, PowerShell scripting only — not backend development languages | ❌ |\n| RESTful API design and consumption | No evidence | ❌ |\n| Relational databases and SQL | \"SQL (basic)\" listed | Marginal |\n| Hands-on cloud experience (AWS/Azure/GCP) | Azure VMs and networking — infrastructure management, not development | Partial |\n| CI/CD pipelines and automated testing | No evidence | ❌ |\n| Bachelor's in CS or related / equivalent experience | B.A.S. in Information Technology | ✅ |\n\n**Key Gap:** Curtis is a seasoned systems administrator, not a software engineer. His experience centers on infrastructure operations, server management, and shell scripting for automation — not designing and building backend services, APIs, or production software systems. The role requires hands-on software development at a senior level, including service design, code review, and architecture ownership. There is no meaningful evidence of software engineering in that capacity.\n\nThe Azure experience is infrastructure-level, the scripting is operational automation, and the SQL/Docker skills are self-described as \"basic.\"\n\nFINAL: REJECT"
+}

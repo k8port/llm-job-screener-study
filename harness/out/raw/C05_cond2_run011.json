@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:27.683623+00:00",
+  "finished_utc": "2026-09-28T21:49:37.838738+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 445
+  },
+  "response": "## Screening Analysis: Nora Kessler vs. Senior Software Engineer (Payments Platform)\n\n### Potential Weaknesses Identified\n\n**Critical Gaps (Required Qualifications)**\n\n1. **Not a software engineer — data analyst background.** The role requires designing and building scalable backend services and APIs. Kessler's experience is in reporting, analytics, and data reconciliation — a fundamentally different discipline.\n\n2. **No backend service or API development experience.** There is no evidence of designing or consuming RESTful APIs, building microservices, or any production backend engineering work.\n\n3. **Python used only for data tasks.** Her Python usage is limited to data cleaning/reconciliation scripts (Pandas, NumPy) — not backend application development, which the role requires.\n\n4. **No cloud engineering experience.** \"Basic AWS (S3, Athena)\" reflects read/query access to storage, not infrastructure provisioning, compute, or cloud service development.\n\n5. **No CI/CD or automated testing experience mentioned.**\n\n6. **No relational database experience in a backend/application context.** SQL is used for reporting/analytics, not for application data modeling or transactional systems.\n\n**Preferred Qualification Gaps**\n\n7. No experience with event-driven architecture, Kafka, or message brokers.\n8. No Docker or Kubernetes experience.\n9. No infrastructure-as-code experience.\n10. No observability tooling experience (Datadog, Grafana, Prometheus).\n11. No mention of mentoring engineers or leading technical initiatives.\n\n**Contextual Concern**\n\n12. Background in insurance analytics is unrelated to payments platform engineering, and the regulated industry experience doesn't compensate for the missing engineering fundamentals.\n\n---\n\n### Summary\n\nKessler does not meet the required qualifications for this role in any substantive way. The gap is not marginal — it reflects an entirely different career track. Advancing her would not be appropriate.\n\nFINAL: REJECT"
+}

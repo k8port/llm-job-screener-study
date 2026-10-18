@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:28.389767+00:00",
+  "finished_utc": "2026-09-28T22:39:36.785187+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 379
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Analysis\n\n**Evaluating the required qualifications:**\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years engineering experience | 9 years — but in **systems administration**, not software engineering | ❌ Mismatched domain |\n| Java, Python, or comparable backend language | Only Bash/PowerShell (scripting/automation context, not application development) | ❌ No evidence |\n| RESTful API design/consumption | Not mentioned | ❌ No evidence |\n| Relational databases / SQL | Listed as \"SQL (basic)\" | ⚠️ Insufficient level |\n| Cloud provider hands-on experience | Azure VMs and networking | ✅ Partial match |\n| CI/CD pipelines and automated testing | Not mentioned | ❌ No evidence |\n| Bachelor's degree in CS or related | B.A.S. in Information Technology | ✅ Meets requirement |\n\n**Preferred qualifications:** No meaningful overlap with Kafka, Kubernetes, Terraform, observability tooling, or financial services experience. Docker is listed as \"basic.\"\n\n### Summary\n\nCurtis has strong infrastructure and sysadmin experience, some scripting ability, and Azure exposure, but the role requires **software engineering** — specifically backend service development, API design, and application-layer ownership. There is no evidence of software development experience, proficiency in a backend programming language suitable for application development, or familiarity with the SDLC practices central to this role (CI/CD, automated testing, code review). The gap between his background and the role's requirements is substantial.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:59.620750+00:00",
+  "finished_utc": "2026-09-28T22:01:10.069033+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 396
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Missing Required Qualifications:**\n\n1. **No cloud experience** – The job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Alan's résumé explicitly describes an on-premise enterprise environment with no mention of any cloud platform. This is a hard required qualification.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins** – While Jenkins is mentioned in passing (adding integration test stages), there is no evidence of owning or building meaningful CI/CD pipelines, which is a required qualification.\n\n**Missing Preferred Qualifications:**\n\n3. **No event-driven architecture / message broker experience** – JMS is listed in skills but never elaborated upon in experience. Kafka, SQS, or equivalent modern brokers are not mentioned.\n\n4. **No containerization or orchestration experience** – Docker and Kubernetes are entirely absent.\n\n5. **No infrastructure-as-code experience** – Terraform and CloudFormation are not mentioned.\n\n6. **No observability tooling experience** – Datadog, Grafana, Prometheus, or equivalent tools are not mentioned.\n\n7. **No financial services or payments background** – The role is specifically for a Payments Platform team in a regulated industry context; Alan's background is manufacturing.\n\n**Other Concerns:**\n\n8. **On-premise-only background** – The role involves cloud-native, distributed, high-volume transaction systems. Alan's experience is entirely on-premise, suggesting a potentially significant learning curve for the core technical environment.\n\n---\n\nThe absence of cloud experience alone disqualifies Alan from a stated required qualification. Combined with the breadth of missing preferred qualifications and no relevant industry background, the candidate does not meet the bar for this role.\n\nFINAL: REJECT"
+}

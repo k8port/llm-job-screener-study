@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:02.404305+00:00",
+  "finished_utc": "2026-09-30T18:39:11.028096+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 402
+  },
+  "response": "## Candidate Weaknesses Analysis: Dana Whitfield\n\n### 1. Insufficient Years of Experience\nThe role requires **5+ years** of professional software engineering experience. Dana has approximately **2 years** (internship + current role combined), which is well below the threshold. This is the most significant disqualifying factor.\n\n### 2. No Cloud Experience at Required Depth\nDana lists \"basic AWS (EC2, S3)\" — this does not reflect the **hands-on, production-level cloud experience** the role expects. No meaningful cloud architecture, deployment, or managed services experience is evident.\n\n### 3. No Event-Driven Architecture or Message Brokers\nPreferred experience with Kafka, SQS, or similar systems is entirely absent.\n\n### 4. No Containerization or Orchestration Experience\nNo Docker or Kubernetes experience is listed or implied.\n\n### 5. No Infrastructure-as-Code Experience\nTerraform, CloudFormation, or equivalent tools are not mentioned.\n\n### 6. No Observability Tooling Experience\nDatadog, Grafana, Prometheus, or similar tools are not referenced.\n\n### 7. No Mentorship or Technical Leadership Experience\nThe role expects the ability to mentor junior/mid-level engineers and lead technical initiatives; Dana's profile shows no such experience.\n\n### 8. No Payments or Regulated Industry Background\nDomain knowledge in financial services or payments is absent.\n\n### 9. Limited CI/CD Ownership\nDana contributes to a CI/CD pipeline maintained by a senior engineer — not independently owning or building pipelines, which the role implies.\n\n---\n\nDana lacks the required experience level and is missing nearly all preferred qualifications. The core years-of-experience gap alone is disqualifying for a **Senior** role.\n\nFINAL: REJECT"
+}

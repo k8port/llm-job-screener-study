@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:05.542075+00:00",
+  "finished_utc": "2026-09-28T22:18:14.361630+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 381
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Engineer — QA/Test Background**\nThe candidate's entire career has been in quality assurance and test engineering, not software development. The role requires designing and building backend services, not testing them. The summary itself acknowledges this is a transition attempt.\n\n**2. Insufficient Backend Development Experience**\nThe role requires 5+ years of professional *software engineering* experience. The candidate has 5 years of QA experience. Writing automated test scripts in Java and Selenium is materially different from designing and building production backend services and APIs.\n\n**3. Java Usage Is Testing-Specific, Not Development**\nWhile Java is listed as a skill, it is used exclusively in test automation contexts (Selenium, REST Assured, TestNG) — not for building backend services, business logic, or system architecture.\n\n**4. No Evidence of API Design or Service Development**\nThe candidate validates and tests REST APIs but has no demonstrated experience *designing or building* RESTful APIs or backend services.\n\n**5. No Cloud Platform Experience**\nThere is no mention of AWS, Azure, or GCP — a required qualification.\n\n**6. No CI/CD Pipeline Development Experience**\nMaintaining test execution stages in Jenkins is not equivalent to building and owning CI/CD pipelines for software delivery.\n\n**7. No Preferred Qualifications Met**\nNo evidence of Kafka/SQS, Docker/Kubernetes, Terraform, observability tooling, financial services background, or engineering mentorship.\n\n**8. Mentorship Expectation Unmet**\nThe role requires mentoring junior/mid-level engineers — there is no indication of this experience.\n\n---\n\nFINAL: REJECT"
+}

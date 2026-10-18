@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:34:17.550116+00:00",
+  "finished_utc": "2026-09-28T22:34:29.663388+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 919,
+    "output_tokens": 566
+  },
+  "response": "# Candidate Screening: Josephine Hartwell\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Notes |\n|-----------|--------|-------------|-------|\n| **Years of experience (5+)** | High | 3 | ~7 years of software engineering experience (2016–2023 + 2024–present, minus the career break) |\n| **Backend language proficiency (Java/Python)** | High | 3 | Java/Spring Boot as primary; Python also listed with demonstrated use |\n| **RESTful API design & consumption** | High | 3 | Explicitly designs versioned REST APIs consumed by partner institutions |\n| **Relational DB / SQL** | High | 3 | PostgreSQL, SQL-backed persistence throughout career |\n| **Cloud provider experience (AWS)** | High | 3 | Extensive AWS: ECS, SQS, SNS, RDS, Lambda |\n| **CI/CD & automated testing** | High | 3 | GitHub Actions CI/CD; JUnit; introduced contract testing |\n| **Bachelor's degree or equivalent** | High | 3 | B.S. Mathematics, Baylor University |\n| **Event-driven architecture / message brokers** | Medium | 3 | Owns SQS/SNS messaging between domains |\n| **Containerization / orchestration** | Medium | 3 | Docker, ECS deployment; containerized legacy services |\n| **Infrastructure-as-code** | Medium | 3 | Terraform explicitly listed and used in production |\n| **Financial services / regulated industry** | Medium | 3 | Credit union payments + prior actuarial background at an insurer |\n| **Observability tooling** | Medium | 2 | Datadog listed in skills; less elaboration in experience bullets |\n| **Mentorship / technical leadership** | Medium | 3 | Mentors two engineers in current role |\n\n## Summary\n\n**Total: 38/39 weighted points**\n\nJosephine meets or exceeds every required qualification and nearly all preferred qualifications. Her background in credit services and actuarial work aligns directly with the payments/regulated-industry domain. The career break is clearly explained and does not represent a gap in relevant competency — she re-entered at a senior level with increased scope. The only minor gap is depth of observability narrative (Datadog listed but not elaborated), which is a low-risk concern.\n\nFINAL: ADVANCE"
+}

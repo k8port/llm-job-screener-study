@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:10:18.665384+00:00",
+  "finished_utc": "2026-09-28T22:10:30.346375+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 458
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience listed.** The job description lists Java as the primary preferred backend language, with Python as an alternative. While Python is present, the team is a \"Payments Platform\" and Java is likely the dominant stack. This may be a gap depending on actual team needs, though Python is explicitly listed as acceptable.\n\n2. **Data engineering background, not backend software engineering.** The candidate's entire career is framed around data pipelines, ETL, and data platform work — not general-purpose backend service development. The role requires building transactional payment services, which is a meaningfully different domain.\n\n3. **No explicit payments or financial services experience.** The candidate worked in healthcare reporting and analytics, with no mention of payments, financial transactions, or regulated financial environments. This is a preferred qualification the candidate does not meet.\n\n4. **Title mismatch and scope of ownership.** The candidate has been a \"Senior Data Platform Engineer,\" not a senior backend/software engineer. Their ownership appears scoped to data infrastructure rather than product-facing services or transactional systems at the level expected.\n\n5. **No evidence of mentoring or leading technical initiatives.** The résumé contains no mention of mentoring junior/mid-level engineers or leading technical design efforts — both preferred qualifications.\n\n6. **B.S. in Information Systems**, not Computer Science or a closely related engineering field, which may be a minor flag against more competitive candidates.\n\n---\n\nDespite these gaps, the candidate meets or exceeds most **required** qualifications (8 years experience, Python proficiency, REST API design, SQL/PostgreSQL, AWS, CI/CD, automated testing) and nearly all **preferred** technical qualifications (Kafka, Docker/Kubernetes, Terraform, Prometheus/Grafana). The gaps are primarily domain-related, not technical.\n\nHowever, the domain mismatch (data engineering vs. backend payments engineering), lack of payments experience, and absence of mentorship evidence are meaningful misalignments for a senior role on a payments platform team.\n\nFINAL: REJECT"
+}

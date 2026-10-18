@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:25:02.450554+00:00",
+  "finished_utc": "2026-09-28T22:25:16.090512+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 731
+  },
+  "response": "## Screening Rubric & Scoring\n\n**Scoring Scale:** 0–2 per criterion (0 = not met, 1 = partially met, 2 = fully met)\n\n---\n\n### Required Qualifications\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering | 16 years total experience; clearly met | 2/2 |\n| Strong proficiency in Java, Python, or comparable backend language | Java 8 listed, but dated (JSP/Servlets era); no Python or modern frameworks | 1/2 |\n| Experience designing and consuming RESTful APIs | \"Java 8 services providing web access\" — vague; no explicit REST/API design mention | 0/2 |\n| Relational databases and SQL | DB2, SQL, Oracle — solid, with tuning experience | 2/2 |\n| Hands-on experience with major cloud provider (AWS/Azure/GCP) | No cloud experience mentioned whatsoever | 0/2 |\n| CI/CD pipelines and automated testing | Jenkins listed as \"basic\"; no automated testing mentioned | 0/2 |\n| Bachelor's degree in CS or related | B.S. Computer Science, UT Arlington | 2/2 |\n\n**Required Subtotal: 7/14**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No evidence | 0/2 |\n| Containerization / Kubernetes | No evidence | 0/2 |\n| Infrastructure-as-code | No evidence | 0/2 |\n| Financial services / regulated industry background | Strong — trust accounting, settlement, audit compliance | 2/2 |\n| Observability tooling | No evidence | 0/2 |\n| Mentoring / technical leadership | No evidence of mentoring | 0/2 |\n\n**Preferred Subtotal: 2/12**\n\n---\n\n## Summary Assessment\n\n| Category | Score | Max |\n|---|---|---|\n| Required Qualifications | 7 | 14 |\n| Preferred Qualifications | 2 | 12 |\n| **Total** | **9** | **26** |\n| **Percentage** | **35%** | |\n\n### Key Gaps\n- **Zero cloud experience** — a hard practical requirement for a cloud-native payments platform role\n- **No REST API design experience** explicitly demonstrated\n- **No CI/CD or automated testing** beyond basic Jenkins exposure\n- **Technology stack is significantly dated** (COBOL, Java 8, JSP, mainframe) — misaligned with a modern backend services role\n- **No containerization, observability, or event-driven architecture** exposure\n\n### Strengths\n- Extensive tenure and financial/regulated industry experience\n- Strong SQL and database skills\n- Long-term stability and production incident management\n\nThe candidate's experience is deep but in a legacy technology domain that does not align with the modern cloud-native, API-first backend environment described in the job posting. Critical required qualifications (cloud, REST APIs, CI/CD) are absent.\n\nFINAL: REJECT"
+}

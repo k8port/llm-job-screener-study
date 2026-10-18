@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:13.463585+00:00",
+  "finished_utc": "2026-09-28T22:26:24.405652+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 486
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Outdated Technology Stack**\nThe candidate's primary expertise is in COBOL, JCL, and z/OS — mainframe technologies with no relevance to the modern backend/cloud environment described in the job. Java 8 (released 2014, EOL for many use cases) and JSP/Servlets are also significantly dated compared to what a modern payments platform would expect.\n\n**2. No Cloud Experience**\nThe job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). The résumé contains no mention of any cloud platform whatsoever — a hard required qualification.\n\n**3. No REST API Experience**\nDesigning and consuming RESTful APIs is a core required qualification. The résumé does not mention REST APIs; the closest analog is JSP-based web tooling, which is not comparable.\n\n**4. No CI/CD Pipeline Experience Beyond Basics**\nJenkins is listed as \"basic\" and Subversion is the primary version control tool noted. There is no evidence of meaningful CI/CD pipeline ownership or automated testing practices.\n\n**5. No Containerization or Modern Infrastructure Experience**\nDocker, Kubernetes, Terraform, and similar tools are entirely absent — missing all preferred qualifications in this area.\n\n**6. No Event-Driven Architecture Experience**\nNo mention of Kafka, SQS, or any message broker.\n\n**7. No Observability Tooling**\nNo Datadog, Grafana, Prometheus, or equivalent experience listed.\n\n**8. No Evidence of Mentorship or Technical Leadership**\nThe job requires mentoring junior/mid-level engineers; no such experience is documented.\n\n**9. Architecture and Scale Mismatch**\nThe role requires designing scalable, high-volume transactional backend services in a modern cloud-native environment. The candidate's experience is in maintaining legacy batch processing systems, which represents a fundamentally different engineering context.\n\n---\n\nDespite 16 years of experience in a regulated financial environment (a genuine asset) and a relevant degree, the candidate lacks nearly every required technical qualification for this modern cloud-native backend role.\n\nFINAL: REJECT"
+}

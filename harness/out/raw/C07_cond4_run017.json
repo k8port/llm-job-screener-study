@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:10:05.219617+00:00",
+  "finished_utc": "2026-09-28T22:10:16.131156+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 423
+  },
+  "response": "## Reasons This Candidate Should NOT Advance\n\n1. **No Java experience**: The job lists Java as the primary preferred backend language, with Python as an alternative. While Simone uses Python, the team's tech stack context (Payments Platform, enterprise backend services) may lean Java-heavy, and the candidate shows no Java exposure whatsoever.\n\n2. **Data engineering focus, not backend software engineering**: Simone's background is explicitly framed around data pipelines, ETL, and data platform work. The role requires designing and building scalable backend *application* services for payment processing — a meaningfully different discipline. Her API work appears secondary (\"around\" pipelines) rather than primary.\n\n3. **No payments, fintech, or regulated industry experience**: The job specifically prefers background in financial services or payments. Simone's experience is in analytics/data and healthcare reporting — neither directly maps to high-volume payment transaction processing with associated compliance and reliability expectations.\n\n4. **No explicit mentorship experience**: The role requires mentoring mid-level and junior engineers and leading technical initiatives. The résumé contains no mention of mentoring, technical leadership, or cross-team initiative ownership.\n\n5. **Degree is in Information Systems, not Computer Science or a closely related field**: While \"equivalent practical experience\" is accepted, the degree is a softer match than CS/CE/Software Engineering.\n\n6. **Backend service design depth is unclear**: The résumé does not demonstrate experience owning the full lifecycle of customer-facing backend services (e.g., authentication, authorization, rate limiting, transaction integrity), which are critical concerns for a Payments Platform role.\n\n---\n\nDespite strong preferred-qualification matches (Kafka, Terraform, EKS/Kubernetes, Prometheus/Grafana, CI/CD, PostgreSQL), the core role requirements — backend service engineering for payments, Java or strong equivalent, and mentorship — are insufficiently demonstrated.\n\nFINAL: REJECT"
+}

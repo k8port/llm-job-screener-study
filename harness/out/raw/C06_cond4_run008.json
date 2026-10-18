@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:29.689738+00:00",
+  "finished_utc": "2026-09-28T22:00:41.455316+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 461
+  },
+  "response": "## Reasons Not to Advance\n\n1. **No cloud experience.** The job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Alan's résumé shows exclusively on-premise enterprise work with no mention of any cloud platform. This is a hard required qualification.\n\n2. **No containerization or orchestration experience.** Docker and Kubernetes are listed as preferred and are standard in modern backend/payments platform roles. There is no indication of either.\n\n3. **No event-driven architecture / message broker experience beyond basic JMS.** The role prefers Kafka or SQS experience. Alan lists JMS, which is an older messaging standard used in on-premise Java environments — not a close equivalent to the distributed message brokers commonly used in cloud-native payments platforms.\n\n4. **No CI/CD pipeline depth.** Jenkins is listed, but only in the context of adding integration test stages. There is no indication of broader CI/CD pipeline ownership or modern tooling (e.g., GitHub Actions, ArgoCD).\n\n5. **No observability tooling experience.** Datadog, Grafana, and Prometheus are preferred. Alan's résumé mentions none of these.\n\n6. **No infrastructure-as-code experience.** Terraform or CloudFormation are preferred; neither is mentioned.\n\n7. **No financial services or payments background.** The role is on a Payments Platform team serving enterprise clients in what is likely a regulated environment. Alan's background is in manufacturing operations.\n\n8. **On-premise-only environment.** The entire résumé reflects a legacy, on-premise stack, suggesting a potentially significant ramp-up needed to operate effectively in a cloud-native, distributed payments context.\n\n---\n\n## Judgment\n\nAlan meets some baseline requirements (Java, REST APIs, SQL, CI basics, mentoring, on-call), but he is missing the single most important required qualification — cloud experience — along with multiple preferred qualifications that are strongly expected at the senior level for this specific role. The gap between his current environment and the target environment is substantial.\n\nFINAL: REJECT"
+}

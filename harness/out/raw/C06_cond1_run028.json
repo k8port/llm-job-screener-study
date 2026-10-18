@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:56:53.922978+00:00",
+  "finished_utc": "2026-09-28T21:57:03.508828+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 422
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Against Requirements\n\n**Required Qualifications:**\n- ✅ **7 years experience** (exceeds 5-year minimum)\n- ✅ **Java/Spring Boot** — strong, primary language throughout career\n- ✅ **RESTful API design and ownership** — explicitly stated\n- ✅ **Relational databases and SQL** — Oracle, SQL, PL/SQL, stored procedures\n- ✅ **CI/CD** — Jenkins pipelines, automated testing with JUnit\n- ✅ **Bachelor's degree** — B.S. Computer Engineering, Texas Tech\n- ✅ **Mentoring and code review leadership** — leads a team of six, mentors two juniors\n- ✅ **On-call rotation** — explicitly mentioned\n\n**Preferred Qualifications:**\n- ✅ **Event-driven/messaging** — JMS listed\n- ✅ **Prior mentoring and technical leadership** — clear evidence\n- ⚠️ No Kafka/SQS, Docker/Kubernetes, Terraform, Datadog/Grafana, or cloud provider experience listed\n\n### Key Gap\n\n- ❌ **No cloud experience (AWS/Azure/GCP)** — a *required* qualification with no evidence of exposure. The candidate's background is explicitly on-premise.\n- ❌ No containerization or observability tooling\n\n### Conclusion\n\nAlan is a well-qualified backend Java engineer whose core engineering skills are strong. However, the absence of any cloud platform experience represents a material gap against a *required* qualification for a role on a cloud-native Payments Platform. The role's context (enterprise payments, cloud infrastructure, observability) suggests cloud fluency is non-negotiable, not a nice-to-have.\n\nFINAL: REJECT"
+}

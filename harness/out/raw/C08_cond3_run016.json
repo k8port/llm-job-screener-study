@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:16:54.813213+00:00",
+  "finished_utc": "2026-09-28T22:17:08.356142+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 668
+  },
+  "response": "## Screening Scorecard: Grant Pemberton\n\n### Scoring Rubric\n\nEach criterion is scored **0–3** (0 = absent, 1 = partial/indirect, 2 = meets, 3 = exceeds).\n\n---\n\n### Required Qualifications\n\n| Criterion | Evidence | Score |\n|---|---|---|\n| 5+ years professional SE experience | 5 years total, but primarily QA/test roles, not software engineering proper | 1 |\n| Strong proficiency in Java, Python, or comparable backend language | Java used for test automation; basic Python scripting noted — not backend service development | 1 |\n| Experience designing/consuming RESTful APIs | API-level testing and validation, not design/build of APIs | 1 |\n| Relational databases / SQL | SQL listed in skills, no elaboration on depth or use | 1 |\n| Hands-on cloud experience (AWS/Azure/GCP) | No mention whatsoever | 0 |\n| CI/CD pipelines & automated testing | Jenkins pipeline maintenance; strong automated testing background | 2 |\n| Bachelor's in CS/related or equivalent | B.S. Information Technology | 2 |\n\n**Required subtotal: 8 / 21**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Evidence | Score |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | No mention | 0 |\n| Docker / Kubernetes | No mention | 0 |\n| Infrastructure-as-code (Terraform, CloudFormation) | No mention | 0 |\n| Financial services / regulated industry background | Retail systems; no payments/fintech | 0 |\n| Observability tooling (Datadog, Grafana, Prometheus) | No mention | 0 |\n| Mentoring / leading technical initiatives | No mention | 0 |\n\n**Preferred subtotal: 0 / 18**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Assessment |\n|---|---|\n| Backend service design & development | Not demonstrated — experience is in test tooling, not building production services |\n| Cloud platform experience | Absent |\n| System scalability / architecture | Not evidenced |\n| Payments/high-volume transaction domain | Not evidenced |\n| Mentorship / senior-level leadership | Not evidenced |\n\n---\n\n### Summary\n\n**Overall Score: 8 / 39 (21%)**\n\nGrant has a solid QA foundation and genuine Java/automation skills, but his experience is squarely in **test engineering**, not backend software development. The role requires designing and owning scalable production services in a payments context — none of that is demonstrated. Critical gaps include cloud experience, backend service development, architecture ownership, and domain relevance. His own summary acknowledges he is \"transitioning toward software development,\" confirming the experience gap.\n\n---\n\nFINAL: REJECT"
+}

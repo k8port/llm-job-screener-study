@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:59:02.593802+00:00",
+  "finished_utc": "2026-09-28T21:59:16.742697+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 808,
+    "output_tokens": 695
+  },
+  "response": "## Screening Rubric & Scoring — Alan Brightwell\n\n### Required Qualifications (each worth up to 10 pts)\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total; Senior since 2022 | **10/10** |\n| Java, Python, or comparable backend language | Strong Java/Spring Boot throughout | **10/10** |\n| RESTful API design & consumption | Explicitly owns REST API design for internal integration | **10/10** |\n| Relational databases & SQL | Oracle, SQL, PL/SQL — heavily used | **10/10** |\n| Major cloud provider (AWS, Azure, GCP) | **No mention of any cloud experience** | **0/10** |\n| CI/CD pipelines & automated testing | Jenkins pipelines, JUnit — solid evidence | **9/10** |\n| Bachelor's in CS/related or equivalent | B.S. Computer Engineering, Texas Tech | **10/10** |\n\n**Required Subtotal: 59/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 pts)\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| Event-driven / message brokers | JMS listed — relevant but not Kafka/SQS | **3/5** |\n| Containerization / Kubernetes | No mention of Docker or Kubernetes | **0/5** |\n| Infrastructure-as-code | No mention of Terraform/CloudFormation | **0/5** |\n| Financial services / regulated industry | Manufacturing — not payments/fintech | **1/5** |\n| Observability tooling | No mention of Datadog, Grafana, Prometheus | **0/5** |\n| Mentoring / technical leadership | Mentors 2 juniors, leads code review for team of 6 | **5/5** |\n\n**Preferred Subtotal: 9/30**\n\n---\n\n### Summary\n\n| Category | Score |\n|---|---|\n| Required | 59/70 (84%) |\n| Preferred | 9/30 (30%) |\n| **Overall** | **68/100** |\n\n### Key Strengths\n- Strong Java/Spring Boot backend depth with 7 years of experience\n- Solid REST API ownership, SQL expertise, CI/CD practice\n- Genuine mentorship and on-call experience matching the role's leadership expectations\n\n### Critical Gaps\n- **Zero cloud experience** — a hard required qualification for a cloud-native payments platform\n- No containerization, orchestration, or IaC experience\n- Entire background is on-premise manufacturing; no exposure to payments, fintech, or regulated financial environments\n- Missing modern observability tooling\n\n### Judgment\nThe cloud experience gap is a hard-required qualification with no compensating evidence. The domain mismatch (manufacturing, on-premise) is a meaningful secondary concern for a payments platform role. The candidate does not clear the required threshold.\n\n---\n\nFINAL: REJECT"
+}

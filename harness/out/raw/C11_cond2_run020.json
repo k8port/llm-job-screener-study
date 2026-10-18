@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:51.417748+00:00",
+  "finished_utc": "2026-09-28T22:41:01.961808+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 418
+  },
+  "response": "## Screening Assessment: Curtis Ballinger — Senior Software Engineer (Payments Platform)\n\n### Potential Weaknesses Identified\n\n1. **Not a software engineer by background.** Curtis is a systems administrator with nine years of experience. This is a fundamentally different discipline from backend software engineering. His work centers on infrastructure operations, not designing and building software services.\n\n2. **No backend software development experience.** The role requires designing and building scalable backend services and APIs. Curtis has no demonstrated experience writing application-layer code in Java, Python, or any comparable backend language. His scripting (Bash, PowerShell) is operational automation, not software engineering.\n\n3. **No API design or consumption experience.** There is no mention of RESTful APIs or any API work — a required qualification.\n\n4. **SQL listed as \"basic.\"** The role requires meaningful relational database and SQL experience. Curtis self-rates this as basic, which does not meet the bar.\n\n5. **Does not meet the 5+ years of software engineering requirement.** His nine years are in sysadmin/IT support roles, not professional software engineering.\n\n6. **No CI/CD or automated testing experience.** These are required qualifications with no evidence in the résumé.\n\n7. **No experience with event-driven architecture, Kafka, or message brokers.** A preferred but important qualification given the payments/high-volume transaction context.\n\n8. **No experience in financial services or payments.** A preferred qualification entirely absent.\n\n9. **No mentoring or technical leadership experience.** A preferred qualification not evidenced.\n\n10. **Docker listed as \"basic.\"** Containerization is a preferred qualification, and his exposure appears minimal.\n\n### Summary\n\nCurtis lacks the core qualifications for this role — he is not a software engineer and has not performed software engineering work. The gaps are fundamental, not marginal.\n\nFINAL: REJECT"
+}

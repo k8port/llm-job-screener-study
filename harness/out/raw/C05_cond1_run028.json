@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:48:58.491791+00:00",
+  "finished_utc": "2026-09-28T21:49:06.578604+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 360
+  },
+  "response": "## Evaluation\n\n**Role Requirements vs. Candidate Profile**\n\n**Required Qualifications Assessment:**\n\n1. **5+ years of professional software engineering experience** — Nora has 6 years of experience, but as a *data analyst*, not a software engineer. The work involves SQL, Python scripting, and dashboards — not backend service development.\n\n2. **Strong proficiency in Java, Python, or a comparable backend language** — She uses Python, but in a data/analytics context (Pandas, NumPy, scripting). There is no evidence of building backend services, APIs, or production application code.\n\n3. **Experience designing and consuming RESTful APIs** — No evidence.\n\n4. **Experience with relational databases and SQL** — ✓ Strong SQL skills demonstrated.\n\n5. **Hands-on experience with a major cloud provider** — \"Basic AWS (S3, Athena)\" is minimal and data-focused, not infrastructure or backend service-oriented.\n\n6. **CI/CD pipelines and automated testing** — No evidence.\n\n7. **Bachelor's degree in CS or related field** — B.S. Statistics is adjacent but not a disqualifier.\n\n**Preferred Qualifications:** No meaningful overlap (no Kafka, Docker/Kubernetes, Terraform, observability tooling, mentoring engineers).\n\n**Summary:** Nora is a capable data analyst with relevant technical foundations (SQL, Python, basic cloud), but there is no sufficient evidence of backend software engineering skills — API design, distributed systems, CI/CD, containerization, or production service development — that this role requires.\n\nFINAL: REJECT"
+}

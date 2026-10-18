@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:30.203799+00:00",
+  "finished_utc": "2026-09-28T22:26:40.973383+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 513
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps vs. Required Qualifications:**\n\n1. **Cloud experience (AWS, Azure, GCP):** No cloud experience is listed anywhere on the résumé. This is a hard required qualification for a Payments Platform role.\n\n2. **RESTful API design/consumption:** The candidate's Java experience is limited to Java 8, JSP, and Servlets — older, largely pre-REST paradigms. No mention of modern REST API frameworks (Spring Boot, JAX-RS, etc.).\n\n3. **CI/CD pipelines:** Only \"basic\" Jenkins experience is noted, with no evidence of building or maintaining CI/CD pipelines. This is a required qualification.\n\n4. **Automated testing:** No mention of unit, integration, or automated testing practices anywhere on the résumé.\n\n5. **Modern backend language proficiency:** While Java is listed, the candidate's Java experience is Java 8 with legacy frameworks (JSP, Servlets, WebSphere), not modern backend service development.\n\n**Gaps vs. Preferred Qualifications:**\n\n6. **No event-driven architecture or message broker experience** (Kafka, SQS, etc.).\n7. **No containerization or orchestration experience** (Docker, Kubernetes).\n8. **No infrastructure-as-code experience** (Terraform, CloudFormation).\n9. **No observability tooling experience** (Datadog, Grafana, Prometheus).\n10. **No evidence of mentoring engineers or leading technical initiatives.**\n\n**Additional Concerns:**\n\n11. **Technology currency:** The candidate's skill set is heavily mainframe-oriented (COBOL, JCL, z/OS, WebSphere), which, while valuable in legacy environments, does not align with a modern cloud-native payments platform.\n12. **Version control:** Only \"basic\" Git usage noted — a concerning signal for a senior engineering role in a collaborative, modern engineering environment.\n\n---\n\n**Summary Judgment:** The candidate has relevant domain experience (financial services, SQL, long tenure) but falls short on nearly every required technical qualification for this role. The gaps are not minor — they represent foundational skills (cloud, CI/CD, modern APIs, automated testing) that would be expected at the senior level.\n\nFINAL: REJECT"
+}

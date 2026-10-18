@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:29:43.483045+00:00",
+  "finished_utc": "2026-09-28T21:29:55.860459+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 425
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Evaluation Against Requirements\n\n**Required Qualifications:**\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years engineering experience | ~7 years (2019–present) | ✅ Met |\n| Java, Python, or comparable backend language | Node.js/Express; no Java or Python | ⚠️ Partial |\n| RESTful API design & consumption | REST API consumption confirmed; some API building in Node.js | ⚠️ Partial |\n| Relational databases / SQL | PostgreSQL, SQL listed | ✅ Met |\n| Major cloud provider (AWS) | AWS (S3, CloudFront, Lambda) | ✅ Met (limited scope) |\n| CI/CD & automated testing | GitHub Actions, Jest, Testing Library | ✅ Met |\n| Bachelor's in CS or equivalent | B.A. Graphic Design | ⚠️ Borderline |\n\n**Key Gaps:**\n\n- **Backend depth**: The candidate is explicitly **frontend-focused**. Node.js service work is secondary and supporting in nature, not core backend systems engineering.\n- **Scale & domain**: Retail web portal ≠ high-volume payments/transaction processing. No regulated industry experience.\n- **Language fit**: No Java or Python; Node.js is a stretch for a payments platform role.\n- **Preferred qualifications**: No Kafka/messaging, Kubernetes, Terraform, observability tooling, or financial services background.\n- **Degree**: Graphic Design, not CS or technical equivalent.\n\n### Summary\n\nPriya has solid frontend credentials and some supporting backend exposure, but there is **insufficient evidence** she could perform a senior backend payments platform engineering role requiring deep service design, high-volume transaction systems, and financial domain expertise.\n\nFINAL: REJECT"
+}

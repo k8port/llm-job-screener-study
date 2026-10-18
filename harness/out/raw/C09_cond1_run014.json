@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:14.613328+00:00",
+  "finished_utc": "2026-09-28T22:22:23.261129+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 360
+  },
+  "response": "## Assessment: Raymond Dolliver\n\n### Strengths\n- **16 years of experience** — well exceeds the 5-year minimum\n- **B.S. Computer Science** — meets the education requirement\n- **SQL/relational databases** — demonstrated with DB2 and Oracle\n- **Java** — listed, though Java 8 vintage raises questions about modern practices\n- **Financial services/regulated industry** — trust accounting and settlement processing is directly relevant domain experience\n- **Production incident response** — demonstrates operational maturity\n\n### Gaps and Concerns\n\n**Significant gaps against required qualifications:**\n- **Cloud experience (AWS/Azure/GCP):** No evidence whatsoever\n- **RESTful API design and consumption:** Java 8 services described vaguely as \"web access to core banking functions\"; JSP/Servlets suggest older paradigms, not modern REST\n- **CI/CD pipelines:** Only \"basic\" Jenkins listed — no meaningful CI/CD experience evident\n- **Modern backend services:** Work appears almost entirely mainframe-centric (COBOL, JCL, z/OS)\n\n**Gaps against preferred qualifications:**\n- No Kafka/messaging, no Docker/Kubernetes, no IaC, no observability tooling\n\n### Summary\n\nWhile Raymond has genuine depth in financial services and SQL, his technical stack is largely legacy (mainframe, COBOL, Java 8, Subversion). The role requires modern cloud-native backend engineering — areas where there is little to no demonstrated evidence. The gaps are too significant to be bridged by domain familiarity alone.\n\nFINAL: REJECT"
+}

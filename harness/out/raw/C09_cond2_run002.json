@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:54.154952+00:00",
+  "finished_utc": "2026-09-28T22:23:04.476442+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 450
+  },
+  "response": "## Screening Assessment: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n**1. No meaningful cloud experience**\nThe role requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Raymond's résumé shows no mention of any cloud platform — this is a hard required qualification that is entirely absent.\n\n**2. Outdated Java proficiency**\nRaymond lists Java 8 along with JSP and Servlets — technologies that are now significantly dated. There is no evidence of modern Java (11, 17, 21), modern frameworks (Spring Boot, Quarkus, Micronaut), or contemporary backend development patterns.\n\n**3. No REST API experience**\nDesigning and consuming RESTful APIs is a required qualification. Raymond's background is centered on batch processing, COBOL, and JSP-based internal tools — no REST API work is mentioned.\n\n**4. No CI/CD or automated testing experience**\nJenkins is listed as \"basic,\" and there is no mention of automated testing. This is another required qualification that is effectively unmet.\n\n**5. No event-driven or modern infrastructure experience**\nPreferred qualifications including Kafka/SQS, Docker/Kubernetes, Terraform, and observability tooling (Datadog, Grafana) are entirely absent.\n\n**6. Technology stack is largely legacy**\nThe bulk of Raymond's experience is in COBOL, JCL, z/OS, and mainframe environments — valuable in certain contexts but misaligned with the cloud-native, microservices-oriented payments platform described.\n\n**7. No evidence of mentorship or technical leadership**\nPreferred experience in mentoring engineers is not demonstrated.\n\n### Summary\n\nRaymond meets the years-of-experience threshold and holds a relevant degree, and his financial services background is a genuine asset. However, he fails to meet several **required** qualifications (cloud experience, REST APIs, CI/CD), and his overall technical stack is substantially misaligned with the role's needs.\n\nFINAL: REJECT"
+}

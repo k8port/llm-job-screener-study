@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:19.222190+00:00",
+  "finished_utc": "2026-09-28T22:18:28.190646+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 361
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Engineer — QA/Test Background**\nThe candidate is a quality engineer by trade, self-described as \"transitioning toward software development.\" The role requires a proven Senior Software Engineer with hands-on ownership of production backend services, not test automation infrastructure.\n\n**2. Insufficient Backend Development Experience**\nThere is no demonstrated experience designing or building production backend services or APIs. Java usage is confined to test automation frameworks (Selenium, REST Assured, TestNG), not application development. Writing tests *against* REST APIs is materially different from *designing and building* them.\n\n**3. Does Not Meet the 5+ Years Software Engineering Requirement**\nWhile the candidate has five years of total experience, all of it is in QA/testing roles. The job requires 5+ years of professional *software engineering* experience, which this candidate does not have.\n\n**4. No Cloud Experience**\nNo mention of AWS, Azure, or GCP — a required qualification.\n\n**5. No Relational Database / Backend Data Layer Experience**\nSQL appears in the skills list but only in a QA testing context; there is no evidence of database design or backend data modeling.\n\n**6. Missing Most Preferred Qualifications**\nNo evidence of Kafka/SQS, Docker/Kubernetes, Terraform/CloudFormation, observability tooling, payments/financial services background, or mentoring engineers.\n\n**7. CI/CD Experience Is Peripheral**\nJenkins pipeline maintenance for *test execution* does not constitute substantive CI/CD pipeline ownership for software delivery.\n\n---\n\nFINAL: REJECT"
+}

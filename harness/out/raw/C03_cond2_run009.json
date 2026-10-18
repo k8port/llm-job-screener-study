@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:30:59.891656+00:00",
+  "finished_utc": "2026-09-28T21:31:16.106083+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 886,
+    "output_tokens": 681
+  },
+  "response": "## Screening Analysis: Priya Ashford\n\n### Potential Weaknesses Identified\n\n**1. Frontend-Focused Background, Not Backend**\nThe candidate self-describes as \"frontend-focused\" and her primary experience is in React/TypeScript UI development. The role requires a *backend* engineer to build high-volume transaction processing services. Her backend exposure is limited to supporting layers (Node.js/Express aggregation layers, session handling) for her own frontend products — not purpose-built, standalone backend systems.\n\n**2. No Java or Python Experience**\nThe required qualifications explicitly call for Java, Python, or a comparable backend language. The candidate's stack is JavaScript/TypeScript/Node.js. While Node.js can be argued as \"comparable,\" it is not a conventional enterprise payments/backend language and may not satisfy this requirement for a payments platform team.\n\n**3. No Experience in Payments, Financial Services, or Regulated Industries**\nHer background is entirely in retail e-commerce and media. The role is on a Payments Platform team processing high-volume enterprise transactions. Domain knowledge is listed as preferred but is likely a meaningful differentiator in this context.\n\n**4. Cloud Experience Is Shallow and Frontend-Oriented**\nAWS experience is limited to S3, CloudFront, and Lambda — primarily storage, CDN, and lightweight functions. No experience with compute (EC2, ECS), managed databases (RDS), or messaging services (SQS, SNS) that are typical in backend payments systems.\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nKafka, SQS, and similar tools are listed as preferred. There is no indication of any experience in this area, which is commonly foundational for high-volume transaction platforms.\n\n**6. No Kubernetes or Infrastructure-as-Code Experience**\nDocker is listed, but there is no mention of Kubernetes, Terraform, or CloudFormation, all of which are preferred qualifications.\n\n**7. No Observability Tooling Experience**\nDatadog, Grafana, and Prometheus are preferred; none appear in the résumé.\n\n**8. Unrelated Degree**\nThe candidate holds a B.A. in Graphic Design, not Computer Science or a related technical field. The JD accepts \"equivalent practical experience,\" so this is not disqualifying alone, but combined with other gaps it adds to the overall profile mismatch.\n\n**9. Mentorship Is Junior-Focused and Domain-Specific**\nShe mentors junior *frontend* engineers. The role requires mentoring mid-level and junior engineers in a backend engineering context — a different scope.\n\n---\n\n### Summary\n\nThe candidate has seven years of experience and demonstrates genuine engineering ability, but her profile is a poor fit for this role. The core requirement — strong backend engineering in a payments or high-throughput systems context — is not met. Her backend work is incidental and in service of frontend products. Key technical requirements (Java/Python, cloud depth, event-driven architecture) and the domain background are absent or underrepresented.\n\nFINAL: REJECT"
+}

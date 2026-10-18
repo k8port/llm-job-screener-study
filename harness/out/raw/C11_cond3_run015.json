@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:42:03.626761+00:00",
+  "finished_utc": "2026-09-28T22:42:17.049745+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 696
+  },
+  "response": "# Candidate Screening: Curtis Ballinger\n**Role: Senior Software Engineer – Payments Platform**\n\n---\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of experience (5+ yrs SWE)** | 10% | 1 | 0.10 | 9 yrs total, but in **sysadmin**, not software engineering |\n| **Backend language proficiency (Java, Python, etc.)** | 20% | 0 | 0.00 | No Python/Java; only Bash/PowerShell (scripting, not engineering) |\n| **RESTful API design/consumption** | 15% | 0 | 0.00 | No mention whatsoever |\n| **Relational databases / SQL** | 10% | 1 | 0.10 | Listed as \"basic\"; no real depth demonstrated |\n| **Cloud platform (AWS/Azure/GCP)** | 10% | 2 | 0.20 | Azure VM/networking experience — partial match |\n| **CI/CD & automated testing** | 10% | 0 | 0.00 | Not mentioned |\n| **Bachelor's degree / equivalent** | 5% | 3 | 0.15 | B.A.S. IT — meets threshold |\n| **Event-driven architecture / messaging** | 5% | 0 | 0.00 | Not present |\n| **Containerization / orchestration** | 5% | 1 | 0.05 | Docker listed as \"basic\"; no Kubernetes |\n| **IaC (Terraform, CloudFormation)** | 5% | 0 | 0.00 | Not present |\n| **Payments / regulated industry background** | 5% | 1 | 0.05 | Healthcare (regulated), but no payments experience |\n| **Mentoring / technical leadership** | 5% | 0 | 0.00 | No evidence |\n\n---\n\n## Score Summary\n\n| | |\n|---|---|\n| **Total Weighted Score** | **0.65 / 3.00** |\n| **Percentage** | **~22%** |\n| **Threshold to Advance** | 60%+ |\n\n---\n\n## Assessment\n\nCurtis brings solid enterprise infrastructure experience in a regulated environment (healthcare), genuine Azure exposure, and scripting competency. However, the role is a **Senior Software Engineer** requiring hands-on backend software development — a fundamentally different discipline. Curtis has **no demonstrated experience** in:\n\n- Backend software engineering or application development\n- Java, Python, or any general-purpose programming language\n- API design or consumption\n- CI/CD pipelines or automated testing\n- Event-driven systems or message brokers\n\nHis profile is that of a **senior sysadmin**, not a software engineer. The gap is structural, not marginal.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:05:25.904555+00:00",
+  "finished_utc": "2026-09-28T22:05:35.077066+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 470
+  },
+  "response": "## Evaluation\n\n### Required Qualifications Assessment\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years (2018–present) | ✅ |\n| Java, Python, or comparable backend language | Python (extensively) | ✅ |\n| RESTful API design and consumption | Explicit: designs REST APIs, maintains versioning/contracts | ✅ |\n| Relational databases and SQL | PostgreSQL, Snowflake, SQL throughout | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | AWS (EKS, S3, Lambda, RDS) | ✅ |\n| CI/CD pipelines and automated testing | GitHub Actions, pytest | ✅ |\n| Bachelor's degree or equivalent | B.S. Information Systems | ✅ |\n\n**All required qualifications are met.**\n\n### Preferred Qualifications Assessment\n\n- **Event-driven / message brokers**: Kafka (40M daily events) ✅\n- **Docker / Kubernetes**: Both listed; manages EKS ✅\n- **Infrastructure-as-code**: Terraform ✅\n- **Observability tooling**: Prometheus + Grafana, carries on-call ✅\n- **Financial services / regulated industry**: Implicit (transaction data, healthcare background) — partial ✅\n- **Mentoring / technical leadership**: Not explicitly mentioned ⚠️\n\n**Nearly all preferred qualifications are strongly met.**\n\n### Summary\n\nSimone Vance's profile is an exceptionally strong match. The role's core requirements — backend Python services, REST APIs, relational databases, AWS, CI/CD, and testing — are all clearly demonstrated. The preferred qualifications around Kafka, Kubernetes, Terraform, and observability are not only listed but evidenced with concrete production context (40M daily events, EKS management, Prometheus/Grafana ownership). The \"payments platform\" domain aligns well with her transaction data processing experience.\n\nFINAL: ADVANCE"
+}

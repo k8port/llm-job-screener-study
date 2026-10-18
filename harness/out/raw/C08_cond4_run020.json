@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:28.192103+00:00",
+  "finished_utc": "2026-09-28T22:18:37.421249+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 380
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a software developer by trade.** The candidate explicitly self-identifies as a \"Quality engineer transitioning toward software development.\" The role requires an experienced Senior Software Engineer who builds production backend services — not someone in transition from QA.\n\n2. **No production software development experience.** All five years of experience are in QA (manual testing, test automation, defect triage). There is no evidence of designing, building, or owning backend services or APIs in production — only testing them.\n\n3. **Java usage is limited to test automation.** While Java is listed, it has been used exclusively for writing Selenium/REST Assured test suites, not for building scalable backend applications, services, or business logic.\n\n4. **No cloud platform experience.** The job requires hands-on experience with AWS, Azure, or GCP. No cloud experience is listed anywhere on the résumé.\n\n5. **No database/SQL depth demonstrated.** SQL is listed as a skill, but there is no evidence of meaningful relational database work (schema design, query optimization, data modeling) expected of a senior backend engineer.\n\n6. **No architecture or system design experience.** The role involves service design, architecture discussions, and significant technical ownership. Nothing in the résumé reflects this level of responsibility.\n\n7. **No experience with preferred/bonus skills.** No Kafka/SQS, Docker/Kubernetes, Terraform, Datadog, payments/fintech background, or mentoring experience is evident.\n\n8. **Seniority mismatch.** The candidate has never held a software engineering title and has no demonstrated experience mentoring engineers or leading technical initiatives.\n\n---\n\nFINAL: REJECT"
+}

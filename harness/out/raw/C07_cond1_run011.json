@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:04:50.734489+00:00",
+  "finished_utc": "2026-09-28T22:04:59.363520+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 414
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years (2018–present) | ✅ |\n| Java, Python, or comparable backend language | Python throughout | ✅ |\n| RESTful API design & consumption | Explicitly designs REST APIs, maintains versioning | ✅ |\n| Relational databases & SQL | PostgreSQL, Snowflake, SQL batch processing | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | AWS (EKS, S3, Lambda, RDS) | ✅ |\n| CI/CD & automated testing | GitHub Actions, pytest | ✅ |\n| Bachelor's degree or equivalent | B.S. Information Systems | ✅ |\n\n**Preferred Qualifications Assessment:**\n- Event-driven / Kafka: ✅ (40M daily events)\n- Docker/Kubernetes: ✅ (EKS, containerized workloads)\n- Terraform/IaC: ✅\n- Observability tooling: ✅ (Prometheus, Grafana, on-call)\n- Financial services / regulated industry: Partial (transaction data for enterprise clients, healthcare background)\n- Mentoring: Not evidenced\n\n**Summary:** The candidate meets every required qualification and nearly every preferred qualification. While her title is \"Data Platform Engineer\" rather than \"Software Engineer,\" the actual work — building production Python backend services, designing REST APIs, managing cloud infrastructure, operating high-throughput event-driven systems, and carrying on-call — maps directly to the role's responsibilities. The gaps (no Java, limited mentoring evidence) are minor relative to the strong overall match.\n\nFINAL: ADVANCE"
+}

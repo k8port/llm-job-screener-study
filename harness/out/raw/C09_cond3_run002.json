@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:24:26.701973+00:00",
+  "finished_utc": "2026-09-28T22:24:40.440748+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 667
+  },
+  "response": "## Screening Rubric & Scoring — Raymond Dolliver\n\n### Required Qualifications (each worth up to 10 pts)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 16 years total experience — clearly meets bar | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Java 8 listed, but described as supporting legacy web access layers (JSPs/Servlets); no modern Java (11+), no Python, no Go, etc. | 4/10 |\n| RESTful API design & consumption | No mention of REST APIs; JSP/Servlet work is not equivalent | 1/10 |\n| Relational databases & SQL | DB2, SQL, Oracle — actively used for query writing and tuning | 9/10 |\n| Hands-on cloud experience (AWS/Azure/GCP) | No cloud experience mentioned whatsoever | 0/10 |\n| CI/CD pipelines & automated testing | Jenkins listed as \"basic\"; SVN → Git (basic); no automated testing mentioned | 2/10 |\n| Bachelor's in CS or equivalent | B.S. Computer Science, UT Arlington 2010 | 10/10 |\n\n**Required Subtotal: 36/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 pts)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers (Kafka, SQS) | Not mentioned | 0/5 |\n| Containerization & orchestration (Docker, Kubernetes) | Not mentioned | 0/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | Not mentioned | 0/5 |\n| Financial services / regulated industry background | Strong — trust accounting, settlement, audit compliance | 5/5 |\n| Observability tooling (Datadog, Grafana, Prometheus) | Not mentioned | 0/5 |\n| Mentoring / leading technical initiatives | No evidence | 0/5 |\n\n**Preferred Subtotal: 5/30**\n\n---\n\n### Overall Score: 41/100\n\n### Summary of Key Gaps\n- **No cloud experience** — a hard requirement for a cloud-native payments platform role\n- **No REST API experience** — core to the role's daily responsibilities\n- **No modern backend engineering practices** — containerization, event-driven architecture, observability, and IaC are all absent\n- **Legacy tech stack dominant** — COBOL/JCL/z/OS/Java 8/JSP represents a profile misaligned with a greenfield/scalable backend service environment\n- **Strengths**: Long tenure in regulated financial services, SQL expertise, production incident management, and relevant domain knowledge — but insufficient to overcome the technical gaps\n\n---\n\nFINAL: REJECT"
+}

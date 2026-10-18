@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:23.261918+00:00",
+  "finished_utc": "2026-09-28T22:22:32.354388+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 383
+  },
+  "response": "## Assessment: Raymond Dolliver\n\n### Strengths\n- **Years of experience**: 16 years total, well exceeding the 5-year minimum\n- **Financial services background**: Long tenure in trust/banking is directly relevant to the preferred \"regulated industry\" qualification\n- **SQL/database experience**: DB2 and Oracle experience satisfies the relational database requirement\n- **Java experience**: Java 8 development is present, though dated\n- **CS degree**: B.S. in Computer Science from UT Arlington satisfies the education requirement\n- **Production incident handling**: Relevant operational experience\n\n### Significant Gaps\n- **Modern backend/cloud development**: No evidence of AWS, Azure, or GCP experience — a **required** qualification\n- **RESTful API design**: Java 8 services are mentioned vaguely, but no clear REST API design/consumption experience\n- **CI/CD**: Only \"basic\" Jenkins; no meaningful CI/CD pipeline experience\n- **Containerization/Kubernetes**: No evidence\n- **Event-driven architecture/Kafka**: No evidence\n- **Modern Java**: Java 8 only, no modern Java stack\n- **Observability tooling**: No evidence\n- **Mentorship/technical leadership**: No evidence\n- **Scalable, high-volume system design**: Mainframe/batch-oriented background does not demonstrate modern distributed systems experience\n\n### Summary\nThe candidate has domain-relevant experience and longevity, but lacks evidence of proficiency in several **required** qualifications (cloud, modern CI/CD, REST API design) and nearly all preferred qualifications. The technical profile is mainframe-centric and does not demonstrate readiness for a modern cloud-native payments platform role.\n\nFINAL: REJECT"
+}

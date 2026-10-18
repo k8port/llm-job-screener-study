@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:52.156323+00:00",
+  "finished_utc": "2026-09-28T21:51:04.560144+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 588
+  },
+  "response": "## Screening Scorecard: Nora Kessler\n\n### Required Qualifications\n\n| Criterion | Weight | Assessment | Score (0–3) |\n|---|---|---|---|\n| 5+ years professional software engineering experience | High | 6 years experience, but in **data analysis**, not software engineering. No backend service development, APIs, or systems engineering evident. | 0 |\n| Strong proficiency in Java, Python, or comparable backend language | High | Python is present, but used only for data cleaning/scripting (Pandas, NumPy). No backend development context. | 1 |\n| RESTful API design & consumption | High | No evidence whatsoever. | 0 |\n| Relational databases & SQL | Medium | Strong SQL skills demonstrated across multiple roles and platforms. | 3 |\n| Hands-on cloud experience (AWS/Azure/GCP) | Medium | \"Basic AWS (S3, Athena)\" — surface-level, data-focused only. | 1 |\n| CI/CD pipelines & automated testing | Medium | No evidence. | 0 |\n| Bachelor's in CS/related or equivalent | Low | B.S. Statistics — related field, acceptable. | 2 |\n\n**Required Qualifications Score: ~7/21 (33%)**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Score (0–3) |\n|---|---|\n| Event-driven architecture / message brokers | 0 |\n| Containerization / Kubernetes | 0 |\n| Infrastructure-as-code | 0 |\n| Financial services / regulated industry background | 2 (insurance) |\n| Observability tooling | 0 |\n| Mentoring / leading technical initiatives | 0 |\n\n**Preferred Qualifications Score: ~2/18 (11%)**\n\n---\n\n### Summary Assessment\n\nNora is an experienced data professional with genuine SQL depth and Python scripting skills, operating in a regulated (insurance) industry. However, her profile is fundamentally misaligned with this role:\n\n- **No backend/software engineering experience** — no service design, APIs, application development, or production systems ownership\n- **No cloud infrastructure, CI/CD, or DevOps exposure** of any meaningful kind\n- **No evidence of engineering mentorship or technical leadership**\n- The role requires a Senior *Software Engineer* building distributed, high-volume transaction systems; Nora builds reports and analytical pipelines\n\n**Overall Score: ~16% of weighted criteria met** — well below threshold for advancement.\n\n---\n\nFINAL: REJECT"
+}

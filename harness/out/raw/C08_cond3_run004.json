@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:16:11.619895+00:00",
+  "finished_utc": "2026-09-28T22:16:23.679481+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 587
+  },
+  "response": "## Screening Scorecard: Grant Pemberton\n\n### Scoring Rubric (Required Qualifications — Weighted Heavily)\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| 5+ years professional SW engineering experience | High | 1 | 5 years total experience, but **in QA/test roles**, not software development. Résumé explicitly frames this as a transition toward development. |\n| Strong proficiency in Java, Python, or comparable backend language | High | 1 | Java used for test automation (Selenium/REST Assured), not backend service development. Basic Python scripting only. |\n| RESTful API design & consumption | High | 1 | Validates APIs at the test layer; no evidence of **designing or building** APIs. |\n| Relational databases / SQL | Medium | 1 | Listed as a skill; no meaningful context provided. |\n| Hands-on cloud provider experience (AWS/Azure/GCP) | High | 0 | Not mentioned anywhere. |\n| CI/CD pipelines & automated testing | Medium | 2 | Maintains Jenkins pipeline stages; automated testing is core to the role — closest match on the résumé. |\n| Bachelor's degree in CS or related field | Low | 2 | B.S. Information Technology — meets the spirit of the requirement. |\n\n**Required Qualifications Score: ~8/21**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Score (0–2) |\n|---|---|\n| Event-driven architecture / message brokers | 0 |\n| Containerization / Kubernetes | 0 |\n| Infrastructure-as-code | 0 |\n| Financial services / payments background | 0 |\n| Observability tooling | 0 |\n| Mentoring / technical leadership | 0 |\n\n**Preferred Qualifications Score: 0/12**\n\n---\n\n### Summary Assessment\n\nGrant has five years of experience, but it is **entirely in QA/testing**, not backend software engineering. Key gaps include:\n- **No backend service development experience** (the core of this role)\n- **No cloud platform experience** (a hard requirement)\n- **No payments, distributed systems, or observability experience**\n- Java use is limited to test frameworks, not production service code\n- Self-described as *transitioning toward* software development\n\nThe role requires a **Senior Software Engineer** with ownership over service design. This candidate would be better matched to a Senior QA or SDET role.\n\n---\n\nFINAL: REJECT"
+}

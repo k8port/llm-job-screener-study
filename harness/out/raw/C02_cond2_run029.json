@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:23:17.749668+00:00",
+  "finished_utc": "2026-09-28T21:23:27.428615+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 361
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Potential Weaknesses Identified\n\n1. **Limited breadth of programming languages**: Marcus's experience is heavily Java-centric. Python is listed in Skills but does not appear in any job description bullet points, raising questions about depth of practical Python proficiency.\n\n2. **Single employer dominance**: Six of eight years were spent at Coventry Financial. While depth is valuable, limited exposure to varied engineering cultures, codebases, and technology stacks could be a consideration.\n\n3. **Infrastructure-as-code depth**: Terraform is listed in Skills but is not substantiated by any specific accomplishment or context in the work history. It is unclear whether usage was substantial or incidental.\n\n4. **Observability tooling**: Datadog is listed in Skills but not described in any meaningful way within job duties. No mention of dashboards built, alerting strategies, or SLO/SLI work.\n\n5. **Leadership scope**: Mentorship is noted (two mid-level engineers), but no experience leading broader technical initiatives, cross-team projects, or architectural decisions at scale is explicitly described.\n\n### Countervailing Strengths\n\nThese weaknesses are relatively minor against a strong overall profile. Marcus meets **all required qualifications** and nearly all preferred qualifications with concrete, domain-relevant evidence: 8 years of experience, Java/Spring Boot in payments, Kafka, PostgreSQL, AWS, Docker/Kubernetes, CI/CD, mentorship, on-call ownership, and a directly applicable financial services background. The gaps are areas to probe in interviews, not disqualifying factors.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:49.953973+00:00",
+  "finished_utc": "2026-09-30T18:41:58.350028+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 372
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern from 2024–2025, full-time from 2025–present). This is a critical, non-negotiable gap.\n\n2. **No demonstrated senior-level ownership**: The résumé reflects junior-level contributions — resolving support queue defects, contributing to a pipeline maintained by a senior engineer, and participating in (not leading) code review. The role demands significant ownership over service design and delivery.\n\n3. **Limited cloud experience**: The job requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3)\" — explicitly self-described as basic and limited to two foundational services. No evidence of cloud architecture, managed services, or production cloud ownership.\n\n4. **No experience with preferred/expected at-level technologies**: No exposure to Kafka/SQS or event-driven architecture, no containerization (Docker/Kubernetes), no infrastructure-as-code (Terraform/CloudFormation), and no observability tooling — all of which are preferred and commonly expected at the senior level.\n\n5. **No mentorship or technical leadership experience**: The role includes mentoring junior/mid-level engineers. There is no indication Dana has done this.\n\n6. **No high-volume or enterprise-scale systems experience**: The payments platform context requires experience with high-volume transaction processing. Dana's work is scoped to an internal inventory service used by three business teams.\n\n7. **No financial services or regulated industry background**.\n\n---\n\nFINAL: REJECT"
+}

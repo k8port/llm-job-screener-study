@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:16:08.933196+00:00",
+  "finished_utc": "2026-09-28T22:16:23.615005+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 686
+  },
+  "response": "## Screening Scorecard: Grant Pemberton\n\n### Scoring Rubric (1–5 per criterion; ≥3 = meets threshold)\n\n---\n\n### REQUIRED QUALIFICATIONS\n\n| Criterion | Weight | Score | Notes |\n|---|---|---|---|\n| 5+ years professional software engineering experience | High | 2 | 5 years total, but in QA/testing roles — not software development/engineering. Self-described as \"transitioning toward software development.\" |\n| Strong proficiency in Java, Python, or comparable backend language | High | 2 | Java used for test automation (Selenium, REST Assured), not backend service development. Basic Python scripting only. |\n| REST API design and consumption | Medium | 2 | Validates APIs via testing; no evidence of *designing or building* APIs. |\n| Relational databases / SQL | Medium | 3 | SQL listed as a skill; no elaboration on depth or context. |\n| Hands-on cloud experience (AWS/Azure/GCP) | High | 1 | No mention of any cloud platform. |\n| CI/CD pipelines and automated testing | Medium | 3 | Jenkins pipeline maintenance; strong automated testing background. |\n| Bachelor's degree (CS or related) | Low | 3 | B.S. Information Technology — meets \"or related field.\" |\n\n---\n\n### PREFERRED QUALIFICATIONS\n\n| Criterion | Score | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | 1 | No evidence. |\n| Docker / Kubernetes | 1 | No mention. |\n| Infrastructure-as-code | 1 | No mention. |\n| Financial services / regulated industry | 1 | Retail and software, not payments. |\n| Observability tooling | 1 | No mention. |\n| Mentoring / technical leadership | 2 | Senior QA role implies some seniority, but no explicit mentoring. |\n\n---\n\n### SUMMARY ASSESSMENT\n\n| Category | Result |\n|---|---|\n| Required qualifications met | **2 of 7** clearly met |\n| Critical gaps | Cloud experience (absent), backend service/API *development* (absent), software engineering experience proper (QA role, not SWE) |\n| Strengths | Testing discipline, Java in automation context, CI/CD familiarity, local to Plano TX area |\n| Overall score | **~2.1 / 5** |\n\n---\n\n### RATIONALE\n\nGrant has a solid QA automation background and some adjacent skills, but the role requires a **Senior Software Engineer** who designs and builds backend services at scale. His experience is concentrated in test engineering — not service development, API design, distributed systems, or cloud infrastructure. Critical required qualifications (cloud experience, backend development, 5+ years as a software engineer) are unmet. The candidate's own summary acknowledges he is *transitioning* into development, which is inconsistent with the senior-level expectation.\n\n---\n\nFINAL: REJECT"
+}

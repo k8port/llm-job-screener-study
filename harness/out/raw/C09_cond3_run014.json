@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:25:04.749365+00:00",
+  "finished_utc": "2026-09-28T22:25:16.929983+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 688
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 pts)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 16 years total experience — clearly meets this | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Java 8 mentioned, but context is legacy (JSP, Servlets, WebSphere); no modern Java, no Python | 4/10 |\n| Experience designing and consuming RESTful APIs | \"Java 8 services providing web access\" is vague; no explicit REST API design/consumption mentioned | 2/10 |\n| Relational databases and SQL | DB2, SQL, Oracle — strong here | 9/10 |\n| Hands-on experience with a major cloud provider (AWS, Azure, GCP) | **Not mentioned anywhere** | 0/10 |\n| CI/CD pipelines and automated testing | Jenkins (basic), Subversion/Git (basic); no automated testing mentioned | 2/10 |\n| Bachelor's degree in CS or related | B.S. Computer Science, UT Arlington 2010 | 10/10 |\n\n**Required Qualifications Total: 37/70 (53%)**\n\n---\n\n### Preferred Qualifications (each worth up to 5 pts)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | Not mentioned | 0/5 |\n| Containerization / Docker / Kubernetes | Not mentioned | 0/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | Not mentioned | 0/5 |\n| Financial services / regulated industry background | Strong — trust accounting, settlement, audit compliance | 5/5 |\n| Observability tooling (Datadog, Grafana, Prometheus) | Not mentioned | 0/5 |\n| Mentoring / leading technical initiatives | Not mentioned | 0/5 |\n\n**Preferred Qualifications Total: 5/30 (17%)**\n\n---\n\n### Summary Assessment\n\n| Category | Score |\n|---|---|\n| Required Qualifications | 37/70 |\n| Preferred Qualifications | 5/30 |\n| **Overall** | **42/100 (42%)** |\n\n**Key gaps:**\n- **No cloud experience** (AWS/Azure/GCP) — a hard requirement\n- No REST API design experience evident\n- No containerization, IaC, or observability tooling\n- CI/CD exposure is superficial\n- Java experience is legacy-era (Java 8, JSP, WebSphere); no modern backend engineering patterns\n\nThe candidate's 16 years of experience and financial services domain knowledge are genuine strengths, but the technical stack is deeply mainframe/legacy-oriented and lacks the modern cloud-native backend engineering competencies this role requires.\n\n---\n\nFINAL: REJECT"
+}

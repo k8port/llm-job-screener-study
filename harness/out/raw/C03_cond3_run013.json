@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:33:09.141243+00:00",
+  "finished_utc": "2026-09-28T21:33:25.655140+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 885,
+    "output_tokens": 775
+  },
+  "response": "## Screening Scorecard: Priya Ashford\n\n**Role:** Senior Software Engineer, Payments Platform\n\n---\n\n### Required Qualifications Scoring (Pass/Partial/Fail)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering | 7 years total experience (2019–present) | ✅ Pass |\n| Strong proficiency in Java, Python, or comparable backend language | Node.js/Express; no Java or Python listed | ⚠️ Partial |\n| Experience designing and consuming RESTful APIs | REST APIs consumed and built (aggregation layer, Node services) | ✅ Pass |\n| Relational databases and SQL | PostgreSQL and SQL listed in skills | ✅ Pass |\n| Hands-on cloud experience (AWS, Azure, GCP) | AWS (S3, CloudFront, Lambda) — limited scope | ⚠️ Partial |\n| CI/CD and automated testing | GitHub Actions, Jest/Testing Library | ✅ Pass |\n| Bachelor's in CS or related, or equivalent experience | B.A. Graphic Design — not CS/engineering; relies on \"equivalent experience\" clause | ⚠️ Partial |\n\n**Required score: 4 Pass / 3 Partial / 0 Fail**\n\n---\n\n### Preferred Qualifications Scoring\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No evidence | ❌ |\n| Containerization / Kubernetes | Docker listed; no Kubernetes | ⚠️ Partial |\n| Infrastructure-as-code (Terraform, CloudFormation) | Not present | ❌ |\n| Financial services / payments background | Retail industry only | ❌ |\n| Observability tooling | Not mentioned | ❌ |\n| Mentoring / technical leadership | Yes — mentors junior engineers, leads design reviews | ✅ |\n\n**Preferred score: 1 Pass / 1 Partial / 4 Fail**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Assessment |\n|---|---|\n| **Backend engineering depth** | Primarily frontend; Node.js services are supporting/aggregation layers, not standalone backend platform services at scale |\n| **Systems design for high-volume transactions** | No evidence of high-throughput, transaction-critical system design |\n| **Cloud platform depth** | Narrow AWS usage (CDN, storage, Lambda); no VPC, RDS, EKS, or similar |\n| **Payments/regulated industry** | No background |\n| **Mentorship** | Demonstrated, genuine signal |\n\n---\n\n### Summary Narrative\n\nPriya is a capable senior engineer with real strengths in frontend architecture, Node.js service work, testing, and team mentorship. However, the role is explicitly a **backend-first, payments-platform position** requiring deep backend proficiency (Java/Python preferred), experience with high-volume transaction systems, event-driven architecture, and cloud depth beyond front-facing services. Priya's backend exposure is incidental to her frontend focus, and critical required/preferred qualifications — Java/Python, Kafka/SQS, Terraform, observability tooling, and payments domain knowledge — are absent. The gap is structural, not marginal.\n\n---\n\nFINAL: REJECT"
+}

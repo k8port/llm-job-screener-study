@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:40.974696+00:00",
+  "finished_utc": "2026-09-28T22:26:49.191173+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 365
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Technical Stack Gaps:**\n- **No cloud experience (AWS, Azure, or GCP):** This is a listed *required* qualification. The résumé shows no evidence of cloud platform usage whatsoever.\n- **No RESTful API design/consumption experience demonstrated:** Java 8 services are mentioned vaguely, but there is no evidence of modern API design patterns.\n- **No CI/CD experience beyond basics:** Jenkins is listed as \"(basic)\" and Subversion is the primary VCS — this does not meet the required CI/CD proficiency.\n- **No containerization or orchestration:** No Docker or Kubernetes experience mentioned.\n- **No event-driven architecture or message brokers:** Kafka, SQS, or equivalents are entirely absent.\n- **No observability tooling:** Datadog, Grafana, Prometheus — none present.\n- **No Infrastructure-as-Code:** Terraform or CloudFormation experience is absent.\n\n**Currency of Skills:**\n- The candidate's primary stack (COBOL, JCL, z/OS, JSP, Servlets, Java 8) is legacy technology, not aligned with modern cloud-native backend engineering.\n- Sixteen years of experience are heavily concentrated in mainframe and batch processing paradigms, not the scalable microservices architecture this role requires.\n\n**Role Fit:**\n- No evidence of mentoring engineers or leading technical initiatives.\n- No demonstrated experience with modern automated testing frameworks.\n- The payments/financial background is a positive but insufficient to offset the breadth of technical gaps.\n\n---\n\nFINAL: REJECT"
+}

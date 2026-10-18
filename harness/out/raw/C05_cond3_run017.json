@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:51:08.373643+00:00",
+  "finished_utc": "2026-09-28T21:51:20.147279+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 578
+  },
+  "response": "## Screening Scorecard: Nora Kessler\n\n### Scoring Rubric (Required Qualifications — 0–2 pts each)\n\n| Requirement | Evidence | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 6 years experience, but as a **data/reporting analyst**, not software engineering | 0 |\n| Proficiency in Java, Python, or comparable backend language | Python used for scripting/data cleaning (Pandas, NumPy) — not backend service development | 1 |\n| RESTful API design & consumption | No mention whatsoever | 0 |\n| Relational databases & SQL | Strong SQL across multiple roles and platforms | 2 |\n| Cloud provider hands-on experience | \"Basic AWS (S3, Athena)\" — data-access tools only, not compute/infrastructure | 1 |\n| CI/CD pipelines & automated testing | No mention | 0 |\n| Bachelor's in CS/related or equivalent | B.S. Statistics — reasonably related | 1 |\n\n**Required Qualifications Score: 5 / 14**\n\n### Scoring Rubric (Preferred Qualifications — 0–1 pt each)\n\n| Preference | Evidence | Score |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | None | 0 |\n| Docker / Kubernetes | None | 0 |\n| Infrastructure-as-code | None | 0 |\n| Financial services / regulated industry | Insurance industry (Wexford, Cadence Health) | 1 |\n| Observability tooling | None | 0 |\n| Mentoring / technical leadership | None evident | 0 |\n\n**Preferred Qualifications Score: 1 / 6**\n\n---\n\n### Summary Assessment\n\nNora presents a solid data analytics profile with genuine SQL depth and Python scripting experience in a regulated industry. However, she does not meet the core requirements of this role:\n\n- **No backend service or API development experience** of any kind\n- **No CI/CD, testing, or containerization** exposure\n- **Cloud experience is minimal and data-access only** (S3/Athena), not infrastructure-oriented\n- Her Python use is analytical (Pandas/NumPy), not backend engineering\n- The role explicitly requires building scalable services and owning system design — outside her current scope\n\nThe gap between her background and the job requirements is fundamental, not marginal.\n\n---\n\nFINAL: REJECT"
+}

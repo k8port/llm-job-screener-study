@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:30:05.508956+00:00",
+  "finished_utc": "2026-09-28T22:30:14.328890+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 419
+  },
+  "response": "## Evaluation\n\n**Experience & Seniority**\nJosephine has seven years of professional software engineering experience (2019–2023 at Dunmore, plus ongoing Senior SWE role since 2024), comfortably exceeding the 5-year requirement. The career break (2023–2024) is family leave and does not reduce her professional experience count.\n\n**Technical Skills – Required**\n- ✅ Java (primary language, Spring Boot, current role)\n- ✅ RESTful API design and consumption (versioned contracts, partner integrations)\n- ✅ Relational databases / SQL (PostgreSQL, SQL-backed persistence)\n- ✅ Major cloud provider (AWS – ECS, SQS, SNS, RDS, Lambda)\n- ✅ CI/CD and automated testing (GitHub Actions, JUnit, contract testing)\n- ✅ Bachelor's degree (B.S. Mathematics, Baylor University)\n\n**Technical Skills – Preferred**\n- ✅ Event-driven architecture / message brokers (SQS, SNS)\n- ✅ Containerization (Docker, ECS)\n- ✅ Infrastructure-as-code (Terraform)\n- ✅ Financial services / regulated industry background (credit services, payments, prior actuarial work)\n- ✅ Observability tooling (Datadog)\n- ✅ Mentoring engineers (currently mentoring two engineers)\n\n**Role Alignment**\nThe candidate's current role at Dunmore Credit Services is functionally nearly identical to the open position — backend payments/credit services, Java/Spring Boot, AWS, event-driven architecture, Terraform, and mentoring. The domain background (financial services, payments) is a strong match.\n\n**No significant gaps identified.**\n\nFINAL: ADVANCE"
+}

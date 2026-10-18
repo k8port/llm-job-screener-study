@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:14.549414+00:00",
+  "finished_utc": "2026-09-28T21:57:25.649165+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 486
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Noted\n- 7 years of experience (exceeds 5-year minimum)\n- Strong Java/Spring Boot proficiency with direct backend relevance\n- REST API design and documentation experience\n- Relational database and SQL experience (Oracle)\n- CI/CD experience via Jenkins; automated testing via JUnit\n- Code review leadership and junior engineer mentorship\n- On-call rotation participation\n- Relevant degree (Computer Engineering, Texas Tech)\n- Transaction/order processing domain familiarity\n\n---\n\n### Potential Weaknesses\n\n1. **No cloud experience.** The résumé makes no mention of AWS, Azure, or GCP. Cloud proficiency is a **required** qualification. The candidate explicitly worked in an \"on-premise enterprise environment,\" suggesting this gap may be significant.\n\n2. **No containerization or orchestration experience.** Docker and Kubernetes are preferred but absent from the résumé entirely.\n\n3. **No event-driven/message broker experience beyond JMS.** JMS is dated; no mention of Kafka, SQS, or modern equivalents preferred for payments platforms.\n\n4. **No financial services or payments background.** The role is on a Payments Platform in a regulated industry; candidate's domain is manufacturing.\n\n5. **No observability tooling experience.** Datadog, Grafana, and Prometheus are absent; no equivalent mentioned.\n\n6. **No infrastructure-as-code experience.** Terraform/CloudFormation not referenced.\n\n7. **On-premise focus may indicate a meaningful cloud skills gap** that would require significant ramp-up time for a senior-level role with immediate ownership expectations.\n\n---\n\n### Summary\n\nThe candidate meets several required qualifications (Java, REST APIs, SQL, CI/CD, degree, years of experience, mentorship). However, the **complete absence of cloud experience** is a disqualifying gap against a listed required qualification, compounded by missing preferred qualifications across multiple dimensions (observability, containers, event streaming, regulated-industry background). For a senior hire expected to own service design and delivery on a cloud-based payments platform, this profile carries substantial risk.\n\nFINAL: REJECT"
+}

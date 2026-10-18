@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:27.461125+00:00",
+  "finished_utc": "2026-09-28T21:50:41.298431+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 709
+  },
+  "response": "## Screening Scorecard: Nora Kessler\n\n### Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of experience (5+ in SWE)** | High | 0 | 0 | 6 years total, but as a *data analyst*, not a software engineer. No backend service development. |\n| **Backend language proficiency (Java, Python, or comparable)** | High | 1 | Low | Python is present but used for data cleaning/scripting (Pandas, NumPy), not backend service development. |\n| **RESTful API design & consumption** | High | 0 | 0 | No mention of API design or consumption anywhere. |\n| **Relational databases & SQL** | Medium | 2 | Medium | Strong SQL skills, but applied to analytics/reporting, not transactional systems. |\n| **Cloud provider experience (AWS, Azure, GCP)** | High | 0.5 | Very Low | \"Basic AWS\" (S3, Athena only) — analytics tooling, not compute/backend infrastructure. |\n| **CI/CD pipelines & automated testing** | High | 0 | 0 | No evidence of either. |\n| **Education (CS or related / equivalent experience)** | Medium | 1.5 | Low-Medium | B.S. Statistics — adjacent but not CS or equivalent SWE experience. |\n| **Event-driven architecture / Kafka / SQS** | Preferred | 0 | 0 | No evidence. |\n| **Containerization / Kubernetes / Docker** | Preferred | 0 | 0 | No evidence. |\n| **Infrastructure-as-code** | Preferred | 0 | 0 | No evidence. |\n| **Financial services background** | Preferred | 1 | Low | Insurance industry (Wexford) is regulated — partial credit. |\n| **Observability tooling** | Preferred | 0 | 0 | No evidence. |\n| **Mentoring / technical leadership** | Preferred | 0 | 0 | No evidence of mentoring engineers. |\n\n---\n\n### Summary Assessment\n\nNora has a solid analytical background with genuine SQL depth and Python scripting skills, but her experience is **entirely in the data/analytics domain** — not backend software engineering. The role requires designing and building scalable backend services, APIs, and production systems. Key **required qualifications** are absent or unmet:\n\n- ❌ No backend service or API development\n- ❌ No CI/CD or automated testing experience\n- ❌ No meaningful cloud infrastructure experience\n- ❌ No evidence of software engineering practices (code review, architecture, on-call)\n\nHer profile would be competitive for a Senior Data Analyst or Analytics Engineer role, but it does not meet the bar for this Senior Software Engineer position.\n\n---\n\n**Overall Score: ~1.4 / 3.0 — Below threshold for advancement**\n\nFINAL: REJECT"
+}

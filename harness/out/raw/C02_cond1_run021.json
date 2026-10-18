@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:21:36.361987+00:00",
+  "finished_utc": "2026-09-28T21:21:45.686631+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 917,
+    "output_tokens": 502
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n**Summary of Evaluation**\n\nMarcus Ellery presents a strong match against both the required and preferred qualifications for the Senior Software Engineer role on the Payments Platform team.\n\n### Required Qualifications\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years experience | 8 years total (2018–present) | ✅ |\n| Java/Python or comparable backend language | Java/Spring Boot primary; Python listed | ✅ |\n| RESTful API design & consumption | Explicit API contract ownership, OpenAPI specs | ✅ |\n| Relational databases & SQL | PostgreSQL on payment reconciliation workloads | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | AWS (EKS, SQS, RDS, Lambda) | ✅ |\n| CI/CD & automated testing | GitHub Actions, JUnit, expanded test coverage | ✅ |\n| Bachelor's in CS or equivalent | B.S. Computer Science, Texas A&M, 2018 | ✅ |\n\n### Preferred Qualifications\n\n| Preference | Evidence | Met? |\n|---|---|---|\n| Event-driven architecture / Kafka | Owns Kafka integration between domains | ✅ |\n| Docker / Kubernetes | Docker, EKS, Helm | ✅ |\n| Infrastructure-as-code | Terraform listed | ✅ |\n| Financial services / payments | 6+ years specifically in payments/card auth | ✅ |\n| Observability tooling | Datadog | ✅ |\n| Mentoring / technical leadership | Mentors two mid-level engineers | ✅ |\n\n### Notable Strengths\n- Domain alignment is near-perfect: card authorization and settlement processing maps directly to the Payments Platform context.\n- Local to Plano, TX — no relocation concern for the hybrid requirement.\n- Satisfies **all** required qualifications and **all** preferred qualifications with direct, specific evidence.\n\nThere is strong, well-documented evidence that this candidate could successfully perform the role as described.\n\nFINAL: ADVANCE"
+}

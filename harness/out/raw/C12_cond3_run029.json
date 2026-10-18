@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:50:47.876775+00:00",
+  "finished_utc": "2026-09-28T22:51:03.977458+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 752
+  },
+  "response": "## Screening Evaluation: Elise Thornbury\n\n---\n\n### Scoring Rubric\n\nEach criterion is scored 0–2:\n- **2** = Clearly met / strong evidence\n- **1** = Partially met / implied evidence\n- **0** = Not met / no evidence\n\n---\n\n### Required Qualifications (weighted heavily)\n\n| Criterion | Score | Notes |\n|---|---|---|\n| 5+ years professional engineering experience | **0** | ~3.5 years total (2023–present). Significantly below the 5-year requirement. |\n| Java, Python, or comparable backend language | **2** | Java/Spring Boot is primary; Python listed in skills. Strong evidence. |\n| RESTful API design & consumption | **2** | Explicit: designs and documents REST endpoints consumed by internal/partner teams. |\n| Relational databases & SQL | **2** | PostgreSQL with SQL; used in merchant account management services. |\n| Major cloud provider (AWS, Azure, GCP) | **2** | AWS explicitly: EKS, SQS, RDS. |\n| CI/CD pipelines & automated testing | **2** | GitHub Actions, JUnit, Spring Test — hands-on. |\n| Bachelor's degree in CS or equivalent | **2** | B.S. Computer Science, SMU 2023. |\n\n**Required Qualifications Subtotal: 12/14**\n*(Critical gap: years of experience)*\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Score | Notes |\n|---|---|---|\n| Event-driven / message brokers | **2** | Kafka consumers, SQS listed. Solid. |\n| Containerization & orchestration | **2** | Docker, Kubernetes, EKS, Helm. Strong. |\n| Infrastructure-as-code | **1** | Terraform listed as \"basic.\" Partial credit. |\n| Financial services / payments background | **2** | Currently at a payments company (Larkspur Pay). |\n| Observability tooling | **1** | Grafana listed; limited elaboration. |\n| Mentoring / technical leadership | **0** | No evidence of mentoring; participated in (not led) senior-led initiatives. |\n\n**Preferred Qualifications Subtotal: 8/12**\n\n---\n\n### Overall Score: 20/26 (77%)\n\n---\n\n### Key Considerations\n\n**Strengths:**\n- Payments domain experience is directly relevant\n- Strong technical stack alignment (Java, Kafka, AWS, Kubernetes, REST)\n- Already in a hybrid-adjacent role with on-call experience\n- Degree from accredited CS program\n\n**Critical Gap:**\n- **Experience requirement is materially unmet**: The role requires 5+ years; candidate has ~3.5 years. This is a ~30% shortfall on a hard requirement, not a minor gap.\n- No evidence of mentoring others or leading technical initiatives — a key senior-level expectation.\n\n---\n\n### Judgment\n\nElise is a strong mid-level engineer with excellent domain and stack fit, but she falls notably short of the seniority threshold both in years of experience and demonstrated leadership behaviors. Advancing her to a **Senior** role would require overriding a clearly stated hard requirement.\n\nFINAL: REJECT"
+}

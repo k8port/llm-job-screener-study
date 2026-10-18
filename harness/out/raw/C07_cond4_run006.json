@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:35.211471+00:00",
+  "finished_utc": "2026-09-28T22:09:46.155571+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 431
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience listed.** The job description lists Java as the primary preferred backend language (first in the list: \"Java, Python, or a comparable backend language\"). While Python is acceptable, the Payments Platform team may have a strong preference for Java, and it is entirely absent from the résumé and skills section.\n\n2. **Data engineering background, not backend software engineering.** Simone's entire career has been focused on data pipelines, ETL, and data platform work. The role requires designing and building **backend services and APIs** for high-volume **payment transaction processing** — a meaningfully different technical domain and set of responsibilities.\n\n3. **Limited depth in API design.** REST API experience appears secondary and supporting (exposing pipeline outputs), rather than as a primary deliverable. The role centers on designing and maintaining scalable APIs as a core function.\n\n4. **No payments or fintech experience.** The role is on a **Payments Platform** team processing transactions for enterprise clients. Simone has no stated background in financial services, payments, or any regulated industry — even as a preferred qualification.\n\n5. **Mentorship experience is not demonstrated.** The role explicitly requires mentoring mid-level and junior engineers. No mentorship or technical leadership activity is mentioned on the résumé.\n\n6. **Degree is in Information Systems, not Computer Science or a closely related field.** While the JD allows for \"equivalent practical experience,\" this is a minor flag in a competitive pool.\n\n---\n\nDespite the gaps, Simone meets many technical requirements (Python, SQL, REST APIs, Kafka, AWS, Docker/Kubernetes, Terraform, CI/CD, Prometheus/Grafana, 8 years of experience). However, the domain mismatch, absence of Java, shallow API ownership, and no payments experience represent meaningful shortfalls for a senior role on a payments-focused backend team.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:37.118742+00:00",
+  "finished_utc": "2026-09-28T21:49:49.175247+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 509
+  },
+  "response": "## Candidate Evaluation: Nora Kessler\n\n### Identified Weaknesses\n\n1. **Not a software engineer — data analyst background.** Kessler's entire career is in data analysis and reporting, not backend software engineering. There is no evidence of designing or building production backend services or APIs of any kind.\n\n2. **No backend/API development experience.** The role requires designing and consuming RESTful APIs. Kessler has no API development experience listed anywhere on the résumé.\n\n3. **Python used only for data scripting.** Her Python experience is limited to data cleaning/reconciliation scripts using Pandas and NumPy — not backend service development, frameworks (e.g., Django, FastAPI, Flask), or production systems.\n\n4. **No cloud infrastructure experience beyond basic storage/query services.** AWS exposure is limited to S3 and Athena — passive data-access services. No experience with compute, networking, containerization, or cloud-native application deployment.\n\n5. **No CI/CD or automated testing experience.** These are explicitly required qualifications; neither appears anywhere on the résumé.\n\n6. **No experience with relational databases in a backend/application context.** Her SQL work is analytical (reporting, warehousing in Snowflake/SQL Server), not application-layer database design or ORM usage.\n\n7. **No experience with distributed systems, event-driven architecture, or message brokers.** All preferred qualifications in this space are absent.\n\n8. **No containerization or orchestration experience** (Docker, Kubernetes — not mentioned).\n\n9. **No mentorship or technical leadership experience** as it relates to engineering teams.\n\n10. **Does not meet the seniority bar for this role.** Despite six years of experience, it is in a fundamentally different discipline. She does not have 5+ years of *software engineering* experience as required.\n\n### Summary\n\nKessler is an experienced data professional, but she does not meet the core requirements of this Senior Software Engineer role. Nearly every required qualification — backend service development, API design, CI/CD, cloud application development, automated testing — is either absent or only superficially approximated by adjacent data work. This is not a borderline case; it is a significant discipline mismatch.\n\nFINAL: REJECT"
+}

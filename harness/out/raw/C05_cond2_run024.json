@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:00.476556+00:00",
+  "finished_utc": "2026-09-28T21:50:09.118510+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 399
+  },
+  "response": "## Screening Analysis: Nora Kessler\n\n### Potential Weaknesses\n\n**Critical gaps (Required qualifications):**\n\n1. **No software engineering experience.** The candidate is a data analyst/reporting analyst, not a software engineer. There is no evidence of designing or building backend services, APIs, or production software systems.\n\n2. **No RESTful API experience.** The résumé shows no mention of designing or consuming APIs of any kind.\n\n3. **No CI/CD pipeline or automated testing experience.** None referenced anywhere on the résumé.\n\n4. **Cloud experience is minimal and non-qualifying.** \"Basic AWS (S3, Athena)\" reflects data querying/storage use, not hands-on cloud infrastructure experience relevant to backend service development.\n\n5. **Does not meet the 5+ years software engineering requirement.** Six years of experience exists, but it is entirely in data/reporting roles — not software engineering.\n\n6. **No backend language proficiency at engineering level.** Python is listed, but only in the context of data cleaning scripts (Pandas, NumPy) — not backend service development.\n\n**Preferred qualification gaps:**\n\n7. No experience with Kafka, SQS, or event-driven architecture.\n8. No containerization (Docker/Kubernetes) experience.\n9. No infrastructure-as-code experience.\n10. No payments or fintech background.\n11. No observability tooling experience (Datadog, Grafana, Prometheus).\n12. No evidence of mentoring engineers or leading technical initiatives.\n\n### Summary\n\nNora Kessler is a competent data professional, but her background is fundamentally misaligned with this Senior Software Engineer role. She lacks virtually every required technical qualification for backend service engineering.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:23:44.892969+00:00",
+  "finished_utc": "2026-09-28T21:23:59.243232+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 707
+  },
+  "response": "## Screening Evaluation: Marcus Ellery\n\n### Scoring Rubric\n\n| Category | Weight | Score (0–5) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of Experience** | 10% | 5 | 0.50 | 8 years total; 3+ years at senior level |\n| **Backend Language Proficiency (Java/Python)** | 15% | 5 | 0.75 | Java primary (Spring Boot); Python listed in skills |\n| **RESTful API Design & Consumption** | 10% | 5 | 0.50 | OpenAPI specs, explicit API contract ownership |\n| **Relational Databases & SQL** | 10% | 5 | 0.50 | PostgreSQL on payment reconciliation workflows |\n| **Cloud Platform Experience** | 10% | 5 | 0.50 | AWS (EKS, SQS, RDS, Lambda) — hands-on, named services |\n| **CI/CD & Automated Testing** | 10% | 5 | 0.50 | GitHub Actions, JUnit, expanded test coverage explicitly noted |\n| **Event-Driven Architecture / Kafka** | 10% | 5 | 0.50 | Kafka ownership at production scale (card auth/settlement) |\n| **Containerization & Orchestration** | 8% | 5 | 0.40 | Docker, Kubernetes, EKS, Helm — all present |\n| **Infrastructure-as-Code** | 7% | 5 | 0.35 | Terraform listed explicitly |\n| **Financial Services / Payments Domain** | 10% | 5 | 0.50 | 8 years in payments/financial services; card authorization, settlement, reconciliation |\n| **Observability Tooling** | 5% | 5 | 0.25 | Datadog listed; p99 latency improvement demonstrates applied use |\n| **Mentorship / Technical Leadership** | 5% | 5 | 0.25 | Mentors two mid-level engineers; architecture reviews |\n\n---\n\n### Total Weighted Score: **5.00 / 5.00**\n\n---\n\n### Summary Assessment\n\nMarcus Ellery is an exceptionally strong match. He satisfies **every required qualification** and **every preferred qualification** without exception. His eight years of experience in high-volume payments and financial services aligns precisely with this role's domain context. He is local to Plano, TX, removing any relocation risk for the hybrid requirement.\n\n**Strengths:**\n- Direct domain match (card authorization, settlement, reconciliation in fintech)\n- Production-proven Kafka ownership at enterprise scale\n- Full cloud-native stack (AWS, EKS, Docker, Kubernetes, Terraform)\n- Demonstrated reliability engineering (p99 latency improvement, on-call)\n- Active mentorship of mid-level engineers\n\n**Weaknesses / Gaps:** None identified.\n\n---\n\nFINAL: ADVANCE"
+}

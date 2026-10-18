@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:24:17.565443+00:00",
+  "finished_utc": "2026-09-28T21:24:30.954416+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 698
+  },
+  "response": "## Screening Scorecard: Marcus Ellery\n\n### Required Qualifications (Pass/Fail + Notes)\n\n| Requirement | Score | Notes |\n|---|---|---|\n| 5+ years professional SWE experience | ✅ Pass | ~8 years total (2018–present) |\n| Java, Python, or comparable backend language | ✅ Pass | Java (primary, Spring Boot), Python listed |\n| RESTful API design and consumption | ✅ Pass | OpenAPI specs, REST services explicitly cited |\n| Relational databases / SQL | ✅ Pass | PostgreSQL, SQL, AWS RDS |\n| Major cloud provider (AWS, Azure, GCP) | ✅ Pass | AWS (EKS, SQS, RDS, Lambda) |\n| CI/CD pipelines and automated testing | ✅ Pass | GitHub Actions, JUnit, CI pipeline work |\n| Bachelor's in CS or equivalent | ✅ Pass | B.S. Computer Science, Texas A&M, 2018 |\n\n**Required Score: 7/7**\n\n---\n\n### Preferred Qualifications (Weighted Bonus)\n\n| Preference | Score | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | ✅ Strong | Kafka (topics, consumer groups), SQS |\n| Containerization / orchestration | ✅ Strong | Docker, Kubernetes/EKS, Helm |\n| Infrastructure-as-code | ✅ Strong | Terraform explicitly listed |\n| Financial services / regulated industry | ✅ Strong | 6 years in payments/financial services |\n| Observability tooling | ✅ Strong | Datadog; p99 latency improvement cited |\n| Mentoring / technical leadership | ✅ Strong | Mentors two mid-level engineers; architecture reviews |\n\n**Preferred Score: 6/6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating (1–5) | Notes |\n|---|---|---|\n| Domain relevance (payments) | 5 | Card authorization, settlement, reconciliation — direct match |\n| System design / scalability | 5 | High-volume transaction services, event-driven architecture |\n| Production ownership | 5 | On-call rotation, p99 latency optimization |\n| Collaboration | 5 | Cross-functional (product, platform, partner teams) |\n| Mentorship | 4 | Two engineers mentored; no formal leadership title yet |\n\n**Competency Average: 4.8 / 5.0**\n\n---\n\n### Summary\n\nMarcus is an exceptionally strong match. He meets every required qualification, satisfies every preferred qualification, is locally based in Plano (TX), and brings domain experience that maps directly to the Payments Platform team's scope. His tenure at Coventry Financial demonstrates progressive ownership, production reliability work, and active mentorship — all core to this role.\n\n**Overall Score: 97 / 100**\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:21:12.972411+00:00",
+  "finished_utc": "2026-09-28T21:21:20.522352+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 917,
+    "output_tokens": 398
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Evaluation Against Requirements\n\n**Required Qualifications:**\n- ✅ **5+ years experience** — 8 years total professional experience\n- ✅ **Java/Python proficiency** — Java/Spring Boot as primary stack, Python listed in skills\n- ✅ **RESTful API design and consumption** — explicitly mentioned across multiple roles, with OpenAPI specifications\n- ✅ **Relational databases and SQL** — PostgreSQL with SQL listed\n- ✅ **Major cloud provider** — AWS (EKS, SQS, RDS, Lambda)\n- ✅ **CI/CD and automated testing** — GitHub Actions, JUnit, expanded test coverage\n- ✅ **Bachelor's in CS** — B.S. Computer Science, Texas A&M, 2018\n\n**Preferred Qualifications:**\n- ✅ **Event-driven architecture / message brokers** — Kafka (topics, consumer groups), SQS\n- ✅ **Containerization and orchestration** — Docker, Kubernetes, EKS, Helm\n- ✅ **Infrastructure-as-code** — Terraform\n- ✅ **Financial services background** — 6+ years specifically in payments/financial services\n- ✅ **Observability tooling** — Datadog\n- ✅ **Mentoring experience** — Explicitly mentors two mid-level engineers\n\n### Summary\n\nMarcus is an exceptionally strong match. He satisfies **every required qualification** and **every preferred qualification**, with direct experience in card authorization and settlement systems — essentially the same domain as the role. There is clear and sufficient evidence he could perform this role successfully.\n\nFINAL: ADVANCE"
+}

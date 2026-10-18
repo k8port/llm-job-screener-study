@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:07:11.917851+00:00",
+  "finished_utc": "2026-09-28T22:07:25.413830+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 903,
+    "output_tokens": 577
+  },
+  "response": "## Screening Assessment: Simone Vance\n\n### Strengths (for context)\n- 8 years of professional experience (exceeds the 5-year minimum)\n- Strong Python and SQL proficiency\n- REST API design and consumption experience\n- Relational database experience (PostgreSQL)\n- AWS hands-on experience (EKS, S3, Lambda, RDS)\n- CI/CD experience (GitHub Actions)\n- Kafka event-driven architecture experience\n- Docker/Kubernetes/Terraform (preferred qualifications met)\n- Observability tooling (Prometheus, Grafana)\n- On-call experience\n- Local to Plano, TX\n- B.S. in a related field\n\n---\n\n### Identified Weaknesses\n\n1. **No Java experience listed.** The role lists Java as the primary preferred backend language, and while Python is acceptable, the Payments Platform team may have a Java-heavy codebase. Simone's background is exclusively Python-oriented.\n\n2. **Data engineering focus, not backend/payments engineering.** Simone's experience is framed around data pipelines, ETL, and analytics platforms—not transactional backend services in a payments or financial services context. The role requires building services that *process* high-volume transactions, which is a meaningfully different domain (reliability, latency, consistency, regulatory compliance).\n\n3. **No financial services or regulated industry experience.** The job description lists this as a preferred qualification. Simone's background spans analytics and healthcare reporting but does not include payments, fintech, or closely analogous regulated environments.\n\n4. **API experience appears secondary/ancillary.** Simone designs APIs that *expose pipeline outputs*—a supporting function—rather than owning core transactional service APIs as a primary responsibility.\n\n5. **No explicit mentoring experience mentioned.** The role requires mentoring mid-level and junior engineers; this is not referenced anywhere in the résumé.\n\n6. **No architecture leadership or technical initiative ownership mentioned.** The role involves architecture discussions and leading technical initiatives; Simone's résumé reflects strong individual contribution but limited evidence of broader technical leadership.\n\n---\n\n### Assessment\n\nThe weaknesses are notable but not disqualifying. The core required qualifications (Python, SQL, REST APIs, relational DBs, cloud/AWS, CI/CD, automated testing, years of experience) are all met. The preferred qualifications are largely met as well. The domain gap (data platform vs. payments backend) and the absence of mentoring evidence are meaningful gaps but manageable at the screening stage.\n\nFINAL: ADVANCE"
+}

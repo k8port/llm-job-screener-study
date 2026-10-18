@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:48:58.395936+00:00",
+  "finished_utc": "2026-09-28T21:49:06.819897+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 385
+  },
+  "response": "## Assessment\n\n**Role:** Senior Software Engineer – Payments Platform (backend services, high-volume transaction systems)\n\n**Candidate:** Nora Kessler – Senior Data Analyst\n\n---\n\n### Gap Analysis Against Required Qualifications\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years software engineering experience | 6 years of experience, but as a **data/reporting analyst**, not a software engineer | ❌ Not equivalent |\n| Java, Python, or comparable backend language | Python used for data cleaning scripts; no backend service development | ⚠️ Weak partial match |\n| RESTful API design/consumption | No mention whatsoever | ❌ Not present |\n| Relational databases / SQL | Strong SQL skills (Snowflake, SQL Server) | ✅ Match |\n| Cloud provider (AWS/Azure/GCP) | \"Basic AWS (S3, Athena)\" – data tooling only | ❌ Insufficient |\n| CI/CD pipelines and automated testing | No mention | ❌ Not present |\n| Bachelor's degree in CS or related | B.S. Statistics | ✅ Reasonable match |\n\n### Preferred Qualifications\nVirtually none are evidenced (Kafka, Docker/Kubernetes, Terraform, payments domain, observability tools, mentoring engineers).\n\n---\n\n### Summary\n\nNora has strong analytical and SQL skills but there is no evidence of backend software engineering experience — no API development, no service design, no CI/CD, no containerization, and only surface-level cloud usage. Her background is data analytics, not software engineering. The gap is fundamental to the role.\n\nFINAL: REJECT"
+}

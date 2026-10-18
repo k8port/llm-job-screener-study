@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:42:17.678867+00:00",
+  "finished_utc": "2026-09-30T18:42:25.333038+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 385
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 2 years total (1 year as a full-time engineer + ~1 year as an intern). This is a significant gap — roughly 3+ years short of the minimum.\n\n2. **No experience with high-volume or enterprise-scale systems**: The role involves processing high-volume transactions for enterprise clients. Dana's experience is limited to an internal inventory service used by three business teams — a much smaller scale.\n\n3. **Limited cloud experience**: The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which does not meet the standard of meaningful cloud engineering experience expected at the senior level.\n\n4. **No event-driven architecture or message broker experience**: Kafka, SQS, and similar tools are listed as preferred and are relevant to a payments platform. Dana shows no exposure to these.\n\n5. **No containerization or orchestration experience**: Docker and Kubernetes are not mentioned anywhere on the résumé.\n\n6. **No observability tooling experience**: Datadog, Grafana, Prometheus — none are referenced.\n\n7. **No mentorship or technical leadership experience**: The role involves mentoring junior/mid-level engineers and leading technical initiatives. There is no evidence of this in Dana's background.\n\n8. **No payments, financial services, or regulated industry background**: This is a preferred qualification with direct relevance to the team's domain.\n\n9. **CI/CD experience is limited**: Dana contributes to a pipeline maintained by a senior engineer, rather than owning or building pipelines independently.\n\n---\n\nFINAL: REJECT"
+}

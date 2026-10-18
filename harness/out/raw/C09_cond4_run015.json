@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:42.898135+00:00",
+  "finished_utc": "2026-09-28T22:26:51.904777+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 396
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Technical Stack Misalignment**\n- Java experience is limited to Java 8 and legacy servlet/JSP patterns — no evidence of modern Java (11, 17, 21), frameworks (Spring Boot, Micronaut), or RESTful API design and consumption at a meaningful level.\n- No cloud experience (AWS, Azure, or GCP) — a required qualification with zero indication of exposure.\n- No containerization or orchestration experience (Docker, Kubernetes) — listed as preferred but entirely absent.\n- No CI/CD pipeline experience beyond \"basic\" Jenkins — insufficient for a senior role expected to own delivery pipelines.\n- No event-driven architecture or message broker experience (Kafka, SQS, etc.) — a preferred but differentiating qualification.\n- No infrastructure-as-code experience (Terraform, CloudFormation).\n- No observability tooling experience (Datadog, Grafana, Prometheus).\n\n**Role Scope Misalignment**\n- The role requires designing and building scalable, high-volume backend services and APIs; the candidate's work centers on maintaining legacy COBOL/JCL batch systems and older Java web interfaces — fundamentally different engineering paradigms.\n- No evidence of API design, microservices architecture, or distributed systems work.\n- No evidence of mentoring engineers or leading technical initiatives.\n\n**Version Control & Tooling**\n- Git listed as \"basic\" — inadequate for a modern collaborative engineering environment.\n\n**Summary**\nDespite strong tenure (16 years) and domain relevance (financial services, regulated environment, SQL), the candidate's technical profile is anchored in mainframe-era and legacy Java technologies with critical gaps across nearly every required and preferred modern qualification.\n\nFINAL: REJECT"
+}

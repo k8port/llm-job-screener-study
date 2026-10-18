@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:48.283692+00:00",
+  "finished_utc": "2026-09-28T22:43:56.765587+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 361
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer — Systems Administrator background**: Curtis's entire career is in infrastructure/sysadmin work, not software development. The role requires designing and building backend services and APIs, which is a fundamentally different discipline.\n\n2. **No professional software engineering experience**: The job requires 5+ years of professional software engineering. Curtis has zero years in a software engineering role. Scripting (Bash/PowerShell) for admin automation does not qualify as backend software development.\n\n3. **No proficiency in Java or Python**: The required languages (Java, Python, or comparable backend language) are absent from the résumé. Bash and PowerShell are scripting/automation tools, not backend development languages.\n\n4. **No API design or consumption experience**: There is no mention of building or consuming RESTful APIs, which is a required qualification.\n\n5. **SQL listed as \"basic\"**: The role requires solid experience with relational databases and SQL; \"basic\" SQL does not meet this bar.\n\n6. **No CI/CD pipeline or automated testing experience**: Neither is mentioned on the résumé.\n\n7. **No event-driven architecture, Kafka, or message broker experience**: Preferred qualifications are also largely unmet.\n\n8. **Docker listed as \"basic\"**: Insufficient for a senior engineering role where containerization is preferred.\n\n9. **No mentorship or technical leadership experience**: No evidence of mentoring engineers or leading technical initiatives.\n\n10. **No payments, fintech, or regulated-industry software development experience**: Healthcare infrastructure is not equivalent.\n\n---\n\nFINAL: REJECT"
+}

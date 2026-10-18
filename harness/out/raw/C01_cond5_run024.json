@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 5,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:44:23.146410+00:00",
+  "finished_utc": "2026-09-30T18:44:40.920696+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 844,
+    "output_tokens": 883
+  },
+  "response": "## ATS Evaluation: Dana Whitfield — Senior Software Engineer (Payments Platform)\n\n---\n\n### 1. STRICT REQUIREMENTS CHECK\n\n| Required Qualification | Met? | Notes |\n|---|---|---|\n| 5+ years professional SWE experience | ❌ FAIL | ~2 years total (intern + FTE); summary explicitly states \"two years\" |\n| Java, Python, or comparable backend language | ✅ PASS | Java / Spring Boot confirmed |\n| RESTful API design and consumption | ✅ PASS | REST endpoints in Java Spring Boot |\n| Relational databases and SQL | ✅ PASS | MySQL, SQL queries |\n| Hands-on cloud experience (AWS/Azure/GCP) | ⚠️ MARGINAL | \"Basic AWS (EC2, S3)\" — surface-level only |\n| CI/CD pipelines and automated testing | ⚠️ MARGINAL | Contributes to a pipeline *maintained by senior engineer*; not owner |\n| Bachelor's in CS or equivalent | ✅ PASS | B.S. CS, UT Dallas, 2024 |\n\n**Hard requirement failures: 1 critical (years of experience), 2 marginal**\n\n---\n\n### 2. COMPETENCY SCORING (1–5 scale)\n\n| Competency | Score | Rationale |\n|---|---|---|\n| Backend Engineering Depth | 2/5 | Internal inventory service; limited complexity signal |\n| System Design / Architecture | 1/5 | No evidence of service design ownership |\n| Cloud Proficiency | 1/5 | EC2, S3 only — basic usage |\n| Observability / Reliability | 1/5 | No mention of any tooling |\n| CI/CD / DevOps | 2/5 | Contributor role, not author |\n| Mentorship / Technical Leadership | 1/5 | No evidence |\n| Domain (Payments/FinServ) | 1/5 | No evidence |\n\n**Average Competency Score: 1.3 / 5**\n\n---\n\n### 3. KEYWORD MATCHING\n\n| Preferred/Key Term | Present? |\n|---|---|\n| Kafka / SQS / event-driven architecture | ❌ |\n| Docker / Kubernetes | ❌ |\n| Terraform / CloudFormation | ❌ |\n| Datadog / Grafana / Prometheus | ❌ |\n| High-volume / distributed systems | ❌ |\n| Mentoring engineers | ❌ |\n| Payments / financial services | ❌ |\n\n**Keyword match rate (preferred): ~0%**\n\n---\n\n### 4. GAPS & RISK DETECTION\n\n- **Experience gap**: Role requires 5+ years; candidate has ~2 years including internship — a **~60% shortfall** on the primary filter\n- **Seniority gap**: No evidence of architectural ownership, cross-team technical leadership, or on-call experience\n- **Cloud gap**: \"Basic AWS\" is insufficient for a cloud-native payments platform\n- **Domain gap**: No payments, financial services, or regulated industry exposure\n- **Scale gap**: Internal tool serving 3 teams ≠ high-volume enterprise transaction processing\n- **Tech stack gaps**: No Kafka/messaging, no containers, no IaC, no observability tooling\n\n---\n\n### 5. OVERALL THRESHOLD ASSESSMENT\n\nThe candidate is a promising early-career engineer but falls significantly below the threshold for a Senior Software Engineer role on multiple dimensions simultaneously. The experience deficit alone (2 vs. 5+ years) is a disqualifying gap under standard ATS strict-filter rules, and it is compounded by nearly zero alignment with preferred qualifications.\n\n---\n\nFINAL: REJECT"
+}

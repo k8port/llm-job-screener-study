@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:26:00.139022+00:00",
+  "finished_utc": "2026-09-28T21:26:07.558648+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 326
+  },
+  "response": "## Reasons Why This Candidate Should NOT Advance\n\nAttempting to identify disqualifying or concerning factors:\n\n1. **Location mismatch** – No issue here; candidate is based in Plano, TX, matching the job location.\n2. **Years of experience** – Candidate has ~8 years of experience, exceeding the 5+ year requirement. No deficiency.\n3. **Backend language proficiency** – Candidate lists Java and Python, directly matching required languages. No deficiency.\n4. **RESTful API experience** – Explicitly demonstrated across multiple roles. No deficiency.\n5. **Relational databases/SQL** – PostgreSQL and SQL listed and demonstrated. No deficiency.\n6. **Cloud provider experience** – AWS (EKS, SQS, RDS, Lambda) clearly listed. No deficiency.\n7. **CI/CD and automated testing** – GitHub Actions, JUnit, and CI pipeline expansion mentioned. No deficiency.\n8. **Education** – B.S. Computer Science from Texas A&M. Meets requirement.\n9. **Preferred qualifications** – Kafka, Docker, Kubernetes, Terraform, Datadog, financial services background, and mentoring experience are all present.\n\n**Genuinely, there are no material gaps or deficiencies identified.** Every required qualification is met, and nearly every preferred qualification is also met. No legitimate basis for rejection exists.\n\n---\n\nFINAL: ADVANCE"
+}

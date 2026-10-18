@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:38:52.164527+00:00",
+  "finished_utc": "2026-09-30T18:39:02.403643+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 450
+  },
+  "response": "## Candidate Evaluation: Dana Whitfield\n\n### Potential Weaknesses Identified\n\n1. **Insufficient years of experience.** The role requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years (intern 2024–2025, full-time engineer 2025–present). This is a critical gap, not a marginal one.\n\n2. **No demonstrated experience with cloud platforms beyond basics.** The résumé lists only \"basic AWS (EC2, S3).\" The role requires hands-on cloud experience and lists IaC (Terraform, CloudFormation) as preferred. There is no evidence of meaningful cloud architecture work.\n\n3. **No experience with event-driven architecture or message brokers.** Kafka, SQS, and similar systems are listed as preferred qualifications; Dana shows no exposure.\n\n4. **No containerization or orchestration experience.** Docker and Kubernetes are not mentioned anywhere on the résumé.\n\n5. **No observability tooling experience.** Datadog, Grafana, Prometheus — none are referenced.\n\n6. **No background in financial services or regulated industries.** The role is on a Payments Platform, making this a relevant gap.\n\n7. **No mentorship or technical leadership experience.** The role explicitly requires mentoring junior/mid-level engineers; Dana is at an early career stage and is more likely to be the mentee.\n\n8. **CI/CD experience is limited.** Dana contributes to a GitHub Actions pipeline but describes it as one \"maintained by a senior engineer,\" suggesting limited ownership.\n\n9. **Scale and complexity of work is entry-level.** Projects described (internal inventory service, operations dashboard) are modest in scope relative to the high-volume, enterprise-grade transaction processing the role demands.\n\n### Summary\n\nDana is an early-career engineer who does not meet the required qualifications on multiple critical dimensions, most significantly years of experience. Nearly every required and preferred qualification has either a gap or only surface-level coverage.\n\nFINAL: REJECT"
+}

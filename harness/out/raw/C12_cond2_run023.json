@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:47.527316+00:00",
+  "finished_utc": "2026-09-28T22:48:59.264545+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 502
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Potential Weaknesses Identified\n\n**1. Years of Experience — Significant Gap**\nThe most notable weakness is experience level. The role requires **5+ years** of professional software engineering experience. Elise graduated in 2023 and has been working professionally for approximately **1.5–2 years** (Software Engineer at Larkspur Pay from 2023–present across two roles). This is well below the stated requirement.\n\n**2. Seniority Level Mismatch**\nThe role is for a **Senior** Software Engineer. Elise currently holds a \"Software Engineer II\" title, suggesting she is mid-level at best. The responsibilities of the posted role — architecture ownership, mentoring junior/mid engineers, and leading technical initiatives — do not align with her current level.\n\n**3. No Evidence of Mentorship or Technical Leadership**\nThe job description lists mentoring and leading small technical initiatives as preferred qualifications. There is no indication in her résumé that she has mentored others or led any initiative independently. Her Kafka partitioning work was explicitly noted as \"led by a senior engineer,\" suggesting she was a contributor, not a driver.\n\n**4. Terraform Listed as \"Basic\"**\nInfrastructure-as-code experience is a preferred qualification; she self-qualifies her Terraform experience as only \"basic,\" which weakens alignment with that preference.\n\n**5. Limited Cloud Breadth**\nHer AWS experience is primarily EKS/SQS/RDS (mostly Kubernetes-adjacent). No broader cloud architecture or design experience is evident.\n\n### Strengths Noted (for balance)\n- Payments domain experience directly matches the team's focus\n- Solid Java/Spring Boot, Kafka, PostgreSQL, REST API, and Docker/Kubernetes skills\n- Relevant observability tool (Grafana) and CI/CD experience\n- B.S. in Computer Science from SMU\n\n### Summary\nDespite strong technical alignment in tools and domain, the candidate falls significantly short of the **5+ year experience requirement** and shows no evidence of senior-level behaviors (mentorship, architectural ownership, technical leadership). The experience gap is a hard-requirement miss, not a soft-preference gap.\n\nFINAL: REJECT"
+}

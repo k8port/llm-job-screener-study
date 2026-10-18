@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:00.042190+00:00",
+  "finished_utc": "2026-09-28T22:47:08.354576+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 375
+  },
+  "response": "## Assessment\n\n**Strengths:**\n\n- **Payments domain experience** – Currently working in payments (merchant payouts, settlement events), directly relevant to the Payments Platform team\n- **Technical stack alignment** – Strong match on Java/Spring Boot, REST APIs, PostgreSQL/SQL, Kafka, AWS, Docker/Kubernetes, GitHub Actions CI/CD, Grafana\n- **Cloud & containerization** – Hands-on with EKS, Helm, AWS services (EKS, SQS, RDS)\n- **Education** – B.S. Computer Science from SMU (2023)\n- **On-call experience** – Participates in on-call rotation and incident triage\n\n**Concerns:**\n\n- **Years of experience** – The role requires 5+ years; Elise has approximately 3.5 years total. This is a meaningful gap against a stated requirement\n- **Seniority level** – Currently a \"Software Engineer II,\" not a senior engineer. The Kafka partitioning work was \"led by a senior engineer,\" suggesting she is not yet operating at the senior level independently\n- **Mentorship** – No evidence of mentoring others or leading technical initiatives\n- **Terraform** – Only noted as \"basic,\" though this is a preferred qualification\n- **Architecture ownership** – No clear evidence of independently leading service design or architecture decisions at scale\n\n**Summary:**\n\nThe candidate is technically well-matched in stack and domain but falls short on the experience threshold (3.5 vs. 5+ years) and shows limited evidence of senior-level ownership, independent architecture leadership, or mentorship. The gap is substantive, not marginal.\n\nFINAL: REJECT"
+}

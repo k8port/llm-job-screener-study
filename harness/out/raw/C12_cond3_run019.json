@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:50:13.952565+00:00",
+  "finished_utc": "2026-09-28T22:50:28.839035+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 749
+  },
+  "response": "# Candidate Screening: Elise Thornbury\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| **Years of Experience** | High | 1/3 | ~3.5 years total; role requires 5+. Meaningful gap. |\n| **Backend Language Proficiency (Java/Python)** | High | 3/3 | Java/Spring Boot as primary stack; Python listed. Strong match. |\n| **RESTful API Design & Consumption** | High | 3/3 | Explicit design/documentation of REST endpoints for internal and partner teams. |\n| **Relational Databases & SQL** | High | 3/3 | PostgreSQL on multiple roles; SQL listed in skills. |\n| **Cloud Provider Experience (AWS/Azure/GCP)** | High | 3/3 | AWS (EKS, SQS, RDS) with hands-on deployment experience. |\n| **CI/CD & Automated Testing** | High | 3/3 | GitHub Actions, JUnit, Spring Test clearly demonstrated. |\n| **Bachelor's Degree (CS or related)** | High | 3/3 | B.S. Computer Science, SMU 2023. |\n| **Event-Driven / Message Brokers (Preferred)** | Medium | 3/3 | Kafka consumer implementation; SQS listed. |\n| **Containerization & Orchestration (Preferred)** | Medium | 3/3 | Docker, Kubernetes, EKS, Helm — hands-on production use. |\n| **Infrastructure-as-Code (Preferred)** | Medium | 1/3 | Terraform listed as \"basic.\" Limited depth. |\n| **Financial Services / Payments Background (Preferred)** | Medium | 3/3 | Currently in payments (Larkspur Pay); merchant payouts, settlements. |\n| **Observability Tooling (Preferred)** | Medium | 2/3 | Grafana listed; no explicit Datadog/Prometheus mention. |\n| **Mentoring / Technical Leadership (Preferred)** | Medium | 1/3 | No evidence of mentoring; contributed to (not led) partitioning work. |\n\n---\n\n## Summary Assessment\n\n**Strengths:** Elise is technically well-matched across nearly all *required* technology dimensions — Java, REST APIs, SQL/PostgreSQL, AWS, CI/CD, testing, and a CS degree. Her payments domain experience is directly relevant, and she hits several preferred qualifications strongly (Kafka, Kubernetes, Docker).\n\n**Key Gap:** The most significant concern is **experience level**. The role requires 5+ years; Elise has approximately **3.5 years** total, with only ~1 year at SE II level. The position is explicitly *Senior*, with expectations of architecture ownership, mentoring, and independent technical leadership — areas where her résumé shows limited evidence.\n\n**Verdict Logic:** The experience shortfall is a stated *required* qualification, not a preferred one. While her technical profile is strong for her tenure, the gap is ~30% below the minimum threshold and she shows no demonstrated mentoring or architectural leadership.\n\n---\n\nFINAL: REJECT"
+}

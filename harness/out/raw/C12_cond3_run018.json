@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:50:13.939952+00:00",
+  "finished_utc": "2026-09-28T22:50:27.330879+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 661
+  },
+  "response": "## Screening Scorecard: Elise Thornbury\n\n### Required Qualifications\n\n| Criterion | Weight | Assessment | Score (1–5) |\n|---|---|---|---|\n| 5+ years professional SWE experience | High | ~2 years at Larkspur Pay (2023–Present); summary says \"three and a half years\" but résumé only accounts for ~2 years. **Does not meet the 5-year minimum.** | 1 |\n| Java, Python, or comparable backend language | High | Java/Spring Boot (primary), Python listed in skills | 5 |\n| RESTful API design & consumption | High | Explicit: designs/documents REST endpoints; builds REST services | 5 |\n| Relational databases & SQL | High | PostgreSQL, SQL, AWS RDS | 5 |\n| Major cloud provider (AWS, Azure, GCP) | High | AWS (EKS, SQS, RDS) — hands-on | 5 |\n| CI/CD pipelines & automated testing | High | GitHub Actions, JUnit, Spring Test | 5 |\n| Bachelor's in CS or equivalent | Medium | B.S. CS, SMU 2023 | 5 |\n\n### Preferred Qualifications\n\n| Criterion | Assessment | Score (1–5) |\n|---|---|---|\n| Event-driven / message brokers | Kafka consumers, SQS listed | 5 |\n| Containerization & orchestration | Docker, Kubernetes, EKS, Helm | 5 |\n| Infrastructure-as-code | Terraform (basic) | 3 |\n| Financial services / payments background | Currently in payments (Larkspur Pay) | 5 |\n| Observability tooling | Grafana listed | 4 |\n| Mentoring / leading technical initiatives | No evidence of mentoring; contributed to partitioning work led by a senior | 1 |\n\n---\n\n### Summary Assessment\n\n**Critical Gap — Years of Experience:**\nThe role requires **5+ years**. Elise graduated in 2023 and has approximately **2 years** of professional experience. This is a hard-requirement shortfall of ~3 years. The résumé summary's claim of \"three and a half years\" is inconsistent with the dates shown and still falls well short regardless.\n\n**Strengths:** Strong technical alignment — Java, payments domain, Kafka, AWS, Kubernetes, REST APIs, CI/CD, and SQL are all present. Trajectory is promising and domain fit is excellent.\n\n**Weaknesses:** Experience floor not met (hard requirement); limited leadership/mentoring evidence; Terraform only at basic level.\n\n---\n\n### Decision\n\nDespite strong technical fit and domain relevance, the candidate does not meet the **minimum 5-year experience requirement**, which is a stated hard filter for a Senior-level role.\n\nFINAL: REJECT"
+}

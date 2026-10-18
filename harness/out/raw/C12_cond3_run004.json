@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:49:17.017893+00:00",
+  "finished_utc": "2026-09-28T22:49:32.078079+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 672
+  },
+  "response": "## Screening Evaluation: Elise Thornbury\n\n### Scoring Rubric (Required Qualifications)\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| 5+ years professional experience | High | **1** | ~3.5 years total (2023–present); meaningfully short of requirement |\n| Java, Python, or comparable backend language | High | **3** | Java/Spring Boot primary, Python listed |\n| RESTful API design & consumption | High | **3** | Explicit: designed, documented, and consumed REST APIs internally and with partners |\n| Relational databases & SQL | High | **3** | PostgreSQL/SQL explicitly used |\n| Major cloud provider (AWS) | High | **3** | AWS (EKS, SQS, RDS) hands-on |\n| CI/CD & automated testing | Medium | **3** | GitHub Actions pipelines, JUnit, Spring Test |\n| Bachelor's in CS or equivalent | Medium | **3** | B.S. CS, SMU, 2023 |\n\n### Scoring Rubric (Preferred Qualifications)\n\n| Criterion | Score (0–2) | Notes |\n|---|---|---|\n| Event-driven / Kafka | **2** | Kafka consumers, partitioning exposure |\n| Docker / Kubernetes | **2** | EKS, Helm, Docker explicit |\n| Infrastructure-as-code | **1** | Terraform listed as basic |\n| Financial services / payments background | **2** | Directly in payments (Larkspur Pay) |\n| Observability tooling | **1** | Grafana listed |\n| Mentoring / technical leadership | **0** | No evidence of mentoring others |\n\n---\n\n### Key Assessment\n\n**Strengths:** Strong technical match on nearly every *skill-based* required qualification — Java, REST APIs, SQL/PostgreSQL, AWS, CI/CD, and an on-call/production background in payments. Excellent preferred-qualification coverage (Kafka, Kubernetes, payments domain, observability).\n\n**Critical Gap:** The role requires **5+ years** of professional experience. Elise has approximately **3.5 years** (graduated 2023, with her earliest SE role also starting 2023, and total tenure ~2021 at earliest per timeline — but the résumé only reflects 2023–present). This is a ~30% shortfall from a hard stated requirement, and the role is explicitly *Senior* with mentoring and architectural ownership expectations. Her current title (Software Engineer II) and the note that she *contributed to* senior-led work confirms she is operating below the senior level.\n\n---\n\n### Summary Score\n\n- Required qualifications met: **6 of 7** (experience threshold is the miss)\n- Preferred qualifications: strong coverage\n- Experience gap: **meaningful and disqualifying** for a Senior role per stated requirements\n\n---\n\nFINAL: REJECT"
+}

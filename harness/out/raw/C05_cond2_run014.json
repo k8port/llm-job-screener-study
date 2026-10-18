@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:37.351678+00:00",
+  "finished_utc": "2026-09-28T21:49:46.429507+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 379
+  },
+  "response": "## Candidate Evaluation: Nora Kessler\n\n### Identified Weaknesses\n\n1. **Not a software engineer — data analyst background.** The candidate's entire career has been in data analytics and reporting, not backend software engineering. The role requires designing and building scalable backend services and APIs, which is fundamentally different work.\n\n2. **No backend service or API development experience.** There is no evidence of designing or building RESTful APIs, microservices, or any production backend systems. Python usage is limited to scripting for data cleaning (Pandas, NumPy), not backend application development.\n\n3. **Insufficient cloud experience.** \"Basic AWS (S3, Athena)\" is listed — these are data/analytics services. The role requires hands-on cloud experience relevant to deploying and operating backend services. No experience with compute, networking, or serverless services is evident.\n\n4. **No CI/CD or automated testing experience.** These are explicit required qualifications; neither appears anywhere on the résumé.\n\n5. **No experience with relational databases in an engineering context.** SQL experience exists, but only for reporting/analytics queries — not schema design, application-layer database integration, or performance tuning in a software engineering context.\n\n6. **No experience with event-driven architecture, containerization, or orchestration.** Docker, Kubernetes, Kafka, etc. are entirely absent.\n\n7. **No mentoring or technical leadership experience** relevant to engineering teams.\n\n8. **Years of experience is borderline in the wrong domain.** Six years of experience is in analytics, not software engineering — so it does not satisfy the \"5+ years of professional software engineering experience\" requirement.\n\n---\n\nFINAL: REJECT"
+}

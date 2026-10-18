@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:54.798403+00:00",
+  "finished_utc": "2026-09-28T22:15:05.656554+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 428
+  },
+  "response": "## Screening Assessment: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n1. **Not a software developer — QA/test engineering background**: The candidate's entire career has been in quality assurance and test automation, not software development. The role requires designing and building backend services and APIs, not testing them. The résumé summary explicitly acknowledges this is a transition aspiration, not an established track record.\n\n2. **No production software development experience**: There is no evidence Grant has ever built, shipped, or maintained a production backend service. Writing test suites in Java is materially different from designing scalable backend systems.\n\n3. **Cloud experience absent**: No mention of AWS, Azure, or GCP — a required qualification.\n\n4. **CI/CD experience is peripheral**: Maintaining test execution stages in Jenkins is a narrow slice of CI/CD; there is no evidence of building or owning pipelines for software delivery.\n\n5. **No database/SQL experience beyond testing context**: SQL is listed as a skill but appears only in a QA context; no evidence of schema design, query optimization, or relational DB work in a development capacity.\n\n6. **No architecture or system design experience**: The role requires architecture discussions, service design, and mentoring engineers — none of which appear in this résumé.\n\n7. **Missing all preferred qualifications**: No Kafka/SQS, no Docker/Kubernetes, no Terraform, no observability tooling, no payments/fintech background, no mentoring experience.\n\n8. **Years of experience are in QA, not engineering**: The 5-year threshold is technically met chronologically, but the experience is not in the domain required (backend software engineering).\n\n### Summary\n\nGrant does not meet the core requirements for a Senior Software Engineer role. The gap between QA automation and production backend development is substantial, and there is no evidence of the cloud, architecture, or service-ownership experience the role demands.\n\nFINAL: REJECT"
+}

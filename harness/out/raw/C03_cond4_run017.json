@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:35:17.109764+00:00",
+  "finished_utc": "2026-09-28T21:35:28.404630+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 498
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps vs. Required Qualifications:**\n\n1. **Backend engineering depth:** The candidate is self-described as \"frontend-focused.\" Node.js/Express work is noted but appears supplementary to frontend responsibilities (session handling, API aggregation layer), not core backend service ownership. The role requires designing and building scalable backend services as the primary function.\n\n2. **Language fit:** The role requires Java, Python, or a \"comparable backend language.\" The candidate's stack is TypeScript/JavaScript/Node.js. While Node.js is a backend runtime, it is not explicitly listed and Node.js is not typically the language of choice for high-volume payments platforms. No Java or Python experience is mentioned at all.\n\n3. **No experience in financial services, payments, or regulated industries:** The candidate's background is retail/e-commerce and media — no exposure to compliance, auditability, or the operational rigor typical of payments platforms.\n\n4. **Education mismatch:** The job asks for a B.S. in Computer Science or related field (or equivalent). The candidate holds a B.A. in Graphic Design. While \"equivalent practical experience\" is allowed, the overall technical depth raises questions about whether that bar is met for a senior backend role.\n\n**Gaps in Preferred Qualifications:**\n\n5. **No event-driven architecture or message broker experience** (Kafka, SQS, etc.) — no mention anywhere.\n6. **No Kubernetes or container orchestration** — Docker is listed but no orchestration experience.\n7. **No infrastructure-as-code** (Terraform, CloudFormation) — not mentioned.\n8. **No observability tooling** (Datadog, Grafana, Prometheus) — not mentioned.\n9. **AWS experience is limited** to S3, CloudFront, and Lambda — frontend/CDN-oriented services, not backend compute, networking, or data infrastructure.\n\n**Role Alignment:**\n\n10. The role centers on a **Payments Platform** processing high-volume transactions for enterprise clients. The candidate's largest system (400K monthly users) is a customer account portal — a consumer-facing UI product, not a transaction processing backend.\n\n---\n\nFINAL: REJECT"
+}

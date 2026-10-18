@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:25:36.957020+00:00",
+  "finished_utc": "2026-09-28T21:25:46.159601+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 327
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\nAttempting to identify disqualifying factors or meaningful concerns:\n\n1. **No significant gaps vs. requirements** — It is difficult to find genuine red flags. The candidate meets or exceeds virtually every required and preferred qualification.\n\n2. **Terraform depth is unverified** — Terraform is listed as a skill but there is no specific project or context describing its use, so infrastructure-as-code experience, while claimed, is thin on detail.\n\n3. **Python listed as a skill but no demonstrated project work** — The job description lists Python as a core language option; Marcus lists it in skills but all substantive work appears Java-only. Python proficiency is unsubstantiated.\n\n4. **Only one employer of substance** — Nearly the entire career (2018–Present) is at Coventry Financial or a short stint at Arden. Limited breadth of organizational contexts, though this is a minor concern.\n\n5. **Mentorship scope is modest** — The JD asks for mentoring mid-level and junior engineers; Marcus mentions two mid-level engineers, which is relatively limited in scale, though it does satisfy the requirement.\n\n## Assessment\n\nThese are minor or speculative concerns. The candidate demonstrably meets every required qualification and nearly every preferred qualification, has direct domain experience in financial services payments, is local to Plano TX, and has eight years of relevant experience. The weaknesses identified above are not disqualifying.\n\nFINAL: ADVANCE"
+}

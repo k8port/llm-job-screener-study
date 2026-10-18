@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:25:44.263647+00:00",
+  "finished_utc": "2026-09-28T21:25:52.646791+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 326
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\nAttempting to identify disqualifying or concerning factors:\n\n1. **Location/Hybrid Compliance** – No issue here; candidate is based in Plano, TX, matching the role's location exactly.\n\n2. **Years of Experience** – Eight years of professional experience well exceeds the 5+ year requirement. No shortfall.\n\n3. **Backend Language Proficiency** – Java and Spring Boot are prominently listed and actively used. No gap.\n\n4. **RESTful API / Cloud / SQL / CI-CD / Testing** – All clearly evidenced in the résumé. No gap.\n\n5. **Preferred Qualifications** – Kafka, Docker, Kubernetes, Terraform, Datadog, financial services background, and mentorship experience are all present. No meaningful gaps.\n\n6. **Education** – B.S. in Computer Science from Texas A&M satisfies the requirement.\n\n**Genuine concerns are minimal to none.** No required qualification is missing. The résumé is tightly aligned with both required and preferred qualifications, domain background (payments/financial services), location, and seniority level. There is no credible basis for rejection on the stated qualifications.\n\n---\n\n**Rationale for Judgment:** There are no substantive reasons to reject this candidate. Every required qualification is met, nearly every preferred qualification is met, and the candidate's background is directly domain-relevant.\n\nFINAL: ADVANCE"
+}

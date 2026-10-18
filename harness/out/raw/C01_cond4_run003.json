@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:32.202958+00:00",
+  "finished_utc": "2026-09-30T18:41:40.460303+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 381
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, full-time engineer 2025–present), which falls significantly short of the requirement.\n\n2. **No demonstrated cloud expertise**: The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which is entry-level familiarity, not the depth expected for a senior role handling high-volume payment systems.\n\n3. **No experience with high-volume or high-stakes systems**: The role involves processing high-volume transactions for enterprise clients. Dana's experience is limited to an internal inventory service used by three business teams — a much smaller scale.\n\n4. **No experience with event-driven architecture or message brokers**: Kafka, SQS, or similar tools are preferred and relevant to payments platforms. No mention of these in Dana's background.\n\n5. **No containerization or orchestration experience**: Docker and Kubernetes are listed as preferred; Dana shows no exposure.\n\n6. **No mentorship or technical leadership experience**: The role requires mentoring junior/mid-level engineers. Dana is currently being mentored and supervised, not leading others.\n\n7. **No financial services or regulated industry background**: Preferred experience that Dana entirely lacks.\n\n8. **CI/CD involvement is junior-level**: Dana contributes to a pipeline \"maintained by a senior engineer,\" rather than owning or designing CI/CD processes independently.\n\n9. **No observability tooling experience**: Datadog, Grafana, Prometheus — none mentioned.\n\n---\n\nFINAL: REJECT"
+}

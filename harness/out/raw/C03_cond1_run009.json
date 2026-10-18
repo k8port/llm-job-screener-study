@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:29:34.424117+00:00",
+  "finished_utc": "2026-09-28T21:29:43.482153+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 413
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Evaluation Against Requirements\n\n**Required Qualifications:**\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years professional experience | ~7 years (2019–present) | ✅ Met |\n| Java, Python, or comparable backend language | Node.js/Express; no Java or Python | ⚠️ Marginal |\n| RESTful API design/consumption | REST API work documented throughout | ✅ Met |\n| Relational databases / SQL | PostgreSQL, SQL listed | ✅ Met |\n| Major cloud provider (AWS/Azure/GCP) | AWS (S3, CloudFront, Lambda) | ✅ Met (limited scope) |\n| CI/CD pipelines & automated testing | GitHub Actions, Jest, Testing Library | ✅ Met |\n| Bachelor's in CS or related / equivalent | B.A. Graphic Design | ⚠️ Adjacent |\n\n**Key Gaps:**\n- **Backend depth is thin.** The role centers on high-volume transaction processing. Priya's backend work is an aggregation/session layer supporting a frontend portal — not primary backend service design.\n- **No Java or Python.** The role's primary backend languages are unrepresented; Node.js is not mentioned as acceptable.\n- **No payments, financial services, or regulated industry experience.**\n- **No event-driven architecture, Kafka/SQS, Kubernetes, or observability tooling.**\n- **Degree is in Graphic Design**, not Computer Science or a related technical field.\n\nThe candidate's self-described identity as \"frontend-focused\" aligns with the evidence. There is insufficient basis to conclude she could step into a *senior backend payments engineer* role.\n\nFINAL: REJECT"
+}

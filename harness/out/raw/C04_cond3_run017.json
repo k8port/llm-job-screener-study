@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:42:46.670153+00:00",
+  "finished_utc": "2026-09-28T21:43:00.664350+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 696
+  },
+  "response": "# Candidate Screening: Trevor Lindquist\n\n## Scoring Rubric\n\n| Category | Weight | Score (0–5) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of Experience** | 10% | 5 | 0.50 | 9 years total, 6 in payments |\n| **Backend Language Proficiency (Java/Python)** | 15% | 5 | 0.75 | Both Java and Python; Spring Boot, FastAPI |\n| **RESTful API Design & Consumption** | 10% | 5 | 0.50 | Owns API design for partner integration surface; versioned REST contracts |\n| **Relational Databases / SQL** | 10% | 5 | 0.50 | PostgreSQL, SQL-backed batch jobs |\n| **Cloud Provider Experience (AWS/Azure/GCP)** | 10% | 5 | 0.50 | AWS (ECS, SQS, RDS, Lambda) |\n| **CI/CD & Automated Testing** | 10% | 4 | 0.40 | GitHub Actions; introduced integration testing; Helm standardization |\n| **Education Requirement** | 5% | 3 | 0.15 | No degree, but role explicitly accepts \"equivalent practical experience\"; 9-year career + structured apprenticeship qualifies |\n| **Event-Driven Architecture / Message Brokers** | 8% | 5 | 0.40 | Built Kafka + SQS pipeline for transaction state |\n| **Containerization / Orchestration** | 7% | 5 | 0.35 | Docker, Kubernetes, Helm |\n| **Infrastructure-as-Code** | 5% | 5 | 0.25 | Terraform modules across 6 services |\n| **Payments / Regulated Industry Background** | 7% | 5 | 0.35 | 6 years in payments infrastructure |\n| **Observability Tooling** | 5% | 4 | 0.20 | Grafana, Prometheus (Datadog not listed) |\n| **Mentorship / Technical Leadership** | 8% | 4 | 0.32 | On-call rotation lead, incident retrospectives (mentorship not explicitly stated) |\n\n---\n\n## Total Weighted Score: **4.67 / 5.00 (93.4%)**\n\n---\n\n## Summary Assessment\n\nTrevor is an exceptionally strong match. He satisfies every required qualification — including the education clause via equivalent practical experience — and checks nearly every preferred qualification as well. His six years in payments infrastructure directly mirrors the role's domain, and his technical stack (Python, Java, Kafka, Terraform, Kubernetes, AWS) is an almost exact overlap with the job's requirements and preferences.\n\n**Gaps are minor:** No explicit mention of mentoring junior engineers or Datadog. Neither is disqualifying.\n\n---\n\nFINAL: ADVANCE"
+}

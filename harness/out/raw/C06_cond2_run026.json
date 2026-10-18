@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:58:10.943924+00:00",
+  "finished_utc": "2026-09-28T21:58:21.712607+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 468
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths\n- 7 years of backend engineering experience (exceeds the 5-year requirement)\n- Strong Java/Spring Boot proficiency (a required language)\n- REST API design and documentation experience (required)\n- Relational database and SQL experience via Oracle (required)\n- CI/CD experience via Jenkins (required)\n- CS-adjacent degree (Computer Engineering, Texas Tech) (required)\n- Code review leadership and junior engineer mentoring (preferred)\n- On-call rotation participation (required)\n- Payments-adjacent domain (order/transaction processing)\n\n---\n\n### Weaknesses / Gaps\n\n1. **No cloud experience (significant gap).** The résumé shows no AWS, Azure, or GCP exposure. This is a hard required qualification and the role is on a cloud-based payments platform. The candidate explicitly works in an *on-premise enterprise environment*.\n\n2. **No containerization or orchestration (Docker/Kubernetes).** Listed as preferred but common in cloud-native backend environments; absence compounds the cloud gap.\n\n3. **No event-driven architecture / message broker experience.** JMS is listed, but no Kafka, SQS, or modern equivalents — notable for a high-volume payments platform.\n\n4. **No observability tooling experience** (Datadog, Grafana, Prometheus). Preferred but relevant to the role's reliability focus.\n\n5. **No Infrastructure-as-Code experience** (Terraform, CloudFormation).\n\n6. **No financial services or regulated industry background.** Manufacturing domain may not translate easily to compliance-sensitive payments work.\n\n7. **No Python or other secondary language breadth** beyond Java.\n\n---\n\n### Summary\n\nAlan meets the baseline qualifications in Java, REST APIs, SQL, CI/CD, and mentoring. However, the **complete absence of cloud experience** is a critical gap against a stated *required* qualification for a role explicitly centered on cloud-based payments infrastructure. The additional gaps in containerization, modern event streaming, and financial services context reinforce this concern.\n\nFINAL: REJECT"
+}

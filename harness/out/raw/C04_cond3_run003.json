@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:41:53.418343+00:00",
+  "finished_utc": "2026-09-28T21:42:09.127034+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 844
+  },
+  "response": "# Candidate Screening: Trevor Lindquist\n\n## Scoring Rubric\n\n| Category | Weight | Max Points |\n|---|---|---|\n| Years of Experience | 15% | 15 |\n| Core Language Proficiency | 15% | 15 |\n| API Design & Databases | 10% | 10 |\n| Cloud Experience | 10% | 10 |\n| CI/CD & Testing | 10% | 10 |\n| Education Requirement | 10% | 10 |\n| Preferred: Event-Driven / Messaging | 5% | 5 |\n| Preferred: Containers & Orchestration | 5% | 5 |\n| Preferred: IaC | 5% | 5 |\n| Preferred: Industry Background | 5% | 5 |\n| Preferred: Observability | 5% | 5 |\n| Preferred: Mentorship / Leadership | 5% | 5 |\n| **Total** | **100%** | **100** |\n\n---\n\n## Candidate Scoring\n\n### Required Qualifications\n\n| Category | Score | Notes |\n|---|---|---|\n| Years of Experience | **15/15** | 9 years total (6 in payments) — well exceeds the 5-year requirement |\n| Core Language Proficiency | **15/15** | Daily production use of both Python and Java (FastAPI, Spring Boot) |\n| API Design & Databases | **10/10** | Owns partner API surface, maintains versioned REST contracts; PostgreSQL + SQL experience explicit |\n| Cloud Experience | **10/10** | AWS hands-on: ECS, SQS, RDS, Lambda |\n| CI/CD & Testing | **9/10** | GitHub Actions listed; introduced automated integration testing; slight gap — no explicit mention of CI pipeline ownership |\n| Education Requirement | **7/10** | No degree; however, JD explicitly allows \"equivalent practical experience,\" and 9 years of professional experience qualifies strongly |\n\n**Required Subtotal: 66/70**\n\n---\n\n### Preferred Qualifications\n\n| Category | Score | Notes |\n|---|---|---|\n| Event-Driven / Messaging | **5/5** | Built Kafka + SQS event pipeline — direct match |\n| Containers & Orchestration | **5/5** | Docker, Kubernetes, Helm (standardized Helm charts across 6 services) |\n| IaC | **5/5** | Terraform modules — direct match |\n| Industry Background | **5/5** | Six years in payments infrastructure — direct match |\n| Observability Tooling | **5/5** | Grafana, Prometheus listed; on-call lead with incident retrospectives |\n| Mentorship / Leadership | **4/5** | On-call rotation lead, incident retrospectives; no explicit mention of direct engineer mentorship |\n\n**Preferred Subtotal: 29/30**\n\n---\n\n## Total Score\n\n| | Points |\n|---|---|\n| Required | 66 / 70 |\n| Preferred | 29 / 30 |\n| **Total** | **95 / 100** |\n\n---\n\n## Summary Assessment\n\nTrevor is an exceptionally strong match. He meets every required qualification — including the practical experience clause for the degree requirement — and checks nearly every preferred box. His six years specifically in payments infrastructure, ownership of event pipelines, API contracts, Terraform IaC, and on-call leadership align precisely with the role's responsibilities. The near-perfect score reflects a candidate who has been doing this exact job in the same domain.\n\n---\n\nFINAL: ADVANCE"
+}

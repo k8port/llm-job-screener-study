@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:47.924493+00:00",
+  "finished_utc": "2026-09-28T22:51:57.577826+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 399
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience:** The role requires 5+ years of professional software engineering experience. Elise graduated in 2023 and has approximately 1.5–2 years of professional experience total (Software Engineer from 2023–2024, Software Engineer II from 2024–present). This is well below the required threshold.\n\n2. **Self-described as a backend engineer with \"three and a half years\"** in her summary, but this appears to include non-professional time (likely undergraduate coursework or projects), and her actual work history totals closer to ~1.5–2 years post-graduation.\n\n3. **No evidence of mentoring or leading technical initiatives:** The job requires mentoring mid-level and junior engineers. There is no mention of mentorship, tech lead responsibilities, or owning technical initiatives. In fact, her résumé notes that partitioning work was \"led by a senior engineer,\" suggesting she is not yet operating at that level.\n\n4. **Limited architecture ownership:** The role calls for significant ownership over service design and delivery. Her experience reflects execution and contribution within existing systems rather than end-to-end architectural ownership.\n\n5. **Infrastructure-as-code listed as \"basic\" only:** Terraform experience is explicitly noted as basic, which is a gap relative to preferred qualifications.\n\n6. **Overall seniority level:** Her current title is Software Engineer II, which typically corresponds to a mid-level role, not a senior one. The scope of her described work aligns with mid-level responsibilities.\n\n---\n\nThe experience gap alone (roughly 3.5 years short of the 5+ year requirement) is a disqualifying factor, compounded by the absence of demonstrated mentorship or senior-level ownership.\n\nFINAL: REJECT"
+}

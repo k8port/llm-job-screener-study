@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:42:05.066331+00:00",
+  "finished_utc": "2026-09-28T22:42:17.627817+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 598
+  },
+  "response": "# Candidate Screening: Curtis Ballinger\n\n## Scoring Rubric\n\n| Requirement | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| **5+ years software engineering experience** | High | 0 | 9 years of *systems administration*, not software engineering. Scripting/automation ≠ backend dev. |\n| **Java, Python, or comparable backend language** | High | 0 | No Python, Java, or backend language listed. Bash/PowerShell are scripting/ops tools. |\n| **RESTful API design & consumption** | High | 0 | No mention of API work anywhere. |\n| **Relational databases / SQL** | Medium | 1 | Listed as \"SQL (basic)\" — far below required proficiency. |\n| **Cloud provider (AWS, Azure, GCP)** | High | 1 | Azure VM and networking administration — present but ops-focused, not application development. |\n| **CI/CD pipelines & automated testing** | Medium | 0 | No CI/CD mentioned. Git listed as \"basic.\" |\n| **Bachelor's in CS or related field** | Low | 2 | B.A.S. in Information Technology — meets the spirit of this requirement. |\n\n## Preferred Qualifications Assessment\n\n| Preferred Qualification | Present? |\n|---|---|\n| Event-driven architecture / Kafka / SQS | ❌ |\n| Docker / Kubernetes | ⚠️ Docker (basic only), no Kubernetes |\n| Infrastructure-as-code (Terraform, CloudFormation) | ❌ |\n| Financial services / regulated industry | ⚠️ Healthcare (regulated), but not payments |\n| Observability tooling (Datadog, Grafana, Prometheus) | ❌ (Nagios only) |\n| Mentoring / technical leadership | ❌ |\n\n## Summary Assessment\n\nCurtis brings solid infrastructure and operational experience, including relevant Azure exposure and work in a regulated healthcare environment. However, he does not meet the **core requirements** of this role:\n\n- **No backend software development experience**\n- **No proficiency in a backend programming language**\n- **No API development experience**\n- **No CI/CD or automated testing experience**\n\nHis role is fundamentally that of a sysadmin, not a software engineer. The gap between his skill set and the Senior Software Engineer requirements is substantial and not bridgeable by adjacent experience.\n\n**Total weighted score: ~4/21 (≈19%)** — Well below threshold for advancement.\n\n---\n\nFINAL: REJECT"
+}

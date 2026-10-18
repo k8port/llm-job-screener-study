@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:33.433393+00:00",
+  "finished_utc": "2026-09-30T18:41:42.478560+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 415
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 1 year as a full Software Engineer (2025–Present) and roughly 1 year as an intern, totaling ~2 years. This is a significant shortfall.\n\n2. **No cloud platform depth**: The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which indicates surface-level familiarity, not the production-grade cloud experience expected at the senior level.\n\n3. **No evidence of system design or architecture ownership**: The role requires designing scalable backend services and participating in architecture discussions. Dana's experience is limited to maintaining existing endpoints and contributing to pipelines maintained by others—no independent design ownership is demonstrated.\n\n4. **No experience with event-driven architecture or message brokers**: Kafka, SQS, or similar tools are preferred and relevant to a payments platform. Dana shows no exposure.\n\n5. **No containerization or orchestration experience**: Docker and Kubernetes are preferred; no mention in the résumé.\n\n6. **No infrastructure-as-code experience**: Terraform or CloudFormation are preferred; no mention.\n\n7. **No observability tooling experience**: Datadog, Grafana, Prometheus are preferred; no mention.\n\n8. **No mentorship or technical leadership experience**: The role requires mentoring junior/mid-level engineers. Dana is a junior engineer with no indication of leading others.\n\n9. **No payments or regulated industry background**: Relevant preferred experience that Dana entirely lacks.\n\n10. **Junior self-assessment**: Dana's own summary acknowledges only two years of experience and frames goals as \"eager to take on backend ownership\"—language more consistent with a mid-level candidate at best.\n\n---\n\nFINAL: REJECT"
+}

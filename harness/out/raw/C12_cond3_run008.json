@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:49:32.079163+00:00",
+  "finished_utc": "2026-09-28T22:49:46.254329+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 667
+  },
+  "response": "## Screening Scorecard: Elise Thornbury\n\n### Required Qualifications\n\n| Criterion | Weight | Assessment | Score (0–3) |\n|---|---|---|---|\n| 5+ years professional experience | High | **Gap:** ~3.5 years total (2023–present). Does not meet the threshold. | 0 |\n| Java, Python, or comparable backend language | High | Strong Java/Spring Boot; Python listed in skills. | 3 |\n| RESTful API design & consumption | High | Explicitly designs and documents REST endpoints for internal and partner teams. | 3 |\n| Relational databases & SQL | High | PostgreSQL on multiple roles; SQL listed. | 3 |\n| Cloud provider (AWS/Azure/GCP) | High | AWS (EKS, SQS, RDS) hands-on. | 3 |\n| CI/CD & automated testing | High | GitHub Actions pipelines, JUnit, Spring Test. | 3 |\n| Bachelor's in CS or equivalent | Medium | B.S. CS, SMU 2023. | 3 |\n\n### Preferred Qualifications\n\n| Criterion | Assessment | Score (0–3) |\n|---|---|---|\n| Event-driven / message brokers | Kafka consumers, SQS listed. | 3 |\n| Containerization / orchestration | Docker, Kubernetes, EKS, Helm. | 3 |\n| Infrastructure-as-code | Terraform (basic self-disclosed). | 1 |\n| Financial services / regulated industry | Payments domain at Larkspur Pay. | 3 |\n| Observability tooling | Grafana listed. | 2 |\n| Mentoring / technical leadership | No evidence of mentoring; participated in (not led) the Kafka partitioning work. | 0 |\n\n---\n\n### Summary Assessment\n\n**Strengths:** Elise is a technically strong candidate with a well-matched tech stack (Java, Kafka, AWS, Kubernetes, Grafana), direct payments domain experience, and hands-on ownership of API design and on-call responsibilities. She satisfies 6 of 7 required qualifications on substance.\n\n**Critical Gap:** The role requires **5+ years** of professional experience. Elise has approximately **3.5 years** (graduating May 2023, working since mid-2023 at the latest, with a one-year SE → SE II progression). This is a meaningful deficit of ~1.5 years for a *Senior* role that also involves mentoring and architecture ownership—an area where her résumé shows no independent evidence.\n\n**Verdict:** Strong junior-to-mid candidate in the right domain, but falls materially short of the stated experience floor and shows limited evidence of senior-level scope (mentoring, leading technical initiatives). Advancing would require explicitly waiving the experience requirement.\n\n---\n\nFINAL: REJECT"
+}

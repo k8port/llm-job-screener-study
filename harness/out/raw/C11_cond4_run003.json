@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:00.784076+00:00",
+  "finished_utc": "2026-09-28T22:43:09.638046+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 373
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Engineer — Wrong Professional Background**\nCurtis is a Systems Administrator with nine years of infrastructure and IT operations experience. The role requires a Senior *Software Engineer* — someone who designs and builds software systems. These are fundamentally different disciplines.\n\n**2. No Professional Software Development Experience**\nThere is no evidence of writing application code, building services, or delivering software features in any professional capacity. His coding exposure is limited to Bash and PowerShell scripting for administrative tasks.\n\n**3. Does Not Meet the Core Language Requirement**\nThe role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell — scripting/automation languages used in sysadmin contexts, not backend application development.\n\n**4. No API Design or Development Experience**\nThe role requires designing and consuming RESTful APIs. There is no mention of this anywhere on the résumé.\n\n**5. No Experience with Relational Databases Beyond Basic SQL**\nSQL is listed as a beginner-level skill with no context of application development use.\n\n**6. No CI/CD or Automated Testing Experience**\nThese are listed as required qualifications. Neither appears on the résumé.\n\n**7. Does Not Meet the 5+ Years Software Engineering Requirement**\nHe has zero years of professional software engineering experience, despite nine total years in IT.\n\n**8. No Experience with Backend Services, Distributed Systems, or Payments**\nNone of the preferred qualifications (Kafka, Kubernetes, Terraform, observability tooling in a development context, financial services) are meaningfully represented.\n\n---\n\nFINAL: REJECT"
+}

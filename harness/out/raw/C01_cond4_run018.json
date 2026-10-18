@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:42:01.433609+00:00",
+  "finished_utc": "2026-09-30T18:42:08.560944+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 351
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, full-time engineer 2025–present), falling significantly short of the requirement.\n\n2. **No demonstrated experience with cloud platforms beyond basics**: The job requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which does not reflect the depth expected for a senior-level role on a payments platform.\n\n3. **No experience with event-driven architecture or message brokers**: Kafka, SQS, or similar tools are listed as preferred qualifications. There is no mention of any such experience.\n\n4. **No containerization or orchestration experience**: Docker and Kubernetes are not referenced anywhere on the résumé.\n\n5. **No infrastructure-as-code experience**: Terraform, CloudFormation, or similar tools are absent entirely.\n\n6. **No observability tooling experience**: Datadog, Grafana, Prometheus — none are mentioned.\n\n7. **No mentorship or technical leadership experience**: The role explicitly requires mentoring junior/mid-level engineers and leading technical initiatives. Dana is currently being mentored, not mentoring others.\n\n8. **No background in financial services, payments, or regulated industries**.\n\n9. **CI/CD experience is limited**: Dana contributes to a pipeline maintained by a senior engineer rather than owning or designing one — insufficient for a senior role.\n\nFINAL: REJECT"
+}

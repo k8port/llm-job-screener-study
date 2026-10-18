@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:58:54.317831+00:00",
+  "finished_utc": "2026-09-28T21:59:09.330479+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 808,
+    "output_tokens": 726
+  },
+  "response": "## Screening Rubric & Scoring — Alan Brightwell\n\n### Required Qualifications (each worth up to 10 pts)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total; Senior since 2022 | 10/10 |\n| Java, Python, or comparable backend language | Java/Spring Boot — strong match | 10/10 |\n| RESTful API design & consumption | Explicitly owns REST API design; documents for consuming teams | 10/10 |\n| Relational databases & SQL | Oracle, SQL, PL/SQL, stored procedures — strong match | 10/10 |\n| Major cloud provider (AWS, Azure, GCP) | **Not mentioned anywhere** | 0/10 |\n| CI/CD pipelines & automated testing | Jenkins pipelines, JUnit — adequate match | 8/10 |\n| Bachelor's degree or equivalent | B.S. Computer Engineering, Texas Tech | 10/10 |\n\n**Required subtotal: 58/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 pts)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | JMS listed — partial; not Kafka/SQS | 2/5 |\n| Containerization & orchestration (Docker, K8s) | Not mentioned | 0/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | Not mentioned | 0/5 |\n| Financial services / regulated industry background | Manufacturing, not payments/fintech | 1/5 |\n| Observability tooling (Datadog, Grafana, Prometheus) | Not mentioned | 0/5 |\n| Mentoring / leading technical initiatives | Mentors 2 junior engineers; leads code review for 6 | 5/5 |\n\n**Preferred subtotal: 8/30**\n\n---\n\n### Overall Score: 66/100\n\n---\n\n### Key Findings\n\n**Strengths:**\n- Solid 7-year Java backend career with direct relevance to service design and high-volume processing\n- Strong SQL/Oracle depth; REST API ownership; CI/CD and testing experience\n- Demonstrated mentorship and code review leadership — aligns with senior role expectations\n- Located in Arlington, TX — commutable to Plano\n\n**Critical Gap:**\n- **Zero cloud experience** — AWS/Azure/GCP is a hard required qualification for a Payments Platform team. This is a significant disqualifier for a role that almost certainly runs cloud-native infrastructure.\n\n**Notable Gaps:**\n- No containerization, IaC, or observability tooling experience\n- On-premise only background; no exposure to regulated financial environments\n- JMS experience is a thin proxy for Kafka/SQS but not equivalent\n\n---\n\n### Judgment\n\nThe candidate is a competent senior Java engineer, but the **complete absence of cloud experience** fails a stated required qualification on a platform team that processes high-volume transactions in a cloud environment. The gap is too fundamental to overlook at the senior level.\n\nFINAL: REJECT"
+}

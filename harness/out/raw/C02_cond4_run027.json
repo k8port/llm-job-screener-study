@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:26:04.883734+00:00",
+  "finished_utc": "2026-09-28T21:26:15.560232+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 392
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\nReviewing Marcus Ellery's résumé against the job description, I looked hard for disqualifying factors. The reasons to not advance are minimal and largely superficial:\n\n1. **No explicit mention of Azure or GCP** – The JD lists AWS, Azure, or GCP. Marcus lists AWS specifically. While AWS satisfies the requirement, he has no demonstrated breadth across cloud platforms, which could matter if the company's stack leans on Azure or GCP.\n\n2. **Limited infrastructure-as-code depth visible** – Terraform is listed in his skills, but there are no specific examples of IaC work described in his experience bullets. This preferred qualification is asserted but not substantiated.\n\n3. **Python listed in skills but no demonstrated use** – The JD values Python or Java; Python appears in his skills section but no project or role references it, suggesting it may be superficial.\n\n4. **Mentorship described narrowly** – He mentions mentoring two mid-level engineers, but the scope is limited (onboarding and architecture reviews). The role calls for mentoring junior engineers and potentially leading small technical initiatives; leadership depth is not strongly demonstrated.\n\n5. **Only one employer for six of eight years** – Depth at one company is not a flaw, but it may limit exposure to varied engineering cultures and toolchains.\n\n## Judgment\n\nThese are minor gaps against an otherwise exceptionally well-matched profile. Marcus meets or exceeds virtually every required and preferred qualification — years of experience, Java, APIs, SQL, AWS, CI/CD, Kafka, Docker/Kubernetes, Terraform, Datadog, financial services background, and mentorship. The reasons not to advance do not constitute meaningful disqualifiers.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:09.640197+00:00",
+  "finished_utc": "2026-09-28T22:43:19.582179+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 398
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer:** Curtis is a Systems Administrator by title and function. The role requires a Senior *Software Engineer* with hands-on software development experience — designing, building, and maintaining applications and APIs. His background is in infrastructure operations, not software development.\n\n2. **No backend development experience:** The job requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell — scripting languages used for automation and administration, not application development.\n\n3. **No API design or consumption experience:** The role requires experience designing and consuming RESTful APIs. There is no mention of this anywhere in his résumé.\n\n4. **Insufficient SQL/database experience:** SQL is listed as a skill but qualified with \"(basic),\" which does not meet the standard of a senior engineer working on high-volume transaction systems.\n\n5. **No CI/CD or automated testing experience:** These are explicitly required qualifications. Neither appears on his résumé.\n\n6. **No software architecture or code review experience:** Core responsibilities of the role include architecture discussions and code review, which are absent from his background entirely.\n\n7. **Cloud experience is infrastructure-only:** While he has Azure experience, it is limited to VM and network administration — not cloud-native application development (e.g., managed services, event streaming, serverless).\n\n8. **Docker listed as \"basic\":** The role prefers containerization experience; his self-assessed level is minimal.\n\n9. **No mentorship or technical leadership of engineers:** He maintains documentation and runbooks but has not led engineers or technical initiatives.\n\n10. **Nine years of experience in the wrong discipline:** Despite tenure, his experience does not translate to the software engineering competencies required for this role.\n\n---\n\nFINAL: REJECT"
+}

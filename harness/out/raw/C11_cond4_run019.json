@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:36.411619+00:00",
+  "finished_utc": "2026-09-28T22:43:45.562054+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 380
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer — Systems Administrator background**: Curtis's entire career is in infrastructure and systems administration, not software engineering. The role requires designing and building backend services and APIs, which is a fundamentally different discipline.\n\n2. **No professional software development experience**: The job requires 5+ years of professional software engineering. Curtis has 0 years in a software engineering role. Scripting for automation (Bash/PowerShell) does not substitute for application development experience.\n\n3. **No backend language proficiency**: The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell (scripting languages used for ops tasks), with no mention of Java, Python, Go, or any application development language.\n\n4. **No API design or consumption experience**: There is no evidence of RESTful API design or consumption experience anywhere on the résumé.\n\n5. **SQL listed as \"basic\"**: The role requires meaningful experience with relational databases and SQL. Curtis self-rates this as basic.\n\n6. **No CI/CD or automated testing experience**: Neither is mentioned on the résumé.\n\n7. **Cloud experience is infrastructure-only**: Azure VM and networking administration does not translate to cloud-native application development (e.g., managed services, serverless, cloud SDKs).\n\n8. **No experience with preferred qualifications**: No Kafka/SQS, no Kubernetes (Docker listed as basic), no Terraform, no observability tooling relevant to application development, no mentoring of engineers.\n\n9. **No payments or backend product domain experience**: No background in financial services or any product-oriented engineering context.\n\nFINAL: REJECT"
+}

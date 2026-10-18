@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:06.821206+00:00",
+  "finished_utc": "2026-09-28T21:49:18.037569+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 492
+  },
+  "response": "## Screening Assessment: Nora Kessler\n\n### Identified Weaknesses\n\n1. **Not a software engineer — data/analytics background only.** Nora's entire career is in data analysis and reporting, not backend software engineering. She has no demonstrated experience designing or building backend services, APIs, or production software systems.\n\n2. **No backend/API development experience.** The role requires designing and consuming RESTful APIs. Nora's résumé shows no mention of API work whatsoever — neither building nor consuming them.\n\n3. **Python used only for scripting/data tasks, not backend engineering.** While Python is listed as a skill, her use is limited to Pandas, NumPy, data cleaning scripts, and Jupyter notebooks — not backend service development, frameworks (e.g., FastAPI, Django, Flask), or production application code.\n\n4. **No cloud engineering experience.** Her AWS exposure is described as \"basic\" (S3 and Athena only), which is far below the hands-on cloud engineering experience required for a senior engineering role managing high-volume payments infrastructure.\n\n5. **No CI/CD or automated testing experience.** There is no mention of CI/CD pipelines, unit/integration testing, or deployment automation — all required qualifications.\n\n6. **No experience with distributed systems, event-driven architecture, or containerization.** None of the preferred qualifications (Kafka, Docker, Kubernetes, Terraform, etc.) are evidenced.\n\n7. **No experience in payments or transaction systems.** The role centers on a Payments Platform; her background is in insurance reporting and health analytics with no transactional systems experience.\n\n8. **No mentorship or technical leadership experience** relevant to a senior engineering context.\n\n9. **Years of experience are in analytics, not engineering.** While she has 6 years of work experience, none of it counts toward the \"5+ years of professional *software engineering* experience\" requirement.\n\n---\n\n### Summary\n\nNora is a competent senior data analyst, but she does not meet the core requirements for this Senior Software Engineer role in any meaningful way. The gaps are fundamental — not peripheral — spanning role type, technical skills, and domain experience.\n\nFINAL: REJECT"
+}

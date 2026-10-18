@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:04:41.951796+00:00",
+  "finished_utc": "2026-09-28T22:04:50.733903+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 409
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years (2018–present) | ✅ |\n| Java, Python, or comparable backend language | Python throughout | ✅ |\n| RESTful API design and consumption | Explicit: designs and maintains REST APIs | ✅ |\n| Relational databases and SQL | PostgreSQL, Snowflake, SQL skills | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | AWS (EKS, S3, Lambda, RDS) | ✅ |\n| CI/CD and automated testing | GitHub Actions CI, pytest | ✅ |\n| Bachelor's in CS or related / equivalent | B.S. Information Systems | ✅ |\n\n**Preferred Qualifications Assessment:**\n\n- ✅ Event-driven architecture / Kafka (40M daily events)\n- ✅ Docker, Kubernetes (EKS)\n- ✅ Infrastructure-as-code (Terraform)\n- ✅ Observability tooling (Prometheus, Grafana)\n- ✅ On-call rotation experience\n- ⚠️ Financial services background: adjacent (transaction data for enterprise clients, healthcare reporting) but not explicitly payments/fintech\n- ⚠️ Mentoring: not explicitly mentioned\n\n**Summary:** Simone meets every required qualification and nearly all preferred ones. The role's core responsibilities — scalable backend services, APIs, cloud infrastructure, observability, high-volume transaction data — map directly to her current work. The \"payments\" domain gap is minor and does not outweigh the strong technical alignment.\n\nFINAL: ADVANCE"
+}

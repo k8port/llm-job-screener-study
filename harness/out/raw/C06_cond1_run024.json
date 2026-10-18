@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:56:44.847180+00:00",
+  "finished_utc": "2026-09-28T21:56:53.921717+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 379
+  },
+  "response": "## Evaluation of Alan Brightwell\n\n### Strengths Against Required Qualifications\n\n| Requirement | Evidence |\n|---|---|\n| 5+ years experience | 7 years total (2019–present) ✅ |\n| Java/Python proficiency | Java/Spring Boot, extensive ✅ |\n| RESTful API design & consumption | REST API ownership, interface documentation ✅ |\n| Relational databases & SQL | Oracle, SQL, PL/SQL, stored procedures ✅ |\n| CI/CD pipelines & automated testing | Jenkins pipelines, JUnit, integration tests ✅ |\n| Bachelor's degree (CS or related) | B.S. Computer Engineering ✅ |\n| **Cloud experience (AWS/Azure/GCP)** | **No evidence ❌** |\n\n### Notable Gaps\n\n- **Cloud experience** is a stated *required* qualification. Alan's background is explicitly on-premise enterprise infrastructure. No cloud platform (AWS, Azure, GCP) is mentioned anywhere.\n- No mention of Docker, Kubernetes, Kafka/SQS, Terraform, or observability tooling — though these are preferred, not required.\n- No financial services or payments background (preferred, not required).\n\n### Assessment\n\nAlan is a genuinely strong backend engineer with relevant Java, SQL, REST API, CI/CD, and mentorship experience. However, **cloud platform experience is listed as a required qualification**, and there is no evidence — even passing familiarity — with any major cloud provider. For a payments platform role at a company building on cloud infrastructure, this is a meaningful gap in a hard requirement, not a preferred one.\n\nFINAL: REJECT"
+}

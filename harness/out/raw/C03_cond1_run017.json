@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:29:54.950856+00:00",
+  "finished_utc": "2026-09-28T21:30:07.925832+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 493
+  },
+  "response": "## Evaluation\n\n### Strengths\n\n- **Years of experience**: 7 years total, exceeding the 5-year minimum\n- **Backend work**: Has Node.js/Express service development, which is a backend-adjacent language (though not Java or Python, the primary preferred languages)\n- **REST APIs**: Clear experience designing and consuming RESTful APIs\n- **SQL/Relational DB**: PostgreSQL listed in skills\n- **Cloud (AWS)**: S3, CloudFront, Lambda — some AWS experience\n- **CI/CD**: GitHub Actions pipeline experience\n- **Mentoring**: Mentors junior engineers\n- **Location**: Frisco, TX — compatible with Plano, TX hybrid requirement\n\n### Gaps / Concerns\n\n- **Primary identity is frontend-focused**: Self-described as \"frontend-focused,\" and the bulk of experience is in React/TypeScript UI work, not backend systems engineering\n- **No Java or Python**: Uses Node.js/JavaScript, which is \"comparable\" but less aligned with a payments platform context; the depth of backend engineering appears limited\n- **No payments, financial services, or regulated industry experience**: The role is specifically on a Payments Platform processing high-volume enterprise transactions — a significant domain mismatch\n- **No event-driven architecture / Kafka / SQS**: Not mentioned\n- **No Kubernetes/container orchestration**: Only Docker listed, no Kubernetes\n- **Degree**: B.A. in Graphic Design — not CS or related technical field, though practical experience can substitute\n- **Scale/reliability engineering**: No evidence of observability tooling, on-call experience, or high-volume transaction systems\n- **Backend depth is thin**: The Node.js work appears to be an aggregation/session layer supporting a frontend portal, not core distributed systems or scalable service design\n\n### Conclusion\n\nThe candidate lacks sufficient evidence of the depth required for a **Senior Backend/Payments Platform** role. The backend experience is incidental to frontend work, there's no relevant domain experience, and critical preferred qualifications (Kafka, Kubernetes, observability, payments) are absent. The risk of a mismatch is high for a hands-on role with significant ownership over backend service design.\n\nFINAL: REJECT"
+}

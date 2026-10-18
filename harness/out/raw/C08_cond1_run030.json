@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:40.409377+00:00",
+  "finished_utc": "2026-09-28T22:14:50.053288+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 390
+  },
+  "response": "## Assessment: Grant Pemberton for Senior Software Engineer (Payments Platform)\n\n### Strengths\n- **5 years of professional experience** in software engineering-adjacent work, meeting the minimum years threshold\n- **Java proficiency** through test automation development (building and maintaining automated suites)\n- **REST API experience** — writing API-level tests against REST endpoints, validating contracts\n- **SQL listed** as a skill\n- **CI/CD exposure** via Jenkins pipeline maintenance\n- **Relevant degree** (B.S. IT from Texas State University)\n- Local to Garland, TX (near Plano)\n\n### Significant Gaps\n- **Not a software developer** — the candidate is a QA/test automation engineer and explicitly self-describes as \"transitioning toward software development.\" The role requires designing and building backend services and APIs, not testing them.\n- **No evidence of designing or building production backend services** — consuming/testing APIs is fundamentally different from architecting and building them\n- **No cloud provider experience** (AWS, Azure, GCP) — a required qualification with no mention on the résumé\n- **No database design experience** — SQL is listed as a skill but only in a testing context\n- **No mentoring experience** listed — a required soft skill for a senior role\n- **No preferred qualifications met** (Kafka, Docker/Kubernetes, Terraform, payments/fintech, observability tooling)\n- The most senior recent role is \"Senior QA Engineer,\" not a software engineering title\n\n### Conclusion\nWhile the candidate has adjacent technical exposure, there is insufficient evidence they can perform the core responsibilities of designing and building scalable backend services, owning service architecture, or mentoring engineers on a payments platform team.\n\nFINAL: REJECT"
+}

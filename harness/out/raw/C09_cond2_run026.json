@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:24:03.925921+00:00",
+  "finished_utc": "2026-09-28T22:24:15.112754+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 502
+  },
+  "response": "## Screening Assessment: Raymond Dolliver\n\n### Potential Weaknesses\n\n1. **No meaningful cloud experience.** The job requires hands-on experience with AWS, Azure, or GCP. The résumé shows no cloud exposure whatsoever — the candidate's stack is mainframe/on-premises (z/OS, WebSphere, DB2).\n\n2. **Outdated Java stack.** The candidate uses Java 8 in a legacy JSP/Servlet context. There is no evidence of modern Java frameworks (Spring Boot, Quarkus, etc.) or contemporary API design patterns used in microservices architectures.\n\n3. **No REST API experience.** Designing and consuming RESTful APIs is a required qualification. The candidate's Java work appears to be internal web tooling (JSP), not API development.\n\n4. **No CI/CD pipeline experience.** Jenkins is listed as \"basic\" only, and there is no evidence of CI/CD pipeline ownership or automated testing practices.\n\n5. **No containerization or orchestration.** Docker and Kubernetes are preferred; the candidate shows no familiarity.\n\n6. **No event-driven architecture or message brokers.** Kafka, SQS, or equivalents are preferred and highly relevant to a payments platform; absent from the résumé.\n\n7. **No observability tooling.** Datadog, Grafana, Prometheus — none present.\n\n8. **No infrastructure-as-code experience.** Terraform or CloudFormation — not mentioned.\n\n9. **Technology stack is fundamentally misaligned.** The bulk of experience is in COBOL/JCL/z/OS — a mainframe world. While the financial domain experience is a modest positive, the technical toolkit does not transfer meaningfully to a modern cloud-native backend engineering role.\n\n10. **No evidence of mentorship or technical leadership.** A preferred qualification with no supporting evidence.\n\n### Summary\n\nRaymond has strong tenure in a regulated financial environment and meets the education and years-of-experience thresholds, but his technical profile is largely incompatible with the role's core requirements. The gap spans cloud, modern API development, CI/CD, containerization, and observability — nearly the full required and preferred technical stack.\n\nFINAL: REJECT"
+}

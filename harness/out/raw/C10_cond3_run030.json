@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:34:40.764475+00:00",
+  "finished_utc": "2026-09-28T22:34:52.718773+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 919,
+    "output_tokens": 588
+  },
+  "response": "# Candidate Screening: Josephine Hartwell\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| **Years of experience (5+)** | High | 3 | ~7 years professional software engineering (excl. actuarial) |\n| **Backend language proficiency (Java/Python)** | High | 3 | Java/Spring Boot primary; Python secondary; both explicitly listed |\n| **RESTful API design & consumption** | High | 3 | Designs REST APIs at current role, maintains versioned contracts |\n| **Relational databases & SQL** | High | 3 | PostgreSQL, SQL listed; SQL-backed persistence in prior role |\n| **Cloud provider experience (AWS/Azure/GCP)** | High | 3 | AWS — ECS, SQS, SNS, RDS, Lambda |\n| **CI/CD & automated testing** | High | 3 | GitHub Actions, JUnit, contract testing, CI coverage expansion |\n| **Education (CS/related or equivalent)** | Medium | 2 | B.S. Mathematics — closely related, meets \"equivalent\" standard |\n| **Event-driven architecture / message brokers** | Preferred | 3 | SQS/SNS ownership for cross-domain messaging |\n| **Containerization & orchestration** | Preferred | 3 | Docker + ECS (Terraform deployments); note: no Kubernetes |\n| **Infrastructure-as-code** | Preferred | 3 | Terraform in current and prior roles |\n| **Financial services / regulated industry** | Preferred | 3 | Credit services (payments, loan origination) — strong match |\n| **Observability tooling** | Preferred | 3 | Datadog explicitly listed |\n| **Mentoring / technical leadership** | Preferred | 3 | Mentors two engineers at current role |\n\n---\n\n## Summary Assessment\n\n**Required criteria:** 6/6 fully met — no gaps.\n\n**Preferred criteria:** 6/7 met (minor gap: Kubernetes not evident, ECS used instead — acceptable trade-off).\n\n**Strengths:**\n- Domain alignment with payments/financial services is exceptional\n- Full AWS stack matches job requirements closely\n- Mentoring experience directly aligns with stated responsibility\n- Career break is fully accounted for and candidate returned at a Senior level\n\n**No disqualifying factors identified.**\n\n**Overall Score: ~29/30 (≈97%)**\n\n---\n\nFINAL: ADVANCE"
+}

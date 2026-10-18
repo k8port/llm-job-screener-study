@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:39:20.391006+00:00",
+  "finished_utc": "2026-09-28T21:39:29.744511+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 945,
+    "output_tokens": 418
+  },
+  "response": "## Evaluation\n\n**Required Qualifications — Assessment**\n\n| Requirement | Evidence |\n|---|---|\n| 5+ years professional experience | 9 years total, 6 in payments — well exceeds threshold |\n| Java, Python, or comparable backend language | Python and Java explicitly listed and demonstrated in work history |\n| RESTful API design and consumption | Owns partner integration API surface; versioned REST contracts |\n| Relational databases and SQL | PostgreSQL, SQL listed; used in merchant onboarding services |\n| Major cloud provider (AWS, Azure, GCP) | AWS (ECS, SQS, RDS, Lambda) — hands-on |\n| CI/CD and automated testing | GitHub Actions, introduced automated integration testing |\n| Bachelor's degree or equivalent practical experience | No degree, but structured apprenticeship + 9 years experience; JD explicitly allows \"equivalent practical experience\" |\n\n**Preferred Qualifications — Assessment**\n\n- ✅ Event-driven architecture / Kafka, SQS — directly built event pipelines\n- ✅ Docker, Kubernetes, Helm — all listed and applied\n- ✅ Terraform (IaC) — standardized Terraform modules across six services\n- ✅ Financial services / payments background — 6 years in payments infrastructure\n- ✅ Observability tooling — Grafana, Prometheus listed\n- ✅ Mentoring / technical leadership — on-call lead, incident retrospectives\n\n**Summary**\n\nTrevor meets or exceeds every required qualification and satisfies every preferred qualification. The only potential flag is the absence of a formal degree, but the job description explicitly accommodates equivalent practical experience, and his 9-year track record with a structured apprenticeship origin clearly qualifies. The depth of payments domain experience is a particular strength for this role.\n\nFINAL: ADVANCE"
+}

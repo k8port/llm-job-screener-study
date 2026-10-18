@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:40:07.006929+00:00",
+  "finished_utc": "2026-09-30T18:40:21.274072+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 717
+  },
+  "response": "## Screening Scorecard: Dana Whitfield\n\n### Scoring Rubric\nEach criterion is scored 0–2: **0 = Not met, 1 = Partially met, 2 = Fully met**\n\n---\n\n### Required Qualifications\n\n| Criterion | Notes | Score |\n|---|---|---|\n| 5+ years professional experience | ~1 year full-time (intern → engineer, 2024–present); summary self-reports \"two years\" but timeline suggests ~1–1.5 years post-degree | **0** |\n| Java, Python, or comparable backend language | Java / Spring Boot clearly demonstrated | **2** |\n| RESTful API design & consumption | REST endpoints in Spring Boot; API documentation written | **2** |\n| Relational databases & SQL | MySQL, SQL queries for operations dashboard | **2** |\n| Cloud provider (AWS, Azure, GCP) | \"Basic AWS (EC2, S3)\" — exposure only, no meaningful depth described | **1** |\n| CI/CD & automated testing | GitHub Actions (maintained by a senior engineer), JUnit, unit/integration tests | **1** |\n| Bachelor's in CS or equivalent | B.S. Computer Science, UT Dallas 2024 | **2** |\n\n**Required subtotal: 10 / 14**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Notes | Score |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | No evidence | **0** |\n| Containerization / Kubernetes | No evidence | **0** |\n| Infrastructure-as-code | No evidence | **0** |\n| Financial services / regulated industry background | No evidence | **0** |\n| Observability tooling (Datadog, Grafana, etc.) | No evidence | **0** |\n| Mentoring / leading technical initiatives | Participates in code review; no mentoring or leadership | **0** |\n\n**Preferred subtotal: 0 / 12**\n\n---\n\n### Summary Assessment\n\n| Area | Score | Max |\n|---|---|---|\n| Required qualifications | 10 | 14 |\n| Preferred qualifications | 0 | 12 |\n| **Total** | **10** | **26** |\n\n---\n\n### Key Disqualifying Factors\n\n1. **Years of experience is critically insufficient.** The role requires **5+ years**; the candidate has approximately **1–1.5 years** of professional experience (internship + ~1 year full-time). This is the single most important hard filter and is not close to being met.\n2. **No senior-level ownership or architecture experience.** Contributions are scoped to feature implementation and defect resolution under senior guidance.\n3. **Zero preferred qualifications met.** No cloud depth, no distributed systems exposure, no mentoring experience.\n\n### Positive Notes (for future consideration)\n- Solid CS foundation and relevant Java/Spring Boot stack alignment.\n- Good fundamentals in testing and SQL.\n- Strong educational background. Candidate may be compelling in 3–4 years.\n\n---\n\nFINAL: REJECT"
+}

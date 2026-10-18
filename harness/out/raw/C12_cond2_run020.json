@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:44.416515+00:00",
+  "finished_utc": "2026-09-28T22:48:54.659996+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 402
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient years of experience (significant gap):** The role requires 5+ years of professional software engineering experience. Thornbury graduated in 2023 and has approximately 1.5–2 years of experience total. This is roughly 3–3.5 years short of the stated requirement — a substantial shortfall, not a marginal one.\n\n2. **Limited depth of ownership:** The Kafka/event-driven work is explicitly described as contributing to work \"led by a senior engineer,\" suggesting she has not yet independently owned complex distributed systems initiatives. The role emphasizes significant ownership over service design and delivery.\n\n3. **Infrastructure-as-code noted as \"basic\":** Terraform experience is self-described as basic, which is below the level implied by the preferred qualification of infrastructure-as-code experience.\n\n4. **No mentorship experience documented:** The role requires mentoring mid-level and junior engineers. There is no mention of mentorship, tech lead activity, or leading technical initiatives on the résumé.\n\n5. **On-call and incident experience appears limited:** Participation in on-call is listed, but there is no indication of meaningful incident ownership or reliability improvement work at the level expected of a Senior engineer.\n\n6. **Recency of degree:** Graduated May 2023, confirming the short professional tenure.\n\n### Summary\n\nThornbury shows a strong technical foundation and relevant domain experience in payments, but she falls materially short on the most concrete, non-negotiable requirement: **5+ years of experience**. The experience gap is approximately 60–70% of the minimum threshold. Combined with the absence of demonstrated mentorship and limited independent ownership, she is more appropriately scoped as a mid-level engineer.\n\nFINAL: REJECT"
+}

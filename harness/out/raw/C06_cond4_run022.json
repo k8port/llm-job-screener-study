@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:01:00.632659+00:00",
+  "finished_utc": "2026-09-28T22:01:12.623285+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 445
+  },
+  "response": "## Reasons Against Advancing Alan Brightwell\n\n**Missing Required Qualifications:**\n\n1. **No cloud experience** — The job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Alan's résumé explicitly describes an \"on-premise enterprise environment\" with no mention of any cloud platform. This is a hard required qualification.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins** — While Jenkins is mentioned in passing (adding integration test stages), there is no demonstrated experience owning or building out CI/CD pipelines in a meaningful way. This is a borderline concern but worth noting.\n\n**Missing Preferred Qualifications (multiple):**\n\n3. **No event-driven architecture / modern message broker experience** — JMS is listed, which is dated; no Kafka, SQS, SNS, or comparable modern broker experience.\n4. **No containerization or orchestration experience** — No Docker or Kubernetes mentioned.\n5. **No infrastructure-as-code experience** — No Terraform, CloudFormation, or equivalent.\n6. **No observability tooling experience** — No Datadog, Grafana, Prometheus, or similar.\n7. **No financial services or payments background** — Industry context is manufacturing/order processing, not a regulated financial environment.\n\n**Role Fit Concern:**\n\n8. **On-premise only background** — The Payments Platform role likely involves cloud-native architecture. The candidate has zero demonstrated exposure to cloud services, which is a foundational gap for this team.\n\n---\n\n**Rationale:** Alan meets several baseline criteria (Java, REST APIs, SQL, years of experience, degree, mentoring). However, the **complete absence of cloud experience** is a disqualifying gap against a clearly stated required qualification. Combined with the lack of preferred skills that are highly relevant to a payments platform (Kafka/SQS, Docker/K8s, observability tooling), the candidate presents a significant skills gap for this specific role.\n\nFINAL: REJECT"
+}

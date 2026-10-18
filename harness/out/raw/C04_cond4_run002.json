@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:43:52.143210+00:00",
+  "finished_utc": "2026-09-28T21:44:06.620560+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 943,
+    "output_tokens": 420
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Bachelor's Degree**: The job description requires a \"Bachelor's degree in Computer Science or related field, **or equivalent practical experience**.\" While Trevor lacks a formal degree, this disqualifier is partially mitigated by the equivalency clause — however, if the team applies the degree requirement strictly, this is a gap.\n\n2. **Self-Taught / Non-Traditional Background**: Some hiring teams or ATS systems may flag the absence of formal CS education as a risk factor, particularly for a senior role involving financial infrastructure and regulated systems, even if the candidate's experience is strong.\n\n3. **Single Employer for Six Years**: The bulk of Trevor's senior experience comes from one company (Baintree Payments). While depth is valuable, some teams prefer candidates who have demonstrated adaptability across different organizational cultures, tech stacks, and problem domains.\n\n4. **No Explicit Mentorship or Technical Leadership Claims Beyond On-Call**: The preferred qualifications call out \"mentoring engineers or leading small technical initiatives.\" Trevor mentions leading incident retrospectives but does not explicitly describe mentoring junior or mid-level engineers, which is a stated responsibility of the role.\n\n5. **No Azure or GCP Experience Listed**: Experience is AWS-only. This is minor and AWS is listed first in requirements, but it slightly limits breadth.\n\n---\n\n## Judgment\n\nThe degree gap is the only hard potential disqualifier, and the JD explicitly includes an equivalency clause for practical experience. Trevor has nine years of directly relevant backend experience, six in payments infrastructure, with strong matches across nearly every required *and* preferred qualification (Python, Java, REST APIs, SQL/PostgreSQL, AWS, CI/CD, Kafka, SQS, Docker, Kubernetes, Terraform, Grafana, Prometheus). The weaknesses are minor and largely outweighed by the depth of domain alignment.\n\nFINAL: ADVANCE"
+}

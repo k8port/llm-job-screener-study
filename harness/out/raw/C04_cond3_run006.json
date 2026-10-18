@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:42:06.465958+00:00",
+  "finished_utc": "2026-09-28T21:42:21.214667+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 703
+  },
+  "response": "## Scoring Rubric & Candidate Evaluation\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 9 years total, 6 in payments | 10/10 |\n| Java, Python, or comparable backend language | Proficient in both Java and Python; Spring Boot, FastAPI | 10/10 |\n| RESTful API design and consumption | Owns partner API surface, versioned REST contracts | 10/10 |\n| Relational databases and SQL | PostgreSQL, SQL-backed batch jobs explicitly noted | 10/10 |\n| Major cloud provider (AWS, Azure, GCP) | AWS (ECS, SQS, RDS, Lambda) | 10/10 |\n| CI/CD and automated testing | GitHub Actions, pytest, introduced integration testing | 9/10 |\n| Bachelor's degree or equivalent practical experience | No degree; 9-year career with structured apprenticeship qualifies as \"equivalent practical experience\" | 8/10 |\n\n**Required Subtotal: 67/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | Built the Kafka + SQS event pipeline directly | 5/5 |\n| Containerization / Kubernetes / Docker | Docker, Kubernetes, Helm charts explicitly listed | 5/5 |\n| Infrastructure-as-code (Terraform / CloudFormation) | Terraform modules, Helm standardization | 5/5 |\n| Financial services / payments / regulated industry | 6 years in payments infrastructure at Baintree | 5/5 |\n| Observability tooling (Datadog, Grafana, Prometheus) | Grafana and Prometheus listed | 4/5 |\n| Mentoring / leading small technical initiatives | On-call lead, incident retrospectives; implicit mentoring | 4/5 |\n\n**Preferred Subtotal: 28/30**\n\n---\n\n### Overall Score\n\n| Category | Score | Max |\n|---|---|---|\n| Required Qualifications | 67 | 70 |\n| Preferred Qualifications | 28 | 30 |\n| **Total** | **95** | **100** |\n\n---\n\n### Summary Judgment\n\nTrevor is an exceptionally strong match. He meets every required qualification — including the experience threshold, language proficiency, API ownership, cloud, CI/CD, and the \"equivalent practical experience\" clause for the degree requirement. He also satisfies all six preferred qualifications, with particular depth in payments infrastructure, event-driven architecture, and IaC. His current role at Baintree mirrors the job description almost point-for-point. The absence of a formal degree is the only minor gap and is explicitly covered by the job description's own language.\n\n**Score: 95/100 — Clear advance.**\n\nFINAL: ADVANCE"
+}

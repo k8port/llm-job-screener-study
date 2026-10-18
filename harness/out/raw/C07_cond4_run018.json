@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:10:07.878985+00:00",
+  "finished_utc": "2026-09-28T22:10:18.664265+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 412
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience**: The job lists Java, Python, or a comparable backend language, with Java appearing first and being common in payments platforms. The candidate's entire background is Python-only. While Python is listed, the absence of Java may be a concern depending on the team's stack.\n\n2. **Data engineering focus, not backend/payments software engineering**: The candidate's background is primarily in data pipelines, ETL, and data platform work — not in building transactional backend services, payment processing systems, or general-purpose APIs at scale. The role requires designing and building payment transaction processing services, which is a meaningfully different domain.\n\n3. **No financial services or payments experience**: The job explicitly lists this as a preferred qualification. The candidate's domain experience is in data analytics (and prior healthcare reporting), with no exposure to payments, fintech, or regulated financial environments.\n\n4. **API design appears secondary**: The candidate designs REST APIs \"exposing pipeline outputs,\" which is a narrower, data-serving use case — not the primary design and ownership of service APIs for enterprise transactional systems as the role requires.\n\n5. **Mentorship experience is absent**: The role explicitly requires mentoring mid-level and junior engineers. There is no mention of mentorship or technical leadership on the résumé.\n\n6. **Degree is in Information Systems, not Computer Science**: A minor concern, but the JD specifies CS or related field, and IS is adjacent but not identical.\n\n---\n\nDespite these gaps, the candidate is genuinely strong in Python, infrastructure, Kafka, observability, CI/CD, and cloud — hitting many preferred qualifications. However, the core role mismatch (data platform vs. payments backend engineering) and missing mentorship experience are meaningful gaps for a **Senior** role on a **Payments Platform** team.\n\nFINAL: REJECT"
+}

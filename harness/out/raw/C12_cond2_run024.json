@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:54.661303+00:00",
+  "finished_utc": "2026-09-28T22:49:04.489297+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 384
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient years of experience (Critical gap):** The role requires **5+ years** of professional software engineering experience. Elise has approximately **3.5 years** (~1 year as SE II + ~1 year as SE I + implied internship/graduation alignment with 2023 degree). This is a meaningful shortfall against a hard requirement, not a preferred one.\n\n2. **Limited scope of technical ownership:** Her résumé notes that the Kafka consumer group partitioning work was \"led by a senior engineer,\" suggesting she has not yet independently led complex distributed systems work. For a senior role with significant ownership expectations, this is a concern.\n\n3. **Terraform listed as \"basic\":** Infrastructure-as-code is a preferred qualification, but her self-described \"basic\" Terraform proficiency suggests limited depth here.\n\n4. **No explicit mentorship experience:** The role requires mentoring mid-level and junior engineers. There is no mention of mentorship, technical leadership, or leading small initiatives on her résumé.\n\n5. **No prior regulated industry experience beyond current role:** She is currently in payments, which is positive, but her tenure is short and her background otherwise lacks depth in regulated-industry contexts.\n\n6. **Cloud depth may be limited:** AWS services are listed, but evidence of deeper architectural decision-making with cloud infrastructure is absent.\n\n### Summary\n\nThe most disqualifying factor is the **years of experience gap** against a stated required qualification (5+ years vs. ~3.5 years). Combined with limited demonstrated ownership and no mentorship experience, she does not yet meet the bar for a senior role at this level.\n\nFINAL: REJECT"
+}

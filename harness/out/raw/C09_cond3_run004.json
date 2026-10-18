@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:24:30.661927+00:00",
+  "finished_utc": "2026-09-28T22:24:47.925528+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 890
+  },
+  "response": "# Résumé Screening — Raymond Dolliver\n\n## Scoring Rubric\n\n| Criterion | Weight | Notes |\n|-----------|--------|-------|\n| Years of experience | 10% | |\n| Backend language proficiency (Java/Python/comparable) | 20% | |\n| RESTful API design & consumption | 15% | |\n| Relational databases & SQL | 10% | |\n| Cloud platform experience (AWS/Azure/GCP) | 15% | |\n| CI/CD & automated testing | 10% | |\n| Preferred qualifications (event-driven, containers, IaC, fintech, observability, mentoring) | 20% | |\n\n---\n\n## Scoring Assessment\n\n### Years of Experience (10%)\n16 years total professional experience. Easily clears the 5-year threshold.\n**Score: 10/10**\n\n### Backend Language Proficiency — Java/Python/comparable (20%)\nJava 8 is listed and used in production. However, Java 8 is now ~10 years old; no evidence of modern Java (11+), Python, or other contemporary backend languages. The depth of Java use appears limited to web-layer services (JSP/Servlets), not microservices or modern frameworks (Spring Boot, etc.).\n**Score: 10/20**\n\n### RESTful API Design & Consumption (15%)\nNo explicit mention of REST API design or consumption. Java 8 services providing \"web access to core banking functions\" is vague and may be servlet/JSP-based, not RESTful. Significant gap.\n**Score: 3/15**\n\n### Relational Databases & SQL (10%)\nClear evidence: DB2, Oracle, SQL query writing and tuning explicitly mentioned.\n**Score: 9/10**\n\n### Cloud Platform Experience — AWS/Azure/GCP (15%)\nNo cloud experience mentioned anywhere. This is a hard required qualification with zero evidence.\n**Score: 0/15**\n\n### CI/CD & Automated Testing (10%)\nJenkins listed as \"basic.\" No mention of automated testing frameworks. Subversion and Git (basic) suggest limited modern DevOps integration.\n**Score: 2/10**\n\n### Preferred Qualifications (20%)\n- Event-driven/Kafka/SQS: ❌\n- Docker/Kubernetes: ❌\n- IaC (Terraform/CloudFormation): ❌\n- Financial services/regulated industry: ✅ (strong — trust/banking)\n- Observability tooling: ❌\n- Mentoring engineers: ❌ (no evidence)\n\n**Score: 4/20**\n\n---\n\n## Total Score\n\n| Criterion | Score | Max |\n|-----------|-------|-----|\n| Years of experience | 10 | 10 |\n| Backend language proficiency | 10 | 20 |\n| RESTful APIs | 3 | 15 |\n| Databases & SQL | 9 | 10 |\n| Cloud experience | 0 | 15 |\n| CI/CD & testing | 2 | 10 |\n| Preferred qualifications | 4 | 20 |\n| **Total** | **38** | **100** |\n\n---\n\n## Summary Judgment\n\nRaymond brings genuine domain value (regulated financial environment, long tenure, solid SQL) but has critical gaps against **required** qualifications: **no cloud experience, no REST API work, and only surface-level CI/CD exposure**. His technical stack is largely mainframe-era (COBOL, JCL, z/OS, JSP) and does not align with the modern backend, cloud-native, API-driven profile this role demands. The gaps are structural, not easily bridgeable in the near term.\n\n**Score: 38/100 — Below acceptable threshold.**\n\nFINAL: REJECT"
+}

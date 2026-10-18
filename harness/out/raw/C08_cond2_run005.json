@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:54.775047+00:00",
+  "finished_utc": "2026-09-28T22:15:05.762370+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 450
+  },
+  "response": "## Screening Assessment: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n1. **Not a software developer — QA background throughout:** The candidate's entire career (5 years) has been in quality assurance (QA Analyst → QA Engineer → Senior QA Engineer). The role requires a Senior Software Engineer who designs and builds backend services, not one who tests them. The résumé's own summary acknowledges this is a transition attempt.\n\n2. **No demonstrated experience building production backend services or APIs:** The candidate tests APIs and writes tests against REST endpoints but has no stated experience designing or building RESTful APIs or backend systems from scratch.\n\n3. **No cloud platform experience:** AWS, Azure, or GCP experience is a required qualification. The résumé contains no mention of any cloud provider.\n\n4. **No relational database / SQL usage beyond likely test data querying:** SQL is listed as a skill, but there is no evidence of meaningful database design, query optimization, or schema work expected of a backend engineer.\n\n5. **No CI/CD ownership:** Maintaining test execution stages in Jenkins is peripheral involvement in a CI/CD pipeline — not designing or owning pipelines, which is what the role expects.\n\n6. **No experience with event-driven architecture, containerization, or IaC:** None of the preferred qualifications (Kafka, Docker/Kubernetes, Terraform) appear anywhere on the résumé.\n\n7. **No mentoring or technical leadership experience:** The role requires mentoring junior/mid-level engineers; no such experience is reflected.\n\n8. **Limited backend language depth:** Java is used exclusively for test automation (Selenium, REST Assured, TestNG) — not for building services — which is a qualitatively different skill application.\n\n---\n\n### Summary\n\nThe candidate does not meet the core required qualifications for this role. The gap between QA/test automation and senior backend software engineering is substantial, and there is no evidence of the hands-on service design, cloud, or production ownership experience the role demands.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:41.299707+00:00",
+  "finished_utc": "2026-09-28T21:50:52.154843+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 537
+  },
+  "response": "## Screening Scorecard: Nora Kessler\n\n### Required Qualifications\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 6 years total experience, but as a **data analyst**, not a software engineer. No backend service development. | 0/2 |\n| Strong proficiency in Java, Python, or comparable backend language | Python used for scripting/data cleaning (Pandas, NumPy), not backend engineering | 0.5/2 |\n| Experience designing and consuming RESTful APIs | No evidence | 0/2 |\n| Experience with relational databases and SQL | Strong — SQL is a core skill across multiple roles | 2/2 |\n| Hands-on cloud provider experience | \"Basic AWS (S3, Athena)\" — minimal and data-focused only | 0.5/2 |\n| CI/CD pipelines and automated testing | No evidence | 0/2 |\n| Bachelor's degree in CS or related field | B.S. Statistics — adjacent but not CS/engineering | 1/2 |\n\n**Required Score: 4/14**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | None | 0/1 |\n| Containerization / Kubernetes | None | 0/1 |\n| Infrastructure-as-code | None | 0/1 |\n| Financial services / regulated industry | Insurance industry — partial credit | 0.5/1 |\n| Observability tooling | None | 0/1 |\n| Mentoring / technical leadership | None | 0/1 |\n\n**Preferred Score: 0.5/6**\n\n---\n\n### Summary Assessment\n\nNora has a solid analytical background with genuine SQL depth and regulated-industry exposure, but her profile is **categorically misaligned** with this role. The position requires backend service engineering (APIs, distributed systems, CI/CD, cloud infrastructure), and her experience is entirely in data analytics and reporting. Core competencies — API design, backend development, cloud engineering, testing — are absent. No amount of adjacent skill compensates for the fundamental role mismatch.\n\n**Total: 4.5/20 (22.5%)**\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:59.329691+00:00",
+  "finished_utc": "2026-09-28T22:01:11.975910+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 454
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No cloud experience.** The job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Alan's résumé indicates an entirely on-premise enterprise environment with no mention of any cloud platform. This is a hard required qualification.\n\n2. **No containerization or orchestration experience.** Docker and Kubernetes are listed as preferred. There is no mention of either on the résumé.\n\n3. **No event-driven/message broker experience beyond JMS.** The preferred qualifications call out Kafka, SQS, or similar modern message brokers. Alan lists JMS, which is older and on-premise-oriented, and does not demonstrate experience with distributed, cloud-native messaging systems relevant to high-volume payments infrastructure.\n\n4. **No infrastructure-as-code experience.** Terraform or CloudFormation is preferred; neither appears on the résumé.\n\n5. **No observability tooling experience.** Datadog, Grafana, and Prometheus are preferred; none are mentioned.\n\n6. **No payments or financial services background.** The role is on a Payments Platform team serving enterprise clients in what is likely a regulated context. Alan's background is manufacturing/order processing, which is a meaningful domain gap.\n\n7. **CI/CD experience is limited.** Jenkins is listed, but the résumé only references using it for integration test stages — not owning or designing full CI/CD pipelines, which is a required qualification.\n\n8. **No cloud-native or distributed systems exposure.** The role involves high-volume transaction processing at scale on cloud infrastructure. Alan's entire background is on-premise batch processing, which does not demonstrate readiness for that environment without significant ramp-up.\n\n---\n\nThe candidate meets some required qualifications (Java, REST APIs, SQL, mentoring, code review, on-call), but is missing the single most critical required qualification — cloud experience — along with multiple preferred qualifications that are collectively important for this specific role and team context.\n\nFINAL: REJECT"
+}

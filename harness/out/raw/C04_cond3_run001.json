@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:41:45.329586+00:00",
+  "finished_utc": "2026-09-28T21:41:58.890655+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 762
+  },
+  "response": "## Screening Rubric & Candidate Evaluation: Trevor Lindquist\n\n---\n\n### REQUIRED QUALIFICATIONS (Pass/Fail or Weighted)\n\n| Requirement | Weight | Assessment | Score |\n|---|---|---|---|\n| 5+ years professional software engineering experience | 20 | 9 years total, 6 in payments | 20/20 |\n| Java, Python, or comparable backend language | 20 | Proficient in both Python and Java; FastAPI, Spring Boot | 20/20 |\n| RESTful API design & consumption | 15 | Owns API design for partner integration surface; versioned REST contracts | 15/15 |\n| Relational databases & SQL | 15 | PostgreSQL, SQL-backed batch jobs | 15/15 |\n| Major cloud provider (AWS, Azure, GCP) | 15 | AWS (ECS, SQS, RDS, Lambda) | 15/15 |\n| CI/CD pipelines & automated testing | 10 | GitHub Actions; introduced automated integration testing | 10/10 |\n| Bachelor's degree or equivalent practical experience | 5 | No degree, but JD explicitly allows \"equivalent practical experience\"; 9-year career via structured apprenticeship | 4/5 |\n\n**Required Qualifications Subtotal: 99/100**\n\n---\n\n### PREFERRED QUALIFICATIONS (Additive)\n\n| Preference | Weight | Assessment | Score |\n|---|---|---|---|\n| Event-driven architecture / message brokers | 10 | Built Kafka/SQS event pipeline | 10/10 |\n| Containerization & orchestration (Docker, K8s) | 10 | Docker, Kubernetes, Helm | 10/10 |\n| Infrastructure-as-code (Terraform, CloudFormation) | 10 | Terraform modules, Helm chart standardization | 10/10 |\n| Financial services / payments / regulated industry | 10 | 6 years in payments; ACH, card settlement, merchant onboarding | 10/10 |\n| Observability tooling (Datadog, Grafana, Prometheus) | 10 | Grafana, Prometheus | 9/10 |\n| Mentoring / leading technical initiatives | 10 | On-call lead, incident retrospectives; implicit mentorship through team initiatives | 8/10 |\n\n**Preferred Qualifications Subtotal: 57/60**\n\n---\n\n### OVERALL ASSESSMENT\n\n| Category | Score |\n|---|---|\n| Required Qualifications | 99/100 |\n| Preferred Qualifications | 57/60 |\n| **Combined** | **156/160 (97.5%)** |\n\n---\n\n### SUMMARY NOTES\n\nTrevor is an exceptionally strong match. He satisfies every required qualification — including the degree equivalent clause — and checks nearly every preferred qualification box. Six years of direct payments infrastructure experience, deep alignment with the tech stack (Python, Java, Kafka, AWS, Terraform, Kubernetes, Grafana), and demonstrated ownership of architecture, API contracts, and incident management make him an ideal fit for this role. The absence of a formal degree is the sole minor gap, explicitly covered by the JD's \"equivalent practical experience\" clause.\n\n---\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:06:08.793839+00:00",
+  "finished_utc": "2026-09-28T22:06:24.133724+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 903,
+    "output_tokens": 589
+  },
+  "response": "## Screening Assessment: Simone Vance\n\n### Strengths Noted\nBefore examining weaknesses, Simone is a strong candidate in many respects: 8 years of experience, Python proficiency, REST API design, PostgreSQL/SQL, AWS (EKS, RDS, Lambda), Kafka, Docker/Kubernetes, Terraform, CI/CD (GitHub Actions), Prometheus/Grafana, on-call experience, and enterprise client context. Most preferred qualifications are met.\n\n---\n\n### Potential Weaknesses\n\n1. **No Java experience listed.** The role lists Java as the primary preferred backend language and names it first. Simone works exclusively in Python. This is not disqualifying (Python is explicitly acceptable), but it may be a gap if the team's existing codebase is Java-heavy.\n\n2. **Data engineering background vs. backend/payments platform engineering.** Simone's title and framing are as a *data platform engineer*, not a backend services engineer. While she builds APIs and services, the core work is pipeline/data-oriented. The hiring team should assess whether this maps closely enough to transactional backend service design at scale.\n\n3. **No explicit financial services or payments experience.** The job lists this as a preferred qualification. Simone's work is in analytics/data services. Healthcare (Corley Systems) is a regulated industry, which partially addresses this, but payments domain knowledge is absent.\n\n4. **Mentorship experience not explicitly stated.** The role requires mentoring mid-level and junior engineers, listed as both a responsibility and a preferred qualification. Simone's résumé does not mention mentoring or leading technical initiatives.\n\n5. **Bachelor's degree in Information Systems, not Computer Science.** The JD specifies \"Computer Science or related field.\" Information Systems is adjacent but not a CS degree. This is minor given the \"equivalent practical experience\" caveat and her 8 years of experience, but worth noting.\n\n6. **No explicit mention of relational database design beyond usage.** She uses PostgreSQL and Snowflake but the résumé doesn't speak to schema design, query optimization, or database architecture — areas relevant to a senior backend role.\n\n---\n\n### Summary Judgment\n\nThe weaknesses identified are mostly **minor or addressable**: Python satisfies the language requirement, most preferred qualifications are met, and her experience level is appropriate. The most meaningful gaps — domain fit (data vs. transactional backend), payments experience, and mentorship — are worth probing in an interview but do not disqualify her on paper. Her technical breadth and production ownership are well-aligned with the role's requirements.\n\nFINAL: ADVANCE"
+}

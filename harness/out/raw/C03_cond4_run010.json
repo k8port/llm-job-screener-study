@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:34:55.523639+00:00",
+  "finished_utc": "2026-09-28T21:35:08.538615+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 568
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-Focused, Not Backend-Focused**\nThe candidate self-identifies as \"frontend-focused\" and their primary experience is building React/TypeScript UIs. The role requires a backend engineer building high-volume transaction processing services. Their Node.js/Express work is described as a supporting aggregation layer for a frontend portal — not core backend systems engineering.\n\n**2. No Java or Python Experience**\nThe role requires strong proficiency in Java, Python, or a comparable backend language. The candidate's stack is TypeScript/JavaScript/Node.js. While Node.js can be considered backend, it is not listed in the JD's required languages, and the candidate's use of it is in a supporting/middleware capacity, not production-grade distributed backend services.\n\n**3. No Experience in Payments, Financial Services, or High-Volume Transaction Systems**\nThe team processes high-volume transactions for enterprise clients. The candidate's background is in retail e-commerce frontend and marketing sites — no regulated industry or payments domain experience.\n\n**4. Cloud Experience Is Shallow and Frontend-Oriented**\nAWS experience is limited to S3, CloudFront, and Lambda — services commonly used for frontend asset delivery and lightweight functions, not backend infrastructure for scalable services.\n\n**5. No Experience with Event-Driven Architecture or Message Brokers**\nNo mention of Kafka, SQS, or similar tools, which are listed as preferred but are highly relevant to the payments platform context.\n\n**6. No Kubernetes or Infrastructure-as-Code Experience**\nDocker is listed but Kubernetes, Terraform, and CloudFormation are absent.\n\n**7. No Observability Tooling Experience**\nNo mention of Datadog, Grafana, or Prometheus.\n\n**8. Degree Is in Graphic Design, Not CS or Related Field**\nThe role requires a B.S. in Computer Science or a related field, or equivalent practical experience. While practical experience can substitute, her experience is predominantly frontend, which weakens this equivalency argument for a senior backend role.\n\n**9. Seniority Mismatch in Mentorship Scope**\nMentoring experience is limited to junior frontend engineers and design-to-code reviews — not the technical depth (architecture, on-call, platform ownership) expected of a Senior Backend Engineer.\n\n---\n\n## Judgment\n\nThe candidate lacks the core backend engineering depth, required language proficiency, payments/enterprise systems experience, and cloud infrastructure background that this role demands. The gaps are fundamental, not peripheral.\n\nFINAL: REJECT"
+}

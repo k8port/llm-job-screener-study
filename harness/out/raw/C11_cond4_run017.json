@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:29.924297+00:00",
+  "finished_utc": "2026-09-28T22:43:39.719585+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 406
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a software engineer.** Curtis is a systems administrator by title and by practice. The role requires a Senior Software Engineer who designs and builds backend services and APIs. His work is infrastructure operations, not software development.\n\n2. **No proficiency in required backend languages.** The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell — scripting languages used for administrative automation, not backend service development.\n\n3. **No API design or development experience.** The role requires experience designing and consuming RESTful APIs. There is no indication of this anywhere on the résumé.\n\n4. **SQL is only basic.** The role requires solid experience with relational databases and SQL. Curtis self-rates SQL as \"basic.\"\n\n5. **No CI/CD pipeline experience.** A required qualification; not present on the résumé.\n\n6. **No automated testing experience.** A required qualification; not present on the résumé.\n\n7. **No experience with backend services, distributed systems, or application architecture.** The role centers on scalable service design and high-volume transaction processing — none of this appears in his background.\n\n8. **Falls well short of years of relevant experience.** While he has 9 years in IT, none of it is software engineering experience as defined by the role.\n\n9. **No preferred qualifications met.** Kafka, Kubernetes, Terraform, observability tooling, payments/fintech background — none of these are present. Docker is listed as \"basic.\"\n\n10. **Degree mismatch.** He holds a B.A.S. in Information Technology rather than Computer Science or a related engineering field, and his practical experience does not compensate for the absence of software engineering work.\n\n---\n\nFINAL: REJECT"
+}

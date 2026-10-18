@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:21.953031+00:00",
+  "finished_utc": "2026-09-30T18:39:31.656564+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 453
+  },
+  "response": "## Screening Analysis: Dana Whitfield\n\n### Potential Weaknesses Identified\n\n**1. Insufficient Years of Experience (Critical Gap)**\nThe job requires **5+ years** of professional software engineering experience. Dana has approximately **2 years** of experience total (1 year as a full-time engineer + ~1 year as an intern). This is a significant shortfall — roughly 60% below the stated minimum requirement.\n\n**2. No Cloud Platform Depth**\nThe résumé lists only \"basic AWS (EC2, S3),\" which does not meet the hands-on cloud experience requirement. For a payments platform role at senior level, deeper cloud competency is expected.\n\n**3. No Experience with Event-Driven Architecture or Message Brokers**\nKafka, SQS, or similar tools are listed as preferred and are common in high-volume payments systems. No indication of this experience.\n\n**4. No Containerization or Orchestration Experience**\nDocker and Kubernetes are absent from the résumé.\n\n**5. No Infrastructure-as-Code Experience**\nTerraform or CloudFormation not mentioned.\n\n**6. No Observability Tooling Experience**\nDatadog, Grafana, Prometheus — none referenced.\n\n**7. No Financial Services or Regulated Industry Background**\nNo exposure to payments, compliance, or related domains.\n\n**8. No Mentorship or Technical Leadership**\nThe role requires mentoring junior/mid-level engineers and leading technical initiatives. Dana's résumé shows no such experience, which is expected given their career stage.\n\n**9. Limited Scope of Work**\nCurrent work is on an internal inventory service with a small user base, far from the high-volume, enterprise-scale systems described in the job posting.\n\n### Summary\n\nDana is a promising early-career engineer but falls substantially short of the senior-level requirements across **experience, depth, and breadth**. The experience gap alone (2 vs. 5+ years) is disqualifying for this role.\n\nFINAL: REJECT"
+}

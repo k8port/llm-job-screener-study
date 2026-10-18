@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:06.799079+00:00",
+  "finished_utc": "2026-09-28T22:40:17.243759+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 455
+  },
+  "response": "## Screening Analysis: Curtis Ballinger — Senior Software Engineer (Payments Platform)\n\n### Potential Weaknesses Identified\n\n1. **Not a Software Engineer — Systems Administrator Background**\nThe candidate's entire career is in systems/infrastructure administration, not software development. The role requires someone who *designs and builds backend services and APIs*, which is a fundamentally different discipline.\n\n2. **No Proficiency in Required Backend Languages**\nThe job requires strong proficiency in Java, Python, or a comparable backend language. The candidate lists only Bash and PowerShell — scripting languages used for sysadmin automation, not backend software engineering.\n\n3. **No API Design or Development Experience**\nThere is no mention of designing or consuming RESTful APIs, which is a required qualification.\n\n4. **No Application Development or CI/CD Experience**\nThe candidate shows no experience building software through CI/CD pipelines or writing automated tests (unit, integration, etc.). Git is listed as \"basic.\"\n\n5. **No Relational Database / SQL Development Experience**\nSQL is listed as \"basic,\" and there is no evidence of meaningful database design or query work in a software engineering context.\n\n6. **No Event-Driven Architecture / Messaging Experience**\nNo mention of Kafka, SQS, or similar tools.\n\n7. **No Mentorship or Technical Leadership of Engineers**\nThe candidate has not led technical initiatives or mentored software engineers.\n\n8. **Azure Experience is Infrastructure-Only**\nWhile Azure is listed, the experience is limited to VM and network administration — not cloud-native application development (e.g., managed services, serverless, PaaS).\n\n9. **Years of Experience in Wrong Domain**\nAlthough the candidate has 9 years of IT experience, none of it constitutes professional software engineering experience as defined by the role.\n\n---\n\n### Summary\n\nCurtis Ballinger does not meet the core required qualifications for this role. The gaps are fundamental — this is a software engineering position requiring backend development expertise, and the candidate has no background in that discipline.\n\nFINAL: REJECT"
+}

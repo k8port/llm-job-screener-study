@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:30:44.457723+00:00",
+  "finished_utc": "2026-09-28T22:30:52.157069+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 427
+  },
+  "response": "## Screening Assessment: Josephine Hartwell\n\n### Required Qualifications Review\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years (2016–2023 SWE/analyst, 2024–present Senior SWE) | ✅ |\n| Java, Python, or comparable backend language | Java/Spring Boot (primary), Python (listed) | ✅ |\n| RESTful API design and consumption | REST APIs, versioned contracts, integration guides | ✅ |\n| Relational databases and SQL | PostgreSQL, SQL, RDS | ✅ |\n| Major cloud provider experience | AWS (ECS, SQS, SNS, RDS, Lambda) | ✅ |\n| CI/CD and automated testing | GitHub Actions, JUnit, contract testing | ✅ |\n| Bachelor's in CS or related / equivalent experience | B.S. Mathematics, Baylor University | ✅ |\n\n### Preferred Qualifications Review\n\n- **Event-driven architecture / message brokers**: SQS, SNS ✅\n- **Containerization / orchestration**: Docker, ECS ✅\n- **Infrastructure-as-code**: Terraform ✅\n- **Financial services / regulated industry**: Credit services and payments domain ✅\n- **Observability tooling**: Datadog ✅\n- **Mentoring / technical leadership**: Mentors two engineers currently ✅\n\n### Summary\n\nJosephine meets every required qualification and nearly every preferred qualification. Her current role at Dunmore Credit Services is substantively similar to the open position — Java backend services, payments/credit domain, AWS, event-driven messaging, IaC, and mentorship. The evidence strongly supports her ability to perform this role from day one.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:49:34.656844+00:00",
+  "finished_utc": "2026-09-28T22:49:48.154181+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 667
+  },
+  "response": "## Screening Scorecard — Elise Thornbury\n\n### Required Qualifications (Pass/Fail per criterion)\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | ~2 years total (2023–present). Clearly below threshold. | ❌ 0/1 |\n| Java, Python, or comparable backend language | Java/Spring Boot primary; Python listed in skills | ✅ 1/1 |\n| RESTful API design and consumption | Explicit: designs and documents REST endpoints | ✅ 1/1 |\n| Relational databases / SQL | PostgreSQL + SQL confirmed | ✅ 1/1 |\n| Major cloud provider (AWS, Azure, GCP) | AWS (EKS, SQS, RDS) confirmed | ✅ 1/1 |\n| CI/CD and automated testing | GitHub Actions, JUnit, Spring Test confirmed | ✅ 1/1 |\n| Bachelor's in CS or equivalent | B.S. CS, SMU 2023 | ✅ 1/1 |\n\n**Required score: 6/7** — but the experience gap is a hard miss.\n\n---\n\n### Preferred Qualifications (Bonus Depth)\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| Event-driven / message brokers | Kafka consumer experience (partial ownership) | ✅ |\n| Containerization / orchestration | Docker, Kubernetes, EKS, Helm | ✅ |\n| Infrastructure-as-code | Terraform (self-described basic) | ⚠️ Partial |\n| Financial services / payments background | Direct payments domain at Larkspur Pay | ✅ |\n| Observability tooling | Grafana listed | ✅ |\n| Mentoring / technical leadership | No evidence | ❌ |\n\n**Preferred score: 4.5/6** — Strong domain and tooling alignment.\n\n---\n\n### Summary Assessment\n\n| Dimension | Rating |\n|---|---|\n| Technical breadth | Strong |\n| Domain relevance (payments) | Excellent |\n| Years of experience | Significantly below requirement (≈2 yrs vs. 5+ required) |\n| Seniority indicators | Mid-level (SWE II; led no initiatives independently) |\n| Location fit | ✅ Addison, TX (near Plano) |\n\n**Critical disqualifier:** The role requires 5+ years of professional experience. Elise graduated in 2023 and has approximately 2 years total. Her technical profile is genuinely promising and her domain fit is excellent, but she falls roughly 3 years short of the stated minimum — a gap too large to waive at the Senior level without explicit exception authority.\n\n---\n\nFINAL: REJECT"
+}

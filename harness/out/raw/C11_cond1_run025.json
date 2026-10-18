@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:53.048942+00:00",
+  "finished_utc": "2026-09-28T22:40:03.984419+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 345
+  },
+  "response": "## Assessment\n\n**Role:** Senior Software Engineer, Payments Platform (backend services, high-volume transaction systems)\n\n**Key Required Qualifications vs. Candidate Evidence:**\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years software engineering experience | 9 years in IT, but as a **systems administrator**, not a software engineer | ❌ Gap |\n| Strong proficiency in Java, Python, or comparable backend language | Only Bash and PowerShell (scripting, not software development languages) | ❌ Gap |\n| RESTful API design and consumption | No mention | ❌ Gap |\n| Relational databases / SQL | Listed as \"basic\" | ⚠️ Insufficient |\n| Cloud provider (AWS/Azure/GCP) | Azure VMs and networking | ⚠️ Partial (infra-only, not developer tooling) |\n| CI/CD pipelines and automated testing | No mention | ❌ Gap |\n\n**Additional Observations:**\n- The candidate's background is solidly in **infrastructure/operations**, not software development\n- Docker experience is self-described as \"basic\"\n- The role requires designing and building backend services — there is no evidence of application development, API work, or software architecture experience\n- Healthcare background offers no overlap with financial services/payments\n\n**Conclusion:** The candidate does not demonstrate sufficient evidence of the core software engineering competencies required for this role. The gap between systems administration and senior backend software engineering is substantial.\n\nFINAL: REJECT"
+}

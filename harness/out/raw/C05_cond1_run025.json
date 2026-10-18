@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:48:52.138359+00:00",
+  "finished_utc": "2026-09-28T21:49:00.719447+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 372
+  },
+  "response": "## Screening Assessment: Nora Kessler\n\n### Analysis\n\n**Role Requirements vs. Candidate Profile**\n\nThe job is for a **Senior Software Engineer** on a Payments Platform team, focused on building and maintaining scalable backend services and APIs.\n\n| Requirement | Evidence in Résumé | Assessment |\n|---|---|---|\n| 5+ years software engineering experience | 6 years, but as a **data analyst**, not a software engineer | ❌ Gap |\n| Strong proficiency in Java, Python, or comparable backend language | Python used for scripting/data cleaning only; no backend development | ⚠️ Weak |\n| RESTful API design and consumption | No mention | ❌ Missing |\n| Relational databases and SQL | Strong SQL experience | ✅ Present |\n| Hands-on cloud experience (AWS/Azure/GCP) | \"Basic AWS (S3, Athena)\" — analytics tools only | ❌ Insufficient |\n| CI/CD pipelines and automated testing | No mention | ❌ Missing |\n| Backend service design and scalability | No evidence | ❌ Missing |\n| Mentoring engineers | No evidence | ❌ Missing |\n\n### Summary\n\nNora has solid analytical and SQL skills and some Python experience, but her background is firmly in **data analysis and reporting**, not software engineering. There is no evidence of backend service development, API design, CI/CD, testing practices, or production system ownership. Her Python usage is scripting-level, not application development. The gap between her experience and the role's requirements is substantial and fundamental.\n\nFINAL: REJECT"
+}

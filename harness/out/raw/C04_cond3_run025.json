@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:43:21.201995+00:00",
+  "finished_utc": "2026-09-28T21:43:34.935316+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 760
+  },
+  "response": "# Candidate Screening: Trevor Lindquist\n**Role: Senior Software Engineer – Payments Platform**\n\n---\n\n## Scoring Rubric\n\n| Category | Weight | Score (0–5) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of Experience** | 10% | 5 | 0.50 | 9 years total, 6 in payments |\n| **Backend Language Proficiency (Java/Python)** | 15% | 5 | 0.75 | Both Java and Python, production use |\n| **RESTful API Design & Consumption** | 10% | 5 | 0.50 | Owns partner API surface, versioned REST contracts |\n| **Relational Databases & SQL** | 10% | 5 | 0.50 | PostgreSQL, SQL-backed batch jobs |\n| **Cloud Experience (AWS/Azure/GCP)** | 10% | 5 | 0.50 | AWS (ECS, SQS, RDS, Lambda) |\n| **CI/CD & Automated Testing** | 10% | 4 | 0.40 | GitHub Actions, pytest, introduced integration testing |\n| **Education Requirement** | 5% | 3 | 0.15 | No degree, but role explicitly accepts \"equivalent practical experience\"; 9-year track record qualifies |\n| **Event-Driven Architecture / Message Brokers** | 8% | 5 | 0.40 | Kafka, SQS — built transaction state pipeline |\n| **Containerization & Orchestration** | 7% | 5 | 0.35 | Docker, Kubernetes, Helm |\n| **Infrastructure-as-Code** | 5% | 5 | 0.25 | Terraform modules across 6 services |\n| **Financial Services / Payments Domain** | 8% | 5 | 0.40 | 6 years payments (ACH, card settlement) |\n| **Observability Tooling** | 5% | 5 | 0.25 | Grafana, Prometheus |\n| **Mentorship / Technical Leadership** | 7% | 4 | 0.28 | On-call lead, incident retrospectives; no explicit mentoring mentioned |\n\n---\n\n## Summary\n\n| | |\n|---|---|\n| **Total Weighted Score** | **4.73 / 5.00** |\n| **Required Qualifications Met** | 7 / 7 ✅ |\n| **Preferred Qualifications Met** | 6 / 6 ✅ |\n\n---\n\n## Assessment Notes\n\nTrevor is an exceptionally strong match. Every required qualification is met with direct, production-grade evidence. His six years in payments infrastructure — including ACH/card settlement, Kafka event pipelines, and partner API ownership — aligns precisely with this role's domain. All six preferred qualifications are also satisfied. The absence of a formal degree is addressed by the job description's own \"equivalent practical experience\" clause, which his nine-year career clearly satisfies. The only minor gap is explicit mentoring of junior engineers, though on-call leadership and incident facilitation indicate emerging leadership scope.\n\n---\n\nFINAL: ADVANCE"
+}

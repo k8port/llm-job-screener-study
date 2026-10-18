@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:47.536646+00:00",
+  "finished_utc": "2026-09-28T21:52:56.615691+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 387
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer:** Nora's background is entirely in data analysis and reporting — not backend software engineering. Her self-described title is \"Data Analyst,\" and her work centers on SQL reporting models, dashboards, and data reconciliation, not building production services or APIs.\n\n2. **No Backend Service Development Experience:** The role requires designing and building scalable backend services and APIs. Nora has no demonstrated experience building REST APIs, microservices, or any production application backend.\n\n3. **No Java Experience:** Java is the primary language listed in the required qualifications. Nora has no Java experience whatsoever.\n\n4. **Python Use Is Analytical, Not Engineering-Grade:** Her Python experience is limited to scripting with Pandas/NumPy for data cleaning — not application development, service design, or production systems.\n\n5. **No Cloud Engineering Experience:** She lists \"basic AWS (S3, Athena)\" — purely data/analytics tooling. There is no experience with compute, networking, containerization, CI/CD, or infrastructure relevant to a backend engineering role.\n\n6. **No CI/CD or Automated Testing Experience:** These are required qualifications she does not meet.\n\n7. **No Experience with Distributed Systems or Event-Driven Architecture:** Kafka, SQS, Docker, Kubernetes, and Terraform are all absent from her profile.\n\n8. **No Mentoring or Technical Leadership:** No evidence of mentoring engineers or leading technical initiatives.\n\n9. **Years of Experience Are Misaligned:** While she has 6 years of experience, none of it is in software engineering — making the tenure irrelevant to this role's requirements.\n\n---\n\nFINAL: REJECT"
+}

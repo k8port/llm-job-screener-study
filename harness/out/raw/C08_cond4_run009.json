@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:03.918177+00:00",
+  "finished_utc": "2026-09-28T22:18:13.521378+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 402
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Developer — QA/Test Engineering Background**\nThe candidate explicitly self-identifies as a \"Quality engineer...transitioning toward software development.\" All five years of professional experience are in QA roles (analyst, engineer, senior QA engineer), not software development. The role requires a Senior Software Engineer with 5+ years of *software engineering* experience.\n\n**2. No Evidence of Designing or Building Backend Services**\nThe job requires designing and building scalable backend services and APIs. The candidate writes *tests against* APIs and *tests* existing services — there is no evidence of having designed, built, or owned a production service.\n\n**3. Java Usage Is Test-Focused, Not Production Engineering**\nWhile Java is listed as a skill, it is used exclusively in the context of test automation (Selenium, REST Assured, TestNG) — not for building production backend systems.\n\n**4. No Cloud Experience**\nThere is no mention of AWS, Azure, or GCP, which is a required qualification.\n\n**5. No Database/SQL Development Experience**\nSQL is listed as a skill but there is no evidence of meaningful database design or usage beyond basic querying for test validation purposes.\n\n**6. No CI/CD Pipeline Development Experience**\nMaintaining test execution stages in Jenkins is not equivalent to building and owning CI/CD pipelines for production software delivery.\n\n**7. Missing All Preferred Qualifications**\nNo experience with Kafka/SQS, Docker/Kubernetes, Terraform/CloudFormation, observability tooling, financial services, or engineering mentorship.\n\n**8. No Mentorship or Technical Leadership**\nThe role requires mentoring junior/mid-level engineers; there is no evidence of this in the résumé.\n\n---\n\nFINAL: REJECT"
+}

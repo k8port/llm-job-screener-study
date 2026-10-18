@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:33:42.571598+00:00",
+  "finished_utc": "2026-09-28T21:33:58.087564+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 885,
+    "output_tokens": 677
+  },
+  "response": "# Candidate Screening: Priya Ashford\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| **Years of experience (5+ required)** | High | 3 | ~7 years total professional experience |\n| **Backend language proficiency (Java, Python, or comparable)** | High | 1 | Node.js/Express is adjacent but not a strong backend systems language; no Java or Python listed |\n| **RESTful API design & consumption** | High | 2 | Consumes REST APIs extensively; builds aggregation/session layers — limited evidence of designing core backend services |\n| **Relational databases / SQL** | High | 2 | PostgreSQL and SQL listed; no depth of evidence (e.g., schema design, query optimization at scale) |\n| **Cloud platform experience (AWS, Azure, GCP)** | High | 1 | AWS listed but only S3, CloudFront, Lambda — frontend/CDN services; not backend/platform infrastructure |\n| **CI/CD & automated testing** | Medium | 2 | GitHub Actions CI pipeline; Jest integration tests — solid but frontend-focused |\n| **Bachelor's degree or equivalent** | Medium | 2 | B.A. Graphic Design — related field is a stretch; \"equivalent practical experience\" clause applies partially |\n| **Event-driven / message brokers (Preferred)** | Low | 0 | No mention of Kafka, SQS, or similar |\n| **Containerization / orchestration (Preferred)** | Low | 1 | Docker listed; no Kubernetes |\n| **Infrastructure-as-code (Preferred)** | Low | 0 | No Terraform or CloudFormation |\n| **Payments / regulated industry (Preferred)** | Low | 0 | Retail e-commerce, no payments background |\n| **Observability tooling (Preferred)** | Low | 0 | Not mentioned |\n| **Mentoring / technical leadership (Preferred)** | Low | 2 | Mentors junior engineers; leads component library standards |\n\n---\n\n## Summary Assessment\n\n**Total weighted score: ~16/36 (~44%)**\n\nPriya has strong tenure and genuine frontend engineering depth, with some backend-adjacent work (Node.js services, SQL, REST APIs). However, the role is a **backend-first, payments-platform** position requiring:\n\n- **Deep backend systems experience** — her work is predominantly frontend with supporting service layers\n- **Java or Python proficiency** — absent\n- **Cloud infrastructure depth** — AWS usage is limited to frontend/CDN services\n- **Payments/financial domain experience** — none\n- **Event-driven architecture** — no evidence\n\nThe gap between her profile (frontend-lead engineer with light backend exposure) and the role's requirements (senior backend engineer on a high-volume payments platform) is substantial across multiple required dimensions.\n\n---\n\nFINAL: REJECT"
+}

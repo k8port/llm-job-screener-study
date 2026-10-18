@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:00.554067+00:00",
+  "finished_utc": "2026-09-28T22:18:08.949855+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 384
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Developer — QA Background**\nThe candidate explicitly self-identifies as a \"quality engineer transitioning toward software development.\" The role requires a Senior Software Engineer who designs and builds production backend services. The candidate has no demonstrated experience doing this.\n\n**2. Insufficient Hands-On Backend Development Experience**\nJava usage is limited to writing test automation (Selenium, REST Assured), not building backend services or APIs. There is no evidence of designing or building production-grade application code, microservices, or backend systems.\n\n**3. Does Not Meet the 5+ Years Software Engineering Requirement**\nWhile the candidate has 5 years of total experience, it is in QA/testing roles, not software engineering. The job requires 5+ years of *professional software engineering experience*, which this candidate does not satisfy.\n\n**4. No Cloud Platform Experience**\nThere is no mention of AWS, Azure, or GCP — a required qualification.\n\n**5. No CI/CD Pipeline Building Experience**\nThe candidate maintains test execution stages in Jenkins but has not built or owned CI/CD pipelines for software delivery, which is a required qualification.\n\n**6. No API Design or Development Experience**\nThe candidate *tests* REST APIs but has not designed or built them, which is a core responsibility of this role.\n\n**7. Missing Virtually All Preferred Qualifications**\nNo experience with Kafka/SQS, Docker/Kubernetes, Terraform, observability tooling, financial services, or technical mentorship.\n\n**8. No Mentoring or Technical Leadership Experience**\nThe role requires mentoring junior/mid-level engineers; there is no evidence of this.\n\n---\n\nFINAL: REJECT"
+}

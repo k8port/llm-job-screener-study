@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:31:18.069054+00:00",
+  "finished_utc": "2026-09-28T22:31:27.279393+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 434
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n- ✅ **5+ years experience**: 7 years of professional software engineering (2016–2023 engineering, with actuarial background adding technical depth; currently active since 2024)\n- ✅ **Java/Python proficiency**: Java/Spring Boot is primary stack; Python noted in skills and prior actuarial role\n- ✅ **RESTful API design and consumption**: Explicitly mentioned — designs APIs consumed by partner institutions with versioned contracts\n- ✅ **Relational databases/SQL**: PostgreSQL and SQL listed; SQL-backed persistence in prior role\n- ✅ **Major cloud provider**: AWS (ECS, SQS, SNS, RDS, Lambda) — substantial AWS experience\n- ✅ **CI/CD and automated testing**: GitHub Actions, JUnit, contract testing, CI coverage expansion\n- ✅ **Bachelor's degree**: B.S. Mathematics, Baylor University\n\n**Preferred Qualifications Assessment:**\n\n- ✅ **Event-driven architecture/message brokers**: SQS and SNS ownership explicitly stated\n- ✅ **Containerization/orchestration**: Docker, ECS deployments\n- ✅ **Infrastructure-as-code**: Terraform\n- ✅ **Financial services/regulated industry**: Credit services and payments domain (current role), insurance (Pelham Mutual)\n- ✅ **Observability tooling**: Datadog listed\n- ✅ **Mentoring engineers**: Currently mentoring two engineers new to payments domain\n\n**Summary**: This candidate meets virtually every required and preferred qualification. The domain (payments/credit), tech stack (Java, AWS, Terraform, SQS), and seniority level all align closely with the role. The career break is accounted for and she is currently active in a closely matched senior role.\n\nFINAL: ADVANCE"
+}

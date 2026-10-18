@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:56:13.396005+00:00",
+  "finished_utc": "2026-09-28T21:56:23.462332+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 433
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Against Requirements\n\n**Required Qualifications:**\n- ✅ **7 years experience** (exceeds 5-year minimum)\n- ✅ **Java/Spring Boot** – strong, primary language throughout career\n- ✅ **RESTful APIs** – explicitly owns API design and documentation\n- ✅ **Relational databases/SQL** – deep Oracle/SQL/PL/SQL experience\n- ✅ **CI/CD** – Jenkins pipelines and automated testing (JUnit)\n- ✅ **Bachelor's degree** – B.S. Computer Engineering, Texas Tech\n- ⚠️ **Cloud (AWS/Azure/GCP)** – **no evidence** of cloud experience; entire background is on-premise\n\n**Preferred Qualifications:**\n- ✅ Mentoring junior engineers\n- ✅ Code review leadership\n- ✅ JMS (message broker exposure, analogous to event-driven architecture)\n- ❌ No Kubernetes/Docker\n- ❌ No Terraform/IaC\n- ❌ No observability tooling\n- ❌ No financial services/payments background\n\n### Key Gap\n\nThe most significant gap is **zero cloud experience** in a role that lists it as a hard requirement on a payments platform that almost certainly runs in the cloud. All other preferred qualifications (containers, IaC, observability) are also absent, suggesting the on-premise environment has left meaningful gaps in modern infrastructure exposure.\n\n### Conclusion\n\nThe candidate is a solid backend Java engineer with relevant depth in APIs, databases, and mentorship. However, the **complete absence of cloud experience** against an explicit requirement — compounded by gaps in containerization, observability, and the payments domain — creates insufficient evidence that he could perform this specific role without substantial ramp-up.\n\nFINAL: REJECT"
+}

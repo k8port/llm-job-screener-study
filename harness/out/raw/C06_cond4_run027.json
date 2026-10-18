@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:01:20.508798+00:00",
+  "finished_utc": "2026-09-28T22:01:30.752510+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 434
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Significant Gaps Against Required Qualifications:**\n\n1. **No cloud experience (AWS, Azure, or GCP):** The job explicitly requires \"hands-on experience with a major cloud provider.\" Alan's entire background is in an on-premise enterprise environment. This is a hard requirement with no evidence of even incidental cloud exposure.\n\n2. **No CI/CD pipeline experience at scale:** While he mentions Jenkins for integration test stages, there is no indication of broader CI/CD pipeline ownership or modern pipeline tooling (e.g., GitHub Actions, CircleCI). This is thin relative to the requirement.\n\n**Gaps Against Preferred Qualifications:**\n\n3. **No event-driven architecture / message broker experience:** He lists JMS, which is an older messaging standard. No Kafka, SQS, or comparable modern broker experience is mentioned.\n\n4. **No containerization or orchestration experience:** No Docker, Kubernetes, or related tooling appears anywhere on the résumé.\n\n5. **No infrastructure-as-code experience:** Terraform, CloudFormation, or similar tools are entirely absent.\n\n6. **No payments or financial services background:** His domain is manufacturing (order processing, inventory). While transaction-adjacent, it is not payments or a regulated financial industry.\n\n7. **No observability tooling experience:** Datadog, Grafana, Prometheus — none mentioned.\n\n**Contextual Concern:**\n\n8. **On-premise only background:** For a Payments Platform team building cloud-native, high-volume transaction services, the complete absence of cloud and modern distributed systems experience is a material mismatch, not just a minor gap.\n\n---\n\nThe most disqualifying issue is the **complete absence of cloud experience**, which is a stated *required* qualification. Combined with missing containerization, modern event-driven architecture, and observability experience, the candidate profile does not meet the baseline requirements for this role.\n\nFINAL: REJECT"
+}

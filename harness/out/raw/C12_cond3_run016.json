@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:50:00.666441+00:00",
+  "finished_utc": "2026-09-28T22:50:17.909226+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 875
+  },
+  "response": "## Screening Evaluation: Elise Thornbury\n\n### Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| **Years of Experience** | High | 1/3 | ~3.5 years total; role requires 5+. Meaningful gap. |\n| **Backend Language Proficiency (Java/Python)** | High | 3/3 | Java/Spring Boot is primary stack; Python listed. Strong match. |\n| **RESTful API Design & Consumption** | High | 3/3 | Explicit in both roles; designs and documents endpoints for internal/partner teams. |\n| **Relational Databases / SQL** | High | 3/3 | PostgreSQL with SQL; used in production services. |\n| **Cloud Provider Experience (AWS)** | High | 3/3 | AWS (EKS, SQS, RDS) — hands-on, not merely theoretical. |\n| **CI/CD & Automated Testing** | High | 3/3 | GitHub Actions pipelines + JUnit/Spring Test. Clear hands-on experience. |\n| **Bachelor's Degree (CS or related)** | Medium | 3/3 | B.S. Computer Science, SMU, 2023. |\n| **Event-Driven / Message Brokers (Preferred)** | Medium | 2/3 | Kafka consumers in production; partitioning work was senior-led, so depth is moderate. |\n| **Containerization / Orchestration (Preferred)** | Medium | 3/3 | Docker, Kubernetes, EKS, Helm. Solid. |\n| **Infrastructure-as-Code (Preferred)** | Low | 1/3 | Terraform listed as \"basic.\" Minimal depth. |\n| **Financial Services / Payments Background (Preferred)** | Medium | 3/3 | Directly in payments (Larkspur Pay). Strong domain fit. |\n| **Observability Tooling (Preferred)** | Low | 2/3 | Grafana listed; no Datadog or Prometheus explicitly. |\n| **Mentoring / Technical Leadership (Preferred)** | Medium | 0/3 | No evidence of mentoring or leading initiatives. |\n\n---\n\n### Summary Assessment\n\n**Strengths:**\n- Excellent technical stack alignment (Java, Spring Boot, REST, PostgreSQL, AWS, Kafka, Docker/K8s)\n- Direct payments domain experience — high contextual relevance\n- Actively participates in on-call, incident response, CI/CD — signs of production maturity\n- Strong preferred qualification coverage (event-driven, containers, payments, observability)\n\n**Gaps:**\n- **Years of experience is the primary concern:** 3.5 years vs. a hard requirement of 5+. This is a ~30% shortfall on a stated requirement.\n- No demonstrated mentorship or technical leadership, which is both a job duty and a preferred qualification.\n- Terraform and IaC experience is superficial.\n\n### Score Summary\n\n- **Required criteria met:** 5 of 6 fully; 1 significantly under (experience years)\n- **Preferred criteria met:** 4 of 6 meaningfully; 1 partially; 1 not at all\n\n### Decision Rationale\n\nElise is a technically strong candidate with directly relevant domain and stack experience. However, the experience gap (3.5 vs. 5+ years) is meaningful for a **Senior** role that includes mentoring responsibilities and architecture ownership. She appears closer to a solid mid-level engineer than a senior. Unless the team is open to a stretch hire or the \"5+ years\" requirement has flexibility, she does not clear the bar on a required qualifier.\n\n---\n\nFINAL: REJECT"
+}

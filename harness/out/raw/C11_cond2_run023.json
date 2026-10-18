@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:58.436938+00:00",
+  "finished_utc": "2026-09-28T22:41:09.491803+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 421
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Potential Weaknesses Identified\n\n1. **Not a Software Engineer — Systems/Infrastructure background**: Curtis is a systems administrator, not a software developer. The role requires designing and building backend services and APIs; his work centers on server administration, patching, provisioning, and operational support.\n\n2. **No backend programming proficiency**: The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell, which are scripting/automation tools, not backend application development languages.\n\n3. **No API design or consumption experience**: There is no mention of building or consuming RESTful APIs, which is a required qualification.\n\n4. **No application development or software delivery experience**: No evidence of CI/CD pipelines (beyond infrastructure tooling), automated testing, or software release practices in a development context.\n\n5. **Relational database experience is minimal**: SQL is listed as \"basic,\" falling well short of the required depth in relational databases and SQL.\n\n6. **Cloud experience is limited in scope**: Azure experience exists but is scoped to VM and network administration — not cloud-native application services, serverless, managed databases, or developer-facing cloud tooling.\n\n7. **No event-driven architecture, Kafka/SQS, Kubernetes, or Terraform experience**: Multiple preferred qualifications are absent.\n\n8. **No mentoring or technical leadership experience** relevant to engineering teams.\n\n9. **No payments, financial services, or regulated application development background.**\n\n10. **Docker listed as \"basic\"** — insufficient for a role that may require containerization experience.\n\n### Summary\n\nCurtis has a solid infrastructure and operations career, but the gap between systems administration and senior software engineering is fundamental, not marginal. He lacks the core required qualifications in software development, backend languages, API design, and CI/CD in a development context.\n\nFINAL: REJECT"
+}

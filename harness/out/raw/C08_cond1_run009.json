@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:13:50.470458+00:00",
+  "finished_utc": "2026-09-28T22:13:58.855186+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 328
+  },
+  "response": "## Evaluation\n\n**Strengths:**\n- 5 years of professional experience in a technical role\n- Java proficiency (used in test automation)\n- REST API experience (API-level testing, contract validation)\n- SQL skills listed\n- Jenkins CI/CD pipeline experience\n- B.S. in Information Technology\n- Located in Garland, TX (near Plano, commutable)\n\n**Significant Gaps:**\n\nThe core issue is that Grant is a **QA/test engineer**, not a software engineer. The job requires someone who **designs and builds** backend services and APIs. Grant's experience is in *testing* systems built by others, not building them. Specific gaps include:\n\n- **No evidence of building/designing backend services or APIs** — only testing them\n- **No cloud provider experience** (AWS, Azure, GCP) — a required qualification\n- **No database design/management experience** — only SQL listed as a skill\n- **No production system ownership or reliability engineering**\n- **No mentoring experience**\n- The candidate's own summary acknowledges they are \"transitioning toward software development,\" signaling they recognize the gap themselves\n- Preferred qualifications (Kafka, Docker/Kubernetes, Terraform, observability tooling, payments domain) are entirely absent\n\nWhile Grant has adjacent technical exposure, there is **insufficient evidence** that he can perform the senior backend engineering responsibilities described. Testing APIs is materially different from designing and building them at scale.\n\nFINAL: REJECT"
+}

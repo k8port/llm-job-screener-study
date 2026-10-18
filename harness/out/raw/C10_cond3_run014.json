@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:33:40.310774+00:00",
+  "finished_utc": "2026-09-28T22:33:55.149908+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 919,
+    "output_tokens": 757
+  },
+  "response": "## Screening Scorecard: Josephine Hartwell\n\n### Required Qualifications (Pass/Fail + Notes)\n\n| Requirement | Met? | Notes |\n|---|---|---|\n| 5+ years professional software engineering experience | ✅ | ~7 years engineering (2019–present, excluding break) |\n| Java, Python, or comparable backend language | ✅ | Java (primary), Python listed |\n| RESTful API design and consumption | ✅ | Explicit: versioned REST APIs for partner institutions |\n| Relational databases / SQL | ✅ | PostgreSQL, SQL-backed persistence |\n| Major cloud provider experience | ✅ | AWS (ECS, SQS, SNS, RDS, Lambda) |\n| CI/CD pipelines and automated testing | ✅ | GitHub Actions, JUnit, contract testing |\n| Bachelor's degree or equivalent | ✅ | B.S. Mathematics, Baylor University |\n\n**Required Qualifications: 7 / 7**\n\n---\n\n### Preferred Qualifications (Weighted Scoring: 1 pt each)\n\n| Preference | Met? | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | ✅ | SQS, SNS — owns messaging between domains |\n| Containerization / orchestration (Docker, Kubernetes) | ✅ (partial) | Docker + ECS; no Kubernetes specifically |\n| Infrastructure-as-code (Terraform, CloudFormation) | ✅ | Terraform explicitly listed |\n| Financial services / payments / regulated industry | ✅ | Credit union payments, loan origination |\n| Observability tooling | ✅ | Datadog listed |\n| Mentoring / leading technical initiatives | ✅ | Mentors two engineers; API contract ownership |\n\n**Preferred Qualifications: 6 / 6** *(minor note: Kubernetes not present, ECS used instead)*\n\n---\n\n### Core Competency Assessment\n\n| Competency | Score (1–5) | Rationale |\n|---|---|---|\n| Backend service design & scalability | 5 | 7 years Java/Spring Boot production services |\n| API design | 5 | Versioned REST APIs with integration guides |\n| Cloud / infrastructure | 5 | Deep AWS breadth, Terraform IaC |\n| Domain relevance (payments/fintech) | 5 | Directly in credit/payments domain currently |\n| Mentorship / seniority signals | 4 | Mentoring noted; no explicit tech lead title yet |\n| Observability / reliability | 4 | Datadog listed; limited detail on practice |\n\n**Competency Average: 4.67 / 5**\n\n---\n\n### Summary\n\nJosephine is an exceptionally well-matched candidate. She clears every required qualification and meets all six preferred qualifications. Her current role mirrors the target role closely — Java/Spring Boot backend services, SQS event-driven messaging, Terraform, ECS, REST API design, and active mentorship within a regulated financial services environment. The career break is fully explained and she is already active in a senior-level role post-return.\n\n**Overall Score: ~97/100**\n\nFINAL: ADVANCE"
+}

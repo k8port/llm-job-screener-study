@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:35:19.638388+00:00",
+  "finished_utc": "2026-09-28T21:35:31.128866+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 479
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps vs. Required Qualifications:**\n\n1. **Not a backend engineer by primary role or stated identity.** The candidate self-describes as \"frontend-focused\" and their job titles are \"Senior Frontend Engineer\" and \"Frontend Engineer.\" The role requires a dedicated backend engineer owning service design at scale.\n\n2. **No proficiency in Java or Python.** The required languages are Java, Python, or a comparable *backend* language. The candidate's stack is TypeScript/JavaScript/Node.js — primarily a frontend ecosystem. While Node.js can be used server-side, it is not listed as a comparable backend language and the candidate's use of it is described as an \"aggregation layer\" and session handling, not core service development.\n\n3. **Cloud experience is shallow and frontend-adjacent.** AWS experience is limited to S3, CloudFront, and Lambda — primarily static asset delivery and lightweight functions, not the compute, networking, or data services expected for a payments platform backend.\n\n4. **No evidence of high-volume transaction or payments domain experience.** The role centers on enterprise-scale payment processing; the candidate's background is in retail customer portals and marketing sites.\n\n5. **Degree is in Graphic Design, not Computer Science or a related technical field.** The job requires a CS/related degree or equivalent practical experience; the candidate's practical experience is predominantly frontend.\n\n**Gaps vs. Preferred Qualifications:**\n\n6. **No experience with event-driven architecture or message brokers** (Kafka, SQS, etc.).\n7. **No infrastructure-as-code experience** (Terraform, CloudFormation).\n8. **No observability tooling experience** (Datadog, Grafana, Prometheus).\n9. **No background in financial services or regulated industries.**\n10. **No containerization depth beyond Docker** — no Kubernetes experience listed.\n\n**Summary:** The candidate lacks the backend engineering foundation, relevant language proficiency, cloud depth, and domain experience that are central to this role. The gaps are not minor — they are structural mismatches with the position's core requirements.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:50:41.000628+00:00",
+  "finished_utc": "2026-09-28T22:50:55.287558+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 685
+  },
+  "response": "## Screening Scorecard — Elise Thornbury\n\n### Required Qualifications\n\n| Criterion | Weight | Assessment | Score (0–3) | Weighted |\n|---|---|---|---|---|\n| 5+ years professional SWE experience | High | ~2 years total (2023–present); well below threshold | 0 | 0 |\n| Java, Python, or comparable backend language | High | Java + Spring Boot primary; Python listed in skills | 3 | 9 |\n| RESTful API design & consumption | High | Designs/documents REST endpoints for internal & partner teams | 3 | 9 |\n| Relational databases & SQL | Medium | PostgreSQL, SQL explicitly used | 3 | 6 |\n| Major cloud provider (AWS/Azure/GCP) | High | AWS (EKS, SQS, RDS) hands-on | 3 | 9 |\n| CI/CD & automated testing | Medium | GitHub Actions, JUnit, Spring Test | 3 | 6 |\n| BS CS or equivalent | Low | B.S. CS, SMU 2023 | 3 | 3 |\n\n**Required score: 42 / 63 possible (66%)** — Strong on most criteria; critically fails on experience threshold.\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Assessment | Met? |\n|---|---|---|\n| Event-driven / Kafka / SQS | Kafka consumer work, SQS listed | ✅ |\n| Docker / Kubernetes | Docker, EKS, Helm | ✅ |\n| Infrastructure-as-code | Terraform (basic) | ⚠️ Partial |\n| Financial services / payments | Larkspur Pay payments domain | ✅ |\n| Observability tooling | Grafana listed | ✅ |\n| Mentoring / leading initiatives | No evidence of mentoring | ❌ |\n\n**Preferred: 4.5 / 6 — Strong signal on domain and technical stack.**\n\n---\n\n### Summary Assessment\n\n| Dimension | Notes |\n|---|---|\n| **Experience gap** | ~2 years total vs. 5+ required — a significant, explicit shortfall |\n| **Technical depth** | Solid for tenure; payments domain, Kafka, cloud-native stack align well |\n| **Seniority signals** | Operates at SWE II level; contributed to (not led) senior-driven architecture work |\n| **Trajectory** | Strong candidate for a mid-level role now, possibly senior in 2–3 years |\n\n---\n\n### Judgment\n\nElise is technically well-matched on stack and domain, but falls approximately **3 years short** of the stated minimum experience requirement. The role requires senior-level ownership, mentoring, and architecture leadership — competencies not yet demonstrated. Advancing her would misrepresent the role's scope to both parties.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:46:51.665600+00:00",
+  "finished_utc": "2026-09-28T22:47:00.936771+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 403
+  },
+  "response": "## Evaluation\n\n### Strengths\n\n**Required Qualifications Assessment:**\n- **Years of experience:** ~3.5 years total — **does not meet the 5+ year requirement**\n- **Backend language (Java/Python):** ✅ Strong Java/Spring Boot; Python listed in skills\n- **RESTful APIs:** ✅ Designing and consuming REST endpoints explicitly mentioned\n- **Relational databases/SQL:** ✅ PostgreSQL experience confirmed\n- **Cloud provider (AWS):** ✅ AWS (EKS, SQS, RDS) hands-on experience\n- **CI/CD and automated testing:** ✅ GitHub Actions, JUnit, Spring Test\n- **Bachelor's degree in CS:** ✅ B.S. CS from SMU (2023)\n\n**Preferred Qualifications:**\n- Kafka/event-driven architecture: ✅\n- Docker/Kubernetes: ✅\n- Terraform (basic): ✅ (partial)\n- Payments/financial services background: ✅ Currently at Larkspur Pay\n- Observability tooling: ✅ Grafana\n- Mentoring/technical leadership: ❌ No evidence\n\n### Key Gap\n\nThe most significant issue is **experience level**: the role requires **5+ years**, and this candidate has approximately **3.5 years**. Beyond the number, there is no evidence of mentoring junior engineers or leading technical initiatives — both listed as preferred and implied by \"Senior\" scope. The Kafka work was notably led by a senior engineer, not by Elise.\n\nThe technical fit is otherwise strong, particularly given payments domain experience, but the seniority gap is material and not offset by evidence of outsized scope or leadership.\n\nFINAL: REJECT"
+}

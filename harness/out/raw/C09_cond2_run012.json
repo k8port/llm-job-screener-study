@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:22.297243+00:00",
+  "finished_utc": "2026-09-28T22:23:34.311735+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 556
+  },
+  "response": "## Screening Analysis: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n**1. No Cloud Experience**\nThe role requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Raymond's résumé shows no cloud experience whatsoever — his background is entirely on-premises/mainframe (z/OS, WebSphere). This is a *required* qualification he does not meet.\n\n**2. Outdated Java / No Modern Backend Stack**\nThe role calls for strong proficiency in a modern backend language. Raymond lists Java 8 and JSP/Servlets — technologies that are now significantly dated. There is no evidence of modern Java (11/17/21), Spring Boot, or any comparable contemporary backend framework.\n\n**3. No RESTful API Experience**\nDesigning and consuming RESTful APIs is a required qualification. Raymond's listed technologies (JSP, Servlets, COBOL, JCL) reflect pre-REST or non-REST paradigms. No REST API work is mentioned anywhere on the résumé.\n\n**4. No CI/CD or Automated Testing Experience**\nJenkins is listed as \"basic\" and Subversion is the primary version control tool. There is no mention of automated testing frameworks, CI/CD pipelines, or modern DevOps practices — all required.\n\n**5. No Event-Driven / Messaging Experience**\nKafka, SQS, or similar message brokers (preferred) are entirely absent.\n\n**6. No Containerization or Orchestration**\nDocker and Kubernetes are not mentioned.\n\n**7. No Observability Tooling**\nDatadog, Grafana, Prometheus — none present.\n\n**8. No Mentorship or Technical Leadership Evidence**\nWhile preferred, there is no indication of mentoring engineers or leading technical initiatives.\n\n**9. Mainframe-Centric Profile**\nThe majority of experience is in COBOL/JCL/z/OS — a fundamentally different paradigm from the cloud-native, distributed systems environment described in this role.\n\n### Summary\n\nRaymond has significant industry tenure (16 years) in a regulated financial environment and solid SQL/relational database experience, both of which are positives. However, he fails to meet **multiple required qualifications**, most critically: cloud platform experience, RESTful API design, and modern backend development. His technical profile is deeply mainframe-oriented and does not align with the cloud-native payments platform this team is building.\n\nFINAL: REJECT"
+}

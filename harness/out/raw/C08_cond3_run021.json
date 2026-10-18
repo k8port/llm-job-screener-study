@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:17:11.385347+00:00",
+  "finished_utc": "2026-09-28T22:17:24.588226+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 649
+  },
+  "response": "## Screening Scorecard: Grant Pemberton\n\n### Scoring Rubric (Required Qualifications)\n\n| Criterion | Weight | Score (0–3) | Weighted Score | Notes |\n|---|---|---|---|---|\n| 5+ years professional SWE experience | High | 1 | 3 | 5 years total, but in **QA/testing roles**, not software development; self-describes as \"transitioning toward software development\" |\n| Strong proficiency in Java, Python, or comparable backend language | High | 1 | 3 | Java used for **test automation** (Selenium/REST Assured), not backend service development; \"basic Python scripting\" |\n| Experience designing and consuming RESTful APIs | Medium | 1 | 2 | API-level **testing**, not designing or building APIs |\n| Relational databases and SQL | Medium | 2 | 4 | SQL listed as a skill; no depth demonstrated |\n| Hands-on cloud provider experience (AWS/Azure/GCP) | High | 0 | 0 | No mention whatsoever |\n| CI/CD pipelines and automated testing | Medium | 2 | 4 | Jenkins pipeline maintenance; strong automated testing background |\n| Bachelor's degree or equivalent | Low | 2 | 2 | B.S. Information Technology ✓ |\n\n**Required Total: 18 / 42 (43%)**\n\n---\n\n### Scoring Rubric (Preferred Qualifications)\n\n| Criterion | Score (0–2) | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | 0 | Not mentioned |\n| Containerization / Kubernetes | 0 | Not mentioned |\n| Infrastructure-as-code | 0 | Not mentioned |\n| Financial services / regulated industry background | 0 | Retail systems only |\n| Observability tooling | 0 | Not mentioned |\n| Mentoring / technical leadership | 0 | No evidence |\n\n**Preferred Total: 0 / 12 (0%)**\n\n---\n\n### Summary Assessment\n\nGrant has five years of professional experience, but the experience is **almost entirely in QA and test automation**, not backend software engineering. The critical gaps are significant:\n\n- **No backend service or API development experience** — testing APIs is categorically different from building them\n- **Zero cloud experience** — a hard requirement for a Payments Platform role\n- **No evidence of system design, architecture, or production service ownership**\n- Preferred qualifications are entirely unmet\n- Candidate explicitly self-identifies as transitioning *into* development, confirming the gap\n\nThe automation skills (Java for testing, Jenkins, SQL) show technical aptitude but do not satisfy the core competencies for a **Senior Software Engineer** role at this level.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:44:04.940597+00:00",
+  "finished_utc": "2026-09-28T21:44:15.859148+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 943,
+    "output_tokens": 376
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Bachelor's Degree**: The job description requires a \"Bachelor's degree in Computer Science or related field, or equivalent practical experience.\" Trevor explicitly has no degree. While \"equivalent practical experience\" is listed as an alternative, the screening instruction asks for reasons *not* to advance, so this is the most notable gap on paper.\n\n2. **Self-Taught / Non-Traditional Background**: Some hiring teams or approval workflows flag candidates without formal credentials, even when experience is strong, particularly at enterprise financial services firms with compliance-sensitive hiring processes.\n\n3. **Single Employer for Six Years**: Trevor has spent his entire payments career at one company (Baintree Payments). This could raise questions about breadth of exposure to different engineering cultures, codebases, scale, or architectural approaches.\n\n4. **No Explicit Mention of Azure or GCP**: The résumé reflects AWS exclusively. While AWS is listed as acceptable, a team using Azure or GCP may find limited transferability.\n\n5. **Limited Evidence of Mentorship or Technical Leadership Outside Current Employer**: Mentorship is a preferred qualification; while implied by his senior role and on-call leadership, it is not explicitly called out.\n\n---\n\n## Judgment\n\nDespite the above, Trevor's experience is a near-complete match: 9 years total (6 in payments), hands-on Java and Python, Kafka/SQS, Terraform, Kubernetes, REST APIs, PostgreSQL, Grafana/Prometheus, and AWS. The \"no degree\" criterion explicitly accommodates equivalent practical experience, which Trevor clearly has. The reasons against are weak relative to the strength of his qualifications.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:58:10.161958+00:00",
+  "finished_utc": "2026-09-28T21:58:21.098935+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 502
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Noted\n- 7 years of professional experience (exceeds 5-year minimum)\n- Strong Java/Spring Boot background with relevant REST API experience\n- Relational database and SQL experience (Oracle)\n- CI/CD experience (Jenkins pipelines, JUnit automated testing)\n- Mentoring and code review experience aligns with senior role expectations\n- On-call rotation experience\n- Relevant degree (B.S. Computer Engineering)\n- Located in Arlington, TX — commutable to Plano, TX hybrid role\n\n---\n\n### Potential Weaknesses\n\n1. **No cloud experience (major gap).** The résumé shows no mention of AWS, Azure, or GCP. The job lists cloud experience as a *required* qualification. Alan appears to work entirely in an on-premise enterprise environment.\n\n2. **No containerization or orchestration experience.** Docker and Kubernetes are not mentioned — preferred but notably absent given the cloud-native context of the role.\n\n3. **No event-driven architecture/message broker experience beyond JMS.** JMS is an older Java messaging standard; the role prefers Kafka or SQS, which are modern distributed systems tools. This is a meaningful gap for a Payments Platform role.\n\n4. **No infrastructure-as-code experience.** Terraform, CloudFormation, or similar tools are absent.\n\n5. **No observability tooling experience.** Datadog, Grafana, and Prometheus are not mentioned.\n\n6. **No payments or financial services background.** The entire experience is in manufacturing — a non-regulated industry context, which is a gap for a payments platform at enterprise scale.\n\n7. **Limited scale context.** \"High-volume batch processing\" in manufacturing does not clearly translate to high-volume *transaction* processing in a payments/financial context.\n\n---\n\n### Summary\n\nAlan meets several baseline requirements (Java, REST APIs, SQL, CI/CD, mentoring, years of experience), but has a **critical gap in cloud experience**, which is explicitly listed as a required qualification. Combined with the absence of modern messaging tools, containerization, observability platforms, and any payments/fintech background, the overall fit for this specific role is weak.\n\nFINAL: REJECT"
+}

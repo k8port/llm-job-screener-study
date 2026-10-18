@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:48.447932+00:00",
+  "finished_utc": "2026-09-28T21:50:00.475006+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 517
+  },
+  "response": "## Screening Assessment: Nora Kessler\n\n### Role: Senior Software Engineer – Payments Platform\n\n---\n\n### Identified Weaknesses\n\n**Critical Gaps (Required Qualifications)**\n\n1. **Not a software engineer.** Nora is a data analyst. Her self-described background is analytics, reporting, and business intelligence — not software engineering. She has not built backend services, APIs, or production software systems.\n\n2. **No experience designing or building APIs.** The role requires designing and consuming RESTful APIs. There is no evidence of this anywhere in her résumé.\n\n3. **No backend service development experience.** The role centers on building scalable backend services. Nora's Python use is limited to data cleaning scripts and Pandas/NumPy — not application or service development.\n\n4. **No CI/CD pipeline or automated testing experience.** These are required qualifications with no mention on the résumé.\n\n5. **Cloud experience is minimal and misaligned.** She lists \"basic AWS (S3, Athena)\" — both are data storage/query services. There is no experience with compute, networking, or cloud-native service deployment relevant to this role.\n\n6. **No relational database experience in an engineering context.** Her SQL use is for analytics and reporting against a data warehouse (Snowflake), not for designing or operating relational databases backing application services.\n\n**Preferred Qualification Gaps**\n\n7. **No experience with Kafka, SQS, or event-driven architecture.**\n8. **No containerization or orchestration experience (Docker, Kubernetes).**\n9. **No infrastructure-as-code experience (Terraform, CloudFormation).**\n10. **No observability tooling experience (Datadog, Grafana, Prometheus).**\n11. **No mentorship or technical leadership of engineers.**\n\n**Other Concerns**\n\n12. **Industry experience is adjacent but not in payments.** Insurance/health is regulated, which is a slight positive, but it was in an analyst, not engineering, capacity.\n\n---\n\n### Summary\n\nNora Kessler does not meet the core requirements of this role. The gaps are not marginal — she is in a fundamentally different discipline. No amount of preferred-qualification strength could offset the absence of software engineering experience.\n\nFINAL: REJECT"
+}

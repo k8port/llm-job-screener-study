@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:49.175875+00:00",
+  "finished_utc": "2026-09-28T21:49:58.445487+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 418
+  },
+  "response": "## Candidate Evaluation: Nora Kessler\n\n### Identified Weaknesses\n\n1. **Not a software engineer — data/analytics background**: Kessler is explicitly a data analyst. Her experience centers on reporting, dashboards, and data reconciliation — not building backend services, APIs, or production software systems.\n\n2. **No backend service or API development experience**: The role requires designing and building scalable backend services and RESTful APIs. There is no evidence of this in her résumé. Her Python use is limited to data cleaning scripts (Pandas, NumPy), not application development.\n\n3. **No experience with CI/CD pipelines or automated testing**: Neither is mentioned anywhere on her résumé.\n\n4. **Minimal and peripheral cloud experience**: She lists \"basic AWS (S3, Athena)\" — query and storage tools used in analytics contexts, not cloud infrastructure or services relevant to backend platform engineering.\n\n5. **No experience with containerization, orchestration, or infrastructure-as-code**: No Docker, Kubernetes, Terraform, or similar tools mentioned.\n\n6. **No event-driven architecture or message broker experience**: No Kafka, SQS, or equivalent.\n\n7. **No observability tooling experience**: No Datadog, Grafana, or Prometheus.\n\n8. **No mentorship or technical leadership experience**: The role requires mentoring junior/mid-level engineers; no such experience is indicated.\n\n9. **Insufficient depth for \"Senior Software Engineer\" designation**: Despite having six years of experience, that experience is in analytics — not software engineering — making the seniority level inapplicable to this role.\n\n### Summary\n\nKessler fails to meet nearly every required qualification for this role. The gap between her profile (data analyst) and the role (senior backend software engineer) is fundamental, not a matter of minor missing skills.\n\nFINAL: REJECT"
+}

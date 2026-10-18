@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:12.402211+00:00",
+  "finished_utc": "2026-09-28T22:40:21.896133+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 426
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Potential Weaknesses Identified\n\n1. **Not a Software Engineer — Systems Administrator background**: The candidate's career is entirely in infrastructure/operations roles. There is no evidence of professional software development, application design, or backend service engineering.\n\n2. **No Java or Python proficiency**: The required backend languages (Java, Python, or comparable) are absent. The candidate lists Bash and PowerShell, which are scripting/automation tools for sysadmin work, not backend application development.\n\n3. **No API design or consumption experience**: The job requires experience designing and consuming RESTful APIs. This is not mentioned anywhere in the résumé.\n\n4. **SQL listed as \"basic\"**: The role requires meaningful experience with relational databases and SQL. The candidate self-identifies their SQL as basic.\n\n5. **No CI/CD pipeline or automated testing experience**: There is no mention of CI/CD tooling (Jenkins, GitHub Actions, etc.) or software testing frameworks.\n\n6. **Docker listed as \"basic\"**: Only basic containerization exposure; no Kubernetes or orchestration experience.\n\n7. **No application-level observability experience**: Nagios is listed (infrastructure monitoring), but no Datadog, Grafana, or Prometheus.\n\n8. **No experience mentoring engineers or leading technical initiatives**: A preferred qualification with no evidence in the résumé.\n\n9. **No event-driven architecture or message broker experience**: Kafka, SQS, or similar are entirely absent.\n\n10. **Years of experience technically meet the threshold (9 years), but the domain is fundamentally different**: Sysadmin tenure does not substitute for software engineering experience.\n\n### Summary\n\nCurtis is a capable senior systems administrator, but his profile does not align with this Senior Software Engineer role in any substantive way. The core requirements — backend development, API design, application engineering — are unmet.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:29:35.147747+00:00",
+  "finished_utc": "2026-09-28T21:29:45.507688+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 433
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Analysis Against Required Qualifications\n\n**Years of experience (5+):** ✅ ~7 years of professional experience\n\n**Strong proficiency in Java, Python, or comparable backend language:** ⚠️ Weak fit. The candidate's primary language is JavaScript/TypeScript. Node.js/Express work is present but described as supporting a frontend portal, not core backend services. Java and Python are absent entirely.\n\n**REST API design and consumption:** ✅ Demonstrated — builds and consumes REST APIs\n\n**Relational databases and SQL:** ✅ PostgreSQL and SQL listed; limited depth described\n\n**Cloud provider experience (AWS, Azure, GCP):** ⚠️ Partial. AWS listed, but only S3, CloudFront, and Lambda — primarily frontend/CDN services, not backend infrastructure (RDS, EKS, etc.)\n\n**CI/CD and automated testing:** ✅ GitHub Actions, Jest, Testing Library\n\n**Bachelor's degree or equivalent:** ⚠️ B.A. in Graphic Design — not a CS or related field; would need to qualify via \"equivalent practical experience,\" which is debatable given the frontend focus\n\n### Gaps Against Preferred Qualifications\n- No event-driven architecture / Kafka / SQS\n- No Kubernetes or meaningful containerization (Docker listed, no orchestration)\n- No Terraform/IaC\n- No financial services / payments background\n- No observability tooling\n\n### Summary\n\nThe candidate has solid frontend engineering experience and some adjacent backend exposure, but the role requires a **backend-primary engineer** to build high-volume transaction services. The Node.js work is shallow and portal-support in nature. Critical backend languages (Java, Python) are absent. Cloud experience skews frontend. The overall profile does not provide sufficient evidence of ability to perform the core responsibilities of this role.\n\nFINAL: REJECT"
+}

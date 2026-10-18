@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:10.082249+00:00",
+  "finished_utc": "2026-09-28T21:52:19.682561+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 347
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer:** Nora is a data analyst/reporting professional. Her background is in analytics, reporting, and data pipelines — not building backend services or APIs. The role requires a Senior *Software Engineer*.\n\n2. **No Backend Service Development Experience:** The role requires designing and building scalable backend services and APIs. Nora has no experience building or consuming RESTful APIs, and no evidence of software development beyond scripting (data cleaning/reconciliation).\n\n3. **No Java Experience:** The role lists Java, Python, or a comparable *backend* language as required. Nora uses Python only in an analytical context (Pandas, NumPy) — not for backend application development.\n\n4. **No Cloud Infrastructure Experience:** The role requires hands-on cloud experience. Nora lists only \"basic AWS (S3, Athena),\" which are data storage/query services, not backend infrastructure.\n\n5. **No CI/CD or Automated Testing Experience:** These are explicitly required qualifications with no evidence of either in her résumé.\n\n6. **No Containerization, Kafka, Kubernetes, or Observability Tooling:** She lacks all preferred qualifications as well.\n\n7. **No Experience Mentoring Engineers or Leading Technical Initiatives:** The role expects mentorship of junior/mid-level engineers.\n\n8. **Years of Experience in Wrong Domain:** While she has 6 years of experience, all of it is in data analysis/reporting — not software engineering.\n\n---\n\nFINAL: REJECT"
+}

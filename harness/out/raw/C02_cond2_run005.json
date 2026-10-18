@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:22:07.216012+00:00",
+  "finished_utc": "2026-09-28T21:22:18.244364+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 415
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Potential Weaknesses Identified\n\n1. **Limited breadth of language experience**: Marcus works almost exclusively in Java. While Java is listed as a required language and he's clearly proficient, Python is listed in his skills but there is no practical evidence of Python use in any role. For a team that may rely on Python-based tooling or services, this is a minor gap.\n\n2. **Single employer for six of eight years**: The bulk of his experience comes from one company (Coventry Financial, 2019–Present). While depth is valuable, it raises a question about exposure to varied engineering cultures, codebases, and architectural patterns. His earlier role at Arden (one year) adds little distinguishing experience.\n\n3. **Infrastructure-as-code listed but underrepresented**: Terraform appears in his skills list but is not mentioned in any job bullet. The depth of his IaC experience is unverifiable from the résumé alone.\n\n4. **No explicit mention of leading technical initiatives**: The preferred qualification asks for experience *leading* small technical initiatives. He mentions mentoring, but there is no clear example of him owning a technical initiative end-to-end beyond individual service improvements.\n\n5. **No explicit CI/CD pipeline ownership**: He \"extended\" a CI pipeline as a mid-level engineer but doesn't claim meaningful CI/CD design or ownership at the senior level.\n\n### Counterbalancing Strengths\n\nDespite the weaknesses above, Marcus meets or exceeds virtually every required and preferred qualification: 8 years of experience, strong Java/Spring Boot background, payments domain expertise, Kafka, AWS, Docker/Kubernetes, PostgreSQL, Datadog, Terraform (listed), mentoring experience, and a relevant CS degree. The weaknesses are minor, largely surface-level, and addressable in an interview.\n\nFINAL: ADVANCE"
+}

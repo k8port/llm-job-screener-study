@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:32.055444+00:00",
+  "finished_utc": "2026-09-28T22:26:42.897248+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 472
+  },
+  "response": "## Reasons Against Advancing\n\n1. **Outdated Java Experience**: The candidate's Java experience is limited to Java 8, JSP, and Servlets — all legacy technologies. There is no evidence of modern Java development (e.g., Spring Boot, Java 11+, microservices architecture).\n\n2. **No Cloud Experience**: The candidate lists no experience with AWS, Azure, or GCP, which is a **required qualification**. This is a significant gap for a role building cloud-native payment services.\n\n3. **No RESTful API Design/Consumption Experience**: The role explicitly requires experience designing and consuming REST APIs. The candidate's background is in COBOL batch processing and JSP-based internal tools — no REST API experience is demonstrated.\n\n4. **No CI/CD Pipeline Experience**: Jenkins is listed as \"basic,\" and there is no evidence of meaningful CI/CD implementation or automated testing experience — both required qualifications.\n\n5. **No Modern Backend/Distributed Systems Experience**: No experience with containerization (Docker/Kubernetes), event-driven architecture, message brokers (Kafka/SQS), or observability tooling — all preferred but also indicative of a significant technology gap.\n\n6. **Primarily Mainframe-Oriented Career**: The vast majority of the candidate's sixteen-year career is centered on COBOL, JCL, and z/OS — a technology stack incompatible with the role's focus on scalable, cloud-based backend services.\n\n7. **No Mentorship or Technical Leadership Evidence**: While the candidate documents operational work, there is no indication of mentoring engineers or leading technical initiatives.\n\n8. **No Infrastructure-as-Code Experience**: Terraform, CloudFormation, or equivalent — entirely absent.\n\n---\n\n## Rationale\n\nDespite strong domain knowledge in financial services and solid SQL/DB2 experience, the candidate lacks proficiency in the core required technical qualifications: modern backend languages/frameworks, cloud platforms, REST API development, and CI/CD. The skill set is deeply rooted in legacy mainframe technology that does not align with the modern distributed systems environment described in the job posting.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:08:22.915025+00:00",
+  "finished_utc": "2026-09-28T22:08:36.125580+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 657
+  },
+  "response": "## Screening Scorecard: Simone Vance\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years total (2018–present) across three roles | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Python throughout; production services, ETL, APIs | 10/10 |\n| Experience designing and consuming RESTful APIs | Explicitly designs and maintains REST APIs with versioning | 10/10 |\n| Relational databases and SQL | PostgreSQL, Snowflake, SQL batch processing | 10/10 |\n| Hands-on experience with major cloud provider | AWS (EKS, S3, Lambda, RDS) | 10/10 |\n| CI/CD pipelines and automated testing | GitHub Actions CI, pytest, automated transformation tests | 10/10 |\n| Bachelor's degree in CS/related or equivalent | B.S. Information Systems | 9/10 |\n\n**Required Subtotal: 69/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | Kafka at 40M daily events — strong | 5/5 |\n| Containerization and orchestration | Docker, Kubernetes (EKS) | 5/5 |\n| Infrastructure-as-code | Terraform explicitly listed | 5/5 |\n| Financial services / regulated industry | Healthcare reporting background; transaction data focus; no direct payments/fintech | 2/5 |\n| Observability tooling | Prometheus, Grafana with on-call ownership | 5/5 |\n| Mentoring / leading technical initiatives | Not mentioned explicitly | 1/5 |\n\n**Preferred Subtotal: 23/30**\n\n---\n\n### Additional Notes\n- **Fit consideration:** Title is \"Data Platform Engineer,\" not \"Software Engineer,\" but the actual work — building Python services, REST APIs, cloud infra, streaming systems — maps closely to the JD's backend engineering scope.\n- **Gap:** No Java experience mentioned; no explicit mentoring history; limited regulated-industry depth (healthcare adjacent, not payments).\n- **Strength:** Extremely strong on cloud, infrastructure, observability, and event-driven systems — all listed as preferred qualifications.\n\n---\n\n### Overall Score: 92/100\n\n**Threshold judgment:** Candidate meets all required qualifications and nearly all preferred ones. The role's core needs (scalable backend services, APIs, cloud, Kafka, observability, CI/CD) are comprehensively covered. Minor gaps in mentoring experience and payments-domain background are not disqualifying at this competitive level.\n\nFINAL: ADVANCE"
+}

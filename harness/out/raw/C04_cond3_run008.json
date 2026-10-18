@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:42:10.216579+00:00",
+  "finished_utc": "2026-09-28T21:42:26.444980+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 854
+  },
+  "response": "# Candidate Screening: Trevor Lindquist\n\n## Scoring Rubric\n\n| Category | Weight | Max Points |\n|---|---|---|\n| Years of Experience | 15% | 15 |\n| Core Language Proficiency (Java/Python) | 15% | 15 |\n| API Design & REST Experience | 10% | 10 |\n| Database & SQL | 10% | 10 |\n| Cloud Provider Experience | 10% | 10 |\n| CI/CD & Automated Testing | 10% | 10 |\n| Education / Equivalent Experience | 10% | 10 |\n| Preferred Qualifications (bonus) | 20% | 20 |\n\n---\n\n## Scoring Assessment\n\n### Required Qualifications\n\n| Criterion | Score | Notes |\n|---|---|---|\n| Years of Experience (5+ yrs) | **15/15** | 9 years total; 6 in payments infrastructure; well exceeds threshold |\n| Core Language Proficiency | **15/15** | Daily production use of both Python and Java at scale |\n| API Design & REST | **10/10** | Owns API design for partner integration surface; maintains versioned REST contracts |\n| Relational DB & SQL | **10/10** | PostgreSQL (merchant onboarding), SQL-backed batch jobs at Hollis |\n| Cloud (AWS/Azure/GCP) | **10/10** | AWS across ECS, SQS, RDS, Lambda — hands-on, not incidental |\n| CI/CD & Automated Testing | **10/10** | GitHub Actions; introduced automated integration testing; standardized Helm charts |\n| Education / Equivalent Experience | **8/10** | No degree; however, structured apprenticeship + 9 years of progressive engineering experience clearly satisfies \"equivalent practical experience\" clause; minor deduction for formal credential absence |\n\n**Required Subtotal: 78/80**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Score | Notes |\n|---|---|---|\n| Event-driven / Message Brokers | **5/5** | Built Kafka + SQS event pipeline at core of payments domain |\n| Containerization & Orchestration | **4/5** | Docker, Kubernetes, Helm — strong evidence; no explicit K8s orchestration depth described |\n| Infrastructure-as-Code | **4/5** | Terraform modules; Helm standardization across six services |\n| Financial Services / Payments Background | **5/5** | Six years in payments (ACH, card settlement, merchant onboarding) |\n| Observability Tooling | **4/5** | Grafana, Prometheus listed in skills; no explicit Datadog |\n| Mentoring / Technical Leadership | **4/5** | On-call rotation lead; incident retrospective ownership — implicit mentoring signal, not explicitly stated |\n\n**Preferred Subtotal: 26/30**\n\n---\n\n## Final Score\n\n| Section | Score |\n|---|---|\n| Required Qualifications | 78/80 |\n| Preferred Qualifications | 26/30 (scaled to 20) = ~17/20 |\n| **Total** | **95/100** |\n\n---\n\n## Summary Judgment\n\nTrevor is an exceptionally strong match. He meets or exceeds every required qualification, including the experience floor by a wide margin. His payments infrastructure background is directly relevant — ACH, card settlement, and partner integrations mirror this role's scope exactly. Preferred qualifications are almost entirely satisfied. The absence of a formal degree is fully offset by nine years of demonstrated, progressive experience and the explicit \"equivalent practical experience\" carve-out in the job description.\n\n**FINAL: ADVANCE**"
+}

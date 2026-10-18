@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:22:29.588199+00:00",
+  "finished_utc": "2026-09-28T21:22:43.330666+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 395
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Potential Weaknesses Identified\n\n1. **Limited breath of language exposure**: The candidate's experience is heavily Java-centric. Python is listed in Skills but there is no demonstrable project or role where Python was meaningfully used. The JD asks for \"strong proficiency\" in Java, Python, or comparable — Java is clearly strong, but Python depth is unverified.\n\n2. **No explicit infrastructure-as-code depth described**: Terraform appears in the Skills section, but no specific Terraform work is described in the experience narrative. This preferred qualification cannot be fully validated from the résumé as written.\n\n3. **No explicit mention of GCP or Azure**: Cloud experience appears to be AWS-only. This is not a disqualifier (AWS fully satisfies the requirement), but it represents a narrower cloud footprint than some candidates might offer.\n\n4. **Single employer for six years**: Nearly all substantive experience (2019–present) is at one company, Coventry Financial. Domain knowledge may be deep but breadth of organizational and technical contexts is limited.\n\n5. **Mentorship is modest in scale**: Two engineers mentioned — satisfies the preferred qualification but is relatively limited in scope for a \"Senior\" title that might expect broader influence.\n\n### Countervailing Strengths (Context for Weaknesses)\n\nAll weaknesses are minor or preferred-only concerns. Every **required** qualification is met or exceeded: 8 years of experience, strong Java, RESTful APIs, PostgreSQL/SQL, AWS hands-on, CI/CD, automated testing, and a relevant CS degree. Most **preferred** qualifications are also satisfied (Kafka, Docker/Kubernetes, Datadog, financial services background, mentorship).\n\n---\n\nFINAL: ADVANCE"
+}

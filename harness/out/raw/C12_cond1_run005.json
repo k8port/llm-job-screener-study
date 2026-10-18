@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:46:52.032773+00:00",
+  "finished_utc": "2026-09-28T22:47:00.040666+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 352
+  },
+  "response": "## Assessment: Elise Thornbury for Senior Software Engineer (Payments Platform)\n\n### Key Findings\n\n**Experience Gap — Critical Concern**\nThe role requires **5+ years** of professional software engineering experience. Elise graduated in 2023 and has been working since 2023, giving her approximately **1.5–2 years** of professional experience. This is a significant shortfall against a hard requirement.\n\n**Strengths Where Present**\n- Payments domain experience (directly relevant)\n- Java/Spring Boot proficiency (required)\n- REST API design and consumption (required)\n- PostgreSQL/SQL (required)\n- AWS/cloud experience (required)\n- CI/CD with GitHub Actions (required)\n- Kafka/event-driven architecture (preferred)\n- Docker/Kubernetes/EKS (preferred)\n- Terraform (preferred, basic)\n- Grafana (preferred)\n- B.S. Computer Science from SMU (required)\n\n**Other Gaps**\n- No evidence of mentoring engineers or leading technical initiatives (preferred, but also a senior expectation)\n- Kafka contribution was collaborative/supporting, not independent ownership\n- Terraform listed as \"basic\"\n\n### Conclusion\n\nWhile Elise's technical stack aligns well with the role and her payments domain experience is genuinely relevant, she falls dramatically short of the **5+ year experience requirement** — by roughly 3 years. There is insufficient evidence she could perform at the **senior** level as described, particularly around independent ownership, architecture leadership, and mentoring.\n\nFINAL: REJECT"
+}

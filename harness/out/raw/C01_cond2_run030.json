@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:44.640625+00:00",
+  "finished_utc": "2026-09-30T18:39:54.419187+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 419
+  },
+  "response": "## Screening Assessment: Dana Whitfield\n\n### Potential Weaknesses Identified\n\n**1. Insufficient Years of Experience (Critical Gap)**\nThe role requires **5+ years** of professional software engineering experience. Dana has approximately **2 years** total (1 year as a full engineer, ~1 year as an intern). This is a fundamental and significant shortfall — roughly 60% below the minimum threshold.\n\n**2. No Cloud Depth**\nThe résumé lists only \"basic AWS (EC2, S3),\" which falls well short of the hands-on cloud experience required. There is no evidence of using cloud services in a production, high-volume, or architectural capacity.\n\n**3. No Event-Driven Architecture or Message Broker Experience**\nKafka, SQS, or similar tools are listed as preferred qualifications and are common in payments platforms. Dana shows no exposure to these.\n\n**4. No Containerization or Orchestration Experience**\nNo Docker or Kubernetes mentioned anywhere on the résumé.\n\n**5. No Payments, Financial Services, or Regulated Industry Background**\nThe team specifically works on a Payments Platform for enterprise clients. Dana has no relevant domain experience.\n\n**6. No Mentorship or Technical Leadership**\nA senior role requires mentoring junior engineers and leading technical initiatives. Dana is at a stage of being mentored, not leading.\n\n**7. Limited CI/CD Ownership**\nThe pipeline work described is explicitly \"maintained by a senior engineer\" — Dana contributes to it but does not own it.\n\n**8. No Observability Tooling Experience**\nNo Datadog, Grafana, Prometheus, or equivalent mentioned.\n\n### Summary\n\nDana is an early-career engineer with a solid foundation, but does not meet the minimum experience requirement and lacks depth across nearly every required and preferred qualification for a Senior Software Engineer role.\n\nFINAL: REJECT"
+}

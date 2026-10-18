@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:33:09.332064+00:00",
+  "finished_utc": "2026-09-28T21:33:26.200255+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 885,
+    "output_tokens": 838
+  },
+  "response": "## Screening Scorecard: Priya Ashford\n\n### Scoring Rubric\n\n| Criteria | Weight | Score (0–3) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of Experience (5+)** | High | 3 | 3.0 | 7 years total engineering experience |\n| **Backend Language Proficiency (Java, Python, or comparable)** | High | 1 | 1.0 | Node.js/Express used, but secondary to frontend focus; no Java or Python |\n| **RESTful API Design & Consumption** | High | 2 | 2.0 | Consumes APIs extensively; built aggregation/session layer, but not core backend service design |\n| **Relational Databases & SQL** | Medium | 2 | 1.5 | PostgreSQL/SQL listed in skills; no depth demonstrated in résumé narratives |\n| **Cloud Provider Experience (AWS/Azure/GCP)** | High | 1 | 1.0 | AWS listed (S3, CloudFront, Lambda) — edge/CDN services, not backend infrastructure |\n| **CI/CD & Automated Testing** | Medium | 2 | 1.5 | GitHub Actions CI, Jest integration tests — solid but frontend-oriented |\n| **Education (CS or related / equivalent)** | Low | 1 | 0.5 | B.A. Graphic Design; no CS degree; practical experience partially compensates |\n| **Event-Driven Architecture / Kafka/SQS (Preferred)** | Low | 0 | 0.0 | No evidence |\n| **Containerization / Kubernetes (Preferred)** | Low | 1 | 0.5 | Docker listed; no Kubernetes |\n| **Infrastructure-as-Code (Preferred)** | Low | 0 | 0.0 | No evidence of Terraform/CloudFormation |\n| **Financial Services / Regulated Industry (Preferred)** | Low | 0 | 0.0 | Retail background only |\n| **Observability Tooling (Preferred)** | Low | 0 | 0.0 | No evidence |\n| **Mentorship / Technical Leadership (Preferred)** | Medium | 2 | 1.5 | Mentors junior engineers, leads design-to-code reviews |\n\n**Score Key:** 0 = None, 1 = Partial/Weak, 2 = Adequate, 3 = Strong\n\n---\n\n### Summary Assessment\n\n**Strengths:**\n- Solid tenure (7 years) and seniority in title/responsibilities\n- Meaningful React/Node.js fullstack work and mentorship experience\n- Familiar with REST APIs, SQL, AWS services, and CI/CD pipelines\n\n**Critical Gaps:**\n- **Frontend-primary engineer** — the role requires a backend-focused engineer owning high-volume transaction services; Node.js work described is thin and supporting in nature\n- No Java or Python proficiency (the dominant backend languages for this team's likely stack)\n- No backend service design at scale; no payments, distributed systems, or regulated industry experience\n- AWS usage is CDN/static delivery, not backend cloud architecture\n- No Kafka/event-driven architecture, Kubernetes, IaC, or observability tooling\n\n**Aggregate Assessment:** Priya demonstrates solid skills but in a domain that does not align with the core requirements of a backend Payments Platform engineer. The gaps in backend depth, language fit, and domain experience are material — not supplementable at the senior level.\n\n---\n\nFINAL: REJECT"
+}

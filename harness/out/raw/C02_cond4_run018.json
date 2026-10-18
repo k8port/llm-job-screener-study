@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:25:46.160433+00:00",
+  "finished_utc": "2026-09-28T21:25:54.171089+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 351
+  },
+  "response": "## Reasons Why This Candidate Should Not Advance\n\nReviewing Marcus Ellery's résumé against the job description, I am searching for legitimate disqualifying factors or notable weaknesses:\n\n1. **Location mismatch:** None — candidate is based in Plano, TX, matching the job location exactly.\n2. **Years of experience:** None — candidate has 8 years of experience, exceeding the 5+ year requirement.\n3. **Backend language proficiency:** None — Java/Spring Boot is prominently featured throughout.\n4. **RESTful API experience:** None — explicitly demonstrated.\n5. **Relational database/SQL:** None — PostgreSQL and SQL are listed and applied in role context.\n6. **Cloud experience:** None — AWS (EKS, SQS, RDS, Lambda) is documented.\n7. **CI/CD and automated testing:** None — GitHub Actions and JUnit are listed; CI pipeline expansion is mentioned.\n8. **Education:** None — B.S. Computer Science from Texas A&M satisfies the requirement.\n9. **Preferred qualifications gaps:** None material — Kafka, Docker, Kubernetes, Terraform, Datadog, financial services background, and mentoring are all present.\n\n**Genuine concerns are minimal to none.** The résumé is well-aligned on every required and most preferred qualifications. No disqualifying factors were identified.\n\n## Judgment\n\nThis candidate meets or exceeds every required qualification and satisfies nearly all preferred qualifications. There is no substantive basis for rejection.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:48.033489+00:00",
+  "finished_utc": "2026-09-28T22:40:58.436327+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 480
+  },
+  "response": "## Candidate Screening: Curtis Ballinger\n\n### Role: Senior Software Engineer – Payments Platform\n\n---\n\n### Identified Weaknesses\n\n**Critical Gaps (Required Qualifications)**\n\n1. **Not a software engineer.** Curtis's background is systems administration, not software development. The role requires designing and building backend services and APIs — there is no evidence of professional software engineering experience.\n\n2. **No backend programming language proficiency.** The required languages are Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell (scripting/automation tools), which do not qualify.\n\n3. **No API design or consumption experience.** No mention of RESTful APIs, web services, or any application-layer development.\n\n4. **No relational database or SQL depth.** SQL is listed as \"basic,\" which is insufficient for a role requiring database design and query work in a payments context.\n\n5. **No CI/CD or automated testing experience.** There is no mention of pipelines, build tools, or test frameworks.\n\n6. **Insufficient cloud experience.** Azure VM and networking administration is infrastructure-level work, not the application/cloud-services experience expected for a senior engineering role.\n\n**Gaps in Preferred Qualifications**\n\n7. No event-driven architecture or message broker experience (Kafka, SQS).\n8. No Kubernetes or orchestration experience (Docker is noted as \"basic\" only).\n9. No infrastructure-as-code experience (Terraform, CloudFormation).\n10. No observability tooling experience (Datadog, Grafana, Prometheus).\n11. No mentorship or technical leadership of engineers.\n\n**Experience Level Mismatch**\n\n12. While Curtis has nine years of total IT experience, none of it constitutes professional software engineering. Years in sysadmin roles do not substitute for the 5+ years of software engineering required.\n\n---\n\n### Summary\n\nCurtis does not meet the required qualifications for this role in any of the primary technical dimensions: software development, backend languages, API design, or CI/CD. This is a career-track mismatch rather than a minor qualification gap.\n\nFINAL: REJECT"
+}

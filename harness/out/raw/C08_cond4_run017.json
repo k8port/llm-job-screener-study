@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:21.716261+00:00",
+  "finished_utc": "2026-09-28T22:18:31.366701+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 426
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Developer — QA/Testing Background**\nThe candidate explicitly self-identifies as a \"quality engineer transitioning toward software development.\" All five years of professional experience are in QA/testing roles, not software engineering or backend development. The role requires a *Senior Software Engineer*, not a QA engineer.\n\n**2. No Backend Service Design or Development Experience**\nThe job requires designing and building scalable backend services and APIs. The candidate has written *tests against* APIs and REST endpoints, but has no demonstrated experience *building* backend services or APIs.\n\n**3. Java Usage is Test-Focused, Not Production Engineering**\nWhile Java is listed as a skill and used in test automation (Selenium, REST Assured), there is no evidence of using Java to build production application code, which is a core requirement.\n\n**4. No Cloud Experience**\nThe job requires hands-on experience with AWS, Azure, or GCP. There is no mention of any cloud provider in the résumé.\n\n**5. No Database/Relational DB Engineering Experience**\nSQL is listed as a skill, but there is no evidence of designing schemas, writing complex queries, or working with relational databases in an engineering capacity.\n\n**6. No CI/CD Pipeline Development Experience**\nThe candidate *maintains test execution stages in Jenkins*, which is a narrow, QA-specific use. This does not equate to building or owning CI/CD pipelines for software delivery.\n\n**7. Insufficient Seniority for the Role**\nThe role requires mentoring engineers, leading architecture discussions, and on-call ownership. There is no evidence the candidate has done any of these things.\n\n**8. No Experience with Preferred Qualifications**\nKafka/SQS, Docker/Kubernetes, Terraform, Datadog/Grafana, and financial services experience are all absent.\n\n---\n\nFINAL: REJECT"
+}

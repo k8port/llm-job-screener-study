@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:00.720408+00:00",
+  "finished_utc": "2026-09-28T21:49:09.341344+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 347
+  },
+  "response": "## Evaluation\n\n**Role Requirements vs. Candidate Profile**\n\n**Required Qualifications:**\n\n| Requirement | Evidence in Résumé |\n|---|---|\n| 5+ years professional software engineering | 6 years of experience, but as a **data analyst**, not a software engineer |\n| Strong proficiency in Java, Python, or comparable backend language | Python scripting (data cleaning/reconciliation) — not backend service development |\n| Experience designing and consuming RESTful APIs | **No evidence** |\n| Relational databases and SQL | ✅ Strong SQL skills |\n| Hands-on experience with major cloud provider | \"Basic AWS (S3, Athena)\" — very limited |\n| CI/CD pipelines and automated testing | **No evidence** |\n| Bachelor's in CS/related or equivalent | B.S. Statistics — adjacent but not directly CS |\n\n**Assessment:**\n\nWhile Nora has six years of experience and demonstrates genuine technical aptitude — particularly in SQL and Python — her background is firmly in **data analytics and reporting**, not backend software engineering. There is no evidence of:\n- Building or designing backend services or APIs\n- Software architecture or system design experience\n- CI/CD, testing frameworks, or production engineering practices\n- Containerization, cloud infrastructure, or distributed systems\n\nHer Python use is limited to scripting for data tasks, which is materially different from building scalable, production-grade backend services for high-volume transaction processing.\n\nThere is insufficient evidence she could successfully perform this Senior Software Engineering role as described.\n\nFINAL: REJECT"
+}

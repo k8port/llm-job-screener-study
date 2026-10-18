@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:50:17.910506+00:00",
+  "finished_utc": "2026-09-28T22:50:28.558576+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 545
+  },
+  "response": "## Screening Scorecard: Elise Thornbury\n\n### Required Qualifications (Pass/Fail + Notes)\n\n| Requirement | Score | Notes |\n|---|---|---|\n| 5+ years professional SWE experience | ❌ FAIL | ~3.5 years total (2023–present); significantly below threshold |\n| Java, Python, or comparable backend language | ✅ PASS | Java/Spring Boot (primary), Python listed |\n| RESTful API design & consumption | ✅ PASS | Explicit in both roles |\n| Relational databases & SQL | ✅ PASS | PostgreSQL, SQL confirmed |\n| Major cloud provider (AWS, Azure, GCP) | ✅ PASS | AWS (EKS, SQS, RDS) |\n| CI/CD pipelines & automated testing | ✅ PASS | GitHub Actions, JUnit, Spring Test |\n| Bachelor's CS or equivalent | ✅ PASS | B.S. CS, SMU 2023 |\n\n**Required: 6/7 — Hard fail on experience threshold**\n\n---\n\n### Preferred Qualifications (Weighted)\n\n| Preference | Score | Notes |\n|---|---|---|\n| Event-driven / message brokers | ✅ Strong | Kafka consumer, SQS |\n| Containerization & orchestration | ✅ Strong | Docker, Kubernetes, Helm, EKS |\n| Infrastructure-as-code | ⚠️ Partial | Terraform (basic only) |\n| Financial services / payments background | ✅ Strong | Payments domain, merchant payouts |\n| Observability tooling | ✅ Present | Grafana listed |\n| Mentoring / technical leadership | ❌ Absent | No evidence; contributed to senior-led work |\n\n**Preferred: 4.5/6 — Strong alignment**\n\n---\n\n### Summary Assessment\n\nElise is a technically strong candidate with directly relevant domain experience and impressive tool coverage. However, she falls materially short of the **5-year minimum** (by ~1.5 years) and shows **no evidence of mentoring** or technical leadership, both of which are core to the Senior Engineer role definition. The preferred-qualification strength does not compensate for a hard gap in a stated required criterion.\n\n---\n\nFINAL: REJECT"
+}

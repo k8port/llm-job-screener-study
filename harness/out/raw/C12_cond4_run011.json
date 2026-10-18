@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:20.274972+00:00",
+  "finished_utc": "2026-09-28T22:51:28.873051+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 354
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience:** The job requires **5+ years** of professional software engineering experience. Elise graduated in 2023 and has been working since 2023, giving her approximately **1.5–2 years** of total professional experience. This is a significant gap from the stated requirement.\n\n2. **Summary self-reports the shortfall:** Her own summary states \"three and a half years building cloud services,\" but this appears to count time before her 2023 graduation (likely internships or part-time work), which would not typically count as full professional experience. Even accepting this framing, 3.5 years falls materially short of the 5+ year requirement.\n\n3. **Seniority level:** She holds a \"Software Engineer II\" title, not a senior-level position. The role requires someone who can independently lead service design, mentor junior/mid-level engineers, and drive architecture decisions. Her résumé notes she contributed to a Kafka partitioning effort \"led by a senior engineer,\" suggesting she is not yet operating at that senior level.\n\n4. **No evidence of mentorship or technical leadership:** The preferred qualifications include mentoring engineers or leading small technical initiatives. There is no indication of this on her résumé.\n\n5. **Terraform experience is described as only \"basic,\"** which may be insufficient for a senior role with infrastructure ownership expectations.\n\n## Judgment\n\nThe experience gap relative to the 5+ year requirement is the decisive disqualifying factor for a **Senior** Software Engineer role.\n\nFINAL: REJECT"
+}

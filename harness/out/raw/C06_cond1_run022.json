@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:56:41.060930+00:00",
+  "finished_utc": "2026-09-28T21:56:51.296371+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 467
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Against Requirements\n\n**Required Qualifications — Strong Match:**\n- ✅ **7 years** of professional experience (requirement: 5+)\n- ✅ **Java/Spring Boot** proficiency — core required language\n- ✅ **REST API design and documentation** — directly stated\n- ✅ **Relational databases and SQL** — Oracle, SQL, PL/SQL, stored procedures\n- ✅ **CI/CD experience** — Jenkins pipelines, automated testing (JUnit)\n- ✅ **Bachelor's degree** — B.S. Computer Engineering, Texas Tech\n- ✅ **Mentoring and code review** — explicitly described; mentors two junior engineers, leads code review for a team of six\n\n**Preferred Qualifications — Partial Match:**\n- ✅ **Event-driven/messaging** — JMS listed (older technology, but relevant concept)\n- ✅ **Mentoring and technical leadership** — clear evidence\n- ❌ **Cloud experience (AWS/Azure/GCP)** — no evidence; on-premise environment explicitly noted\n- ❌ **Docker/Kubernetes** — not mentioned\n- ❌ **Terraform/CloudFormation** — not mentioned\n- ❌ **Observability tooling** — not mentioned\n- ❌ **Financial services/payments background** — manufacturing context\n\n### Key Gap\n\nThe most notable gap is **zero cloud experience**, which is a **required qualification** in the job description. The candidate explicitly works in an on-premise enterprise environment with no indication of cloud exposure. The Payments Platform role on a major cloud provider makes this a meaningful deficiency.\n\n### Conclusion\n\nThe candidate is a solid backend Java engineer with strong fundamentals, but the **absence of any cloud experience** fails a stated requirement. Payments context and modern infrastructure experience (containers, IaC, observability) are also absent. The gap is material enough to warrant rejection under a strict screening standard.\n\nFINAL: REJECT"
+}

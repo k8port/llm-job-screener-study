@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:37.597155+00:00",
+  "finished_utc": "2026-09-28T22:40:48.032948+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 454
+  },
+  "response": "## Candidate Screening Analysis: Curtis Ballinger\n\n### Role: Senior Software Engineer – Payments Platform\n\n---\n\n### Identified Weaknesses\n\n**Critical Gaps (Required Qualifications)**\n\n1. **No software engineering background.** Curtis is a systems administrator, not a software engineer. His résumé contains no evidence of designing, building, or maintaining software services, APIs, or applications. His scripting (Bash, PowerShell) is operational automation, not software development.\n\n2. **No proficiency in Java or Python (or comparable backend language).** Neither language appears on his résumé. His only programming-adjacent skills are Bash and PowerShell, which are system administration tools.\n\n3. **No API design or consumption experience.** There is no mention of RESTful APIs or any related web service development.\n\n4. **No CI/CD pipeline or automated testing experience.** These are explicitly required and entirely absent from his profile.\n\n5. **SQL listed as \"basic.\"** The role requires meaningful relational database experience; self-reported basic SQL does not meet the bar.\n\n6. **Azure experience is infrastructure-only.** He manages Azure VMs and networking as a sysadmin, not as a cloud application developer. This does not satisfy the intent of the cloud experience requirement.\n\n**Preferred Qualification Gaps**\n\n7. No experience with Kafka, SQS, or event-driven architecture.\n8. No Kubernetes or orchestration experience (Docker is listed as basic only).\n9. No infrastructure-as-code experience (Terraform, CloudFormation).\n10. No observability tooling experience relevant to software systems (Nagios is monitoring, not developer observability).\n11. No background in financial services or payments.\n12. No experience mentoring engineers or leading technical initiatives.\n\n---\n\n### Summary\n\nCurtis has a solid sysadmin career with relevant infrastructure exposure, but he does not meet the foundational requirements for a Senior Software Engineer role. The gap is not marginal — he lacks core software development experience entirely.\n\nFINAL: REJECT"
+}

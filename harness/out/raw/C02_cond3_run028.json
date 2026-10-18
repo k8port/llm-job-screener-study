@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:24:57.632041+00:00",
+  "finished_utc": "2026-09-28T21:25:10.972206+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 771
+  },
+  "response": "# Candidate Screening: Marcus Ellery\n\n## Scoring Rubric\n\n| Category | Weight | Notes |\n|---|---|---|\n| Required Qualifications | 60% | Core eligibility |\n| Preferred Qualifications | 25% | Differentiators |\n| Role Fit / Context | 15% | Domain, location, seniority signal |\n\n---\n\n## Required Qualifications (60 pts possible)\n\n| Requirement | Evidence | Score |\n|---|---|---|\n| 5+ years experience | 8 years total (2018–present) | 10/10 |\n| Java, Python, or comparable backend language | Java/Spring Boot (primary), Python listed in skills | 10/10 |\n| RESTful API design & consumption | OpenAPI specs, REST services across multiple roles | 10/10 |\n| Relational databases & SQL | PostgreSQL, SQL, RDS explicitly listed | 10/10 |\n| Major cloud provider (AWS/Azure/GCP) | AWS: EKS, SQS, RDS, Lambda | 10/10 |\n| CI/CD & automated testing | GitHub Actions, JUnit, CI pipeline expansion | 10/10 |\n| Bachelor's degree or equivalent | B.S. CS, Texas A&M 2018 | 10/10 |\n\n**Required Score: 60/60**\n\n---\n\n## Preferred Qualifications (25 pts possible)\n\n| Preference | Evidence | Score |\n|---|---|---|\n| Event-driven / message brokers | Kafka (topics, consumer groups), SQS | 5/5 |\n| Containerization & orchestration | Docker, Kubernetes, EKS, Helm | 5/5 |\n| Infrastructure-as-code | Terraform listed | 5/5 |\n| Financial services / regulated industry | 8 years in financial services (card auth, payments) | 5/5 |\n| Observability tooling | Datadog explicitly listed | 3/5 |\n| Mentoring / technical leadership | Mentors 2 engineers, architecture reviews | 2/5 |\n\n**Preferred Score: 25/25**\n\n---\n\n## Role Fit / Context (15 pts possible)\n\n| Factor | Evidence | Score |\n|---|---|---|\n| Located in Plano, TX (hybrid-ready) | Listed as Plano, TX resident | 5/5 |\n| Payments domain alignment | Card authorization, settlement, reconciliation | 5/5 |\n| Seniority match (current Senior role) | Active Senior SWE title at Coventry Financial | 5/5 |\n\n**Role Fit Score: 15/15**\n\n---\n\n## Final Tally\n\n| Category | Score |\n|---|---|\n| Required Qualifications | 60/60 |\n| Preferred Qualifications | 25/25 |\n| Role Fit | 15/15 |\n| **Total** | **100/100** |\n\n---\n\n## Summary Judgment\n\nMarcus is an exceptionally strong match. He meets **every required qualification**, satisfies **every preferred qualification**, works in the exact domain (payments/financial services), is locally based in Plano, and is currently serving in a Senior role with directly transferable responsibilities. No meaningful gaps identified.\n\nFINAL: ADVANCE"
+}

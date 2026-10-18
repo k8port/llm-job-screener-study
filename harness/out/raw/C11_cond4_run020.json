@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:37.920546+00:00",
+  "finished_utc": "2026-09-28T22:43:46.081496+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 378
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer — Systems Administrator Background**: Curtis's entire career is in IT infrastructure and systems administration, not software development. The role requires a Senior *Software Engineer* who designs and builds backend services and APIs.\n\n2. **No Professional Software Development Experience**: The required qualifications call for 5+ years of professional software engineering experience. Curtis has zero years in a software engineering role.\n\n3. **No Backend Language Proficiency**: The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell, which are scripting/automation tools, not backend development languages.\n\n4. **No API Design or Consumption Experience**: There is no evidence of experience designing or consuming RESTful APIs.\n\n5. **No Relational Database / SQL Experience Beyond \"Basic\"**: SQL is listed as a basic skill only, which is insufficient for a senior role requiring meaningful database design and querying experience.\n\n6. **No CI/CD or Automated Testing Experience**: Neither CI/CD pipelines nor automated testing are mentioned anywhere in the résumé.\n\n7. **No Application Development or Architecture Experience**: The role involves service design, architecture discussions, and code review — none of which appear in Curtis's background.\n\n8. **Docker Listed as \"Basic\" Only**: Docker is listed at a beginner level, and Kubernetes is absent entirely.\n\n9. **No Mentorship or Technical Leadership**: There is no indication of mentoring engineers or leading technical initiatives.\n\n10. **No Payments or Regulated Industry Software Experience**: While healthcare is a regulated industry, Curtis's work is entirely infrastructure-focused, not application development within that space.\n\n---\n\nFINAL: REJECT"
+}

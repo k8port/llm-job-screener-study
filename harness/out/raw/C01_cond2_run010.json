@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:38:56.489672+00:00",
+  "finished_utc": "2026-09-30T18:39:05.768807+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 409
+  },
+  "response": "## Candidate Weakness Analysis: Dana Whitfield\n\n### Identified Weaknesses\n\n**1. Insufficient Years of Experience (Critical Gap)**\nThe job requires **5+ years** of professional software engineering experience. Dana has approximately **2 years** (intern + current role), with only ~1 year as a full engineer. This is a fundamental mismatch with the seniority level of the role.\n\n**2. No Cloud Platform Depth**\nThe required qualifications call for hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3)\" — self-described as basic and limited to two foundational services. This falls well short of the expected depth.\n\n**3. No CI/CD Pipeline Ownership**\nDana contributes to a GitHub Actions pipeline but explicitly notes it is \"maintained by a senior engineer.\" The role expects independent CI/CD experience, not supporting participation.\n\n**4. No Mentorship or Technical Leadership**\nThe role involves mentoring junior/mid-level engineers and leading technical initiatives. There is no evidence of either in Dana's background, which is expected given the experience level.\n\n**5. Missing Preferred Qualifications (Nearly All)**\n- No event-driven architecture or message broker experience (Kafka, SQS)\n- No containerization or orchestration (Docker, Kubernetes)\n- No infrastructure-as-code experience\n- No financial services or regulated industry background\n- No observability tooling experience\n\n**6. Limited Scope of Work**\nCurrent work is scoped to an internal inventory service with a small user base — not indicative of high-volume, enterprise-scale, or distributed systems work.\n\n---\n\n### Summary\n\nDana shows promise as an early-career engineer but does not meet the baseline requirements for a Senior Software Engineer role, most critically the experience threshold and cloud depth.\n\nFINAL: REJECT"
+}

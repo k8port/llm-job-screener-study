@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:12.748173+00:00",
+  "finished_utc": "2026-09-28T22:47:21.872603+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 403
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Evaluating Against Required Qualifications\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | ~3.5 years (2023–present) | ❌ |\n| Java, Python, or comparable backend language | Java/Spring Boot, Python listed | ✅ |\n| RESTful API design and consumption | Explicitly noted across roles | ✅ |\n| Relational databases and SQL | PostgreSQL/SQL | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | AWS (EKS, SQS, RDS) | ✅ |\n| CI/CD and automated testing | GitHub Actions, JUnit | ✅ |\n| Bachelor's in CS or equivalent | B.S. CS, SMU 2023 | ✅ |\n\n### Evaluating Against Preferred Qualifications\n\nElise checks most preferred boxes: Kafka/event-driven architecture, Docker/Kubernetes, Terraform (basic), payments industry background, and Grafana. The one missing preferred item is explicit mentoring experience.\n\n### Key Gap\n\nThe most significant concern is **years of experience**. The role requires **5+ years**; Elise has approximately **3.5 years**. This is a material shortfall for a *Senior* role, not a borderline case. The job description also emphasizes mentoring junior/mid engineers and leading technical initiatives — areas where her résumé shows limited evidence (she contributed to, rather than led, the Kafka partitioning work).\n\nHer domain fit and technical breadth are genuinely strong, but there is insufficient evidence she is operating at the senior level this role demands.\n\nFINAL: REJECT"
+}

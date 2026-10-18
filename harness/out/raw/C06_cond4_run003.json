@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:17.844907+00:00",
+  "finished_utc": "2026-09-28T22:00:26.850698+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 411
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Against Required Qualifications:**\n\n1. **No cloud experience.** The résumé explicitly describes an \"on-premise enterprise environment\" with no mention of AWS, Azure, or GCP. Cloud experience is a listed *required* qualification.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins.** The candidate mentions adding Jenkins integration test stages, but there is no indication of experience building or owning modern CI/CD pipelines end-to-end.\n\n**Against Preferred Qualifications:**\n\n3. **No event-driven architecture / modern message broker experience.** JMS is listed under skills, which is dated; no mention of Kafka, SQS, RabbitMQ, or similar modern brokers.\n\n4. **No containerization or orchestration experience.** Docker and Kubernetes are absent from the résumé entirely.\n\n5. **No infrastructure-as-code experience.** Terraform, CloudFormation, or equivalent tools are not mentioned.\n\n6. **No payments, financial services, or regulated industry background.** The candidate's domain is manufacturing — order processing and inventory reconciliation — which is unrelated to payments platforms.\n\n7. **No observability tooling experience.** Datadog, Grafana, Prometheus, or equivalent tools are not referenced.\n\n**Additional Concerns:**\n\n8. **Entirely on-premise background.** The target role involves a cloud-native payments platform; the candidate has zero demonstrated cloud-native or distributed systems experience relevant to that context.\n\n---\n\nThe candidate meets some baseline criteria (Java, REST APIs, SQL, bachelor's degree, years of experience, mentoring), but fails on the single most critical *required* qualification (cloud experience) and misses nearly every preferred qualification. The gap between the candidate's background and the role's technical environment is substantial.\n\nFINAL: REJECT"
+}

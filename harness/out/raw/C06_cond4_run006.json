@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:21.681475+00:00",
+  "finished_utc": "2026-09-28T22:00:31.454010+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 425
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Missing or Weak Required Qualifications:**\n\n1. **No cloud experience** – The job explicitly requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Alan's résumé shows exclusively on-premise enterprise work with no mention of any cloud platform. This is a hard required qualification for a Payments Platform role.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins** – While he mentions Jenkins, it appears limited to adding integration test stages. There is no evidence of meaningful CI/CD pipeline design or ownership.\n\n**Missing Preferred Qualifications (cumulative concern):**\n\n3. **No event-driven architecture / message broker experience** – Kafka, SQS, or similar are listed as preferred. Alan lists JMS, which is a much older, on-premise messaging standard and is not equivalent to modern distributed message brokers.\n\n4. **No containerization or orchestration experience** – No Docker, Kubernetes, or related tooling is mentioned anywhere.\n\n5. **No infrastructure-as-code experience** – Terraform, CloudFormation, or similar are absent.\n\n6. **No financial services or payments background** – His domain experience is manufacturing (order processing, inventory), which is a meaningful gap for a Payments Platform team operating in a regulated environment.\n\n7. **No observability tooling experience** – Datadog, Grafana, Prometheus — none are mentioned.\n\n**Other Concerns:**\n\n8. **Entirely on-premise experience** – The role is cloud-native and hybrid-cloud oriented; transitioning from a fully on-premise manufacturing environment represents a significant ramp-up risk.\n\n---\n\nThe cloud experience gap alone is a disqualifying miss against a stated required qualification. Combined with the breadth of missing preferred qualifications and no payments/fintech domain context, the candidate does not meet the bar for this role.\n\nFINAL: REJECT"
+}

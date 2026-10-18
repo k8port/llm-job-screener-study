@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:43:17.533803+00:00",
+  "finished_utc": "2026-09-28T21:43:32.794955+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 790
+  },
+  "response": "# Candidate Screening: Trevor Lindquist\n**Role: Senior Software Engineer – Payments Platform**\n\n---\n\n## Scoring Rubric\n\n### Required Qualifications (each scored 0–2; max 14 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 9 years total, 6 in payments | **2/2** |\n| Java, Python, or comparable backend language | Python + Java explicitly listed; Spring Boot, FastAPI in use | **2/2** |\n| RESTful API design and consumption | Owns API/partner integration surface; versioned REST contracts | **2/2** |\n| Relational databases and SQL | PostgreSQL, SQL-backed batch jobs, RDS | **2/2** |\n| Major cloud provider experience | AWS (ECS, SQS, RDS, Lambda) | **2/2** |\n| CI/CD and automated testing | GitHub Actions; introduced integration testing; pytest | **2/2** |\n| Bachelor's degree or equivalent practical experience | No degree; structured apprenticeship + 9 years demonstrated experience (equivalent practical experience clause applies) | **1/2** |\n\n**Required Total: 13/14**\n\n---\n\n### Preferred Qualifications (each scored 0–1; max 6 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | Kafka + SQS pipeline built and owned | **1/1** |\n| Containerization and orchestration | Docker, Kubernetes, Helm explicitly listed | **1/1** |\n| Infrastructure-as-code | Terraform modules, standardized across six services | **1/1** |\n| Financial services / payments / regulated industry | Six years in payments infrastructure | **1/1** |\n| Observability tooling | Grafana, Prometheus in skills | **1/1** |\n| Mentoring / leading technical initiatives | On-call rotation lead; retrospective ownership; implicit team leadership | **1/1** |\n\n**Preferred Total: 6/6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating | Notes |\n|---|---|---|\n| Technical Depth | ★★★★★ | End-to-end ownership across stack: services, APIs, infra, pipelines |\n| Domain Relevance | ★★★★★ | Direct payments infrastructure experience (ACH, card settlement) |\n| Seniority Indicators | ★★★★★ | On-call lead, architecture ownership, cross-team integration work |\n| Communication/Documentation | ★★★★☆ | Maintains integration docs; retrospective facilitation |\n| Education Risk | ★★★☆☆ | No degree; mitigated by formal apprenticeship + 9 years track record |\n\n---\n\n## Summary\n\n**Total Score: 19/20**\n\nTrevor is an exceptionally strong match. He satisfies every required qualification — the only minor gap is the absence of a formal degree, which the job description expressly addresses with an \"equivalent practical experience\" clause. His nine years of experience, six of which are in payments infrastructure at a direct industry peer, align precisely with the role's domain and technical needs. Every preferred qualification is met, and several are demonstrated at a senior level (Kafka pipeline ownership, Terraform standardization across multiple services, on-call leadership).\n\n---\n\nFINAL: ADVANCE"
+}

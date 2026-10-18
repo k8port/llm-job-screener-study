@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:34:43.891337+00:00",
+  "finished_utc": "2026-09-28T21:34:57.331090+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 612
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-Focused, Not Backend-Focused**\nThe candidate explicitly self-identifies as \"frontend-focused\" in their summary. The role requires deep backend engineering expertise for a high-volume payments platform. While they have some Node.js/Express work, it is described as a supporting layer for a frontend portal, not core backend systems engineering.\n\n**2. No Java or Python Proficiency**\nThe required qualifications specify strong proficiency in Java, Python, or a comparable backend language. The candidate's stack is TypeScript/JavaScript/Node.js — which could be considered \"comparable,\" but given the payments/enterprise context and the frontend-centric framing of all their experience, this is a meaningful gap.\n\n**3. No Cloud Infrastructure Depth**\nAWS experience is limited to S3, CloudFront, and Lambda — largely frontend/CDN-oriented services. There is no evidence of backend-relevant AWS services (e.g., RDS, ECS, EKS, SQS, API Gateway in a backend capacity), and no experience with Azure or GCP.\n\n**4. No Payments, Financial Services, or Regulated Industry Experience**\nThe candidate comes from retail and media. The job's core domain is enterprise payments, and financial services background is a preferred (and practically important) qualifier.\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nNo mention of Kafka, SQS, or any pub/sub/event-driven systems — a notable preferred qualification for a payments platform.\n\n**6. No Containerization or Orchestration at Scale**\nDocker is listed in skills, but there is no mention of Kubernetes or production orchestration experience.\n\n**7. Education Mismatch**\nThe candidate holds a B.A. in Graphic Design, not Computer Science or a related technical field. This is not disqualifying on its own (equivalent experience is accepted), but combined with other gaps, it adds to the concern.\n\n**8. No Observability or Reliability Engineering Experience**\nNo mention of Datadog, Grafana, Prometheus, or any production reliability/monitoring work — a preferred qualification and an implicit expectation for a senior backend role on an on-call rotation.\n\n**9. Transaction/High-Volume System Design Experience Absent**\nThere is no evidence of designing or maintaining systems that process high-volume, low-latency transactions — a core expectation of this role.\n\n---\n\n**Summary Rationale:** While the candidate has seven years of experience and some backend-adjacent work, the depth, domain, and technical profile do not align with the needs of a Senior Backend Engineer on a payments platform. The gaps are substantial and spread across required qualifications, not just preferred ones.\n\nFINAL: REJECT"
+}

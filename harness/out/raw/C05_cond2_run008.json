@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:18.245444+00:00",
+  "finished_utc": "2026-09-28T21:49:27.682320+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 390
+  },
+  "response": "## Screening Assessment: Nora Kessler\n\n### Identified Weaknesses\n\n1. **Not a software engineer — fundamentally different role background.** Nora is a data analyst/reporting analyst. Her experience centers on analytics, dashboarding, and business reporting — not building backend services, APIs, or production software systems.\n\n2. **No backend service or API development experience.** The role requires designing and building scalable backend services and RESTful APIs. There is no evidence of this in her résumé.\n\n3. **No experience with CI/CD pipelines or automated testing.** These are explicitly required qualifications with no indication of exposure.\n\n4. **Cloud experience is superficial.** She lists \"basic AWS (S3, Athena)\" — both are data/query services used in an analytics context. This does not constitute hands-on cloud engineering experience with compute, networking, or platform services.\n\n5. **No experience with Java or comparable backend languages.** Her Python usage is limited to scripting (Pandas, NumPy, data cleaning) — not application or service development.\n\n6. **No experience with relational databases in an engineering context.** Her SQL experience is purely analytical (queries, reporting models), not schema design, transaction management, or application-layer database integration.\n\n7. **No exposure to any preferred qualifications** — no Kafka/SQS, Docker/Kubernetes, Terraform, observability tooling, payments/fintech, or engineering mentorship.\n\n8. **No software engineering experience whatsoever,** let alone the required 5+ years.\n\n### Summary\n\nNora is an accomplished data professional but does not meet any of the core engineering requirements for this role. The gap is fundamental, not marginal.\n\nFINAL: REJECT"
+}

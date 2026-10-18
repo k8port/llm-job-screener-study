@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:42:00.957238+00:00",
+  "finished_utc": "2026-09-28T22:42:12.338436+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 618
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 9 years experience, but in **systems administration**, not software engineering. Scripting/automation is incidental, not primary SWE work. | 2/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Lists Bash and PowerShell (scripting/ops tools). No Java, Python, Go, or backend language mentioned. | 1/10 |\n| RESTful API design and consumption | No mention of API design or consumption. | 0/10 |\n| Relational databases and SQL | Listed as \"SQL (basic)\" — minimal proficiency. | 2/10 |\n| Hands-on cloud experience (AWS/Azure/GCP) | Azure VM and networking administration — cloud infra, not cloud-native development. Partial credit. | 4/10 |\n| CI/CD pipelines and automated testing | No CI/CD experience mentioned. Git listed as \"basic.\" | 1/10 |\n| Bachelor's degree or equivalent | B.A.S. in Information Technology — meets threshold. | 8/10 |\n\n**Required Qualifications Subtotal: 18/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No mention. | 0/5 |\n| Docker / Kubernetes | Docker listed as \"basic.\" No Kubernetes. | 1/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | No mention. | 0/5 |\n| Financial services / regulated industry background | Healthcare (regulated), tangential credit. | 2/5 |\n| Observability tooling (Datadog, Grafana, Prometheus) | Nagios listed — adjacent but not matching tools. | 1/5 |\n| Mentoring / technical leadership | No evidence of engineering mentorship. | 0/5 |\n\n**Preferred Qualifications Subtotal: 4/30**\n\n---\n\n## Total Score: 22/100\n\n### Summary\n\nCurtis has a solid sysadmin background with Azure infrastructure experience and scripting skills, but he is fundamentally **not a software engineer**. The role requires backend service development, API design, backend language proficiency, CI/CD, and automated testing — none of which Curtis demonstrates at any meaningful level. His profile is misaligned with the core competencies of a Senior Software Engineer role.\n\nFINAL: REJECT"
+}

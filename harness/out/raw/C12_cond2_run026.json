@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:56.899937+00:00",
+  "finished_utc": "2026-09-28T22:49:07.249138+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 405
+  },
+  "response": "## Screening Analysis: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient Years of Experience (Critical Gap)**\nThe role requires **5+ years** of professional software engineering experience. Thornbury has approximately **3.5 years** (2023–present, with her B.S. completed in 2023). This is a meaningful shortfall of roughly 1.5 years against a stated required qualification.\n\n2. **Mentorship/Leadership — No Evidence**\nThe role explicitly requires mentoring mid-level and junior engineers and includes leading technical initiatives as a preferred qualification. There is no mention of mentorship, tech lead activities, or leading initiatives on her résumé. Her Kafka work is explicitly noted as supporting a *senior engineer's* initiative, not her own.\n\n3. **Architecture-Level Ownership — Limited**\nThe role emphasizes significant ownership over **service design and architecture discussions**. Her experience reflects solid implementation work, but architecture ownership at the scope expected of a Senior engineer is not clearly demonstrated.\n\n4. **Infrastructure-as-Code — Surface-Level**\nTerraform is listed as \"basic,\" whereas the role prefers meaningful IaC experience. This is a preferred, not required, qualification — but it adds to the overall seniority concern.\n\n5. **CI/CD — Narrow Experience**\nExperience appears limited to GitHub Actions; no mention of broader CI/CD ecosystem exposure (e.g., Jenkins, ArgoCD), though GitHub Actions does satisfy the baseline requirement.\n\n### Summary Assessment\n\nThe most significant and disqualifying gap is the **years of experience**: 3.5 years vs. the required 5+. Combined with no evidence of mentorship and limited architectural ownership, she does not meet the **required** qualifications for a Senior-level role as defined.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:05:20.746765+00:00",
+  "finished_utc": "2026-09-28T22:05:29.776344+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 451
+  },
+  "response": "## Assessment\n\n**Required Qualifications Review:**\n\n- ✅ **5+ years experience** — 8 years total (2018–present)\n- ✅ **Strong proficiency in Java, Python, or comparable backend language** — Python is a core skill throughout\n- ✅ **RESTful API design and consumption** — explicitly designs and maintains REST APIs in current role\n- ✅ **Relational databases and SQL** — PostgreSQL, Snowflake, RDS\n- ✅ **Major cloud provider (AWS)** — AWS with EKS, S3, Lambda, RDS\n- ✅ **CI/CD and automated testing** — GitHub Actions, pytest\n- ✅ **Bachelor's degree or equivalent** — B.S. Information Systems\n\n**Preferred Qualifications Review:**\n\n- ✅ **Event-driven architecture / Kafka** — owns Kafka-based streaming at 40M daily events\n- ✅ **Docker, Kubernetes** — containerized workloads on EKS\n- ✅ **Infrastructure-as-code (Terraform)** — explicitly manages with Terraform\n- ✅ **Observability tooling** — built the observability layer with Prometheus and Grafana\n- ✅ **On-call experience** — carries on-call for the data platform\n- ⚠️ **Financial services background** — adjacent (transaction data for enterprise clients, healthcare reporting) but not explicitly payments/fintech\n- ⚠️ **Mentoring** — not explicitly mentioned\n\n**Summary:** The candidate meets virtually all required qualifications and a strong majority of preferred qualifications. Her current role is functionally very close to the described position — backend Python services, REST APIs, Kafka, Terraform, Kubernetes, observability, and on-call ownership. The gap (no explicit payments/fintech or mentoring experience) is minor and does not outweigh the strong overall fit.\n\nFINAL: ADVANCE"
+}

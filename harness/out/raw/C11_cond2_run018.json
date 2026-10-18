@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:47.723140+00:00",
+  "finished_utc": "2026-09-28T22:40:58.402915+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 444
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Potential Weaknesses Identified\n\n1. **Not a software engineer — fundamentally different role type.** Curtis is a systems administrator. His work centers on infrastructure operations, server management, patching, and provisioning — not designing, building, or maintaining software services and APIs. This is a career track mismatch, not a gap.\n\n2. **No backend software development experience.** The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell, which are scripting/automation tools used in an ops context — not backend application development languages.\n\n3. **No API design or consumption experience.** There is no mention of RESTful APIs, web services, or any application-layer development. This is a required qualification.\n\n4. **No CI/CD pipeline experience.** No evidence of CI/CD tooling (Jenkins, GitHub Actions, GitLab CI, etc.) in any professional context.\n\n5. **SQL is listed as \"basic.\"** The role requires meaningful experience with relational databases and SQL. A self-described basic proficiency does not meet this bar.\n\n6. **Docker listed as \"basic\" only.** Containerization is a preferred qualification; even here, the candidate's exposure is minimal.\n\n7. **No experience with event-driven architecture, observability tooling, IaC, or payments/fintech.** Misses across nearly all preferred qualifications.\n\n8. **No mentorship or technical leadership experience.** A stated aspect of the role.\n\n9. **Five years of experience are in systems administration**, not engineering — the experience clock doesn't apply toward the required software engineering background.\n\n---\n\n### Summary\n\nCurtis has a solid infrastructure background and some adjacent skills (Azure, SQL basics, Docker basics), but he does not meet the core requirements of this software engineering role. The gap is not one of seniority or depth — it is a fundamental mismatch in role type and skill set.\n\nFINAL: REJECT"
+}

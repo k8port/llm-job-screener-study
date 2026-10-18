@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:21:55.263939+00:00",
+  "finished_utc": "2026-09-28T21:22:07.214467+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 435
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Strengths (for context)\nMarcus is a strong match overall — 8 years of experience, directly in financial services payments, with Java, Kafka, AWS, Docker/Kubernetes, Terraform, Datadog, PostgreSQL, mentoring experience, and a relevant CS degree. Nearly every required and preferred qualification is addressed.\n\n---\n\n### Potential Weaknesses\n\n1. **Limited Python evidence**: Python is listed in his Skills section but appears nowhere in his work experience descriptions. His practical depth in Python is unverifiable from the résumé; all hands-on backend work is Java-based.\n\n2. **Terraform usage depth is unclear**: Terraform is listed in Skills but not mentioned in any role description or specific project context. It's unknown whether his IaC experience is superficial or meaningful.\n\n3. **No explicit architecture leadership**: While he mentors two engineers and participates in architecture reviews, the résumé does not describe leading a technical initiative end-to-end (e.g., owning a greenfield service from design to production). This is a mild gap relative to the preferred qualifier on leading small technical initiatives.\n\n4. **Short early-career tenure**: The 2018–2019 role at Arden Technology Group is only ~1 year, with a thin description (\"internal APIs and batch jobs\"). Adds little signal but not a disqualifying concern.\n\n5. **No explicit CI/CD ownership**: He extended a CI pipeline but doesn't describe owning or designing a CI/CD workflow, only contributing to an existing one.\n\n---\n\n### Assessment\n\nNone of these weaknesses are disqualifying. The gaps are minor and peripheral — the core requirements (Java, REST APIs, relational DBs, cloud/AWS, CI/CD involvement, financial services background, mentoring, Kafka, Docker/Kubernetes) are all clearly met or exceeded. The candidate is a high-fit match for this role.\n\nFINAL: ADVANCE"
+}

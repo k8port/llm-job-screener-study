@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:50:40.441816+00:00",
+  "finished_utc": "2026-09-28T22:50:54.363962+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 644
+  },
+  "response": "## Screening Scorecard — Elise Thornbury\n\n### Required Qualifications\n\n| Criterion | Weight | Assessment | Score (0–3) |\n|---|---|---|---|\n| 5+ years professional SWE experience | High | ~2 years at Larkspur Pay (2023–Present); summary states \"three and a half years.\" Even generously counting from graduation (May 2023), total experience is ~2 years. Significantly below the 5-year minimum. | 0 |\n| Java, Python, or comparable backend language | High | Strong Java/Spring Boot throughout; Python listed in skills. | 3 |\n| RESTful API design & consumption | High | Explicitly designs and documents REST endpoints consumed by internal and partner teams. | 3 |\n| Relational databases & SQL | High | PostgreSQL on RDS; SQL experience evident. | 3 |\n| Cloud provider hands-on (AWS/Azure/GCP) | High | AWS: EKS, SQS, RDS in production. | 3 |\n| CI/CD & automated testing | High | GitHub Actions pipelines, JUnit, Spring Test. | 3 |\n| Bachelor's in CS or equivalent | Medium | B.S. Computer Science, SMU 2023. | 3 |\n\n### Preferred Qualifications\n\n| Criterion | Assessment | Score (0–3) |\n|---|---|---|\n| Event-driven architecture / message brokers | Kafka consumers, SQS; contributed (supporting role) to partitioning work. | 2 |\n| Containerization & orchestration | Docker, Kubernetes, Helm, EKS — hands-on. | 3 |\n| Infrastructure-as-code | Terraform listed as \"basic.\" | 1 |\n| Financial services / payments background | Directly in payments (merchant payouts, settlements). | 3 |\n| Observability tooling | Grafana listed; no Datadog or Prometheus mentioned. | 1 |\n| Mentoring / leading technical initiatives | No evidence of mentoring or leading initiatives. | 0 |\n\n---\n\n### Summary Assessment\n\n**Strengths:** Payments domain fit is excellent, tech stack is well-aligned (Java, AWS, Kafka, Kubernetes, REST, PostgreSQL), and she is already building production services in the relevant environment.\n\n**Critical Gap:** The required experience threshold is **5+ years**; Thornbury has approximately **2 years** of professional experience post-graduation. This is a hard requirement and represents a material shortfall — roughly 3 years — not a borderline miss.\n\n**Overall:** Despite a strong technical and domain match across nearly all other dimensions, the experience gap is too significant to overlook for a **Senior** role with mentorship responsibilities and production ownership expectations.\n\n---\n\nFINAL: REJECT"
+}

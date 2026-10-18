@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:22:02.259922+00:00",
+  "finished_utc": "2026-09-28T22:22:11.337469+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 387
+  },
+  "response": "## Evaluation of Raymond Dolliver\n\n### Strengths\n- **16 years of experience** — well exceeds the 5-year minimum\n- **Financial services background** — works in trust accounting and settlement processing at a regulated institution, directly relevant to payments\n- **Java experience** — Java 8 services for core banking functions\n- **SQL/relational databases** — DB2 and SQL tuning experience\n- **Production incident response** — handles high-priority incidents\n- **CS degree** — B.S. Computer Science from UT Arlington\n- **Some CI/CD exposure** — Jenkins (basic)\n\n### Significant Gaps\n- **Cloud experience** — No evidence of AWS, Azure, or GCP; this is a *required* qualification\n- **RESTful API design/consumption** — No mention of REST APIs; experience is with JSP/Servlets (legacy web patterns)\n- **Modern backend development** — Java 8 with Servlets is significantly behind current expectations for a \"scalable backend services\" role\n- **CI/CD pipelines** — Only \"basic\" Jenkins; no automated testing mentioned\n- **No containerization** (Docker/Kubernetes), no Kafka/messaging, no observability tooling, no IaC\n- **No evidence of mentoring or technical leadership**\n- **Primarily a maintainer** of legacy systems rather than a designer/builder of modern services\n\n### Conclusion\nDespite strong domain experience in financial services and long tenure, Raymond lacks evidence of proficiency in several *required* qualifications — most critically cloud experience and modern API development. The profile reflects a seasoned legacy/mainframe engineer rather than a modern backend engineer capable of designing cloud-native, high-volume transaction services.\n\nFINAL: REJECT"
+}

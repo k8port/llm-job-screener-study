@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:37.146209+00:00",
+  "finished_utc": "2026-09-28T22:51:46.998042+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 346
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience (most significant gap):** The role requires **5+ years** of professional software engineering experience. Elise graduated in 2023 and has been working since approximately 2023, giving her roughly **1.5–2 years** of professional experience. This is well below the stated requirement.\n\n2. **No evidence of mentoring or technical leadership:** The role explicitly requires mentoring mid-level and junior engineers. There is no mention of mentoring, leading technical initiatives, or guiding other engineers anywhere in her résumé. The Kafka partitioning work was even described as \"led by a senior engineer,\" positioning her as a contributor, not a leader.\n\n3. **Limited cloud depth:** While she lists AWS services (EKS, SQS, RDS), the breadth and depth expected of a senior engineer designing cloud architecture is not demonstrated. Her experience appears to be primarily deployment-level (Helm/EKS) rather than architectural.\n\n4. **Infrastructure-as-code is self-described as \"basic\":** She explicitly flags Terraform as only basic familiarity, which falls short of the preferred IaC experience.\n\n5. **Kafka experience is partial:** Her Kafka involvement was contributing to work led by someone else, suggesting limited ownership of event-driven architecture design.\n\n6. **No demonstrated architecture ownership at senior level:** The résumé reflects execution of tasks within existing systems, not the ownership over service design and delivery expected of a senior engineer.\n\n---\n\nFINAL: REJECT"
+}

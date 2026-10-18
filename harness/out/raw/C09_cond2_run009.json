@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:14.648166+00:00",
+  "finished_utc": "2026-09-28T22:23:25.407206+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 508
+  },
+  "response": "## Screening Assessment: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n**1. Cloud Experience — Missing (Required)**\nThe candidate lists no experience with any major cloud provider (AWS, Azure, or GCP). This is an explicit required qualification and represents a significant gap.\n\n**2. Modern Java / Backend Technology — Weak**\nThe candidate's Java experience is limited to Java 8, JSPs, and Servlets — technologies that are now well over a decade old. There is no evidence of modern backend frameworks (Spring Boot, Quarkus, Micronaut, etc.) or RESTful API design and consumption, both of which are required.\n\n**3. CI/CD and Automated Testing — Minimal**\nJenkins is listed as \"basic,\" and there is no mention of automated testing practices (unit, integration, or end-to-end). CI/CD proficiency is a required qualification.\n\n**4. Event-Driven Architecture / Message Brokers — Absent**\nNo mention of Kafka, SQS, or comparable messaging systems (preferred qualification).\n\n**5. Containerization and Orchestration — Absent**\nNo Docker or Kubernetes experience listed (preferred qualification).\n\n**6. Infrastructure-as-Code — Absent**\nNo Terraform, CloudFormation, or equivalent experience (preferred qualification).\n\n**7. Observability Tooling — Absent**\nNo Datadog, Grafana, or Prometheus experience (preferred qualification).\n\n**8. Mentoring / Technical Leadership — Unclear**\nNo explicit mention of mentoring engineers or leading technical initiatives.\n\n### Strengths Worth Noting\n- 16 years of relevant experience in regulated financial services (trust accounting, settlement)\n- Strong SQL/DB2 background and relational database proficiency\n- Production incident response in a regulated environment\n- B.S. in Computer Science\n\n### Summary\nDespite a solid foundation in financial services and relevant SQL skills, the candidate is missing **multiple required qualifications** — most critically cloud platform experience, modern API development, and meaningful CI/CD/testing practice. The technology stack is heavily legacy-oriented, and the preferred qualifications are largely unmet. The gap between the candidate's current skill set and the role's requirements is too substantial for a senior-level position.\n\nFINAL: REJECT"
+}

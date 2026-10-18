@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:39:22.202260+00:00",
+  "finished_utc": "2026-09-28T21:39:29.997242+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 945,
+    "output_tokens": 386
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Review:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional SWE experience | 9 years total (2016–present) | ✅ |\n| Java, Python, or comparable backend language | Python and Java explicitly listed and used throughout career | ✅ |\n| RESTful API design and consumption | Owns partner API design, versioned REST contracts, FastAPI services | ✅ |\n| Relational databases and SQL | PostgreSQL, SQL-backed batch jobs, RDS | ✅ |\n| Major cloud provider (AWS, Azure, GCP) | AWS (ECS, SQS, RDS, Lambda) | ✅ |\n| CI/CD and automated testing | GitHub Actions, introduced automated integration testing, pytest | ✅ |\n| Bachelor's degree or equivalent practical experience | No degree, but JD explicitly allows \"equivalent practical experience\" | ✅ (covered by equivalent clause) |\n\n**Preferred Qualifications Review:**\n- Event-driven architecture / Kafka / SQS ✅\n- Docker, Kubernetes, Helm ✅\n- Terraform / IaC ✅\n- Financial services / payments background ✅ (6 years in payments)\n- Observability tooling (Grafana, Prometheus) ✅\n- Mentoring / technical leadership ✅ (on-call lead, retrospectives)\n\n**Summary:** Trevor meets every required qualification and nearly all preferred qualifications. His background is a strong match for this specific role — payments infrastructure, the exact tech stack, and senior-level ownership responsibilities.\n\nFINAL: ADVANCE"
+}

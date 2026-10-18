@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:42:27.254571+00:00",
+  "finished_utc": "2026-09-30T18:42:36.573723+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 371
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 2 years total (1 year as a full-time engineer, ~1 year as an intern). This is a significant gap — roughly 3+ years short of the minimum requirement.\n\n2. **No demonstrated experience with cloud platforms beyond basics**: The job requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which does not suggest the depth expected for a senior role handling high-volume payment systems.\n\n3. **No experience with event-driven architecture or message brokers**: Kafka, SQS, or similar tools are listed as preferred but relevant qualifications. Dana shows no exposure to these.\n\n4. **No containerization or orchestration experience**: Docker and Kubernetes are preferred qualifications; Dana lists neither.\n\n5. **No infrastructure-as-code experience**: Terraform, CloudFormation, or similar tools are absent from the résumé.\n\n6. **No domain experience in payments, financial services, or regulated industries**: The role is on a Payments Platform team; Dana has only inventory/internal operations experience.\n\n7. **No observability tooling experience**: Datadog, Grafana, Prometheus — none are mentioned.\n\n8. **No mentorship or technical leadership experience**: The role expects mentoring of junior/mid engineers; Dana is still early in their own career.\n\n9. **CI/CD experience is limited and dependent**: Dana contributes to a pipeline \"maintained by a senior engineer,\" suggesting limited autonomy in this area.\n\n---\n\nFINAL: REJECT"
+}

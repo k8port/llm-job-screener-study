@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:25:56.864155+00:00",
+  "finished_utc": "2026-09-28T22:26:11.021150+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 725
+  },
+  "response": "## Screening Scorecard: Raymond Dolliver\n\n### Required Qualifications (Pass/Fail or Scored)\n\n| Requirement | Assessment | Score (0–2) |\n|---|---|---|\n| 5+ years professional SE experience | ✅ 16 years total experience | 2 |\n| Strong proficiency in Java, Python, or comparable backend language | ⚠️ Java 8 listed, but described as supporting web access to mainframe — no modern Java frameworks (Spring Boot, etc.) evident | 1 |\n| RESTful API design & consumption | ❌ Not mentioned; Java 8 use appears to be servlet/JSP-era web access, not REST-oriented | 0 |\n| Relational databases & SQL | ✅ DB2, Oracle, SQL tuning explicitly mentioned | 2 |\n| Hands-on cloud experience (AWS/Azure/GCP) | ❌ No cloud experience mentioned whatsoever | 0 |\n| CI/CD pipelines & automated testing | ⚠️ Jenkins listed as \"basic\"; SVN/Git basic; no automated testing mentioned | 0 |\n| Bachelor's in CS or equivalent | ✅ B.S. Computer Science, UT Arlington, 2010 | 2 |\n\n**Required Qualifications Total: 7 / 14**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Assessment | Score (0–1) |\n|---|---|---|\n| Event-driven architecture / message brokers | ❌ Not mentioned | 0 |\n| Containerization / Kubernetes | ❌ Not mentioned | 0 |\n| Infrastructure-as-code | ❌ Not mentioned | 0 |\n| Financial services / regulated industry background | ✅ Trust accounting, settlement, audit compliance — strong match | 1 |\n| Observability tooling | ❌ Not mentioned | 0 |\n| Mentoring / technical leadership | ❌ Not mentioned | 0 |\n\n**Preferred Qualifications Total: 1 / 6**\n\n---\n\n### Summary Assessment\n\n| Dimension | Notes |\n|---|---|\n| **Strengths** | Long career in regulated financial environment; SQL/DB tuning; CS degree; financial domain knowledge |\n| **Critical Gaps** | No cloud experience; no REST API experience; no containerization; no modern backend stack; no CI/CD depth; no observability tooling |\n| **Risk Factors** | Skill set is largely mainframe/legacy (COBOL, JCL, z/OS, WebSphere, JSP) — misaligned with a modern cloud-native payments platform role |\n\n---\n\n### Overall Score: **8 / 20 (40%)**\n\nThe candidate's domain experience in financial services is a genuine asset, but the technical stack is fundamentally misaligned with the role's core requirements. Critical gaps in cloud, REST API design, CI/CD, and modern backend architecture cannot be offset by tenure alone. The role demands hands-on cloud-native development; this candidate's experience is predominantly legacy/mainframe.\n\n---\n\nFINAL: REJECT"
+}

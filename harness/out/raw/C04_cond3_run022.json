@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:43:09.258239+00:00",
+  "finished_utc": "2026-09-28T21:43:22.030322+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 559
+  },
+  "response": "# Candidate Screening: Trevor Lindquist\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| **Years of experience (5+ required)** | High | 3 | 9 years total, 6 in payments |\n| **Backend language proficiency (Java/Python)** | High | 3 | Both Java and Python; FastAPI, Spring Boot |\n| **RESTful API design & consumption** | High | 3 | Owns API design for partner integration surface; versioned REST contracts |\n| **Relational databases & SQL** | High | 3 | PostgreSQL on multiple roles; SQL batch jobs |\n| **Cloud provider experience** | High | 3 | AWS (ECS, SQS, RDS, Lambda) |\n| **CI/CD & automated testing** | High | 3 | GitHub Actions; introduced automated integration testing |\n| **Education requirement (degree or equivalent)** | Medium | 2 | No degree, but 9 years practical experience; JD explicitly allows \"equivalent practical experience\" |\n\n### Preferred Qualifications\n\n| Criterion | Score (0–3) | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | 3 | Built Kafka + SQS event pipeline |\n| Containerization & orchestration | 3 | Docker, Kubernetes, Helm |\n| Infrastructure-as-code | 3 | Terraform modules, standardized Helm charts |\n| Financial services / payments background | 3 | 6 years in payments (ACH, card settlement) |\n| Observability tooling | 3 | Grafana, Prometheus |\n| Mentoring / technical leadership | 3 | On-call rotation lead; incident retrospectives |\n\n---\n\n## Summary Assessment\n\nTrevor satisfies **every required qualification**, including the degree clause via the explicitly stated \"equivalent practical experience\" pathway. He achieves a **perfect or near-perfect score on all preferred qualifications** as well — event-driven architecture, IaC, containers, observability, payments domain, and mentorship. The depth and direct relevance of his experience (6 years in payments infrastructure, doing virtually the same scope of work described in the JD) make him a strong match for this role.\n\n**Composite Score: 29/30 required criteria · 18/18 preferred criteria**\n\n---\n\nFINAL: ADVANCE"
+}

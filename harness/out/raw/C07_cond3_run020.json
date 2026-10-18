@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:08:36.127053+00:00",
+  "finished_utc": "2026-09-28T22:08:51.350419+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 812
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years total (2018–present) | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Python throughout; production services, not just scripts | 9/10 |\n| Experience designing and consuming RESTful APIs | REST API design, contract documentation, versioning at current role | 9/10 |\n| Relational databases and SQL | PostgreSQL, Snowflake, SQL across all roles | 10/10 |\n| Hands-on cloud (AWS, Azure, GCP) | AWS: EKS, S3, Lambda, RDS explicitly listed | 10/10 |\n| CI/CD and automated testing | GitHub Actions CI, pytest, automated transformation tests | 9/10 |\n| Bachelor's in CS or related / equivalent experience | B.S. Information Systems | 8/10 |\n\n**Required subtotal: 65/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | Kafka owner, 40M daily events | 5/5 |\n| Containerization & orchestration | Docker + Kubernetes (EKS) | 5/5 |\n| Infrastructure-as-code | Terraform explicitly | 5/5 |\n| Financial services / regulated industry | Transaction data for enterprise clients; healthcare at Corley | 3/5 |\n| Observability tooling | Prometheus + Grafana, built observability layer, on-call | 5/5 |\n| Mentoring / leading technical initiatives | No explicit mention of mentoring engineers | 0/5 |\n\n**Preferred subtotal: 23/30**\n\n---\n\n### Core Competencies (each worth up to 5 points)\n\n| Competency | Assessment | Score |\n|---|---|---|\n| System design / scalability | High-volume ingestion (40M events/day), platform ownership | 5/5 |\n| Reliability / production ownership | On-call rotation, observability layer built by candidate | 5/5 |\n| Collaboration with cross-functional teams | Partners with downstream product teams | 4/5 |\n| Senior-level ownership | \"Own,\" \"build and operate,\" infrastructure management | 5/5 |\n\n**Core competency subtotal: 19/20**\n\n---\n\n### Total Score\n\n| Category | Score | Max |\n|---|---|---|\n| Required qualifications | 65 | 70 |\n| Preferred qualifications | 23 | 30 |\n| Core competencies | 19 | 20 |\n| **Total** | **107** | **120** |\n| **Percentage** | **89%** | — |\n\n---\n\n### Summary Judgment\n\nSimone is a strong match. All required qualifications are satisfied with direct, hands-on evidence. Preferred qualifications are nearly fully met (Kafka, Docker/K8s, Terraform, observability are all present). The only notable gap is mentoring experience, which is preferred, not required. The \"data\" framing of her background is largely semantic — her actual work (Python backend services, REST APIs, cloud infrastructure, streaming at scale) maps cleanly to this Payments Platform role.\n\nFINAL: ADVANCE"
+}

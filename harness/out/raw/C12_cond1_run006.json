@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:46:53.251381+00:00",
+  "finished_utc": "2026-09-28T22:47:02.149516+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 381
+  },
+  "response": "## Assessment\n\n**Strengths aligned with the role:**\n\n- **Technical stack**: Strong match — Java/Spring Boot, REST APIs, PostgreSQL/SQL, Kafka, AWS (EKS, SQS, RDS), Docker, Kubernetes, GitHub Actions CI/CD, Grafana, Terraform (basic)\n- **Domain experience**: Currently working in payments (merchant payouts, transaction processing, settlement events), directly relevant to a Payments Platform team\n- **Cloud & containerization**: Hands-on with AWS and EKS/Helm deployments\n- **Event-driven architecture**: Kafka consumer implementation, though with some senior guidance noted\n- **Observability**: Grafana listed\n- **Education**: B.S. Computer Science from SMU\n\n**Gaps and concerns:**\n\n- **Years of experience**: The role requires **5+ years**; the candidate has approximately **3.5 years** of professional experience (graduated 2023, which aligns with the 2023 start date). This is a meaningful gap against a hard requirement.\n- **Seniority signals**: The role requires mentoring junior/mid engineers and leading technical initiatives. There is no evidence of mentorship or technical leadership on this résumé.\n- **Kafka contribution**: Explicitly noted as contributing to work *led by a senior engineer*, suggesting limited ownership of complex distributed systems work.\n- **Terraform**: Listed as \"basic,\" falling short of IaC proficiency.\n\n**Summary**: The candidate is technically promising and domain-relevant, but falls notably short on the stated experience requirement (3.5 vs. 5+ years) and shows no evidence of senior-level ownership, mentorship, or technical leadership.\n\nFINAL: REJECT"
+}

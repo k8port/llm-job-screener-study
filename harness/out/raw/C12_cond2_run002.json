@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:54.749902+00:00",
+  "finished_utc": "2026-09-28T22:48:05.809860+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 484
+  },
+  "response": "## Screening Analysis: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient Years of Experience (Critical Gap)**\nThe role requires **5+ years** of professional software engineering experience. Thornbury has approximately **3.5 years** total (2023–present, with graduation in 2023). This is a meaningful shortfall of roughly 1.5 years against a hard requirement, not a preferred qualification.\n\n2. **Limited Leadership/Mentorship Experience**\nThe job expects mentoring of mid-level and junior engineers, and the preferred qualifications include \"leading small technical initiatives.\" Thornbury's résumé shows no evidence of mentoring others and explicitly notes her Kafka partitioning work was \"led by a senior engineer,\" suggesting she is still in a followership role rather than a technical leadership role.\n\n3. **Seniority Level Mismatch**\nHer current title is \"Software Engineer II,\" a mid-level designation. The role is a **Senior** Software Engineer position, and her experience profile (depth of ownership, scope of decisions) aligns more with a mid-level engineer.\n\n4. **Infrastructure-as-Code Experience is Surface-Level**\nTerraform is listed as \"basic\" on her résumé, while the preferred qualification implies meaningful hands-on IaC experience.\n\n5. **Cloud Experience Breadth is Narrow**\nWhile she has AWS experience, the services listed (EKS, SQS, RDS) are relatively standard. No evidence of broader architectural cloud design decisions.\n\n### Strengths Noted (for balance)\n- Payments domain experience is directly relevant\n- Java, REST APIs, PostgreSQL, Kafka, AWS, Docker/Kubernetes, CI/CD — strong technical stack alignment\n- B.S. CS from SMU satisfies the education requirement\n- On-call and incident response experience\n\n### Summary\n\nThe most significant disqualifying factor is the **years of experience falling materially short of the stated 5+ year requirement** (~3.5 years actual). Combined with the absence of demonstrated mentorship or technical leadership, she does not yet meet the threshold for a Senior Engineer role as defined.\n\nFINAL: REJECT"
+}

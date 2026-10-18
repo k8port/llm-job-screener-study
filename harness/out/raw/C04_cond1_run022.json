@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:40:07.553685+00:00",
+  "finished_utc": "2026-09-28T21:40:17.704874+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 945,
+    "output_tokens": 378
+  },
+  "response": "## Assessment\n\n**Experience & Seniority**\nTrevor has nine years of professional software engineering experience (six in payments), well exceeding the 5+ year requirement. His current title is Senior Software Engineer.\n\n**Technical Skills – Required**\n- ✅ Java and Python proficiency (both used actively)\n- ✅ RESTful API design and consumption (owns partner integration API surface, versioned REST contracts)\n- ✅ Relational databases and SQL (PostgreSQL, SQL-backed batch jobs)\n- ✅ Major cloud provider (AWS: ECS, SQS, RDS, Lambda)\n- ✅ CI/CD and automated testing (GitHub Actions, pytest, introduced integration testing)\n\n**Technical Skills – Preferred**\n- ✅ Event-driven architecture / message brokers (Kafka, SQS — built the transaction event pipeline)\n- ✅ Containerization and orchestration (Docker, Kubernetes, Helm)\n- ✅ Infrastructure-as-code (Terraform)\n- ✅ Financial services / payments background (six years in payments infrastructure, ACH and card settlement)\n- ✅ Observability tooling (Grafana, Prometheus)\n- ✅ Mentoring / technical leadership (on-call rotation lead, incident retrospectives)\n\n**Education**\nThe job description explicitly accepts \"equivalent practical experience\" as an alternative to a degree. Trevor's nine-year career, apprenticeship program, and domain depth constitute strong equivalent experience.\n\n**Summary**\nTrevor meets or exceeds virtually every required and preferred qualification. The evidence strongly supports that he could perform this role successfully.\n\nFINAL: ADVANCE"
+}

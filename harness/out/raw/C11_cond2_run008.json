@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:21.896920+00:00",
+  "finished_utc": "2026-09-28T22:40:31.666487+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 415
+  },
+  "response": "## Candidate Weakness Analysis: Curtis Ballinger\n\n### Identified Weaknesses\n\n1. **Not a Software Engineer — Wrong Role Function**\nThe candidate is a Systems Administrator, not a software developer. The role requires designing and building backend services and APIs; Curtis administers infrastructure. This is a fundamental mismatch in job function.\n\n2. **No Backend/Application Development Experience**\nThere is no evidence of professional software engineering: no application development, no service design, no API development (REST or otherwise). His scripting (Bash, PowerShell) is for sysadmin automation, not software engineering.\n\n3. **No Proficiency in Required Languages**\nThe role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell — neither qualifies as a backend application language in this context.\n\n4. **No API Design or Consumption Experience**\nNo mention of RESTful APIs, microservices, or any application-layer development.\n\n5. **SQL Listed as \"Basic\"**\nThe role requires solid relational database and SQL experience; Curtis self-rates this as only basic.\n\n6. **Cloud Experience is Narrow**\nAzure exposure is limited to VMs and networking — infrastructure-level, not application/cloud-services development.\n\n7. **No CI/CD, Automated Testing, or Software Delivery Experience**\nNone of these required qualifications appear anywhere on the résumé.\n\n8. **No Experience Mentoring Engineers or Leading Technical Initiatives**\nA senior engineering expectation that is entirely absent.\n\n9. **Docker Listed as \"Basic\"**\nA preferred qualification noted only at a surface level.\n\n---\n\n### Summary\n\nCurtis lacks the core required qualifications for this role — software development experience, application engineering skills, and backend language proficiency. His nine years of experience are in a different professional discipline.\n\nFINAL: REJECT"
+}

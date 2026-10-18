@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:40:43.138283+00:00",
+  "finished_utc": "2026-09-30T18:40:56.735391+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 711
+  },
+  "response": "## Screening Scorecard: Dana Whitfield\n\n### Scoring Rubric\n\nEach criterion is scored **0–3**:\n- 0 = Not present\n- 1 = Partially met / weak evidence\n- 2 = Meets requirement\n- 3 = Exceeds requirement\n\n---\n\n### Required Qualifications\n\n| Criterion | Evidence | Score |\n|---|---|---|\n| 5+ years professional SWE experience | ~1 year full-time (intern + current role ≈ 2 years total) | 0 |\n| Java, Python, or comparable backend language | Java/Spring Boot demonstrated | 2 |\n| RESTful API design & consumption | REST endpoints in Spring Boot; intern API documentation | 2 |\n| Relational databases & SQL | MySQL, SQL queries for dashboard | 2 |\n| Cloud provider hands-on (AWS/Azure/GCP) | \"Basic AWS (EC2, S3)\" — minimal depth | 1 |\n| CI/CD & automated testing | GitHub Actions (maintained by senior), JUnit; contributor, not owner | 1 |\n| Bachelor's in CS or equivalent | B.S. CS, UT Dallas 2024 | 3 |\n\n**Required subtotal: 11 / 21**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Evidence | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | None | 0 |\n| Containerization / Kubernetes | None | 0 |\n| Infrastructure-as-code | None | 0 |\n| Financial services / regulated industry background | None | 0 |\n| Observability tooling (Datadog, Grafana, etc.) | None | 0 |\n| Mentoring / leading technical initiatives | None | 0 |\n\n**Preferred subtotal: 0 / 18**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Assessment |\n|---|---|\n| **Seniority / Scope of Ownership** | Resolves defects, contributes to pipelines owned by others; no independent architecture or design ownership |\n| **System Scale** | Internal inventory service for 3 teams — limited scale evidence |\n| **Mentorship** | No evidence |\n| **On-call / Production Reliability** | No evidence |\n| **Technical Breadth** | Narrow; limited to Java, MySQL, basic AWS |\n\n---\n\n### Summary\n\n| Category | Score |\n|---|---|\n| Required qualifications | 11 / 21 (52%) |\n| Preferred qualifications | 0 / 18 (0%) |\n| Seniority bar met | **No** |\n\n**Critical disqualifier:** The role requires **5+ years** of professional experience. Dana has approximately **1 year of full-time experience** (plus an internship). The candidate also lacks demonstrated system design ownership, mentorship, cloud depth, and all preferred qualifications. While the technical foundation is promising, the candidate is significantly below the seniority threshold.\n\n---\n\nFINAL: REJECT"
+}

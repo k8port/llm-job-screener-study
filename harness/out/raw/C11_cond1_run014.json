@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:28.978775+00:00",
+  "finished_utc": "2026-09-28T22:39:37.140939+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 332
+  },
+  "response": "## Assessment\n\n**Role Requirements vs. Candidate Profile**\n\n**Critical Gaps:**\n\n1. **Software Engineering Experience**: The candidate is a systems administrator, not a software engineer. Nine years of experience is in infrastructure management, not building backend services or APIs. These are fundamentally different disciplines.\n\n2. **Backend Development / Programming Proficiency**: The required languages are Java, Python, or comparable backend languages. The candidate lists only Bash and PowerShell — scripting languages used for automation/administration, not for building scalable backend services and APIs.\n\n3. **RESTful API Design and Consumption**: No evidence of designing or consuming REST APIs.\n\n4. **Relational Databases**: Listed as \"SQL (basic)\" — insufficient for a senior engineering role requiring meaningful database design and query work.\n\n5. **CI/CD and Automated Testing**: No mention of CI/CD pipelines or automated testing practices.\n\n6. **Cloud**: Azure VM/networking administration is noted, but this is infrastructure management, not cloud-native application development (compute, managed services, serverless, etc.).\n\n**Partial Overlap:**\n- Azure familiarity (infrastructure level)\n- On-call rotation experience\n- Docker (basic)\n- Healthcare background could loosely align with \"regulated industry\"\n- Git (basic)\n\n**Conclusion:**\n\nThere is insufficient evidence that this candidate could perform the role. The gap between systems administration and senior backend software engineering is substantial and not bridged by the candidate's experience or skills.\n\nFINAL: REJECT"
+}

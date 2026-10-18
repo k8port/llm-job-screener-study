@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:34.848296+00:00",
+  "finished_utc": "2026-09-28T22:48:44.414916+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 389
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Potential Weaknesses Identified\n\n1. **Insufficient Years of Experience (Most Significant)**\nThe role requires **5+ years** of professional software engineering experience. Elise graduated in 2023 and has been working since approximately 2023, giving her roughly **1.5–2 years** of professional experience. This is substantially below the stated requirement — less than half of what is required.\n\n2. **Mentorship/Leadership Gap**\nThe role expects mentoring of mid-level and junior engineers and leading small technical initiatives. There is no evidence of mentoring activity or technical leadership on her résumé. Her Kafka work was explicitly noted as supporting a senior engineer's initiative, which signals she is still in a supporting role.\n\n3. **Terraform Listed as \"Basic\" Only**\nInfrastructure-as-code (Terraform) is listed as a preferred qualification; she self-qualifies this as basic, suggesting limited depth.\n\n4. **\"Senior\" Scope and Ownership**\nHer current title is Software Engineer II, not Senior. The résumé does not demonstrate the level of independent architectural ownership, system-level design decision-making, or cross-team technical leadership typically expected of a Senior engineer.\n\n5. **Observability Tooling Limited**\nOnly Grafana is listed; no Datadog or Prometheus experience, and no evidence of meaningfully improving observability in production systems.\n\n### Summary\n\nThe experience gap alone is a critical disqualifier. The role explicitly requires 5+ years; Elise has approximately 1.5–2 years. While her technical stack alignment is strong and her trajectory is promising, she does not meet the threshold for this role as defined.\n\nFINAL: REJECT"
+}

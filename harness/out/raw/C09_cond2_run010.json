@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:15.653842+00:00",
+  "finished_utc": "2026-09-28T22:23:28.848175+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 495
+  },
+  "response": "## Screening Analysis: Raymond Dolliver\n\n### Potential Weaknesses\n\n1. **Cloud Experience — Missing Requirement**\nThe job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Raymond's résumé shows no cloud experience whatsoever; his stack is centered on z/OS mainframe infrastructure.\n\n2. **Modern Java — Significant Gap**\nWhile Java is listed, Raymond is working in Java 8 with legacy constructs (JSP, Servlets). Modern backend development expected for this role (Spring Boot, reactive frameworks, modern API design) is not evidenced.\n\n3. **RESTful API Experience — Unclear/Weak**\nThe role requires designing and consuming RESTful APIs. Raymond's Java work appears to be legacy web access layers (JSP/Servlets), not REST API development. This is a required qualification that is not clearly met.\n\n4. **CI/CD and Automated Testing — Insufficient**\nJenkins is listed as \"basic\" and there is no mention of automated testing. This is a required qualification.\n\n5. **No Event-Driven / Messaging Experience**\nNo mention of Kafka, SQS, or equivalent. (Preferred, not required, but a notable gap for a Payments Platform role.)\n\n6. **No Containerization/Orchestration**\nNo Docker or Kubernetes experience. (Preferred qualification, absent.)\n\n7. **No Observability Tooling**\nDatadog, Grafana, Prometheus — none present.\n\n8. **Technology Stack is Dated**\nPrimary expertise is COBOL, JCL, z/OS — mainframe legacy technologies largely irrelevant to the target role's modern distributed systems context.\n\n9. **Version Control — Basic Git Only**\nGit is listed as \"basic,\" which raises concerns about collaborative development in a modern engineering team.\n\n### Summary\n\nRaymond has meaningful longevity in financial services and relevant SQL/database experience, but he fails to meet several **required** qualifications: cloud experience, RESTful API design, and meaningful CI/CD/testing practice. The overall profile reflects a mainframe-era engineer whose skills do not align with the modern distributed backend environment this role demands.\n\nFINAL: REJECT"
+}

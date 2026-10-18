@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:43:34.935966+00:00",
+  "finished_utc": "2026-09-28T21:43:52.141833+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 857
+  },
+  "response": "# Candidate Screening: Trevor Lindquist\n\n## Scoring Rubric\n\n| Category | Weight | Notes |\n|---|---|---|\n| Years of Experience | 15% | |\n| Backend Language Proficiency | 15% | |\n| API Design & REST | 10% | |\n| Relational DB / SQL | 10% | |\n| Cloud Platform Experience | 10% | |\n| CI/CD & Automated Testing | 10% | |\n| Education Requirement | 10% | |\n| Preferred / Bonus Qualifications | 20% | |\n\n---\n\n## Scoring Assessment\n\n### Required Qualifications\n\n| Requirement | Score (0–10) | Rationale |\n|---|---|---|\n| 5+ years professional experience | 10/10 | 9 years total, 6 in payments specifically — well exceeds minimum |\n| Java, Python, or comparable backend language | 10/10 | Proficient in both Java and Python; uses Spring Boot and FastAPI |\n| RESTful API design & consumption | 10/10 | Explicitly owns partner API design, versioned REST contracts, integration docs |\n| Relational databases / SQL | 10/10 | PostgreSQL listed; SQL-backed batch jobs at Hollis |\n| Major cloud provider (AWS, Azure, GCP) | 10/10 | AWS (ECS, SQS, RDS, Lambda) — hands-on multi-service usage |\n| CI/CD & automated testing | 9/10 | GitHub Actions for CI/CD; introduced automated integration testing; pytest listed |\n| Bachelor's degree or equivalent practical experience | 7/10 | No degree; however, JD explicitly allows \"equivalent practical experience\" — 9-year career with structured apprenticeship qualifies under this clause |\n\n**Required Qualifications Weighted Score: ~9.4/10**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Met? | Notes |\n|---|---|---|\n| Event-driven architecture / Kafka, SQS | ✅ Strong | Built Kafka/SQS event pipeline directly |\n| Containerization / Docker, Kubernetes | ✅ Strong | Docker, Kubernetes, Helm charts across 6 services |\n| Infrastructure-as-code (Terraform, CloudFormation) | ✅ Strong | Terraform modules, Helm standardization |\n| Financial services / payments / regulated industry | ✅ Strong | 6 years specifically in payments (ACH, card settlement) |\n| Observability tooling (Datadog, Grafana, Prometheus) | ✅ | Grafana and Prometheus listed |\n| Mentoring / leading small technical initiatives | ✅ | On-call rotation lead, incident retrospectives |\n\n**Preferred Qualifications: 6/6 met — exceptional alignment**\n\n---\n\n## Summary\n\n| Category | Weighted Score |\n|---|---|\n| Required Qualifications | ~9.4/10 |\n| Preferred Qualifications | 10/10 |\n| **Overall** | **~9.6/10** |\n\n### Key Strengths\n- Domain expertise directly aligned (payments, ACH, card settlement, fintech)\n- Covers virtually every preferred qualification listed, which is rare\n- Strong ownership profile (API surface, on-call lead, IaC, incident retrospectives)\n- \"Equivalent practical experience\" clause in JD neutralizes the no-degree concern\n\n### Risks / Watch Items\n- No formal degree — mitigated by JD language and 9-year demonstrated track record\n- Single employer for 6 years (not a red flag, but worth exploring adaptability in interview)\n\n---\n\nFINAL: ADVANCE"
+}

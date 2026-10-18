@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:58:15.154665+00:00",
+  "finished_utc": "2026-09-28T21:58:26.386211+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 510
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Noted\n- 7 years of professional experience (exceeds the 5-year minimum)\n- Strong Java/Spring Boot background, directly matching the required language\n- REST API design and documentation experience\n- Relational database and SQL experience (Oracle)\n- CI/CD exposure via Jenkins; automated testing via JUnit\n- Code review leadership and junior engineer mentorship\n- On-call rotation participation\n- Relevant degree (B.S. Computer Engineering)\n- Located in Arlington, TX — close to Plano, TX; hybrid arrangement is feasible\n\n---\n\n### Potential Weaknesses\n\n1. **No cloud experience.** The résumé shows no mention of AWS, Azure, or GCP. The job description lists cloud experience as a *required* qualification. The candidate's background is explicitly described as an \"on-premise enterprise environment.\"\n\n2. **No event-driven/message broker experience (beyond basic JMS).** JMS is listed under skills, but there is no mention of Kafka, SQS, or modern message brokers preferred by the role.\n\n3. **No containerization or orchestration experience.** No Docker or Kubernetes mentioned anywhere.\n\n4. **No infrastructure-as-code experience.** No Terraform, CloudFormation, or equivalent.\n\n5. **No observability tooling experience.** No Datadog, Grafana, Prometheus, or comparable tools mentioned.\n\n6. **No payments or financial services background.** The role is on a Payments Platform; the candidate's domain is manufacturing/order processing.\n\n7. **No experience with a high-volume, distributed, cloud-native architecture.** The role processes high-volume transactions at enterprise scale in a cloud environment; the candidate's systems are on-premise batch-oriented workloads.\n\n---\n\n### Summary\n\nAlan meets several baseline requirements (Java, REST APIs, SQL, CI/CD basics, mentorship, years of experience, degree), but he **fails to meet a core required qualification — cloud experience** — and lacks virtually all of the preferred qualifications. The gap between his on-premise manufacturing background and the cloud-native, payments-focused, distributed systems environment of this role is substantial and represents meaningful risk for a senior hire expected to own service design immediately.\n\nFINAL: REJECT"
+}

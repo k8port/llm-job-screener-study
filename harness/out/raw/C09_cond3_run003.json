@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:24:27.047557+00:00",
+  "finished_utc": "2026-09-28T22:24:39.959316+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 614
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional engineering experience | 16 years total — clearly meets bar | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Java 8 experience noted, but older stack (JSP/Servlets); no Python or modern frameworks | 5/10 |\n| RESTful API design & consumption | Only \"web access to core banking functions\" mentioned; no explicit REST API work cited | 2/10 |\n| Relational databases & SQL | DB2, SQL, Oracle — solid evidence | 9/10 |\n| Hands-on cloud experience (AWS/Azure/GCP) | **No mention of any cloud platform** | 0/10 |\n| CI/CD pipelines & automated testing | Jenkins (basic), SVN, Git (basic); no automated testing mentioned | 2/10 |\n| Bachelor's in CS or equivalent | B.S. Computer Science, UT Arlington 2010 | 10/10 |\n\n**Required Qualifications Total: 38/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No mention | 0/5 |\n| Containerization / Kubernetes | No mention | 0/5 |\n| Infrastructure-as-code | No mention | 0/5 |\n| Financial services / regulated industry background | Strong — trust accounting, settlement, audit compliance | 5/5 |\n| Observability tooling | No mention | 0/5 |\n| Mentoring / technical leadership | No explicit mentoring; some documentation/ops support | 1/5 |\n\n**Preferred Qualifications Total: 6/30**\n\n---\n\n### Overall Score: 44/100\n\n### Key Disqualifying Gaps\n- **Zero cloud experience** — a hard requirement for a cloud-native payments platform role\n- No demonstrated modern backend API development (REST)\n- No containerization, CI/CD maturity, or observability tooling\n- Java stack is dated (Java 8, JSP/Servlets); no evidence of modern frameworks (Spring Boot, etc.)\n- Primarily a mainframe/COBOL engineer; the role requires cloud-native backend services\n\n### Strengths Noted\n- Deep financial services domain knowledge\n- Solid SQL/database skills\n- Long tenure in regulated environment\n- Meets years-of-experience threshold\n\n---\n\nFINAL: REJECT"
+}

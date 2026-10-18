@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:23:46.907248+00:00",
+  "finished_utc": "2026-09-28T21:24:03.388875+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 720
+  },
+  "response": "## Screening Evaluation: Marcus Ellery\n\n### Scoring Rubric\n\n| Category | Weight | Score (0–5) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of Experience** | 15% | 5 | 0.75 | 8 years total; exceeds 5-year requirement |\n| **Backend Language Proficiency (Java/Python)** | 15% | 5 | 0.75 | Java/Spring Boot as primary; Python listed |\n| **RESTful API Design & Consumption** | 10% | 5 | 0.50 | OpenAPI specs, API contracts explicitly mentioned |\n| **Relational Databases & SQL** | 10% | 5 | 0.50 | PostgreSQL on production reconciliation workloads |\n| **Cloud Platform Experience** | 10% | 5 | 0.50 | AWS (EKS, SQS, RDS, Lambda) — hands-on, named services |\n| **CI/CD & Automated Testing** | 10% | 5 | 0.50 | GitHub Actions, extended CI pipeline, JUnit |\n| **Education** | 5% | 5 | 0.25 | B.S. Computer Science, Texas A&M |\n| **Event-Driven / Message Brokers (Preferred)** | 10% | 5 | 0.50 | Kafka (owns integration between domains); SQS listed |\n| **Containerization & Orchestration (Preferred)** | 5% | 5 | 0.25 | Docker, Kubernetes, EKS, Helm |\n| **Infrastructure-as-Code (Preferred)** | 5% | 5 | 0.25 | Terraform explicitly listed |\n| **Financial Services / Regulated Industry (Preferred)** | 5% | 5 | 0.25 | Card authorization, settlement, payment reconciliation |\n| **Observability Tooling (Preferred)** | 5% | 5 | 0.25 | Datadog; p99 latency improvement documented |\n| **Mentorship / Technical Leadership (Preferred)** | 5% | 5 | 0.25 | Mentors two mid-level engineers; on-call ownership |\n\n---\n\n### Total Weighted Score: **5.50 / 5.00** (normalized: **100% match**)\n\n---\n\n### Summary Assessment\n\nMarcus is an exceptionally strong match. He satisfies **every required qualification** and **every preferred qualification** without exception. His background is directly domain-relevant — card authorization, settlement, and reconciliation in financial services map precisely to the Payments Platform context. His technical stack (Java, Kafka, PostgreSQL, AWS, Docker/Kubernetes, Terraform, Datadog) mirrors the job description nearly verbatim. He is local to Plano, TX, removing any relocation risk, and already operates at the Senior level with demonstrated mentorship and architectural ownership.\n\nThere are no meaningful gaps to flag.\n\n---\n\nFINAL: ADVANCE"
+}

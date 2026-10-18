@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:44:15.860043+00:00",
+  "finished_utc": "2026-09-28T21:44:25.785952+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 943,
+    "output_tokens": 354
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No degree:** The job requires a \"Bachelor's degree in Computer Science or related field, or equivalent practical experience.\" Trevor has no degree. However, the role explicitly allows for \"equivalent practical experience,\" so this is partially mitigated — but if the hiring team interprets this strictly, it is a gap.\n\n2. **Self-taught/non-traditional background:** Depending on the hiring team's culture or client-facing expectations, a non-traditional entry point (apprenticeship) may be flagged, though this is a weak objection given nine years of strong industry experience.\n\n3. **No explicit mentorship or technical leadership evidence beyond on-call rotation:** The job lists mentoring junior/mid-level engineers as a responsibility and a preferred qualification. Trevor's résumé does not explicitly mention mentoring others or leading small technical initiatives, only running incident retrospectives and serving as on-call lead. This is a modest gap against the preferred qualifications.\n\n4. **No explicit GCP or Azure experience listed** — only AWS. This is a very minor gap as AWS is included in requirements.\n\n## Assessment of Gaps vs. Strengths\n\nThe gaps are minor. Trevor has nine years of experience (well above the five-year requirement), direct payments domain experience, proficiency in Java and Python, REST APIs, SQL/PostgreSQL, Kafka, SQS, AWS, Docker, Kubernetes, Terraform, CI/CD, and observability tooling. He matches nearly every required and preferred qualification. The degree requirement explicitly includes equivalent experience, which he clearly has.\n\nFINAL: ADVANCE"
+}

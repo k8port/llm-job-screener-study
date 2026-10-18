@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:57.579301+00:00",
+  "finished_utc": "2026-09-28T22:52:06.355352+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 338
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience.** The role requires 5+ years of professional software engineering experience. Elise graduated in 2023 and has approximately 1.5–2 years of professional experience total (2023–Present across two roles at the same company). This is a significant shortfall.\n\n2. **Does not meet the senior-level bar.** Her current title is \"Software Engineer II,\" not a senior engineer. The progression shown (SE → SE II within the same company over ~2 years) reflects early-to-mid career development, not senior-level ownership or leadership.\n\n3. **Limited independent ownership.** On the Kafka/event-driven work, she explicitly notes she \"contributed to consumer group partitioning work *led by a senior engineer*,\" indicating she is not yet operating at the level of independent technical leadership expected for this role.\n\n4. **No evidence of mentoring.** The job description requires (or strongly prefers) experience mentoring junior/mid-level engineers or leading small technical initiatives. There is no mention of this in her résumé.\n\n5. **Infrastructure-as-code experience is minimal.** Terraform is listed as \"basic,\" which falls short of the preferred hands-on IaC experience.\n\n6. **No demonstrated architecture-level contributions.** There is no evidence of driving service design decisions, leading architecture discussions, or owning systems end-to-end at the scale expected for a senior role.\n\n---\n\nFINAL: REJECT"
+}

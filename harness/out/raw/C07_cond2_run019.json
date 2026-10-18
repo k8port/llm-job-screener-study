@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:06:42.828972+00:00",
+  "finished_utc": "2026-09-28T22:06:54.498963+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 903,
+    "output_tokens": 482
+  },
+  "response": "## Screening Assessment: Simone Vance\n\n### Strengths Noted\nBefore addressing weaknesses, it's worth acknowledging that Simone is broadly well-qualified: 8 years of experience, strong Python and SQL, REST API design, Kafka, AWS, Docker/Kubernetes, Terraform, Prometheus/Grafana, CI/CD, and on-call experience. Most required and preferred qualifications are met or exceeded.\n\n---\n\n### Potential Weaknesses\n\n1. **No Java experience listed.** The role lists Java as the first preferred backend language. Simone works exclusively in Python. This is a minor gap given Python is also listed as acceptable, but worth flagging if the team's codebase is Java-heavy.\n\n2. **Data engineering background, not payments/transactions engineering.** Simone's work centers on data pipelines, ETL, and analytics services — not transactional payment processing systems. While she handles transaction *data*, this is meaningfully different from building payment processing APIs with the reliability, compliance, and latency demands of a payments platform.\n\n3. **No explicit background in financial services or regulated industries.** The JD lists this as a preferred qualification. Healthcare data processing at Corley Systems is adjacent, but it's only a minor and indirect touchpoint.\n\n4. **API design appears secondary to data pipeline work.** REST API experience is present but described as exposing pipeline outputs — a narrower scope than owning core platform APIs for enterprise clients end-to-end.\n\n5. **Mentorship/leadership experience not explicitly mentioned.** The JD requires mentoring junior/mid-level engineers. No mention of this on the résumé.\n\n6. **B.S. in Information Systems, not Computer Science.** Minor gap relative to the stated preferred degree, though the JD allows for equivalent experience, which Simone clearly has.\n\n---\n\n### Summary Judgment\n\nThe weaknesses are real but mostly minor or addressable. The core required qualifications are solidly met. The domain gap (data platform vs. payments) is the most notable concern but is not disqualifying at the screening stage — it warrants exploration in an interview.\n\nFINAL: ADVANCE"
+}

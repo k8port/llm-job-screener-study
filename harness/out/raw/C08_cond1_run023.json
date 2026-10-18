@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:26.027678+00:00",
+  "finished_utc": "2026-09-28T22:14:34.726864+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 400
+  },
+  "response": "## Assessment: Grant Pemberton for Senior Software Engineer (Payments Platform)\n\n### Evaluation Against Key Criteria\n\n**Required Qualifications:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional engineering experience | 5 years total, but in QA/testing roles | Partial |\n| Strong proficiency in Java, Python, or comparable backend language | Java used for test automation; basic Python scripting | Weak |\n| Experience designing and consuming RESTful APIs | Tests REST APIs; does not design/build them | No |\n| Experience with relational databases and SQL | SQL listed in skills, no substantive detail | Weak |\n| Hands-on experience with a major cloud provider | No mention of AWS, Azure, or GCP | No |\n| CI/CD pipelines and automated testing | Jenkins pipeline maintenance ✓ | Partial |\n| Bachelor's degree or equivalent | B.S. Information Technology ✓ | Yes |\n\n### Key Concerns\n\n- **Core gap:** The candidate is a QA/test automation engineer, not a software developer. Writing test code in Java is materially different from designing and building production backend services and APIs.\n- **No backend service development experience** is evident — no mention of building APIs, services, data pipelines, or production systems.\n- **No cloud experience** whatsoever.\n- **No evidence of architecture, system design, or mentorship** in a development context.\n- The candidate's own summary acknowledges they are \"transitioning toward software development,\" confirming the gap.\n\n### Conclusion\n\nThere is insufficient evidence that this candidate could successfully perform the role. The required experience — building scalable backend services, cloud infrastructure, API design, and senior-level technical ownership — is not demonstrated.\n\nFINAL: REJECT"
+}

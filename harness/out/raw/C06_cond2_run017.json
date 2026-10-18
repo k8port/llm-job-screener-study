@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:47.654048+00:00",
+  "finished_utc": "2026-09-28T21:57:59.639564+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 550
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths\n- 7 years of backend engineering experience (exceeds the 5-year minimum)\n- Strong Java/Spring Boot proficiency, directly matching the required language\n- REST API design and documentation experience\n- Relational database and SQL experience (Oracle/PL/SQL)\n- CI/CD experience via Jenkins; automated testing via JUnit\n- Mentors junior engineers; leads code review for a team of six\n- On-call rotation participation\n- B.S. in Computer Engineering from Texas Tech — satisfies the education requirement\n- JMS listed in skills, suggesting some familiarity with message-based architecture\n\n---\n\n### Potential Weaknesses\n\n1. **No cloud experience.** The résumé shows an entirely on-premise background. Experience with AWS, Azure, or GCP is a *required* qualification, and there is no mention of any cloud platform whatsoever. This is the most significant gap.\n\n2. **No containerization or orchestration experience.** Docker and Kubernetes are preferred qualifications with no evidence of exposure.\n\n3. **No infrastructure-as-code experience.** Terraform or CloudFormation are preferred; neither appears.\n\n4. **No observability tooling experience.** Datadog, Grafana, and Prometheus are preferred; none are mentioned.\n\n5. **No financial services or payments background.** The candidate's domain is manufacturing/order processing — relevant in transaction volume but not in regulatory or compliance context relevant to a payments platform.\n\n6. **Limited event-driven architecture depth.** JMS is listed as a skill, which is a legacy message broker. No experience with modern preferred tools (Kafka, SQS, SNS) is evident.\n\n7. **Scale and environment mismatch.** \"High-volume batch processing\" in a five-plant manufacturing context may not translate to the real-time, high-throughput transaction demands of an enterprise payments platform.\n\n---\n\n### Summary\n\nAlan meets several of the required qualifications (Java, REST APIs, SQL, CI/CD, testing, mentoring, years of experience, education) but has a **critical gap in cloud experience**, which is a stated *required* qualification. Combined with the absence of containerization, modern observability tooling, and payments/fintech domain knowledge, the profile presents meaningful risk for a senior role on a cloud-native payments platform. The on-premise-only background is a disqualifying gap against a hard requirement.\n\nFINAL: REJECT"
+}

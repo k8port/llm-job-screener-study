@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:30.230501+00:00",
+  "finished_utc": "2026-09-28T22:09:41.189723+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 435
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience**: The job lists Java as the first and primary backend language. Simone's entire background is Python. While Python is listed as acceptable, the Payments Platform team's preference for Java (listed first) is unaddressed, and there is no indication she has any Java exposure.\n\n2. **Data engineering vs. backend services engineering**: Simone's background is fundamentally in data pipelines, ETL, and data platform work. The role calls for building transactional backend services for a payments platform — a meaningfully different domain and skill emphasis. Her API and service work appears secondary to her data engineering focus.\n\n3. **No payments or fintech experience**: The job description specifically lists \"background in financial services, payments, or another regulated industry\" as a preferred qualification. Her closest analog is healthcare (Corley Systems, 2018–2020), which is tangential and from her earliest role.\n\n4. **Limited evidence of service design ownership**: The role emphasizes designing scalable backend services and APIs as a primary function. Simone's API work (\"Design REST APIs exposing pipeline outputs\") reads as supplementary to data platform work rather than core product/service engineering.\n\n5. **No explicit mentorship experience**: The role requires mentoring mid-level and junior engineers, a stated required responsibility. Her résumé contains no mention of mentoring or leading engineers.\n\n6. **Degree is in Information Systems, not Computer Science**: A minor point, but the preferred credential is CS or a related field; Information Systems is a softer technical match.\n\n## Judgment\n\nThe candidate meets the baseline years of experience and satisfies several preferred qualifications (Kafka, Terraform, Kubernetes, Prometheus/Grafana, AWS). However, she lacks Java, has no payments/fintech background, her API/backend work is secondary to data engineering, and she shows no mentorship experience — all of which are core to this role.\n\nFINAL: REJECT"
+}

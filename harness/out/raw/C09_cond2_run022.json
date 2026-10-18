@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:51.671782+00:00",
+  "finished_utc": "2026-09-28T22:24:03.924703+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 524
+  },
+  "response": "## Screening Assessment: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n1. **Cloud Experience — Missing (Required):** The résumé shows no exposure to AWS, Azure, or GCP. This is an explicit required qualification with no apparent equivalent.\n\n2. **Modern Backend/API Development — Weak:** The candidate's Java experience is limited to Java 8, JSPs, and Servlets — technologies from an earlier era. There is no evidence of building or consuming RESTful APIs, which is a stated requirement.\n\n3. **CI/CD and Automated Testing — Minimal:** Jenkins is listed as \"basic,\" and there is no mention of automated testing frameworks (JUnit, pytest, etc.). CI/CD experience is a required qualification.\n\n4. **No Event-Driven or Messaging Architecture:** No Kafka, SQS, or comparable tools. This is a preferred qualification but is central to a modern Payments Platform role.\n\n5. **No Containerization or Orchestration:** No Docker or Kubernetes experience listed.\n\n6. **No Observability Tooling:** Datadog, Grafana, Prometheus — none referenced.\n\n7. **No Infrastructure-as-Code Experience:** Terraform, CloudFormation — none referenced.\n\n8. **Version Control is Rudimentary:** Git is listed as \"basic,\" which is below expectations for a senior engineer in a modern engineering organization.\n\n9. **Technology Stack is Largely Legacy:** The bulk of the candidate's work centers on COBOL, JCL, z/OS, and mainframe environments — valuable in niche contexts but not aligned with this cloud-native, microservices-oriented role.\n\n### Mitigating Factors\n\n- 16 years of experience in financial services/regulated environments is directly relevant domain knowledge.\n- SQL and relational database experience (DB2, Oracle) satisfies one required qualification.\n- The B.S. in Computer Science meets the education requirement.\n- Production incident management and documentation experience are genuine positives.\n\n### Summary\n\nThe candidate meets only a subset of the required qualifications and very few of the preferred ones. The gaps in cloud, modern API development, CI/CD, and containerization are not minor — they are foundational to the role as described. The candidate's strengths lie in a legacy mainframe stack that does not transfer directly to this position.\n\nFINAL: REJECT"
+}

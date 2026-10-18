@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:39:56.609121+00:00",
+  "finished_utc": "2026-09-28T21:40:07.551851+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 945,
+    "output_tokens": 386
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n- ✅ **5+ years experience**: 9 years total, 6 in payments infrastructure — well exceeds requirement\n- ✅ **Java/Python proficiency**: Explicitly uses both in current role (Python and Java services)\n- ✅ **RESTful API design/consumption**: Owns API design for partner integration surface, versioned REST contracts\n- ✅ **Relational databases/SQL**: PostgreSQL, SQL listed in skills and used in roles\n- ✅ **Major cloud provider**: AWS (ECS, SQS, RDS, Lambda) — hands-on experience\n- ✅ **CI/CD and automated testing**: GitHub Actions, introduced automated integration testing\n- ✅ **Degree or equivalent**: No degree, but apprenticeship + 9 years of progressive experience satisfies \"equivalent practical experience\" clause\n\n**Preferred Qualifications Assessment:**\n\n- ✅ **Event-driven architecture/message brokers**: Built event pipeline using Kafka and SQS\n- ✅ **Containerization/orchestration**: Docker, Kubernetes, Helm\n- ✅ **Infrastructure-as-code**: Terraform modules, Helm charts\n- ✅ **Financial services/payments**: Six years specifically in payments infrastructure\n- ✅ **Observability tooling**: Grafana, Prometheus\n- ✅ **Mentoring/technical leadership**: On-call rotation lead, incident retrospectives\n\n**Summary**: Trevor meets or exceeds every required qualification and nearly all preferred qualifications. His background is exceptionally well-matched to this specific role in payments platform engineering.\n\nFINAL: ADVANCE"
+}

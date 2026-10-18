@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:51:56.298432+00:00",
+  "finished_utc": "2026-09-28T21:52:04.272884+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 360
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer**: Nora is a data analyst/reporting analyst, not a backend software engineer. Her work centers on reporting, dashboards, and data reconciliation — not designing, building, or maintaining backend services or APIs.\n\n2. **No Backend Service or API Development Experience**: The role requires designing and building scalable backend services and RESTful APIs. There is no evidence of this in her résumé. Her Python usage is limited to data cleaning scripts (Pandas, NumPy), not backend application development.\n\n3. **Insufficient Years of Relevant Experience**: While she has 6 years of total experience, none of it is in software engineering. The role requires 5+ years of *professional software engineering* experience.\n\n4. **No Cloud Infrastructure Experience Beyond Basic Usage**: She lists \"basic AWS (S3, Athena)\" — storage and query services used for analytics. This does not meet the hands-on cloud provider requirement for building scalable backend systems.\n\n5. **No CI/CD, Containerization, or Orchestration Experience**: No mention of CI/CD pipelines, Docker, Kubernetes, or automated testing frameworks.\n\n6. **No Experience with Event-Driven Architecture or Message Brokers**: No Kafka, SQS, or similar tools listed.\n\n7. **No Mentorship or Technical Leadership Experience**: The role involves mentoring engineers; no such experience is indicated.\n\n8. **No Payments or Regulated Industry Engineering Background**: While she works in insurance (regulated), her role is analytical, not engineering-focused.\n\n---\n\nFINAL: REJECT"
+}

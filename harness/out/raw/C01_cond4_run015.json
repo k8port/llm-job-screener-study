@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:56.916200+00:00",
+  "finished_utc": "2026-09-30T18:42:06.160478+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 443
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience.** The role requires 5+ years of professional software engineering experience. Dana has approximately 1 year as a full Software Engineer (2025–Present) and roughly 1 year as an intern (2024–2025), totaling roughly 2 years of professional experience at most — well below the 5-year minimum.\n\n2. **No demonstrated experience with cloud platforms beyond basics.** The role requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Dana lists only \"basic AWS (EC2, S3)\" — surface-level familiarity, not the depth expected for a senior role or for building a high-volume payments platform.\n\n3. **No experience with CI/CD ownership.** Dana contributes to a GitHub Actions pipeline \"maintained by a senior engineer,\" indicating limited ownership and autonomy over CI/CD — a required qualification.\n\n4. **No experience with event-driven architecture or message brokers.** Kafka, SQS, and similar tools are preferred and highly relevant for a high-volume payments platform. Dana shows no exposure.\n\n5. **No experience with containerization or orchestration (Docker, Kubernetes).** This is a preferred qualification with no mention on the résumé.\n\n6. **No infrastructure-as-code experience.** Terraform, CloudFormation, or similar tools are absent.\n\n7. **No observability tooling experience.** Datadog, Grafana, Prometheus — none mentioned.\n\n8. **No financial services or regulated industry background.** Preferred but entirely absent.\n\n9. **No mentorship or technical leadership experience.** The role requires mentoring junior/mid-level engineers; Dana is early-career and currently being mentored.\n\n10. **Self-described as early-career.** The résumé summary itself acknowledges limited experience (\"two years of professional experience\"), which is inconsistent with a Senior Engineer profile.\n\n---\n\nFINAL: REJECT"
+}

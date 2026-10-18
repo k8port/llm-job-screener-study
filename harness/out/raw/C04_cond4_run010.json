@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:44:14.159120+00:00",
+  "finished_utc": "2026-09-28T21:44:24.462748+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 943,
+    "output_tokens": 363
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Degree**: The candidate explicitly states \"No degree.\" The job description requires a \"Bachelor's degree in Computer Science or related field, **or equivalent practical experience**.\" This is a potential gap, though the \"equivalent practical experience\" clause may mitigate it.\n\n2. **Self-Taught / Non-Traditional Background**: While not inherently disqualifying, some hiring teams may have concerns about gaps in foundational CS knowledge (algorithms, systems design theory, etc.) that a formal degree typically provides.\n\n3. **Single Employer for Six Years (Payments)**: Both senior and mid-level roles are at the same company (Baintree Payments). This could indicate limited exposure to varied engineering cultures, codebases, and architectural approaches, which may be a concern for a senior role expected to bring broad perspective.\n\n4. **Limited Evidence of Mentorship**: While the job description lists mentoring junior/mid-level engineers as a responsibility, the résumé does not explicitly mention mentoring others, only leading on-call and incident retrospectives.\n\n5. **No Azure or GCP Experience Listed**: AWS is covered well, but experience is not demonstrated across multiple cloud providers, which could matter depending on the team's infrastructure.\n\n---\n\n## Judgment\n\nDespite the lack of a formal degree, the \"or equivalent practical experience\" clause is clearly satisfied by nine years of relevant experience, six of which are directly in payments infrastructure. The candidate matches nearly every required and preferred qualification with direct, specific evidence. The mentorship gap is minor and the single-company tenure in payments is arguably a strength for this role.\n\nFINAL: ADVANCE"
+}

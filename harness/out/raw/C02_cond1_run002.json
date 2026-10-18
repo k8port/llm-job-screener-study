@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:20:55.499169+00:00",
+  "finished_utc": "2026-09-28T21:21:04.771144+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 917,
+    "output_tokens": 420
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Evidence Review\n\n**Required Qualifications:**\n- ✅ **5+ years experience** — 8 years total (2018–present)\n- ✅ **Java/Python proficiency** — Java/Spring Boot as primary stack, Python listed in skills\n- ✅ **RESTful API design** — Explicitly mentioned; maintains OpenAPI specifications\n- ✅ **Relational databases/SQL** — PostgreSQL experience documented\n- ✅ **Major cloud provider** — AWS (EKS, SQS, RDS, Lambda) with hands-on usage\n- ✅ **CI/CD and automated testing** — GitHub Actions, JUnit, extended CI pipeline\n- ✅ **Bachelor's in CS** — B.S. Computer Science, Texas A&M, 2018\n\n**Preferred Qualifications:**\n- ✅ **Event-driven architecture/Kafka** — Core part of current role\n- ✅ **Docker/Kubernetes** — Direct experience with both, including Helm on EKS\n- ✅ **Infrastructure-as-code** — Terraform listed\n- ✅ **Financial services background** — Current and prior employer in financial/payments space\n- ✅ **Observability tooling** — Datadog listed; p99 latency improvement documented\n- ✅ **Mentoring experience** — Mentors two mid-level engineers currently\n\n### Summary\n\nMarcus meets every required qualification and nearly every preferred qualification. His current role at Coventry Financial is essentially the same role being hired for — senior backend engineer on a payments platform, with card authorization traffic, Kafka-driven architecture, on-call ownership, and mentorship. The alignment is strong across technical skills, domain, and seniority level.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:24:35.873914+00:00",
+  "finished_utc": "2026-09-28T21:24:49.724725+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 706
+  },
+  "response": "## Screening Scorecard — Marcus Ellery\n\n### Required Qualifications (Pass/Fail per item)\n\n| Requirement | Evidence | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years (2018–present) | ✅ |\n| Java, Python, or comparable backend language | Java (primary), Python listed | ✅ |\n| RESTful API design & consumption | Explicit: OpenAPI specs, RESTful services | ✅ |\n| Relational databases & SQL | PostgreSQL, SQL, AWS RDS | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | AWS (EKS, SQS, RDS, Lambda) | ✅ |\n| CI/CD & automated testing | GitHub Actions, JUnit, expanded CI pipeline | ✅ |\n| BS CS or equivalent | B.S. Computer Science, Texas A&M 2018 | ✅ |\n\n**Required score: 7 / 7**\n\n---\n\n### Preferred Qualifications (Additive)\n\n| Preference | Evidence | Score |\n|---|---|---|\n| Event-driven / message brokers | Kafka (topics, consumer groups), SQS | ✅ |\n| Containerization & orchestration | Docker, Kubernetes, EKS, Helm | ✅ |\n| Infrastructure-as-code | Terraform listed | ✅ |\n| Financial services / regulated industry | Coventry Financial — card authorization, settlement, reconciliation | ✅ |\n| Observability tooling | Datadog listed; p99 latency improvement cited | ✅ |\n| Mentoring / technical leadership | Mentored 2 mid-level engineers; architecture reviews | ✅ |\n\n**Preferred score: 6 / 6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating (1–5) | Notes |\n|---|---|---|\n| Backend system design | 5 | Owns architecture across authorization/settlement domains |\n| API design | 5 | OpenAPI specs as engineering contracts |\n| Production reliability | 5 | On-call rotation; measurable p99 improvement |\n| Domain fit (payments) | 5 | Deep, direct experience in card payments |\n| Mentorship | 4 | Two direct mentees; no team lead title yet |\n| Cloud/infra depth | 5 | Broad AWS + IaC + containers |\n\n**Competency average: 4.8 / 5**\n\n---\n\n### Summary Judgment\n\nMarcus Ellery is an exceptionally strong match. He satisfies **every required qualification** and **every preferred qualification**, with direct experience in the exact domain (card authorization, settlement, high-volume transaction processing) this role targets. His technical breadth, production ownership, and mentorship track record align closely with what a senior-level hire on a Payments Platform team demands. No material gaps identified.\n\n**Overall Score: 97 / 100**\n\nFINAL: ADVANCE"
+}

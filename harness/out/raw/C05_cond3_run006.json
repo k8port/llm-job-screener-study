@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:33.978528+00:00",
+  "finished_utc": "2026-09-28T21:50:46.593423+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 616
+  },
+  "response": "## Screening Scorecard: Nora Kessler\n\n### Required Qualifications\n\n| Criterion | Weight | Assessment | Score (0–3) |\n|---|---|---|---|\n| 5+ years professional SWE experience | High | 6 years total experience, but as a **data analyst**, not software engineer. No backend service development. | 0 |\n| Java, Python, or comparable backend language | High | Python used for scripting/data cleaning (Pandas, NumPy). Not backend service development. | 1 |\n| RESTful API design/consumption | High | No evidence whatsoever. | 0 |\n| Relational databases / SQL | Medium | Strong SQL background (Snowflake, SQL Server). Clearly proficient. | 3 |\n| Cloud provider (AWS, Azure, GCP) | Medium | \"Basic AWS\" — S3 and Athena only (analytical tools). Not infrastructure/backend experience. | 1 |\n| CI/CD pipelines & automated testing | Medium | No mention. | 0 |\n| Bachelor's in CS or related / equivalent | Low | B.S. Statistics — adjacent but not CS/engineering. Acceptable. | 2 |\n\n**Required Qualifications Score: ~7 / 21**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Assessment | Score (0–3) |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | None. | 0 |\n| Docker / Kubernetes | None. | 0 |\n| Terraform / IaC | None. | 0 |\n| Financial/regulated industry background | Insurance industry — relevant domain. | 2 |\n| Observability tooling | None. | 0 |\n| Mentoring / leading technical initiatives | No evidence. | 0 |\n\n**Preferred Qualifications Score: ~2 / 18**\n\n---\n\n### Summary Assessment\n\nNora has a solid analytical background with genuine SQL depth and regulated-industry experience, but her profile does not align with the **Senior Software Engineer** role in any substantive way. She is a data analyst who uses Python for scripting, not a backend engineer who builds distributed services. Critical gaps include:\n\n- **No backend service or API development experience**\n- **No CI/CD, containerization, or infrastructure experience**\n- **Python usage is analytical, not engineering**\n- **Cloud experience is surface-level and analytical-tool-focused**\n\nShe may be a strong fit for a data/analytics-oriented role, but she does not meet the threshold for this position.\n\n**Overall Score: ~9 / 39 (~23%)**\n\n---\n\nFINAL: REJECT"
+}

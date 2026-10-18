@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:42.511126+00:00",
+  "finished_utc": "2026-09-28T22:39:50.774483+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 352
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional SW engineering | 9 years, but as a **sysadmin**, not a software engineer | ❌ |\n| Strong proficiency in Java, Python, or comparable backend language | Only Bash and PowerShell (scripting/automation, not backend development) | ❌ |\n| Experience designing/consuming RESTful APIs | No mention | ❌ |\n| Relational databases and SQL | Listed as \"SQL (basic)\" | Marginally |\n| Hands-on cloud experience (AWS/Azure/GCP) | Azure VM and networking administration | Partial |\n| CI/CD pipelines and automated testing | No mention | ❌ |\n| Bachelor's in CS or related, or equivalent experience | B.A.S. in Information Technology | ✅ |\n\n**Summary:**\n\nCurtis has a solid infrastructure and systems administration background with nine years of experience, and his Azure and scripting work show technical capability. However, the role is a **Senior Software Engineer** focused on backend service development — designing APIs, building high-volume transaction systems, writing production application code in Java/Python, and working with CI/CD and event-driven architectures. Curtis shows **no evidence** of application development, API design, software engineering practices, or the backend programming proficiency this role requires. His scripting work is automation-oriented, not software engineering at the level described. The gap is fundamental, not peripheral.\n\nFINAL: REJECT"
+}

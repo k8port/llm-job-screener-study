@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:42:24.363398+00:00",
+  "finished_utc": "2026-09-30T18:42:32.455838+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 359
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient experience (critical gap):** The role requires 5+ years of professional software engineering experience. Dana has approximately 2 years total (1 year as a full-time engineer + ~1 year as an intern). This is a ~60% shortfall on the most fundamental requirement.\n\n2. **No evidence of system design or architecture ownership:** The role demands designing scalable, high-volume backend services. Dana's experience is limited to maintaining existing endpoints and resolving defects under senior supervision — not designing systems independently.\n\n3. **No cloud depth:** The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which is entry-level familiarity, not meaningful production experience.\n\n4. **No CI/CD ownership:** Dana contributes to a GitHub Actions pipeline \"maintained by a senior engineer,\" not owning or building pipelines — a required qualification.\n\n5. **No mentorship experience:** The role requires mentoring junior/mid-level engineers. There is no indication Dana has done this.\n\n6. **None of the preferred qualifications are met:** No Kafka/SQS, no Docker/Kubernetes, no Terraform, no observability tooling, no financial services background.\n\n7. **No on-call or production reliability experience:** The role involves on-call rotation and improving observability/reliability at scale — absent from the résumé.\n\n8. **Title and seniority mismatch:** Dana is a junior engineer by any reasonable measure; this is a Senior role.\n\n---\n\nFINAL: REJECT"
+}

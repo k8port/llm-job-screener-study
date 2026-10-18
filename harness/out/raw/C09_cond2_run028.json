@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:24:14.377796+00:00",
+  "finished_utc": "2026-09-28T22:24:27.046083+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 588
+  },
+  "response": "## Screening Analysis: Raymond Dolliver\n\n### Potential Weaknesses\n\n1. **Cloud experience — Missing.** The role requires hands-on experience with AWS, Azure, or GCP. The résumé lists no cloud platform exposure whatsoever. This is a required qualification.\n\n2. **Modern backend language proficiency — Marginal.** The candidate lists Java 8, which is now over a decade old. There is no mention of modern Java (11, 17, 21), Python, Go, or any other contemporary backend language. The Java experience described appears to be in legacy servlet/JSP contexts, not modern service frameworks (Spring Boot, Micronaut, etc.).\n\n3. **RESTful API design and consumption — Not demonstrated.** The résumé describes \"web access to core banking functions\" via Java 8 but does not explicitly reference REST API design or consumption, which is a required qualification.\n\n4. **CI/CD and automated testing — Weak.** Jenkins is listed as \"basic\" and Subversion is the primary VCS. There is no mention of automated testing practices. These are required qualifications.\n\n5. **Containerization/orchestration — Absent.** No Docker or Kubernetes experience mentioned (preferred qualification).\n\n6. **Event-driven architecture/message brokers — Absent.** No Kafka, SQS, or similar experience mentioned (preferred qualification).\n\n7. **Observability tooling — Absent.** No Datadog, Grafana, or Prometheus mentioned (preferred qualification).\n\n8. **Modern software engineering practices — Limited.** The work described is heavily batch-oriented, mainframe-centric, and legacy in nature, which contrasts with the cloud-native, microservices-oriented environment described in the job posting.\n\n9. **Mentorship/technical leadership — Not mentioned.** No evidence of mentoring engineers or leading technical initiatives (preferred qualification).\n\n### Strengths Noted (for balance)\n- 16 years of experience exceeds the 5-year minimum.\n- Relevant regulated industry background (trust/banking).\n- Strong relational database and SQL experience (DB2, Oracle).\n- CS degree from an accredited institution.\n\n### Summary\n\nThe candidate meets the years-of-experience threshold and brings genuine financial services domain knowledge. However, he is missing multiple **required** qualifications — cloud experience, demonstrable REST API work, and meaningful CI/CD/testing — and nearly all preferred qualifications. The technical stack is substantially legacy (COBOL, mainframe, Java 8, JSP), which does not align with the cloud-native, modern backend environment this role demands.\n\nFINAL: REJECT"
+}

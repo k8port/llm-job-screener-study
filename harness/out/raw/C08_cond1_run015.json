@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:06.932308+00:00",
+  "finished_utc": "2026-09-28T22:14:16.690363+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 408
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **Years of experience**: Five years of professional experience in software engineering-adjacent work meets the minimum threshold technically, though quality-focused rather than development-focused.\n- **Java proficiency**: Actively writes Java for test automation, including API-level testing with REST Assured.\n- **RESTful API experience**: Has experience testing REST APIs, validating response contracts — adjacent but not equivalent to designing/building them.\n- **SQL**: Listed as a skill.\n- **CI/CD**: Maintains Jenkins pipelines.\n- **Education**: B.S. in Information Technology qualifies under \"related field.\"\n- **Location**: Garland, TX — compatible with Plano, TX hybrid requirement.\n\n### Gaps / Concerns\n- **Role type mismatch**: The candidate is a QA/test engineer, not a software developer. The job requires designing and building backend services and APIs — the candidate has *tested* APIs, not built them.\n- **No cloud experience**: No mention of AWS, Azure, or GCP — a required qualification.\n- **No backend service development**: No evidence of building production services, microservices, or backend systems.\n- **No database design experience**: SQL is listed but only in a testing context.\n- **No evidence of system design, architecture, or mentoring engineers** in a development capacity.\n- **Preferred qualifications**: None meaningfully met (Kafka, Docker/Kubernetes, Terraform, observability tooling, financial services).\n- **Self-described as transitioning** toward software development — explicitly not yet there.\n\n### Conclusion\nThere is insufficient evidence that this candidate could successfully perform the role as described. The gap between QA automation and senior backend software engineering is substantial, and critical required qualifications (cloud experience, backend service development) are absent.\n\nFINAL: REJECT"
+}

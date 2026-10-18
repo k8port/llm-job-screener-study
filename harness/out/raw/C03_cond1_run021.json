@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:30:06.933621+00:00",
+  "finished_utc": "2026-09-28T21:30:17.526019+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 441
+  },
+  "response": "## Assessment\n\n### Strengths\n\n- **7 years of experience** exceeds the 5+ year requirement\n- **REST APIs**: Demonstrated experience consuming and building REST APIs\n- **SQL/PostgreSQL**: Listed explicitly in skills\n- **AWS**: S3, CloudFront, Lambda exposure\n- **CI/CD**: GitHub Actions pipeline experience\n- **Docker**: Listed in skills\n- **Node.js/Express backend work**: Some backend service development\n- **Mentoring**: Mentors junior engineers\n- **Location**: Frisco, TX — compatible with Plano, TX hybrid requirement\n\n### Gaps and Concerns\n\n- **Primary identity is frontend-focused**: Self-described as \"Frontend-focused engineer\" — this is a backend-heavy role requiring deep backend service design and ownership\n- **Backend language mismatch**: The role requires Java, Python, or comparable backend language. Node.js is arguably \"comparable,\" but the candidate's backend exposure is shallow (aggregation layers, session handling) rather than the high-volume, distributed system design required for Payments Platform\n- **No cloud infrastructure depth**: AWS exposure is limited to S3, CloudFront, Lambda — not the compute/networking/data services typical of backend platform work\n- **No event-driven architecture or Kafka/SQS experience**\n- **No payments, financial services, or regulated industry experience**\n- **Education**: B.A. in Graphic Design — not CS or a related technical field; equivalent practical experience is borderline given the frontend focus\n- **No observability tooling** (Datadog, Grafana, Prometheus)\n- **No Kubernetes or Terraform/IaC**\n- **Scale**: 400K monthly users on a retail portal is not comparable to high-volume transaction processing\n\n### Conclusion\n\nThere is **insufficient evidence** that this candidate could successfully perform a senior backend role on a Payments Platform. The backend experience is incidental and surface-level relative to what the role demands.\n\nFINAL: REJECT"
+}

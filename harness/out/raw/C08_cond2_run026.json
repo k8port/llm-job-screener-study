@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:50.003232+00:00",
+  "finished_utc": "2026-09-28T22:16:00.380330+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 459
+  },
+  "response": "## Screening Assessment: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n**1. Not a Software Engineer — QA/Test Background**\nThe candidate is explicitly described as a \"quality engineer transitioning toward software development.\" All experience is in QA/testing roles (QA Analyst → QA Engineer → Senior QA Engineer). The role requires a *Senior Software Engineer* who designs and builds backend services, which is a fundamentally different function.\n\n**2. Java Use Is Testing-Only, Not Production Development**\nWhile Java is listed as a skill and used with Selenium/REST Assured, this reflects *test automation* coding, not designing and building scalable backend services, APIs, or distributed systems. No production software engineering experience is evident.\n\n**3. No Cloud Experience**\nThe job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). No cloud experience is listed anywhere on the résumé.\n\n**4. No Event-Driven Architecture or Message Broker Experience**\nNo mention of Kafka, SQS, or similar tools (a strong preferred qualification for a Payments Platform team).\n\n**5. No Containerization or Orchestration Experience**\nNo Docker or Kubernetes experience listed.\n\n**6. No Observability Tooling Experience**\nNo Datadog, Grafana, or Prometheus listed.\n\n**7. No Payments or Regulated Industry Background**\nNo relevant domain experience.\n\n**8. No Demonstrated Service Design or Architecture Experience**\nThe role requires architecture discussions, system design, and ownership of service delivery — none of this appears in the candidate's history.\n\n**9. CI/CD Experience Is Narrow**\nJenkins pipeline maintenance for test execution does not satisfy the CI/CD requirement in the context of deploying production software.\n\n### Summary\nThe candidate meets virtually none of the required qualifications for a *Senior Software Engineer* role. The technical skills are testing-adjacent, not development-oriented. This is not a borderline case; the gap between the candidate's profile and the role's requirements is fundamental.\n\nFINAL: REJECT"
+}

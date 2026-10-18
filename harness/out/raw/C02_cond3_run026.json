@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:24:49.725993+00:00",
+  "finished_utc": "2026-09-28T21:25:00.772563+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 623
+  },
+  "response": "# Candidate Screening: Marcus Ellery\n\n## Scoring Rubric\n\n| Category | Weight | Score (0–5) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of Experience** | 15% | 5 | 0.75 | 8 years total; 3+ years senior-level |\n| **Backend Language Proficiency (Java/Python)** | 15% | 5 | 0.75 | Java/Spring Boot primary; Python listed |\n| **RESTful API Design & Consumption** | 10% | 5 | 0.50 | OpenAPI specs, explicit API contract ownership |\n| **Relational DB / SQL** | 10% | 5 | 0.50 | PostgreSQL on multiple roles |\n| **Cloud Provider Experience** | 10% | 5 | 0.50 | AWS (EKS, SQS, RDS, Lambda) — hands-on |\n| **CI/CD & Automated Testing** | 10% | 5 | 0.50 | GitHub Actions, JUnit, explicit test coverage expansion |\n| **Education** | 5% | 5 | 0.25 | B.S. CS, Texas A&M |\n| **Event-Driven / Message Brokers** | 10% | 5 | 0.50 | Kafka (topics, consumer groups); SQS listed |\n| **Containerization / Orchestration** | 5% | 5 | 0.25 | Docker, Kubernetes, EKS, Helm |\n| **Infrastructure-as-Code** | 5% | 5 | 0.25 | Terraform explicitly listed |\n| **Financial Services Background** | 5% | 5 | 0.25 | Entire career in financial/payments services |\n| **Observability Tooling** | 5% | 5 | 0.25 | Datadog; p99 latency improvement demonstrated |\n| **Mentorship / Technical Leadership** | 5% | 5 | 0.25 | Mentored two mid-level engineers; architecture reviews |\n\n**Total Weighted Score: 5.50 / 5.00 → 100% (ceiling)**\n\n---\n\n## Summary Assessment\n\nMarcus is an exceptionally strong match. He satisfies **every required qualification** and **every preferred qualification** listed in the job description — without exception. His background is directly domain-aligned (card authorization, settlement, payment reconciliation), he is local to Plano, and his experience mirrors the exact scope of the role.\n\n**No gaps identified.**\n\n---\n\nFINAL: ADVANCE"
+}

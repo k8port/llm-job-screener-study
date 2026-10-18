@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:21:30.360288+00:00",
+  "finished_utc": "2026-09-28T21:21:39.237210+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 917,
+    "output_tokens": 487
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n**Overview**\n\nMarcus Ellery presents a strong match for the Senior Software Engineer role on the Payments Platform team. Here is the evidence assessed against the job requirements:\n\n---\n\n### Required Qualifications\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years experience | 8 years (2018–present) | ✅ |\n| Java, Python, or comparable backend language | Java/Spring Boot (primary), Python listed in skills | ✅ |\n| RESTful API design and consumption | RESTful services, OpenAPI specs, API contract ownership | ✅ |\n| Relational databases / SQL | PostgreSQL at Coventry; SQL in skills | ✅ |\n| Major cloud provider | AWS (EKS, SQS, RDS, Lambda) | ✅ |\n| CI/CD and automated testing | GitHub Actions, JUnit, expanded test coverage | ✅ |\n| Bachelor's in CS or equivalent | B.S. Computer Science, Texas A&M, 2018 | ✅ |\n\n### Preferred Qualifications\n\n| Preference | Evidence | Met? |\n|---|---|---|\n| Event-driven / message brokers | Kafka (topics, consumer groups, settlement integration) | ✅ |\n| Docker / Kubernetes | Docker, EKS, Helm | ✅ |\n| Infrastructure-as-code | Terraform listed in skills | ✅ |\n| Financial services / payments | 6+ years at Coventry Financial in card authorization and settlement | ✅ |\n| Observability tooling | Datadog listed; p99 latency optimization example | ✅ |\n| Mentoring / technical leadership | Mentored two mid-level engineers, architecture reviews | ✅ |\n\n---\n\n### Summary\n\nMarcus meets **every required qualification** and **every preferred qualification**. His background in high-volume transaction processing in financial services is a direct match for this role's domain, and his current title and responsibilities align closely with what the position demands.\n\nFINAL: ADVANCE"
+}

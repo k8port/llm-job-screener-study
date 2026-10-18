@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:08:31.819987+00:00",
+  "finished_utc": "2026-09-28T22:08:42.949037+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 626
+  },
+  "response": "## Screening Rubric & Scoring for Simone Vance\n\n### Required Qualifications (each worth up to 10 pts)\n\n| Requirement | Evidence | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years across 3 roles (2018–present) | 10/10 |\n| Java, Python, or comparable backend language | Python throughout all roles; production services | 10/10 |\n| RESTful API design & consumption | Explicitly designs REST APIs with versioning/contracts | 10/10 |\n| Relational databases & SQL | PostgreSQL, Snowflake, SQL batch processing | 10/10 |\n| Major cloud provider (AWS/Azure/GCP) | AWS (EKS, S3, Lambda, RDS) — hands-on | 10/10 |\n| CI/CD & automated testing | GitHub Actions CI, pytest, automated transformation tests | 10/10 |\n| Bachelor's degree or equivalent | B.S. Information Systems, U of Arkansas 2018 | 10/10 |\n\n**Required subtotal: 70/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 pts)\n\n| Preference | Evidence | Score |\n|---|---|---|\n| Event-driven / message brokers | Kafka at scale (40M daily events) | 5/5 |\n| Docker / Kubernetes | Docker, Kubernetes (EKS explicitly) | 5/5 |\n| Infrastructure-as-code | Terraform (owns service infra) | 5/5 |\n| Financial services / regulated industry | Transaction data for enterprise clients; healthcare background at Corley | 4/5 |\n| Observability tooling | Prometheus + Grafana, built observability layer, on-call | 5/5 |\n| Mentoring / leading technical initiatives | Not explicitly mentioned | 1/5 |\n\n**Preferred subtotal: 25/30**\n\n---\n\n### Overall Assessment\n\n| Category | Score |\n|---|---|\n| Required Qualifications | 70/70 (100%) |\n| Preferred Qualifications | 25/30 (83%) |\n| **Total** | **95/100** |\n\n### Notes\n- Simone's title is \"Data Platform Engineer\" rather than \"Software Engineer,\" but the actual work — building production Python services, REST APIs, managing infrastructure, on-call — is functionally equivalent to the role's expectations.\n- Only meaningful gap is absence of explicit mentoring experience, which is a preferred (not required) qualification.\n- Strong fit for the Payments Platform context given transaction-data domain expertise and demonstrated scale.\n\n---\n\nFINAL: ADVANCE"
+}

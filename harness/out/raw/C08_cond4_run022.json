@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:33.061104+00:00",
+  "finished_utc": "2026-09-28T22:18:42.536145+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 398
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Engineer — QA/Test Background Only**\nThe candidate explicitly self-identifies as a \"quality engineer transitioning toward software development.\" The role requires a Senior Software Engineer with hands-on *development* experience designing and building production backend services. Grant's career has been entirely in testing and QA.\n\n**2. No Evidence of Building/Designing Backend Services**\nThe job requires designing and building scalable backend APIs and services. Grant's Java experience is limited to writing automated test suites (Selenium, REST Assured). There is no evidence of authoring production application code, designing APIs, or owning service development end-to-end.\n\n**3. Years of Experience Discrepancy**\nWhile Grant has ~5 years of total experience, all of it is in QA roles. The role requires 5+ years of *software engineering* experience. QA automation, while technical, does not substitute for product/feature engineering experience.\n\n**4. No Cloud Experience**\nThe job lists hands-on cloud experience (AWS, Azure, or GCP) as a required qualification. The résumé shows no cloud exposure whatsoever.\n\n**5. No Experience with CI/CD Pipeline Development**\nGrant maintains test execution stages in Jenkins, but there is no evidence of building or owning CI/CD pipelines as a developer — a required qualification.\n\n**6. Missing Preferred Qualifications**\nNo evidence of Kafka/event-driven architecture, Docker/Kubernetes, infrastructure-as-code, observability tooling, financial services background, or engineer mentorship.\n\n**7. No Mentorship or Technical Leadership**\nThe role requires mentoring junior/mid-level engineers. There is no indication of this in Grant's history.\n\n---\n\nFINAL: REJECT"
+}

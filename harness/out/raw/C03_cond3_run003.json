@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:32:28.442859+00:00",
+  "finished_utc": "2026-09-28T21:32:45.793208+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 885,
+    "output_tokens": 774
+  },
+  "response": "# Candidate Screening: Priya Ashford\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| **Years of Experience (5+)** | High | 3 | 7 years total professional experience ✓ |\n| **Backend Language Proficiency (Java, Python, or comparable)** | High | 1 | Node.js/Express is present but secondary; primarily frontend-focused; no Java or Python |\n| **RESTful API Design & Consumption** | High | 2 | Consumes REST APIs extensively; builds aggregation layers in Node.js; not pure backend ownership |\n| **Relational Databases & SQL** | High | 2 | PostgreSQL and SQL listed; no depth of evidence (no schema design, query optimization, etc.) |\n| **Cloud Provider Experience (AWS, Azure, GCP)** | High | 1 | AWS listed (S3, CloudFront, Lambda) — CDN/storage focused, not compute/backend infrastructure |\n| **CI/CD & Automated Testing** | Medium | 2 | GitHub Actions CI pipeline; Jest integration tests ✓ |\n| **Degree (CS or related / equivalent experience)** | Medium | 1 | B.A. Graphic Design — not CS or related technical field; 7 years experience partially compensates |\n| **Event-Driven / Message Brokers (Preferred)** | Low | 0 | No evidence of Kafka, SQS, or similar |\n| **Containerization / Orchestration (Preferred)** | Low | 1 | Docker listed; no Kubernetes |\n| **Payments / Financial Services Background (Preferred)** | Low | 0 | Retail background only |\n| **Observability Tooling (Preferred)** | Low | 0 | No evidence of Datadog, Grafana, Prometheus |\n| **Mentorship / Technical Leadership (Preferred)** | Low | 2 | Mentors junior engineers; runs design-to-code reviews ✓ |\n\n---\n\n## Summary Assessment\n\n**Total Weighted Score: ~15/36**\n\n### Key Concerns\n- **Primary identity is frontend**, not backend — the role requires deep backend service design and ownership in a high-volume payments context\n- **No Java or Python**; Node.js backend work is limited to an aggregation/session layer, not standalone service architecture\n- **Cloud experience is CDN/storage-oriented** (S3, CloudFront), not backend platform infrastructure\n- **No payments, financial services, or regulated industry background** — a meaningful gap for a Payments Platform role\n- **No observability, event-driven, or infrastructure-as-code experience**\n- **Degree in Graphic Design** with no CS fundamentals signal\n\n### Strengths\n- Solid tenure and user-scale context (400K MAU)\n- REST API experience and SQL fundamentals present\n- Mentorship experience aligns with senior expectations\n- Local to the Plano/Frisco area (hybrid-friendly)\n\n---\n\nThe candidate does not meet the core backend engineering requirements for this Senior Software Engineer – Payments Platform role. The profile is fundamentally frontend with limited backend depth, and critical required qualifications (backend language proficiency, cloud backend experience, payments domain) are absent or insufficiently demonstrated.\n\nFINAL: REJECT"
+}

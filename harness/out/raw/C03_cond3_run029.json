@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:34:14.621443+00:00",
+  "finished_utc": "2026-09-28T21:34:31.190716+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 885,
+    "output_tokens": 799
+  },
+  "response": "## Screening Scorecard: Priya Ashford\n\n### Scoring Rubric\n\nEach criterion scored 0–2:\n- **2** = Clearly meets / strong evidence\n- **1** = Partially meets / limited evidence\n- **0** = Not met / no evidence\n\n---\n\n### Required Qualifications\n\n| Criterion | Score | Notes |\n|---|---|---|\n| 5+ years professional SWE experience | 2 | 7 years (2019–present) |\n| Strong proficiency in Java, Python, or comparable backend language | 1 | Node.js/Express is a backend language, though not Java/Python; limited backend scope (aggregation layer, session handling) |\n| RESTful API design & consumption | 1 | Consumes REST APIs extensively; some design (Node.js services), but not deep backend API authorship |\n| Relational databases / SQL | 1 | PostgreSQL listed in skills; no evidence of meaningful database design work |\n| Hands-on cloud (AWS, Azure, GCP) | 1 | AWS listed (S3, CloudFront, Lambda) — peripheral/frontend-oriented services, not core compute/backend |\n| CI/CD pipelines & automated testing | 2 | GitHub Actions pipeline, Jest/Testing Library, integration tests |\n| Bachelor's in CS or related / equivalent experience | 1 | B.A. Graphic Design — not CS/related, though 7 years of experience partially offsets |\n\n**Required subtotal: 9 / 14**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Score | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | 0 | No evidence |\n| Containerization / Kubernetes | 1 | Docker listed; no Kubernetes |\n| Infrastructure-as-code | 0 | No evidence |\n| Financial services / regulated industry | 0 | Retail background only |\n| Observability tooling | 0 | No evidence |\n| Mentoring / technical leadership | 2 | Mentors juniors, leads architecture, runs cross-squad standards |\n\n**Preferred subtotal: 3 / 12**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating | Notes |\n|---|---|---|\n| Backend engineering depth | ⚠️ Weak | Primarily frontend; backend work is supplementary and supporting UI concerns |\n| Scalability / high-volume systems | ⚠️ Weak | 400K users on a portal, but no evidence of high-throughput transaction processing |\n| System design / architecture | 🟡 Partial | Frontend architecture leadership; limited backend system design |\n| Seniority & ownership | ✅ Strong | Clear senior-level ownership and cross-team influence |\n\n---\n\n### Summary\n\n| Category | Score |\n|---|---|\n| Required | 9/14 (64%) |\n| Preferred | 3/12 (25%) |\n\n**Key gaps:** Priya's profile is primarily frontend-focused. The role requires a backend engineer designing and owning scalable transaction-processing services — a meaningfully different scope. Her backend experience (Node.js aggregation services, Lambda) is real but thin and UI-supporting in nature. Critical gaps include: no Java/Python, no event-driven/messaging systems, no observability tooling, no payments or regulated-industry experience, and limited evidence of backend service design at scale.\n\n---\n\nFINAL: REJECT"
+}

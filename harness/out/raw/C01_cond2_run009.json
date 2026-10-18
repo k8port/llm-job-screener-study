@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:38:52.787447+00:00",
+  "finished_utc": "2026-09-30T18:39:02.648677+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 443
+  },
+  "response": "## Screening Assessment: Dana Whitfield\n\n### Identified Weaknesses\n\n1. **Insufficient Years of Experience (Critical Gap)**\nThe role requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, full-time engineer 2025–present). This is a fundamental mismatch with the seniority level required.\n\n2. **No Cloud Depth**\nThe résumé lists only \"basic AWS (EC2, S3).\" The role requires hands-on experience with a major cloud provider at a level appropriate for designing production systems. This reflects surface-level familiarity, not the depth expected of a senior engineer.\n\n3. **No Evidence of System Design or Architecture Ownership**\nThe role emphasizes significant ownership over service design. Dana's experience is limited to maintaining existing endpoints, resolving defects, and contributing to pipelines managed by senior engineers — no evidence of designing systems independently.\n\n4. **No Mentorship or Technical Leadership**\nThe role requires mentoring junior/mid-level engineers and leading technical initiatives. There is no indication of either in Dana's background.\n\n5. **Missing Preferred Technical Areas**\nDana has no demonstrated experience with event-driven architecture (Kafka, SQS), containerization (Docker, Kubernetes), infrastructure-as-code (Terraform, CloudFormation), or observability tooling (Datadog, Grafana, Prometheus).\n\n6. **No Regulated Industry or Payments Background**\nNo exposure to financial services or comparable regulated environments.\n\n7. **Limited Scope of Impact**\nWork described is narrow in scope (internal inventory service, three business teams), with no indication of high-volume transaction systems or enterprise-scale platforms.\n\n### Summary\n\nDana presents as an early-career engineer who may be a strong candidate for a mid-level or junior backend role in the future, but does not meet the experience threshold or demonstrated technical scope required for this Senior Software Engineer position.\n\nFINAL: REJECT"
+}

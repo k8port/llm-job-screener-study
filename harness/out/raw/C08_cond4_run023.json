@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:36.297428+00:00",
+  "finished_utc": "2026-09-28T22:18:45.193896+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 387
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Developer — QA Background**\nThe candidate explicitly self-identifies as a \"quality engineer transitioning toward software development.\" This role requires a Senior Software *Engineer* with hands-on backend service design and development experience, not test automation.\n\n**2. No Production Software Development Experience**\nThere is no evidence of building, shipping, or maintaining production backend services or APIs. Writing *tests against* REST endpoints is fundamentally different from *designing and building* RESTful APIs.\n\n**3. Java Usage is Test-Scoped Only**\nWhile Java is listed as a skill, it is used exclusively in the context of Selenium test automation (REST Assured, TestNG), not backend service development. This does not satisfy the required \"strong proficiency in Java\" for backend engineering purposes.\n\n**4. No Cloud Platform Experience**\nThe résumé contains zero mention of AWS, Azure, or GCP — a required qualification.\n\n**5. No Relational Database / SQL Development Experience**\nSQL is listed as a skill, but there is no evidence of designing schemas, writing complex queries, or working with databases in a development capacity.\n\n**6. No CI/CD as a Developer**\nJenkins pipeline experience is limited to maintaining *test execution stages*, not building or owning CI/CD pipelines for software delivery.\n\n**7. Insufficient Seniority for the Role**\nThe role requires mentoring engineers and leading technical initiatives. There is no indication of either in this résumé.\n\n**8. None of the Preferred Qualifications Are Met**\nNo Kafka/SQS, Docker/Kubernetes, Terraform, observability tooling, or financial services experience is present.\n\n---\n\nFINAL: REJECT"
+}

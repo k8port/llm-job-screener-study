@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:13:38.281273+00:00",
+  "finished_utc": "2026-09-28T22:13:48.747506+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 416
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **Years of experience**: 5 years of professional software engineering-adjacent experience (QA/automation), meeting the minimum threshold on paper.\n- **Java proficiency**: Demonstrates hands-on Java use in test automation, which is meaningful.\n- **SQL**: Listed as a skill.\n- **CI/CD**: Maintains Jenkins pipeline stages.\n- **REST API familiarity**: Writes API-level tests against REST endpoints, understands contracts and error handling.\n- **Located in Garland, TX**: Near Plano, TX — no relocation needed.\n- **B.S. in IT**: Meets the education requirement.\n\n### Significant Gaps\n- **Role framing**: The candidate self-describes as \"transitioning toward software development.\" This is a Senior Software Engineer role requiring hands-on *building* of production backend services — not testing them.\n- **No evidence of backend service design or development**: The candidate has not built, designed, or shipped production APIs or backend services. Testing APIs is fundamentally different from building them.\n- **No cloud experience**: No mention of AWS, Azure, or GCP — a required qualification.\n- **No database design/development experience**: SQL is listed as a skill, but only in a testing context.\n- **No experience with event-driven architecture, containers, or IaC** (preferred but telling in their absence at a senior level).\n- **Mentoring engineers**: No evidence of this.\n- **Payments/regulated industry**: No background here.\n\n### Conclusion\nThe candidate's skills are adjacent but insufficient for a **Senior Software Engineer** role focused on designing and building high-volume payment backend systems. The gap between QA automation and senior-level backend engineering is substantial, and the candidate's own summary acknowledges this is a transitional aspiration, not a current capability.\n\nFINAL: REJECT"
+}

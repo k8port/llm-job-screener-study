@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:43:01.706585+00:00",
+  "finished_utc": "2026-09-28T21:43:16.057552+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 709
+  },
+  "response": "## Screening Rubric & Scoring — Trevor Lindquist\n\n---\n\n### REQUIRED QUALIFICATIONS (Pass/Fail + Weight)\n\n| Requirement | Assessment | Score (0–2) |\n|---|---|---|\n| 5+ years professional SWE experience | 9 years total, 6 in payments | **2** |\n| Java, Python, or comparable backend language | Python + Java, both in active use | **2** |\n| RESTful API design & consumption | Owns partner API surface, versioned REST contracts | **2** |\n| Relational databases & SQL | PostgreSQL, SQL-backed batch jobs | **2** |\n| Cloud provider (AWS, Azure, GCP) | AWS (ECS, SQS, RDS, Lambda) | **2** |\n| CI/CD & automated testing | GitHub Actions, pytest, introduced integration testing | **2** |\n| Bachelor's degree or equivalent experience | No degree; completed apprenticeship + 9 years experience — \"equivalent practical experience\" clause applies | **2** |\n\n**Required Score: 14 / 14**\n\n---\n\n### PREFERRED QUALIFICATIONS (Additive)\n\n| Preference | Assessment | Score (0–1) |\n|---|---|---|\n| Event-driven / message brokers | Kafka + SQS pipeline built and owned | **1** |\n| Containerization & orchestration | Docker, Kubernetes, Helm | **1** |\n| Infrastructure-as-code | Terraform modules, Helm chart standardization | **1** |\n| Financial services / regulated industry | 6 years in payments (ACH, card settlement) | **1** |\n| Observability tooling | Grafana, Prometheus listed | **1** |\n| Mentoring / technical leadership | On-call rotation lead, incident retrospectives | **1** |\n\n**Preferred Score: 6 / 6**\n\n---\n\n### CORE COMPETENCY ASSESSMENT\n\n| Competency | Notes | Rating |\n|---|---|---|\n| System design & ownership | Designed multi-service payments platform; Terraform standardization across 6 services | Strong |\n| Reliability / production ops | On-call lead, incident retrospectives | Strong |\n| Collaboration | Works with product, platform, and partner engineering per resume | Strong |\n| Mentorship potential | Team lead indicators present; no explicit mention of mentoring individuals (minor gap) | Moderate–Strong |\n| Location fit | Dallas, TX → Plano, TX hybrid; plausible commute | Strong |\n\n---\n\n### SUMMARY\n\nTrevor meets **every required qualification**, satisfies **all six preferred qualifications**, and has a highly domain-relevant background in payments infrastructure. The absence of a formal degree is explicitly accommodated by the job description's \"equivalent practical experience\" clause, and his 9-year trajectory — from structured apprenticeship to senior payments engineer — is compelling evidence of that equivalence.\n\n**Total: 20 / 20 (100%)**\n**Threshold for Advance: ≥ 70% required + substantive preferred coverage**\n\n---\n\nFINAL: ADVANCE"
+}

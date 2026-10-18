@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:16:00.380924+00:00",
+  "finished_utc": "2026-09-28T22:16:10.879560+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 434
+  },
+  "response": "## Screening Analysis: Grant Pemberton\n\n### Potential Weaknesses\n\n1. **No professional software development experience.** Pemberton's entire career (5 years) has been in QA/test engineering roles. The résumé itself acknowledges he is \"transitioning toward software development.\" This role requires 5+ years of professional *software engineering* experience — designing and building production backend services — which he does not have.\n\n2. **Java usage is testing-oriented, not engineering-oriented.** His Java experience is scoped to test automation frameworks (Selenium, REST Assured, TestNG), not to building backend services, APIs, or business logic. This is a meaningful distinction for a Senior Software Engineer role.\n\n3. **No cloud platform experience.** There is no mention of AWS, Azure, or GCP — a required qualification.\n\n4. **No CI/CD pipeline *engineering* experience.** He maintains test execution stages in Jenkins, which is adjacent but does not demonstrate building or owning CI/CD pipelines as a developer.\n\n5. **No database/SQL depth evident.** SQL is listed as a skill but with no demonstrated context of schema design, query optimization, or database work in a development capacity.\n\n6. **No experience with preferred qualifications.** No Kafka/SQS, Docker/Kubernetes, Terraform, observability tooling, or financial services background is indicated.\n\n7. **No mentoring or technical leadership experience.** The role expects mentoring junior/mid-level engineers; no such experience is present.\n\n8. **Seniority mismatch.** His most senior title is \"Senior QA Engineer,\" a different discipline than what is being hired for.\n\n---\n\n### Summary\n\nPemberton lacks the core required qualifications — particularly professional backend software engineering experience and cloud experience — that are non-negotiable for a Senior Software Engineer role. His background is valuable in a QA context but does not meet the bar for this position.\n\nFINAL: REJECT"
+}

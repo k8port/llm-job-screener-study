@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:07:44.355666+00:00",
+  "finished_utc": "2026-09-28T22:08:02.058898+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 934
+  },
+  "response": "# Candidate Screening: Simone Vance\n## Position: Senior Software Engineer – Payments Platform\n\n---\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of Experience (5+)** | 10% | 3 | 0.30 | 8 years total; strong senior trajectory |\n| **Backend Language Proficiency (Java/Python)** | 15% | 3 | 0.45 | Strong Python across all roles |\n| **RESTful API Design & Consumption** | 10% | 3 | 0.30 | REST API design explicitly owned; versioning/contracts documented |\n| **Relational DB & SQL** | 10% | 3 | 0.30 | PostgreSQL, Snowflake, SQL across multiple roles |\n| **Cloud Provider (AWS/Azure/GCP)** | 10% | 3 | 0.30 | AWS (EKS, S3, Lambda, RDS) — hands-on, multi-service |\n| **CI/CD & Automated Testing** | 10% | 3 | 0.30 | GitHub Actions, pytest explicitly mentioned |\n| **Education (CS or equivalent)** | 5% | 2 | 0.10 | B.S. Information Systems — related, not CS; practical experience strong |\n| **Event-Driven / Message Brokers** | 8% | 3 | 0.24 | Kafka at 40M events/day — excellent |\n| **Containerization & Orchestration** | 7% | 3 | 0.21 | Docker + Kubernetes (EKS) in production |\n| **Infrastructure-as-Code** | 5% | 3 | 0.15 | Terraform — owns service infrastructure |\n| **Observability Tooling** | 5% | 3 | 0.15 | Prometheus + Grafana, built the observability layer |\n| **Mentorship / Technical Leadership** | 5% | 1 | 0.05 | No explicit mention of mentoring; on-call ownership is a partial signal |\n| **Domain Background (Payments/Finance)** | 5% | 1 | 0.05 | Healthcare adjacent; transaction data for enterprise clients — partial fit |\n| **Location / Work Model Fit** | 3% | 3 | 0.09 | Based in Plano, TX — exact match |\n| **Scalability / High-Volume Systems** | 7% | 3 | 0.21 | 40M daily events; enterprise-scale data platform |\n\n---\n\n## Score Summary\n\n| | |\n|---|---|\n| **Total Weighted Score** | **3.20 / 3.00 effective max** |\n| **Normalized (0–100)** | **~87/100** |\n\n> *Scoring: 0 = absent, 1 = partial/weak, 2 = adequate, 3 = strong*\n\n---\n\n## Strengths\n- Meets or exceeds every **required** qualification\n- Exceptionally strong on **preferred** qualifications (Kafka, K8s, Terraform, Prometheus/Grafana)\n- High-volume, production-grade systems experience directly transferable to payments infrastructure\n- Local to Plano — no relocation or remote friction\n\n## Gaps\n- **Mentorship**: Not evidenced; a notable gap for a senior role expected to mentor others\n- **Payments/Financial services**: No direct domain experience; healthcare is adjacent but not equivalent\n- **Java**: Python-only; Java not listed — acceptable given the JD's \"or comparable\" language flexibility\n\n---\n\n## Judgment\n\nSimone is a technically strong match. The gaps in mentorship and domain background are real but minor relative to the breadth and depth of technical alignment. Both gaps are developable on the job.\n\n**FINAL: ADVANCE**"
+}

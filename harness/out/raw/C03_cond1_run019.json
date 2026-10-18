@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:30:01.641376+00:00",
+  "finished_utc": "2026-09-28T21:30:10.296394+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 371
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Evaluation Against Requirements\n\n**Required Qualifications:**\n\n| Requirement | Assessment |\n|---|---|\n| 5+ years professional engineering experience | ✅ ~7 years (2019–present) |\n| Java, Python, or comparable backend language | ⚠️ Node.js/Express only — adjacent but not Java/Python |\n| RESTful API design and consumption | ✅ Evident in multiple roles |\n| Relational databases and SQL | ✅ PostgreSQL/SQL listed |\n| Major cloud provider (AWS, Azure, GCP) | ⚠️ AWS listed but limited scope (S3, CloudFront, Lambda — largely frontend-adjacent) |\n| CI/CD and automated testing | ✅ GitHub Actions, Jest |\n| Bachelor's in CS or related / equivalent | ⚠️ B.A. Graphic Design — not CS or directly related |\n\n**Critical Gap: Backend Depth**\n\nThe role centers on designing and building **high-volume, scalable backend services** for a payments platform. Priya's backend experience is largely an **aggregation/middleware layer** supporting a frontend portal, not independent backend service design at scale. Her primary expertise is frontend (React, TypeScript, UI architecture).\n\n**Preferred Qualifications:** No evidence of Kafka/SQS, Kubernetes, Terraform, financial services experience, or observability tooling.\n\n### Summary\n\nThe candidate does not provide sufficient evidence of the backend engineering depth — at scale, in a primary role — that this Payments Platform position requires.\n\nFINAL: REJECT"
+}

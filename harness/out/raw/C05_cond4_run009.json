@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:12.438883+00:00",
+  "finished_utc": "2026-09-28T21:52:21.650160+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 397
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Wrong discipline/role type**: Nora is a data analyst, not a software engineer. The role requires designing and building backend services and APIs — her work centers on reporting, dashboarding, and data reconciliation, which is a fundamentally different function.\n\n2. **No backend service or API development experience**: The job requires designing and consuming RESTful APIs and building scalable backend services. There is no evidence of this in her résumé.\n\n3. **Python used only for data tasks**: Her Python experience is limited to data cleaning/reconciliation (Pandas, NumPy, Jupyter), not backend application development, which is what the role demands.\n\n4. **No Java or comparable backend language experience**: Java (or a comparable backend language) is a core requirement; she shows no exposure.\n\n5. **Minimal and non-qualifying cloud experience**: She lists \"basic AWS (S3, Athena)\" — read-only/query-focused services. The role requires hands-on cloud engineering experience (compute, networking, deployment services).\n\n6. **No CI/CD, containerization, or infrastructure experience**: Docker, Kubernetes, Terraform, and CI/CD pipelines are all absent from her background.\n\n7. **No software engineering experience**: She has no experience with code review in an engineering context, architecture discussions, on-call rotations, or mentoring engineers.\n\n8. **No payments, platform, or regulated-industry engineering background**: While she works in insurance (a regulated industry), it is in a data/analytics capacity, not engineering.\n\n9. **Years of experience mismatch**: Her six years are in data analytics, not software engineering — the required 5+ years of *professional software engineering experience* is not met.\n\n---\n\nFINAL: REJECT"
+}

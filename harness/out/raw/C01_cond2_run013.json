@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:02.649340+00:00",
+  "finished_utc": "2026-09-30T18:39:11.623714+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 399
+  },
+  "response": "## Candidate Weaknesses Assessment: Dana Whitfield\n\n### Identified Weaknesses\n\n**1. Insufficient Years of Experience (Critical Gap)**\nThe job requires **5+ years** of professional software engineering experience. Dana has approximately **1–2 years** of professional experience (intern 2024–2025, full-time engineer 2025–present). This is the most disqualifying factor.\n\n**2. No Cloud Depth**\nThe résumé lists only \"basic AWS (EC2, S3),\" which falls well short of the \"hands-on experience with a major cloud provider\" requirement. No demonstrated work with cloud-native services, IAM, networking, or production-scale deployments.\n\n**3. No Demonstrated System Design or Architecture Experience**\nThe role requires designing scalable backend services for high-volume, enterprise-grade transactions. Dana's experience is limited to an internal inventory service and intern-level feature work — no evidence of system design ownership.\n\n**4. No Mentorship or Technical Leadership**\nBoth required and preferred qualifications include mentoring engineers or leading technical initiatives. There is no indication of this in the résumé.\n\n**5. Missing Preferred Technologies**\nNo evidence of: Kafka/SQS or event-driven architecture, Docker/Kubernetes, Terraform or IaC, observability tooling (Datadog, Grafana, Prometheus), or financial/payments domain experience.\n\n**6. CI/CD Contribution is Minimal**\nThe candidate \"contributes to a GitHub Actions pipeline maintained by a senior engineer\" — not the level of CI/CD ownership expected at a senior level.\n\n---\n\n### Summary\n\nDana is an early-career engineer with solid foundational skills but falls significantly short on experience level and technical depth for a senior role.\n\nFINAL: REJECT"
+}

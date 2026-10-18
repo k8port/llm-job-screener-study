@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:24:39.960957+00:00",
+  "finished_utc": "2026-09-28T22:24:52.119732+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 612
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Pass/Fail weighted)\n\n| Criterion | Weight | Assessment | Score |\n|---|---|---|---|\n| 5+ years professional SWE experience | High | ✅ 16 years total | 3/3 |\n| Strong proficiency in Java, Python, or comparable backend language | High | ⚠️ Java 8 only; no modern Java, no Python; COBOL is not comparable for this role | 1/3 |\n| RESTful API design & consumption | High | ❌ No REST API experience cited; Java 8 services mentioned but no REST context | 0/3 |\n| Relational databases & SQL | High | ✅ DB2, SQL, Oracle — strong match | 3/3 |\n| Cloud provider experience (AWS/Azure/GCP) | High | ❌ None mentioned | 0/3 |\n| CI/CD pipelines & automated testing | High | ⚠️ Jenkins (basic) only; no automated testing evidence | 1/3 |\n| Bachelor's in CS or equivalent | Medium | ✅ B.S. CS, UT Arlington | 3/3 |\n\n**Required Total: 11/21**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | ❌ None | 0/2 |\n| Docker / Kubernetes | ❌ None | 0/2 |\n| Infrastructure-as-code | ❌ None | 0/2 |\n| Financial services / regulated industry | ✅ Strong — trust & banking, 16 years | 2/2 |\n| Observability tooling | ❌ None | 0/2 |\n| Mentoring / technical leadership | ❌ Not mentioned | 0/2 |\n\n**Preferred Total: 2/12**\n\n---\n\n### Summary Assessment\n\n**Overall Score: 13/33 (~39%)**\n\n**Key Gaps:**\n- No cloud experience — a firm requirement for this modern payments platform role\n- No REST API design experience\n- No containerization, observability, or event-driven architecture\n- Java knowledge is dated (Java 8, JSP/Servlets) with no evidence of modern backend development\n- CI/CD exposure is minimal\n\n**Strengths:** Domain knowledge in regulated financial services and strong SQL background are genuine positives, but insufficient to offset critical technical gaps for a senior role building cloud-native payment services.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:58:21.714043+00:00",
+  "finished_utc": "2026-09-28T21:58:33.653044+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 520
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths\n- 7 years of professional software engineering experience (exceeds the 5-year minimum)\n- Strong Java/Spring Boot background — directly matches a primary required language\n- REST API design and documentation experience\n- Relational database and SQL experience (Oracle)\n- CI/CD experience via Jenkins pipelines\n- Automated testing experience (JUnit)\n- Code review leadership and junior engineer mentorship\n- On-call rotation experience\n- Relevant degree (Computer Engineering, Texas Tech)\n- Located in Arlington, TX — close to Plano, TX hybrid location\n\n---\n\n### Potential Weaknesses\n\n1. **No cloud experience (significant gap):** The résumé shows no mention of AWS, Azure, or GCP. All work appears to be in an on-premise enterprise environment. Cloud proficiency is a *required* qualification, not merely preferred.\n\n2. **No containerization or orchestration experience:** Docker and Kubernetes are not mentioned anywhere, missing a preferred qualification that is increasingly near-standard for backend platform roles.\n\n3. **No event-driven architecture with modern brokers:** The candidate lists JMS (a legacy Java messaging standard), but has no apparent experience with Kafka, SQS, or similar modern message brokers called out in preferred qualifications.\n\n4. **No infrastructure-as-code experience:** Terraform or CloudFormation are absent — a preferred qualification gap.\n\n5. **No observability tooling experience:** Datadog, Grafana, and Prometheus are not referenced.\n\n6. **No financial services or payments background:** The candidate's domain experience is manufacturing/operations, not payments or any regulated financial industry.\n\n7. **Manufacturing domain vs. Payments Platform:** High-volume transaction processing in payments carries specific compliance, latency, and reliability demands that manufacturing order systems typically do not mirror closely.\n\n---\n\n### Summary\n\nThe candidate meets or exceeds several baseline requirements (experience level, Java, REST APIs, SQL, CI/CD, mentorship). However, the **absence of any cloud platform experience** is a material gap against a *required* qualification for a cloud-native payments platform role. Combined with missing containerization, modern messaging, observability, and domain-relevant background, the candidate's profile is substantially misaligned with both the required and preferred qualifications for this specific role.\n\nFINAL: REJECT"
+}

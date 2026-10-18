@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:17.764331+00:00",
+  "finished_utc": "2026-09-28T21:50:27.458170+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 442
+  },
+  "response": "## Screening Assessment: Nora Kessler\n\n### Identified Weaknesses\n\n**Critical Gaps (Required Qualifications):**\n\n1. **No software engineering background** – Nora is a data analyst/reporting analyst. She has never held a software engineering role and her summary explicitly identifies her as a \"Data Analyst.\" The role requires a *Senior Software Engineer*.\n\n2. **No backend service or API development experience** – The role centers on designing and building scalable backend services and RESTful APIs. There is no evidence of this in her résumé. Her Python use is limited to scripting for data cleaning, not service development.\n\n3. **No CI/CD pipeline or automated testing experience** – Not mentioned anywhere on the résumé.\n\n4. **No Java experience** – The primary language listed for the role is Java; she has no Java exposure.\n\n5. **Cloud experience is minimal and mismatched** – She lists \"basic AWS (S3, Athena),\" which are data storage/query services. There is no experience with compute, networking, or cloud-native backend infrastructure relevant to this role.\n\n6. **No experience with relational databases in a backend/application context** – Her SQL work is analytical/reporting, not transactional or application-layer database design.\n\n**Preferred Qualification Gaps:**\n\n7. **No experience with Kafka, SQS, or event-driven architecture**\n8. **No Docker, Kubernetes, or containerization experience**\n9. **No infrastructure-as-code experience**\n10. **No payments or regulated financial services engineering background**\n11. **No observability tooling experience (Datadog, Grafana, Prometheus)**\n12. **No experience mentoring engineers or leading technical initiatives**\n\n### Summary\n\nNora's profile is that of a skilled data analyst, not a software engineer. She falls short of nearly every required qualification for this senior backend engineering role. The gaps are fundamental, not marginal.\n\nFINAL: REJECT"
+}

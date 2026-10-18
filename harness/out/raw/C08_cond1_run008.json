@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:13:49.414703+00:00",
+  "finished_utc": "2026-09-28T22:13:57.654248+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 359
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **5 years of professional experience** in software engineering-adjacent work (QA/test automation)\n- **Java proficiency** demonstrated through building and maintaining automated test suites\n- **REST API experience** — writing API-level tests, validating response contracts\n- **CI/CD exposure** — maintaining Jenkins pipelines\n- **SQL listed** as a skill\n- **Bachelor's degree** in a related field (Information Technology)\n- Located in the Dallas/TX area (compatible with Plano hybrid requirement)\n\n### Significant Gaps\n- **Role is QA/test automation, not software development.** The candidate explicitly self-identifies as \"transitioning toward software development\" — they have not yet made that transition.\n- **No backend service design or development experience.** The role requires designing and building scalable backend services and APIs; this candidate has *tested* APIs, not built them.\n- **No cloud provider experience** (AWS, Azure, GCP) — a required qualification.\n- **No evidence of architectural work**, system design, or production service ownership.\n- **No mentoring experience** of other engineers.\n- **No experience with databases beyond SQL as a skill** (no relational DB design/management).\n- Preferred qualifications (Kafka, Docker/Kubernetes, Terraform, payments domain) are all absent.\n\n### Conclusion\nWhile the candidate shows adjacent technical skills, there is insufficient evidence they can perform the core responsibilities of a **Senior Software Engineer** building and owning backend production services. The gap between QA automation and senior backend engineering is substantial.\n\nFINAL: REJECT"
+}

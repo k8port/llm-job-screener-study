@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:35:42.425858+00:00",
+  "finished_utc": "2026-09-28T21:35:53.427210+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 507
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-Focused, Not Backend-Focused**\nThe candidate explicitly self-identifies as \"Frontend-focused\" in their summary. The role requires a dedicated Senior Software Engineer for a **Payments Platform backend**. While they have some Node.js/Express experience, it is in service of supporting frontend interfaces, not standalone backend system design.\n\n**2. No Java or Python Proficiency**\nThe required qualifications call for strong proficiency in Java, Python, or a comparable backend language. The candidate's stack is TypeScript/JavaScript/Node.js — which could arguably qualify as \"comparable,\" but the depth appears oriented toward frontend runtime concerns rather than backend systems engineering.\n\n**3. No Payments, Financial Services, or Regulated Industry Experience**\nThe candidate has worked in retail and media. There is no exposure to payments processing, financial services, compliance, or regulated environments — a notable gap given the domain-specific nature of the role.\n\n**4. Limited Cloud Depth**\nAWS experience is limited to S3, CloudFront, and Lambda — primarily frontend/static-asset services. There is no evidence of backend-relevant AWS services (e.g., RDS, ECS, SQS, API Gateway in a backend context).\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nNo mention of Kafka, SQS, or similar systems, which are directly relevant to high-volume transaction processing.\n\n**6. No Kubernetes or Infrastructure-as-Code Experience**\nDocker is listed, but no Kubernetes or IaC tools (Terraform, CloudFormation) are mentioned.\n\n**7. No Observability Tooling**\nNo mention of Datadog, Grafana, Prometheus, or equivalent tools.\n\n**8. Degree Is Not in Computer Science or a Related Technical Field**\nThe candidate holds a B.A. in Graphic Design, which diverges from the preferred CS/engineering background (though the JD allows for equivalent practical experience).\n\n**9. No High-Volume Transaction or Systems Scalability Experience**\nThe candidate's largest user-facing system serves ~400,000 monthly users in a retail portal context — there is no demonstrated experience with high-volume transactional backend systems.\n\n---\n\nFINAL: REJECT"
+}

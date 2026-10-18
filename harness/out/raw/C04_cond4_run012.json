@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:44:16.251874+00:00",
+  "finished_utc": "2026-09-28T21:44:26.270998+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 943,
+    "output_tokens": 384
+  },
+  "response": "## Reasons This Candidate Should NOT Advance\n\n1. **No Bachelor's Degree**: The job description requires a \"Bachelor's degree in Computer Science or related field, or equivalent practical experience.\" Trevor is self-taught and completed an apprenticeship program with no formal degree. Whether the \"equivalent practical experience\" clause covers him is a judgment call, but the lack of a degree is a stated requirement and a potential disqualifier depending on hiring team standards.\n\n2. **No explicit mention of Azure or GCP**: While the candidate has strong AWS experience, the role lists AWS, Azure, or GCP — this is not a real gap given AWS qualifies, but worth noting there is no breadth across cloud providers.\n\n3. **No explicit mention of CI/CD tooling beyond GitHub Actions**: The candidate lists GitHub Actions, which satisfies the CI/CD requirement, but there is no mention of broader pipeline tools (e.g., Jenkins, CircleCI). This is a minor gap.\n\n4. **No explicit mention of mentoring**: The preferred qualifications include mentoring engineers or leading small technical initiatives. Trevor's résumé does not explicitly reference mentoring junior engineers, though he leads on-call rotations and incident retrospectives, which implies some leadership.\n\n---\n\n## Assessment\n\nThe gaps are minimal and largely technical check-boxes that Trevor meets or exceeds in every substantive area. His nine years of experience, six in payments specifically, combined with direct expertise in Java, Python, Kafka, REST APIs, Terraform, Kubernetes, AWS, and observability tooling, maps almost perfectly to both required and preferred qualifications. The \"no degree\" concern is the only meaningful flag, and the JD explicitly offers an equivalency path for practical experience — which Trevor clearly demonstrates.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:27:18.606166+00:00",
+  "finished_utc": "2026-09-28T22:27:27.451757+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 411
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps in Required Qualifications:**\n\n1. **Cloud experience (AWS, Azure, GCP):** No evidence of any cloud platform experience. The candidate's entire background is on-premises mainframe (z/OS) and legacy WebSphere environments.\n\n2. **Modern backend language proficiency:** The candidate's Java experience is limited to Java 8 with JSP/Servlets — outdated paradigms not aligned with modern microservices/API development. No Python or comparable modern backend language is listed.\n\n3. **RESTful API experience:** No mention of designing or consuming REST APIs. The Java work appears to be legacy servlet-based web access, not modern API development.\n\n4. **CI/CD pipelines:** Jenkins is listed as \"basic\" only, and there is no indication of meaningful CI/CD pipeline ownership or automated testing experience.\n\n5. **Automated testing:** No mention of unit, integration, or automated testing practices whatsoever.\n\n**Gaps in Preferred Qualifications:**\n\n6. **Event-driven architecture / message brokers (Kafka, SQS):** Not present.\n7. **Containerization/orchestration (Docker, Kubernetes):** Not present.\n8. **Infrastructure-as-code (Terraform, CloudFormation):** Not present.\n9. **Observability tooling (Datadog, Grafana, Prometheus):** Not present.\n10. **Mentorship/technical leadership:** No evidence of mentoring other engineers.\n\n**Overall Assessment:**\nDespite 16 years of experience and a relevant financial services background, the candidate's technical stack is heavily oriented toward legacy mainframe technologies. The gaps in cloud, modern API development, CI/CD, and containerization are not minor — they represent the core technical foundation of this role.\n\nFINAL: REJECT"
+}

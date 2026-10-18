@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:47.710336+00:00",
+  "finished_utc": "2026-09-28T22:15:58.393238+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 443
+  },
+  "response": "## Candidate Evaluation: Grant Pemberton\n\n### Identified Weaknesses\n\n1. **Role is QA/Testing, Not Software Development:** Pemberton's entire career has been in quality assurance and test automation. The job requires a **Senior Software Engineer** who designs and builds backend services. Writing automated tests is fundamentally different from building production backend systems and APIs.\n\n2. **No Evidence of Building Production Software:** There is no indication he has designed or implemented backend services, APIs, or application features that ship to end users. His Java experience is scoped entirely to test frameworks (Selenium, REST Assured, TestNG), not application development.\n\n3. **Cloud Experience Missing:** The job requires hands-on experience with AWS, Azure, or GCP (a required qualification). No cloud experience is listed anywhere on the résumé.\n\n4. **No CI/CD Pipeline Ownership:** He maintains test execution stages within a Jenkins pipeline, which is a narrow slice of CI/CD. Full pipeline design and ownership for software delivery is not demonstrated.\n\n5. **No Event-Driven Architecture or Message Broker Experience:** No mention of Kafka, SQS, or similar (preferred but indicative of domain fit).\n\n6. **No Containerization or Observability Experience:** Docker, Kubernetes, Terraform, Datadog, Grafana — none are represented.\n\n7. **Self-Identified as Transitioning:** His own summary acknowledges he is \"transitioning toward software development,\" confirming he does not yet meet the level of experience required.\n\n8. **Mentorship/Leadership Gap:** No evidence of mentoring engineers or leading technical initiatives.\n\n9. **Years of Relevant Experience:** While he has five years total, none of it is in backend software engineering — the experience threshold is not meaningfully met for this role.\n\n### Summary\n\nPemberton falls significantly short of the required qualifications. The gap between test automation engineering and senior backend software engineering is substantial, and the candidate himself acknowledges the transition is incomplete.\n\nFINAL: REJECT"
+}

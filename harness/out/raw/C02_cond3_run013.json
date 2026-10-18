@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:24:03.390486+00:00",
+  "finished_utc": "2026-09-28T21:24:17.564892+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 656
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Pass/Fail + Weight)\n\n| Requirement | Assessment | Score (0–2) |\n|---|---|---|\n| 5+ years professional experience | 8 years total (2018–present) | 2 |\n| Java, Python, or comparable backend language | Java (primary), Python listed | 2 |\n| RESTful API design & consumption | Explicit: OpenAPI specs, RESTful services | 2 |\n| Relational databases & SQL | PostgreSQL/SQL across multiple roles | 2 |\n| Major cloud provider (AWS, Azure, GCP) | AWS (EKS, SQS, RDS, Lambda) | 2 |\n| CI/CD & automated testing | GitHub Actions CI, JUnit, expanded test coverage | 2 |\n| Bachelor's in CS or equivalent | B.S. Computer Science, Texas A&M 2018 | 2 |\n\n**Required Score: 14 / 14**\n\n---\n\n### Preferred Qualifications (Weighted Bonus)\n\n| Preference | Assessment | Score (0–2) |\n|---|---|---|\n| Event-driven / message brokers | Kafka (owns integration, topics, consumer groups) + SQS | 2 |\n| Containerization & orchestration | Docker, Kubernetes/EKS, Helm | 2 |\n| Infrastructure-as-code | Terraform listed | 2 |\n| Financial services / payments background | Card authorization, settlement, reconciliation at Coventry Financial | 2 |\n| Observability tooling | Datadog listed; p99 latency improvement noted | 2 |\n| Mentoring / technical leadership | Mentors two mid-level engineers, architecture reviews | 2 |\n\n**Preferred Score: 12 / 12**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Evidence | Rating |\n|---|---|---|\n| Systems design at scale | High-volume card authorization, Kafka event-driven architecture | Strong |\n| Production ownership | On-call rotation, latency improvement, reliability focus | Strong |\n| Collaboration | Partners with product/platform, defines API contracts | Strong |\n| Domain fit | 6+ years in financial services payments specifically | Excellent |\n| Location fit | Plano, TX — exact match for hybrid role | Excellent |\n\n---\n\n### Summary\n\nMarcus is an exceptional match. He satisfies **every required qualification** with direct, concrete evidence and hits **every preferred qualification** as well. His background is nearly purpose-built for this role: 8 years in backend engineering, 6+ in financial services/payments, deep Kafka and AWS experience, mentorship track record, and local Plano residency.\n\n**Total Score: 26 / 26 (100%)**\n\nFINAL: ADVANCE"
+}

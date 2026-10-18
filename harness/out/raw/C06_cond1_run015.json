@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:56:23.464093+00:00",
+  "finished_utc": "2026-09-28T21:56:33.428824+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 454
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Against Requirements\n\n**Required Qualifications:**\n- ✅ **7 years experience** – exceeds the 5-year minimum\n- ✅ **Java/Spring Boot** – strong, current proficiency\n- ✅ **RESTful API design** – explicitly owns API design and documentation\n- ✅ **Relational databases/SQL** – Oracle, SQL, PL/SQL with production optimization experience\n- ✅ **CI/CD** – Jenkins pipelines; automated testing with JUnit\n- ✅ **Bachelor's degree** – B.S. Computer Engineering, Texas Tech\n- ✅ **Mentoring/code review** – leads code review for six-person team, mentors two juniors\n- ✅ **On-call rotation** – current participant\n\n**Preferred Qualifications:**\n- ✅ **Message brokers** – JMS listed (older/enterprise, not Kafka/SQS, but relevant concept)\n- ✅ **Mentoring/technical leadership** – demonstrated\n\n### Notable Gaps\n\n- ❌ **Cloud experience (AWS/Azure/GCP)** – no evidence; entirely on-premise background (a *required* qualification)\n- ❌ **Containerization** – no Docker/Kubernetes\n- ❌ **Infrastructure-as-code** – no Terraform/CloudFormation\n- ❌ **Observability tooling** – no Datadog, Grafana, Prometheus\n- ❌ **Financial services/payments** – manufacturing background only\n\n### Assessment\n\nAlan is a solid backend engineer with directly relevant Java and API experience, but the **absence of any cloud experience is a gap against a stated required qualification** for a role on a cloud-hosted payments platform. The other gaps (containers, IaC, observability) compound this concern. The role requires demonstrated cloud capability, not just transferable potential.\n\nFINAL: REJECT"
+}

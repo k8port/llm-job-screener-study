@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:44.843653+00:00",
+  "finished_utc": "2026-09-28T22:26:55.947818+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 548
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps in Required Qualifications:**\n\n1. **Cloud Experience (Hard Requirement):** No evidence of any experience with AWS, Azure, or GCP. The role requires hands-on cloud experience, and the candidate's entire career appears to have been on-premises/mainframe environments.\n\n2. **Modern Backend Language Proficiency:** The candidate's Java experience is limited to Java 8 and legacy frameworks (JSP, Servlets), with no indication of modern Java (11, 17, 21) or frameworks like Spring Boot. Python is absent entirely.\n\n3. **RESTful API Design/Consumption:** No mention of REST API development. The candidate's web work appears limited to JSP-based internal tools, which is a fundamentally different paradigm.\n\n4. **CI/CD Pipelines:** Jenkins is listed as \"(basic)\" only, and Subversion is the primary version control tool. No demonstrated experience with modern CI/CD practices.\n\n5. **Automated Testing:** No mention of unit testing, integration testing, or any testing frameworks (JUnit, Mockito, etc.).\n\n**Gaps in Preferred Qualifications:**\n\n6. **No event-driven architecture or message broker experience** (Kafka, SQS, etc.).\n7. **No containerization experience** (Docker, Kubernetes).\n8. **No infrastructure-as-code experience** (Terraform, CloudFormation).\n9. **No observability tooling experience** (Datadog, Grafana, Prometheus).\n10. **No evidence of mentoring engineers** or leading technical initiatives.\n\n**Additional Concerns:**\n\n11. The candidate's technical foundation is heavily mainframe-oriented (COBOL, JCL, z/OS), which represents a significant technology generation gap from the modern cloud-native backend services this role requires.\n12. Git is listed as \"(basic),\" which is a concern for a senior-level role in a collaborative engineering environment.\n\n**Mitigating Factors (noted but insufficient):**\n- 16 years of experience in financial services/regulated environments is relevant domain knowledge.\n- SQL and relational database experience is a genuine match.\n- B.S. in Computer Science meets the education requirement.\n\nThe mitigating factors do not offset the volume and severity of the gaps, particularly the absence of cloud, modern API development, and CI/CD experience — all of which are listed as required.\n\nFINAL: REJECT"
+}

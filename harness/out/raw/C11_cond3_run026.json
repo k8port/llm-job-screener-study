@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:42:37.495475+00:00",
+  "finished_utc": "2026-09-28T22:42:50.097496+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 677
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 9 years in **systems administration / IT**, not software engineering. Scripting (Bash/PowerShell) is tangential. | 2/10 |\n| Strong proficiency in Java, Python, or comparable backend language | No Java or Python. Bash/PowerShell are ops/scripting tools, not backend development languages. | 1/10 |\n| Experience designing and consuming RESTful APIs | Not mentioned anywhere on résumé. | 0/10 |\n| Relational databases and SQL | Listed as \"SQL (basic)\" — no meaningful database development experience. | 1/10 |\n| Hands-on cloud provider experience (AWS, Azure, GCP) | Azure VM and networking administration. Infrastructure ops, not application development on cloud. | 4/10 |\n| CI/CD pipelines and automated testing | Not mentioned. | 0/10 |\n| Bachelor's degree in CS/related or equivalent | B.A.S. in Information Technology — acceptable related field. | 7/10 |\n\n**Required Qualifications Total: 15/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | Not mentioned. | 0/5 |\n| Containerization/orchestration (Docker, Kubernetes) | Docker listed as \"basic\"; no Kubernetes. | 1/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | Not mentioned. | 0/5 |\n| Financial services / regulated industry background | Healthcare adjacent (health system), some regulated environment experience. | 2/5 |\n| Observability tooling | Nagios (monitoring tool), but not the specified modern stack. | 1/5 |\n| Mentoring / leading technical initiatives | No evidence of mentoring engineers. | 0/5 |\n\n**Preferred Qualifications Total: 4/30**\n\n---\n\n### Overall Summary\n\n| Category | Score |\n|---|---|\n| Required Qualifications | 15/70 (21%) |\n| Preferred Qualifications | 4/30 (13%) |\n| **Combined** | **19/100 (19%)** |\n\n### Rationale\n\nCurtis is an experienced systems administrator with legitimate infrastructure skills, but his profile does not align with a Senior Software Engineer role. He lacks core software engineering competencies: no backend programming language proficiency (Java/Python/etc.), no API design or consumption experience, no CI/CD or automated testing, no software architecture experience, and no evidence of building production services. His Azure experience is infrastructure-focused, not application development. The gap is fundamental, not superficial.\n\n---\n\nFINAL: REJECT"
+}

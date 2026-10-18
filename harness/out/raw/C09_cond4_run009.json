@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:25.694473+00:00",
+  "finished_utc": "2026-09-28T22:26:36.619082+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 456
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Technical Stack Gaps:**\n- **No cloud experience**: The résumé shows no mention of AWS, Azure, or GCP — a hard required qualification. All experience is on-premises/mainframe (z/OS, WebSphere).\n- **Outdated Java**: Experience is limited to Java 8 and older paradigms (JSP, Servlets), with no evidence of modern Java development, microservices, or contemporary frameworks (Spring Boot, etc.).\n- **No RESTful API experience**: No mention of designing or consuming REST APIs; the Java work appears to be legacy servlet/JSP-based web access rather than API development.\n- **No CI/CD proficiency**: Jenkins and Git are listed as \"basic\" — insufficient for a senior engineer expected to participate actively in CI/CD pipelines.\n- **No containerization**: No Docker, Kubernetes, or orchestration experience mentioned.\n- **No event-driven/messaging experience**: No Kafka, SQS, or comparable tooling.\n- **No observability tooling**: No Datadog, Grafana, Prometheus, or equivalent.\n- **No infrastructure-as-code**: No Terraform or CloudFormation.\n\n**Seniority and Role Fit Concerns:**\n- Despite 16 years of experience, the work is heavily **mainframe/COBOL-centric**, which does not translate to the modern backend engineering stack required.\n- No evidence of **architecture ownership**, **mentoring**, or **leading technical initiatives** at a meaningful scale.\n- No evidence of **high-volume, distributed systems** design — the role centers on scalable cloud-native transaction processing.\n\n**Summary:**\nWhile the candidate has relevant domain experience in financial services and solid SQL/relational database skills, the core technical requirements of the role (cloud, modern Java/backend, REST APIs, CI/CD, containers) are either absent or listed at a beginner level. The gap is too significant to overlook for a senior-level position.\n\nFINAL: REJECT"
+}

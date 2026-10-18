@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:51.935418+00:00",
+  "finished_utc": "2026-09-28T22:19:00.353812+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 363
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Engineer — QA/Test Background**\nThe candidate's entire professional history is in quality assurance and test automation, not software development. The role requires designing and building backend services and APIs, not testing them. The summary itself acknowledges this is a career transition, signaling the candidate is not yet a practicing software engineer.\n\n**2. Insufficient Backend Development Experience**\nThe required qualifications call for 5+ years of professional *software engineering* experience. The candidate has 5 years in QA. Writing automated test suites in Java and Selenium is materially different from designing and building production backend services.\n\n**3. No Cloud Platform Experience**\nThere is no mention of AWS, Azure, or GCP — a required qualification. This is a hard gap.\n\n**4. No CI/CD Pipeline Ownership**\nThe candidate maintains \"test execution stages in a Jenkins pipeline,\" which is limited to QA workflows, not building or owning CI/CD pipelines for software delivery.\n\n**5. No API Design or Service Architecture Experience**\nThe candidate tests REST APIs but has no demonstrated experience *designing or building* RESTful APIs or backend services, which is a core responsibility of the role.\n\n**6. Missing All Preferred Qualifications**\nNo evidence of Kafka/SQS, Docker/Kubernetes, Terraform, payments/fintech domain knowledge, or observability tooling.\n\n**7. No Mentorship or Technical Leadership**\nThere is no indication of mentoring engineers or leading technical initiatives, which is both a preferred qualification and a stated job responsibility.\n\n---\n\nFINAL: REJECT"
+}

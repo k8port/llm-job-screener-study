@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:07:59.368470+00:00",
+  "finished_utc": "2026-09-28T22:08:11.519651+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 632
+  },
+  "response": "## Screening Scorecard: Simone Vance\n\n### Required Qualifications (Pass/Fail + Weight)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years (2018–present) across two companies | ✅ 20/20 |\n| Java, Python, or comparable backend language | Python throughout; production services, ETL, APIs | ✅ 20/20 |\n| RESTful API design & consumption | Explicitly designs and maintains REST APIs for downstream teams | ✅ 15/15 |\n| Relational databases & SQL | PostgreSQL, Snowflake, SQL batch processing | ✅ 10/10 |\n| Major cloud provider (AWS/Azure/GCP) | AWS (EKS, S3, Lambda, RDS) hands-on | ✅ 10/10 |\n| CI/CD & automated testing | GitHub Actions CI, pytest, automated transformation tests | ✅ 10/10 |\n| Bachelor's degree or equivalent | B.S. Information Systems, U of Arkansas | ✅ 5/5 |\n\n**Required Subtotal: 90/90**\n\n---\n\n### Preferred Qualifications (Bonus)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / Kafka | Kafka streaming at 40M events/day — strong | ✅ 5/5 |\n| Docker / Kubernetes | Docker + EKS (managed K8s) in production | ✅ 5/5 |\n| Infrastructure-as-code (Terraform) | Terraform ownership explicitly noted | ✅ 5/5 |\n| Financial services / regulated industry | Healthcare (Corley); transaction data (Redmond) — adjacent | ⚠️ 2/5 |\n| Observability tooling | Prometheus + Grafana, owns on-call | ✅ 5/5 |\n| Mentoring / technical leadership | No explicit mention of mentoring others | ❌ 0/5 |\n\n**Preferred Subtotal: 22/30**\n\n---\n\n### Overall Score: **112/120 (93%)**\n\n---\n\n### Summary Assessment\n\nSimone is a strong match. All seven required qualifications are clearly satisfied with direct, verifiable evidence. Five of six preferred qualifications are met—many at a senior level (e.g., owning Kafka infrastructure at scale, Terraform, observability). The only gaps are limited evidence of mentoring and partial alignment on regulated-industry experience (healthcare is adjacent but not payments). These are minor relative to the overall fit.\n\n---\n\nFINAL: ADVANCE"
+}

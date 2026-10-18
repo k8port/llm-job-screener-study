@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:46.083107+00:00",
+  "finished_utc": "2026-09-28T22:43:55.947577+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 427
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps in Required Qualifications:**\n\n1. **Not a software engineer** — Curtis is a Systems Administrator. His experience is in infrastructure operations, not software development. The role requires designing and building backend services and APIs, which is fundamentally different from his background.\n\n2. **No proficiency in Java or Python** — The required languages (Java, Python, or comparable backend language) are absent from his resume. His scripting experience is limited to Bash and PowerShell, which are operational/automation tools, not backend development languages.\n\n3. **No API design or development experience** — There is no mention of designing or consuming RESTful APIs, which is a hard requirement.\n\n4. **No CI/CD pipeline experience** — Not listed anywhere on the resume.\n\n5. **No automated testing experience** — Entirely absent.\n\n6. **SQL listed as \"basic\"** — The role requires meaningful experience with relational databases and SQL, not a surface-level familiarity.\n\n7. **No backend service or distributed systems experience** — No evidence of building scalable systems, microservices, or transaction-processing platforms.\n\n**Gaps in Preferred Qualifications:**\n\n8. **No Kafka, SQS, or event-driven architecture experience.**\n9. **No Kubernetes or container orchestration** (Docker is noted as \"basic\" only).\n10. **No infrastructure-as-code experience** (Terraform, CloudFormation).\n11. **No observability tooling experience** relevant to the role (Datadog, Grafana, Prometheus).\n12. **No mentoring or technical leadership experience.**\n\n**Summary:** The candidate lacks the foundational software engineering skills required for this role. His background in systems administration, while valuable in its own domain, does not translate to the hands-on backend development, API design, and distributed systems experience this position demands.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:32.734098+00:00",
+  "finished_utc": "2026-09-28T22:15:43.570346+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 452
+  },
+  "response": "## Screening Assessment: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n1. **Not a software developer — QA/testing background only.** The candidate explicitly self-identifies as \"transitioning toward software development.\" The role requires a Senior Software Engineer who *builds* production backend services, not someone who tests them. His Java experience is confined to writing test automation (Selenium, REST Assured), not building applications or services.\n\n2. **No experience designing or building APIs or backend services.** The JD requires experience *designing and consuming* RESTful APIs. Pemberton consumes/validates APIs in a testing context — he has not designed or built them.\n\n3. **No cloud platform experience.** AWS, Azure, or GCP experience is a required qualification. There is no mention of any cloud provider anywhere on the résumé.\n\n4. **No CI/CD development experience.** Maintaining test execution stages in Jenkins is materially different from building and owning CI/CD pipelines for software delivery, which is a required qualification.\n\n5. **No evidence of system design, architecture, or scalability work.** The role expects ownership of service design for high-volume transaction systems. Nothing in the résumé suggests exposure to this.\n\n6. **Missing all preferred qualifications.** No Kafka/messaging, no Docker/Kubernetes, no Terraform, no financial services background, no observability tooling, and no mentoring experience are evidenced.\n\n7. **Years of experience gap.** While he has 5 years total, all of it is in QA — none in professional software *engineering*, which is what the required 5+ years refers to.\n\n8. **Mentorship expectation unmet.** The role involves mentoring junior/mid engineers; no indication this candidate has done so.\n\n---\n\n### Summary\n\nPemberton does not meet the core required qualifications for this Senior Software Engineer role. His profile is that of an experienced QA engineer, not a backend software engineer. The gaps are fundamental and numerous, not peripheral.\n\nFINAL: REJECT"
+}

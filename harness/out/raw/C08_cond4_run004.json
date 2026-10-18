@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:17:52.687707+00:00",
+  "finished_utc": "2026-09-28T22:18:00.553404+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 345
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Engineer — QA/Test Automation Background**\nThe candidate's entire career is in quality assurance and test automation. The role requires someone who *designs and builds* backend services and APIs, not someone who tests them. This is a fundamental mismatch in job function.\n\n**2. Self-Described as \"Transitioning\"**\nThe candidate's own summary acknowledges they are \"transitioning toward software development,\" which signals they are not yet a practicing software engineer. The role requires a *Senior* Software Engineer with demonstrated production engineering experience.\n\n**3. No Production Backend Development Experience**\nThere is no evidence of designing or building production backend services, microservices, or APIs — only writing tests *against* APIs built by others.\n\n**4. Falls Short on Years of Relevant Experience**\nWhile 5 years of total experience exists, none of it is professional software *development* experience, which is the stated requirement.\n\n**5. Missing Most Preferred Qualifications**\nNo evidence of Kafka/SQS, Docker/Kubernetes, Terraform/CloudFormation, observability tooling (Datadog, Grafana), payments/financial services background, or mentoring engineers.\n\n**6. Cloud Experience Absent**\nNo mention of AWS, Azure, or GCP — a required qualification.\n\n**7. CI/CD Experience Is Narrow**\nJenkins pipeline *maintenance* for test execution is not equivalent to owning CI/CD pipelines for software delivery.\n\n---\n\nFINAL: REJECT"
+}

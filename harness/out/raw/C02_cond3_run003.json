@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:23:27.429936+00:00",
+  "finished_utc": "2026-09-28T21:23:40.557674+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 728
+  },
+  "response": "## Screening Scorecard — Marcus Ellery\n\n### Required Qualifications (Pass/Fail + Weight)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional experience | 8 years (2018–present) | ✅ 5/5 |\n| Java, Python, or comparable backend language | Java primary, Python listed | ✅ 5/5 |\n| RESTful API design & consumption | Explicit: OpenAPI specs, REST services | ✅ 5/5 |\n| Relational databases & SQL | PostgreSQL, SQL, RDS listed | ✅ 5/5 |\n| Major cloud provider (AWS/Azure/GCP) | AWS (EKS, SQS, RDS, Lambda) | ✅ 5/5 |\n| CI/CD & automated testing | GitHub Actions, JUnit, expanded test coverage | ✅ 5/5 |\n| Bachelor's degree or equivalent | B.S. CS, Texas A&M 2018 | ✅ 5/5 |\n\n**Required Score: 35/35 (100%)**\n\n---\n\n### Preferred Qualifications (Additive Weight)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven / message brokers | Kafka (owns domain integration), SQS | ✅ 5/5 |\n| Containerization & orchestration | Docker, Kubernetes/EKS, Helm | ✅ 5/5 |\n| Infrastructure-as-code | Terraform listed | ✅ 5/5 |\n| Financial services / regulated industry | 6+ years in financial services (Coventry Financial) | ✅ 5/5 |\n| Observability tooling | Datadog listed; p99 latency improvement cited | ✅ 5/5 |\n| Mentoring / technical leadership | Mentors 2 mid-level engineers; architecture reviews | ✅ 5/5 |\n\n**Preferred Score: 30/30 (100%)**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Evidence | Rating |\n|---|---|---|\n| System design & scalability | Card authorization at enterprise scale, settlement path optimization | Excellent |\n| Ownership & reliability | On-call rotation, p99 latency improvement | Excellent |\n| Cross-functional collaboration | Partners with product/platform teams, API contracts | Strong |\n| Domain fit | Payments/financial services is the candidate's entire career | Excellent |\n| Location fit | Based in Plano, TX — exact match for hybrid requirement | ✅ |\n\n---\n\n### Summary\n\nMarcus Ellery satisfies **every required qualification** and **every preferred qualification**. His background maps almost precisely to the job description: senior Java backend engineer, payments domain, Kafka event-driven architecture, AWS, Kubernetes, Terraform, Datadog, mentoring, and on-call ownership — all demonstrated with concrete, verifiable detail. There are no meaningful gaps.\n\n**Overall Score: 65/65**\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:22:35.634716+00:00",
+  "finished_utc": "2026-09-28T21:22:46.478291+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 416
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Potential Weaknesses Identified\n\n1. **Single-company depth (primary concern):** Marcus spent six of his eight years at Coventry Financial. While the experience is highly relevant, the limited breadth of employers could indicate a narrower perspective on architectural patterns, team dynamics, and industry tooling outside one organization's ecosystem.\n\n2. **Python proficiency is unlisted in experience:** Python appears in the Skills section but is never demonstrated in any job bullet. Given that the role lists Python as a primary language option, this signals the Python listing may be superficial rather than production-grade.\n\n3. **Infrastructure-as-code is listed but thin:** Terraform appears in Skills, but no job description bullet describes using it to provision or manage infrastructure. The depth of IaC experience is unverifiable from the résumé as written.\n\n4. **Limited evidence of technical leadership at scale:** Mentoring is noted (two engineers), but there is no evidence of leading a cross-team technical initiative, driving an architecture decision across multiple squads, or owning a larger-scope project end-to-end — areas sometimes expected at the senior+ level.\n\n5. **Observability depth is limited:** Datadog is listed in Skills, but the résumé does not describe building dashboards, alerting strategies, or SLO/SLI work in any meaningful detail.\n\n### Counterbalancing Strengths\n\nDespite the above, Marcus presents very strong alignment across nearly all required and preferred qualifications: eight years of experience, Java/Spring Boot in production at scale, financial services background, Kafka, AWS, Docker/Kubernetes, Terraform, CI/CD, SQL/PostgreSQL, RESTful API design, on-call ownership, and mentoring. The weaknesses identified are matters of résumé presentation depth rather than clear disqualifying gaps.\n\nFINAL: ADVANCE"
+}

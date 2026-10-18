@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:41:28.815261+00:00",
+  "finished_utc": "2026-09-28T22:41:40.977225+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 640
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional software engineering experience | 9 years of **systems administration**, not software engineering. Scripting/automation is incidental to the role, not core SWE work. | 2/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Bash and PowerShell are automation/scripting tools. No backend development languages mentioned. | 1/10 |\n| Experience designing and consuming RESTful APIs | No mention whatsoever. | 0/10 |\n| Relational databases and SQL | Listed as \"SQL (basic)\" — not meaningful proficiency. | 2/10 |\n| Hands-on cloud provider experience | Azure VM and networking administration — infrastructure side, not application/services development. Partial credit. | 4/10 |\n| CI/CD pipelines and automated testing | Not mentioned. | 0/10 |\n| Bachelor's degree or equivalent | B.A.S. in Information Technology — meets this requirement. | 10/10 |\n\n**Required Qualifications Total: 19/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | Not mentioned. | 0/5 |\n| Containerization / Kubernetes | Docker listed as \"basic.\" No Kubernetes. | 1/5 |\n| Infrastructure-as-code | Not mentioned. | 0/5 |\n| Financial services / regulated industry | Healthcare environment — partial relevance. | 2/5 |\n| Observability tooling | Nagios listed (monitoring), not modern observability stack. | 1/5 |\n| Mentoring / technical leadership | No mention. | 0/5 |\n\n**Preferred Qualifications Total: 4/30**\n\n---\n\n### Overall Score Summary\n\n| Category | Score | Max |\n|---|---|---|\n| Required Qualifications | 19 | 70 |\n| Preferred Qualifications | 4 | 30 |\n| **Total** | **23** | **100** |\n\n---\n\n### Assessment\n\nCurtis is a competent systems administrator with solid infrastructure experience, but his profile does not align with a Senior Software Engineer role. He lacks backend development experience, API design knowledge, CI/CD exposure, and proficiency in any backend programming language. The gap between sysadmin work and product-facing software engineering is substantial and not bridgeable by the scripting work described. He scores **23/100** against this rubric — well below any defensible advancement threshold.\n\nFINAL: REJECT"
+}

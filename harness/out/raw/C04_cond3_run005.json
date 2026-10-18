@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:41:58.891946+00:00",
+  "finished_utc": "2026-09-28T21:42:16.346605+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 749
+  },
+  "response": "## Scoring Rubric & Candidate Evaluation\n\n### Required Qualifications (Pass/Fail or Weighted)\n\n| Requirement | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| 5+ years professional SWE experience | High | 3/3 | 9 years total, 6 in payments |\n| Java, Python, or comparable backend language | High | 3/3 | Both Java and Python; Spring Boot, FastAPI |\n| RESTful API design & consumption | High | 3/3 | Owns API design for partner integration surface; versioned REST contracts |\n| Relational databases & SQL | High | 3/3 | PostgreSQL, SQL-backed batch jobs |\n| Major cloud provider (AWS, Azure, GCP) | High | 3/3 | AWS (ECS, SQS, RDS, Lambda) |\n| CI/CD pipelines & automated testing | High | 3/3 | GitHub Actions, pytest, introduced automated integration testing |\n| Bachelor's degree or equivalent practical experience | High | 2/3 | No degree; completed structured apprenticeship (9 years experience qualifies as \"equivalent practical experience\") |\n\n**Required Score: 20/21 (~95%)**\n\n---\n\n### Preferred Qualifications (Additive)\n\n| Preference | Score (0–2) | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | 2/2 | Built Kafka + SQS event pipeline |\n| Containerization & orchestration | 2/2 | Docker, Kubernetes, Helm |\n| Infrastructure-as-code | 2/2 | Terraform modules standardized across 6 services |\n| Financial services / payments / regulated industry | 2/2 | 6 years in payments infrastructure |\n| Observability tooling | 2/2 | Grafana, Prometheus |\n| Mentoring / leading technical initiatives | 2/2 | On-call rotation lead, incident retrospectives |\n\n**Preferred Score: 12/12 (100%) — All preferred qualifications met**\n\n---\n\n### Core Competencies Assessment\n\n| Competency | Rating | Notes |\n|---|---|---|\n| System design & scalability | ★★★★★ | Distributed services, event pipelines, high-volume payments |\n| Ownership & reliability | ★★★★★ | On-call lead, incident retrospectives, deployment reliability improvements |\n| Collaboration | ★★★★☆ | Partner API ownership implies cross-team coordination |\n| Mentorship/leadership signals | ★★★★☆ | On-call lead role, introduced testing practices |\n| Location fit | ✅ | Dallas, TX — compatible with Plano hybrid model |\n\n---\n\n### Summary\n\nTrevor Lindquist is an exceptionally strong match for this role. He meets every required qualification (with the education requirement satisfied by 9 years of demonstrated professional experience explicitly permitted by the JD's \"equivalent practical experience\" clause). He additionally satisfies **all six preferred qualifications**, which is rare. His background in payments infrastructure is directly aligned with the team's domain.\n\n**Total Score: ~97% across all rubric dimensions**\n\nFINAL: ADVANCE"
+}

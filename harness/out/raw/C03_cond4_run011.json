@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 11,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:34:57.332122+00:00",
+  "finished_utc": "2026-09-28T21:35:09.134466+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 533
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Primary Expertise is Frontend, Not Backend**\nThe candidate self-identifies as \"Frontend-focused\" and their most substantial experience is in React/TypeScript UI development. The role requires a backend engineer designing and building scalable backend services for high-volume payment processing. Backend work appears incidental and supporting to their frontend role.\n\n**2. Backend Experience is Thin and Narrow**\nThe Node.js/Express work described is limited to session handling and an aggregation layer — not the kind of complex, high-volume transactional backend systems the payments platform role demands. This does not demonstrate experience with enterprise-scale backend service design.\n\n**3. No Proficiency in Java or Python**\nThe job requires strong proficiency in Java, Python, or a comparable backend language. The candidate's stack is JavaScript/TypeScript (Node.js), which while technically a backend-capable language, is not listed in the JD and is primarily used here in a lightweight middleware capacity.\n\n**4. No Cloud Infrastructure Depth**\nAWS experience is limited to S3, CloudFront, and Lambda — largely frontend/CDN-adjacent services. No evidence of backend-relevant cloud services (e.g., RDS, ECS, EKS, API Gateway at scale).\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nKafka, SQS, and similar tools are preferred and highly relevant for payments platforms. There is no mention of these.\n\n**6. No Financial Services or Regulated Industry Background**\nThe candidate's background is in retail and media, with no exposure to payments, fintech, or compliance-sensitive environments.\n\n**7. Education Mismatch**\nThe candidate holds a B.A. in Graphic Design, not Computer Science or a related technical field. While equivalent practical experience can substitute, the overall profile does not clearly compensate for this gap given the other deficiencies.\n\n**8. No Observability or Infrastructure-as-Code Experience**\nNo mention of Datadog, Grafana, Prometheus, Terraform, Kubernetes, or orchestration tooling beyond basic Docker usage.\n\n---\n\nThis candidate's skills are concentrated in an area (frontend engineering) that does not align with the core requirements of this senior backend/payments platform role. The gaps are too significant and too numerous to overlook for a senior-level position with high ownership expectations.\n\nFINAL: REJECT"
+}

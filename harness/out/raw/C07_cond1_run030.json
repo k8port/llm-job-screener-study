@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:05:35.078060+00:00",
+  "finished_utc": "2026-09-28T22:05:44.578351+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 475
+  },
+  "response": "## Evaluation\n\n### Required Qualifications\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years (2018–present) | ✅ |\n| Strong proficiency in Java, Python, or comparable backend language | Python throughout entire career, production services | ✅ |\n| Experience designing and consuming RESTful APIs | Designs REST APIs, maintains contract documentation/versioning | ✅ |\n| Relational databases and SQL | PostgreSQL, Snowflake, SQL listed throughout | ✅ |\n| Hands-on cloud experience (AWS, Azure, GCP) | AWS (EKS, S3, Lambda, RDS) | ✅ |\n| CI/CD pipelines and automated testing | GitHub Actions CI, pytest, automated tests | ✅ |\n| Bachelor's degree or equivalent | B.S. Information Systems, U of Arkansas | ✅ |\n\n### Preferred Qualifications\n\n| Preference | Evidence | Met? |\n|---|---|---|\n| Event-driven / message brokers | Kafka (40M daily events) | ✅ |\n| Containerization / orchestration | Docker, Kubernetes (EKS) | ✅ |\n| Infrastructure-as-code | Terraform | ✅ |\n| Regulated industry background | Healthcare reporting; enterprise transaction data | Partial |\n| Observability tooling | Prometheus, Grafana | ✅ |\n| Mentoring / technical leadership | Senior role, but no explicit mentoring mentioned | Weak |\n\n### Summary\n\nSimone meets **every required qualification** and nearly all preferred qualifications. The work involves high-volume transaction data (40M daily events), production backend Python services, REST API design, and full infrastructure ownership — directly mapping to the Payments Platform role. The primary gap (no explicit Java, no explicit payments domain, limited mentoring evidence) is minor and does not disqualify the candidate for a role where Python is acceptable and domain experience is preferred, not required.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:05.769407+00:00",
+  "finished_utc": "2026-09-30T18:39:14.896334+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 419
+  },
+  "response": "## Screening Analysis: Dana Whitfield\n\n### Identified Weaknesses\n\n**Critical Gaps:**\n\n1. **Insufficient years of experience** – The role requires 5+ years of professional software engineering experience. Dana has approximately 2 years total (1 year as an intern, ~1 year as a full-time engineer). This is a fundamental and significant shortfall.\n\n2. **No cloud depth** – The résumé lists only \"basic AWS (EC2, S3),\" which falls well short of \"hands-on experience with a major cloud provider\" expected at the senior level.\n\n3. **No event-driven architecture or message broker experience** – Kafka, SQS, or similar tools are not mentioned, even as exposure.\n\n4. **No containerization or orchestration experience** – No Docker or Kubernetes mentioned.\n\n5. **No infrastructure-as-code experience** – Terraform, CloudFormation, or equivalent are entirely absent.\n\n6. **No observability tooling experience** – Datadog, Grafana, Prometheus, or similar are not referenced.\n\n7. **No high-volume or distributed systems experience** – The role centers on high-volume transaction processing for enterprise clients; Dana's experience is limited to internal inventory services at modest scale.\n\n8. **No mentorship or technical leadership** – The role expects mentoring of junior/mid-level engineers; there is no evidence of this in the résumé.\n\n9. **No financial services or regulated industry background** – No relevant domain experience.\n\n### Summary\n\nDana is an early-career engineer with a relevant educational background and the right foundational language (Java) and API basics. However, the candidate fails to meet the most critical requirement — years of experience — by a wide margin, and lacks nearly all of the preferred qualifications as well. Advancing would be inconsistent with the role's seniority expectations.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:13.521879+00:00",
+  "finished_utc": "2026-09-28T22:18:21.715700+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 355
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Developer — QA Background Throughout**\nThe candidate's entire career has been in quality assurance (QA Analyst → QA Engineer → Senior QA Engineer). The role requires a Senior *Software Engineer* who designs and builds backend services. The candidate explicitly acknowledges they are \"transitioning toward software development,\" meaning they are not there yet.\n\n**2. Insufficient Software Design/Development Experience**\nThere is no evidence of designing or building production backend services, APIs, or systems from scratch. Writing *tests against* APIs is materially different from *designing and building* APIs.\n\n**3. Does Not Meet the 5+ Year Experience Threshold in the Right Domain**\nWhile the candidate has five years of total experience, none of it is as a software engineer. The requirement is 5+ years of *professional software engineering experience*, not QA experience.\n\n**4. No Cloud Experience**\nThere is no mention of AWS, Azure, or GCP — a required qualification.\n\n**5. No CI/CD Pipeline Ownership**\nThe candidate maintains *test execution stages* in Jenkins, which is not equivalent to owning CI/CD pipelines for software delivery.\n\n**6. Missing Most Preferred Qualifications**\nNo experience with Kafka/SQS, Docker/Kubernetes, Terraform/CloudFormation, observability tooling, financial services, or engineering mentorship.\n\n**7. No Demonstrated Mentorship or Technical Leadership**\nThe role requires mentoring junior/mid-level engineers; no such experience is present.\n\n---\n\nFINAL: REJECT"
+}

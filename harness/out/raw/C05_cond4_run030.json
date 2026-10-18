@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:56.617047+00:00",
+  "finished_utc": "2026-09-28T21:53:06.097907+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 370
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer**: Nora is a data analyst/reporting professional, not a backend software engineer. Her experience centers on analytics, reporting, and data reconciliation — not building and maintaining production software services.\n\n2. **No Backend Service Development Experience**: The role requires designing and building scalable backend services and APIs. There is no evidence of this in her résumé. She has written Python scripts for data cleaning, but that is materially different from engineering production services.\n\n3. **No API Design or Consumption Experience**: The job requires experience designing and consuming RESTful APIs. This is entirely absent from her background.\n\n4. **No Java Experience**: Java is the primary language listed in required qualifications. She has no Java background.\n\n5. **Insufficient Cloud Experience**: She lists \"basic AWS (S3, Athena)\" — surface-level data storage/query tools. The role requires hands-on cloud engineering experience, including compute, networking, and deployment services.\n\n6. **No CI/CD or Automated Testing Experience**: These are listed as required qualifications. Her résumé shows no evidence of either.\n\n7. **No Containerization, Orchestration, or Infrastructure-as-Code Experience**: None of Docker, Kubernetes, Terraform, or CloudFormation appear anywhere.\n\n8. **No Mentorship or Technical Leadership**: The role expects mentoring of junior/mid engineers; no such experience is indicated.\n\n9. **Years of Experience Are in the Wrong Domain**: Her six years are in data analytics, not software engineering. Time-in-field does not transfer to the required engineering competencies.\n\n---\n\nFINAL: REJECT"
+}

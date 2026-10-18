@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:21.251656+00:00",
+  "finished_utc": "2026-09-28T22:26:30.202324+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 414
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Outdated Technology Stack**\nThe candidate's primary experience is in COBOL, JCL, and z/OS — mainframe technologies that are not relevant to this role. The Java experience is limited to Java 8 (a version released in 2014) using outdated patterns (JSP, Servlets, WebSphere), with no evidence of modern backend frameworks (e.g., Spring Boot, Quarkus, Micronaut).\n\n**2. No Cloud Experience**\nThe job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). The résumé contains no mention of any cloud platform whatsoever.\n\n**3. No RESTful API Experience**\nThe role requires designing and consuming RESTful APIs. There is no evidence of REST API development on this résumé.\n\n**4. No CI/CD or Automated Testing Experience**\nJenkins is listed as \"basic\" and there is no mention of automated testing frameworks. This does not meet the required qualification.\n\n**5. No Containerization or Modern DevOps Tooling**\nDocker, Kubernetes, Terraform, and observability tools (Datadog, Grafana, Prometheus) — all preferred qualifications — are entirely absent.\n\n**6. No Event-Driven Architecture Experience**\nNo mention of Kafka, SQS, or any message broker.\n\n**7. No Mentorship or Technical Leadership Evidence**\nDespite 16 years of experience, there is no indication of mentoring engineers or leading technical initiatives.\n\n**8. Technology Trajectory Concern**\nThe candidate has spent 15 years in a largely static, mainframe-centric environment with minimal evolution toward modern software engineering practices. The gap between their current skill set and the role's requirements is substantial.\n\n---\n\nFINAL: REJECT"
+}

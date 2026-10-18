@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:14.363096+00:00",
+  "finished_utc": "2026-09-28T22:18:23.440291+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 392
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Developer — QA/Test Engineering Background**\nThe candidate explicitly self-identifies as a \"quality engineer transitioning toward software development.\" All five years of professional experience are in QA roles (analyst, QA engineer, senior QA engineer), not in software engineering or backend service development.\n\n**2. No Experience Designing or Building Backend Services**\nThe role requires designing and building scalable backend services and APIs. The candidate has tested APIs and web applications but has no demonstrated experience architecting or building production backend systems.\n\n**3. Java Usage is Test-Focused, Not Production Engineering**\nWhile Java is listed, it is used exclusively in the context of Selenium test automation (UI testing) and API test suites — not for building production services, business logic, or data layers.\n\n**4. No Cloud Experience**\nThe job requires hands-on experience with AWS, Azure, or GCP. No cloud platform is mentioned anywhere on the résumé.\n\n**5. No CI/CD Pipeline Ownership**\nThe candidate maintains test execution stages in Jenkins, which is adjacent but not equivalent to owning or designing CI/CD pipelines for software delivery.\n\n**6. No Experience with Preferred Qualifications**\nKafka, Docker, Kubernetes, Terraform, Datadog, Grafana, financial services background — none are present.\n\n**7. Does Not Meet the Seniority Bar**\nThe role requires 5+ years of professional *software engineering* experience. The candidate has 5 years in QA, which is a meaningfully different discipline.\n\n**8. No Mentorship or Technical Leadership Experience**\nNo evidence of mentoring engineers or leading technical initiatives, which is a preferred qualification.\n\n---\n\nFINAL: REJECT"
+}

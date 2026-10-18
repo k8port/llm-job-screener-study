@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:34.727757+00:00",
+  "finished_utc": "2026-09-28T22:14:45.275550+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 437
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **Years of experience**: 5 years of professional experience in software engineering-adjacent work (QA/test automation), which technically meets the numerical threshold.\n- **Java proficiency**: Actively uses Java for test automation — a required language.\n- **REST API familiarity**: Has written API-level tests against REST endpoints, showing exposure to RESTful concepts.\n- **SQL**: Listed as a skill.\n- **CI/CD**: Maintains Jenkins pipelines, showing pipeline familiarity.\n- **Education**: B.S. in Information Technology satisfies the degree requirement.\n- **Location**: Based in Garland, TX — compatible with Plano, TX hybrid requirement.\n\n### Significant Gaps\n- **Software development vs. QA**: The candidate's own summary acknowledges they are \"transitioning toward software development.\" Their experience is in **test automation and QA**, not in **designing and building backend services and APIs**. These are fundamentally different disciplines.\n- **No evidence of backend service design or ownership**: The role requires designing scalable backend systems and APIs. Writing tests *against* APIs is not the same as building them.\n- **No cloud experience**: AWS, Azure, or GCP experience is a required qualification — entirely absent from the résumé.\n- **No database design/ORM experience**: SQL is listed as a skill but there's no evidence of backend data modeling or relational database design work.\n- **No mentorship experience**: A key responsibility of the Senior role.\n- **No preferred qualifications met**: Kafka, Kubernetes, Docker, Terraform, observability tools, financial services — none are present.\n\n### Conclusion\nThe candidate lacks the core competencies required: backend service development, cloud platform experience, and system design ownership. Their background is in QA/test automation, and they self-identify as transitioning into development. There is insufficient evidence they could perform this Senior Software Engineer role as described.\n\nFINAL: REJECT"
+}

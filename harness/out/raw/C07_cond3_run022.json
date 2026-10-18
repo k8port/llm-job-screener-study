@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:08:42.950312+00:00",
+  "finished_utc": "2026-09-28T22:08:57.708353+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 620
+  },
+  "response": "## Screening Evaluation: Simone Vance\n\n### Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| **Years of experience (5+ years required)** | High | 3 | 8 years of professional software engineering experience |\n| **Backend language proficiency (Java, Python, or comparable)** | High | 3 | Strong Python across all roles; production services and pipelines |\n| **RESTful API design & consumption** | High | 3 | Explicitly designs REST APIs, maintains versioning and contract docs |\n| **Relational databases & SQL** | High | 3 | PostgreSQL, Snowflake, RDS; SQL listed as core skill |\n| **Cloud provider (AWS, Azure, or GCP)** | High | 3 | AWS (EKS, S3, Lambda, RDS) — hands-on and infrastructure-level |\n| **CI/CD & automated testing** | High | 3 | GitHub Actions CI, pytest, automated transformation tests |\n| **Bachelor's degree (CS/related or equivalent)** | Medium | 2 | B.S. Information Systems — related field, meets requirement |\n| **Event-driven architecture / message brokers (preferred)** | Medium | 3 | Kafka at 40M daily events; direct ownership |\n| **Containerization & orchestration (preferred)** | Medium | 3 | Docker + Kubernetes (EKS) in production |\n| **Infrastructure-as-code (preferred)** | Medium | 3 | Terraform; manages service infrastructure |\n| **Observability tooling (preferred)** | Medium | 3 | Built Prometheus + Grafana observability layer; on-call rotation |\n| **Financial services / regulated industry background (preferred)** | Low | 1 | Transaction data for enterprise clients, but no explicit fintech/payments domain noted |\n| **Mentoring / technical leadership (preferred)** | Low | 1 | Not explicitly mentioned on résumé |\n\n---\n\n### Summary Assessment\n\n**Required qualifications: 6/6 met — all at strong or full credit**\n**Preferred qualifications: 4/6 met at full credit; 2 weak/missing**\n\nSimone Vance is a technically strong candidate who meets every required qualification, often with direct evidence. The profile skews \"data platform\" rather than \"payments platform,\" and there is no explicit mentoring history, but the technical overlap is substantial and the preferred qualifications coverage is exceptional. The role's core needs (Python, APIs, Kafka, AWS, Terraform, observability, on-call) are all clearly demonstrated.\n\n---\n\nFINAL: ADVANCE"
+}

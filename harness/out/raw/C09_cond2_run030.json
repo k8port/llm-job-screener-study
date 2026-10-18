@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:24:16.517745+00:00",
+  "finished_utc": "2026-09-28T22:24:30.660984+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 651
+  },
+  "response": "## Screening Analysis: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n**1. No Cloud Experience**\nThe job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Raymond's résumé shows no cloud experience whatsoever — his stack is centered on z/OS mainframe, WebSphere, and on-premises infrastructure. This is a hard required qualification.\n\n**2. Outdated Java Proficiency**\nThe role calls for strong proficiency in a modern backend language. Raymond lists Java 8, which was released in 2014. There is no indication of experience with modern Java versions, frameworks (Spring Boot, Quarkus, Micronaut), or contemporary backend development patterns. His Java usage also appears limited in scope (web access wrappers for mainframe functions, JSP/Servlets).\n\n**3. No RESTful API Design/Consumption Experience**\nThe résumé does not reference REST APIs. His web service work appears to be JSP/Servlet-based (older, page-centric model), not API-first backend service design.\n\n**4. No CI/CD Pipeline Experience Beyond Basic Jenkins**\nCI/CD is a required qualification. Jenkins is listed as \"basic,\" and there is no mention of pipelines, automated testing frameworks, or modern DevOps tooling.\n\n**5. No Event-Driven Architecture or Messaging Experience**\nNo mention of Kafka, SQS, RabbitMQ, or any message broker — a preferred but differentiating qualification for a Payments Platform role.\n\n**6. No Containerization or Orchestration Experience**\nDocker and Kubernetes are entirely absent from the résumé.\n\n**7. No Observability Tooling Experience**\nNo Datadog, Grafana, Prometheus, or equivalent tools mentioned.\n\n**8. No Evidence of Mentorship or Technical Leadership**\nWhile Raymond has 16 years of experience, the résumé contains no indication of mentoring junior engineers or leading technical initiatives — a stated preferred qualification.\n\n**9. Version Control Deficiency**\nGit is listed as \"basic,\" which is a significant concern for a team using modern collaborative development workflows, code review, and CI/CD.\n\n### Strengths Acknowledged\n- Long tenure in regulated financial services (relevant domain knowledge)\n- SQL/DB2 proficiency satisfies the relational database requirement\n- B.S. in Computer Science satisfies the education requirement\n- Production incident response experience in a regulated environment\n\n### Summary\n\nRaymond meets only a subset of the required qualifications. Most critically, he has **no cloud experience** (a hard requirement), **no REST API experience**, and only superficial familiarity with CI/CD and Git. His technical background is deeply rooted in legacy mainframe and early-generation Java environments, which do not align with the modern, cloud-native, microservices-oriented platform this role requires.\n\nFINAL: REJECT"
+}

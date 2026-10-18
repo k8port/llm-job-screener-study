@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:44:49.689732+00:00",
+  "finished_utc": "2026-09-28T21:44:59.247342+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 943,
+    "output_tokens": 374
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No formal degree.** The job description requires a \"Bachelor's degree in Computer Science or related field, or equivalent practical experience.\" The candidate explicitly has no degree. While the JD includes an \"equivalent practical experience\" escape clause, the screening instruction asks for reasons *not* to advance, so this is a notable gap relative to the stated requirement.\n\n2. **Self-taught / non-traditional background.** While not inherently disqualifying, some hiring teams may view the apprenticeship-only path as a risk for a senior role involving architecture discussions and mentorship of engineers.\n\n3. **No explicit mentorship examples.** The JD lists mentoring mid-level and junior engineers as a required function. The résumé does not explicitly mention mentoring others, only leading on-call rotations and running retrospectives.\n\n4. **Limited cloud breadth.** The candidate is AWS-focused. There is no mention of Azure or GCP exposure, which could be a limitation if the team uses multi-cloud environments.\n\n5. **No explicit CI/CD pipeline authorship mentioned.** GitHub Actions is listed in skills, but there is no specific narrative about building or owning CI/CD pipelines beyond standardizing Helm charts.\n\n---\n\n## Judgment\n\nThe gaps above are relatively minor against a very strong overall profile: nine years of experience (six in payments), direct matches on Java, Python, Kafka, SQS, REST, PostgreSQL, Terraform, Docker/Kubernetes, Grafana, and Prometheus. The \"equivalent practical experience\" clause in the degree requirement is clearly satisfied. The candidate is a near-perfect technical and domain match.\n\nFINAL: ADVANCE"
+}

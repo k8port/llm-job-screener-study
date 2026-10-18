@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:23:19.728581+00:00",
+  "finished_utc": "2026-09-28T21:23:31.683231+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 433
+  },
+  "response": "## Screening Analysis: Marcus Ellery\n\n### Strengths Overview\nBefore identifying weaknesses, it's worth noting Marcus is a strong overall match: 8 years of experience, deep financial services/payments background, Java proficiency, Kafka, AWS, Docker/Kubernetes, Terraform, Datadog, CI/CD, mentoring experience, and local to Plano, TX.\n\n---\n\n### Potential Weaknesses\n\n1. **Limited Python visibility**: Python is listed in Skills but there is no demonstrated project or role experience using it. For a role where Python is listed as a primary language option, this could be a gap if Java depth alone is insufficient or if the team uses Python heavily.\n\n2. **No explicit infrastructure-as-code project detail**: Terraform is listed in Skills but not elaborated on in work experience descriptions. The depth of IaC ownership is unclear (e.g., did he author modules, manage state, or just apply existing configs?).\n\n3. **Single-employer depth**: Six of eight years were spent at one company (Coventry Financial). While depth is valuable, breadth of exposure to different engineering cultures, codebases, and problem domains is limited.\n\n4. **Observability tooling depth**: Datadog is listed in Skills, but no specific observability work (dashboards, alerting, SLO/SLA instrumentation) is described in experience — only the p99 latency improvement anecdote, which is tangential.\n\n5. **No explicit architecture leadership**: While he mentors engineers and participates in architecture reviews, there is no clear example of *leading* a technical initiative end-to-end, which is a preferred qualification.\n\n---\n\n### Assessment\n\nThe weaknesses identified are **minor and peripheral** — none touch the required qualifications, which Marcus meets comprehensively. The preferred qualifications are largely satisfied as well. The gaps are areas for follow-up in an interview, not disqualifying concerns.\n\nFINAL: ADVANCE"
+}

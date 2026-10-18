@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:25:00.845428+00:00",
+  "finished_utc": "2026-09-28T21:25:11.707039+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 578
+  },
+  "response": "## Screening Evaluation: Marcus Ellery\n\n### Scoring Rubric\n\n| Criterion | Weight | Score (0–5) | Notes |\n|---|---|---|---|\n| **Years of Experience** | 15% | 5/5 | 8 years total; 3+ as Senior |\n| **Backend Language Proficiency (Java/Python)** | 15% | 5/5 | Java/Spring Boot primary; Python listed in skills |\n| **RESTful API Design & Consumption** | 10% | 5/5 | Owns API contracts, maintains OpenAPI specs |\n| **Relational Databases & SQL** | 10% | 5/5 | PostgreSQL on payment reconciliation workflows |\n| **Cloud Provider Experience** | 10% | 5/5 | AWS (EKS, SQS, RDS, Lambda) — hands-on |\n| **CI/CD & Automated Testing** | 10% | 5/5 | GitHub Actions, JUnit, expanded test coverage |\n| **Education** | 5% | 5/5 | B.S. Computer Science, Texas A&M |\n| **Event-Driven / Message Brokers** | 5% | 5/5 | Kafka (preferred) — production ownership |\n| **Containerization & Orchestration** | 5% | 5/5 | Docker, Kubernetes/EKS, Helm |\n| **Infrastructure-as-Code** | 5% | 5/5 | Terraform listed in skills |\n| **Financial Services Background** | 5% | 5/5 | 6+ years in payments/financial services |\n| **Observability Tooling** | 5% | 5/5 | Datadog in production; p99 latency improvement cited |\n| **Mentorship / Technical Leadership** | 5% | 5/5 | Mentors two mid-level engineers; architecture reviews |\n\n---\n\n### Weighted Score Calculation\n\nAll categories scored 5/5 → **100% across all weighted criteria**\n\n**Overall Score: 5.0 / 5.0**\n\n---\n\n### Summary Assessment\n\nMarcus is an exceptionally strong match. He satisfies **every required qualification** and **every preferred qualification** with direct, relevant evidence from a payments/financial services context. He is based in Plano, TX (no relocation concern), and his current role mirrors the job description with near-identical responsibilities.\n\nFINAL: ADVANCE"
+}

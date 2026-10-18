@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:43.624392+00:00",
+  "finished_utc": "2026-09-28T22:39:51.357089+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 336
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Analysis\n\n**Required Qualifications Review:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional software engineering experience | 9 years in systems administration/IT — not software engineering | ❌ |\n| Strong proficiency in Java, Python, or comparable backend language | Bash and PowerShell scripting noted; no Java or Python | ❌ |\n| Designing/consuming RESTful APIs | No mention | ❌ |\n| Relational databases and SQL | \"SQL (basic)\" listed | Marginally |\n| Hands-on cloud experience (AWS/Azure/GCP) | Azure VM and networking administration | Partial |\n| CI/CD pipelines and automated testing | No mention | ❌ |\n| Bachelor's in CS or related / equivalent experience | B.A.S. in Information Technology | Partial |\n\n### Key Observations\n\nCurtis is an experienced systems administrator with genuine infrastructure skills — particularly in Azure, Linux, and automation scripting. However, the role is a **Senior Software Engineer** focused on **backend service development**, API design, high-volume transaction processing, and software architecture. His background is in **infrastructure operations**, not software development. There is no evidence of backend programming in production languages, API development, CI/CD, or application-level software engineering. The gap between systems administration and senior software engineering is substantial and unlikely to be bridged by his listed skills.\n\nFINAL: REJECT"
+}

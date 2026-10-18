@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:59.463486+00:00",
+  "finished_utc": "2026-09-28T22:48:12.129072+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 510
+  },
+  "response": "## Candidate Evaluation: Elise Thornbury\n\n### Potential Weaknesses\n\n**1. Years of Experience (Most Significant Gap)**\nThe role requires **5+ years** of professional software engineering experience. Elise has approximately **3.5 years** total (graduated 2023, started in industry around mid-2021 at the earliest based on context, though the résumé only explicitly shows roles from 2023 onward). Taking the résumé at face value, she has roughly **2 years of documented professional experience** (2023–present), which is well below the 5-year requirement. Even generously interpreting her summary (\"three and a half years\"), she falls materially short of the stated minimum.\n\n**2. Seniority Level**\nShe is currently a **Software Engineer II**, not a senior engineer. The role requires senior-level ownership, including mentoring junior/mid-level engineers and leading technical initiatives. No evidence of mentoring or independent technical leadership is present; the Kafka partitioning work was explicitly described as \"led by a senior engineer.\"\n\n**3. Limited Architecture & Design Ownership**\nThe job emphasizes significant ownership over **service design**. Her contributions appear to be within existing patterns (consuming Kafka, deploying via existing Helm/CI pipelines, expanding test coverage). No evidence of end-to-end system design or architecture-level decision-making.\n\n**4. Terraform Listed as \"Basic\"**\nThe candidate self-qualifies Terraform experience as **basic**, which falls short of the IaC preferred qualification.\n\n**5. No Evidence of Mentorship**\nOne of the explicit expectations is **mentoring engineers**. Nothing in the résumé suggests she has done this.\n\n### Strengths (for completeness)\n- Directly relevant domain (payments)\n- Strong technical stack alignment (Java, Kafka, AWS, PostgreSQL, Kubernetes, Grafana)\n- B.S. in Computer Science from SMU\n\n### Summary\nThe experience gap relative to the **5+ year minimum requirement** is a hard-to-overlook disqualifier for a **Senior** role. Combined with lack of demonstrated leadership or mentoring, this candidate appears to be a strong mid-level hire, not a senior one at this time.\n\nFINAL: REJECT"
+}

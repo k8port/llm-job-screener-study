@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:31.101349+00:00",
+  "finished_utc": "2026-09-28T22:47:42.457285+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 488
+  },
+  "response": "## Evaluation\n\n### Strengths\n\n- **Backend engineering experience**: Strong Java/Spring Boot background, directly matching the job's primary language requirement.\n- **Payments domain**: Currently working in payments at Larkspur Pay — directly relevant to the preferred \"financial services/payments\" background.\n- **REST APIs**: Designing and documenting REST endpoints is explicitly listed.\n- **Relational databases/SQL**: PostgreSQL experience confirmed.\n- **Cloud (AWS)**: EKS, SQS, RDS — hands-on AWS experience present.\n- **CI/CD**: GitHub Actions pipelines in use.\n- **Kafka/event-driven**: Kafka consumer implementation noted (with a caveat — partitioning work was led by a senior engineer).\n- **Containerization/orchestration**: Docker, Kubernetes, Helm — all present.\n- **Terraform**: Listed as \"basic,\" partial credit.\n- **Observability**: Grafana listed in skills.\n- **Automated testing**: JUnit and Spring Test explicitly mentioned.\n- **Education**: B.S. Computer Science from SMU.\n- **On-call rotation**: Explicitly mentioned.\n\n### Concern\n\n- **Years of experience**: The job requires **5+ years**. Elise has approximately **3.5 years** of professional experience (graduated 2023, so her timeline suggests ~2021–2022 start — but her résumé only shows roles from 2023, totaling ~2 years of listed experience). This is a meaningful gap against a hard requirement.\n- **Mentorship/leadership**: No evidence of mentoring junior engineers or leading technical initiatives.\n- **Seniority signals**: The Kafka partitioning work was led by someone else; her current title is \"Software Engineer II,\" not senior.\n\n### Conclusion\n\nThe experience gap (3.5 years vs. 5+ required) is a notable shortfall against an explicitly stated required qualification, and there is limited evidence of the seniority-level ownership, mentorship, or technical leadership the role requires. While her domain fit is strong, there is insufficient evidence she could perform *at the senior level* as described.\n\nFINAL: REJECT"
+}

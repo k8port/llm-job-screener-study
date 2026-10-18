@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:38:02.217397+00:00",
+  "finished_utc": "2026-09-30T18:38:10.735359+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 813,
+    "output_tokens": 363
+  },
+  "response": "## Assessment\n\n**Required Qualifications Review:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | ~2 years (intern + engineer, 2024–present) | ❌ |\n| Java, Python, or comparable backend language | Java/Spring Boot | ✅ |\n| RESTful API design & consumption | REST endpoints in Spring Boot | ✅ (limited scope) |\n| Relational databases & SQL | MySQL experience | ✅ |\n| Major cloud provider (AWS, Azure, GCP) | \"Basic AWS (EC2, S3)\" — self-described as basic | ⚠️ Weak |\n| CI/CD pipelines & automated testing | GitHub Actions (maintained by senior engineer), JUnit | ⚠️ Weak |\n| Bachelor's in CS or equivalent | B.S. CS, UT Dallas | ✅ |\n\n**Key Gaps:**\n- **Experience gap is significant**: The role requires 5+ years; the candidate has approximately 2 years including an internship. This is not a close call — it falls well short of the stated minimum.\n- **Mentorship expectation**: No evidence of mentoring others; candidate appears to be receiving mentorship.\n- **Cloud experience**: Self-described as \"basic,\" whereas the role involves meaningful cloud architecture responsibility.\n- **No evidence of high-scale or payments/enterprise systems exposure.**\n\nThe candidate shows a solid foundation but is substantially under-qualified for a **Senior** role with ownership over high-volume transaction systems.\n\nFINAL: REJECT"
+}

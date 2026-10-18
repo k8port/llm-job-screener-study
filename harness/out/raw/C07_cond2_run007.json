@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:05:53.472779+00:00",
+  "finished_utc": "2026-09-28T22:06:08.793126+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 903,
+    "output_tokens": 534
+  },
+  "response": "## Screening Assessment: Simone Vance\n\n### Strengths Summary\nBefore identifying weaknesses, it's worth noting that the candidate meets most required qualifications: 8 years of experience (exceeds the 5-year minimum), strong Python/SQL proficiency, REST API design, relational databases, AWS hands-on experience, CI/CD and automated testing, and a relevant degree. She also hits nearly every preferred qualification (Kafka, Docker/Kubernetes, Terraform, Prometheus/Grafana, on-call experience).\n\n---\n\n### Potential Weaknesses\n\n1. **No Java experience listed.** The role cites Java as the primary example of a preferred backend language. The candidate works exclusively in Python. Depending on the team's stack, this could require ramp-up time or be a mismatch.\n\n2. **Data engineering background, not payments/backend services.** Her experience is framed around data platform and pipeline work rather than transactional backend service engineering. The Payments Platform role involves processing high-volume *financial transactions* with likely strict consistency, compliance, and latency requirements — a somewhat different domain than ETL and analytics pipelines.\n\n3. **No explicit financial services or regulated industry experience.** The JD calls this out as a preferred qualification. Healthcare-adjacent work at Corley Systems is minimal and not highlighted.\n\n4. **API design appears secondary, not primary.** Her REST API work is described as exposing pipeline outputs — a narrower scope than designing core platform APIs for enterprise clients from the ground up.\n\n5. **Mentorship experience not evidenced.** The role requires mentoring junior/mid-level engineers. No mentorship or technical leadership is mentioned anywhere on the résumé.\n\n6. **Degree is Information Systems, not Computer Science.** Minor gap vs. the listed preference for CS or related field, though \"equivalent practical experience\" is an acceptable alternative per the JD.\n\n---\n\n### Assessment\n\nThe weaknesses are real but mostly moderate. The candidate lacks Java, financial services background, and documented mentorship experience, and her framing skews toward data engineering rather than backend product services. However, the core technical competencies (Python, SQL, REST APIs, cloud infrastructure, Kafka, observability, containerization) align strongly with requirements, and her 8 years of production experience is substantive. The gaps are unlikely to disqualify but warrant direct probing in an interview.\n\nFINAL: ADVANCE"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:27.374792+00:00",
+  "finished_utc": "2026-09-28T22:51:37.145162+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 409
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience.** The role requires 5+ years of professional software engineering experience. Elise has approximately 3.5 years (2023–present, with her degree completed in 2023). She falls meaningfully short of the stated minimum.\n\n2. **No demonstrated mentorship experience.** The role explicitly involves mentoring mid-level and junior engineers, and the preferred qualifications call out prior mentorship or leading small technical initiatives. There is no evidence of this in her résumé — in fact, she is noted as contributing to Kafka work *led by a senior engineer*, suggesting she is still in a follower role rather than a leader role.\n\n3. **Limited architectural ownership.** The job calls for significant ownership over service design and architecture discussions at a senior level. Her contributions, while solid, appear to be at an implementation and contributor level rather than an architectural decision-making level.\n\n4. **Terraform listed as \"basic.\"** Infrastructure-as-code experience is a preferred qualification, but her self-characterization of Terraform as \"basic\" suggests limited depth here.\n\n5. **No mention of observability tooling depth.** While Grafana appears in her skills list, there is no elaboration on meaningful use of observability tooling in production environments (no Datadog, Prometheus, alerting design, SLO work, etc.).\n\n6. **No mention of CI/CD beyond GitHub Actions.** Her pipeline experience appears limited to one tool with no broader CI/CD platform experience mentioned.\n\n---\n\n## Judgment\n\nThe most disqualifying factor is the experience gap — she has ~3.5 years versus the 5+ years required, and her résumé reflects a mid-level contributor profile rather than a senior engineer profile. The other gaps compound this concern.\n\nFINAL: REJECT"
+}

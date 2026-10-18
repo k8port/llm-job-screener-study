@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:41:39.936624+00:00",
+  "finished_utc": "2026-09-28T22:41:52.244309+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 664
+  },
+  "response": "# Candidate Screening: Curtis Ballinger\n**Role: Senior Software Engineer – Payments Platform**\n\n---\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of experience (5+ SWE)** | High | 0 | 0 | 9 years total, but in systems administration, not software engineering |\n| **Backend language proficiency (Java, Python, etc.)** | High | 0 | 0 | Only Bash/PowerShell scripting; no Java, Python, or comparable backend language |\n| **RESTful API design/consumption** | High | 0 | 0 | No mention whatsoever |\n| **Relational databases / SQL** | Medium | 1 | 0.5 | Listed as \"basic\" SQL only |\n| **Cloud provider experience** | Medium | 2 | 1.0 | Azure VMs and networking – operational/infra level, not developer level |\n| **CI/CD & automated testing** | Medium | 0 | 0 | No evidence of CI/CD pipelines or test automation |\n| **Education (CS or related)** | Low | 1 | 0.5 | B.A.S. Information Technology – adjacent, not CS |\n| **Preferred: Containers/Kubernetes** | Low | 1 | 0.5 | Docker listed as \"basic\" only; no Kubernetes |\n| **Preferred: Event-driven / Kafka** | Low | 0 | 0 | No mention |\n| **Preferred: IaC (Terraform, etc.)** | Low | 0 | 0 | No mention |\n| **Preferred: Observability tooling** | Low | 1 | 0.5 | Nagios experience (monitoring adjacent, not Datadog/Grafana/Prometheus) |\n| **Preferred: Mentoring / tech leadership** | Low | 0 | 0 | No evidence |\n\n---\n\n## Summary Assessment\n\n**Total Weighted Score: ~3.0 / 18 possible (≈17%)**\n\nCurtis is an experienced systems administrator with genuine infrastructure and operational skills, Azure familiarity, and a strong on-call/reliability mindset. However, he **does not meet the core requirements** of this role:\n\n- ❌ No professional software engineering background\n- ❌ No backend language proficiency (Java, Python, etc.)\n- ❌ No API design or development experience\n- ❌ No CI/CD or automated testing experience\n- ❌ No evidence of building or maintaining production software services\n\nHis scripting and infrastructure work shows technical aptitude, but the gap between systems administration and senior backend software engineering is substantial and disqualifying for this role.\n\n---\n\nFINAL: REJECT"
+}

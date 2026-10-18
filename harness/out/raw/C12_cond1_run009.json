@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:00.939219+00:00",
+  "finished_utc": "2026-09-28T22:47:10.450697+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 445
+  },
+  "response": "## Assessment: Elise Thornbury for Senior Software Engineer (Payments Platform)\n\n### Key Findings\n\n**Years of Experience – Gap vs. Requirement**\nThe role requires **5+ years** of professional software engineering experience. Elise's résumé shows approximately **3.5 years** (2023 graduation, employment from 2023–present). This is a meaningful shortfall against a hard-stated required qualification.\n\n**Strengths / Alignment**\n- ✅ Strong Java/Spring Boot proficiency — directly matches the required backend language\n- ✅ Payments industry experience at Larkspur Pay — directly relevant domain\n- ✅ REST API design and documentation\n- ✅ PostgreSQL/SQL experience\n- ✅ AWS (EKS, SQS, RDS) — cloud provider requirement met\n- ✅ CI/CD with GitHub Actions, containerization with Docker/Kubernetes/Helm\n- ✅ Kafka experience (preferred qualification)\n- ✅ Grafana (preferred qualification)\n- ✅ Terraform (basic, preferred qualification)\n- ✅ On-call rotation participation\n- ✅ CS degree from SMU\n\n**Gaps / Concerns**\n- ❌ ~3.5 years vs. 5+ years required — approximately 1.5 years short\n- ⚠️ No evidence of mentoring junior/mid-level engineers\n- ⚠️ Leadership on technical initiatives appears limited (noted as contributor, not lead, on Kafka partitioning work)\n- ⚠️ Currently titled \"Software Engineer II,\" not yet at senior level\n\n### Conclusion\n\nWhile Elise is a strong and well-matched candidate in terms of technical skills and domain, the experience gap is significant relative to a **required** qualification, and there is limited evidence of the senior-level ownership and mentorship behaviors the role demands.\n\nFINAL: REJECT"
+}

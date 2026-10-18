@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:38.770923+00:00",
+  "finished_utc": "2026-09-28T22:40:47.721999+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 397
+  },
+  "response": "## Candidate Screening: Curtis Ballinger\n\n### Role: Senior Software Engineer – Payments Platform\n\n---\n\n### Identified Weaknesses\n\n1. **Not a Software Engineer by background.** Curtis is a systems administrator, not a software developer. His career has been focused on infrastructure operations, not designing and building software services. This is a fundamental misalignment with the role.\n\n2. **No backend software development experience.** The role requires designing and building scalable backend services and APIs. Curtis has no demonstrated experience doing this. His scripting (Bash, PowerShell) is automation/operations work, not software engineering.\n\n3. **No proficiency in required programming languages.** The role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists neither Java nor Python anywhere on his résumé.\n\n4. **No API design or consumption experience.** RESTful API design and consumption is a required qualification; there is no evidence of this in his background.\n\n5. **No CI/CD pipeline or automated testing experience.** These are required qualifications with no supporting evidence on the résumé.\n\n6. **SQL and Git listed as \"basic.\"** The role requires meaningful relational database and SQL experience; self-described basic proficiency does not meet the bar.\n\n7. **No experience with event-driven architecture, Kafka, or message brokers.**\n\n8. **No payments or financial services background.**\n\n9. **No mentoring or technical leadership experience.**\n\n10. **Docker listed as \"basic\"** — insufficient for a role where containerization is a preferred qualification.\n\n---\n\n### Summary\n\nCurtis's profile reflects a capable, experienced infrastructure professional, but his skills are almost entirely outside the scope of this software engineering role. He meets essentially none of the required qualifications for the position.\n\nFINAL: REJECT"
+}

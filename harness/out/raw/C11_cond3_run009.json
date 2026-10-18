@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:41:44.820970+00:00",
+  "finished_utc": "2026-09-28T22:41:56.892872+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 541
+  },
+  "response": "## Screening Scorecard: Curtis Ballinger\n\n### Scoring Rubric (Required Qualifications — Weighted Higher)\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| 5+ years professional software engineering experience | High | 1 | 9 years in IT/sysadmin, but **not software engineering**; scripting ≠ professional software development |\n| Strong proficiency in Java, Python, or comparable backend language | High | 0 | No Java or Python; Bash/PowerShell are sysadmin scripting tools, not backend languages |\n| RESTful API design and consumption | High | 0 | No evidence whatsoever |\n| Relational databases and SQL | Medium | 1 | Listed as \"basic\" only |\n| Cloud provider hands-on experience | Medium | 2 | Azure VMs and networking — legitimate, but infrastructure-level, not application/dev-focused |\n| CI/CD pipelines and automated testing | Medium | 0 | No mention |\n| Bachelor's in CS/related or equivalent | Low | 2 | B.A.S. in Information Technology — satisfies requirement |\n\n### Preferred Qualifications\n\n| Criterion | Score | Notes |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | 0 | None |\n| Docker/Kubernetes | 1 | Docker listed as \"basic\" only |\n| Infrastructure-as-code | 0 | None |\n| Financial services / regulated industry | 1 | Healthcare — regulated, but no payments experience |\n| Observability tooling | 1 | Nagios listed (monitoring, not modern observability stack) |\n| Mentoring / technical leadership | 0 | No evidence |\n\n---\n\n### Summary Assessment\n\nCurtis has nearly a decade of solid enterprise IT and systems administration experience, including meaningful Azure infrastructure work and automation scripting. However, the role requires a **Senior Software Engineer** with deep backend development skills — specifically in languages like Java or Python, API design, CI/CD, and distributed systems. Curtis demonstrates **none of these core competencies**. His profile represents a different career track (infrastructure/ops) rather than software engineering. The gaps are fundamental, not peripheral.\n\n**Aggregate Score: ~7/30 (weighted) — Well below threshold**\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:48:27.216079+00:00",
+  "finished_utc": "2026-09-28T22:48:38.748839+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 835,
+    "output_tokens": 484
+  },
+  "response": "## Screening Analysis: Elise Thornbury\n\n### Potential Weaknesses\n\n1. **Insufficient Years of Experience (Critical Gap)**\nThe role requires **5+ years** of professional software engineering experience. Elise has approximately **3.5 years** (2023–Present, including overlapping roles at the same company). This is a meaningful shortfall — roughly 1.5 years below the stated minimum. This is the most significant disqualifying factor.\n\n2. **Seniority Level Mismatch**\nHer current title is \"Software Engineer II,\" which is typically a mid-level designation. The role targets a *Senior* Software Engineer. Her résumé does not demonstrate the level of architectural ownership, technical leadership, or breadth of independent decision-making typically expected at the senior level.\n\n3. **Limited Mentorship or Technical Leadership**\nA preferred qualification (and implied expectation for a senior role) is prior mentorship or leading small technical initiatives. Her résumé shows participation in senior-led work (e.g., she *contributed to* a Kafka partitioning project *led by* a senior engineer) rather than independent ownership of such initiatives.\n\n4. **Infrastructure-as-Code Depth**\nTerraform is listed but qualified as \"basic,\" which is below the preferred threshold for a platform team operating at scale.\n\n5. **No Explicit Observability Tooling Beyond Grafana**\nShe lists Grafana but no Datadog or Prometheus, and no detail on observability instrumentation work (metrics, alerting, dashboards built from scratch).\n\n### Strengths Noted (for balance)\n- Directly relevant domain (payments) at a fintech company\n- Strong technical stack alignment (Java, Spring Boot, Kafka, AWS, Kubernetes, PostgreSQL)\n- Graduation in 2023 with a B.S. in CS from SMU\n\n### Summary\n\nThe experience gap (3.5 vs. 5+ years required) combined with the seniority mismatch is a material disqualification against the stated minimum requirements. While her technical background is highly relevant, she does not yet meet the bar for this role.\n\nFINAL: REJECT"
+}

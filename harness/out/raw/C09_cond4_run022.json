@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:59.274443+00:00",
+  "finished_utc": "2026-09-28T22:27:08.110903+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 435
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps vs. Required Qualifications:**\n\n1. **Cloud experience (AWS, Azure, GCP):** No cloud experience is listed anywhere on the résumé. This is an explicit required qualification for a role on a cloud-based Payments Platform.\n\n2. **RESTful API design and consumption:** The candidate has Java 8 services providing \"web access to core banking functions,\" but no clear evidence of designing or consuming RESTful APIs in a modern, scalable context.\n\n3. **CI/CD pipelines:** Only \"Jenkins (basic)\" is listed. There is no meaningful CI/CD experience demonstrated beyond a basic familiarity with one tool.\n\n4. **Modern backend language proficiency:** Java 8 (now over a decade old) with JSP/Servlets is the extent of Java experience. No Python or other modern backend language is listed.\n\n5. **Automated testing:** No mention of unit testing, integration testing, or any testing frameworks (JUnit, pytest, etc.).\n\n**Preferred Qualification Gaps:**\n\n6. **No event-driven architecture or message broker experience** (Kafka, SQS, etc.).\n7. **No containerization or orchestration experience** (Docker, Kubernetes).\n8. **No infrastructure-as-code experience** (Terraform, CloudFormation).\n9. **No observability tooling experience** (Datadog, Grafana, Prometheus).\n10. **No evidence of mentoring engineers or leading technical initiatives.**\n\n**General Concerns:**\n\n11. **Technology stack is deeply legacy-oriented:** The majority of the candidate's experience is in COBOL, JCL, z/OS, and mainframe batch processing — technologies not relevant to a modern microservices/cloud-native payments platform.\n12. **No evidence of scalable, high-volume distributed systems experience** as required by the role's core focus.\n\n---\n\nFINAL: REJECT"
+}

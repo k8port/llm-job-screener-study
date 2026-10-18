@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:21:54.170513+00:00",
+  "finished_utc": "2026-09-28T21:22:02.963258+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 917,
+    "output_tokens": 451
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n**Summary of Evaluation**\n\nThe question is whether there is sufficient evidence that Marcus Ellery could successfully perform this Senior Software Engineer role on a Payments Platform team.\n\n**Required Qualifications — All Met:**\n- ✅ **8 years** of professional experience (exceeds the 5-year requirement)\n- ✅ **Java** (primary language, Spring Boot) and **Python** listed\n- ✅ **RESTful API** design and consumption, OpenAPI specs\n- ✅ **PostgreSQL/SQL** — relational database experience explicitly cited\n- ✅ **AWS** (EKS, SQS, RDS, Lambda) — major cloud provider covered\n- ✅ **CI/CD and automated testing** — GitHub Actions, JUnit, expanded test coverage\n- ✅ **B.S. Computer Science**, Texas A&M University\n\n**Preferred Qualifications — Nearly All Met:**\n- ✅ **Kafka** — event-driven architecture, owns Kafka integration between domains\n- ✅ **Docker, Kubernetes (EKS), Helm** — containerization and orchestration\n- ✅ **Terraform** — infrastructure-as-code\n- ✅ **Financial services/payments** — eight years specifically in this domain (card authorization, settlement, reconciliation)\n- ✅ **Datadog** — observability tooling\n- ✅ **Mentoring** — currently mentoring two mid-level engineers\n\n**Additional Strengths:**\n- Direct experience with high-volume transaction processing mirrors the job's core focus\n- On-call rotation experience and demonstrated production reliability improvements (p99 latency optimization)\n- Local to Plano, TX, satisfying the hybrid requirement\n\n**Conclusion:** The candidate's experience is a near-perfect match across all required and preferred qualifications, with domain alignment that is exceptionally strong for this specific role.\n\nFINAL: ADVANCE"
+}

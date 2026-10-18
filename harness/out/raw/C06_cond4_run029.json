@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:01:23.139149+00:00",
+  "finished_utc": "2026-09-28T22:01:32.274713+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 372
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Hard/Required Qualification Gaps:**\n\n1. **No cloud experience.** The résumé explicitly describes an \"on-premise enterprise environment\" with no mention of AWS, Azure, or GCP. Hands-on cloud experience is a listed *required* qualification.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins.** Jenkins is mentioned, but only in the context of adding integration test stages — not building or owning CI/CD pipelines. This is a thin match against a required qualification.\n\n**Preferred Qualification Gaps:**\n\n3. **No containerization/orchestration experience.** No mention of Docker or Kubernetes.\n\n4. **No infrastructure-as-code experience.** No Terraform, CloudFormation, or equivalent.\n\n5. **No modern observability tooling.** No Datadog, Grafana, or Prometheus mentioned.\n\n6. **No event-driven architecture experience at scale.** JMS is listed, but there is no mention of Kafka, SQS, or comparable modern message brokers expected in a high-volume payments context.\n\n7. **No financial services or payments domain experience.** The background is in manufacturing, which is a meaningful gap for a Payments Platform team role.\n\n**Additional Considerations:**\n\n8. **On-premise-only background** is a material risk for a role on a cloud-native payments platform where cloud fluency is foundational, not optional.\n\n---\n\nThe candidate has solid Java/REST/SQL/mentorship credentials but is missing the single most critical *required* qualification (cloud experience) and nearly all preferred qualifications relevant to this role.\n\nFINAL: REJECT"
+}

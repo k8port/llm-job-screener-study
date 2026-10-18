@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:33:22.283108+00:00",
+  "finished_utc": "2026-09-28T22:33:35.806924+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 919,
+    "output_tokens": 702
+  },
+  "response": "## Screening Rubric & Evaluation: Josephine Hartwell\n\n### Required Qualifications (Each worth up to 10 points)\n\n| Requirement | Evidence | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years engineering experience (2016–2024, excluding break) | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Java/Spring Boot primary; Python listed; used across all roles | 10/10 |\n| Experience designing and consuming RESTful APIs | Designs REST APIs with versioned contracts for partner institutions | 10/10 |\n| Relational databases and SQL | PostgreSQL, SQL used in multiple roles; started in SQL-based analytics | 10/10 |\n| Hands-on experience with major cloud provider | AWS: ECS, SQS, SNS, RDS, Lambda — hands-on, not incidental | 10/10 |\n| CI/CD pipelines and automated testing | GitHub Actions, JUnit, contract testing explicitly mentioned | 10/10 |\n| Bachelor's degree or equivalent | B.S. Mathematics, Baylor University | 10/10 |\n\n**Required Score: 70/70**\n\n---\n\n### Preferred Qualifications (Each worth up to 5 points)\n\n| Preference | Evidence | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | SQS and SNS ownership explicitly stated | 5/5 |\n| Containerization and orchestration | Docker + ECS (managed containers); no Kubernetes | 4/5 |\n| Infrastructure-as-code | Terraform listed and used in deployment pipelines | 5/5 |\n| Financial services / regulated industry background | Credit services (payments, loans) + prior actuarial work in insurance | 5/5 |\n| Observability tooling | Datadog listed explicitly | 5/5 |\n| Mentoring / leading technical initiatives | Mentoring two engineers in current role | 5/5 |\n\n**Preferred Score: 29/30**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Assessment |\n|---|---|\n| **Domain fit** | Payments and credit services — directly relevant |\n| **Seniority** | Current title is Senior SWE; demonstrated ownership, mentoring, architecture decisions |\n| **Location** | McKinney, TX — commutable to Plano, TX hybrid arrangement |\n| **Trajectory** | Clear upward progression; career break is well-explained and recent role demonstrates re-engagement at senior level |\n\n---\n\n### Summary\n\nJosephine Hartwell is an exceptionally strong match. She satisfies **all seven required qualifications** and **nearly all preferred qualifications** with direct, concrete evidence. Her background in financial services (credit/payments + insurance) is precisely the domain context this role targets. The career break is documented, brief, and followed by a return to senior-level work in a closely aligned role.\n\n**Total Score: 99/100**\n\nFINAL: ADVANCE"
+}

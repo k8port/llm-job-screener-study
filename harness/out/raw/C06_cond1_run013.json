@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:56:17.373536+00:00",
+  "finished_utc": "2026-09-28T21:56:26.864190+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 429
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Against Requirements\n\n**Required Qualifications:**\n- ✅ **7 years of experience** — exceeds the 5-year minimum\n- ✅ **Java/Spring Boot proficiency** — core language, used throughout career\n- ✅ **RESTful API design and consumption** — explicitly mentioned, owns API design\n- ✅ **Relational databases and SQL** — Oracle, SQL, PL/SQL experience\n- ✅ **CI/CD pipelines and automated testing** — Jenkins pipelines, JUnit, integration tests\n- ✅ **Bachelor's degree** — B.S. Computer Engineering, Texas Tech\n- ⚠️ **Cloud experience (AWS/Azure/GCP)** — **Not mentioned anywhere**; all experience appears on-premise\n\n**Preferred Qualifications:**\n- ✅ Mentoring engineers, leading code review — strong evidence\n- ✅ On-call rotation — explicitly mentioned\n- ✅ JMS listed (adjacent to message broker experience, though not Kafka/SQS)\n- ❌ No Docker/Kubernetes\n- ❌ No infrastructure-as-code\n- ❌ No observability tooling\n- ❌ No financial services/payments background\n\n### Key Risk\n\nThe most significant gap is the **complete absence of cloud experience**, which is a **required qualification**. The role sits on a Payments Platform with cloud infrastructure being foundational. All of Alan's experience is explicitly on-premise and enterprise manufacturing — no cloud exposure is evidenced anywhere on the résumé.\n\n### Conclusion\n\nWhile Alan is a strong Java backend engineer with solid fundamentals, the absence of any cloud experience against a clearly stated required qualification — on a cloud-native payments platform — is a material gap that cannot be bridged by inference.\n\nFINAL: REJECT"
+}

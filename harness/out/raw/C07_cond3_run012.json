@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:08:07.965444+00:00",
+  "finished_utc": "2026-09-28T22:08:22.913439+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 777
+  },
+  "response": "## Scoring Rubric & Candidate Evaluation\n\n### Required Qualifications (each worth up to 10 points)\n\n| Criterion | Max | Score | Notes |\n|---|---|---|---|\n| 5+ years professional SWE experience | 10 | 10 | 8 years total (2018–present) |\n| Strong proficiency in Java, Python, or comparable backend language | 10 | 9 | Strong Python throughout; no Java, but Python is explicitly listed |\n| Experience designing and consuming RESTful APIs | 10 | 9 | Designs REST APIs at current role, maintains contracts/versioning |\n| Experience with relational databases and SQL | 10 | 9 | PostgreSQL, Snowflake, SQL across multiple roles |\n| Hands-on experience with major cloud provider | 10 | 10 | AWS (EKS, S3, Lambda, RDS) clearly demonstrated |\n| Experience with CI/CD and automated testing | 10 | 9 | GitHub Actions CI, pytest, automated transformation tests |\n| Bachelor's degree in CS or related field | 10 | 8 | B.S. Information Systems (adjacent, not CS directly) |\n\n**Required Score: 64 / 70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Criterion | Max | Score | Notes |\n|---|---|---|---|\n| Event-driven architecture / message brokers | 5 | 5 | Kafka at 40M events/day — strong |\n| Containerization and orchestration | 5 | 5 | Docker + Kubernetes (EKS) in production |\n| Infrastructure-as-code | 5 | 5 | Terraform explicitly owned |\n| Financial services / regulated industry background | 5 | 3 | Transaction data for enterprise clients; healthcare exposure at Corley |\n| Observability tooling | 5 | 5 | Built observability layer with Prometheus + Grafana; owns on-call |\n| Mentoring / leading technical initiatives | 5 | 2 | No explicit mentoring mentioned; some ownership implied |\n\n**Preferred Score: 25 / 30**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating | Notes |\n|---|---|---|\n| System design & scalability | Strong | High-volume streaming (40M events/day), production services |\n| Backend service ownership | Strong | Senior role with full ownership of platform services |\n| Reliability & observability | Strong | Owns observability layer and on-call rotation |\n| Collaboration | Adequate | Works with downstream product teams, maintains API contracts |\n| Mentorship | Weak | Not evidenced in résumé |\n\n---\n\n### Summary\n\n- **Required Qualifications**: 64/70 (91%)\n- **Preferred Qualifications**: 25/30 (83%)\n- **Overall**: Candidate meets or exceeds virtually all required qualifications. The backend engineering profile (Python, APIs, SQL, AWS, CI/CD) aligns directly with the role. Preferred qualifications are almost entirely satisfied, including Kafka, Kubernetes, Terraform, and Prometheus/Grafana — with observable production scale. The only notable gaps are the lack of explicit mentoring experience and that the degree is Information Systems rather than Computer Science, both minor concerns.\n\nFINAL: ADVANCE"
+}

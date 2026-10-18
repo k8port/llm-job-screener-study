@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:58:31.558524+00:00",
+  "finished_utc": "2026-09-28T21:58:45.239857+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 808,
+    "output_tokens": 605
+  },
+  "response": "## Screening Rubric & Scoring — Alan Brightwell\n\n### Required Qualifications (Pass/Fail & Weight)\n\n| Requirement | Assessment | Score (0–2) |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total; 3 as Senior | **2** |\n| Proficiency in Java, Python, or comparable backend language | Java/Spring Boot — strong | **2** |\n| RESTful API design & consumption | Explicitly listed; owns API design | **2** |\n| Relational databases & SQL | Oracle, SQL, PL/SQL — extensive | **2** |\n| Cloud provider experience (AWS/Azure/GCP) | **Not mentioned anywhere** | **0** |\n| CI/CD pipelines & automated testing | Jenkins, JUnit — present | **2** |\n| Bachelor's in CS or related / equivalent | B.S. Computer Engineering | **2** |\n\n**Required Score: 12/14**\n\n---\n\n### Preferred Qualifications (Weighted Bonus)\n\n| Preference | Assessment | Score (0–1) |\n|---|---|---|\n| Event-driven arch / message brokers | JMS listed — lightweight match | **0.5** |\n| Containerization / Kubernetes | Not mentioned | **0** |\n| Infrastructure-as-code | Not mentioned | **0** |\n| Financial services / regulated industry | Manufacturing — not financial | **0** |\n| Observability tooling | Not mentioned | **0** |\n| Mentoring / leading initiatives | Mentors 2 juniors; leads code review | **1** |\n\n**Preferred Score: 1.5/6**\n\n---\n\n### Summary Assessment\n\n**Strengths:**\n- Solid 7-year Java/Spring Boot backend career with directly relevant transaction-processing experience\n- Strong SQL/Oracle depth, REST API ownership, CI/CD, testing, mentorship — all required boxes checked\n- On-call rotation experience maps cleanly to role expectations\n\n**Critical Gap:**\n- **Zero cloud experience** — AWS/Azure/GCP is a hard required qualification. The role is on a cloud-native Payments Platform; on-premise-only background is a meaningful skills gap for day-one productivity.\n\n**Additional Gaps:** No containerization, no observability tooling, no financial services background — compounds the cloud deficit.\n\n---\n\n### Final Verdict\n\nCloud proficiency is a listed **required** qualification with no hedge language (\"or equivalent\"). Alan meets every other required qualification well, but the complete absence of cloud experience represents a disqualifying gap for a Senior Engineer role on a cloud-based payments platform.\n\nFINAL: REJECT"
+}

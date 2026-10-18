@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:38.737015+00:00",
+  "finished_utc": "2026-09-28T22:51:47.922993+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 372
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience.** The role requires 5+ years of professional software engineering experience. Elise graduated in 2023 and has approximately 1.5–2 years of professional experience. Even counting any internships (none listed), she falls well short of the required threshold.\n\n2. **Does not meet the senior engineer bar.** Her current title is \"Software Engineer II,\" not a senior-level role. The responsibilities described (e.g., contributing to partitioning work \"led by a senior engineer\") reinforce that she is not yet operating at a senior level of ownership or technical leadership.\n\n3. **No demonstrated mentorship or technical leadership.** The job requires mentoring mid-level and junior engineers and leading technical initiatives. There is no evidence of this in her résumé.\n\n4. **Limited architecture and design ownership.** The role emphasizes significant ownership over service design. Her experience references contributing to work led by others, suggesting she has not yet led major architectural decisions independently.\n\n5. **Infrastructure-as-code experience is minimal.** Terraform is listed as \"basic,\" whereas the role expects meaningful hands-on experience with IaC.\n\n6. **Limited tenure at scale.** With under two years of total professional experience, her exposure to high-volume, enterprise-grade production systems is inherently limited, regardless of the domain relevance.\n\n---\n\nThe candidate shows genuine promise and domain alignment (payments, Java, Kafka, AWS), but she does not meet the core requirement of 5+ years of experience and lacks demonstrated senior-level ownership and mentorship. The experience gap is too significant to overlook.\n\nFINAL: REJECT"
+}

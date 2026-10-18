@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:09.887277+00:00",
+  "finished_utc": "2026-09-28T22:39:17.756174+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 328
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional SWE experience | 9 years total, but as a **systems administrator**, not a software engineer | ❌ |\n| Strong proficiency in Java, Python, or comparable backend language | Only Bash and PowerShell (scripting/automation); no application development languages listed | ❌ |\n| RESTful API design and consumption | No evidence | ❌ |\n| Relational databases and SQL | Listed as \"SQL (basic)\" | Marginal |\n| Major cloud provider experience | Azure VM and networking administration | Partial |\n| CI/CD pipelines and automated testing | No evidence | ❌ |\n| Bachelor's in CS or related / equivalent experience | B.A.S. in Information Technology | ✅ |\n\n**Key Gaps:**\n\nCurtis is an experienced infrastructure/operations professional, but the role requires a **software engineer** who builds backend services and APIs. His work is centered on server administration, patching, and infrastructure support — not application development. There is no evidence of:\n- Building or maintaining software services\n- Backend programming in Java, Python, or equivalent\n- API development\n- Software testing or CI/CD\n\nThe cloud and scripting experience shows technical aptitude, but there is insufficient evidence that he could perform the core software engineering responsibilities described in this role.\n\nFINAL: REJECT"
+}

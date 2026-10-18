@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:40:26.261109+00:00",
+  "finished_utc": "2026-09-28T21:40:35.755933+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 950,
+    "output_tokens": 398
+  },
+  "response": "## Screening Assessment: Trevor Lindquist\n\n### Potential Weaknesses\n\n1. **No formal degree.** The job description requires a \"Bachelor's degree in Computer Science or related field, *or equivalent practical experience*.\" Trevor is self-taught via an apprenticeship program and explicitly lists no degree. This is a noted gap, though the JD's \"or equivalent practical experience\" clause partially mitigates it.\n\n2. **No explicit mention of Azure or GCP.** AWS is well-documented, but experience is concentrated on a single cloud provider. This is unlikely to be disqualifying given AWS is listed and the JD says \"a major cloud provider,\" but it is a minor limitation.\n\n3. **No explicit CI/CD pipeline authorship beyond GitHub Actions.** GitHub Actions is listed, which satisfies the requirement, though depth isn't elaborated upon in the résumé narrative.\n\n4. **No explicit mentorship language.** The résumé does not directly state that Trevor has mentored junior or mid-level engineers, which is both a required soft expectation (\"mentor mid-level and junior engineers\") and a preferred qualification. The on-call lead role suggests seniority but mentorship is not confirmed.\n\n### Weighing the Evidence\n\nAgainst the weaknesses, Trevor brings nine years of experience (six in payments specifically), direct proficiency in both required languages (Python, Java), strong coverage of nearly every preferred qualification (Kafka, SQS, Docker, Kubernetes, Terraform, Grafana, Prometheus, Helm, event-driven architecture, financial services domain), hands-on AWS experience, REST API ownership, and PostgreSQL/SQL use. The degree gap is the most notable weakness, but the JD explicitly accommodates equivalent experience — and Trevor's experience is directly on-point and extensive.\n\nFINAL: ADVANCE"
+}

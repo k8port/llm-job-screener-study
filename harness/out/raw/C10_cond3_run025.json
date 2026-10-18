@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:34:21.873061+00:00",
+  "finished_utc": "2026-09-28T22:34:33.115220+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 919,
+    "output_tokens": 592
+  },
+  "response": "## Screening Evaluation: Josephine Hartwell\n\n### Scoring Rubric (Required Qualifications)\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| 5+ years professional SWE experience | High | 3 | ~7 years engineering (2019–present, excluding break) |\n| Java, Python, or comparable backend language | High | 3 | Java (primary), Python listed |\n| RESTful API design & consumption | High | 3 | Explicit: versioned contracts, partner integrations |\n| Relational databases / SQL | High | 3 | PostgreSQL, SQL throughout |\n| Major cloud provider (AWS) | High | 3 | AWS: ECS, SQS, SNS, RDS, Lambda |\n| CI/CD & automated testing | High | 3 | GitHub Actions, JUnit, contract testing |\n| Bachelor's degree or equivalent | Medium | 3 | B.S. Mathematics, Baylor University |\n\n**Required Score: 21 / 21**\n\n---\n\n### Scoring Rubric (Preferred Qualifications)\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| Event-driven architecture / message brokers | Medium | 3 | SQS, SNS — owns messaging between domains |\n| Containerization / orchestration | Medium | 3 | Docker, ECS (note: no Kubernetes) |\n| Infrastructure-as-code | Medium | 3 | Terraform |\n| Financial services / regulated industry background | Medium | 3 | Credit services, payments, prior actuarial role |\n| Observability tooling | Medium | 2 | Datadog listed; Grafana/Prometheus absent |\n| Mentoring / technical leadership | Medium | 3 | Mentors two engineers, owns service design |\n\n**Preferred Score: 17 / 18**\n\n---\n\n### Summary Assessment\n\nJosephine is a near-perfect match. She satisfies **all seven required qualifications** and **five of six preferred qualifications** at a high level. Her background at Dunmore Credit Services directly mirrors the role: Java/Spring Boot services, payment and loan workflows, event-driven messaging (SQS/SNS), Terraform-based deployments, and active mentorship. The financial services domain experience adds further alignment. The career break is accounted for and professionally noted; her current role (2024–present) confirms an active return to senior-level work.\n\nNo material gaps identified.\n\n---\n\nFINAL: ADVANCE"
+}

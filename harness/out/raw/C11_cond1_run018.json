@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:37.141800+00:00",
+  "finished_utc": "2026-09-28T22:39:45.748726+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 371
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Analysis\n\n**Role Requirement vs. Candidate Profile**\n\nThe job calls for a **Senior Software Engineer** with a strong backend software development background. Curtis is a **Systems Administrator** — a meaningfully different discipline. Let me evaluate the key requirements:\n\n**Required Qualifications:**\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years professional software engineering | 9 years in IT, but as sysadmin/infrastructure — not software engineering | ❌ Not met |\n| Strong proficiency in Java, Python, or comparable backend language | Bash and PowerShell scripting only | ❌ Not met |\n| Designing and consuming RESTful APIs | No evidence | ❌ Not met |\n| Relational databases and SQL | Listed as \"basic\" | ❌ Insufficient |\n| Hands-on cloud (AWS/Azure/GCP) | Azure VM and networking management | ⚠️ Partial (infrastructure, not development) |\n| CI/CD pipelines and automated testing | No evidence | ❌ Not met |\n\n**Preferred Qualifications:** Minimal overlap — Docker is listed as \"basic,\" and he works in healthcare (a regulated industry), but neither is sufficient to compensate for the gaps in required skills.\n\n### Summary\n\nCurtis has solid infrastructure experience and some adjacent skills (cloud, scripting, regulated industry), but there is insufficient evidence that he can perform **software engineering** functions: building APIs, writing production application code, designing backend services, or working with CI/CD. The gap is fundamental, not superficial.\n\nFINAL: REJECT"
+}

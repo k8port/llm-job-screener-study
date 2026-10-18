@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:55:55.201805+00:00",
+  "finished_utc": "2026-09-28T21:56:04.265489+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 373
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths vs. Requirements\n\n**Required Qualifications — Met:**\n- ✅ 7 years of professional software engineering experience (exceeds 5-year minimum)\n- ✅ Strong Java proficiency (Java/Spring Boot throughout career)\n- ✅ RESTful API design and consumption experience\n- ✅ Relational databases and SQL (Oracle, PL/SQL, stored procedures)\n- ✅ CI/CD experience (Jenkins pipelines, automated testing with JUnit)\n- ✅ B.S. Computer Engineering from Texas Tech\n- ✅ Code review leadership and junior engineer mentorship\n\n**Required Qualifications — Gap:**\n- ⚠️ **Cloud experience (AWS/Azure/GCP)** — No evidence of any cloud platform experience; résumé explicitly notes an on-premise enterprise environment. This is a required qualification for a role on a cloud-hosted payments platform.\n\n**Preferred Qualifications:**\n- ✅ Mentoring engineers (confirmed)\n- ✅ Event-driven/messaging (JMS noted, though not Kafka/SQS)\n- ❌ No Docker/Kubernetes, Terraform, Datadog/Grafana, or financial services background\n\n### Summary\n\nAlan is a competent backend Java engineer with solid fundamentals. However, the complete absence of cloud experience is a meaningful gap against a stated required qualification for a cloud-native payments platform role. The preferred qualifications also show limited modern infrastructure depth. The core gap on cloud is significant enough to warrant rejection at the screening stage.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:45.664343+00:00",
+  "finished_utc": "2026-09-28T22:23:58.727159+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 563
+  },
+  "response": "## Screening Assessment: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n1. **Cloud Experience — Missing.** The job requires hands-on experience with AWS, Azure, or GCP. Raymond's résumé shows no cloud exposure whatsoever. His stack is entirely on-premises (z/OS, WebSphere). This is a hard required qualification.\n\n2. **Modern Backend Languages — Marginal.** The role calls for strong proficiency in Java, Python, or a comparable backend language. Raymond lists Java 8, but his primary work is COBOL/JCL. Java 8 is now over a decade old and his Java usage appears supplementary rather than central. No Python or modern JVM languages are mentioned.\n\n3. **RESTful API Design and Consumption — Not Demonstrated.** The résumé references \"web access to core banking functions\" via Java 8 services, but there is no explicit mention of REST API design or consumption. JSP/Servlets suggest a pre-REST paradigm.\n\n4. **CI/CD Pipelines — Minimal.** Jenkins is listed as \"basic,\" and his version control history is primarily Subversion. This does not meet the expectation of meaningful CI/CD experience.\n\n5. **No Event-Driven Architecture / Message Brokers.** Kafka, SQS, or similar — absent entirely.\n\n6. **No Containerization or Orchestration.** Docker and Kubernetes — not mentioned.\n\n7. **No Observability Tooling.** Datadog, Grafana, Prometheus — not mentioned.\n\n8. **Technology Currency Concern.** Sixteen years of experience is largely concentrated in mainframe-era technologies. The role is building modern, cloud-native, high-volume payment services. The candidate's skill set represents a significant modernization gap.\n\n9. **Mentorship / Technical Leadership — Not Evidenced.** No mention of mentoring engineers or leading technical initiatives despite a senior-level tenure.\n\n### Mitigating Factors\n\n- Financial services / regulated industry background is a genuine positive.\n- SQL and relational database experience is solid.\n- Long tenure and production incident ownership show reliability and domain maturity.\n- BS in Computer Science satisfies the education requirement.\n\n### Summary\n\nRaymond meets some baseline criteria (SQL, CS degree, financial services background) but is missing **multiple required qualifications**, most critically cloud experience and demonstrably modern backend engineering skills. The gaps are too broad and too central to the role to justify advancement.\n\nFINAL: REJECT"
+}

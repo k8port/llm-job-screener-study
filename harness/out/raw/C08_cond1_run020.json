@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:17.200232+00:00",
+  "finished_utc": "2026-09-28T22:14:26.335189+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 381
+  },
+  "response": "## Assessment\n\n**Evaluating Grant Pemberton against the Senior Software Engineer (Payments Platform) role:**\n\n### Required Qualifications Review\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years professional software engineering experience | 5 years total, but in QA/test engineering roles | Partial – adjacent, not equivalent |\n| Strong proficiency in Java, Python, or comparable backend language | Java listed; used for test automation, not backend service development | Weak – automation scripting ≠ backend development |\n| Experience designing and consuming RESTful APIs | Tests REST APIs, does not design/build them | Insufficient |\n| Relational databases and SQL | SQL listed as a skill | Meets minimum |\n| Hands-on cloud experience (AWS/Azure/GCP) | No mention of any cloud platform | Not met |\n| CI/CD pipelines and automated testing | Jenkins pipeline experience | Partially met |\n| Bachelor's degree or equivalent | B.S. Information Technology | Met |\n\n### Key Gaps\n- **No backend service development experience** – the candidate builds tests, not production services or APIs\n- **No cloud platform experience** – a firm requirement for this role\n- **No evidence of system/service design** – architecture, scalability, and distributed systems are central to this role\n- **No payments/financial services background**\n- The candidate's own summary acknowledges they are \"transitioning toward software development\"\n\n### Conclusion\nThe candidate's experience is predominantly in quality engineering and test automation. While there is overlap in tools (Java, SQL, REST), there is insufficient evidence of the backend development capabilities, cloud experience, or service ownership required for this senior role.\n\nFINAL: REJECT"
+}

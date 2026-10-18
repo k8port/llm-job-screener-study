@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:29:45.508271+00:00",
+  "finished_utc": "2026-09-28T21:29:54.949874+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 401
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Strengths vs. Requirements\n\n**Met Requirements:**\n- ✅ 7 years of experience (exceeds 5-year minimum)\n- ✅ REST API experience (building and consuming)\n- ✅ SQL/PostgreSQL experience\n- ✅ AWS experience (S3, CloudFront, Lambda)\n- ✅ CI/CD experience (GitHub Actions)\n- ✅ Automated testing (Jest, Testing Library)\n- ✅ Bachelor's degree (Graphic Design — adjacent, not CS/Engineering)\n- ✅ Some mentoring experience\n\n**Gaps / Concerns:**\n\n- ❌ **Backend language proficiency**: The role requires Java, Python, or a *comparable* backend language. The candidate's backend work is in Node.js/Express — arguably comparable, but her self-described identity is \"frontend-focused.\" Her backend experience is supporting infrastructure for UIs, not standalone high-volume transactional services.\n- ❌ **High-volume transaction / payments domain**: No financial services or payments background. Retail domain with 400K users is modest scale.\n- ❌ **No Kafka/SQS, Kubernetes, Terraform, or observability tooling** — several preferred qualifications are absent.\n- ❌ **CS degree**: Graphic Design degree is a weaker match for a backend-heavy payments platform role.\n\n### Summary\n\nThe candidate's experience is predominantly frontend, with limited backend exposure that is tightly coupled to UI support. The Payments Platform role requires deep backend ownership, high-volume transaction processing, and cloud-native service design. There is insufficient evidence she could step directly into a senior backend payments engineering role.\n\nFINAL: REJECT"
+}

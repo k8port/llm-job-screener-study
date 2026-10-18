@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:03.978640+00:00",
+  "finished_utc": "2026-09-28T22:51:13.413879+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 380
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Elise graduated in 2023 and has approximately 1.5–2 years of total professional experience. Even generously interpreted, she falls significantly short of the requirement.\n\n2. **Junior-to-mid seniority level**: Her titles (\"Software Engineer\" and \"Software Engineer II\") and her résumé language reflect a mid-level, not senior, engineer. For example, she notes that Kafka partitioning work was \"led by a senior engineer,\" indicating she is not yet operating at a senior level independently.\n\n3. **No demonstrated mentorship or technical leadership**: The role explicitly requires mentoring mid-level and junior engineers and leading technical initiatives. There is no mention of either on her résumé.\n\n4. **Limited architecture ownership**: The job requires significant ownership over service design. Her résumé reflects contribution to and implementation of existing designs, with no clear evidence of end-to-end architecture ownership or leading design decisions independently.\n\n5. **Terraform listed as \"basic\"**: While infrastructure-as-code is a preferred qualification, her self-assessed \"basic\" proficiency is a notable limitation for a senior-level role with infrastructure expectations.\n\n6. **Geographic note**: She is in Addison, TX, which is compatible with the Plano hybrid requirement — this is not a concern.\n\n## Summary\n\nThe candidate shows genuine promise and relevant domain experience in payments, Java, and cloud technologies. However, she falls well short of the 5+ year experience requirement and does not yet demonstrate senior-level ownership, leadership, or mentorship capabilities that the role demands.\n\nFINAL: REJECT"
+}

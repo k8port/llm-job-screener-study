@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:13.023958+00:00",
+  "finished_utc": "2026-09-28T21:57:25.744098+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 557
+  },
+  "response": "## Candidate Evaluation: Alan Brightwell\n\n### Strengths\n- 7 years of professional software engineering experience (exceeds 5-year requirement)\n- Strong Java/Spring Boot proficiency (a primary required language)\n- Solid REST API design and documentation experience\n- Relational database and SQL experience (Oracle/PL/SQL)\n- CI/CD experience via Jenkins; automated testing via JUnit\n- Code review leadership; mentoring junior engineers\n- On-call rotation participation\n- Relevant degree (B.S. Computer Engineering, Texas Tech)\n- Located in Arlington, TX — reasonable proximity to Plano, TX hybrid role\n\n---\n\n### Potential Weaknesses\n\n1. **No cloud experience.** The résumé shows no mention of AWS, Azure, or GCP. Experience with a major cloud provider is a *required* qualification. His background is explicitly described as \"on-premise enterprise environment.\"\n\n2. **No containerization or orchestration experience.** No Docker or Kubernetes mentioned — a preferred qualification, but significant for a payments platform role at this level.\n\n3. **No infrastructure-as-code experience.** No Terraform or CloudFormation mentioned.\n\n4. **No event-driven/message broker experience beyond JMS.** JMS is listed, but modern equivalents (Kafka, SQS, RabbitMQ) preferred by the JD are absent. JMS in a manufacturing context is a limited analog.\n\n5. **No financial services or payments background.** The candidate's domain is manufacturing/order processing — a regulated-industry background is preferred but not required. Payment processing specifically involves compliance, fraud, and regulatory concerns largely absent from his experience.\n\n6. **No observability tooling experience.** No mention of Datadog, Grafana, Prometheus, or similar tools.\n\n7. **Limited scope of scale.** \"High-volume batch processing\" across five manufacturing plants is meaningfully different from high-volume real-time transaction processing for enterprise payments clients.\n\n---\n\n### Summary Assessment\n\nAlan meets several baseline requirements (Java, REST APIs, SQL, CI/CD, testing, mentoring, years of experience), but he **fails to meet a clearly stated required qualification** — cloud platform experience — and lacks most of the preferred qualifications that would make a candidate competitive for a senior payments platform role. The gap is structural (on-premise vs. cloud-native) and domain-specific, representing non-trivial ramp-up risk for a hands-on senior role with production ownership.\n\nFINAL: REJECT"
+}

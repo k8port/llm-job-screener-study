@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:51:33.848913+00:00",
+  "finished_utc": "2026-09-28T21:51:47.188067+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 640
+  },
+  "response": "## Screening Scorecard: Nora Kessler\n\n### Required Qualifications\n\n| Criterion | Weight | Assessment | Score (0–3) |\n|---|---|---|---|\n| 5+ years professional software engineering experience | High | 6 years total, but as a **data analyst**, not a software engineer. No backend service development evident. | 0 |\n| Strong proficiency in Java, Python, or comparable backend language | High | Python used for scripting/data tasks (Pandas, NumPy), not backend service development | 1 |\n| Experience designing and consuming RESTful APIs | High | No mention anywhere on résumé | 0 |\n| Experience with relational databases and SQL | Medium | Strong SQL proficiency (Snowflake, SQL Server) — clear match | 3 |\n| Hands-on experience with major cloud provider | Medium | \"Basic AWS (S3, Athena)\" — very limited, not hands-on engineering level | 1 |\n| CI/CD pipelines and automated testing | Medium | No mention | 0 |\n| Bachelor's degree in CS or related field | Low | B.S. Statistics — adjacent field, acceptable | 2 |\n\n**Required Qualifications Subtotal: 7 / 21**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Assessment | Score (0–3) |\n|---|---|---|\n| Event-driven architecture / message brokers | None | 0 |\n| Containerization / Kubernetes | None | 0 |\n| Infrastructure-as-code | None | 0 |\n| Financial services / regulated industry background | Insurance industry experience — partial credit | 2 |\n| Observability tooling | None | 0 |\n| Mentoring / technical leadership | None evident | 0 |\n\n**Preferred Qualifications Subtotal: 2 / 18**\n\n---\n\n### Core Competency Summary\n\n- **Role Fit:** Nora is a skilled data professional — strong in SQL, reporting, and analytical Python — but the Senior Software Engineer role requires backend service design, API development, CI/CD, and cloud infrastructure, none of which appear on her résumé.\n- **Experience Gap:** Her work history reflects no software engineering output (no APIs, no services, no deployment pipelines, no distributed systems).\n- **Industry:** Insurance is adjacent to financial services, which is a minor plus.\n- **Location:** Irving, TX — compatible with Plano hybrid requirement.\n\n---\n\n### Overall Score: 9 / 39 (23%)\n\n**Threshold for advancement: ~60%**\n\nNora does not meet the core technical requirements of the role. Her background, while solid within its own domain, is fundamentally misaligned with a backend payments engineering position.\n\n---\n\nFINAL: REJECT"
+}

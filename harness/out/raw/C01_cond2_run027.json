@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 27,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:39.627427+00:00",
+  "finished_utc": "2026-09-30T18:39:47.969135+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 368
+  },
+  "response": "## Candidate Evaluation: Dana Whitfield\n\n### Identified Weaknesses\n\n**Critical Gaps (Required Qualifications)**\n\n1. **Insufficient experience:** The candidate has approximately two years of professional experience (intern + one full-time role at the same company), well below the required 5+ years. This is the most significant disqualifying factor.\n2. **Limited cloud experience:** Skills list only \"basic AWS (EC2, S3)\" — far below the hands-on cloud proficiency required for a senior role on a high-volume payments platform.\n3. **No evidence of system design ownership:** Work described is maintenance, defect resolution, and feature implementation within existing systems, not designing or architecting scalable backend services.\n4. **CI/CD experience is limited:** Candidate contributes to a pipeline \"maintained by a senior engineer,\" indicating a supporting rather than owning role.\n\n**Gaps Against Preferred Qualifications**\n\n5. **No event-driven architecture or message broker experience** (Kafka, SQS, etc.)\n6. **No containerization or orchestration experience** (Docker, Kubernetes)\n7. **No infrastructure-as-code experience** (Terraform, CloudFormation)\n8. **No background in financial services or payments**\n9. **No observability tooling experience** (Datadog, Grafana, Prometheus)\n10. **No mentorship or technical leadership experience**\n\n### Summary\n\nDana Whitfield meets the educational requirement and shows foundational Java/REST/SQL skills, but falls substantially short on experience level, depth, and scope. The seniority gap alone is disqualifying.\n\nFINAL: REJECT"
+}

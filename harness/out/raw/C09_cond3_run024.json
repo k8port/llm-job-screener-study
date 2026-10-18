@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:25:44.028329+00:00",
+  "finished_utc": "2026-09-28T22:25:57.534454+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 705
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 16 years total — clearly meets threshold | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Java 8 experience noted, but dated (JSP/Servlets era); no Python or modern frameworks | 4/10 |\n| RESTful API design and consumption | Provides \"web access to core banking\" via Java 8 services, but no explicit REST/API design experience mentioned | 3/10 |\n| Relational databases and SQL | Strong — DB2, Oracle, SQL query tuning explicitly mentioned | 9/10 |\n| Hands-on cloud experience (AWS, Azure, GCP) | **Not mentioned anywhere** | 0/10 |\n| CI/CD pipelines and automated testing | Jenkins listed as \"basic\"; Subversion/Git basic; no automated testing mentioned | 2/10 |\n| Bachelor's in CS or equivalent | B.S. Computer Science, UT Arlington 2010 | 10/10 |\n\n**Required Qualifications Total: 38/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers (Kafka, SQS) | Not mentioned | 0/5 |\n| Containerization / Kubernetes / Docker | Not mentioned | 0/5 |\n| Infrastructure-as-code (Terraform, CloudFormation) | Not mentioned | 0/5 |\n| Financial services / regulated industry background | Strong — trust accounting, settlement processing, audit documentation | 5/5 |\n| Observability tooling (Datadog, Grafana, Prometheus) | Not mentioned | 0/5 |\n| Mentoring / leading technical initiatives | Not evidenced | 0/5 |\n\n**Preferred Qualifications Total: 5/30**\n\n---\n\n### Summary\n\n| Category | Score |\n|---|---|\n| Required Qualifications | 38/70 (54%) |\n| Preferred Qualifications | 5/30 (17%) |\n| **Overall** | **43/100 (43%)** |\n\n### Key Gaps\n- **No cloud experience** — a hard requirement for a cloud-native payments platform role\n- Java experience is significantly dated (Java 8, JSP/Servlets, WebSphere)\n- No REST API design experience demonstrated\n- No containerization, CI/CD, or observability tooling\n- No mentoring or technical leadership evidence\n\n### Strengths\n- Long tenure in regulated financial environment (relevant domain)\n- Solid SQL/database skills\n- Tenured and stable career\n\nDespite domain relevance and SQL proficiency, the candidate lacks cloud experience (a firm requirement), modern backend engineering practices, and multiple preferred competencies critical to this role.\n\nFINAL: REJECT"
+}

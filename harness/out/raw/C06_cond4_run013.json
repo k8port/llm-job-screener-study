@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:40.895817+00:00",
+  "finished_utc": "2026-09-28T22:00:52.448659+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 508
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Missing or Weak on Required Qualifications:**\n\n1. **No cloud experience** – The job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Alan's résumé is explicitly on-premise. This is a required qualification with no indication of even incidental cloud exposure.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins** – He mentions introducing Jenkins pipeline stages for integration tests, but there is no evidence of owning or building robust CI/CD pipelines, which is a required qualification.\n\n**Missing Preferred Qualifications (cumulative concern):**\n\n3. **No event-driven architecture / message broker experience** – JMS is listed as a skill but is an older, typically on-premise technology; there is no mention of Kafka, SQS, or modern distributed messaging systems relevant to a payments platform.\n\n4. **No containerization or orchestration experience** – No Docker or Kubernetes mentioned anywhere.\n\n5. **No infrastructure-as-code experience** – No Terraform, CloudFormation, or equivalent.\n\n6. **No payments/financial services/regulated industry background** – His background is in manufacturing, which is a meaningful domain gap for a Payments Platform team.\n\n7. **No observability tooling experience** – No Datadog, Grafana, Prometheus, or equivalent.\n\n**Additional Concerns:**\n\n8. **Cloud is central to the role, not incidental** – For a high-volume, enterprise payments platform on a cloud-based infrastructure, the absence of any cloud experience is a significant practical gap, not just a checkbox miss.\n\n9. **Technology stack is dated relative to the role** – Oracle, PL/SQL, JMS, and Jenkins suggest a legacy enterprise stack with little overlap to the modern distributed systems environment described in the job description.\n\n---\n\n**Rationale Summary:** Alan meets the years-of-experience requirement and satisfies the Java/REST API/SQL/CI-CD (partially) requirements, but he critically lacks cloud experience—a stated *required* qualification—and is missing nearly every preferred qualification. The role is explicitly on a cloud-native payments platform, and his experience is entirely on-premise manufacturing. The gaps are too substantial and too central to the role to advance.\n\nFINAL: REJECT"
+}

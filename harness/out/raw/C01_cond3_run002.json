@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:51.299976+00:00",
+  "finished_utc": "2026-09-30T18:40:03.117450+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 599
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional experience | ~2 years total (1 yr intern + ~1 yr FTE). Significantly below threshold. | 1/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Java/Spring Boot demonstrated — competent but junior level | 6/10 |\n| Experience designing and consuming RESTful APIs | REST endpoints built; consuming APIs not clearly evidenced | 5/10 |\n| Relational databases and SQL | MySQL experience confirmed | 7/10 |\n| Hands-on cloud provider experience | \"Basic AWS (EC2, S3)\" — minimal, non-production depth implied | 3/10 |\n| CI/CD pipelines and automated testing | GitHub Actions (maintained by senior engineer); JUnit present — limited ownership | 4/10 |\n| Bachelor's degree in CS or equivalent | B.S. CS from UT Dallas ✓ | 10/10 |\n\n**Required Qualifications Total: 36/70**\n\n---\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / message brokers | No evidence | 0/5 |\n| Docker / Kubernetes | No evidence | 0/5 |\n| Infrastructure-as-code | No evidence | 0/5 |\n| Financial services / regulated industry background | No evidence | 0/5 |\n| Observability tooling | No evidence | 0/5 |\n| Mentoring / leading technical initiatives | No evidence | 0/5 |\n\n**Preferred Qualifications Total: 0/30**\n\n---\n\n### Summary\n\n| Category | Score |\n|---|---|\n| Required | 36/70 (51%) |\n| Preferred | 0/30 (0%) |\n| **Overall** | **36/100 (36%)** |\n\n### Key Disqualifying Gaps\n- **Experience gap is critical**: Role requires 5+ years; candidate has ~2 years including internship\n- Cloud experience is surface-level with no production depth\n- No evidence of high-volume/distributed systems ownership\n- Zero overlap with preferred qualifications\n- No mentorship or technical leadership demonstrated\n\nThis candidate is better suited for a junior or mid-level role. The gap to Senior is substantial and not bridgeable by strengths elsewhere in the profile.\n\n---\n\nFINAL: REJECT"
+}

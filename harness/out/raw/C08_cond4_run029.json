@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:49.567831+00:00",
+  "finished_utc": "2026-09-28T22:18:57.762561+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 365
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Role mismatch: QA/Test Engineering vs. Software Engineering**\nThe candidate's entire career is in quality assurance and test engineering. The job requires a Senior *Software Engineer* who designs and builds backend services and APIs — not tests them. The résumé explicitly acknowledges this gap (\"transitioning toward software development\").\n\n**2. No demonstrated software development/production code ownership**\nThere is no evidence of building, designing, or shipping production software systems. Writing automated test suites in Java is materially different from designing and owning scalable backend services.\n\n**3. Does not meet the 5+ years software engineering requirement**\nWhile the candidate has ~5 years of total experience, it is all in QA roles. The requirement specifies professional *software engineering* experience.\n\n**4. No cloud platform experience**\nThe required qualifications include hands-on experience with AWS, Azure, or GCP. There is no mention of any cloud provider anywhere on the résumé.\n\n**5. No CI/CD pipeline ownership**\nThe candidate \"maintains test execution stages in a Jenkins pipeline,\" which is limited to test stages — not building or owning CI/CD pipelines for software delivery.\n\n**6. No experience with preferred qualifications**\nNo evidence of Kafka/SQS, Docker/Kubernetes, Terraform/CloudFormation, observability tooling, payments/financial services background, or engineering mentorship.\n\n**7. No backend service design or architecture experience**\nThe role requires architecture discussions, service design, and API development — none of which appear in this résumé.\n\n---\n\nFINAL: REJECT"
+}

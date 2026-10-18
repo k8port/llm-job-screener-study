@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:32:22.543840+00:00",
+  "finished_utc": "2026-09-28T22:32:33.917776+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 920,
+    "output_tokens": 484
+  },
+  "response": "## Screening Assessment: Josephine Hartwell\n\n### Potential Weaknesses Identified\n\n1. **Degree Field**: Her degree is in Mathematics, not Computer Science or a directly related field (e.g., Computer Engineering, Information Systems). The JD allows for \"equivalent practical experience,\" which she arguably has, but it is a technical gap against the stated requirement.\n\n2. **No Kubernetes Experience**: The JD lists Kubernetes as a preferred qualification. Hartwell uses ECS for container orchestration, which is managed and less complex than Kubernetes. No mention of K8s anywhere on the résumé.\n\n3. **No Grafana/Prometheus**: The JD mentions observability tooling including Datadog, Grafana, and Prometheus. She lists Datadog, but not Grafana or Prometheus — a minor gap against preferred qualifications.\n\n4. **No Infrastructure-as-Code Beyond Terraform**: She has Terraform, which satisfies the IaC preferred qualification. No gap here — noted for completeness.\n\n5. **Career Break (2023–2024)**: A one-year family leave is present. This is not a disqualifier and is legally protected, but it is a factual gap in employment history worth noting transparently.\n\n6. **No explicit Kafka experience**: Kafka is listed as a preferred messaging technology. She uses SQS/SNS, which is relevant but Kafka-specific experience is absent.\n\n### Strengths Offsetting Weaknesses\n\n- 7 years of backend engineering experience (exceeds 5-year requirement)\n- Strong Java/Spring Boot background directly matching the JD\n- Financial services/payments domain experience (a preferred qualification)\n- AWS, Docker, Terraform, REST APIs, SQL, CI/CD — nearly all required and preferred qualifications covered\n- Active mentorship of engineers on her current team\n- Observability via Datadog is present\n- Current role is directly analogous to the open position\n\n### Summary\n\nThe weaknesses are minor and largely confined to preferred (not required) qualifications. All required qualifications are met or closely met. The candidate is a strong match for this role.\n\nFINAL: ADVANCE"
+}

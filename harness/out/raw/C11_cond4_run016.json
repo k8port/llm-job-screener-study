@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:29.199819+00:00",
+  "finished_utc": "2026-09-28T22:43:37.919216+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 349
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Engineer — Systems Administration Background**\nCurtis is a systems administrator, not a software engineer. His nine years of experience are in server administration, patching, provisioning, and IT operations — not in designing and building software products or services.\n\n**2. No Proficiency in Required Backend Languages**\nThe role requires strong proficiency in Java, Python, or a comparable backend language. Curtis lists only Bash and PowerShell, which are scripting/automation tools for sysadmin tasks, not backend application development languages.\n\n**3. No API Design or Consumption Experience**\nThere is no mention of designing or consuming RESTful APIs, which is a core required qualification.\n\n**4. No CI/CD or Automated Testing Experience**\nThe role requires hands-on CI/CD and automated testing experience. Curtis has no evidence of either.\n\n**5. SQL Is Listed as \"Basic\"**\nThe role requires meaningful experience with relational databases and SQL. Curtis explicitly self-rates this as basic.\n\n**6. Azure Experience Is Infrastructure-Only**\nWhile Azure experience is a plus, Curtis's Azure work is limited to VM and networking administration — not cloud-native application development or services.\n\n**7. Does Not Meet the 5+ Years Software Engineering Requirement**\nHe has zero years of professional software engineering experience by any reasonable definition.\n\n**8. No Experience with Payments, Event-Driven Systems, or Observability Tooling**\nNone of the preferred qualifications apply in any meaningful way.\n\n---\n\nFINAL: REJECT"
+}

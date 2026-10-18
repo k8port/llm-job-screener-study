@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:48:44.200351+00:00",
+  "finished_utc": "2026-09-28T21:48:51.113661+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 329
+  },
+  "response": "## Screening Assessment: Nora Kessler\n\n### Analysis\n\n**Required Qualifications Review:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years software engineering experience | 6 years experience, but as a **data analyst**, not a software engineer | ❌ |\n| Strong proficiency in Java, Python, or comparable backend language | Python used for scripting/data cleaning; not backend service development | ⚠️ Partial |\n| Experience designing/consuming RESTful APIs | No mention of API design or consumption | ❌ |\n| Relational databases and SQL | Strong SQL skills evident | ✅ |\n| Hands-on experience with major cloud provider | \"Basic AWS (S3, Athena)\" — very limited | ❌ |\n| CI/CD pipelines and automated testing | No evidence | ❌ |\n| Bachelor's degree in CS or related field | B.S. Statistics | ✅ |\n\n### Summary\n\nNora has strong SQL skills and some Python experience, but her background is firmly in **data analysis and reporting** — not backend software engineering. There is no evidence of building backend services, designing APIs, working with CI/CD pipelines, containerization, cloud infrastructure, or any of the core engineering competencies this role demands. Her cloud exposure is described as \"basic.\" The gap between her actual experience and the role's requirements is substantial.\n\nFINAL: REJECT"
+}

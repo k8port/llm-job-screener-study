@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:33:02.349828+00:00",
+  "finished_utc": "2026-09-28T22:33:13.905639+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 919,
+    "output_tokens": 573
+  },
+  "response": "# Candidate Screening: Josephine Hartwell\n\n## Scoring Rubric\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| **Years of experience (5+ required)** | High | 3 | ~7 years professional software engineering (2019–present, excluding break) |\n| **Backend language proficiency (Java, Python, or comparable)** | High | 3 | Strong Java/Spring Boot; Python also listed |\n| **RESTful API design & consumption** | High | 3 | Explicitly designs and maintains versioned REST APIs |\n| **Relational databases & SQL** | High | 3 | PostgreSQL, SQL-backed persistence, mentioned across multiple roles |\n| **Cloud provider experience (AWS, Azure, GCP)** | High | 3 | AWS: ECS, SQS, SNS, RDS, Lambda |\n| **CI/CD & automated testing** | High | 3 | GitHub Actions, JUnit, contract testing |\n| **Bachelor's degree (CS/related or equivalent)** | Medium | 3 | B.S. Mathematics, Baylor University |\n| **Event-driven architecture / message brokers** | Preferred | 3 | SQS, SNS — owns event-driven domain messaging |\n| **Containerization & orchestration** | Preferred | 2 | Docker + ECS (not Kubernetes, but solid container experience) |\n| **Infrastructure-as-code** | Preferred | 3 | Terraform explicitly listed and used |\n| **Financial services / regulated industry background** | Preferred | 3 | Credit services (payments domain), prior actuarial background |\n| **Observability tooling** | Preferred | 3 | Datadog listed in skills |\n| **Mentorship / technical leadership** | Preferred | 3 | Mentors two engineers in current role |\n\n---\n\n## Summary Assessment\n\n**Required qualifications:** Met fully — 6/6 categories scored maximum. No gaps.\n\n**Preferred qualifications:** Nearly all met — 6/7 categories at maximum; minor gap on Kubernetes vs. ECS, which is a reasonable substitute.\n\n**Additional notes:** Career gap (2023–2024) is clearly explained as family leave with no ambiguity. Domain alignment to payments/financial services is strong. The actuarial background adds relevant context given the regulated-industry preference.\n\n**Overall Score: Exceptionally strong match.**\n\n---\n\nFINAL: ADVANCE"
+}

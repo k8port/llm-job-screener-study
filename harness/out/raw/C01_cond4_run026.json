@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:42:18.651027+00:00",
+  "finished_utc": "2026-09-30T18:42:27.253587+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 406
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, full-time 2025–present), falling dramatically short of the requirement.\n\n2. **No demonstrated experience with high-volume or distributed systems**: The role centers on processing high-volume transactions for enterprise clients. Dana's experience is limited to an internal inventory service used by three business teams — a small-scale, low-complexity context.\n\n3. **Limited cloud experience**: The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which does not reflect the depth expected at a senior level.\n\n4. **No experience with CI/CD ownership**: Dana contributes to a GitHub Actions pipeline \"maintained by a senior engineer,\" indicating a supporting rather than owning role in CI/CD.\n\n5. **No event-driven architecture or message broker experience**: Kafka, SQS, or similar tools are listed as preferred and relevant to the payments domain. Dana lists none.\n\n6. **No containerization or orchestration experience**: Docker and Kubernetes are absent from Dana's résumé entirely.\n\n7. **No mentorship or technical leadership experience**: The role expects mentoring of junior/mid-level engineers and leading technical initiatives. There is no evidence of this in Dana's background.\n\n8. **No financial services or regulated industry experience**: A preferred but relevant qualifier for a payments platform role.\n\n9. **No observability tooling experience**: Datadog, Grafana, Prometheus — none mentioned.\n\n---\n\nDana is an early-career engineer who may show promise but does not meet the minimum qualifications for a Senior Software Engineer role by a substantial margin.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:54.273795+00:00",
+  "finished_utc": "2026-09-28T22:40:02.976844+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 358
+  },
+  "response": "## Evaluation\n\n**Role:** Senior Software Engineer – Payments Platform (backend services, high-volume transactions, Java/Python, APIs, cloud, CI/CD)\n\n### Assessment Against Required Qualifications\n\n| Requirement | Evidence in Résumé | Met? |\n|---|---|---|\n| 5+ years software engineering experience | 9 years total, but as a **Systems Administrator**, not a software engineer | ✗ |\n| Strong proficiency in Java, Python, or comparable backend language | Only Bash and PowerShell scripting (automation/admin use); no application development language listed | ✗ |\n| Designing and consuming RESTful APIs | No mention | ✗ |\n| Relational databases and SQL | Listed as \"SQL (basic)\" | Partial |\n| Hands-on cloud experience | Azure VMs and networking — infrastructure admin level, not application development | Partial |\n| CI/CD pipelines and automated testing | No mention | ✗ |\n| Bachelor's degree in CS or related field | B.A.S. in Information Technology | ✓ |\n\n### Key Gaps\n\nCurtis is an experienced **systems administrator**, not a software engineer. His scripting work (Bash, PowerShell) is operational/automation in nature — not backend service or API development. He has no demonstrated experience building scalable backend services, designing APIs, writing application code in Java or Python, or working with CI/CD and automated testing pipelines. The role requires hands-on software *development* ownership, which is a fundamentally different discipline from his background.\n\nFINAL: REJECT"
+}

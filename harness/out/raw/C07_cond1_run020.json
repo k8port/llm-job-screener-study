@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:05:11.502550+00:00",
+  "finished_utc": "2026-09-28T22:05:21.971695+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 419
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence |\n|---|---|\n| 5+ years professional experience | ✅ 8 years (2018–present) |\n| Java, Python, or comparable backend language | ✅ Python throughout |\n| RESTful API design and consumption | ✅ Explicitly designs REST APIs with versioning |\n| Relational databases and SQL | ✅ PostgreSQL, Snowflake, SQL listed and used |\n| Major cloud provider (AWS/Azure/GCP) | ✅ AWS (EKS, S3, Lambda, RDS) |\n| CI/CD and automated testing | ✅ GitHub Actions CI, pytest |\n| Bachelor's in CS or related field | ✅ B.S. Information Systems |\n\n**All required qualifications are met.**\n\n---\n\n**Preferred Qualifications Assessment:**\n\n- ✅ Kafka (40M daily events — directly relevant to payments scale)\n- ✅ Docker, Kubernetes (EKS)\n- ✅ Terraform (infrastructure-as-code)\n- ✅ Prometheus + Grafana (observability)\n- ✅ On-call ownership (reliability focus)\n- Background in financial services: ⚠️ Works with transaction data for enterprise clients; healthcare adjacent; not explicitly payments/regulated industry\n- Mentoring: ⚠️ Not explicitly mentioned\n\n**Nearly all preferred qualifications are satisfied.** The candidate's work with high-volume transaction data for enterprise clients is directly analogous to the payments platform context.\n\n---\n\n**Summary:** Simone is a strong match. The profile maps cleanly to the role's hands-on backend, API, infrastructure, and observability expectations, at the appropriate seniority level.\n\nFINAL: ADVANCE"
+}

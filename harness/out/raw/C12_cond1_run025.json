@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:36.995288+00:00",
+  "finished_utc": "2026-09-28T22:47:45.532612+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 376
+  },
+  "response": "## Evaluation\n\n**Strengths vs. Requirements:**\n\n| Requirement | Evidence |\n|---|---|\n| 5+ years experience | ❌ ~3.5 years total (2023–Present) |\n| Java/Python backend proficiency | ✅ Java/Spring Boot is core to her work |\n| RESTful API design & consumption | ✅ Clearly demonstrated |\n| Relational databases / SQL | ✅ PostgreSQL experience |\n| Major cloud provider (AWS) | ✅ AWS (EKS, SQS, RDS) |\n| CI/CD & automated testing | ✅ GitHub Actions, JUnit |\n| Bachelor's in CS or equivalent | ✅ B.S. CS from SMU (2023) |\n\n**Preferred Qualifications:**\n- Kafka ✅, Docker/Kubernetes ✅, Terraform (basic) ✅, Payments background ✅, Grafana ✅\n- Mentoring/leading initiatives: ❌ No evidence\n\n**Key Gap:**\nThe most significant issue is the **experience gap**: the role requires **5+ years** of professional software engineering experience, and Elise has approximately **3.5 years**. This is a hard requirement, not a preferred one. Additionally, there is no evidence of mentoring junior engineers or leading technical initiatives, which is both a required responsibility and a preferred qualification.\n\nHer technical profile is otherwise well-aligned — she works in payments, uses the right stack, and checks most preferred qualifications. However, the shortfall on the required years of experience is material and unambiguous.\n\nFINAL: REJECT"
+}

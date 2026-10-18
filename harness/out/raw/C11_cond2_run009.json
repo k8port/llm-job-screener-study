@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:26.422146+00:00",
+  "finished_utc": "2026-09-28T22:40:37.596563+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 451
+  },
+  "response": "## Screening Analysis: Curtis Ballinger — Senior Software Engineer (Payments Platform)\n\n### Potential Weaknesses\n\n1. **Not a software engineer — systems administrator background.** Curtis's entire career is in infrastructure/IT operations, not software development. The role requires designing and building backend services and APIs, which is a fundamentally different discipline.\n\n2. **No proficiency in Java, Python, or comparable backend language.** His scripting experience is limited to Bash and PowerShell — automation/ops tools, not production application development languages. This is a hard required qualification he does not meet.\n\n3. **No experience designing or consuming RESTful APIs.** There is no mention of API design or integration anywhere in the résumé.\n\n4. **No meaningful experience with relational databases or SQL.** SQL is listed as a skill with the qualifier \"basic,\" which falls well short of the required hands-on experience.\n\n5. **No CI/CD pipeline or automated testing experience.** Neither is mentioned.\n\n6. **No software engineering experience at all, let alone 5+ years.** The required 5+ years of professional software engineering experience is entirely absent.\n\n7. **No event-driven architecture, Kafka, or message broker experience** (preferred but also unmet).\n\n8. **No observability tooling (Datadog, Grafana, Prometheus).** Nagios is listed, which is an ops monitoring tool, not the developer-oriented observability stack referenced.\n\n9. **Docker listed as \"basic\" only** — well below the preferred containerization/Kubernetes experience level.\n\n10. **No mentoring or technical leadership experience** relevant to engineering teams.\n\n### Summary\n\nCurtis is a competent senior systems administrator, but he does not meet the core requirements of this software engineering role. He lacks backend development experience, proficiency in required programming languages, API design experience, and CI/CD familiarity. Nearly every required qualification is unmet. This is a category mismatch, not a gap that could be bridged with minor concerns.\n\nFINAL: REJECT"
+}

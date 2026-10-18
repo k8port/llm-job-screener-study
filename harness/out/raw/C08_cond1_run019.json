@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:16.690953+00:00",
+  "finished_utc": "2026-09-28T22:14:26.026521+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 388
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **5 years of experience**: Meets the minimum threshold (2020–2025)\n- **Java proficiency**: Demonstrated through building and maintaining automated test suites\n- **REST/API experience**: Has written API-level tests against REST endpoints, familiar with REST Assured and Postman\n- **SQL**: Listed as a skill\n- **CI/CD**: Maintains test execution stages in Jenkins pipelines\n- **Located in Garland, TX**: Commutable to Plano, TX for hybrid work\n- **B.S. in IT**: Meets the education requirement\n\n### Significant Gaps\n\n- **QA, not a software engineer**: The candidate's five years are entirely in test automation and QA roles. The JD requires building and maintaining **production backend services**, not test infrastructure.\n- **No backend service development**: There is no evidence of designing, building, or owning production APIs or backend systems — a core requirement.\n- **No cloud experience**: No mention of AWS, Azure, or GCP (a required qualification).\n- **No database design/ORM experience**: SQL is listed but only in a testing context.\n- **No containerization or architecture experience**: Docker, Kubernetes, and related tools are absent.\n- **No mentorship or technical leadership**: No evidence of mentoring engineers.\n- **Self-described as transitioning**: The candidate explicitly frames themselves as moving *toward* software development, acknowledging the gap.\n\n### Conclusion\n\nWhile the candidate has adjacent technical exposure (Java, REST APIs, CI/CD), there is insufficient evidence they can perform the core responsibilities of designing and building scalable backend production services. The experience is fundamentally in quality assurance, not software engineering.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:27:02.346653+00:00",
+  "finished_utc": "2026-09-28T22:27:13.827645+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 503
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Technical Stack Gaps:**\n- **No modern cloud experience:** The résumé shows zero evidence of AWS, Azure, or GCP — a listed *required* qualification.\n- **No CI/CD pipeline experience:** Jenkins is listed as \"basic,\" and there is no mention of modern CI/CD practices or tooling (GitHub Actions, CircleCI, etc.).\n- **No RESTful API design/consumption experience:** Java 8 services providing \"web access\" to core banking is vague and does not demonstrate REST API design at a senior level.\n- **No containerization or orchestration:** No Docker or Kubernetes experience mentioned.\n- **No event-driven architecture/message broker experience:** No Kafka, SQS, or equivalent listed.\n- **No cloud-native observability tooling:** No Datadog, Grafana, Prometheus, or equivalent.\n- **No Infrastructure-as-Code experience:** No Terraform or CloudFormation.\n\n**Currency of Skills:**\n- The candidate's primary stack (COBOL, JCL, z/OS, JSP, Servlets) is legacy/mainframe-oriented and not aligned with modern backend service development.\n- Java experience is limited to Java 8 with no indication of modern Java practices or frameworks (e.g., Spring Boot).\n\n**Role Fit:**\n- The role requires designing and building *scalable, cloud-based backend services* for high-volume transaction processing; the candidate's background is in maintaining legacy batch and mainframe systems.\n- No evidence of mentoring engineers or leading technical initiatives.\n- No automated testing experience mentioned.\n\n**Strengths Worth Noting (but insufficient):**\n- 16 years of experience in financial services satisfies domain familiarity.\n- SQL/DB2 experience and CS degree meet some baseline requirements.\n- Production incident management in a regulated environment is relevant.\n\n## Judgment\n\nThe candidate's experience in financial services is a genuine asset, but the gap between their legacy mainframe/Java 8 background and the role's core technical requirements (cloud, modern APIs, containers, CI/CD, event-driven architecture) is too wide to overlook for a senior-level, hands-on engineering position.\n\nFINAL: REJECT"
+}

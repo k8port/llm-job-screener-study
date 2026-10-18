@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:35:58.035307+00:00",
+  "finished_utc": "2026-09-28T22:36:08.137011+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 913,
+    "output_tokens": 421
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Degree field**: The job lists \"Bachelor's degree in Computer Science or related field.\" Hartwell holds a B.S. in Mathematics. This is a borderline gap, though Mathematics is often considered a related field and the role does allow \"equivalent practical experience.\"\n\n2. **No explicit Kubernetes experience**: The preferred qualifications mention Docker and Kubernetes. Hartwell shows Docker and ECS (AWS-managed container orchestration) but does not mention Kubernetes specifically.\n\n3. **No mention of Kafka**: The preferred qualifications list Kafka as an example message broker. Hartwell uses SQS/SNS but not Kafka.\n\n4. **No explicit mention of Grafana or Prometheus**: Observability tooling experience is preferred; Hartwell lists Datadog but not Grafana or Prometheus.\n\n5. **Recent career break (2023–2024)**: A roughly one-year family leave is present, though this is not a disqualifying factor and the candidate has already re-entered the workforce in a relevant senior role.\n\n6. **No mention of GCP or Azure**: Experience is AWS-only, though AWS is explicitly listed as acceptable.\n\n## Assessment\n\nThe gaps above are **minor or in preferred (not required) qualifications**. Against the required qualifications, Hartwell is a strong match: 7 years of engineering experience (5+ required), strong Java proficiency, REST API design, SQL/PostgreSQL, AWS hands-on experience, CI/CD (GitHub Actions), automated testing, and financial services background. The preferred qualifications are also largely met (event-driven architecture, IaC with Terraform, observability with Datadog, mentoring). The degree gap is negligible given the mathematics background and demonstrated experience.\n\nThe reasons not to advance do not outweigh the substantial alignment with the role.\n\nFINAL: ADVANCE"
+}

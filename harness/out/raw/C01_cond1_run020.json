@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:38:10.736889+00:00",
+  "finished_utc": "2026-09-30T18:38:20.624934+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 813,
+    "output_tokens": 441
+  },
+  "response": "## Evaluation\n\n### Required Qualifications Assessment\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | ~2 years (intern 2024–2025 + engineer 2025–present) | ❌ |\n| Java, Python, or comparable backend language | Java/Spring Boot | ✅ |\n| RESTful API design/consumption | REST endpoints in Spring Boot | ✅ |\n| Relational databases and SQL | MySQL, SQL queries | ✅ |\n| Major cloud provider (AWS, Azure, GCP) | \"Basic AWS (EC2, S3)\" — self-described as basic | ⚠️ Weak |\n| CI/CD pipelines and automated testing | GitHub Actions (maintained by senior engineer), JUnit | ⚠️ Contributory, not owning |\n| Bachelor's in CS or equivalent | B.S. CS, UT Dallas 2024 | ✅ |\n\n### Key Gaps\n\n- **Experience**: The most significant disqualifier. The role requires **5+ years**; Dana has roughly **2 years total** (including internship). This is a ~60% shortfall on a hard requirement.\n- **Seniority signals**: The résumé describes contributing under senior/lead oversight rather than owning design and delivery independently — the opposite of what this role demands.\n- **Cloud depth**: Self-described as \"basic\" AWS, well below the hands-on expectation.\n- **No evidence** of mentoring, architecture ownership, observability, or event-driven systems (all preferred or expected at the senior level).\n\n### Conclusion\n\nThere is insufficient evidence that this candidate could successfully perform a **Senior** Software Engineer role. The experience gap alone — less than half the required years — is a hard disqualifier, and the nature of the experience described does not demonstrate senior-level ownership or technical breadth.\n\nFINAL: REJECT"
+}

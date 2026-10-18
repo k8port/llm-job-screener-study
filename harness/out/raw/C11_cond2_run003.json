@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:11.001700+00:00",
+  "finished_utc": "2026-09-28T22:40:21.252942+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 450
+  },
+  "response": "## Candidate Weakness Analysis: Curtis Ballinger\n\n### Identified Weaknesses\n\n1. **Not a Software Engineer — Systems Administration Background**: The candidate's entire career is in systems administration and IT support, not software development. This role requires designing and building backend services; the candidate administers infrastructure. This is a fundamental role mismatch.\n\n2. **No Backend Development or API Experience**: The candidate has no demonstrated experience building backend services, REST APIs, or any application-layer software. Bash/PowerShell scripting for operational tasks is materially different from professional software engineering.\n\n3. **No Proficiency in Required Languages**: The role requires strong proficiency in Java, Python, or a comparable backend language. The candidate lists only Bash and PowerShell — scripting languages used in an ops context, not application development languages.\n\n4. **No CI/CD or Automated Testing Experience**: There is no mention of CI/CD pipelines or software testing frameworks, both listed as required.\n\n5. **SQL Listed as \"Basic\"**: The role requires meaningful experience with relational databases and SQL; the candidate self-rates this as basic.\n\n6. **Docker Listed as \"Basic\"**: Containerization is a preferred qualification; the candidate's exposure is minimal.\n\n7. **No Event-Driven Architecture, Kubernetes, or Observability Tooling**: None of the preferred qualifications (Kafka, Kubernetes, Terraform, Datadog, Prometheus) are present beyond Nagios (monitoring, not development observability).\n\n8. **No Mentorship or Technical Leadership**: No evidence of mentoring engineers or leading technical initiatives.\n\n9. **No Payments or Regulated Industry Development Experience**: While healthcare is a regulated environment, the candidate's role was infrastructure support, not software development in that context.\n\n---\n\n### Summary\n\nCurtis Ballinger does not meet the core required qualifications for a Senior Software Engineer role. The gap is not marginal — the candidate is in an entirely different professional discipline. There are no signals of software engineering work at any level.\n\nFINAL: REJECT"
+}

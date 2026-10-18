@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:07.239454+00:00",
+  "finished_utc": "2026-09-28T21:52:15.052066+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 369
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Wrong Engineering Discipline**: Nora is a data analyst, not a software engineer. Her work centers on reporting, dashboards, and data reconciliation — not designing and building production backend services.\n\n2. **No Backend Service/API Development**: The role requires designing and building scalable backend services and RESTful APIs. There is no evidence of this in her résumé. Her Python use is limited to data cleaning scripts, not application development.\n\n3. **Insufficient Years of Relevant Experience**: While she has 6 years of total experience, none of it is in software engineering. The role requires 5+ years of *professional software engineering* experience.\n\n4. **No Cloud Infrastructure Experience Beyond Basic Usage**: Her AWS exposure is limited to S3 and Athena (data storage/querying tools), far short of the hands-on cloud engineering experience required.\n\n5. **No CI/CD, Containerization, or Orchestration Experience**: No mention of CI/CD pipelines, Docker, Kubernetes, or automated testing frameworks.\n\n6. **No Event-Driven Architecture or Message Broker Experience**: Kafka, SQS, or similar tools are absent from her background.\n\n7. **No Observability or Production Systems Experience**: No experience with Datadog, Grafana, Prometheus, or managing production reliability/on-call responsibilities.\n\n8. **No Mentorship or Technical Leadership**: No evidence of mentoring engineers or leading technical initiatives.\n\n9. **Domain Mismatch in Relevant Area**: Her regulated industry experience is in insurance/healthcare reporting, not payments or financial services engineering.\n\nFINAL: REJECT"
+}

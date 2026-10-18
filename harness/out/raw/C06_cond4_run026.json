@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:01:12.718103+00:00",
+  "finished_utc": "2026-09-28T22:01:23.881635+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 490
+  },
+  "response": "## Reasons Against Advancing Alan Brightwell\n\n**Gaps Against Required Qualifications:**\n\n1. **No cloud experience** – The résumé shows exclusively on-premise enterprise experience. The job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP), and there is no mention of any cloud platform anywhere on the résumé. This is a hard required qualification.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins** – Jenkins is mentioned only in the context of adding integration test stages. There is no evidence of owning or building CI/CD pipelines end-to-end, which is a stated requirement.\n\n**Gaps Against Preferred Qualifications:**\n\n3. **No event-driven architecture / message broker experience** – JMS is listed in skills, but it is a significantly older and more limited technology than Kafka or SQS, and no hands-on project context is provided. This is a weak signal for modern event-driven architecture.\n\n4. **No containerization or orchestration experience** – No mention of Docker or Kubernetes anywhere.\n\n5. **No infrastructure-as-code experience** – No Terraform, CloudFormation, or similar tools mentioned.\n\n6. **No observability tooling experience** – No Datadog, Grafana, Prometheus, or equivalent tools mentioned.\n\n7. **No financial services or payments background** – Experience is in manufacturing/order processing, which is a different regulatory and operational context than payments platforms.\n\n**Contextual Concern:**\n\n8. **Entirely on-premise background** – The role is cloud-native and targets high-volume payment transaction processing. The candidate's entire experience base is in on-premise manufacturing systems, representing a significant context gap for a senior-level hire expected to have immediate ownership.\n\n---\n\n## Judgment\n\nThe candidate meets some baseline requirements (Java, REST APIs, SQL, years of experience, degree, mentoring), but the **absence of any cloud experience is a disqualifying gap** for a required qualification. Combined with the lack of containerization, IaC, modern observability tooling, and payments/fintech context, the candidate is unlikely to meet the bar for this senior role without substantial ramp-up.\n\nFINAL: REJECT"
+}

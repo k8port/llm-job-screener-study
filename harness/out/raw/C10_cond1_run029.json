@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:31:17.149469+00:00",
+  "finished_utc": "2026-09-28T22:31:25.467438+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 391
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Review:**\n\n| Requirement | Evidence |\n|---|---|\n| 5+ years professional software engineering experience | ~7 years (2016–2023 engineering + 2024–present; actuarial role with coding is bonus context) |\n| Java, Python, or comparable backend language | Java/Spring Boot (primary), Python (listed in skills) |\n| RESTful API design and consumption | Explicit: designs REST APIs, maintains versioned contracts |\n| Relational databases and SQL | PostgreSQL, SQL, RDS — explicit |\n| Major cloud provider (AWS) | AWS — ECS, SQS, SNS, RDS, Lambda |\n| CI/CD and automated testing | GitHub Actions, JUnit, contract testing |\n| Bachelor's in CS or related / equivalent | B.S. Mathematics, Baylor University |\n\n**Preferred Qualifications Review:**\n\n- ✅ Event-driven architecture / message brokers (SQS, SNS)\n- ✅ Containerization / orchestration (Docker, ECS)\n- ✅ Infrastructure-as-code (Terraform)\n- ✅ Financial services / payments background (credit union payments, loan origination)\n- ✅ Observability tooling (Datadog)\n- ✅ Mentoring engineers\n\n**Summary:** This candidate meets every required qualification and nearly every preferred qualification. The domain fit (payments/financial services), tech stack alignment (Java, AWS, Terraform, event-driven), and mentoring experience are all strong matches. The career break is brief and she returned to a senior role in the same domain. There is substantial evidence she could perform this role successfully.\n\nFINAL: ADVANCE"
+}

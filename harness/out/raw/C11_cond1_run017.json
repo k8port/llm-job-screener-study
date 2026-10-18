@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:36.786509+00:00",
+  "finished_utc": "2026-09-28T22:39:45.525639+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 403
+  },
+  "response": "## Assessment: Curtis Ballinger vs. Senior Software Engineer (Payments Platform)\n\n### Analysis\n\n**Required Qualifications Review:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years software engineering experience | 9 years in IT/sysadmin roles; scripting/automation work, but not software engineering | ❌ |\n| Strong proficiency in Java, Python, or comparable backend language | No Java or Python listed; Bash/PowerShell are scripting/automation tools, not backend development languages in this context | ❌ |\n| RESTful API design and consumption | No evidence | ❌ |\n| Relational databases and SQL | Listed as \"basic\" only | ⚠️ Insufficient |\n| Hands-on cloud experience (AWS/Azure/GCP) | Azure VM and networking administration | ⚠️ Adjacent, not development-focused |\n| CI/CD pipelines and automated testing | No evidence | ❌ |\n| Bachelor's in CS or related field | B.A.S. in Information Technology | ✅ |\n\n### Key Observations\n\nCurtis has a solid infrastructure and systems administration background with nearly a decade of experience. However, his profile is fundamentally that of a **systems administrator**, not a **software engineer**. There is no evidence of:\n- Building or maintaining backend services or APIs\n- Software development in any primary backend language\n- Working with CI/CD pipelines or automated testing frameworks\n- Application-level architecture or code review experience\n\nHis Azure experience is infrastructure-focused (VMs, networking), not cloud-native application development. The gap between systems administration and senior software engineering — particularly for a payments platform role requiring service design, API development, and production application ownership — is substantial.\n\nFINAL: REJECT"
+}

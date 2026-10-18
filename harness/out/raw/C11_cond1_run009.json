@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:39:18.508296+00:00",
+  "finished_utc": "2026-09-28T22:39:28.388207+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 357
+  },
+  "response": "## Assessment\n\n### Role Requirements vs. Candidate Profile\n\n**Required Qualifications Analysis:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional software engineering | 9 years in IT/sysadmin roles — **not software engineering** | ❌ |\n| Strong proficiency in Java, Python, or comparable backend language | Only Bash and PowerShell scripting; no application development languages | ❌ |\n| RESTful API design and consumption | No evidence | ❌ |\n| Relational databases and SQL | Listed as \"SQL (basic)\" only | Marginally |\n| Cloud provider hands-on experience | Azure VMs and networking (infrastructure, not application layer) | Partial |\n| CI/CD pipelines and automated testing | No evidence | ❌ |\n| Bachelor's in CS or related / equivalent experience | B.A.S. in Information Technology | ✅ |\n\n### Summary\n\nCurtis has nearly a decade of solid enterprise infrastructure experience in a regulated industry (healthcare), with genuine Azure exposure and scripting ability. However, this is a **Senior Software Engineer** role requiring backend application development, API design, software testing, and CI/CD — disciplines that are fundamentally distinct from systems administration. There is no evidence of application-layer software development, backend service design, or any of the preferred engineering competencies (Kafka, Kubernetes, Terraform, observability tooling in a dev context).\n\nThe gap between this candidate's background and the role's core requirements is too large to bridge without substantial retraining.\n\nFINAL: REJECT"
+}

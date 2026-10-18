@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:56:04.266656+00:00",
+  "finished_utc": "2026-09-28T21:56:15.841738+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 378
+  },
+  "response": "## Evaluation of Alan Brightwell\n\n### Strengths Against Required Qualifications\n\n| Requirement | Evidence |\n|---|---|\n| 5+ years experience | 7 years total ✓ |\n| Java/backend proficiency | Java/Spring Boot is core to his work ✓ |\n| RESTful API design & consumption | Explicitly owns REST API design ✓ |\n| Relational databases & SQL | Oracle, SQL, PL/SQL, stored procedures ✓ |\n| CI/CD & automated testing | Jenkins pipelines, JUnit ✓ |\n| Bachelor's in CS or related | B.S. Computer Engineering ✓ |\n| **Cloud experience (required)** | **No mention of AWS, Azure, or GCP ✗** |\n\n### Assessment of Preferred Qualifications\n- **Event-driven/messaging**: JMS listed, which is relevant but dated relative to Kafka/SQS\n- **Containerization/K8s**: No evidence\n- **Infrastructure-as-code**: No evidence\n- **Financial/regulated industry**: Manufacturing context, not payments/fintech\n- **Observability tooling**: No evidence\n- **Mentoring**: Confirmed ✓\n\n### Key Concern\nThe **most significant gap** is the complete absence of cloud experience, which is a **required** qualification. All of Alan's work is explicitly described as on-premise. The role is cloud-dependent (payments platform, likely AWS/Azure-heavy), and there is no indication he has transferable cloud exposure. While his core Java and backend skills are strong, the cloud gap is a hard-requirement miss.\n\nFINAL: REJECT"
+}

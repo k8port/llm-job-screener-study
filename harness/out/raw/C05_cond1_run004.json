@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:48:08.154081+00:00",
+  "finished_utc": "2026-09-28T21:48:15.950845+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 362
+  },
+  "response": "## Assessment\n\n**Role:** Senior Software Engineer, Payments Platform (backend services, high-volume transaction processing)\n\n**Candidate:** Nora Kessler, Senior Data Analyst\n\n---\n\n### Key Gap Analysis\n\n| Required Qualification | Evidence in Résumé |\n|---|---|\n| 5+ years software engineering experience | ❌ — 6 years of *data analyst* experience, not software engineering |\n| Strong proficiency in Java, Python, or comparable backend language | ⚠️ — Python used for scripting/data cleaning (Pandas, NumPy), not backend service development |\n| Designing and consuming RESTful APIs | ❌ — No mention |\n| Relational databases and SQL | ✅ — Strong SQL background |\n| Hands-on cloud experience (AWS, Azure, GCP) | ❌ — Only \"basic AWS (S3, Athena)\" — data query tools, not service infrastructure |\n| CI/CD pipelines and automated testing | ❌ — No mention |\n| Bachelor's in CS or related field / equivalent | ⚠️ — B.S. Statistics is adjacent but not a CS/engineering background |\n\n### Summary\n\nNora has strong SQL and analytical skills and has worked in a regulated industry (insurance), but her experience is entirely in **data analysis and reporting**, not backend software engineering. She has not built APIs, backend services, containerized applications, or CI/CD pipelines. Her Python usage is analytical scripting, not service development. The core requirements of this role are largely unmet.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:56:24.125559+00:00",
+  "finished_utc": "2026-09-28T21:56:34.139437+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 428
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths Against Required Qualifications\n\n| Requirement | Evidence |\n|---|---|\n| 5+ years experience | 7 years total (2019–present) ✅ |\n| Java/Python/backend language | Java/Spring Boot — strong ✅ |\n| RESTful API design & consumption | Explicitly owns REST API design ✅ |\n| Relational databases & SQL | Oracle, SQL, PL/SQL, stored procedures ✅ |\n| CI/CD pipelines & automated testing | Jenkins pipelines, JUnit, integration tests ✅ |\n| Bachelor's in CS or related | B.S. Computer Engineering, Texas Tech ✅ |\n| Major cloud provider (AWS/Azure/GCP) | **No evidence** ❌ |\n\n### Preferred Qualifications\n- **Event-driven/messaging:** JMS listed — adjacent but not Kafka/SQS ⚠️\n- **Docker/Kubernetes:** No evidence ❌\n- **Terraform/IaC:** No evidence ❌\n- **Financial services/payments:** Manufacturing background only ❌\n- **Observability tooling:** No evidence ❌\n- **Mentoring/technical leadership:** Strong — mentors juniors, leads code review ✅\n\n### Key Concern\n\nThe most significant gap is **zero cloud experience**. The role is explicitly cloud-dependent (payments platform, scalable services, CI/CD in cloud context), and it is listed as a **required** qualification. The candidate's entire background is on-premise enterprise. While his Java, SQL, API, and mentoring skills are solid, the absence of cloud experience — combined with no payments/fintech background and no containerization experience — represents a meaningful skills gap for a **senior** role on a **payments platform**.\n\n---\n\nFINAL: REJECT"
+}

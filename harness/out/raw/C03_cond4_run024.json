@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:35:33.407540+00:00",
+  "finished_utc": "2026-09-28T21:35:45.040801+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 879,
+    "output_tokens": 524
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Frontend-Focused, Not Backend-Focused**\nThe candidate explicitly self-identifies as a \"frontend-focused engineer.\" The role requires a backend engineer to build high-volume transaction processing services. While she has done some Node.js/Express work, it is described as a supporting layer for a frontend portal — not core backend systems engineering.\n\n**2. No Java or Python Experience**\nThe required qualifications specify strong proficiency in Java, Python, or a comparable backend language. The candidate's stack is TypeScript/JavaScript/Node.js. While Node.js can be considered a backend language, it is not listed as a preferred or acceptable language in the JD, and her use of it is limited to portal-adjacent service work.\n\n**3. No Experience with High-Volume Transaction or Payments Systems**\nThe role centers on processing high-volume transactions for enterprise clients. The candidate's experience is in a retail customer portal (~400K monthly users) with no exposure to payments, financial services, or regulated industries.\n\n**4. Limited Cloud Experience**\nHer AWS exposure is narrow — S3, CloudFront, Lambda — primarily frontend/CDN-oriented services. There is no evidence of experience with compute, networking, databases, or backend infrastructure at scale on a major cloud provider.\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nNo mention of Kafka, SQS, or similar tools, which are preferred and highly relevant to the payments platform context.\n\n**6. No Kubernetes or Infrastructure-as-Code Experience**\nDocker is listed, but there is no mention of Kubernetes, Terraform, or CloudFormation.\n\n**7. Degree Mismatch**\nThe candidate holds a B.A. in Graphic Design, not Computer Science or a related technical field. While \"equivalent practical experience\" is accepted, her experience skews frontend/UI rather than systems/backend engineering.\n\n**8. No Observability Tooling Experience**\nNo mention of Datadog, Grafana, Prometheus, or similar tools relevant to the reliability and observability responsibilities of this role.\n\n---\n\n## Judgment\n\nThe candidate lacks the core backend engineering depth, required language proficiency, cloud infrastructure experience, and domain background necessary for this senior payments platform role. Her experience is valuable but misaligned with this position's requirements.\n\nFINAL: REJECT"
+}

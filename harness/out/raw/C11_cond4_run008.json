@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:43:11.401023+00:00",
+  "finished_utc": "2026-09-28T22:43:19.957673+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 822,
+    "output_tokens": 384
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Engineer — Systems Administration Background**\nCurtis's entire career (9 years) is in systems administration and IT support, not software engineering. The role requires designing and building backend services and APIs, which is fundamentally different from administering infrastructure.\n\n**2. No Professional Software Development Experience**\nThe role requires **5+ years of professional software engineering experience**. Curtis has zero years in a software engineering capacity. Scripting (Bash/PowerShell) for sysadmin automation does not constitute backend software engineering.\n\n**3. No Proficiency in Required Backend Languages**\nThe role requires strong proficiency in **Java, Python, or a comparable backend language**. Curtis lists neither. Bash and PowerShell are operational scripting languages, not backend development languages.\n\n**4. No API Design or Development Experience**\nThere is no mention of designing or consuming RESTful APIs, which is a required qualification.\n\n**5. SQL Listed as \"Basic\" Only**\nThe role requires solid experience with relational databases and SQL. Curtis self-identifies SQL as only \"basic.\"\n\n**6. No CI/CD or Automated Testing Experience**\nNo evidence of CI/CD pipelines or automated testing frameworks.\n\n**7. No Application-Level Cloud Experience**\nAzure experience is limited to VM and networking management, not cloud-native application development (e.g., serverless, managed services, PaaS).\n\n**8. Docker Listed as \"Basic\"**\nDocker experience is self-described as basic, and there is no mention of Kubernetes.\n\n**9. No Mentoring or Technical Leadership of Engineers**\nNo evidence of mentoring software engineers or leading technical initiatives.\n\n---\n\nFINAL: REJECT"
+}

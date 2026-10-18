@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:42:17.629120+00:00",
+  "finished_utc": "2026-09-28T22:42:30.161601+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 573
+  },
+  "response": "## Screening Scorecard: Curtis Ballinger\n\n### Scoring Rubric (Required Qualifications)\n\n| Criterion | Weight | Score (0–3) | Notes |\n|---|---|---|---|\n| 5+ years professional software engineering experience | High | 1 | 9 years in IT/sysadmin, but **not software engineering**; scripting ≠ development |\n| Strong proficiency in Java, Python, or comparable backend language | High | 0 | No Python, Java, or backend language listed; Bash/PowerShell are scripting/ops tools |\n| RESTful API design & consumption | High | 0 | No mention of APIs anywhere |\n| Relational databases & SQL | Medium | 1 | Listed as \"basic\" SQL only |\n| Hands-on cloud provider experience | Medium | 2 | Azure VMs and networking — legitimate but ops-focused, not developer-focused |\n| CI/CD pipelines & automated testing | Medium | 0 | No CI/CD or testing experience mentioned |\n| Bachelor's in CS/related or equivalent experience | Low | 2 | B.A.S. in IT — relevant field |\n\n### Scoring Rubric (Preferred Qualifications)\n\n| Criterion | Score (0–2) | Notes |\n|---|---|---|\n| Event-driven / message brokers | 0 | No mention |\n| Docker/Kubernetes | 1 | Docker listed as \"basic\" only |\n| Infrastructure-as-code | 0 | No Terraform/CloudFormation |\n| Financial services / regulated industry | 1 | Healthcare (HIPAA-regulated) — partial credit |\n| Observability tooling | 1 | Nagios counts marginally; not Datadog/Grafana/Prometheus |\n| Mentoring / technical leadership | 0 | No indication |\n\n---\n\n### Summary Assessment\n\nCurtis presents a solid systems administration background but does not meet the core profile of a **Senior Software Engineer**. The role requires backend development expertise (Java/Python, API design, CI/CD, automated testing), and the candidate's experience is fundamentally in **infrastructure operations and scripting**. Critical required competencies — backend language proficiency, API development, and CI/CD — are absent entirely. Azure experience is relevant but scoped to ops. \"Basic\" SQL and Docker do not satisfy the hands-on expectations of the role.\n\n**Total alignment: Low (~20–25% of required competencies met)**\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:13:55.892375+00:00",
+  "finished_utc": "2026-09-28T22:14:05.039002+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 390
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **Years of experience**: ~5 years total, meeting the minimum threshold\n- **Java proficiency**: Confirmed through test automation work\n- **RESTful API experience**: API-level testing with REST Assured and Postman; validates response contracts\n- **SQL**: Listed as a skill\n- **CI/CD**: Jenkins pipeline maintenance\n- **Location**: Garland, TX — compatible with Plano, TX hybrid requirement\n- **Education**: B.S. IT from Texas State University satisfies the degree requirement\n\n### Significant Gaps\n- **Software development vs. QA**: The candidate's own summary frames this as a *transition toward* software development. All professional experience is in testing/QA, not building and maintaining production backend services. The role requires designing and building scalable backend services and APIs — not testing them.\n- **No cloud provider experience**: AWS, Azure, or GCP is a required qualification with no evidence of hands-on experience.\n- **No evidence of system/service design**: Architecture discussions, service ownership, and scalability design are central to the role; nothing in the résumé demonstrates this.\n- **No production backend ownership**: CI/CD experience is limited to maintaining test execution stages, not deploying production services.\n- **Preferred qualifications largely unmet**: No Kafka/messaging, no Docker/Kubernetes, no observability tooling, no payments/fintech background, no mentoring of engineers.\n\n### Conclusion\nWhile the candidate has adjacent technical exposure (Java, REST, SQL, CI/CD), their background is fundamentally in QA/test automation. There is insufficient evidence they can perform the core responsibilities of designing, building, and owning production backend services at a senior level.\n\nFINAL: REJECT"
+}

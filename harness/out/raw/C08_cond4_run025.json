@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:40.518767+00:00",
+  "finished_utc": "2026-09-28T22:18:49.566096+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 397
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Engineer — QA/Test Background**\nThe candidate's entire career has been in quality assurance and test engineering, not software development. The job requires a Senior *Software Engineer* who designs and builds production backend services. Writing automated tests is fundamentally different from building scalable backend systems.\n\n**2. Insufficient Hands-On Development Experience**\nThere is no evidence of building, owning, or shipping production software services or APIs. The candidate tests APIs and REST endpoints but does not build them. The role requires designing and building scalable backend services and APIs.\n\n**3. Does Not Meet the 5+ Years Software Engineering Requirement**\nWhile the candidate has ~5 years of total experience, it is in QA/testing roles, not professional software engineering. The requirement specifies software engineering experience, not testing experience.\n\n**4. No Cloud Platform Experience**\nThere is no mention of AWS, Azure, or GCP — a required qualification.\n\n**5. No CI/CD Pipeline Ownership**\nMaintaining test execution stages in Jenkins is not equivalent to owning and building CI/CD pipelines for software delivery, as required.\n\n**6. No Experience with Preferred Technologies**\nNo evidence of Kafka/SQS, Docker/Kubernetes, Terraform, observability tooling (Datadog, Grafana), or financial services/payments domain experience.\n\n**7. Self-Identified as Transitioning**\nThe candidate's own summary explicitly states they are \"transitioning toward software development,\" confirming they are not yet a practicing software engineer.\n\n**8. No Mentorship or Technical Leadership Experience**\nThe role requires mentoring junior/mid-level engineers, which is not reflected anywhere in the résumé.\n\n---\n\nFINAL: REJECT"
+}

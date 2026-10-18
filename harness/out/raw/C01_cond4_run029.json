@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 29,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:42:25.334487+00:00",
+  "finished_utc": "2026-09-30T18:42:34.496158+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 438
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 2 years total (1 year as a full-time engineer + ~1 year as an intern). This is a significant gap — roughly 3+ years short of the minimum requirement.\n\n2. **No demonstrated experience with high-volume or distributed systems**: The role involves processing high-volume transactions for enterprise clients. Dana's experience is limited to internal inventory services used by three business teams — a much smaller scale and lower complexity.\n\n3. **Minimal cloud experience**: The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which suggests surface-level familiarity rather than the depth needed for a senior backend role on a payments platform.\n\n4. **No experience with event-driven architecture or message brokers**: Kafka, SQS, and similar tools are listed as preferred qualifications. There is no mention of any of these technologies.\n\n5. **No containerization or orchestration experience**: Docker and Kubernetes are preferred. Neither appears on the résumé.\n\n6. **No infrastructure-as-code experience**: Terraform or CloudFormation are preferred; these are absent.\n\n7. **No mentorship or technical leadership experience**: The role expects mentoring of mid-level and junior engineers. Dana is early in their career with no indication of having led technical initiatives or mentored others.\n\n8. **No domain experience in financial services or payments**: A preferred but relevant qualifier — Dana has no background in regulated industries.\n\n9. **CI/CD experience is limited**: Dana contributes to a pipeline maintained by a senior engineer rather than owning or designing pipeline infrastructure independently.\n\n## Judgment\n\nDana is a promising early-career engineer, but falls materially short of the minimum experience requirements and lacks the depth in cloud, distributed systems, and senior-level competencies that this role demands.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:04:59.365134+00:00",
+  "finished_utc": "2026-09-28T22:05:09.125372+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 409
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years experience | 8 years (2018–present) | ✅ |\n| Java, Python, or comparable backend language | Python (extensively) | ✅ |\n| RESTful API design and consumption | \"Design REST APIs...maintain contract documentation and versioning\" | ✅ |\n| Relational databases and SQL | PostgreSQL, Snowflake, SQL batch processing | ✅ |\n| Major cloud provider (AWS, Azure, GCP) | AWS (EKS, S3, Lambda, RDS) | ✅ |\n| CI/CD and automated testing | GitHub Actions CI, pytest, automated tests | ✅ |\n| Bachelor's degree or equivalent | B.S. Information Systems | ✅ |\n\n**Preferred Qualifications Assessment:**\n\n- **Event-driven / message brokers:** Kafka at scale (40M daily events) ✅\n- **Containerization/orchestration:** Docker, Kubernetes/EKS ✅\n- **Infrastructure-as-code:** Terraform ✅\n- **Financial services/regulated industry:** Transaction data for enterprise clients; healthcare background ✅ (partial)\n- **Observability tooling:** Prometheus, Grafana, on-call ownership ✅\n- **Mentoring/technical leadership:** Not explicitly mentioned ⚠️\n\n**Summary:** Simone meets every required qualification and nearly every preferred qualification. The role is backend services; her background is Python services, APIs, and infrastructure—highly transferable. The data platform framing does not disqualify her; the technical substance aligns closely with what the Payments Platform team needs.\n\nFINAL: ADVANCE"
+}

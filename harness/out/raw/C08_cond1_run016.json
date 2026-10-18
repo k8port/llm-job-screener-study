@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:07.361054+00:00",
+  "finished_utc": "2026-09-28T22:14:17.199239+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 369
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **Years of experience**: ~5 years in software-adjacent roles (2020–present), meeting the minimum threshold on paper\n- **Java proficiency**: Genuine hands-on Java experience in test automation\n- **REST/API exposure**: Has worked with REST endpoints, API-level testing, response contracts\n- **SQL**: Listed as a skill\n- **CI/CD**: Maintains Jenkins pipeline stages\n- **Education**: B.S. in Information Technology qualifies as a related field\n- **Location**: Based in Garland, TX — compatible with Plano hybrid requirement\n\n### Gaps and Concerns\n\n**Critical gaps:**\n- **Not a software developer**: All experience is in QA/testing — building test suites is fundamentally different from designing and building production backend services. The candidate explicitly self-identifies as \"transitioning toward software development.\"\n- **No cloud experience**: No mention of AWS, Azure, or GCP — a required qualification\n- **No backend service design or development**: Has never owned or delivered a production service, API, or system — the core function of this role\n- **No database design experience** beyond writing SQL queries in a testing context\n- **No mentorship experience**: Preferred but also expected at the Senior level\n\n**Additional gaps (preferred):**\n- No Kafka/SQS, Docker/Kubernetes, Terraform, Datadog, or financial services experience\n\n### Conclusion\n\nThe candidate's skills are adjacent but the gap between QA automation and senior backend engineering is substantial. There is insufficient evidence they could independently design, build, and own scalable backend payment services or mentor engineers in that domain.\n\nFINAL: REJECT"
+}

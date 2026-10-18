@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:52.832195+00:00",
+  "finished_utc": "2026-09-30T18:42:01.402746+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 392
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Insufficient Years of Experience**\nThe job requires 5+ years of professional software engineering experience. Dana has approximately 2 years total (1 year as a full-time engineer, ~1 year as an intern). This is a significant gap — roughly 3+ years short of the minimum requirement.\n\n**2. No Cloud Experience at Required Depth**\nThe résumé lists only \"basic AWS (EC2, S3).\" The role requires hands-on experience with a major cloud provider at a level commensurate with designing and operating high-volume, production-grade systems. Basic familiarity does not meet this bar.\n\n**3. No Experience with High-Volume or Enterprise-Scale Systems**\nThe role involves processing high-volume transactions for enterprise clients. Dana's experience is limited to an internal inventory service used by three internal business teams — a materially different scale and complexity.\n\n**4. No Event-Driven Architecture or Message Broker Experience**\nNo mention of Kafka, SQS, or similar tools, which are listed as preferred and relevant to the Payments Platform context.\n\n**5. No Containerization or Orchestration Experience**\nNo Docker or Kubernetes experience is listed.\n\n**6. No Mentorship or Technical Leadership Experience**\nThe role requires mentoring junior/mid-level engineers. Dana is early-career with no evidence of mentorship or leading technical initiatives.\n\n**7. No Financial Services or Payments Background**\nNo exposure to regulated industry domains, which is a relevant preferred qualification for this role.\n\n**8. CI/CD Experience is Limited**\nDana contributes to a pipeline maintained by a senior engineer, rather than owning or designing CI/CD infrastructure independently.\n\n---\n\nFINAL: REJECT"
+}

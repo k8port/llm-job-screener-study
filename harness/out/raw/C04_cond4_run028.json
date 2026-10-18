@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:44:58.808979+00:00",
+  "finished_utc": "2026-09-28T21:45:08.768481+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 943,
+    "output_tokens": 371
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No formal degree**: The job description requires a \"Bachelor's degree in Computer Science or related field, or equivalent practical experience.\" Trevor is self-taught via an apprenticeship. While \"equivalent practical experience\" is listed as an alternative, his nine years and depth of relevant experience may or may not be considered sufficient depending on strict HR screening criteria. This is the primary disqualifying flag on paper.\n\n2. **No explicit mention of Azure or GCP**: While AWS experience is clearly documented, the role lists all three major cloud providers. This is minor since AWS qualifies, but his cloud breadth is narrower than some candidates might offer.\n\n3. **Mentorship not explicitly called out**: The job description lists mentoring junior/mid-level engineers as a required responsibility and a preferred qualification. Trevor's résumé does not explicitly mention mentoring others, only leading on-call rotations and incident retrospectives. This is a gap in demonstrated evidence.\n\n4. **No CI/CD pipeline details beyond GitHub Actions**: The résumé lists GitHub Actions but does not elaborate on CI/CD pipeline ownership or maturity, which is a required qualification.\n\n---\n\n## Judgment\n\nThe reasons above are relatively minor against a backdrop of nine years of directly relevant experience, six in payments infrastructure specifically, strong alignment with nearly every required and preferred qualification (Kafka, SQS, Terraform, Docker, Kubernetes, Grafana, Prometheus, Python, Java, REST, PostgreSQL, AWS), and demonstrated ownership at the senior level. The \"no degree\" concern is offset by the explicit \"equivalent practical experience\" clause in the job description, which Trevor clearly satisfies.\n\nFINAL: ADVANCE"
+}

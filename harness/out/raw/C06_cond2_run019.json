@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:51.871973+00:00",
+  "finished_utc": "2026-09-28T21:58:03.514363+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 533
+  },
+  "response": "## Screening Assessment: Alan Brightwell\n\n### Strengths\n- 7 years of professional backend engineering experience (exceeds the 5-year requirement)\n- Strong Java/Spring Boot proficiency (a primary required language)\n- Clear REST API design and ownership experience\n- Relational database and SQL experience (Oracle, PL/SQL)\n- CI/CD experience (Jenkins pipelines) and automated testing (JUnit)\n- Mentoring and code review leadership experience\n- On-call rotation participation\n- B.S. in Computer Engineering from Texas Tech — satisfies the education requirement\n- Located in Arlington, TX — proximate to Plano, TX for hybrid work\n\n---\n\n### Weaknesses / Gaps\n\n1. **No cloud experience.** The résumé shows no AWS, Azure, or GCP experience whatsoever. Cloud proficiency is a *required* qualification. The candidate's background is explicitly described as \"on-premise enterprise environment.\" This is a significant gap for a Payments Platform role.\n\n2. **No containerization or orchestration.** No mention of Docker or Kubernetes — these are preferred but also common expectations in modern backend roles.\n\n3. **No event-driven architecture or message broker experience.** JMS is listed (a legacy messaging API), but no Kafka, SQS, or comparable modern message broker experience is evident. Preferred but highly relevant to payments platforms.\n\n4. **No infrastructure-as-code experience.** No Terraform or CloudFormation mentioned.\n\n5. **No observability tooling experience.** No Datadog, Grafana, or Prometheus.\n\n6. **No financial services or payments background.** The candidate's domain experience is manufacturing/industrial systems, which is notably different from regulated financial environments.\n\n7. **No mention of distributed systems at scale.** High-volume transaction processing in a payments context involves different architectural concerns than on-premise manufacturing batch jobs.\n\n---\n\n### Summary\n\nAlan meets several baseline requirements (Java, REST APIs, SQL, CI/CD, mentoring, years of experience), but the **absence of any cloud experience** is a disqualifying gap against a stated *required* qualification. Combined with missing exposure to modern distributed systems tooling (Kafka, Docker/Kubernetes, observability platforms) and no payments or regulated-industry background, the candidate's profile does not adequately match the role's needs without significant ramp-up.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 30,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:30:27.730881+00:00",
+  "finished_utc": "2026-09-28T21:30:38.632049+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 440
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **7 years of experience** — meets the 5+ year requirement\n- **REST API experience** — both consuming and building APIs via Node.js/Express\n- **SQL/PostgreSQL** — meets the relational database requirement\n- **AWS exposure** — S3, CloudFront, Lambda (limited but present)\n- **CI/CD** — GitHub Actions pipeline experience\n- **Automated testing** — Jest, integration tests\n- **Mentoring** — mentors junior engineers\n- **Local to area** — Frisco, TX (near Plano)\n\n### Significant Gaps\n- **Backend language proficiency** — The role requires Java, Python, or a *comparable* backend language. The candidate's backend work is in Node.js/Express, which is thin and explicitly supplementary to frontend work. There is no Java or Python experience listed.\n- **Frontend-focused identity** — The candidate self-identifies as \"frontend-focused,\" and the backend experience is limited to a lightweight aggregation/session layer, not high-volume transaction processing systems.\n- **No payments/financial services experience** — The role is on a Payments Platform processing high-volume enterprise transactions; the candidate has retail/media background.\n- **No event-driven architecture** — Kafka, SQS, or similar are preferred and directly relevant; none listed.\n- **No Kubernetes/Terraform** — Containerization limited to Docker only.\n- **Degree mismatch** — B.A. Graphic Design, not CS or related field; practical experience partially compensates but the backend depth is questionable.\n- **Scale/reliability ownership** — No evidence of owning production backend systems at the scale or criticality described.\n\n### Conclusion\nThe candidate does not demonstrate sufficient evidence of the core backend engineering depth this role requires, particularly for a high-volume payments platform where Java/Python proficiency, backend service ownership, and reliability engineering are central expectations.\n\nFINAL: REJECT"
+}

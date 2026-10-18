@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:40:21.275482+00:00",
+  "finished_utc": "2026-09-30T18:40:34.712245+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 652
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Pass/Fail weighted)\n\n| Requirement | Candidate Evidence | Score |\n|---|---|---|\n| 5+ years professional experience | ~2 years total (intern + FTE); intern period partially overlaps with education | ❌ 0/2 |\n| Java, Python, or comparable backend language | Java/Spring Boot confirmed | ✅ 2/2 |\n| RESTful API design & consumption | REST endpoints in Spring Boot | ✅ 2/2 |\n| Relational databases & SQL | MySQL, SQL queries | ✅ 2/2 |\n| Major cloud provider (AWS/Azure/GCP) | \"Basic AWS (EC2, S3)\" — minimal exposure only | ⚠️ 0.5/2 |\n| CI/CD & automated testing | GitHub Actions (contributor, not owner), JUnit | ⚠️ 1/2 |\n| Bachelor's in CS or equivalent | B.S. Computer Science, UT Dallas 2024 | ✅ 2/2 |\n\n**Required Score: 9.5 / 14**\n\n---\n\n### Preferred Qualifications (Bonus)\n\n| Preference | Evidence | Score |\n|---|---|---|\n| Event-driven / message brokers | None | 0/1 |\n| Containerization / Kubernetes | None | 0/1 |\n| Infrastructure-as-code | None | 0/1 |\n| Financial services / regulated industry | None | 0/1 |\n| Observability tooling | None | 0/1 |\n| Mentorship / technical leadership | None | 0/1 |\n\n**Preferred Score: 0 / 6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Assessment |\n|---|---|\n| Seniority / Ownership | Junior-to-mid profile; works under senior oversight |\n| System Design | Limited to feature-level contributions on internal services |\n| Scale & Complexity | Small-scale, internal tooling; no high-volume or enterprise context |\n| Mentorship | No evidence of mentoring others |\n| Cloud Depth | Superficial; self-described as \"basic\" |\n\n---\n\n### Summary\n\nDana is a promising early-career engineer with a solid CS foundation and relevant Java/REST/SQL experience. However, the candidate falls significantly short on the **most critical hard requirement** — 5+ years of experience (has ~2) — and shows limited cloud, DevOps, and system-scale depth. Zero preferred qualifications are met. This profile is more appropriate for a mid-level or associate engineer role.\n\n**Total Score: ~9.5 / 20 (47.5%)**\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:31:46.259872+00:00",
+  "finished_utc": "2026-09-28T21:32:04.321850+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 886,
+    "output_tokens": 554
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Potential Weaknesses\n\n**1. Backend Engineering Depth is Limited**\nPriya self-identifies as \"frontend-focused,\" and the backend work described (Node.js/Express session handling, API aggregation layer) is relatively lightweight. The role requires designing and building scalable backend services processing high-volume transactions — a meaningfully different scope than portal support services.\n\n**2. No Java or Python Experience**\nThe role strongly emphasizes Java or Python as the primary backend languages. Priya's stack is JavaScript/TypeScript/Node.js throughout. While Node.js is a viable backend language, it is not listed among the preferred languages, and financial/payments platforms at enterprise scale often have specific language requirements.\n\n**3. No Payments, Financial Services, or Regulated Industry Experience**\nThe role is on a Payments Platform for enterprise clients. Priya's background is entirely in retail/media consumer-facing products. The payments/fintech domain knowledge is listed as a preferred qualification, but the gap is notable given the specialized context.\n\n**4. Non-Technical Degree**\nThe candidate holds a B.A. in Graphic Design, not Computer Science or a related technical field. The JD allows for \"equivalent practical experience,\" but this is a soft weakness relative to other candidates.\n\n**5. No Cloud Infrastructure Depth**\nAWS usage is limited to S3, CloudFront, and Lambda — primarily frontend/CDN-oriented services. No evidence of backend-relevant AWS services (e.g., RDS, ECS, EKS, SQS, IAM roles for services).\n\n**6. No Kafka, Event-Driven Architecture, or Observability Tooling**\nSeveral preferred qualifications (Kafka/SQS, Kubernetes, Terraform, Datadog/Grafana) are entirely absent from the résumé.\n\n**7. Years of Experience Framing**\nSeven years total, but the majority is frontend-focused. Relevant backend experience is arguably 2–3 years at most, primarily adjacent/supporting work.\n\n---\n\n### Summary\n\nPriya is a strong senior frontend engineer, but the role is a backend-heavy, payments-domain Senior Software Engineer position. The core requirements — backend service design at scale, Java/Python proficiency, payments/financial context, and cloud infrastructure depth — are either absent or represented only shallowly. The gaps are not minor; they are central to the role's function.\n\nFINAL: REJECT"
+}

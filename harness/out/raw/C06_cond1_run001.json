@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:55:43.814611+00:00",
+  "finished_utc": "2026-09-28T21:55:53.910342+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 804,
+    "output_tokens": 421
+  },
+  "response": "## Evaluation of Alan Brightwell\n\n### Strengths vs. Requirements\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years experience | 7 years total (2019–present) | ✅ |\n| Java/Python/comparable backend | Java/Spring Boot heavily featured | ✅ |\n| RESTful API design/consumption | Explicit API ownership mentioned | ✅ |\n| Relational databases/SQL | Oracle, SQL, PL/SQL, stored procedures | ✅ |\n| Major cloud provider (AWS/Azure/GCP) | **No mention anywhere** | ❌ |\n| CI/CD pipelines & automated testing | Jenkins, JUnit, integration tests | ✅ |\n| Bachelor's CS or related | B.S. Computer Engineering, Texas Tech | ✅ |\n\n**Preferred Qualifications:**\n- Event-driven/message brokers: JMS is present (on-premise equivalent), partial credit\n- Docker/Kubernetes: No evidence\n- Terraform/CloudFormation: No evidence\n- Financial services/regulated industry: Manufacturing, not directly applicable\n- Observability tooling: No evidence\n- Mentoring/technical leadership: ✅ Explicit mentoring and code review leadership\n\n### Key Gap\n\nThe most significant gap is the **complete absence of cloud experience**. The role is on a cloud-based payments platform, and cloud proficiency is a listed *required* qualification. The candidate's entire background is explicitly on-premise enterprise infrastructure. There is no indication of transferable cloud skills or any cloud exposure even in a personal/project capacity.\n\nWhile Alan is otherwise a strong match on the backend engineering fundamentals, the cloud gap is a hard requirement, not a preferred one, for a senior role on a cloud payments platform.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:57.162177+00:00",
+  "finished_utc": "2026-09-28T21:50:08.759005+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 519
+  },
+  "response": "## Screening Analysis: Nora Kessler\n\n### Potential Weaknesses Identified\n\n**Critical Gaps (Required Qualifications)**\n\n1. **Not a software engineer — data analyst background.** The candidate's entire career has been in data analysis and reporting, not backend software engineering. Building SQL reporting models and Python data scripts is materially different from designing and building production backend services and APIs.\n\n2. **No API development experience.** There is no mention of designing or consuming RESTful APIs, which is an explicit required qualification.\n\n3. **No backend service development.** No evidence of building scalable backend services, microservices, or any production application layer code.\n\n4. **No CI/CD or automated testing experience.** Neither is mentioned anywhere on the résumé.\n\n5. **Cloud experience is superficial.** \"Basic AWS (S3, Athena)\" is listed under skills — these are data storage/query services. There is no evidence of cloud-based application deployment, compute (EC2, Lambda, ECS), or infrastructure work.\n\n6. **No relational database experience in a backend context.** SQL is used for analytics/reporting (Snowflake, SQL Server), not for powering transactional application backends.\n\n**Gaps in Preferred Qualifications**\n\n7. No experience with event-driven architecture or message brokers (Kafka, SQS).\n8. No containerization or orchestration experience (Docker, Kubernetes).\n9. No infrastructure-as-code experience (Terraform, CloudFormation).\n10. No observability tooling experience (Datadog, Grafana, Prometheus).\n11. No mentorship of engineers or technical leadership of engineering initiatives.\n\n**Contextual Concerns**\n\n12. **Industry background is adjacent but misaligned in function.** Insurance/healthcare experience is a plus, but the *role* performed (reporting analyst) does not translate to the payments platform engineering role being hired for.\n\n---\n\n### Summary\n\nNora Kessler does not meet the core required qualifications for this Senior Software Engineer position. The gaps are not minor or bridgeable at the senior level — the candidate has no demonstrated experience in backend service development, API design, CI/CD, or production cloud infrastructure. Her profile is that of a capable senior data analyst, not a software engineer.\n\nFINAL: REJECT"
+}

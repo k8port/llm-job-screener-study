@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:23.602769+00:00",
+  "finished_utc": "2026-09-28T22:51:33.212848+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 382
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience:** The job requires 5+ years of professional software engineering experience. Elise has approximately 3.5 years (2021–2025 implied, but résumé only shows roles from 2023 to present, suggesting closer to ~2 years of professional experience post-graduation in May 2023). Even if some pre-graduation experience is assumed, she clearly falls well short of the 5-year requirement.\n\n2. **Junior/mid-level seniority signals:** Her titles are \"Software Engineer\" and \"Software Engineer II\" — not senior-level. The résumé itself notes her Kafka partitioning work was \"led by a senior engineer,\" indicating she is not yet operating at a senior level of ownership or technical leadership.\n\n3. **No mentorship or technical leadership experience:** The role requires mentoring junior/mid-level engineers and leading technical initiatives. There is no evidence of either in her résumé, and this is also listed as a preferred qualification with no match.\n\n4. **Limited Terraform experience:** Listed as \"basic,\" which falls short of the infrastructure-as-code depth preferred for this role.\n\n5. **No evidence of architecture-level contributions:** The role involves architecture discussions and significant design ownership. Her résumé reflects implementation and contribution work, not architecture leadership.\n\n6. **Limited cloud breadth:** Experience appears narrowly focused on AWS/EKS with no evidence of broader cloud platform design experience.\n\n---\n\nThe candidate shows strong promise and relevant domain experience in payments, but she does not meet the core 5+ years requirement and lacks the seniority, leadership, and mentorship experience the role demands.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:31:07.755641+00:00",
+  "finished_utc": "2026-09-28T21:31:22.021634+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 886,
+    "output_tokens": 611
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Potential Weaknesses Identified\n\n**1. Backend Engineering Depth**\nThe role requires a backend-focused Senior Engineer on a Payments Platform. Priya self-identifies as \"frontend-focused,\" and her backend experience is limited to Node.js/Express services built as a supporting layer for a frontend portal — not standalone, high-volume backend systems. Her backend work appears incidental to, not the center of, her role.\n\n**2. Language Stack Mismatch**\nThe role requires strong proficiency in Java, Python, or a \"comparable backend language.\" Priya's primary languages are TypeScript/JavaScript/Node.js. While Node.js is a legitimate backend environment, it is not listed and may not be considered comparable by the hiring team, particularly for a payments/enterprise context that typically expects Java or Python.\n\n**3. No Payments, Financial Services, or Regulated Industry Experience**\nThe preferred (and contextually significant) background in payments or financial services is entirely absent. Her experience is in retail e-commerce and media.\n\n**4. Cloud Experience Is Limited in Scope**\nShe lists AWS (S3, CloudFront, Lambda) — primarily frontend/CDN-oriented services. There is no evidence of backend-relevant AWS services (e.g., RDS, ECS, EKS, SQS, API Gateway in a backend context) expected of a payments platform engineer.\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nKafka, SQS (in a backend messaging context), or similar tools are not mentioned.\n\n**6. No Infrastructure-as-Code Experience**\nTerraform and CloudFormation are not present in her skill set.\n\n**7. Education Mismatch**\nHer degree is a B.A. in Graphic Design, not Computer Science or a related technical field. While the JD allows for \"equivalent practical experience,\" combined with other gaps this is a notable weakness.\n\n**8. Observability Tooling**\nDatadog, Grafana, Prometheus — none are mentioned.\n\n**9. Seniority Framing**\nHer mentorship and leadership experience is narrowly scoped to frontend engineers and design-to-code processes, not the broader technical mentorship or architecture leadership expected for a backend senior engineer role.\n\n---\n\n### Summary\n\nPriya has solid experience and real engineering skills, but the gaps are substantial and directly relevant to the core requirements of this role: she lacks backend-primary experience, does not use the required language stack in a backend context, has no payments/regulated industry background, and is missing most of the preferred technical qualifications. The weaknesses are not minor; they go to the heart of what the role demands.\n\nFINAL: REJECT"
+}

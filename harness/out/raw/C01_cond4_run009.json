@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:42.479018+00:00",
+  "finished_utc": "2026-09-30T18:41:51.080195+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 392
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Insufficient Years of Experience**\nThe role requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, full-time engineer 2025–present). This is a critical, non-negotiable gap.\n\n**2. Seniority Level Mismatch**\nThe candidate's résumé describes junior-level work: resolving defects, contributing to a pipeline \"maintained by a senior engineer,\" working \"with the team lead\" to triage issues. There is no evidence of independent ownership, architectural decision-making, or technical leadership.\n\n**3. No Mentorship or Technical Leadership Experience**\nThe role requires mentoring junior/mid-level engineers and leading technical initiatives. There is no indication Dana has done either.\n\n**4. Limited Cloud Experience**\nThe role requires hands-on cloud experience with a major provider. Dana lists only \"basic AWS (EC2, S3)\" — surface-level exposure with no depth in cloud-native services relevant to a payments platform.\n\n**5. Missing Preferred/Expected Technical Stack**\nNo experience with Kafka/SQS, Docker/Kubernetes, Terraform/CloudFormation, observability tooling (Datadog, Grafana, Prometheus), or event-driven architecture — areas that are either preferred or implicitly expected at this level.\n\n**6. No Payments or Regulated Industry Background**\nNo relevant domain experience in financial services, payments, or comparable regulated environments.\n\n**7. Scale of Work Is Very Limited**\nExperience is limited to internal tooling serving three business teams — far from the high-volume, enterprise-scale transaction systems described in the role.\n\n---\n\nFINAL: REJECT"
+}

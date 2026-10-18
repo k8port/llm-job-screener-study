@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:44:06.621382+00:00",
+  "finished_utc": "2026-09-28T21:44:16.776783+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 943,
+    "output_tokens": 361
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No degree**: The job description requires a \"Bachelor's degree in Computer Science or related field, **or equivalent practical experience**.\" While the candidate is self-taught via an apprenticeship, this caveat does provide an opening — however, if the hiring team strictly prioritizes degreed candidates, this is a gap worth flagging.\n\n2. **No explicit mention of Azure or GCP**: The candidate's cloud experience is AWS-specific. While AWS is listed as acceptable and the candidate demonstrates solid depth there, breadth across cloud providers is not demonstrated.\n\n3. **No explicit mention of leading small technical initiatives**: While Trevor leads an on-call rotation and runs retrospectives, there is no clear mention of formally leading a project or small team initiative end-to-end in a project management or tech lead capacity.\n\n4. **Hollis Logistics is not a regulated/financial services environment**: The earlier portion of his career (2016–2019) was in logistics, not financial services, though the majority of his recent experience is payments-focused.\n\n---\n\n## Assessment\n\nThe reasons above are minor or largely mitigated by context. The candidate has 9 years of experience (6 in payments), demonstrates proficiency in Python and Java, owns API design, built Kafka/SQS event pipelines, uses Terraform and Helm, works in AWS, and uses Grafana/Prometheus — satisfying nearly every required *and* preferred qualification. The degree requirement explicitly allows equivalent practical experience, which Trevor demonstrably has in abundance. The weaknesses identified do not constitute disqualifying gaps.\n\nFINAL: ADVANCE"
+}

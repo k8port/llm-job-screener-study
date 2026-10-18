@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:01:12.624341+00:00",
+  "finished_utc": "2026-09-28T22:01:22.868978+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 416
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps vs. Required Qualifications:**\n\n1. **No cloud experience** – The job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). Alan's résumé explicitly describes an \"on-premise enterprise environment\" with no mention of any cloud platform. This is a hard requirement for a Payments Platform cloud-native role.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins** – While Jenkins is mentioned, it appears limited to adding integration test stages. There is no evidence of mature CI/CD pipeline design or ownership, which is a required qualification.\n\n**Gaps vs. Preferred Qualifications:**\n\n3. **No event-driven architecture / message broker experience** – JMS is listed as a skill, but there is no mention of Kafka, SQS, or comparable modern message brokers preferred for high-volume transaction systems.\n\n4. **No containerization or orchestration experience** – Docker and Kubernetes are absent entirely.\n\n5. **No infrastructure-as-code experience** – No mention of Terraform, CloudFormation, or similar tools.\n\n6. **No financial services or payments background** – His domain experience is manufacturing/inventory, not a regulated financial environment.\n\n7. **No observability tooling experience** – No mention of Datadog, Grafana, Prometheus, or equivalent tools.\n\n**Additional Concerns:**\n\n8. **Entirely on-premise background** – The Payments Platform role likely demands cloud-native design patterns; the candidate's entire career has been in on-premise environments, representing a meaningful skills gap in context.\n\n---\n\nThe absence of cloud experience alone disqualifies Alan from a role that lists it as a **required** qualification. Combined with the breadth of preferred-qualification gaps, he is not a competitive candidate for this position at this time.\n\nFINAL: REJECT"
+}

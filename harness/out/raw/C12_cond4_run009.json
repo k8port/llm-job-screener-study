@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:14.844363+00:00",
+  "finished_utc": "2026-09-28T22:51:23.601613+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 347
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience.** The role requires 5+ years of professional software engineering experience. Elise graduated in 2023 and has approximately 1.5–2 years of professional experience. Even if internships or pre-graduation work are assumed, she falls well short of the 5-year requirement.\n\n2. **Junior-to-mid level seniority, not senior.** Her current title is \"Software Engineer II,\" and her prior title was \"Software Engineer.\" Neither reflects senior-level standing. Her résumé also notes that a key architectural contribution (Kafka consumer group partitioning) was \"led by a senior engineer,\" suggesting she is not yet operating at a senior technical leadership level.\n\n3. **No demonstrated mentorship or technical leadership.** The role requires mentoring mid-level and junior engineers and leading technical initiatives. There is no evidence of this on her résumé.\n\n4. **Limited architecture/design ownership.** The role requires significant ownership over service design. Her experience is primarily implementation-level, with design contributions scoped to individual endpoints or features rather than system-wide architecture.\n\n5. **Infrastructure-as-code noted as only \"basic.\"** Terraform experience is self-described as basic, which is a gap relative to the preferred qualifications.\n\n## Judgment\n\nDespite a strong technical skill set and a relevant payments background, the candidate does not meet the threshold requirement of 5+ years of experience and shows no evidence of senior-level ownership, mentorship, or architectural leadership.\n\nFINAL: REJECT"
+}

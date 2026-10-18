@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 9,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:39:29.999058+00:00",
+  "finished_utc": "2026-09-28T21:39:39.682849+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 945,
+    "output_tokens": 359
+  },
+  "response": "## Evaluation\n\n**Experience & Seniority**\nTrevor has nine years of professional software engineering experience, with six specifically in payments infrastructure — directly matching the core domain of this role. He currently holds a Senior Software Engineer title at a payments company, performing work nearly identical to what this role requires.\n\n**Required Qualifications Assessment**\n\n| Requirement | Evidence |\n|---|---|\n| 5+ years experience | ✅ 9 years total |\n| Java or Python proficiency | ✅ Both languages used actively |\n| RESTful API design/consumption | ✅ Owns partner API integration surface |\n| Relational databases & SQL | ✅ PostgreSQL, SQL-backed batch jobs |\n| Major cloud provider | ✅ AWS (ECS, SQS, RDS, Lambda) |\n| CI/CD & automated testing | ✅ GitHub Actions, pytest, introduced integration testing |\n| Degree or equivalent experience | ✅ JD explicitly allows \"equivalent practical experience\"; 9 years qualifies |\n\n**Preferred Qualifications Assessment**\nTrevor satisfies nearly every preferred qualification: Kafka/SQS (event-driven architecture), Docker/Kubernetes/Helm (containerization/orchestration), Terraform (IaC), payments industry background, Grafana/Prometheus (observability), and on-call leadership/retrospectives (mentoring/technical leadership).\n\n**Summary**\nThe evidence is strong and specific. Trevor's current role is substantively the same job being hired for, in the same domain, using the same technologies.\n\nFINAL: ADVANCE"
+}

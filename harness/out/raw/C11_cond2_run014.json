@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:38.482196+00:00",
+  "finished_utc": "2026-09-28T22:40:47.396653+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 415
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Role: Senior Software Engineer – Payments Platform\n\n---\n\n### Identified Weaknesses\n\n**Critical Gaps (Required Qualifications):**\n\n1. **No software engineering experience.** Curtis is a systems administrator. His background is in infrastructure operations, not software development. The role requires 5+ years of professional *software engineering* experience building backend services.\n\n2. **No proficiency in Java or Python (or comparable backend language).** His scripting is limited to Bash and PowerShell — operational automation tools, not backend application development languages.\n\n3. **No experience designing or consuming RESTful APIs.** There is no mention of API design or integration work anywhere in his résumé.\n\n4. **SQL listed as \"basic\" only.** The role requires solid experience with relational databases; self-described basic proficiency does not meet this bar.\n\n5. **No CI/CD pipeline experience.** Not mentioned at all.\n\n6. **No automated testing experience.** Not mentioned at all.\n\n**Preferred Qualification Gaps:**\n\n7. No experience with event-driven architecture or message brokers (Kafka, SQS, etc.).\n8. No Kubernetes or container orchestration experience (Docker noted as \"basic\").\n9. No infrastructure-as-code experience (Terraform, CloudFormation).\n10. No observability tooling relevant to software systems (Datadog, Grafana, Prometheus).\n11. No experience mentoring engineers or leading technical initiatives.\n\n### Summary\n\nCurtis has nine years of solid infrastructure and systems administration experience, with some relevant adjacent exposure (Azure, Docker basics, SQL basics). However, he lacks nearly every core required qualification for a Senior Software Engineer role. This is a fundamentally different discipline from his background, and there is no evidence of software development work on his résumé.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:17.303964+00:00",
+  "finished_utc": "2026-09-28T22:15:29.277450+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 462
+  },
+  "response": "## Candidate Screening: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n1. **QA/Testing background, not software development.** The role is for a Senior Software Engineer building backend services. Pemberton's entire career has been in quality engineering and test automation — not designing or building production backend services or APIs. Writing API *tests* is fundamentally different from designing and building APIs.\n\n2. **No hands-on cloud experience.** The job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). No cloud experience appears anywhere on the résumé.\n\n3. **No database/backend service development experience.** SQL is listed as a skill, but there is no evidence of designing schemas, optimizing queries, or building data-access layers as part of production systems. SQL used in a QA context is not equivalent.\n\n4. **No CI/CD pipeline *development* experience.** Pemberton maintains test execution stages in Jenkins, but building and owning CI/CD pipelines for software delivery is a different and deeper responsibility than running test stages.\n\n5. **Effectively ~2 years of relevant (senior-level) coding.** The \"five years\" of experience is QA experience. Only the most recent two years include meaningful Java coding, and that coding is scoped to test automation frameworks, not production service development.\n\n6. **No experience with preferred qualifications.** No evidence of Kafka/SQS, Docker/Kubernetes, Terraform, financial services background, or observability tooling.\n\n7. **Self-identifies as transitioning toward software development.** The candidate's own summary acknowledges they are not yet a software engineer — a significant mismatch for a senior-level role.\n\n8. **No mentorship or technical leadership experience** aligned with what the role requires.\n\n---\n\n### Summary\n\nPemberton does not meet the core required qualifications for a Senior Software Engineer role. The gap between test automation engineering and backend service design/development is substantial, and virtually none of the required or preferred qualifications are satisfied beyond surface-level skill mentions.\n\nFINAL: REJECT"
+}

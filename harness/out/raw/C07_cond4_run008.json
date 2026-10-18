@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:09:37.787747+00:00",
+  "finished_utc": "2026-09-28T22:09:48.290105+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 417
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **No Java experience mentioned.** The job description lists Java as the primary preferred backend language. The candidate's entire stack is Python-only. While Python is listed as an alternative, the Payments Platform team may have a Java-heavy codebase, and this gap could be significant.\n\n2. **Data engineering background, not backend/application engineering.** The candidate's experience is centered on data pipelines, ETL, and data platform work — not building transactional backend services or payment processing systems. The role requires designing services that *process high-volume transactions*, which is architecturally and operationally different from ingesting and transforming data.\n\n3. **No financial services or payments experience.** The job lists this as a preferred qualification. The candidate's background is in analytics/data platforms and healthcare reporting — no payments domain exposure is evident.\n\n4. **Mentorship experience is unclear.** The job explicitly calls for mentoring mid-level and junior engineers. No such experience is mentioned anywhere on the résumé.\n\n5. **API design appears secondary, not primary.** REST API design is listed as a growing area in the candidate's own summary (\"growing ownership\"), suggesting it is not yet a core strength — whereas the role requires strong API design as a primary responsibility.\n\n6. **Degree is in Information Systems, not Computer Science or a directly related field.** This is a minor point, but the JD specifies CS or related field, and IS is a softer fit.\n\n---\n\nDespite strong technical overlap in tooling (Kafka, Terraform, Kubernetes, Prometheus, AWS), the candidate's core identity and experience are as a **data platform engineer**, not a **backend software engineer** building transactional systems. The role's requirements — transaction processing services, API-first design, mentorship, and payments domain — are not well-matched.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:21.638001+00:00",
+  "finished_utc": "2026-09-28T22:00:31.858163+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 424
+  },
+  "response": "## Reasons Against Advancing Alan Brightwell\n\n**Hard Gaps vs. Required Qualifications:**\n\n1. **No cloud experience (AWS, Azure, or GCP):** The job explicitly requires hands-on experience with a major cloud provider. Alan's entire background is in an on-premise enterprise environment — this is explicitly noted in his own summary. This is a significant gap for a Payments Platform role.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins stages:** The résumé mentions introducing Jenkins pipeline stages, but this appears limited in scope. There is no mention of modern CI/CD tooling (GitHub Actions, CircleCI, ArgoCD, etc.), and the experience described is narrow.\n\n**Gaps vs. Preferred Qualifications:**\n\n3. **No event-driven architecture or modern message broker experience:** JMS is listed, but no Kafka, SQS, RabbitMQ, or equivalent modern tooling — which is particularly relevant for high-volume payments processing.\n\n4. **No containerization or orchestration experience:** No Docker or Kubernetes mentioned anywhere.\n\n5. **No infrastructure-as-code experience:** Terraform, CloudFormation, or equivalents are absent.\n\n6. **No financial services or payments domain experience:** His background is manufacturing (order processing, inventory), not payments or any regulated financial industry.\n\n7. **No observability tooling:** Datadog, Grafana, Prometheus — none present.\n\n**Other Concerns:**\n\n8. **On-premise focus throughout career:** A role on a cloud-native Payments Platform will likely require rapid cloud onboarding with minimal ramp time, which represents meaningful delivery risk.\n\n---\n\nThe absence of cloud experience alone is a disqualifying gap against a stated **required** qualification for a senior-level role. Combined with the breadth of missing preferred qualifications in areas central to the role, the candidate does not meet the bar.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:24.407024+00:00",
+  "finished_utc": "2026-09-28T22:26:34.409481+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 503
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Missing or Weak Required Qualifications:**\n\n1. **No cloud experience** – The résumé lists no experience with AWS, Azure, or GCP, which is a stated required qualification. This is a significant gap for a role building cloud-native payments infrastructure.\n\n2. **No RESTful API design/consumption experience** – The candidate's Java work is limited to Java 8 web services in a mainframe-adjacent context (JSP, Servlets, WebSphere). There is no mention of designing or consuming modern RESTful APIs.\n\n3. **No CI/CD pipeline experience** – Jenkins is listed as \"basic,\" and the prior role describes only quarterly release cycles with regression testing. This does not meet the hands-on CI/CD requirement.\n\n4. **Outdated Java skillset** – Java 8 was released in 2014. No indication of experience with modern Java versions (11, 17, 21) or contemporary frameworks (Spring Boot, Quarkus, etc.).\n\n5. **No automated testing experience** – There is no mention of unit, integration, or end-to-end testing practices.\n\n**Missing Preferred Qualifications:**\n\n6. **No event-driven architecture or message broker experience** (Kafka, SQS, etc.)\n7. **No containerization or orchestration experience** (Docker, Kubernetes)\n8. **No infrastructure-as-code experience** (Terraform, CloudFormation)\n9. **No observability tooling experience** (Datadog, Grafana, Prometheus)\n10. **No evidence of mentoring or leading technical initiatives**\n\n**General Concerns:**\n\n11. **Mainframe-centric background** – The bulk of experience (COBOL, JCL, z/OS, DB2 batch) is in legacy mainframe environments, which is architecturally distant from the modern distributed backend services this role requires.\n12. **Limited Git proficiency** – Listed as \"basic,\" which is insufficient for a senior-level collaborative engineering role.\n13. **Technology currency** – Despite 16 years of experience, the candidate's skill set has not kept pace with modern backend engineering practices expected at the senior level.\n\n---\n\nFINAL: REJECT"
+}

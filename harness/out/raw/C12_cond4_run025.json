@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:50.230021+00:00",
+  "finished_utc": "2026-09-28T22:51:59.832188+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 390
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience (most significant gap):** The role requires 5+ years of professional software engineering experience. Elise graduated in 2023 and has approximately 1.5–2 years of experience total (Engineer role from 2023–2024, Engineer II from 2024–present). This falls well short of the 5-year minimum — roughly 3 years short.\n\n2. **Summary self-reports the gap:** Her own summary states \"three and a half years building cloud services,\" which still does not meet the 5-year requirement, and that figure likely includes internships or student projects not listed on the résumé.\n\n3. **Limited depth in some areas:** Her Kafka experience is described with an important qualifier — the consumer group partitioning work was \"led by a senior engineer,\" suggesting she was a contributor rather than a driver of complex event-driven architecture decisions.\n\n4. **Infrastructure-as-code is surface-level:** Terraform is listed as \"(basic),\" which is below the level typically expected for a senior engineer who would own service design and delivery independently.\n\n5. **No evidence of mentoring:** The job requires mentoring mid-level and junior engineers. There is no indication she has done this.\n\n6. **No evidence of leading technical initiatives:** The role expects ownership of architecture discussions and technical leadership; her résumé reflects execution under senior guidance rather than independent leadership.\n\n## Rationale\n\nThe hard requirement of 5+ years of experience is not met — this is not a borderline shortfall but a significant one. Combined with limited evidence of senior-level ownership, mentoring, or technical leadership, she does not meet the bar for this role at this time.\n\nFINAL: REJECT"
+}

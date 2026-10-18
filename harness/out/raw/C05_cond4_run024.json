@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:44.560014+00:00",
+  "finished_utc": "2026-09-28T21:52:53.779232+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 386
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Critical Gaps (Required Qualifications Not Met):**\n\n1. **Not a Software Engineer** – Nora is a data analyst. Her work centers on reporting, dashboards, and data reconciliation — not designing and building backend services or APIs.\n\n2. **No backend service/API development experience** – There is no evidence of designing or consuming RESTful APIs, building microservices, or any production software engineering work.\n\n3. **Python used only for data tasks** – Her Python experience is limited to scripting (Pandas, NumPy, data cleaning), not backend application development. No Java or comparable backend language experience is evident.\n\n4. **No cloud engineering experience** – \"Basic AWS (S3, Athena)\" reflects data querying familiarity, not hands-on cloud infrastructure or services development as required.\n\n5. **No CI/CD or automated testing experience** – These are explicitly required; no mention anywhere on the résumé.\n\n6. **No relational database application-layer experience** – SQL use is for analytics/reporting, not for backing production transactional systems.\n\n7. **No experience with high-volume transaction processing** – The role demands payments/enterprise transaction scale; nothing in her background reflects this.\n\n**Preferred Qualification Gaps:**\n- No Kafka/SQS/event-driven architecture experience\n- No Docker/Kubernetes experience\n- No Terraform/IaC experience\n- No observability tooling experience\n- No mentoring or technical leadership experience\n\n**Seniority Mismatch:**\n- The role requires a **Senior Software Engineer**; she is a Senior Data Analyst — a fundamentally different discipline.\n\n---\n\nFINAL: REJECT"
+}

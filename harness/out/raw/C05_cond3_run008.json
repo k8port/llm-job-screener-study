@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:50:40.429768+00:00",
+  "finished_utc": "2026-09-28T21:50:54.817636+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 712
+  },
+  "response": "## Screening Scorecard: Nora Kessler\n\n---\n\n### Required Qualifications (Pass/Fail & Weighted Scoring)\n\n| Requirement | Weight | Assessment | Score |\n|---|---|---|---|\n| 5+ years professional software engineering experience | High | **Gap** – 6 years of experience, but as a *data analyst*, not a software engineer. No backend service development evident. | 1/3 |\n| Strong proficiency in Java, Python, or comparable backend language | High | Partial – Python is listed, but usage is limited to scripting (Pandas, data cleaning). No backend/service development in Python. | 1/3 |\n| Experience designing and consuming RESTful APIs | High | **Not present** – No mention of API design or consumption anywhere in the résumé. | 0/3 |\n| Relational databases and SQL | Medium | **Met** – Strong SQL skills across Snowflake, SQL Server. However, context is analytics, not transactional/application DB work. | 2/3 |\n| Hands-on cloud experience (AWS, Azure, GCP) | Medium | **Minimal** – \"Basic AWS (S3, Athena)\" – analytics-oriented, not compute/infrastructure. | 1/3 |\n| CI/CD pipelines and automated testing | Medium | **Not present** – No evidence of CI/CD or automated testing. | 0/3 |\n| Bachelor's degree in CS or related field | Low | **Partial** – B.S. Statistics; adjacent but not CS or engineering. Practical experience waiver does not apply given overall profile. | 2/3 |\n\n**Required Qualifications Raw Score: 7/21 (33%)**\n\n---\n\n### Preferred Qualifications\n\n| Preference | Met? |\n|---|---|\n| Event-driven architecture / Kafka / SQS | No |\n| Docker / Kubernetes | No |\n| Terraform / IaC | No |\n| Financial services / regulated industry background | **Yes** – Insurance industry (Wexford, Cadence Health) |\n| Observability tooling | No |\n| Mentoring / technical leadership | No |\n\n**Preferred Qualifications: 1/6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Notes |\n|---|---|\n| Backend service design & development | No evidence |\n| Systems architecture | No evidence |\n| Production reliability / on-call | No evidence |\n| Mentorship of engineers | No evidence |\n| Domain relevance (payments/financial) | Partial – insurance adjacent |\n\n---\n\n### Summary\n\nNora is a competent data professional with solid SQL skills and regulated-industry experience, but her profile is fundamentally misaligned with this role. The position requires backend service engineering (APIs, distributed systems, CI/CD, cloud infrastructure), none of which appear in her background. Her Python usage is analytical, not engineering-oriented, and she lacks the core technical profile expected of a Senior Software Engineer on a Payments Platform.\n\n**Overall Score: ~30% alignment with role requirements**\n\n---\n\nFINAL: REJECT"
+}

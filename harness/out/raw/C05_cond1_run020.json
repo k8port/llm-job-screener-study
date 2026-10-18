@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:48:43.742564+00:00",
+  "finished_utc": "2026-09-28T21:48:52.549535+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 838,
+    "output_tokens": 355
+  },
+  "response": "## Evaluation\n\n**Role:** Senior Software Engineer – Payments Platform (backend services, high-volume transaction systems)\n\n### Key Requirements vs. Candidate Profile\n\n| Requirement | Evidence in Résumé |\n|---|---|\n| 5+ years software engineering experience | ❌ Six years of *data analyst* experience — not software engineering |\n| Java, Python, or comparable backend language | Partial ✓ — Python used for scripting/data cleaning, not backend service development |\n| RESTful API design and consumption | ❌ No evidence |\n| Relational databases / SQL | ✓ Strong SQL skills, but in analytical/reporting context |\n| Major cloud provider (AWS, Azure, GCP) | ❌ \"Basic AWS (S3, Athena)\" — surface-level, data-oriented usage only |\n| CI/CD pipelines and automated testing | ❌ No evidence |\n| Backend service design and scalability | ❌ No evidence |\n| Payments/financial systems experience | ❌ Insurance industry, not payments |\n| Mentoring engineers | ❌ No evidence |\n\n### Summary\n\nNora has a solid analytical background with real SQL and Python proficiency, but her experience is fundamentally in **data analytics and reporting**, not backend software engineering. There is no evidence of building APIs, designing distributed systems, working with CI/CD, containerization, message brokers, or any of the core engineering competencies the role requires. The gap between her background and this role is substantial, not incremental.\n\nFINAL: REJECT"
+}

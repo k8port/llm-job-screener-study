@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:39:48.364409+00:00",
+  "finished_utc": "2026-09-28T21:39:56.607462+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 945,
+    "output_tokens": 384
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n- ✅ **5+ years experience** — 9 years total, 6 in payments specifically\n- ✅ **Java/Python proficiency** — Uses both actively in production payments systems\n- ✅ **RESTful API design/consumption** — Owns partner API integration surface, versioned REST contracts\n- ✅ **Relational databases/SQL** — PostgreSQL experience explicitly listed\n- ✅ **Major cloud provider** — AWS (ECS, SQS, RDS, Lambda) listed\n- ✅ **CI/CD and automated testing** — GitHub Actions, introduced automated integration testing\n- ✅ **Degree or equivalent practical experience** — No degree, but 9 years of professional experience including a structured apprenticeship; the JD explicitly allows \"equivalent practical experience\"\n\n**Preferred Qualifications Assessment:**\n\n- ✅ **Event-driven architecture/message brokers** — Kafka and SQS pipeline built and owned\n- ✅ **Containerization/orchestration** — Docker, Kubernetes, Helm\n- ✅ **Infrastructure-as-code** — Terraform modules explicitly mentioned\n- ✅ **Financial services/payments background** — 6 years in payments infrastructure\n- ✅ **Observability tooling** — Grafana, Prometheus listed\n- ✅ **Mentoring/technical leadership** — On-call rotation lead, incident retrospectives\n\n**Summary:** This candidate meets every required qualification and nearly every preferred qualification. The payments domain experience, technical breadth, and demonstrated ownership are a strong match for this role.\n\nFINAL: ADVANCE"
+}

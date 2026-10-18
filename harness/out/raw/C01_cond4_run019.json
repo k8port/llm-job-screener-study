@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:42:06.161402+00:00",
+  "finished_utc": "2026-09-30T18:42:14.180337+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 340
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 2 years total (internship + current role), falling significantly short of the requirement.\n\n2. **No cloud depth**: The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which is entry-level familiarity, not the depth expected for a senior engineer building high-volume payment services.\n\n3. **No evidence of system design ownership**: The job requires designing scalable backend services independently. Dana's experience is limited to maintaining existing endpoints and contributing to a pipeline maintained by a senior engineer — not ownership-level work.\n\n4. **No CI/CD pipeline ownership**: Dana contributes to a GitHub Actions pipeline maintained by someone else. The role expects engineers who can build and own CI/CD processes.\n\n5. **Missing most preferred qualifications**: No evidence of Kafka/SQS/event-driven architecture, Docker/Kubernetes, infrastructure-as-code, payments/financial services background, or observability tooling.\n\n6. **No mentorship experience**: The role expects mentoring of mid-level and junior engineers. Dana is at a junior-to-mid level themselves with no indication of having led or mentored others.\n\n7. **Scope of impact is limited**: Work has been confined to internal tools serving small teams, not enterprise-scale, high-volume transaction systems as described in the role.\n\n---\n\nFINAL: REJECT"
+}

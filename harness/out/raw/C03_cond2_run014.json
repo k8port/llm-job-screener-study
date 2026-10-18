@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 14,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:31:17.286961+00:00",
+  "finished_utc": "2026-09-28T21:31:30.623769+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 886,
+    "output_tokens": 561
+  },
+  "response": "## Screening Assessment: Priya Ashford\n\n### Potential Weaknesses\n\n**1. Frontend-Dominant Background**\nPriya's career is explicitly self-described as \"frontend-focused.\" The target role is a backend/payments platform engineering position. Her backend work (Node.js/Express) appears to be a secondary, supporting function to her frontend responsibilities — not her primary domain.\n\n**2. Wrong Language Stack**\nThe role requires strong proficiency in **Java, Python, or a comparable backend language**. Priya's stack is TypeScript/JavaScript/Node.js. While Node.js is a backend runtime, it is not the language the team is hiring around, and there is no evidence of Java or Python experience.\n\n**3. No Payments, Financial Services, or Regulated Industry Experience**\nThe role is on a Payments Platform team. Priya's background is entirely in retail and media. There is no exposure to payments, financial systems, compliance environments, or comparable regulated contexts — even in the preferred qualifications sense.\n\n**4. Cloud Experience is Shallow and Frontend-Oriented**\nHer AWS experience is limited to S3, CloudFront, and Lambda — primarily static hosting and CDN services. The role expects meaningful cloud experience building scalable backend systems; there's no evidence of that here.\n\n**5. No Event-Driven Architecture or Message Broker Experience**\nNo mention of Kafka, SQS, or any messaging/streaming systems.\n\n**6. No Containerization Orchestration or IaC**\nDocker is listed in skills, but Kubernetes and infrastructure-as-code tools (Terraform, CloudFormation) are absent.\n\n**7. Non-Technical Degree**\nHer degree is a B.A. in Graphic Design, which is tangential to CS. While practical experience can compensate, her practical experience is also predominantly frontend.\n\n**8. No Observability Tooling**\nNo mention of Datadog, Grafana, Prometheus, or similar production monitoring tools.\n\n**9. Mentorship Scope is Limited**\nHer mentorship is frontend-specific (junior frontend engineers, design-to-code reviews) — not the backend/platform engineering mentorship the role calls for.\n\n---\n\n### Summary\n\nPriya has solid seniority and genuine engineering competence, but her profile is misaligned with this role across nearly every key dimension: language stack, backend depth, domain experience (payments/financial), and cloud/infrastructure sophistication. The gaps are fundamental, not peripheral.\n\nFINAL: REJECT"
+}

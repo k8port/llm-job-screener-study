@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:44.491234+00:00",
+  "finished_utc": "2026-09-28T22:23:56.438151+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 501
+  },
+  "response": "## Screening Analysis: Raymond Dolliver\n\n### Potential Weaknesses\n\n**1. No Cloud Experience**\nThe candidate's résumé shows no exposure to AWS, Azure, or GCP. Cloud proficiency is a **required** qualification. His entire stack is on-premises/mainframe (z/OS, WebSphere).\n\n**2. Outdated Java Practices**\nThe candidate lists Java 8 specifically, with a JSP/Servlet background. This is significantly behind modern Java development (Java 17/21 LTS, Spring Boot, reactive frameworks). No mention of modern Java ecosystems.\n\n**3. No RESTful API Experience**\nRequired qualification explicitly calls out REST API design and consumption. Candidate's web development background is JSP/Servlet-based (server-side rendering), with no indication of REST API work.\n\n**4. No CI/CD or Automated Testing Experience of Note**\nJenkins is listed as \"basic\" and there is no mention of automated testing frameworks (JUnit, pytest, etc.). CI/CD proficiency is a **required** qualification.\n\n**5. No Modern Version Control Practices**\nGit is listed as \"basic\"; primary VCS experience appears to be Subversion. This raises concerns about collaboration in a modern engineering environment.\n\n**6. No Event-Driven Architecture or Containerization**\nNo mention of Kafka, SQS, Docker, Kubernetes, or Terraform — all preferred qualifications.\n\n**7. No Mentorship or Technical Leadership Evidence**\nNo indication of mentoring engineers or leading technical initiatives, which is both a preferred qualification and a stated job responsibility.\n\n**8. Primarily Mainframe/Legacy Stack**\nThe dominant skill set (COBOL, JCL, z/OS, DB2) is not transferable to modern backend cloud-native services development central to this role.\n\n### Summary\n\nRaymond has 16 years of experience in a regulated financial environment and meets the education and SQL requirements. However, he is missing **multiple required qualifications** — most critically cloud experience, REST API design, and meaningful CI/CD/testing experience — and his overall technical profile is heavily legacy/mainframe-oriented, which is misaligned with the modern, cloud-native Payments Platform role.\n\nFINAL: REJECT"
+}

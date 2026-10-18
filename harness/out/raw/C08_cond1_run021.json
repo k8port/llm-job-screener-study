@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:17.980389+00:00",
+  "finished_utc": "2026-09-28T22:14:28.275857+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 402
+  },
+  "response": "## Evaluation of Grant Pemberton for Senior Software Engineer (Payments Platform)\n\n### Strengths / Supporting Evidence\n\n- **Years of experience**: ~5 years in a technical software role (2020–present), meeting the minimum threshold on paper.\n- **Java proficiency**: Actively uses Java for test automation, which demonstrates real coding ability.\n- **REST API familiarity**: Has written API-level tests against REST endpoints, showing some understanding of API design and consumption.\n- **SQL**: Listed as a skill.\n- **CI/CD**: Maintains Jenkins pipeline stages.\n- **Education**: B.S. in IT from Texas State University is a related field.\n\n### Gaps / Concerns\n\n- **Role type mismatch**: The candidate is a QA/test engineer, not a software developer. Writing test code is meaningfully different from designing and building production backend services and APIs from scratch.\n- **No backend service development**: There is no evidence of designing, building, or owning production backend systems — the core requirement of this role.\n- **No cloud experience**: AWS, Azure, or GCP is a required qualification; none is mentioned.\n- **No database/backend design experience**: SQL is listed but only in the context of testing.\n- **No experience with Kafka, containers, Kubernetes, Terraform, or observability tooling** (all preferred but collectively signal a gap).\n- **Mentorship/technical leadership**: No evidence of mentoring engineers.\n- **Candidate's own summary** acknowledges a transition toward development, signaling this is not yet their current capability level.\n\n### Conclusion\n\nThe evidence does not support the conclusion that this candidate could successfully perform the role as described. The required hands-on backend engineering experience — designing scalable services, cloud infrastructure, production ownership — is absent.\n\nFINAL: REJECT"
+}

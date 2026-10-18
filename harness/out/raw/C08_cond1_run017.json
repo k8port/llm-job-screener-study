@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:08.105851+00:00",
+  "finished_utc": "2026-09-28T22:14:17.979374+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 409
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **5 years of professional experience** in software engineering-adjacent work (QA/automation)\n- **Java proficiency** demonstrated through building and maintaining automated test suites\n- **REST API experience** via API-level testing (REST Assured, Postman), though from a testing rather than design/build perspective\n- **SQL listed** as a skill\n- **CI/CD exposure** via Jenkins pipeline maintenance\n- **Relevant degree** (B.S. IT from Texas State University)\n- Located in Garland, TX — close to Plano, TX (hybrid role)\n\n### Gaps and Concerns\n\n**Critical gaps:**\n- **No backend service development experience** — the candidate has built test automation, not production backend services or APIs. The role requires designing and building scalable backend services, not testing them.\n- **No cloud provider experience** (AWS, Azure, GCP) — a required qualification with no evidence on the résumé\n- **No database design or significant SQL experience** beyond likely query-level usage in testing\n- **No evidence of system/architecture design** — the role involves architecture discussions and significant ownership of service design\n- **Self-described as \"transitioning toward software development\"** — candidate acknowledges they are not yet a software developer\n- **Mentoring engineers** — no evidence of this capability\n\n**Preferred qualifications:** No evidence of Kafka/event-driven systems, Docker/Kubernetes, IaC, financial services background, or observability tooling.\n\n### Conclusion\nThe candidate's experience is primarily in QA and test automation. While there is meaningful overlap in tooling (Java, REST, Jenkins, SQL), there is insufficient evidence that this candidate could independently design and build production backend services, lead architecture decisions, or fulfill the senior engineering expectations of this role.\n\nFINAL: REJECT"
+}

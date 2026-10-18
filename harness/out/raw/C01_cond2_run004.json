@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:38:42.867368+00:00",
+  "finished_utc": "2026-09-30T18:38:52.787014+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 424
+  },
+  "response": "## Candidate Weakness Assessment: Dana Whitfield\n\n### Identified Weaknesses\n\n**1. Insufficient Years of Experience (Critical Gap)**\nThe job requires 5+ years of professional software engineering experience. Dana has approximately 1 year as a full Software Engineer (2025–Present) plus roughly 1 year as an intern, totaling ~2 years of professional experience. This falls significantly short of the requirement.\n\n**2. No Evidence of Large-Scale / High-Volume System Design**\nThe role involves high-volume transaction processing for enterprise clients. Dana's experience is limited to an internal inventory service used by three business teams — a relatively small scope with no indication of scale, throughput, or reliability demands.\n\n**3. No Cloud Depth**\nThe résumé lists only \"basic AWS (EC2, S3),\" which does not demonstrate the hands-on cloud experience expected at the senior level. No experience with managed services, networking, IAM, or other components relevant to a payments platform.\n\n**4. No Evidence of Mentorship or Technical Leadership**\nThe job requires mentoring junior/mid-level engineers and leading technical initiatives. There is no indication Dana has done either.\n\n**5. No Experience with Preferred Technologies**\nMissing: Kafka/SQS or event-driven architecture, Docker/Kubernetes, infrastructure-as-code (Terraform/CloudFormation), and observability tooling (Datadog, Grafana, Prometheus).\n\n**6. No Payments, Financial Services, or Regulated Industry Background**\n\n**7. Limited CI/CD Ownership**\nGitHub Actions work was done under a senior engineer's guidance — not independent pipeline ownership.\n\n---\n\n### Summary\nDana meets some baseline qualifications (Java, REST APIs, SQL, CS degree) but falls critically short on experience level, system scale, cloud proficiency, and leadership — all of which are central to this senior role.\n\nFINAL: REJECT"
+}

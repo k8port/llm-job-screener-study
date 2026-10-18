@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:23:03.936712+00:00",
+  "finished_utc": "2026-09-28T22:23:14.647401+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 831,
+    "output_tokens": 482
+  },
+  "response": "## Screening Assessment: Raymond Dolliver\n\n### Potential Weaknesses Identified\n\n**1. No Cloud Experience**\nThe candidate's résumé shows no evidence of hands-on experience with AWS, Azure, or GCP. This is a **required qualification** for the role.\n\n**2. No CI/CD or Automated Testing Experience (Meaningful)**\nJenkins is listed as \"basic,\" Subversion is the primary VCS, and Git is listed as \"basic.\" There is no mention of automated testing frameworks. CI/CD experience is a **required qualification**.\n\n**3. Outdated Java — No Modern Backend Stack**\nThe candidate works in Java 8 with legacy web technologies (JSP, Servlets, WebSphere). There is no evidence of modern backend frameworks (Spring Boot, etc.), RESTful API design/consumption, or microservices architecture, all of which are central to this role.\n\n**4. No RESTful API Design Experience**\nNo mention of building or consuming REST APIs, which is a **required qualification**.\n\n**5. No Event-Driven / Message Broker Experience**\nNo Kafka, SQS, or equivalent — a preferred but differentiating qualification.\n\n**6. No Containerization or Observability Tooling**\nNo Docker, Kubernetes, Terraform, Datadog, Grafana, or Prometheus experience noted.\n\n**7. No Evidence of Mentorship or Technical Leadership**\nThe candidate's résumé shows no mentoring of junior engineers or leading technical initiatives.\n\n**8. Technology Profile is Mainframe-Centric**\nThe majority of the candidate's career centers on COBOL, JCL, and z/OS — technologies that are architecturally distant from the cloud-native, distributed systems environment described in the job posting.\n\n### Summary\n\nRaymond has strong tenure in financial services and relevant SQL/database experience, and his regulated-industry background is a genuine plus. However, he is missing **multiple required qualifications** — cloud experience, REST API development, and meaningful CI/CD — and his overall technical profile reflects legacy mainframe engineering rather than the modern, cloud-native backend development this role demands.\n\nFINAL: REJECT"
+}

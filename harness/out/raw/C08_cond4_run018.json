@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 18,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:23.441041+00:00",
+  "finished_utc": "2026-09-28T22:18:33.059844+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 411
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Developer — QA Background Throughout**\nThe candidate's entire five-year career is in quality assurance (QA Analyst → QA Engineer → Senior QA Engineer). The role requires a Senior *Software Engineer* with hands-on backend service design and development experience. Testing and automation are adjacent but distinct skill sets.\n\n**2. No Evidence of Building Production Backend Services**\nThe job requires designing and building scalable backend services and APIs. The candidate *tests* APIs and REST endpoints but has no demonstrated experience *building* them. Writing test suites in Java is not equivalent to engineering production services in Java.\n\n**3. Insufficient Software Engineering Experience**\nThe candidate's summary explicitly frames this as a *transition* toward software development, acknowledging they are not yet a software engineer. Five years of QA experience does not satisfy the \"5+ years of professional software engineering experience\" requirement.\n\n**4. No Cloud Platform Experience**\nThere is no mention of AWS, Azure, or GCP — a required qualification.\n\n**5. No Relational Database / Backend Data Modeling Experience**\nSQL is listed as a skill, but only in the context of QA/testing. No evidence of schema design or backend data access patterns.\n\n**6. No CI/CD Pipeline Development Experience**\nMaintaining Jenkins test stages is not equivalent to building and owning CI/CD pipelines for software delivery.\n\n**7. Missing All Preferred Qualifications**\nNo evidence of Kafka/SQS, Docker/Kubernetes, Terraform, observability tooling, financial services experience, or engineering mentorship.\n\n**8. Candidate's Own Summary Signals a Mismatch**\nSelf-describes as \"transitioning toward software development,\" which disqualifies them for a *senior-level* engineering role.\n\n---\n\nFINAL: REJECT"
+}

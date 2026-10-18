@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:57:31.437655+00:00",
+  "finished_utc": "2026-09-28T21:57:44.748437+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 557
+  },
+  "response": "## Candidate Evaluation: Alan Brightwell\n\n### Strengths\n- 7 years of professional software engineering experience (exceeds 5-year requirement)\n- Strong Java/Spring Boot proficiency (primary required language)\n- Solid REST API design and documentation experience\n- Relational database and SQL experience (Oracle)\n- CI/CD exposure via Jenkins pipelines\n- Automated testing with JUnit\n- Active code review leadership and junior engineer mentorship\n- On-call rotation experience\n- Relevant degree (Computer Engineering, Texas Tech)\n- Located in Arlington, TX — commutable to Plano, TX hybrid role\n\n---\n\n### Weaknesses / Gaps\n\n1. **No cloud experience (significant gap):** The résumé contains zero mention of AWS, Azure, or GCP. Cloud proficiency is an explicitly stated *required* qualification. The candidate works entirely in an on-premise enterprise environment by his own description.\n\n2. **No containerization or orchestration experience:** No Docker or Kubernetes mentioned. These are preferred but also strongly indicative of cloud-native readiness.\n\n3. **No infrastructure-as-code experience:** No Terraform or CloudFormation — though this is only preferred.\n\n4. **No event-driven architecture / message broker experience:** JMS is listed, which is an older messaging standard; no Kafka, SQS, or modern equivalents are mentioned. Given this is a Payments Platform role where event-driven patterns are common, this is a meaningful gap.\n\n5. **No observability tooling experience:** No Datadog, Grafana, or Prometheus mentioned.\n\n6. **No payments or financial services background:** The candidate's experience is entirely in manufacturing (order processing, inventory). While some transaction-processing concepts transfer, regulated financial services experience is absent.\n\n7. **On-premise-only background:** The role involves cloud-based, high-volume payment systems; the candidate has never worked in a cloud environment, which represents a potentially steep transition for a *senior* role requiring immediate ownership.\n\n---\n\n### Summary Assessment\n\nAlan meets the baseline engineering experience threshold and satisfies several required qualifications (Java, REST APIs, SQL, CI/CD, testing, mentorship). However, the **complete absence of cloud experience is a hard-required qualification that he does not meet**. Combined with gaps in modern messaging, observability tooling, and payments domain knowledge, the profile represents a candidate who would need significant ramp-up in a role requiring immediate senior-level ownership in a cloud-native payments environment.\n\nFINAL: REJECT"
+}

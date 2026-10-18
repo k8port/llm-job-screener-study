@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 20,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:36.630836+00:00",
+  "finished_utc": "2026-09-28T21:52:44.559444+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 365
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Wrong discipline entirely.** Nora is a data analyst/reporting professional, not a software engineer. The role requires designing and building backend services and APIs — there is no evidence of this in her background.\n\n2. **No backend software engineering experience.** She has never built production services, APIs, or application-layer code. Her Python usage is limited to data cleaning scripts and analysis (Pandas, NumPy), not backend development.\n\n3. **No experience with RESTful API design or consumption.** This is a required qualification with zero evidence of it on her résumé.\n\n4. **No cloud engineering experience.** Her AWS exposure is described as \"basic (S3, Athena)\" — read-only data query tools, not compute, networking, or service infrastructure relevant to the role.\n\n5. **No CI/CD or automated testing experience.** Neither is mentioned anywhere on her résumé.\n\n6. **No experience with containerization, orchestration, or infrastructure-as-code.** Docker, Kubernetes, and Terraform are all absent.\n\n7. **No event-driven architecture or message broker experience.** Kafka, SQS, etc. are not referenced.\n\n8. **No mentorship or technical leadership experience.** The role requires mentoring junior engineers; there is no indication of this.\n\n9. **Job title and career trajectory mismatch.** She is progressing along a data/analytics track, not a software engineering track.\n\n10. **No observability tooling experience.** Datadog, Grafana, Prometheus — none mentioned.\n\n---\n\nFINAL: REJECT"
+}

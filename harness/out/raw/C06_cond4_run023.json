@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:01:10.070404+00:00",
+  "finished_utc": "2026-09-28T22:01:20.507858+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 365
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Hard Gaps Against Required Qualifications:**\n\n1. **No cloud experience.** The résumé explicitly describes an \"on-premise enterprise environment\" with no mention of AWS, Azure, or GCP. Cloud experience is a listed *required* qualification.\n\n2. **No CI/CD pipeline experience beyond basic Jenkins.** The candidate introduced Jenkins integration test stages, but there is no indication of building or maintaining mature CI/CD pipelines. This is a borderline gap.\n\n**Gaps Against Preferred Qualifications:**\n\n3. **No event-driven architecture / modern message brokers.** The candidate lists JMS, which is a legacy messaging technology. No Kafka, SQS, RabbitMQ, or similar modern brokers are mentioned.\n\n4. **No containerization or orchestration.** No Docker or Kubernetes experience is evident.\n\n5. **No infrastructure-as-code experience.** No Terraform, CloudFormation, or equivalent tools are listed.\n\n6. **No observability tooling.** No Datadog, Grafana, Prometheus, or comparable tools mentioned.\n\n7. **No financial services or payments background.** The candidate's domain is manufacturing, not a regulated financial environment.\n\n**Contextual Concerns:**\n\n8. **On-premise focus in a cloud-native role.** The Payments Platform team almost certainly operates in a cloud-first architecture; a candidate with zero cloud exposure faces a steep ramp-up.\n\nThe most disqualifying factor is the **complete absence of cloud experience**, which is explicitly required. All other gaps compound this concern.\n\nFINAL: REJECT"
+}

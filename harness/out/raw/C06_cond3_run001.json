@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:58:26.387297+00:00",
+  "finished_utc": "2026-09-28T21:58:40.029853+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 808,
+    "output_tokens": 659
+  },
+  "response": "## Screening Rubric & Scoring — Alan Brightwell\n\n### Required Qualifications (Pass/Fail + Weight)\n\n| Requirement | Assessment | Score (0–2) |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total; Senior since 2022 | **2** |\n| Strong proficiency in Java, Python, or comparable backend language | Java/Spring Boot — core stack | **2** |\n| RESTful API design & consumption | Explicitly owns REST API design | **2** |\n| Relational databases & SQL | Oracle, SQL, PL/SQL — advanced usage | **2** |\n| Cloud provider experience (AWS/Azure/GCP) | **Not mentioned anywhere** | **0** |\n| CI/CD pipelines & automated testing | Jenkins, JUnit, integration test stages | **2** |\n| Bachelor's in CS/related or equivalent | B.S. Computer Engineering, Texas Tech | **2** |\n\n**Required Score: 12 / 14**\n\n---\n\n### Preferred Qualifications (Bonus Weight)\n\n| Preference | Assessment | Score (0–1) |\n|---|---|---|\n| Event-driven architecture / message brokers | JMS listed — limited, not Kafka/SQS | **0.5** |\n| Containerization / Kubernetes | Not mentioned | **0** |\n| Infrastructure-as-code | Not mentioned | **0** |\n| Financial services / regulated industry | Manufacturing, not fintech/payments | **0** |\n| Observability tooling | Not mentioned | **0** |\n| Mentoring / leading technical initiatives | Mentors 2 juniors, leads code review for team of 6 | **1** |\n\n**Preferred Score: 1.5 / 6**\n\n---\n\n### Summary Assessment\n\n**Strengths:**\n- Solid 7-year Java/Spring Boot background in transaction-heavy, high-volume environments\n- Strong SQL/Oracle depth; REST API ownership; CI/CD experience\n- Demonstrated mentorship and on-call experience — cultural fit for senior role\n- Located in Arlington, TX (near Plano — hybrid feasible)\n\n**Gaps:**\n- **Zero cloud experience** — a hard required qualification; payments platform work is almost certainly cloud-native\n- No containerization, IaC, or modern observability tooling\n- Entirely on-premise background; no exposure to distributed/cloud-native architecture patterns (Kafka, Docker, etc.)\n- No payments or regulated-industry experience\n\n**Decision rationale:** The cloud experience gap is a **required qualification**, not a preferred one, and it is completely absent. For a Payments Platform role at this level, cloud-native competency is foundational. The candidate's other credentials are genuinely strong, but the missing cloud experience is a disqualifying omission for this specific role.\n\n---\n\nFINAL: REJECT"
+}

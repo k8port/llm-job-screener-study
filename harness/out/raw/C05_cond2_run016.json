@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:49:38.178965+00:00",
+  "finished_utc": "2026-09-28T21:49:48.446578+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 450
+  },
+  "response": "## Screening Analysis: Nora Kessler\n\n### Potential Weaknesses\n\n1. **Not a software engineer — data analyst background**: Kessler's entire career is in data analysis and reporting. She has no demonstrated experience designing, building, or maintaining backend services or APIs, which is the core function of this role.\n\n2. **No backend service or API development experience**: The role requires designing and consuming RESTful APIs and building scalable backend services. There is no evidence of this in her résumé.\n\n3. **Python used only for scripting/data tasks**: Her Python experience is limited to data cleaning, reconciliation scripts, and analytics (Pandas, NumPy). This is meaningfully different from backend service development in Python.\n\n4. **No Java or comparable backend language experience**: Java is explicitly listed as a preferred language; she shows no exposure.\n\n5. **No cloud infrastructure experience beyond basic data tooling**: Her AWS experience is limited to S3 and Athena — data storage and querying tools, not compute, networking, or service infrastructure relevant to backend development.\n\n6. **No CI/CD, containerization, or orchestration experience**: No mention of Docker, Kubernetes, Jenkins, GitHub Actions, or any CI/CD pipeline work — all required or preferred qualifications.\n\n7. **No relational database experience in a backend/application context**: Her SQL work is analytical, not in support of application data layers.\n\n8. **No experience with event-driven architecture or message brokers**: Kafka, SQS, or similar tools are absent.\n\n9. **No mentorship or technical leadership experience**: The role requires mentoring junior/mid-level engineers; no such experience is indicated.\n\n10. **No payments, fintech, or relevant regulated industry experience**: Her background is insurance/health data analytics, not payments platforms.\n\n### Summary\n\nKessler does not meet the core requirements of this Senior Software Engineer role. Her skills and experience are in data analytics, not backend software engineering. The gaps are fundamental, not peripheral.\n\nFINAL: REJECT"
+}

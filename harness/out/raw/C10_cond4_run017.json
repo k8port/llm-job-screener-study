@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:35:24.215580+00:00",
+  "finished_utc": "2026-09-28T22:35:33.559518+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 913,
+    "output_tokens": 356
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Degree field**: The candidate holds a B.S. in Mathematics, not Computer Science or a directly \"related field\" in the traditional sense. However, the JD does allow for \"equivalent practical experience,\" which somewhat mitigates this.\n\n2. **Career break**: The candidate had a gap in employment from 2023–2024 for family leave. This may raise questions for some hiring teams about continuity, though the candidate has already returned to work and is currently employed.\n\n3. **No explicit Kubernetes experience**: The JD lists Kubernetes as a preferred qualification. The candidate's containerization experience is limited to ECS (AWS-managed), with no mention of Kubernetes.\n\n4. **No mention of Kafka**: The JD prefers experience with Kafka specifically; the candidate uses SQS/SNS but not Kafka.\n\n5. **No explicit mention of architecture discussions or on-call rotation**: The résumé does not reference participation in on-call rotations or broader architecture governance, which are listed responsibilities.\n\n6. **Observability tooling is limited**: Datadog is listed in skills but with no elaboration on depth of usage or implementation.\n\n## Assessment\n\nThe concerns above are **minor or based on preferred (not required) qualifications**. The candidate strongly meets all required qualifications: 7 years of experience, Java proficiency, REST API design, SQL/PostgreSQL, AWS hands-on experience, CI/CD, financial services background, mentorship, and event-driven architecture. The gaps are in preferred areas only.\n\nFINAL: ADVANCE"
+}

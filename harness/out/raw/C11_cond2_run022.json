@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 22,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:58.403608+00:00",
+  "finished_utc": "2026-09-28T22:41:09.436028+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 469
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Role: Senior Software Engineer – Payments Platform\n\n---\n\n### Identified Weaknesses\n\n**Critical Gaps (Required Qualifications Not Met):**\n\n1. **Not a software engineer by profession.** Curtis is a Systems Administrator. His résumé explicitly frames his work as infrastructure operations, not software development. There is no professional experience designing or building backend services, APIs, or application-layer systems.\n\n2. **No backend programming language proficiency (Java, Python, or comparable).** His scripting in Bash and PowerShell is operational/automation scripting, not software engineering in the languages required for this role.\n\n3. **No experience designing or consuming RESTful APIs.** There is no mention of API design or consumption anywhere in the résumé.\n\n4. **No experience with relational databases beyond \"basic\" SQL.** The role requires meaningful database design and query experience; Curtis lists SQL as a basic skill only.\n\n5. **No CI/CD pipeline or automated testing experience.** These are required qualifications with no equivalent evident in his background.\n\n6. **No experience with scalable distributed systems or high-volume transaction processing**, which is central to the Payments Platform role.\n\n**Gaps in Preferred Qualifications:**\n\n7. **No event-driven architecture or message broker experience** (Kafka, SQS, etc.).\n8. **No container orchestration experience** — Docker is listed as \"basic\" only; no Kubernetes.\n9. **No Infrastructure-as-Code experience** (Terraform, CloudFormation).\n10. **No observability tooling experience** relevant to application monitoring (Datadog, Grafana, Prometheus).\n11. **No mentoring or technical leadership experience.**\n12. **No payments or regulated financial services background.**\n\n---\n\n### Summary\n\nCurtis lacks the foundational qualifications for this role. He does not have a software engineering background, no backend development experience, and his skills are firmly in the infrastructure/operations domain. While his Azure and systems experience is legitimate, it does not transfer to the core responsibilities of this position.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:50:55.288703+00:00",
+  "finished_utc": "2026-09-28T22:51:03.976596+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 356
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience:** The role requires **5+ years** of professional software engineering experience. Elise graduated in 2023 and began working that same year, giving her approximately **1.5–2 years** of total professional experience. Even generously counting any pre-graduation internships (none listed), she falls well short of the requirement.\n\n2. **No evidence of mentoring or technical leadership:** The role requires mentoring mid-level and junior engineers and leading small technical initiatives. There is no mention of mentorship, tech lead responsibilities, or leading any initiatives independently. She explicitly contributed to partitioning work *led by a senior engineer*, which underscores a junior/supporting role.\n\n3. **Limited cloud platform depth:** While AWS services are listed, the experience appears narrow (EKS, SQS, RDS). There is no evidence of broader cloud architecture experience expected at a senior level.\n\n4. **Terraform listed as \"basic\":** Infrastructure-as-code is a preferred qualification, and her self-assessment of \"basic\" Terraform suggests she does not meaningfully meet even the preferred bar here.\n\n5. **Scope of work appears mid-level, not senior:** The described responsibilities (building services, expanding test coverage, consuming Kafka topics) are consistent with a Software Engineer II, not a Senior Engineer with significant ownership over service design and delivery.\n\n6. **No demonstrated architecture or system design ownership:** There is no evidence of leading architecture discussions, owning end-to-end service design, or driving platform-level decisions.\n\n---\n\nFINAL: REJECT"
+}

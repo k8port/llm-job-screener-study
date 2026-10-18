@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:31:32.365751+00:00",
+  "finished_utc": "2026-09-28T22:31:43.274363+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 920,
+    "output_tokens": 421
+  },
+  "response": "## Screening Assessment: Josephine Hartwell\n\n### Potential Weaknesses Identified\n\n1. **No Kubernetes experience**: The JD lists Docker/Kubernetes as a preferred qualification. Hartwell has Docker and ECS but no mention of Kubernetes. This is a gap relative to the preferred stack, though ECS provides some comparable orchestration experience.\n\n2. **AWS-only cloud experience**: The candidate has exclusively AWS experience. While AWS is one of the three accepted cloud providers (and fully satisfies the requirement), there is no breadth across Azure or GCP. This is a minor limitation, not a disqualifying one.\n\n3. **Career break (2023–2024)**: A one-year family leave creates a gap, though it is transparently disclosed and the candidate has since returned and is actively employed in a directly relevant senior role. This is not a qualification weakness per se.\n\n4. **No explicit Grafana/Prometheus experience**: Observability tooling is a preferred qualification; Hartwell lists Datadog, which satisfies it partially but not fully.\n\n5. **Degree is Mathematics, not Computer Science**: The JD accepts \"related field or equivalent practical experience,\" so this is not a true gap — it is explicitly covered by the job description language.\n\n6. **Limited leadership scope mentioned**: Mentoring two engineers is noted, but no explicit experience leading small technical initiatives beyond that is described.\n\n### Summary\n\nThe weaknesses are minor and largely concentrated in *preferred* (not required) qualifications. All required qualifications are met or exceeded: 7 years of engineering experience, strong Java and Python proficiency, REST API design, SQL/relational databases, AWS, CI/CD, and automated testing. The financial services/payments domain background is a strong alignment point, and several preferred qualifications (SQS, Terraform, Docker, Datadog, mentoring) are also present.\n\nFINAL: ADVANCE"
+}

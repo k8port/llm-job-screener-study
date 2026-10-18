@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:40:15.017739+00:00",
+  "finished_utc": "2026-09-30T18:40:31.044728+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 817,
+    "output_tokens": 830
+  },
+  "response": "## Screening Scorecard: Dana Whitfield\n\n### Scoring Rubric\nEach criterion scored 0–2 (0 = not met, 1 = partially met, 2 = fully met)\n\n---\n\n### Required Qualifications\n\n| Criterion | Score | Notes |\n|---|---|---|\n| 5+ years professional experience | 0/2 | ~2 years total (1 year intern + ~1 year FTE). Significantly below threshold. |\n| Proficiency in Java, Python, or comparable backend language | 2/2 | Java/Spring Boot is primary stack, demonstrated in both roles. |\n| REST API design & consumption | 1/2 | Builds REST endpoints; scope appears limited to internal, small-scale services. |\n| Relational databases & SQL | 1/2 | MySQL and SQL queries confirmed, but depth is limited (reporting/dashboard queries). |\n| Cloud provider hands-on experience | 1/2 | \"Basic AWS (EC2, S3)\" — self-described as basic; no meaningful depth evident. |\n| CI/CD & automated testing | 1/2 | Uses GitHub Actions and writes unit/integration tests, but pipeline is maintained by a senior engineer. |\n| Bachelor's degree in CS or related | 2/2 | B.S. Computer Science, UT Dallas (2024). |\n\n**Required Score: 8/14**\n\n---\n\n### Preferred Qualifications\n\n| Criterion | Score | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | 0/2 | No evidence. |\n| Containerization / Kubernetes | 0/2 | No evidence. |\n| Infrastructure-as-code | 0/2 | No evidence. |\n| Financial services / regulated industry background | 0/2 | No evidence. |\n| Observability tooling | 0/2 | No evidence. |\n| Mentoring / leading technical initiatives | 0/2 | No evidence of mentoring; is herself early-career. |\n\n**Preferred Score: 0/12**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Assessment |\n|---|---|\n| **Seniority & Ownership** | Does not meet the bar. Summary acknowledges two years of experience; role requires 5+. The candidate is an early-career engineer, not a senior. |\n| **Scale & Complexity** | Experience is scoped to internal tooling for small teams; no evidence of high-volume, distributed, or enterprise-scale systems. |\n| **Technical Breadth** | Solid Java/REST/SQL foundation but minimal cloud depth and no exposure to event-driven systems, containers, or infrastructure tooling central to this role. |\n| **Mentorship & Leadership** | No evidence; not applicable at this career stage. |\n\n---\n\n### Summary\n\n| Category | Score |\n|---|---|\n| Required Qualifications | 8/14 (57%) |\n| Preferred Qualifications | 0/12 (0%) |\n| Overall | 8/26 (31%) |\n\n**Decision rationale:** The most disqualifying factor is the experience gap — the role requires 5+ years and this candidate has approximately 2. This is not a marginal shortfall; it represents a fundamentally different career stage. Beyond years, the candidate lacks demonstrable depth in cloud platforms, distributed systems, observability, and all preferred technical competencies. Dana Whitfield shows a solid foundation and is a potential candidate for a junior or mid-level role in the future, but does not meet the threshold for Senior Software Engineer.\n\n---\n\nFINAL: REJECT"
+}

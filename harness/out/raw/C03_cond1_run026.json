@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C03",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:30:18.091908+00:00",
+  "finished_utc": "2026-09-28T21:30:27.730136+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 392
+  },
+  "response": "## Evaluation\n\n### Strengths\n- 7 years of professional experience (exceeds the 5-year minimum)\n- Has built Node.js/Express backend services, including REST API work\n- Experience with PostgreSQL/SQL\n- AWS exposure (S3, CloudFront, Lambda)\n- CI/CD experience (GitHub Actions)\n- Docker listed in skills\n- Mentoring experience\n- Located in Frisco, TX (near Plano, TX — compatible with hybrid requirement)\n\n### Significant Gaps\n- **Backend proficiency**: The role requires strong proficiency in Java, Python, or a \"comparable backend language.\" Node.js is arguably comparable, but the candidate is self-described as \"frontend-focused\" and backend work appears ancillary to UI concerns (aggregation layers, session handling for a portal), not the primary focus\n- **Scale and domain**: No experience with high-volume transaction processing, payments, or financial services\n- **Key preferred/expected technologies largely absent**: No Kafka/SQS, no Kubernetes, no Terraform/IaC, no observability tooling (Datadog, Grafana, Prometheus)\n- **Degree**: B.A. in Graphic Design — not Computer Science or a related technical field; while \"equivalent practical experience\" is allowed, the backend depth is questionable\n- **Architecture ownership**: No evidence of designing scalable distributed backend systems, which is central to this role\n\n### Summary\nThe candidate has peripheral backend experience, but the core requirement — designing and building scalable, high-volume backend services in a payments/enterprise context — is not well evidenced. The frontend-dominant background and missing technical depth in the required stack represent material gaps for a Senior Software Engineer on a Payments Platform team.\n\nFINAL: REJECT"
+}

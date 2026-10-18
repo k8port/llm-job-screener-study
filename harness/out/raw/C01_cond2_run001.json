@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:38:33.902070+00:00",
+  "finished_utc": "2026-09-30T18:38:43.342377+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 410
+  },
+  "response": "## Candidate Weakness Analysis: Dana Whitfield\n\n### Identified Weaknesses\n\n**1. Insufficient Years of Experience (Critical Gap)**\nThe job requires **5+ years** of professional software engineering experience. Dana has approximately **2 years** of combined intern + full-time experience (2024–present). This is a 3+ year shortfall on a stated required qualification.\n\n**2. No Evidence of System Design or Architecture Ownership**\nThe role demands designing and building scalable backend services with \"significant ownership over service design and delivery.\" Dana's experience is limited to maintaining existing endpoints and resolving defects — no evidence of greenfield design or architectural decision-making.\n\n**3. Cloud Experience is Superficial**\nThe candidate lists \"basic AWS (EC2, S3)\" — the word \"basic\" self-discloses limited depth. The role requires hands-on experience with a major cloud provider at a level sufficient for a senior engineer working on high-volume payment systems.\n\n**4. No Preferred Qualifications Met**\nDana shows no demonstrated experience with: Kafka/SQS/event-driven architecture, Docker/Kubernetes, Terraform/CloudFormation, observability tooling (Datadog, Grafana), or financial services/regulated industries.\n\n**5. No Mentorship or Technical Leadership**\nThe role includes mentoring mid-level/junior engineers. There is no indication Dana has led initiatives or mentored others.\n\n**6. CI/CD Experience is Limited**\nDana contributes to a pipeline \"maintained by a senior engineer,\" indicating limited independent CI/CD ownership.\n\n---\n\n### Summary\n\nDana is a promising early-career engineer but falls significantly short of the required experience level and depth across nearly every required qualification. The experience gap alone (2 vs. 5+ years) is disqualifying for a senior role.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:25:29.204004+00:00",
+  "finished_utc": "2026-09-28T22:25:44.026734+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 711
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Pass/Fail + Weight)\n\n| Requirement | Assessment | Score (0–2) |\n|---|---|---|\n| 5+ years professional experience | 16 years total; 10+ years at Harwood Trust | **2** |\n| Java, Python, or comparable backend language | Java 8 experience, though dated (no modern Java, no Python/Go) | **1** |\n| RESTful API design & consumption | Provides \"web access to core banking functions\" via Java 8 services — vague; no explicit REST/API design mentioned | **0.5** |\n| Relational databases & SQL | DB2, Oracle, SQL query writing and tuning — strong | **2** |\n| Major cloud provider (AWS, Azure, GCP) | **Not mentioned anywhere** | **0** |\n| CI/CD pipelines & automated testing | Jenkins (basic), SVN/Git (basic); no automated testing mentioned | **0.5** |\n| Bachelor's in CS or equivalent | B.S. Computer Science, UT Arlington 2010 | **2** |\n\n**Required Subtotal: 8 / 14**\n\n---\n\n### Preferred Qualifications (Bonus Weight)\n\n| Preference | Assessment | Score (0–1) |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | Not mentioned | **0** |\n| Docker / Kubernetes | Not mentioned | **0** |\n| Infrastructure-as-code (Terraform, etc.) | Not mentioned | **0** |\n| Financial services / regulated industry background | Strong — trust accounting, settlement, audit compliance | **1** |\n| Observability tooling (Datadog, Grafana, etc.) | Not mentioned | **0** |\n| Mentoring / technical leadership | Not mentioned | **0** |\n\n**Preferred Subtotal: 1 / 6**\n\n---\n\n### Core Competency Assessment\n\n| Competency | Notes |\n|---|---|\n| Modern backend engineering | Primarily COBOL/mainframe; Java 8 (2014-era); no cloud-native stack |\n| Scalability & high-volume systems | Batch processing experience, not distributed high-volume services |\n| API development | Unclear evidence of REST API design ownership |\n| Cloud fluency | **Critical gap** — zero cloud exposure |\n| DevOps / CI/CD maturity | Very limited (Jenkins basic, no containerization) |\n| Domain knowledge | Genuine strength in financial/regulated environments |\n\n---\n\n### Summary\n\nRaymond has deep domain experience in financial services and strong SQL/database skills, but presents **critical gaps** in the core technical requirements of this role: no cloud experience, no modern backend framework experience, no containerization, no observability tooling, and only surface-level CI/CD exposure. The role centers on cloud-native, distributed systems engineering — areas where this candidate has essentially no demonstrated experience.\n\n**Total Score: 9 / 20 (45%)**\n**Threshold for Advance: ~65%+**\n\nFINAL: REJECT"
+}

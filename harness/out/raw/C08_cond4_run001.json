@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 1,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:17:43.451648+00:00",
+  "finished_utc": "2026-09-28T22:17:52.686394+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 385
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Developer — QA Background**\nThe candidate explicitly self-describes as a \"quality engineer transitioning toward software development.\" All five years of experience are in QA roles (QA Analyst → QA Engineer → Senior QA Engineer), not software engineering. The role requires building and owning backend services, not testing them.\n\n**2. No Production Software Development Experience**\nThere is no evidence the candidate has ever designed, built, or shipped a production backend service or API. Writing *tests against* REST endpoints is fundamentally different from *designing and building* RESTful APIs.\n\n**3. Java Usage is Test-Scoped**\nWhile Java is listed as a skill, its application is limited to test automation frameworks (Selenium, REST Assured, TestNG) — not backend application development, service design, or business logic implementation.\n\n**4. No Cloud Experience**\nThe candidate lists no experience with AWS, Azure, or GCP, which is a required qualification.\n\n**5. No Database/Application-Layer SQL Experience**\nSQL is listed as a skill but there is no demonstrated use in an application development context (e.g., schema design, ORM usage, query optimization).\n\n**6. No CI/CD Ownership**\nMaintaining test stages in Jenkins is not equivalent to building and owning CI/CD pipelines for software delivery.\n\n**7. No Preferred Qualifications Met**\nKafka, Docker, Kubernetes, Terraform, Datadog, payments/fintech experience — none are present.\n\n**8. Mentorship/Leadership Gap**\nNo evidence of mentoring engineers or leading technical initiatives, which is both a job requirement and preferred qualification.\n\n---\n\nFINAL: REJECT"
+}

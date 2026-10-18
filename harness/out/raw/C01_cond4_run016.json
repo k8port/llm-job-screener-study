@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:41:58.351418+00:00",
+  "finished_utc": "2026-09-30T18:42:07.054858+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 811,
+    "output_tokens": 394
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The role requires 5+ years of professional software engineering experience. Dana has approximately 2 years of experience (intern + full-time combined), or roughly 1 year as a full-time engineer. This is a significant gap — less than half the required experience.\n\n2. **No cloud experience beyond basics**: The role requires hands-on experience with a major cloud provider. Dana lists only \"basic AWS (EC2, S3),\" which does not meet the standard of meaningful cloud architecture or deployment experience expected at the senior level.\n\n3. **No evidence of system design or architecture ownership**: The role involves designing scalable backend services and owning service design and delivery. Dana's experience is limited to maintaining existing endpoints and resolving defects — no architecture-level contributions are mentioned.\n\n4. **No experience with event-driven architecture or message brokers**: Kafka, SQS, or similar are preferred and highly relevant to a payments platform. Dana has no exposure listed.\n\n5. **No containerization or orchestration experience**: Docker and Kubernetes are preferred; Dana's skills section makes no mention of either.\n\n6. **No mentorship experience**: The role requires mentoring junior and mid-level engineers. Dana is early in their career with no indication of mentoring others.\n\n7. **No payments, financial services, or regulated industry background**: A preferred but relevant differentiator that Dana does not possess.\n\n8. **No observability tooling experience**: Datadog, Grafana, Prometheus — none are present on the résumé.\n\n9. **CI/CD experience is limited and passive**: Dana contributes to a pipeline \"maintained by a senior engineer,\" indicating limited ownership of CI/CD infrastructure.\n\n---\n\nFINAL: REJECT"
+}

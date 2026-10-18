@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:38:16.938517+00:00",
+  "finished_utc": "2026-09-30T18:38:25.334302+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 813,
+    "output_tokens": 400
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional experience | ~2 years (intern 2024–2025, engineer 2025–present) | ❌ |\n| Java, Python, or comparable backend language | Java/Spring Boot | ✅ |\n| RESTful API design and consumption | REST endpoints in Spring Boot | Partially ✅ |\n| Relational databases and SQL | MySQL, SQL queries | ✅ |\n| Major cloud provider (AWS, Azure, GCP) | \"Basic AWS (EC2, S3)\" — self-described as basic | Weak ✅ |\n| CI/CD pipelines and automated testing | GitHub Actions (maintained by senior engineer), JUnit | Partial ✅ |\n| Bachelor's in CS or equivalent | B.S. CS, UT Dallas 2024 | ✅ |\n\n**Key Gaps:**\n- **Years of experience** is the most significant disqualifier — the role requires 5+ years; the candidate has approximately 2 years total (including internship).\n- **Cloud experience** is self-described as \"basic,\" well below what a senior role on a payments platform would demand.\n- **No evidence** of event-driven architecture, containerization, infrastructure-as-code, observability tooling, or mentorship — most of which are preferred but signal seniority.\n- **No background** in financial services, payments, or regulated industries.\n- The candidate is early-career by all indicators, not ready for a **senior** role with significant ownership and on-call responsibilities.\n\nThere is insufficient evidence that this candidate could successfully perform the role as described.\n\nFINAL: REJECT"
+}

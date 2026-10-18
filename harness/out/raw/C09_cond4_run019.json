@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:26:51.906212+00:00",
+  "finished_utc": "2026-09-28T22:27:02.345136+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 469
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Technical Stack Gaps:**\n- **No cloud experience:** The résumé shows zero hands-on experience with AWS, Azure, or GCP — a required qualification. All work appears to be on-premises mainframe (z/OS) or traditional enterprise infrastructure.\n- **Outdated Java:** Experience is limited to Java 8 and older servlet/JSP patterns, not modern backend service development frameworks (e.g., Spring Boot, Micronaut). No evidence of RESTful API design or consumption.\n- **No CI/CD pipeline experience:** Jenkins is listed as \"basic\" only, and there is no mention of automated testing frameworks, pipelines, or modern DevOps practices.\n- **No containerization or orchestration:** No Docker, Kubernetes, or comparable experience.\n- **No event-driven architecture:** No mention of Kafka, SQS, RabbitMQ, or similar message brokers.\n- **No infrastructure-as-code:** No Terraform, CloudFormation, or similar tools.\n- **No observability tooling:** No Datadog, Grafana, Prometheus, or equivalent experience.\n\n**Role Fit Concerns:**\n- The candidate's work centers on **mainframe batch processing** (COBOL/JCL), which is architecturally distant from the scalable, cloud-native microservices this role demands.\n- No evidence of **mentoring engineers** or **leading technical initiatives**.\n- No experience with **modern API design**, a core daily responsibility of the role.\n- Version control listed as Git (basic) — insufficient for a senior collaborative engineering environment.\n\n**Strengths Noted (but insufficient):**\n- 16 years of experience in financial services is relevant domain knowledge.\n- SQL/DB2 experience satisfies the relational database requirement.\n- B.S. in Computer Science meets the education requirement.\n- Regulated industry background is a preferred qualification.\n\nThese strengths do not offset the multiple gaps in required qualifications, particularly cloud, modern backend development, and API experience.\n\n---\n\nFINAL: REJECT"
+}

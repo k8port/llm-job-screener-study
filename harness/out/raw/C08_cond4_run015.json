@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:18:18.434316+00:00",
+  "finished_utc": "2026-09-28T22:18:26.867509+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 816,
+    "output_tokens": 355
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Not a Software Developer — QA Background**\nThe candidate explicitly self-identifies as a \"quality engineer transitioning toward software development.\" This is a Senior Software Engineer role requiring hands-on backend service design and delivery. The candidate has no demonstrated experience building production backend services or APIs — only testing them.\n\n**2. Insufficient Backend Engineering Experience**\nWhile the candidate writes test automation in Java and uses REST APIs for testing purposes, this is materially different from designing and building scalable backend services and APIs. Writing Selenium/REST Assured test code is not equivalent to software engineering in this context.\n\n**3. Does Not Meet the 5+ Years Requirement in the Right Domain**\nFive years of experience is in QA/testing roles, not professional software engineering. The job description requires 5+ years of *software engineering* experience. This candidate does not meet that threshold.\n\n**4. No Cloud Experience**\nNo mention of AWS, Azure, or GCP — a required qualification.\n\n**5. No CI/CD Pipeline Engineering Experience**\nMaintaining test execution stages in Jenkins is not equivalent to building and owning CI/CD pipelines for software delivery.\n\n**6. No Experience with Databases Beyond SQL Queries**\nSQL is listed as a skill but there is no evidence of relational database design or backend data layer ownership.\n\n**7. No Preferred Qualifications Met**\nNo Kafka/SQS, no Docker/Kubernetes, no Terraform, no observability tooling, no payments/fintech background, no mentoring experience.\n\n---\n\nFINAL: REJECT"
+}

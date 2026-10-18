@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:31:02.931277+00:00",
+  "finished_utc": "2026-09-28T22:31:11.201020+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 419
+  },
+  "response": "## Evaluation\n\n**Required Qualifications Assessment:**\n\n- **5+ years professional software engineering experience** ✅ — Seven years total (2016–present, accounting for career break), with four years as a Software Engineer and currently serving as Senior Software Engineer.\n- **Strong proficiency in Java, Python, or comparable backend language** ✅ — Java/Spring Boot is her primary stack; Python also listed.\n- **Experience designing and consuming RESTful APIs** ✅ — Explicitly mentioned, including versioned contracts and integration guides.\n- **Experience with relational databases and SQL** ✅ — PostgreSQL, SQL listed; SQL-backed persistence in prior role.\n- **Hands-on experience with a major cloud provider** ✅ — AWS (ECS, SQS, SNS, RDS, Lambda).\n- **Experience with CI/CD pipelines and automated testing** ✅ — GitHub Actions, JUnit, contract testing, CI coverage expansion.\n- **Bachelor's degree or equivalent** ✅ — B.S. Mathematics, Baylor University.\n\n**Preferred Qualifications Assessment:**\n\n- **Event-driven architecture / message brokers** ✅ — SQS and SNS in current role.\n- **Containerization and orchestration** ✅ — Docker, ECS.\n- **Infrastructure-as-code** ✅ — Terraform.\n- **Financial services / regulated industry** ✅ — Credit services and payments domain directly.\n- **Observability tooling** ✅ — Datadog.\n- **Mentoring experience** ✅ — Currently mentoring two engineers.\n\n**Summary:** Josephine meets every required qualification and nearly every preferred qualification. Her background in payments/financial services is a strong contextual match for this Payments Platform role.\n\nFINAL: ADVANCE"
+}

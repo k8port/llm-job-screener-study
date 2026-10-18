@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:46:55.151876+00:00",
+  "finished_utc": "2026-09-28T22:47:04.666462+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 411
+  },
+  "response": "## Screening Assessment: Elise Thornbury\n\n### Evaluating Evidence Against Role Requirements\n\n**Required Qualifications:**\n\n| Requirement | Evidence | Assessment |\n|---|---|---|\n| 5+ years professional experience | ~3.5 years total (2023–present) | ❌ Gap |\n| Java, Python, or comparable backend language | Java/Spring Boot extensively; Python listed | ✅ Strong |\n| RESTful API design and consumption | Explicit in both roles | ✅ Strong |\n| Relational databases and SQL | PostgreSQL/SQL in role and skills | ✅ Met |\n| Major cloud provider (AWS) | AWS (EKS, SQS, RDS) | ✅ Met |\n| CI/CD and automated testing | GitHub Actions, JUnit, Spring Test | ✅ Met |\n| Bachelor's in CS or equivalent | B.S. CS, SMU 2023 | ✅ Met |\n\n**Preferred Qualifications:** Kafka ✅, Docker/Kubernetes ✅, Terraform (basic) ✅, Payments industry ✅, Grafana ✅, Mentoring ❌\n\n### Key Concern\nThe candidate has approximately **3.5 years of experience**, meaningfully short of the **5+ year requirement**. While her technical profile is well-matched — payments domain, Java, Kafka, Kubernetes, AWS — the experience gap is significant for a **Senior** role that also emphasizes mentoring junior engineers and architectural ownership. Her Kafka contribution was notably in a supporting role under senior guidance, suggesting she is still developing at the senior level.\n\n### Conclusion\nThe technical foundation is promising, but insufficient evidence exists that she is currently operating at the senior level the role requires.\n\nFINAL: REJECT"
+}

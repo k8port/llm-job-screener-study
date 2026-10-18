@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:45.535308+00:00",
+  "finished_utc": "2026-09-28T22:47:56.807857+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 478
+  },
+  "response": "## Assessment\n\n**Strengths aligned with the role:**\n\n- **Backend language proficiency:** Strong Java/Spring Boot experience, with Python listed in skills — directly meets the requirement.\n- **RESTful APIs:** Explicit experience designing and documenting REST endpoints consumed by internal and partner teams.\n- **Relational databases/SQL:** PostgreSQL experience across multiple roles.\n- **Cloud (AWS):** Hands-on with AWS EKS, SQS, RDS — meets the cloud requirement.\n- **CI/CD and automated testing:** GitHub Actions pipelines, JUnit, Spring Test.\n- **Event-driven/Kafka:** Direct Kafka consumer experience in a payments context.\n- **Containerization/Kubernetes:** Docker, Kubernetes, Helm, EKS deployment.\n- **Infrastructure-as-code:** Basic Terraform listed.\n- **Domain:** Current role is in payments — directly relevant.\n- **Observability:** Grafana listed in skills.\n- **On-call rotation:** Explicitly mentioned.\n- **Education:** B.S. Computer Science from SMU.\n\n**Gaps / Concerns:**\n\n- **Years of experience:** The role requires **5+ years**; Elise has approximately **3.5 years** total (graduated 2023, so likely started ~2021–2022 if internships counted, but résumé shows work starting 2023). This is a meaningful shortfall against a stated required qualification.\n- **Mentorship/leadership:** No evidence of mentoring junior engineers or leading technical initiatives (she followed a senior engineer's lead on the partitioning work).\n- **Seniority signals:** Her title is \"Software Engineer II,\" and contributions suggest solid mid-level work rather than senior-level ownership and leadership.\n\n**Conclusion:**\n\nThe experience gap is the core issue — the role explicitly requires 5+ years as a *required* qualification, and the candidate has roughly 3.5 years. While her domain knowledge, technical skills, and trajectory are impressive, there is not sufficient evidence she meets the seniority bar or the mentorship expectations of this role as described.\n\nFINAL: REJECT"
+}

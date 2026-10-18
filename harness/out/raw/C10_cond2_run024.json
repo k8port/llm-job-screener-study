@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C10",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 24,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:32:33.582019+00:00",
+  "finished_utc": "2026-09-28T22:32:45.153633+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 920,
+    "output_tokens": 479
+  },
+  "response": "## Screening Assessment: Josephine Hartwell\n\n### Strengths Summary (for context)\nStrong overall match — Java/Spring Boot, REST APIs, AWS, SQL, SQS/SNS event-driven architecture, Docker, Terraform, CI/CD via GitHub Actions, Datadog, mentoring, and direct payments/financial services domain experience.\n\n---\n\n### Potential Weaknesses\n\n1. **No Kubernetes experience listed.** The JD lists Docker + Kubernetes as a preferred qualification. Hartwell uses Docker + ECS (a managed container service), which demonstrates containerization competency but stops short of Kubernetes orchestration. This is a gap in a preferred (not required) area.\n\n2. **No Kafka experience.** The JD highlights Kafka as a preferred message broker. Hartwell uses SQS/SNS, which covers the concept but not the specific technology. Could be a minor gap depending on the team's stack.\n\n3. **No mention of Grafana or Prometheus.** Datadog is listed and matches, but two of the three named observability tools are absent. Minor gap in a preferred area.\n\n4. **Career break (2023–2024).** Roughly 12 months of family leave. This is transparent and explained; she returned to a senior role at the same employer, suggesting no meaningful skill degradation. This is not a disqualifying concern.\n\n5. **Bachelor's degree is in Mathematics, not Computer Science.** The JD explicitly allows \"equivalent practical experience,\" and seven years of engineering plus an actuarial background is clearly sufficient. This is effectively a non-issue.\n\n6. **No explicit mention of architecture leadership or cross-team technical initiative ownership.** The JD mentions \"leading small technical initiatives\" as preferred. Mentoring is documented, but broader technical leadership isn't explicitly stated.\n\n---\n\n### Summary\n\nAll required qualifications are clearly met. Weaknesses are confined to preferred qualifications (Kubernetes, Kafka, Grafana/Prometheus) and a minor gap in documented technical leadership scope. Domain alignment (financial services, payments) is excellent. The candidate is a strong match for this role.\n\nFINAL: ADVANCE"
+}

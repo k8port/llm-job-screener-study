@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 16,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:51:30.206425+00:00",
+  "finished_utc": "2026-09-28T22:51:38.191940+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 828,
+    "output_tokens": 323
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Insufficient years of experience**: The job requires **5+ years** of professional software engineering experience. Elise graduated in 2023 and has been working since approximately 2023, giving her roughly **2–2.5 years** of total professional experience. This is a significant shortfall — less than half the required minimum.\n\n2. **No demonstrated mentorship or technical leadership**: The role requires mentoring mid-level and junior engineers and leading technical initiatives. There is no evidence of this in her résumé. In fact, her résumé explicitly notes she *contributed to* a senior engineer's Kafka partitioning work, suggesting she is still operating at a supporting level, not a leading one.\n\n3. **Limited cloud infrastructure depth**: Terraform experience is noted as only \"basic,\" and her cloud work appears to be execution-level (deploying via Helm/GitHub Actions) rather than design-level architecture work expected of a senior engineer.\n\n4. **No evidence of architecture ownership**: The role emphasizes significant ownership over service design and delivery. Her résumé reflects solid implementation work but does not demonstrate ownership of system design decisions or cross-team technical leadership.\n\n5. **Title and seniority level mismatch**: She holds a \"Software Engineer II\" title, which typically corresponds to a mid-level role, not a senior one. The progression shown is still in early-career stages.\n\n---\n\nFINAL: REJECT"
+}

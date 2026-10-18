@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C05",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 21,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:52:38.002310+00:00",
+  "finished_utc": "2026-09-28T21:52:46.588478+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 836,
+    "output_tokens": 367
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n1. **Not a Software Engineer**: Nora is explicitly a data analyst. Her work centers on reporting, dashboards, and data reconciliation — not building backend services, APIs, or distributed systems. The role requires a Senior *Software Engineer* building production backend services.\n\n2. **No Backend Service Development Experience**: The role requires designing and building scalable backend services and APIs. Nora has no demonstrated experience building APIs, microservices, or any production software systems.\n\n3. **No RESTful API Experience**: There is no mention of designing or consuming REST APIs anywhere in her résumé — a required qualification.\n\n4. **Insufficient Cloud Experience**: She lists \"basic AWS (S3, Athena)\" — far below the \"hands-on experience with a major cloud provider\" required for a senior role building high-volume transaction systems.\n\n5. **No CI/CD or Automated Testing Experience**: These are required qualifications with zero evidence in her background.\n\n6. **No Experience with Distributed Systems or Event-Driven Architecture**: No mention of Kafka, SQS, Docker, Kubernetes, or Terraform — several of which are preferred qualifications.\n\n7. **No Payments or High-Volume Transaction Experience**: The role focuses on a Payments Platform processing enterprise-level transactions; her background is in insurance reporting.\n\n8. **No Engineering Mentorship or Technical Leadership**: She has not led engineers or technical initiatives.\n\n9. **Python Usage is Analytical, Not Engineering-Grade**: Her Python use (Pandas, NumPy, scripts) is data-focused, not backend software development.\n\n---\n\nFINAL: REJECT"
+}

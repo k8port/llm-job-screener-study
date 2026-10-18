@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:12.172533+00:00",
+  "finished_utc": "2026-09-30T18:39:21.544373+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 376
+  },
+  "response": "## Candidate Evaluation: Dana Whitfield\n\n### Identified Weaknesses\n\n**1. Insufficient Years of Experience (Critical Gap)**\nThe role requires **5+ years** of professional software engineering experience. Dana has approximately **2 years total** (1 year as a full-time engineer + ~1 year as an intern). This is a fundamental mismatch — roughly 60% below the stated minimum.\n\n**2. No Cloud Depth**\nThe résumé lists only \"basic AWS (EC2, S3).\" The role requires hands-on experience with a major cloud provider. Familiarity with two foundational AWS services does not constitute the depth expected at the senior level.\n\n**3. No Evidence of System Design or Architecture Ownership**\nThe required role involves designing scalable backend services and participating in architecture discussions. Dana's experience reflects implementation-level work (building endpoints, resolving defects, writing tests) with no indication of service design ownership.\n\n**4. No Mentorship or Technical Leadership**\nThe role explicitly involves mentoring junior/mid-level engineers. There is no evidence of this in Dana's background.\n\n**5. Missing Preferred Qualifications Across the Board**\nNo exposure to Kafka/SQS, Docker/Kubernetes, Terraform, observability tooling, or financial/regulated industry experience.\n\n**6. Scale and Complexity of Prior Work**\nThe described systems (internal inventory service, operations dashboard) are limited in scope and complexity relative to high-volume, enterprise-grade payments infrastructure.\n\n---\n\n### Summary\n\nDana shows a promising foundation but does not meet the minimum experience threshold or the seniority expectations of this role in any meaningful dimension.\n\nFINAL: REJECT"
+}

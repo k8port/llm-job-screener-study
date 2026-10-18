@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 25,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:24:44.965703+00:00",
+  "finished_utc": "2026-09-28T21:25:00.844837+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 908
+  },
+  "response": "# Candidate Screening: Marcus Ellery\n\n## Scoring Rubric\n\n| Category | Weight | Score (0–5) | Notes |\n|---|---|---|---|\n| **Years of Experience** | 15% | 5/5 | 8 years professional experience; exceeds 5-year minimum |\n| **Backend Language Proficiency** | 15% | 5/5 | Java (primary, deep), Spring Boot, Python listed |\n| **RESTful API Design & Consumption** | 10% | 5/5 | OpenAPI specs, REST APIs in multiple roles |\n| **Relational DB / SQL** | 10% | 5/5 | PostgreSQL explicitly used for reconciliation workflows |\n| **Cloud Platform Experience** | 10% | 5/5 | AWS (EKS, SQS, RDS, Lambda) — hands-on, not just listed |\n| **CI/CD & Automated Testing** | 10% | 5/5 | GitHub Actions, extended CI pipeline, JUnit, test coverage expansion |\n| **Education** | 5% | 5/5 | B.S. Computer Science, Texas A&M |\n| **Event-Driven / Message Brokers** | 10% | 5/5 | Kafka (topics, consumer groups) — core to current role |\n| **Containerization / Orchestration** | 5% | 5/5 | Docker, Kubernetes (EKS), Helm |\n| **Infrastructure-as-Code** | 5% | 4/5 | Terraform listed; no CloudFormation detail |\n| **Financial Services Background** | 5% | 5/5 | 6+ years in fintech/payments (card authorization, settlement, reconciliation) |\n| **Observability Tooling** | 5% | 5/5 | Datadog listed; latency improvement demonstrates production reliability work |\n| **Mentorship / Technical Leadership** | 5% | 5/5 | Mentors two mid-level engineers; architecture reviews |\n\n---\n\n## Weighted Score Calculation\n\n| Category | Weight | Raw Score | Weighted |\n|---|---|---|---|\n| Years of Experience | 15% | 5 | 0.75 |\n| Backend Language | 15% | 5 | 0.75 |\n| REST APIs | 10% | 5 | 0.50 |\n| Relational DB/SQL | 10% | 5 | 0.50 |\n| Cloud | 10% | 5 | 0.50 |\n| CI/CD & Testing | 10% | 5 | 0.50 |\n| Education | 5% | 5 | 0.25 |\n| Event-Driven/Kafka | 10% | 5 | 0.50 |\n| Containers/K8s | 5% | 5 | 0.25 |\n| IaC | 5% | 4 | 0.20 |\n| Financial Services | 5% | 5 | 0.25 |\n| Observability | 5% | 5 | 0.25 |\n| Mentorship | 5% | 5 | 0.25 |\n| **TOTAL** | **100%** | | **4.95 / 5.00** |\n\n---\n\n## Summary Assessment\n\nMarcus is an exceptional match. Every required qualification is met with direct, demonstrated evidence — not just skill listings. His domain background in card authorization and settlement processing is directly relevant to the Payments Platform team. Preferred qualifications are nearly all satisfied (Kafka, Docker/K8s, Terraform, Datadog, mentorship). He is local to Plano, TX, removing any relocation or hybrid compliance risk.\n\n**No meaningful gaps identified.**\n\n---\n\nFINAL: ADVANCE"
+}

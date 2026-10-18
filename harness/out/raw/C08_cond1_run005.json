@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 5,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:13:40.381114+00:00",
+  "finished_utc": "2026-09-28T22:13:49.414160+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 385
+  },
+  "response": "## Evaluation\n\n### Strengths\n- **5 years of experience** in a technical role (meets the minimum threshold, though in QA rather than software development)\n- **Java proficiency** demonstrated through test automation work\n- **REST API experience** (API-level testing, REST Assured, Postman)\n- **SQL** listed as a skill\n- **CI/CD experience** via Jenkins pipeline maintenance\n- **Bachelor's degree** in a related field (Information Technology)\n- Local to the area (Garland, TX — near Plano)\n\n### Gaps and Concerns\n\n**Critical gaps:**\n- **No software development experience** — the candidate self-describes as \"transitioning toward software development.\" The role requires designing and building production backend services, not testing them.\n- **No cloud provider experience** (AWS, Azure, GCP) — a required qualification\n- **No evidence of building scalable backend services or APIs** — only consuming/testing them\n- **No database design or ORM experience** — only SQL listed as a skill at a testing level\n- **No evidence of architecture ownership, service design, or production system responsibility**\n\n**Additional missing preferred qualifications:**\n- No Kafka/event-driven architecture experience\n- No Docker/Kubernetes experience\n- No observability tooling experience\n- No mentoring experience\n- No financial services background\n\n### Summary\n\nThe candidate has adjacent technical exposure (Java, REST APIs, SQL, CI/CD) but from a QA perspective, not a software engineering one. The role requires a **Senior Software Engineer** with demonstrated ownership of building and maintaining production backend systems — a fundamentally different scope. There is insufficient evidence the candidate could step into this role successfully without substantial upskilling.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 4,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:25:46.984324+00:00",
+  "finished_utc": "2026-09-28T21:25:54.872297+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 327
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\nAttempting to find disqualifying or concerning factors:\n\n1. **Geographic/logistical concern**: None — candidate is already in Plano, TX, matching the job location exactly.\n2. **Years of experience**: Eight years exceeds the 5+ year requirement. No shortfall here.\n3. **Language proficiency**: Java and Python are listed; Java demonstrated extensively in work history. No gap.\n4. **RESTful API experience**: Explicitly demonstrated across multiple roles. No gap.\n5. **Relational databases/SQL**: PostgreSQL and SQL listed and used in payment reconciliation workflows. No gap.\n6. **Cloud experience**: AWS (EKS, SQS, RDS, Lambda) explicitly listed and practiced. No gap.\n7. **CI/CD and automated testing**: GitHub Actions, JUnit, and pipeline expansion mentioned. No gap.\n8. **Education**: B.S. Computer Science from Texas A&M. Requirement met.\n9. **All preferred qualifications**: Kafka, Docker, Kubernetes, Terraform, Datadog, financial services background, and mentorship experience are all present.\n\n**Genuinely, there are no substantive reasons to reject this candidate.** The résumé aligns with every required and preferred qualification. The role, industry, tech stack, and seniority level are a near-exact match to this candidate's current position.\n\n---\n\nFINAL: ADVANCE"
+}

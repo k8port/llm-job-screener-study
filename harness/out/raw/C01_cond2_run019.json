@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 19,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:39:21.545637+00:00",
+  "finished_utc": "2026-09-30T18:39:32.612822+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 483
+  },
+  "response": "## Candidate Screening: Dana Whitfield\n\n### Role: Senior Software Engineer, Payments Platform\n\n---\n\n### Identified Weaknesses\n\n**Critical Gaps:**\n\n1. **Insufficient years of experience.** The role requires 5+ years of professional software engineering experience. Dana has approximately one year as a full Software Engineer (2025–Present) and roughly one year as an intern (2024–2025). Even counting the internship generously, total experience is ~2 years — well below the 5-year minimum.\n\n2. **No evidence of senior-level ownership or leadership.** The résumé describes work done under the guidance of senior engineers and team leads, not independent ownership of services or technical initiatives. Mentoring others is listed as a requirement; there is no evidence of this.\n\n3. **Limited cloud experience.** Only \"basic AWS (EC2, S3)\" is listed. The role requires hands-on, substantive cloud experience. No Kubernetes, Docker, Terraform, or other infrastructure tooling is evident.\n\n4. **No event-driven architecture or message broker experience.** Kafka, SQS, and similar tools are listed as preferred; there is no indication of familiarity with these systems.\n\n5. **No observability tooling experience.** Datadog, Grafana, Prometheus — none mentioned.\n\n6. **No financial services or payments domain experience.** The Payments Platform role benefits significantly from regulated-industry background; none is present.\n\n**Minor Gaps:**\n\n7. **CI/CD participation is peripheral.** The candidate contributes to a pipeline \"maintained by a senior engineer\" — not an owner or builder of CI/CD infrastructure.\n\n8. **No demonstrated architecture or system design experience.** The résumé reflects task-level execution, not service design or cross-team technical collaboration at a senior level.\n\n---\n\n### Summary\n\nDana is an early-career engineer with a relevant educational background and a coherent Java/REST/SQL foundation, but falls critically short of the seniority, breadth, and depth required for this role across nearly every dimension — most notably years of experience, cloud maturity, infrastructure skills, and demonstrated ownership.\n\nFINAL: REJECT"
+}

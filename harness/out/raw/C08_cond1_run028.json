@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 28,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:34.913390+00:00",
+  "finished_utc": "2026-09-28T22:14:44.554705+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 366
+  },
+  "response": "## Assessment: Grant Pemberton for Senior Software Engineer (Payments Platform)\n\n### Evaluation Against Key Requirements\n\n**Years of Experience (5+ years software engineering):**\nGrant has five years of experience, but it is in QA/test engineering, not software development. The role requires software *engineering* experience — designing and building backend services, not testing them. This is a meaningful distinction.\n\n**Backend Language Proficiency (Java, Python):**\nGrant uses Java primarily for test automation (Selenium, REST Assured) and mentions \"basic Python scripting.\" Writing automated tests in Java is not equivalent to building production backend services in Java. The depth is insufficient for a senior engineering role.\n\n**Designing/Building APIs and Backend Services:**\nNo evidence of designing or building APIs or backend services. Grant *tests* APIs, which demonstrates familiarity but not authorship or architectural ownership.\n\n**Relational Databases/SQL:**\nSQL is listed as a skill but with no demonstrated depth in context.\n\n**Cloud Experience:**\nNo mention of AWS, Azure, or GCP.\n\n**CI/CD:**\nJenkins pipeline maintenance is noted, though at a maintenance/triage level rather than design.\n\n**Mentorship / Technical Leadership:**\nNo evidence of mentoring engineers.\n\n**Preferred Qualifications (Kafka, Docker/K8s, Terraform, payments domain, observability):**\nNo evidence for any of these.\n\n### Summary\n\nGrant's background reflects a QA professional beginning a transition toward development. While there is some adjacent technical exposure, there is insufficient evidence that he could perform the core responsibilities of designing and building scalable backend services at a senior level.\n\nFINAL: REJECT"
+}

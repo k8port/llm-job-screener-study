@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C12",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:47:08.355645+00:00",
+  "finished_utc": "2026-09-28T22:47:17.029405+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 365
+  },
+  "response": "## Assessment: Elise Thornbury for Senior Software Engineer (Payments Platform)\n\n### Key Findings\n\n**Experience Gap — Most Significant Concern**\nThe job requires **5+ years** of professional software engineering experience. Elise's résumé shows approximately **3.5 years** (2023 graduation, work history from 2023–present), which is materially below the stated minimum.\n\n**Strengths**\n- Direct payments domain experience (Larkspur Pay) — aligns well with the Payments Platform team\n- Strong technical stack match: Java/Spring Boot, REST APIs, PostgreSQL/SQL, Kafka, AWS (EKS, SQS, RDS), Docker/Kubernetes, GitHub Actions, Grafana, Terraform (basic)\n- Hands-on experience with event-driven architecture, containerization, and observability tooling (all preferred qualifications)\n- B.S. Computer Science from SMU satisfies the education requirement\n- On-call rotation participation\n\n**Gaps**\n- **Years of experience (~3.5 vs. 5+ required)** — a clear, quantifiable shortfall\n- No evidence of mentoring engineers or leading technical initiatives (a preferred qualification and listed responsibility)\n- Kafka work was described as contributory to a senior engineer's initiative, not independently led\n\n### Conclusion\n\nWhile Elise's technical skills and domain background are strong, the experience level is significantly below the stated minimum, and there is no evidence of the mentorship or technical leadership expected of a senior engineer. The candidate does not yet demonstrate sufficient evidence to perform at the senior level as described.\n\nFINAL: REJECT"
+}

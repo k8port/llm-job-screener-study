@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 1,
+  "run": 2,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:21:40.334002+00:00",
+  "finished_utc": "2026-09-28T22:21:48.930259+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 826,
+    "output_tokens": 398
+  },
+  "response": "## Assessment: Raymond Dolliver\n\n### Strengths\n- **16 years of experience** — well exceeds the 5+ year requirement\n- **Financial services background** — works in a regulated environment (trust accounting, settlement processing), which is a preferred qualification\n- **SQL/relational databases** — strong evidence of DB2 and SQL experience\n- **Java** — has Java 8 experience, which is a required language\n- **CS degree** — B.S. Computer Science from UT Arlington meets the education requirement\n- **Production incident response** — demonstrates reliability and operational awareness\n\n### Significant Gaps\n- **Cloud experience** — no evidence of AWS, Azure, or GCP; this is a hard required qualification\n- **RESTful API design** — only JSP/Servlets and basic Java web services; no mention of REST API design or consumption\n- **CI/CD pipelines** — Jenkins listed as \"basic\"; no meaningful CI/CD experience demonstrated\n- **Modern backend engineering** — work is heavily mainframe-centric (COBOL, JCL, z/OS), which does not map well to scalable cloud-native backend services\n- **Containerization/Orchestration** — no Docker or Kubernetes experience\n- **Event-driven architecture** — no Kafka, SQS, or similar experience\n- **Mentorship/technical leadership** — no evidence of mentoring junior engineers\n\n### Summary\nRaymond has deep domain experience in financial services and solid fundamentals, but his technical stack is largely legacy mainframe. The role requires cloud-native backend engineering with modern tooling, and he lacks demonstrated proficiency in several **required** qualifications (cloud, CI/CD, REST APIs at scale). The gap between his current skill set and the role's requirements is substantial.\n\nFINAL: REJECT"
+}

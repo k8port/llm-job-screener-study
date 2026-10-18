@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 13,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:16.539471+00:00",
+  "finished_utc": "2026-09-28T22:15:27.664659+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 475
+  },
+  "response": "## Screening Assessment: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n**1. Not a software developer — QA/test engineering background throughout**\nThe candidate's entire career is in quality assurance and test automation. The role requires designing and building backend services and APIs; the candidate has tested APIs, not built them. This is a fundamental mismatch in role type.\n\n**2. Insufficient hands-on software engineering experience**\nThe job requires 5+ years of *professional software engineering* experience. The candidate has 5 years of QA experience. While adjacent, writing test automation scripts is not equivalent to designing and delivering production backend services.\n\n**3. No cloud platform experience**\nAWS, Azure, or GCP experience is a required qualification. There is no mention of any cloud provider anywhere on the résumé.\n\n**4. No CI/CD pipeline ownership**\nThe candidate maintains test stages within Jenkins, but there is no evidence of owning or building CI/CD pipelines end-to-end, which is a required qualification.\n\n**5. No database/SQL depth demonstrated**\nSQL is listed as a skill but with no context — no evidence of schema design, query optimization, or working with relational databases in a production engineering capacity.\n\n**6. No experience with system/service design**\nArchitecture discussions, service ownership, scalability, and reliability engineering are central to this role. None appear in the résumé.\n\n**7. Missing all preferred qualifications**\nNo evidence of Kafka/SQS, Docker/Kubernetes, Terraform, financial services background, or observability tooling.\n\n**8. Candidate self-identifies as transitioning**\nThe summary explicitly states the candidate is \"transitioning toward software development,\" which confirms the gap is recognized even by the candidate.\n\n### Summary\n\nGrant Pemberton does not meet the required qualifications for a Senior Software Engineer role. The core requirements — production backend engineering experience, cloud platform hands-on work, and service design ownership — are absent. This is a QA-to-dev career transition profile more appropriate for a junior or associate software engineer track, not a senior individual contributor on a payments platform.\n\nFINAL: REJECT"
+}

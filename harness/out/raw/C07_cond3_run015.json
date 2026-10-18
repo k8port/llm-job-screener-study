@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 15,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:08:20.700491+00:00",
+  "finished_utc": "2026-09-28T22:08:34.064942+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 695
+  },
+  "response": "## Screening Scorecard: Simone Vance\n\n### Required Qualifications (Pass/Fail + Notes)\n\n| Requirement | Score | Notes |\n|---|---|---|\n| 5+ years professional SWE experience | ✅ PASS | ~8 years total (2018–present) |\n| Java, Python, or comparable backend language | ✅ PASS | Strong Python throughout career |\n| RESTful API design & consumption | ✅ PASS | Explicit REST API design ownership at current role |\n| Relational databases & SQL | ✅ PASS | PostgreSQL, Snowflake, SQL batch processing |\n| Major cloud provider (AWS/Azure/GCP) | ✅ PASS | AWS (EKS, S3, Lambda, RDS) |\n| CI/CD & automated testing | ✅ PASS | GitHub Actions, pytest |\n| Bachelor's in CS/related or equivalent | ✅ PASS | B.S. Information Systems |\n\n**Required Score: 7/7**\n\n---\n\n### Preferred Qualifications (Weighted)\n\n| Preference | Score | Notes |\n|---|---|---|\n| Event-driven architecture / message brokers | ✅ STRONG | Kafka at 40M events/day — highly relevant |\n| Containerization & orchestration | ✅ STRONG | Docker, Kubernetes, EKS |\n| Infrastructure-as-code | ✅ STRONG | Terraform |\n| Financial services / regulated industry | ⚠️ PARTIAL | Transaction data for enterprise clients; healthcare adjacent; not explicitly fintech/payments |\n| Observability tooling | ✅ STRONG | Prometheus + Grafana, owns observability layer |\n| Mentoring / technical leadership | ⚠️ PARTIAL | Senior title, owns on-call and platform; no explicit mentorship mention |\n\n**Preferred Score: ~5/6** (strong coverage)\n\n---\n\n### Core Competency Assessment\n\n| Competency | Rating | Notes |\n|---|---|---|\n| Backend service design at scale | HIGH | Production Python services, 40M daily events |\n| API ownership | HIGH | Design, versioning, contract documentation |\n| Cloud & infrastructure | HIGH | AWS native, Terraform, EKS |\n| Observability & reliability | HIGH | Built observability layer, carries on-call |\n| Database proficiency | HIGH | PostgreSQL, Snowflake, SQL |\n| Payments/regulated domain | MODERATE | Transaction data context; not direct payments background |\n\n---\n\n### Summary\n\nSimone meets **all 7 required qualifications** and fulfills **5 of 6 preferred** qualifications with strong evidence. The profile closely mirrors the job's technical stack and responsibilities. The only meaningful gaps are the absence of explicit payments/fintech experience and no stated mentorship activity — both preferred, not required. The candidate's data platform background translates directly to high-volume backend service work described in this role.\n\n---\n\nFINAL: ADVANCE"
+}

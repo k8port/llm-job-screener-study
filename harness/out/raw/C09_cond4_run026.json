@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 26,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:27:08.113196+00:00",
+  "finished_utc": "2026-09-28T22:27:17.871592+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 824,
+    "output_tokens": 411
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**1. Outdated Technology Stack**\nThe candidate's primary experience is in COBOL, JCL, and z/OS — legacy mainframe technologies with no relevance to the modern backend services environment described in the job. Java 8 (EOL for standard support) and JSP/Servlets are also significantly dated relative to what a Payments Platform team would be building today.\n\n**2. No Cloud Experience**\nThe job requires hands-on experience with a major cloud provider (AWS, Azure, or GCP). The résumé shows no cloud experience whatsoever — not even incidental exposure.\n\n**3. No CI/CD or Automated Testing Experience**\nCI/CD pipeline experience is a required qualification. The candidate lists Jenkins as \"basic\" and shows no evidence of writing automated tests. This is a gap in a required area.\n\n**4. No RESTful API Design/Development Experience**\nThe role centers on designing and building scalable APIs. The candidate's Java work appears limited to legacy web-access layers (JSP, Servlets), with no mention of REST API development or consumption.\n\n**5. No Event-Driven or Modern Architecture Experience**\nNo exposure to Kafka, SQS, Docker, Kubernetes, Terraform, or any observability tooling — all of which are preferred qualifications and indicative of the team's technical environment.\n\n**6. No Mentorship or Technical Leadership Evidence**\nThe role expects mentoring of junior/mid-level engineers. The résumé shows no evidence of this.\n\n**7. Batch-Oriented Background vs. High-Volume Real-Time Transactions**\nThe candidate's experience is largely batch processing, which is a fundamentally different paradigm from the high-volume, low-latency transaction processing the role requires.\n\n---\n\nFINAL: REJECT"
+}

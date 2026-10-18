@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 10,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:15:05.763653+00:00",
+  "finished_utc": "2026-09-28T22:15:17.303431+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 492
+  },
+  "response": "## Screening Assessment: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n1. **Not a software developer — QA background throughout:** The candidate's entire career has been in quality assurance (QA Analyst → QA Engineer → Senior QA Engineer). The role requires a Senior Software Engineer who *builds* backend services, not someone who tests them. The résumé explicitly acknowledges this is a \"transition toward software development.\"\n\n2. **No evidence of designing or building production backend services:** The job requires designing scalable backend APIs and services. Grant's Java experience is confined to writing test automation (Selenium, REST Assured) — not building application logic, data layers, or service architectures.\n\n3. **No cloud platform experience:** AWS, Azure, or GCP experience is a required qualification. There is no mention of any cloud provider on the résumé.\n\n4. **No relational database/SQL experience beyond testing context:** SQL is listed as a skill, but there is no indication it was used for anything beyond query-level validation in a QA context — not schema design, query optimization, or ORM usage in application development.\n\n5. **No CI/CD pipeline ownership:** Maintaining test execution stages in Jenkins is materially different from owning CI/CD pipelines for software delivery, which is a required qualification.\n\n6. **No experience with preferred technologies:** No Kafka/SQS, no Docker/Kubernetes, no Terraform, no observability tooling (Datadog, Grafana, Prometheus) — none of the preferred qualifications are met.\n\n7. **No mentorship or technical leadership experience:** The role requires mentoring junior/mid-level engineers; there is no evidence of this.\n\n8. **Years of experience caveat:** While technically ~5 years in the industry, none of it is in software engineering — the required domain for this role.\n\n### Summary\n\nGrant does not meet the core requirements of this role. The required qualifications demand hands-on backend software engineering experience, cloud proficiency, and API/service development — none of which are demonstrated. The candidate's skills are test-automation-oriented, and the self-described transition to development has not yet produced relevant engineering experience for a Senior-level role.\n\nFINAL: REJECT"
+}

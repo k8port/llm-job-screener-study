@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 4,
+  "run": 12,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:00:40.895380+00:00",
+  "finished_utc": "2026-09-28T22:00:50.709023+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 802,
+    "output_tokens": 427
+  },
+  "response": "## Reasons This Candidate Should Not Advance\n\n**Hard Gaps Against Required Qualifications:**\n\n1. **No cloud experience (AWS, Azure, or GCP):** The résumé explicitly describes an on-premise enterprise environment. Cloud experience is a stated *required* qualification, and there is no mention of any cloud platform anywhere on the résumé.\n\n2. **No CI/CD pipeline experience beyond Jenkins basics:** Jenkins is mentioned, but only in the context of adding integration test stages — not owning or operating a mature CI/CD pipeline. This is a thin match to a required qualification.\n\n**Gaps Against Preferred Qualifications:**\n\n3. **No event-driven architecture or message broker experience:** JMS is listed in skills, which is dated and on-premise. No Kafka, SQS, SNS, or comparable modern broker experience.\n\n4. **No containerization or orchestration experience:** No Docker, Kubernetes, or equivalent mentioned.\n\n5. **No infrastructure-as-code experience:** No Terraform, CloudFormation, or similar tools.\n\n6. **No observability tooling experience:** No Datadog, Grafana, Prometheus, or equivalent.\n\n7. **No financial services or payments background:** The candidate's domain is manufacturing/order processing, which differs meaningfully from a regulated payments environment.\n\n**Additional Concerns:**\n\n8. **Entirely on-premise background:** The role involves a cloud-native payments platform. The candidate's entire career has been in on-premise systems, suggesting a potentially significant ramp-up period.\n\n9. **No demonstrated distributed systems scale:** Manufacturing plant systems are not equivalent to high-volume financial transaction processing at enterprise scale.\n\n---\n\nThe candidate meets the core Java/REST/SQL/mentoring requirements but fails on the *required* cloud experience qualification and lacks most preferred qualifications. The cloud gap alone is a disqualifying miss for a cloud-based payments platform role.\n\nFINAL: REJECT"
+}

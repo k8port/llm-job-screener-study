@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C01",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 3,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-30T18:38:42.742996+00:00",
+  "finished_utc": "2026-09-30T18:38:52.163097+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 818,
+    "output_tokens": 435
+  },
+  "response": "## Screening Analysis: Dana Whitfield\n\n### Identified Weaknesses\n\n1. **Insufficient years of experience (Critical Gap):** The job requires 5+ years of professional software engineering experience. Dana has approximately 1–2 years of professional experience (intern 2024–2025, engineer 2025–present). This is a substantial shortfall of 3–4 years against a hard requirement.\n\n2. **No cloud experience beyond basics:** Dana lists only \"basic AWS (EC2, S3),\" which does not meet the expectation of hands-on experience with a major cloud provider at a senior level. No deployment, networking, IAM, or services beyond entry-level exposure are demonstrated.\n\n3. **No CI/CD ownership:** Dana contributes to a GitHub Actions pipeline \"maintained by a senior engineer,\" indicating she is not independently operating CI/CD systems—a required qualification.\n\n4. **No event-driven/messaging experience:** No mention of Kafka, SQS, or similar tools (preferred).\n\n5. **No containerization or orchestration experience:** No Docker or Kubernetes mentioned (preferred).\n\n6. **No infrastructure-as-code experience:** No Terraform or CloudFormation (preferred).\n\n7. **No observability tooling experience:** No Datadog, Grafana, or Prometheus (preferred).\n\n8. **No mentorship or technical leadership experience:** The role requires mentoring mid-level and junior engineers; Dana is herself in an early-career role with no evidence of this.\n\n9. **No financial services or regulated industry background:** No relevant domain experience (preferred).\n\n10. **Scope of work is small-scale:** Work is confined to internal tooling for a small user base, not high-volume, enterprise-scale systems.\n\n### Summary\n\nDana does not meet the minimum required qualifications for this Senior Software Engineer role, most critically on years of experience. Nearly every required and preferred qualification either has a gap or is unmet.\n\nFINAL: REJECT"
+}

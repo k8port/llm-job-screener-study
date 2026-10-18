@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C11",
+  "label": "NOT_CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 6,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:40:17.564402+00:00",
+  "finished_utc": "2026-09-28T22:40:27.366247+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 829,
+    "output_tokens": 424
+  },
+  "response": "## Screening Assessment: Curtis Ballinger\n\n### Role: Senior Software Engineer – Payments Platform\n\n---\n\n### Identified Weaknesses\n\n1. **Not a Software Engineer — Systems Administrator Background**\nThe candidate's entire career is in infrastructure/operations, not software development. The role requires designing and building backend services and APIs; the candidate has no demonstrated experience doing so.\n\n2. **No Proficiency in Required Backend Languages**\nThe job requires strong proficiency in Java, Python, or a comparable backend language. The candidate lists only Bash and PowerShell — scripting languages used for sysadmin automation, not backend service development.\n\n3. **No RESTful API Design or Consumption Experience**\nThere is no mention of API design or development anywhere on the résumé.\n\n4. **No Relational Database Experience Beyond \"Basic SQL\"**\nThe role requires meaningful experience with relational databases and SQL. The candidate self-describes SQL as only \"basic.\"\n\n5. **Cloud Experience is Infrastructure-Only, Not Development-Oriented**\nAzure experience is limited to VM and networking administration — not application deployment, cloud-native services, or developer tooling.\n\n6. **No CI/CD or Automated Testing Experience**\nNeither is mentioned on the résumé, both are required qualifications.\n\n7. **No Preferred Qualifications Met**\nKafka/SQS, Kubernetes, Terraform/CloudFormation, observability tooling (Datadog, Grafana, Prometheus), and payments/financial services experience are all absent. Docker is listed as \"basic.\"\n\n8. **No Experience Mentoring Engineers or Leading Technical Initiatives**\n\n9. **No Demonstrated Software Delivery or Engineering Ownership**\n\n---\n\n### Summary\n\nThe candidate lacks the foundational qualifications for this role. The gap between systems administration and senior software engineering is substantial and not bridged by anything on this résumé.\n\nFINAL: REJECT"
+}

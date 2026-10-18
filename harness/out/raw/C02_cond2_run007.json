@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C02",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 2,
+  "run": 7,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:22:12.610921+00:00",
+  "finished_utc": "2026-09-28T21:22:24.094807+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 448
+  },
+  "response": "## Screening Assessment: Marcus Ellery\n\n### Potential Weaknesses Identified\n\n1. **Terraform experience depth is unclear.** Terraform appears only in the Skills section with no corresponding bullet point describing actual usage or scope. Infrastructure-as-code is a preferred qualification, and it's uncertain whether this represents meaningful hands-on experience or surface-level familiarity.\n\n2. **Python experience is thin.** The job description lists Python as a primary language option alongside Java. Python appears in the Skills section only, with no project or role where it was demonstrably applied. This is a minor concern given his strong Java background, but worth noting.\n\n3. **Cloud experience is AWS-centric only.** The role lists AWS, Azure, or GCP. Marcus's experience is exclusively AWS. This is not a disqualifying gap (AWS is explicitly acceptable), but limits flexibility.\n\n4. **Mentorship scope is modest.** The résumé notes mentoring two mid-level engineers. This satisfies the requirement but suggests limited leadership breadth; the role implies ongoing mentorship responsibility at some scale.\n\n5. **No explicit architecture leadership mentioned.** While he participates in architecture reviews and owns service design, there is no evidence of leading a broader technical initiative or driving architectural decisions across teams — something the preferred qualifications reference.\n\n### Strengths Offsetting Weaknesses\n\n- 8 years of experience exceeds the 5-year requirement\n- Strong, directly relevant financial services / payments domain experience\n- Demonstrated Java, Kafka, REST, PostgreSQL, Docker, Kubernetes, AWS, Datadog — covering nearly every required and preferred qualification\n- Current role at a senior level with clear ownership, on-call, and mentorship duties\n- Local to Plano, TX — no relocation needed\n\n### Conclusion\n\nThe weaknesses identified are minor and largely peripheral (depth of Terraform, Python visibility). The candidate's core qualifications align strongly with both required and preferred criteria, and his background is a near-exact match for this role.\n\nFINAL: ADVANCE"
+}

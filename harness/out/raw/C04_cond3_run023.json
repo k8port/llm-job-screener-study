@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C04",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 3,
+  "run": 23,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:43:16.058377+00:00",
+  "finished_utc": "2026-09-28T21:43:30.922485+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 949,
+    "output_tokens": 803
+  },
+  "response": "# Candidate Screening: Trevor Lindquist\n\n## Scoring Rubric\n\n| Category | Weight | Score (0–5) | Weighted Score | Notes |\n|---|---|---|---|---|\n| **Years of Experience** | 10% | 5 | 0.50 | 9 years total, 6 in payments infrastructure — exceeds 5-year requirement |\n| **Backend Language Proficiency (Java/Python)** | 15% | 5 | 0.75 | Strong demonstrated proficiency in both Java and Python across multiple roles |\n| **RESTful API Design & Consumption** | 10% | 5 | 0.50 | Owns partner API integration surface; maintains versioned REST contracts |\n| **Relational Databases & SQL** | 10% | 5 | 0.50 | PostgreSQL, SQL-backed batch jobs; consistent across roles |\n| **Cloud Provider (AWS/Azure/GCP)** | 10% | 5 | 0.50 | AWS (ECS, SQS, RDS, Lambda) — hands-on and named explicitly |\n| **CI/CD & Automated Testing** | 10% | 5 | 0.50 | GitHub Actions, pytest; introduced automated integration testing |\n| **Education / Equivalent Experience** | 5% | 4 | 0.20 | No degree; structured apprenticeship + 9 years of experience qualifies under \"equivalent practical experience\" |\n| **Event-Driven Architecture / Message Brokers** *(preferred)* | 8% | 5 | 0.40 | Built transaction event pipeline using both Kafka and SQS |\n| **Containerization & Orchestration** *(preferred)* | 7% | 5 | 0.35 | Docker, Kubernetes, Helm — standardized Helm charts across 6 services |\n| **Infrastructure-as-Code** *(preferred)* | 5% | 5 | 0.25 | Terraform modules, direct ownership mentioned |\n| **Financial Services / Payments Background** *(preferred)* | 10% | 5 | 0.50 | 6 years specifically in payments (ACH, card settlement, merchant onboarding) |\n| **Observability Tooling** *(preferred)* | 5% | 5 | 0.25 | Grafana, Prometheus listed in skills |\n| **Mentorship / Technical Leadership** *(preferred)* | 5% | 4 | 0.20 | On-call lead, incident retrospective ownership; implicit mentorship signal |\n\n---\n\n## Total Weighted Score\n\n**4.40 / 5.00 (88%)**\n\n---\n\n## Summary Assessment\n\nTrevor is an exceptionally strong match for this role. He meets **every required qualification** and satisfies **every preferred qualification** as well. His six years in payments infrastructure — including ACH and card settlement — maps directly to the team's domain. He has deep hands-on experience with the specific technologies called out across the entire job description (Kafka, Terraform, Kubernetes, Grafana/Prometheus, PostgreSQL, REST, AWS). The absence of a formal degree is explicitly accommodated by the JD's \"equivalent practical experience\" clause, which his 9-year track record clearly satisfies. His location (Dallas, TX) is compatible with a Plano hybrid arrangement.\n\nNo meaningful gaps identified.\n\n---\n\nFINAL: ADVANCE"
+}

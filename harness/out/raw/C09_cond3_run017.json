@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C09",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:25:16.091144+00:00",
+  "finished_utc": "2026-09-28T22:25:29.201724+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 830,
+    "output_tokens": 690
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (Each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 16 years total experience — clearly meets bar | 10/10 |\n| Strong proficiency in Java, Python, or comparable backend language | Java 8 experience, but dated (JSP/Servlets); no modern frameworks (Spring Boot, etc.) | 4/10 |\n| Experience designing and consuming RESTful APIs | Java 8 services providing \"web access\" — vague; no explicit REST API design mentioned | 2/10 |\n| Relational databases and SQL | DB2, SQL, Oracle with tuning experience — strong | 9/10 |\n| Hands-on cloud experience (AWS/Azure/GCP) | **Not mentioned anywhere** | 0/10 |\n| CI/CD pipelines and automated testing | Jenkins (basic), Subversion/Git (basic); no automated testing mentioned | 2/10 |\n| Bachelor's degree in CS or equivalent | B.S. Computer Science, UTA 2010 | 10/10 |\n\n**Required Qualifications Total: 37/70**\n\n---\n\n### Preferred Qualifications (Each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven architecture / Kafka / SQS | Not mentioned | 0/5 |\n| Containerization / Docker / Kubernetes | Not mentioned | 0/5 |\n| Infrastructure-as-code (Terraform, etc.) | Not mentioned | 0/5 |\n| Financial services / regulated industry | Strong — 16 years in trust/banking/settlement | 5/5 |\n| Observability tooling (Datadog, Grafana, etc.) | Not mentioned | 0/5 |\n| Mentoring / leading technical initiatives | Not mentioned | 0/5 |\n\n**Preferred Qualifications Total: 5/30**\n\n---\n\n### Summary Assessment\n\n| Category | Score |\n|---|---|\n| Required | 37/70 (53%) |\n| Preferred | 5/30 (17%) |\n| **Overall** | **42/100 (42%)** |\n\n### Key Disqualifying Gaps\n- **Zero cloud experience** — a hard required qualification for a modern cloud-native payments platform\n- **No REST API design experience** clearly demonstrated\n- **No automated testing** or meaningful CI/CD experience\n- **No modern backend tooling** (containers, orchestration, observability, message brokers)\n- Java profile is outdated (Java 8, JSP/Servlets vs. modern microservices)\n\nRaymond's domain knowledge in financial services is genuinely valuable, but the technical stack is too far removed from what this role demands. The cloud gap alone is disqualifying for a role building high-volume distributed payment services.\n\n---\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C08",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 2,
+  "run": 4,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:14:50.054675+00:00",
+  "finished_utc": "2026-09-28T22:15:00.731760+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 823,
+    "output_tokens": 448
+  },
+  "response": "## Screening Assessment: Grant Pemberton\n\n### Potential Weaknesses Identified\n\n1. **Role is QA/Test Engineering, not Software Development.** The candidate explicitly self-describes as a \"Quality engineer…transitioning toward software development.\" This is a Senior Software Engineer role requiring hands-on backend service design and delivery — not test automation.\n\n2. **No experience designing or building backend services or APIs.** The candidate writes *tests against* APIs and REST endpoints but has no demonstrated experience *building* backend services, microservices, or APIs from scratch.\n\n3. **Java experience is test-automation-focused only.** While Java is listed and used, it is used exclusively in the context of Selenium and test frameworks (REST Assured, TestNG) — not production backend development.\n\n4. **No cloud platform experience.** AWS, Azure, and GCP are all absent from the résumé. Cloud experience is a required qualification.\n\n5. **No CI/CD pipeline development experience.** The candidate maintains test execution stages in Jenkins, but building and owning CI/CD pipelines for software delivery is a different competency than running test stages.\n\n6. **No experience with relational databases beyond SQL (testing context).** SQL is listed as a skill but there is no evidence of database schema design, query optimization, or backend data modeling.\n\n7. **No experience with preferred qualifications** (Kafka/event-driven architecture, Docker/Kubernetes, Terraform, observability tooling, payments/financial services).\n\n8. **No mentorship or technical leadership experience.** The role requires mentoring junior/mid-level engineers; nothing in the résumé reflects this.\n\n9. **Years of experience technically meets the threshold (5 years), but in a different discipline** — QA, not software engineering.\n\n### Summary\n\nThe candidate does not meet the core required qualifications for this role. The gap between QA/test automation and senior backend software engineering is substantial, and there is no evidence of the foundational competencies the role demands.\n\nFINAL: REJECT"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C06",
+  "label": "BORDERLINE_CAPABLE",
+  "condition": 3,
+  "run": 17,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T21:59:25.046874+00:00",
+  "finished_utc": "2026-09-28T21:59:38.592305+00:00",
+  "verdict": "REJECT",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 808,
+    "output_tokens": 710
+  },
+  "response": "## Screening Rubric & Scoring\n\n### Required Qualifications (each worth up to 10 points)\n\n| Requirement | Assessment | Score |\n|---|---|---|\n| 5+ years professional SWE experience | 7 years total; Senior since 2022 ✅ | 10/10 |\n| Java, Python, or comparable backend language | Java/Spring Boot — strong ✅ | 10/10 |\n| RESTful API design & consumption | Explicitly owns REST API design ✅ | 10/10 |\n| Relational databases & SQL | Oracle, SQL, PL/SQL, stored procedures ✅ | 10/10 |\n| Major cloud provider (AWS/Azure/GCP) | **No cloud experience mentioned** ❌ | 0/10 |\n| CI/CD pipelines & automated testing | Jenkins, JUnit, integration test stages ✅ | 8/10 |\n| Bachelor's in CS/related or equivalent | B.S. Computer Engineering ✅ | 10/10 |\n\n**Required Total: 58/70**\n\n### Preferred Qualifications (each worth up to 5 points)\n\n| Preference | Assessment | Score |\n|---|---|---|\n| Event-driven / message brokers | JMS listed (on-prem MQ, not Kafka/SQS) — partial ⚠️ | 2/5 |\n| Containerization / Kubernetes | Not mentioned ❌ | 0/5 |\n| Infrastructure-as-code | Not mentioned ❌ | 0/5 |\n| Financial services / regulated industry | Manufacturing, not payments/fintech ❌ | 0/5 |\n| Observability tooling | Not mentioned ❌ | 0/5 |\n| Mentoring / technical leadership | Mentors 2 juniors, leads code review for 6 ✅ | 5/5 |\n\n**Preferred Total: 7/30**\n\n---\n\n## Summary Assessment\n\n| Category | Score |\n|---|---|\n| Required qualifications | 58/70 (83%) |\n| Preferred qualifications | 7/30 (23%) |\n| **Overall** | **65/100 (65%)** |\n\n### Key Strengths\n- Solid 7-year Java/Spring Boot backend career with direct relevance\n- Strong SQL/Oracle depth; high-volume batch processing experience\n- API ownership, code review leadership, mentoring — senior-level behaviors demonstrated\n\n### Critical Gaps\n- **Zero cloud experience** — a hard required qualification for a cloud-native payments platform\n- No containerization, IaC, or modern observability tooling\n- No payments, fintech, or regulated industry background\n- Entirely on-premise environment; significant ramp-up needed for cloud-native paradigms\n\nThe cloud experience gap is a **required qualification** and represents a meaningful skills deficit for a payments platform role running on major cloud infrastructure. The preferred qualifications profile is also weak.\n\n---\n\nFINAL: REJECT"
+}

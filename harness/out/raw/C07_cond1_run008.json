@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C07",
+  "label": "CLEARLY_CAPABLE",
+  "condition": 1,
+  "run": 8,
+  "model": "claude-sonnet-4-6",
+  "temperature": 1.0,
+  "started_utc": "2026-09-28T22:04:43.222272+00:00",
+  "finished_utc": "2026-09-28T22:04:52.026761+00:00",
+  "verdict": "ADVANCE",
+  "parseable": true,
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 435
+  },
+  "response": "## Evaluation\n\n### Required Qualifications Review\n\n| Requirement | Evidence | Met? |\n|---|---|---|\n| 5+ years professional SWE experience | 8 years (2018–present) | ✅ |\n| Strong proficiency in Java, Python, or comparable backend language | Python extensively used across all roles | ✅ |\n| Experience designing and consuming RESTful APIs | Explicitly designs REST APIs at current role | ✅ |\n| Relational databases and SQL | PostgreSQL, Snowflake, SQL across multiple roles | ✅ |\n| Hands-on cloud provider experience | AWS (EKS, S3, Lambda, RDS) | ✅ |\n| CI/CD pipelines and automated testing | GitHub Actions CI, pytest | ✅ |\n| Bachelor's degree or equivalent | B.S. Information Systems | ✅ |\n\n### Preferred Qualifications Review\n\n| Preference | Evidence |\n|---|---|\n| Event-driven architecture / message brokers | Kafka at scale (40M daily events) |\n| Containerization / orchestration | Docker, Kubernetes/EKS |\n| Infrastructure-as-code | Terraform |\n| Financial services / regulated industry | Healthcare background; enterprise transaction data |\n| Observability tooling | Prometheus, Grafana |\n| Mentoring / technical leadership | Senior role with platform ownership |\n\n### Summary\n\nSimone meets **all required qualifications** and **nearly all preferred qualifications**. The primary gap is that she comes from a data engineering background rather than a pure backend/application engineering background — but her current role clearly involves building production Python services, designing REST APIs, and owning infrastructure, which maps well to the role's responsibilities. The payments/fintech domain experience is limited, but the candidate has worked with transaction data for enterprise clients. The evidence strongly supports her ability to perform as described.\n\nFINAL: ADVANCE"
+}
